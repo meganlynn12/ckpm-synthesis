@@ -42,7 +42,7 @@ async def login_substack() -> None:
         )
         page = await context.new_page()
 
-        await page.goto("https://substack.com/sign-in", wait_until="networkidle")
+        await page.goto("https://substack.com/sign-in", wait_until="domcontentloaded", timeout=60000)
 
         # Enter email
         await page.fill('input[type="email"]', email)

@@ -17,6 +17,7 @@ SUBSTACK_SOURCES = [
     {"name": "G. Elliott Morris",           "slug": "gelliottmorris"},
     {"name": "John Ellis News Items",       "slug": "johnjellispassages"},      # TODO: verify slug
     {"name": "No Mercy / No Malice",        "slug": "profgalloway"},            # TODO: verify — may be profgalloway.com not Substack
+    {"name": "Sabato's Crystal Ball", "slug": "sabatoscrystalball"},
 
     # Paid Substacks
     {"name": "Silver Bulletin",             "slug": "natesilver"},              # Nate Silver
@@ -38,10 +39,6 @@ FREE_RSS_SOURCES = [
     {
         "name": "SCOTUSblog",
         "url": "https://www.scotusblog.com/feed/",
-    },
-    {
-        "name": "Sabato's Crystal Ball",
-        "url": "https://centerforpolitics.org/crystalball/feed/",
     },
     {
         "name": "Onest Network",

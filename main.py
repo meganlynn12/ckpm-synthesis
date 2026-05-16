@@ -50,6 +50,14 @@ async def main() -> None:
         print("\n  No articles fetched — exiting.")
         sys.exit(1)
 
+    seen_urls = set()
+    unique_articles = []
+    for article in all_articles:
+        if article["url"] not in seen_urls:
+            seen_urls.add(article["url"])
+            unique_articles.append(article)
+    all_articles = unique_articles
+
     # ------------------------------------------------------------------ #
     # 2. Summarize
     # ------------------------------------------------------------------ #
