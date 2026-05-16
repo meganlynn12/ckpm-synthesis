@@ -1,388 +1,1065 @@
 {
-  "generated_at": "2026-05-16T15:41:32.717011+00:00",
-  "elapsed_seconds": 67.2,
-  "article_count": 20,
-  "digest": "## Daily Digest — May 15, 2026\n\n---\n\n### Big Picture\n\nAmerican power is under simultaneous stress at home and abroad: Trump's China visit is reshaping the foundational assumptions of U.S. foreign policy on Taiwan, trade, and deterrence, while domestically, federal authority is being wielded selectively—aggressively against immigrants and political opponents, permissively toward industry and far-right actors. Beneath both threads runs a common logic of institutional erosion, where formal rules and oversight mechanisms exist on paper but are either captured, ignored, or weaponized for partisan ends.\n\n---\n\n### Top Stories\n\n1. **Trump in China (Days 1 & 2) + Global Briefing May 15** — Trump's Beijing visit may represent the most consequential foreign policy shift of his second term: by declining to publicly defend Taiwan, delaying a $13 billion arms package, and allowing Beijing to set the strategic frame as \"managed competition,\" the U.S. appears to be treating its most explosive security commitment as a negotiating variable rather than settled doctrine.\n\n2. **ICE Detaining U.S. Citizens (ProPublica)** — The repeated detention of a Florida-born U.S. citizen whose government-issued ID was dismissed by agents—while senior DHS officials publicly denied such incidents were occurring—is not an administrative error story; it is a civil liberties and institutional accountability crisis playing out in real time.\n\n3. **Children Harmed by Tear Gas During Deportation Campaign (ProPublica)** — At least 79 children physically harmed by federal use of chemical agents, with no national standard governing their use and no tracking system for follow-up, represents a documented pattern of state violence against minors that has received insufficient mainstream attention relative to its severity.\n\n4. **Gorka Counterterrorism Strategy Omits Far-Right Threat (ProPublica)** — A national counterterrorism blueprint that ignores the FBI's own top-ranked domestic threat while elevating political opponents of the administration to the level of al-Qaida is not a policy disagreement—it is the formalization of political targeting within the national security apparatus.\n\n5. **Russia's Drone-Missile Attack on Ukraine + Special Tribunal Progress (ONEST May 15)** — Russia deploying newly manufactured missiles despite sanctions, simultaneous with 36 nations advancing a special aggression tribunal, captures the central tension of the Ukraine conflict: the international legal and diplomatic architecture is strengthening while the military and economic pressure on Russia remains demonstrably insufficient.\n\n---\n\n### Connections\n\nThe most striking through-line today is the gap between formal institutional authority and actual institutional function: Oregon has a law to block harmful healthcare mergers and has never used it; Colorado has a marijuana regulatory system riddled with fraudulent data its own officials privately admit is broken; ICE has legal constraints on detention that agents openly disregard; and the U.S. has a Taiwan defense posture that the president himself is actively undermining in real time. Separately, the Selma veteran watching tear gas used against children and the ProPublica data on 79 harmed minors sit in direct tension with the Gorka counterterrorism document's studied silence on state-adjacent violence—the administration's threat taxonomy criminalizes dissent while exempting its own enforcement conduct from scrutiny. Finally, Trump's unverified claims of Boeing and agricultural deals in Beijing rhyme structurally with his claim that Iran's military was \"crushed,\" while intelligence shows Iran retains 70 percent of its missile stockpile—a president whose public assertions on both trade and military outcomes consistently outrun confirmable facts is a compounding foreign",
-  "articles": [
+  "date": "2026-05-16",
+  "error": "Synthesis failed",
+  "themes": [],
+  "big_picture": "",
+  "extractions": [
     {
-      "source": "Onest Network",
-      "title": "ONEST Global Briefing — May 15, 2026",
-      "url": "https://www.onestnetwork.com/onest-global-briefing-may-15-2026/",
-      "published": "Sat, 16 May 2026 03:03:45 GMT",
-      "summarized": true,
-      "bullets": [
-        "President Trump declined to publicly commit to defending Taiwan and expressed uncertainty about a major arms sale to the island during his Beijing visit, raising concerns that U.S. policy toward Taiwan may be treated as a bargaining chip with China rather than settled doctrine.",
-        "Russia launched one of its largest recent attacks on Ukraine using over 1,560 drones and 56 missiles, with evidence suggesting newly manufactured missiles reached the battlefield despite international sanctions, highlighting ongoing gaps in sanctions enforcement.",
-        "A special tribunal for Russia's crime of aggression against Ukraine moved closer to launch after 36 states and the EU signed a foundational agreement in Chișinău, filling a jurisdictional gap left by the International Criminal Court."
+      "title": "How popular is Donald Trump?",
+      "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-16",
+      "key_claims": [
+        "Trump's net approval rating hit a new second term low of -18.9 in the Silver Bulletin average as of May 16, 2026",
+        "Among US adults only, Trump's net approval is even lower at -20.6",
+        "Approximately 48 percent of Americans strongly disapprove of Trump's job performance",
+        "Democrats are on track for a strong performance in the midterms despite recent redistricting setbacks",
+        "The Silver Bulletin average weights more reliable polls heavily based on pollster ratings, sample size, recency, and polling frequency"
       ],
-      "themes": [
-        "us-china relations",
-        "ukraine war",
-        "taiwan",
-        "international law"
-      ],
-      "relevance": 9
+      "topics": [
+        "Trump approval",
+        "presidential polling",
+        "midterm elections",
+        "redistricting"
+      ]
     },
     {
-      "source": "Onest Network",
-      "title": "Trump in China, Day 1 — Deals, Optics, and the Taiwan Pressure Point",
-      "url": "https://www.onestnetwork.com/trump-in-china-day-1-deals-optics-and-the-taiwan-pressure-point/",
-      "published": "Thu, 14 May 2026 18:49:58 GMT",
-      "summarized": true,
-      "bullets": [
-        "China used Trump's first day in Beijing to firmly establish Taiwan as the central issue in U.S.-China relations, with Xi warning that mishandling it could lead to direct conflict between the two nations.",
-        "Trump focused publicly on trade wins—Boeing aircraft, energy, beef, and agricultural purchases—while notably avoiding Taiwan questions and having already delayed a $13 billion arms package to Taiwan ahead of the visit.",
-        "Beijing may have secured a strategic advantage by framing the visit around a new 'constructive strategic stability' baseline, potentially making future U.S. pressure on China appear as a violation of mutually endorsed stability."
+      "title": "How popular is the Iran War?",
+      "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-16",
+      "key_claims": [
+        "As of mid-May 2026, the US and Iran were negotiating a one-page plan to end hostilities for thirty days, with the Strait of Hormuz to be reopened during the ceasefire.",
+        "The US fired on two Iranian oil tankers on Friday despite ongoing ceasefire talks, though Trump claimed the ceasefire remained intact.",
+        "Support for the Iran War is at net -18 as of May 8, 2026, following polls from The Economist/YouGov and RMG Research.",
+        "The Iran War remains unpopular and support for the conflict is continuing to tick down.",
+        "Silver Bulletin's war support average weights more reliable polls more heavily and adjusts for house effects, similar to its presidential approval rating methodology."
       ],
-      "themes": [
-        "us-china relations",
-        "taiwan",
-        "trade policy",
-        "diplomacy"
-      ],
-      "relevance": 9
+      "topics": [
+        "Iran War",
+        "war popularity polling",
+        "US-Iran ceasefire",
+        "Trump foreign policy"
+      ]
     },
     {
-      "source": "Onest Network",
-      "title": "ONEST Global Briefing — May 13, 2026",
-      "url": "https://www.onestnetwork.com/onest-global-briefing-may-13-2026/",
-      "published": "Wed, 13 May 2026 19:27:32 GMT",
-      "summarized": true,
-      "bullets": [
-        "President Trump arrived in China for high-stakes talks with Xi Jinping covering trade, Taiwan, Iran, AI safety, and allegations that Chinese firms secretly plotted arms sales to Iran.",
-        "U.S. military operations against Iran have cost $29 billion, yet intelligence reports indicate Iran retains roughly 70 percent of its prewar missile stockpile and has restored access to 30 of its 33 missile sites near the Strait of Hormuz, contradicting Trump's claim that Iran's military was 'crushed.'",
-        "Britain joined a multinational defensive mission in the Strait of Hormuz with warships, jets, and mine-hunting equipment as the conflict increasingly threatens global shipping, energy flows, and maritime security beyond direct military confrontation."
+      "title": "Who's ahead on the generic congressional ballot?",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-16",
+      "key_claims": [
+        "The generic congressional ballot broke D +6 for the first time in the 2026 cycle, sitting at D +6.1 as of May 16, 2026",
+        "Before April, the generic ballot had hovered around D +5.4 since the beginning of the year",
+        "The Virginia Supreme Court blocked a new House map approved by voters in November that could have netted Democrats four seats",
+        "The Supreme Court decision in Louisiana v. Callais significantly weakened the Voting Rights Act",
+        "Democrats remain favored to retake the House in November 2026 despite setbacks in redistricting"
       ],
-      "themes": [
-        "us-china relations",
-        "iran conflict",
-        "strait of hormuz",
-        "geopolitics"
-      ],
-      "relevance": 9
+      "topics": [
+        "2026 midterms",
+        "generic ballot",
+        "redistricting",
+        "Congress polling"
+      ]
     },
     {
-      "source": "ProPublica",
+      "title": "PELE International Football Rankings ⚽",
+      "url": "https://www.natesilver.net/p/pele-international-football-rankings-soccer-ratings-projections",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-15",
+      "key_claims": [
+        "The 2026 World Cup will begin on June 11 featuring 48 teams, 104 matches, and three hosts: Mexico, Canada, and the United States.",
+        "Argentina and Spain are essentially tied for the top PELE rating heading into the 2026 World Cup.",
+        "PELE (Predictive Elo with Lineup Equilibria) combines match results, player market values, and historical economic and geographic data to rate international soccer teams.",
+        "Historically, about 60 percent of extra-time matches end in penalties.",
+        "PELE covers all 211 FIFA teams with ratings dating back to 1872 and is updated whenever new matches are played."
+      ],
+      "topics": [
+        "2026 World Cup",
+        "soccer rankings",
+        "sports modeling",
+        "international football"
+      ]
+    },
+    {
+      "title": "Nate's 3 rules for constitutional hardball",
+      "url": "https://www.natesilver.net/p/nates-3-rules-for-constitutional",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Constitutional hardball refers to using political tactics that are technically legal but violate democratic norms.",
+        "Virginia Democrats abandoned a plan to change the retirement age for state supreme court justices to enable new appointments, which the author viewed as a norm violation for too little political gain.",
+        "Republican examples of constitutional hardball include threatening to breach the debt ceiling under Obama, refusing to hold a confirmation vote on Merrick Garland, and mid-decade redistricting in Texas.",
+        "Kamala Harris floated ideas including adding Puerto Rico and D.C. as states and expanding the Supreme Court in what she called a 'no-bad-idea brainstorm'.",
+        "The author argues that norms matter and often do most of the work in maintaining democratic institutions, though the line between acceptable hardball and going too far is not straightforward."
+      ],
+      "topics": [
+        "constitutional hardball",
+        "democratic norms",
+        "redistricting",
+        "Supreme Court"
+      ]
+    },
+    {
+      "title": "On redistricting, Democrats are playing as the away team",
+      "url": "https://www.natesilver.net/p/on-redistricting-democrats-are-playing",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-11",
+      "key_claims": [
+        "Virginia's Supreme Court invalidated a Democratic-backed ballot referendum on redistricting on procedural grounds, reversing what appeared to be a Democratic gain.",
+        "The Supreme Court's Callais decision weakened the Voting Rights Act, further harming Democratic redistricting prospects.",
+        "According to Nate Cohn's estimates, the Republican advantage in the median congressional district for November's midterms now looks to be between 2.5 and 3.9 percentage points.",
+        "Prior to recent legal setbacks, the median district had projected to be only 0.1 percentage point more Republican than the country as a whole after the Virginia referendum passed.",
+        "In 2024, Democrats fared better in the House than the median presidential vote implied, almost winning the House despite losing the popular vote by 2.6 points."
+      ],
+      "topics": [
+        "redistricting",
+        "2026 midterms",
+        "Voting Rights Act",
+        "congressional elections"
+      ]
+    },
+    {
+      "title": "How we calculate our PELE ratings",
+      "url": "https://www.natesilver.net/p/pele-methodology",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-08",
+      "key_claims": [
+        "PELE stands for Predictive Elo with Lineup Equilibria and is Silver Bulletin's rating system for international soccer teams, backdated to 1872.",
+        "PELE uses player market values and age data from Transfermarkt to anchor ratings, looking at the top 23 nationals for each team, with coverage beginning in 2005.",
+        "PELE ratings are zero-sum and updated iteratively after each match, similar to traditional Elo systems, but deviate in important respects including the use of lineup data.",
+        "Each team receives two ratings: a PELE rating for overall skill level and a Tilt rating indicating propensity toward attacking or defensive play.",
+        "PELE uses 12 overlapping soccer regions developed by Silver Bulletin rather than FIFA's six confederations, which they believe to be more predictive and geographically accurate."
+      ],
+      "topics": [
+        "soccer ratings",
+        "World Cup forecasting",
+        "Elo ratings",
+        "sports analytics"
+      ]
+    },
+    {
+      "title": "Want more Black representatives? Elect more Democrats.",
+      "url": "https://www.natesilver.net/p/want-more-black-representatives-elect",
+      "publication": "Silver Bulletin",
+      "date": "2026-05-05",
+      "key_claims": [
+        "The Supreme Court's Louisiana v. Callais decision reduced the power of the Voting Rights Act, allowing Republicans to district out some Democrats in majority-minority districts previously protected by the VRA.",
+        "After Virginia passed a referendum allowing Democrats to conduct a partisan redistricting, Democrats had appeared likely to come out ahead in the mid-decade redistricting war, but now the map will probably have a slight Republican bias.",
+        "Almost half of current Democratic members of Congress are Black, Hispanic, Asian American or Native American, compared to under 10 percent of Republicans.",
+        "Carefully drawn maps in blue states could actually increase minority representation in Congress without reducing the expected number of Democratic seats.",
+        "In California, Democrats could pack Republican voters into as few as 1-3 districts or even zero Republican districts if willing to tolerate aggressive map-drawing."
+      ],
+      "topics": [
+        "redistricting",
+        "Voting Rights Act",
+        "minority representation",
+        "2026 midterms"
+      ]
+    },
+    {
+      "title": "Democrats are not OK with Boomers",
+      "url": "https://www.natesilver.net/p/democrats-are-not-ok-with-boomers",
+      "publication": "Silver Bulletin",
+      "date": "2026-04-30",
+      "key_claims": [
+        "Janet Mills, 78-year-old Maine governor, suspended her Senate campaign after trailing challenger Graham Platner by about 30 points in recent polls",
+        "The median age of Democratic candidates in competitive Senate races has dropped from 63 in 2018 to 45.5 in 2026",
+        "Even excluding incumbents, the average age of Democratic nominees dropped from 57 in 2018 to 48 in 2026",
+        "Graham Platner, a 41-year-old oyster fisherman who had never run for elected office, is the likely Democratic Senate nominee in Maine",
+        "Mills was also performing worse than Platner in polling for the projected November matchup against Susan Collins"
+      ],
+      "topics": [
+        "Democratic Party",
+        "Senate elections",
+        "generational change",
+        "2026 midterms"
+      ]
+    },
+    {
+      "title": "How much can Trump screw with the midterms?",
+      "url": "https://www.natesilver.net/p/how-much-can-trump-screw-with-the",
+      "publication": "Silver Bulletin",
+      "date": "2026-04-29",
+      "key_claims": [
+        "Trump has issued a steady stream of executive orders and statements about how Americans vote and how votes are counted",
+        "Courts have consistently blocked the major provisions of Trump's first elections executive order, and none of its major provisions are currently operative",
+        "The Constitution delegates election administration power to states and Congress, not the president, making Trump's executive orders automatically suspect legally",
+        "Trump's first executive order attempted to require documentary proof of citizenship for voter registration, similar to the SAVE Act",
+        "A second elections executive order focused specifically on voting by mail, including provisions about Postal Service voter lists"
+      ],
+      "topics": [
+        "election administration",
+        "midterms",
+        "Trump executive orders",
+        "voting rights"
+      ]
+    },
+    {
+      "title": "What Can 'A Man for All Seasons' Tell Us About Today?",
+      "url": "https://www.thebulwark.com/p/what-can-a-man-for-all-seasons-tell",
+      "publication": "The Bulwark",
+      "date": "2026-05-16",
+      "key_claims": [
+        "A Man for All Seasons (1966) won six Oscars and is considered one of cinema's great moral arguments",
+        "The film became a touchstone for conservative intellectuals despite being written by Robert Bolt, a leftist",
+        "The film's themes about conscience under autocracy feel more relevant than ever in today's political climate",
+        "The story addresses people who preach virtue but capitulate when faced with real consequences",
+        "The film explores the rule of law, the seduction of power, and the cost of standing firm on principle"
+      ],
+      "topics": [
+        "film analysis",
+        "rule of law",
+        "political culture",
+        "autocracy"
+      ]
+    },
+    {
+      "title": "Trump Blew Up the Economy—and Bragged About It",
+      "url": "https://www.thebulwark.com/p/trump-blew-up-the-economyand-bragged",
+      "publication": "The Bulwark",
+      "date": "2026-05-16",
+      "key_claims": [
+        "Trump has repeatedly contradicted himself on camera regarding the economy and Iran war",
+        "Trump predicted oil could reach $300",
+        "Trump stated 'I don't think about Americans' financial situation'",
+        "Will Saletan argues Trump's own words reveal contradictions in his economic and political logic",
+        "The analysis covers Trump's statements on gas prices, inflation, and the economy"
+      ],
+      "topics": [
+        "Trump economy",
+        "Iran war",
+        "inflation",
+        "gas prices"
+      ]
+    },
+    {
+      "title": "Respect at USS Arizona",
+      "url": "https://www.thebulwark.com/p/respect-at-the-uss-arizona",
+      "publication": "The Bulwark",
+      "date": "2026-05-16",
+      "key_claims": [
+        "FBI Director Kash Patel conducted a 'VIP snorkeling excursion' near the USS Arizona wreck, which many veterans, military families, and citizens found deeply inappropriate.",
+        "The USS Arizona Memorial contains 1,102 sailors and Marines entombed inside the sunken battleship where they died on December 7, 1941.",
+        "The American Battle Monuments Commission, created by Congress in 1923 at General Pershing's initiative, maintains 26 cemeteries and 31 large memorials around the globe.",
+        "The USS Arizona Memorial is administered by the National Park Service, not the ABMC, though it holds comparable significance.",
+        "Senior officials should model greater awareness of the symbolism attached to military memorials, as rank or office does not exempt anyone from standards of respect."
+      ],
+      "topics": [
+        "military memorials",
+        "Kash Patel",
+        "USS Arizona",
+        "Pearl Harbor"
+      ]
+    },
+    {
+      "title": "Greg Bluestein: Georgia's Root Canal Primary",
+      "url": "https://www.thebulwark.com/p/greg-bluestein-georgias-root-canal",
+      "publication": "The Bulwark",
+      "date": "2026-05-16",
+      "key_claims": [
+        "Republican voters in Georgia feel pessimistic about their chances against Jon Ossoff in the fall Senate race",
+        "A Trump-like billionaire is overshadowing Trump's endorsed candidate for Georgia governor",
+        "Democratic voters are uncertain whether to support a former Republican Lieutenant Governor running as a Democrat",
+        "Both Republican and Democratic primary voters expressed fatigue and sickness of politics generally",
+        "Georgia's primaries for Governor and U.S. Senate offer significant developments for political observers"
+      ],
+      "topics": [
+        "Georgia primaries",
+        "2026 midterms",
+        "Jon Ossoff Senate race",
+        "Georgia governor race"
+      ]
+    },
+    {
+      "title": "Republicans Are Running A Fake Democratic Campaign In Texas (w/ Johnny Garcia)",
+      "url": "https://www.thebulwark.com/p/republicans-are-running-a-fake-democratic",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Republicans are reportedly spending significant money to boost a fringe candidate in Texas's 35th Congressional District Democratic runoff",
+        "The fringe candidate Republicans are boosting has been accused of promoting antisemitic conspiracy theories",
+        "Republicans are allegedly trying to shape a more favorable general election matchup after mid-cycle redistricting in Texas",
+        "Johnny Garcia is a deputy sheriff and former hostage negotiator running as a Democrat in Texas's 35th Congressional District",
+        "A runoff on May 26 could help decide control of a key House seat in Texas's 35th Congressional District"
+      ],
+      "topics": [
+        "Texas redistricting",
+        "congressional race",
+        "election interference",
+        "Democratic primary"
+      ]
+    },
+    {
+      "title": "Trump Goes to China, Gets Nothing, Comes Back to Iran Crisis",
+      "url": "https://www.thebulwark.com/p/trump-goes-to-china-gets-nothing",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Trump's summit in China was characterized as embarrassing and produced no results",
+        "Trump praised Chinese President Xi Jinping during the summit",
+        "The summit failed to yield any progress toward ending the war in Iran",
+        "A proposed $1.7 billion fund is tied to Trump allies and January 6-related figures",
+        "The $1.7 billion fund raises concerns about corruption, political favoritism, and misuse of taxpayer money"
+      ],
+      "topics": [
+        "Trump-China summit",
+        "Iran war",
+        "corruption",
+        "January 6"
+      ]
+    },
+    {
+      "title": "Andrew Weissmann: Is Trump Going To Raid Fort Knox Next?",
+      "url": "https://www.thebulwark.com/p/andrew-weissmann-is-trump-going-to",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "If the IRS gives in to Trump's demands for a MAGA slush fund, it would constitute outright theft of public money and unprecedented corruption",
+        "The Supreme Court's VRA ruling gave permission to practice discrimination",
+        "Kash Patel made a visit to Pearl Harbor described as 'ghoulish'",
+        "A penile implant expert is managing the Hantavirus outbreak",
+        "Andrew Weissmann's new book 'Liar's Kingdom' explores whether lies of politicians and political candidates can be criminalized"
+      ],
+      "topics": [
+        "Trump corruption",
+        "IRS",
+        "Voting Rights Act",
+        "MAGA politics"
+      ]
+    },
+    {
+      "title": "The Weird Right-Wing Freakout Over 'The Odyssey'",
+      "url": "https://www.thebulwark.com/p/the-weird-right-wing-freakout-over-the-odyssey",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Elon Musk and right-wing figures have criticized Christopher Nolan's upcoming Odyssey film over its casting of Black actors and rumors of a transgender actor playing Achilles.",
+        "The rumor that Elliot Page is playing Achilles originated from an unconfirmed guess on a clickbait website that quickly spread through reactionary circles on X.",
+        "Lupita Nyong'o, an Oscar-winning actress, has been cast as Helen of Troy and her murderous sister Clytemnestra, drawing criticism from Elon Musk apparently due to her race.",
+        "None of the lead actors in The Odyssey are actually Greek, including Matt Damon, Tom Holland, Robert Pattinson, and Charlize Theron.",
+        "The author argues the right-wing backlash over racial casting mirrors previous progressive complaints about 'whitewashing' in Nolan's earlier historical films like Dunkirk and Oppenheimer."
+      ],
+      "topics": [
+        "culture war",
+        "Christopher Nolan",
+        "casting controversy",
+        "right-wing media"
+      ]
+    },
+    {
+      "title": "Receipts: Trump Planning Taxpayer-Funded $1.7 Billion Slush Fund for Political Allies",
+      "url": "https://www.thebulwark.com/p/receipts-trump-planning-taxpayer",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Trump is reportedly planning a secretive $1.7 billion taxpayer-funded slush fund",
+        "The fund could quietly reward January 6 defendants",
+        "The fund could benefit Trump political allies",
+        "The fund would operate behind closed doors with limited transparency"
+      ],
+      "topics": [
+        "Trump administration",
+        "government spending",
+        "January 6",
+        "political corruption"
+      ]
+    },
+    {
+      "title": "Trump's $1.7b Friends and Family Fund",
+      "url": "https://www.thebulwark.com/p/trumps-17b-friends-and-family-fund",
+      "publication": "The Bulwark",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Trump would drop his $10 billion lawsuit against the IRS in exchange for a $1.7 billion taxpayer-funded settlement",
+        "Trump would be allowed to appoint five commissioners to run the fund and award money to anyone they deemed fit",
+        "The list of recipients of the fund money would be kept secret",
+        "Trump could replace the commissioners at any time and for no reason",
+        "The Trump administration is framing the arrangement as a 'truth and reconciliation commission'"
+      ],
+      "topics": [
+        "Trump corruption",
+        "IRS lawsuit",
+        "taxpayer funds",
+        "truth and reconciliation commission"
+      ]
+    },
+    {
+      "title": "You can't prepare for the next pandemic without confronting the last one",
+      "url": "https://www.slowboring.com/p/you-cant-prepare-for-the-next-pandemic",
+      "publication": "Slow Boring",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Preparing for the next pandemic requires confronting and learning from the COVID-19 pandemic",
+        "The author will be on vacation the following week with discussion posts replacing the usual evening lineup"
+      ],
+      "topics": [
+        "pandemic preparedness",
+        "COVID-19",
+        "public health"
+      ]
+    },
+    {
+      "title": "How to know what politicians really think",
+      "url": "https://www.slowboring.com/p/how-to-know-what-politicians-really",
+      "publication": "Slow Boring",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Kenyan McDuffie is the preferred candidate in the DC mayor's race over Janeese Lewis George due to his focus on private-sector economic revival",
+        "Washington DC was hit unusually hard by COVID because the federal government was slower than the private sector to resume in-person work",
+        "DOGE has harmed DC's economy, hurting restaurants, businesses, and working-class people",
+        "Janeese Lewis George is copy-pasting a progressive playbook from New York or Boston that doesn't fit DC's specific circumstances",
+        "Most politicians don't have deeply considered policy views across all issues, and instead go along with colleagues or respond to district-specific political considerations"
+      ],
+      "topics": [
+        "DC mayoral race",
+        "local politics",
+        "DOGE economic impact",
+        "politician motivations"
+      ]
+    },
+    {
+      "title": "What the Spirit debate is really about",
+      "url": "https://www.slowboring.com/p/what-the-spirit-debate-is-really",
+      "publication": "Slow Boring",
+      "date": "2026-05-14",
+      "key_claims": [
+        "Spirit Airlines' failure was primarily caused by the Iran war spiking jet fuel costs, not Biden's blocking of the JetBlue merger as conservatives claim.",
+        "Spirit had pre-existing fundamental problems including a Pratt & Whitney engine recall that grounded a large share of its fleet and legacy carriers copying its unbundled-fare model.",
+        "If JetBlue had purchased Spirit, the combined airline would likely be bankrupt today, meaning Biden's antitrust block may have done the industry a favor.",
+        "The neo-Brandeisian 'anti-monopoly' movement is not really about fighting monopolies or promoting competition, but about promoting a return to central planning and state control of the economy.",
+        "The four largest U.S. airlines controlled 74% of the U.S. market as of 2025, compared to the four largest European airlines controlling 40% of the EU market as of 2018."
+      ],
+      "topics": [
+        "airline industry",
+        "antitrust policy",
+        "Iran War",
+        "deregulation"
+      ]
+    },
+    {
+      "title": "The case for clean energy abundance",
+      "url": "https://www.slowboring.com/p/the-case-for-clean-energy-abundance",
+      "publication": "Slow Boring",
+      "date": "2026-05-14",
+      "key_claims": [
+        "Many institutions claiming to embrace an 'abundance' approach to clean energy have actually just adopted a fanboy attitude toward solar panels and electric cars, not a genuine abundance mindset.",
+        "Traditional solar advocacy was, by definition, not advocacy for abundance, since it focused on conservation and efficiency to eke out just enough energy from expensive installations.",
+        "Cheap utility-scale solar genuinely changes the game and makes solar a possible path to energy abundance.",
+        "Virtual power plants do not generate electricity and represent demand management, not abundance — contrary to how some clean energy advocates frame them.",
+        "Organizations like Rewiring America use abundance-sounding slogans but publish reports focused on efficiency and demand reduction rather than dramatically increasing energy generation."
+      ],
+      "topics": [
+        "clean energy",
+        "energy abundance",
+        "solar power",
+        "energy policy"
+      ]
+    },
+    {
+      "title": "There's no place like home",
+      "url": "https://www.slowboring.com/p/theres-no-place-like-home",
+      "publication": "Slow Boring",
+      "date": "2026-05-13",
+      "key_claims": [
+        "President Trump called on the House to pass the 21st Century ROAD to Housing Act",
+        "Trump linked the bill to housing-affordability demands from his February State of the Union address",
+        "Senators Bernie Moreno and Tim Scott worked on the bill which passed the Senate"
+      ],
+      "topics": [
+        "housing affordability",
+        "Trump legislation",
+        "housing policy",
+        "Congress"
+      ]
+    },
+    {
+      "title": "Why kids don't go anywhere anymore",
+      "url": "https://www.slowboring.com/p/why-kids-dont-go-anywhere-anymore",
+      "publication": "Slow Boring",
+      "date": "2026-05-13",
+      "key_claims": [
+        "A quarter of 11-year-olds are not allowed to leave their house unsupervised, including playing in their own yard",
+        "There is significant skepticism among parents about leaving nine- and ten-year-olds home alone",
+        "Even children who are technically permitted to walk around their neighborhood often don't do so because their peers face stricter restrictions",
+        "Social norms around child independence are self-reinforcing and sticky, causing even permissive parents to conform to more restrictive peer standards",
+        "The author considers their family outliers for allowing their child to walk to places in the neighborhood unsupervised"
+      ],
+      "topics": [
+        "parenting",
+        "child independence",
+        "childhood freedom",
+        "social norms"
+      ]
+    },
+    {
+      "title": "Shmoderation is the future",
+      "url": "https://www.slowboring.com/p/shmoderation-is-the-future",
+      "publication": "Slow Boring",
+      "date": "2026-05-12",
+      "key_claims": [
+        "Anti-moderation advocates, when articulating their vision of winning candidates, appear to be reinventing moderation from first principles under different branding.",
+        "Many voters have eclectic beliefs that don't fit neatly into progressive or conservative boxes, which the author terms 'shmoderate.'",
+        "Representatives Brian Fitzpatrick and Tom Suozzi co-chair an existing Problem Solvers Caucus and are cited as strong electoral performers who have won tough seats.",
+        "Republican members of Congress rationally decline to break with the unpopular Trump because primary survival depends on party loyalty, even at the cost of general election performance.",
+        "The share of the public saying they will vote Democratic in the midterms is significantly lower than the share disapproving of Trump, suggesting Democrats face independent electoral challenges."
+      ],
+      "topics": [
+        "electoral strategy",
+        "political moderation",
+        "Democratic Party",
+        "2026 midterms"
+      ]
+    },
+    {
+      "title": "25 Microseconds.",
+      "url": "https://substack.news-items.com/p/25-microseconds",
+      "publication": "John Ellis",
+      "date": "Fri, 15 May 2026 10:20:14 GMT",
+      "key_claims": [
+        "China's Jiuzhang 4.0 photonic quantum computer completed a Gaussian boson sampling task in 25 microseconds, a calculation that would take the world's most powerful supercomputer El Capitan more than 10⁴² years to finish.",
+        "China issued two new laws in April (Decree No 834 and Decree No 835) creating mechanisms to identify, block, and respond to foreign measures, including the ability to establish a malicious entity list and pursue civil litigation as enforcement tools.",
+        "International companies face a compliance dilemma as it may become impossible to comply with both US sanctions and Chinese law simultaneously.",
+        "Negotiations are reportedly ongoing about yuan-traded oil for safe passage through the Strait of Hormuz, potentially challenging the petrodollar's dominance.",
+        "Deutsche Bank wrote that the Iran war could accelerate the rise of the petroyuan and end US dominance over global finance."
+      ],
+      "topics": [
+        "quantum computing",
+        "China technology",
+        "petroyuan",
+        "US-China trade war"
+      ]
+    },
+    {
+      "title": "Somali Pirates!",
+      "url": "https://substack.news-items.com/p/somali-pirates",
+      "publication": "John Ellis",
+      "date": "2026-05-14",
+      "key_claims": [
+        "Xi Jinping warned Trump that Taiwan is 'the most important issue' in US-China relations, cautioning that poor handling risks a 'clash' putting the relationship in 'a very dangerous situation'",
+        "The US sold 30-year Treasury bonds at a 5.046% yield for the first time since 2007, with wholesale inflation jumping to 6% in April 2026, the highest since 2022, attributed to the Iran war",
+        "A commercial vessel was apparently seized near the UAE and is bound for Iran, raising uncertainty over control of the Strait of Hormuz",
+        "Somali pirates hijacked four ships off the coast of Puntland between April 21 and May 2, a rate unseen since at least 2012, threatening the Red Sea corridor and potentially benefiting al-Shabaab",
+        "Russia launched its largest aerial attack on Ukraine over a two-day period since the war began, firing more than 1,560 drones since Wednesday and 56 missiles overnight Thursday"
+      ],
+      "topics": [
+        "Iran War",
+        "Somali piracy",
+        "US-China relations",
+        "inflation"
+      ]
+    },
+    {
+      "title": "Extraordinary.",
+      "url": "https://substack.news-items.com/p/extraordinary",
+      "publication": "John Ellis",
+      "date": "Wed, 13 May 2026 09:36:24 GMT",
+      "key_claims": [
+        "Iran has regained access to 30 of 33 missile sites along the Strait of Hormuz, contradicting the Trump administration's public portrayal of a shattered Iranian military.",
+        "US net exports of crude and refined products have averaged a record high of 5.9 million barrels a day over the last four weeks, up from 3.3 million a year ago.",
+        "Global oil inventories declined at a rate of almost 4 million barrels a day in April, the fastest pace on record, according to the IEA.",
+        "The Iran war is costing the US economy hundreds of billions of dollars in lost output due to soaring fuel prices, rising borrowing costs, and supply chain disruptions.",
+        "Trump has until roughly the end of May or into June before shrinking Strategic Petroleum Reserve levels and commercial inventory pressure begin to stir market anxiety."
+      ],
+      "topics": [
+        "Iran War",
+        "oil prices",
+        "US economy",
+        "military intelligence"
+      ]
+    },
+    {
+      "title": "Life Support.",
+      "url": "https://substack.news-items.com/p/life-support",
+      "publication": "John Ellis",
+      "date": "2026-05-12",
+      "key_claims": [
+        "Trump described the US-Iran ceasefire as 'on massive life support' after calling Tehran's response to a US proposal 'garbage' and 'totally unacceptable'",
+        "Iranian IRGC commander Jafari stated Iran will not enter negotiations until the US accepts terms including lifting sanctions, releasing frozen assets, compensation for war damages, and recognition of Iran's sovereignty over the Strait of Hormuz",
+        "The UAE has carried out undisclosed military strikes on Iran, including an attack on a refinery on Iran's Lavan Island in the Persian Gulf",
+        "Saudi Aramco CEO warned that global gasoline and jet fuel stocks could reach 'critically low levels' ahead of summer, with the world losing 1 billion barrels of oil supplies since the Iran war began and another 100 million barrels lost every week the Strait of Hormuz stays closed",
+        "Collective Investment Trusts, a multi-trillion dollar financial product that rivals mutual funds and ETFs, are poised to become a backdoor for adding private assets to Americans' retirement savings with minimal regulatory oversight"
+      ],
+      "topics": [
+        "Iran War",
+        "US-Iran ceasefire",
+        "oil supply crisis",
+        "Strait of Hormuz"
+      ]
+    },
+    {
+      "title": "Political Wire.",
+      "url": "https://substack.news-items.com/p/political-wire-e72",
+      "publication": "John Ellis",
+      "date": "2026-05-11",
+      "key_claims": [
+        "Taegan Goddard provides a political news aggregation service every day, 365 days a year, with a typical day consisting of 20-30 political news items",
+        "Political Wire is considered one of three sources that close followers of American politics follow religiously, alongside UVA's Center for Politics and The Cook Political Report",
+        "Pre-internet election night broadcasts relied on AP and UPI newswires with physical 'runners' who delivered reports to network news anchors",
+        "The interview was recorded on April 27, 2026 and focuses on Goddard's assessment of the political landscape ahead of the midterm elections",
+        "A 20% discount for Political Wire subscriptions is available using the coupon code 'newsitems'"
+      ],
+      "topics": [
+        "midterm elections",
+        "political media",
+        "Political Wire",
+        "U.S. politics"
+      ]
+    },
+    {
+      "title": "TOTALLY UNACCEPTABLE!",
+      "url": "https://substack.news-items.com/p/totally-unacceptable",
+      "publication": "John Ellis",
+      "date": "Mon, 11 May 2026 09:25:57 GMT",
+      "key_claims": [
+        "Trump rejected Iran's response to the latest draft agreement to end the war, calling it 'TOTALLY UNACCEPTABLE!' on Truth Social",
+        "Oil prices surged after Trump's rejection, with Brent crude rising 4.6% to $105.99 a barrel and WTI near $100, amid the near-closure of the Strait of Hormuz",
+        "Netanyahu said the war with Iran will continue as long as Iran retains highly enriched uranium, and stated Trump told him he wants to 'go in there' to secure fissile material",
+        "Netanyahu expressed desire to end US military aid to Israel over the next decade, seeking to reduce the $3.8 billion annual assistance to zero and shift to a partnership model",
+        "A Gallup Poll from February 2026 shows 41% of Americans sympathize more with Palestinians vs. 36% with Israelis, reversing a clear Israeli lead from a year prior"
+      ],
+      "topics": [
+        "Iran War",
+        "Middle East conflict",
+        "US-Iran nuclear negotiations",
+        "Israel-US relations"
+      ]
+    },
+    {
+      "title": "Alternate Shots.",
+      "url": "https://substack.news-items.com/p/alternate-shots-220",
+      "publication": "John Ellis",
+      "date": "2026-05-10",
+      "key_claims": [
+        "President Trump has three options in the war with Iran: cut a deal, escalate, or continue with sanctions and blockade",
+        "Trump clearly wants out of the Iran conflict but faces significant political risks around being perceived as weak or failing in the mission",
+        "Post-war analysis must not show that Iran 'won', making it harder by the day to emerge as a 'winner'",
+        "Xi Jinping holds leverage on the Taiwan issue ahead of an upcoming China summit meeting",
+        "The U.S. redistricting wars are escalating"
+      ],
+      "topics": [
+        "Iran War",
+        "Trump foreign policy",
+        "China-Taiwan",
+        "redistricting"
+      ]
+    },
+    {
+      "title": "Rogue States.",
+      "url": "https://substack.news-items.com/p/rogue-states",
+      "publication": "John Ellis",
+      "date": "2026-05-09",
+      "key_claims": [
+        "North Korea already has an estimated 50 nuclear warheads and a missile program capable of threatening the U.S. homeland, yet receives far less attention than Iran.",
+        "Trump's own national defense strategy describes North Korea's nuclear forces as 'a clear and present danger of nuclear attack on the American Homeland.'",
+        "North Korea's constitution officially describes the country as a 'nuclear-armed state' and its leadership has called this status 'irreversible and permanent.'",
+        "North Korea could potentially field 290 nuclear warheads by 2035, putting its arsenal on par with France's, by adding up to 20 warheads annually.",
+        "Iran's nuclear ambitions are considered higher-stakes than North Korea's because Iran could leverage nuclear weapons alongside control of the Strait of Hormuz to become a global superpower."
+      ],
+      "topics": [
+        "North Korea nuclear program",
+        "Iran War",
+        "nuclear proliferation",
+        "U.S. national security"
+      ]
+    },
+    {
+      "title": "Aura of Dominance.",
+      "url": "https://substack.news-items.com/p/aura-of-dominance",
+      "publication": "John Ellis",
+      "date": "2026-05-08",
+      "key_claims": [
+        "Anthropic's Mythos AI model succeeded on a third of the most difficult biology data-crunching tasks, performing beyond all tested humans, including reverse-engineering cell types from raw DNA data.",
+        "Anthropic co-founder Jack Clark predicted a 60%+ chance that an AI model will fully train its successor by the end of 2028, describing a process of recursive self-improvement.",
+        "A confidential CIA analysis concludes Iran can survive a U.S. naval blockade for at least three to four months before facing severe economic hardship.",
+        "Iran retains approximately 75% of its prewar mobile missile launchers and 70% of its prewar missile stockpiles despite weeks of U.S. and Israeli bombardment.",
+        "U.S. forces clashed with Iran near the Strait of Hormuz, targeting missile and drone launch sites, while a monthlong ceasefire technically remains in effect."
+      ],
+      "topics": [
+        "Iran War",
+        "AI development",
+        "US-Iran conflict",
+        "artificial intelligence risk"
+      ]
+    },
+    {
+      "title": "The Epstein Tax",
+      "url": "https://www.profgalloway.com/the-epstein-tax/",
+      "publication": "Scott Galloway",
+      "date": "2026-02-27",
+      "key_claims": [
+        "The U.S. Gini coefficient is higher than 0.8, a level of inequality comparable to pre-revolutionary France",
+        "The top 400 wealthiest Americans paid an estimated 23.8% of their income in taxes from 2018 to 2020, a smaller percentage than the average American",
+        "The world's 500 richest people added more than $2 trillion to their collective net worth last year according to the Bloomberg Billionaires Index",
+        "The top 0.1% increased their wealth by 40% in the last three years",
+        "The Epstein documents are revealing a world where the 0.01% are protected by the law but not bound by it, with billionaires including Trump, Musk, and Gates named in the files"
+      ],
+      "topics": [
+        "wealth inequality",
+        "wealth taxes",
+        "Epstein files",
+        "billionaires"
+      ]
+    },
+    {
       "title": "Why Have Immigration Agents Detained This American Citizen Three Times?",
       "url": "https://www.propublica.org/article/immigration-leo-garcia-venegas-arrests-detentions-citizens-ice-dhs",
-      "published": "Fri, 15 May 2026 11:00:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "Leonardo Garcia Venegas, a U.S. citizen born in Florida, has been detained three times by immigration agents who repeatedly dismissed his Alabama REAL ID as proof of citizenship, leaving him demoralized and considering relocating to Mexico.",
-        "Senior ICE and DHS officials publicly denied that U.S. citizens have been mistakenly detained, even as Garcia Venegas and a Bronx teenager were held the same week those denials were made at a border security conference.",
-        "The repeated stops reflect a broader legal framework shaped by a Supreme Court ruling allowing agents to factor in 'apparent ethnicity,' occupation, and language during immigration stops, raising serious constitutional concerns about racial profiling."
+      "publication": "ProPublica",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Leonardo Garcia Venegas, a U.S. citizen, has been detained by immigration agents three times despite showing a valid Alabama REAL ID, which only citizens and legal residents can obtain.",
+        "A top ICE official, Matthew Elliston, claimed at a border security conference that 'zero' U.S. citizens had been mistakenly arrested since the start of the administration, even as citizens were being detained that same week.",
+        "ICE head Todd Lyons acknowledged that immigration agents sometimes detained American citizens and described the arrests as operating as 'a deterrent.'",
+        "DHS claimed Garcia Venegas was 'NOT detained' during the May 2 incident despite him being shackled, and similarly claimed a Bronx teen who was tackled and left bloody was 'NOT arrested' but only 'temporarily detained.'",
+        "Agents told Garcia Venegas he risks being stopped again until he registers his car's license plates in his own name, as he was driving a car registered to his brother."
       ],
-      "themes": [
+      "topics": [
         "immigration enforcement",
-        "civil liberties",
-        "racial profiling",
-        "trump administration"
-      ],
-      "relevance": 8
+        "ICE detentions",
+        "citizens' rights",
+        "Trump immigration policy"
+      ]
     },
     {
-      "source": "ProPublica",
       "title": "In a Private Meeting, Colorado Marijuana Regulators Acknowledge the Extent of Illegal Hemp Sales",
       "url": "https://www.propublica.org/article/colorado-marijuana-regulators-meeting-illegal-hemp",
-      "published": "Fri, 15 May 2026 10:00:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "Colorado's Marijuana Enforcement Division privately admitted that illegally substituted hemp products may constitute roughly half the state's marijuana market, far exceeding what regulators have publicly acknowledged.",
-        "The state's seed-to-sale tracking system is riddled with fraudulent data, including nominal sales reported at pennies per pound, costing the state millions in lost excise tax revenue and leaving only 26 investigators to oversee 2,100 businesses.",
-        "A reform bill that would have overhauled marijuana testing and consumer protections collapsed due to industry infighting over a potency tax provision and opposition from Governor Polis, leaving the illegal hemp problem unaddressed."
+      "publication": "ProPublica",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Colorado's Marijuana Enforcement Division deputy senior director Kyle Lambert acknowledged in a private meeting that the number of hemp-derived products illegally sold as marijuana is 'larger than we can quantify.'",
+        "Regulators fear the prevalence of banned hemp is driving down marijuana prices in Colorado and facilitating diversion of high-grade marijuana to the black market in other states.",
+        "Lambert told industry players that suspicious transactions in the state's marijuana tracking system 'would probably explode your minds.'",
+        "Colorado lawmakers abandoned a bill that would have let voters decide whether to overhaul how marijuana products are tested for contaminants, despite regulators' concerns.",
+        "An industry insider estimated that illegal hemp products have become 'pervasive to where it's, like, half the market,' and hemp is used because it is cheaper than marijuana to produce THC distillate for vapes and edibles."
       ],
-      "themes": [
-        "cannabis regulation",
-        "consumer safety",
-        "regulatory failure",
-        "colorado politics"
-      ],
-      "relevance": 8
+      "topics": [
+        "marijuana regulation",
+        "hemp industry",
+        "Colorado cannabis",
+        "drug policy"
+      ]
     },
     {
-      "source": "ProPublica",
-      "title": "At 17, He Was Tear-Gassed at Selma. At 78, He’s Watching Kids Tear-Gassed During Trump’s Deportation Campaign.",
+      "title": "At 17, He Was Tear-Gassed at Selma. At 78, He's Watching Kids Tear-Gassed During Trump's Deportation Campaign.",
       "url": "https://www.propublica.org/article/charles-mauldin-selma-tear-gas",
-      "published": "Fri, 15 May 2026 09:00:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "Charles Mauldin, a survivor of the 1965 'Bloody Sunday' march in Selma, draws a direct parallel between being tear-gassed by police as a teenager and the current use of tear gas and pepper spray by federal immigration officers against children in 2026.",
-        "A ProPublica investigation found at least 79 children have been physically harmed by tear gas and pepper spray during Trump's immigration enforcement campaign, with cases ranging from a 6-month-old who briefly stopped breathing to teenagers suffering severe asthma attacks, often in or near their homes.",
-        "Medical and child welfare experts warn that both the physical and psychological effects of tear gas exposure on children can be long-lasting, while there is currently no national standard governing federal use of these weapons and no system to track or follow up with those harmed."
+      "publication": "ProPublica",
+      "date": "2026-05-15",
+      "key_claims": [
+        "At least 79 children have been physically harmed by tear gas and pepper spray during President Trump's immigration enforcement efforts.",
+        "A 6-month-old baby briefly stopped breathing after a tear gas canister rolled under the family's car during an ICE operation.",
+        "There is no national standard governing the use of tear gas and pepper spray, giving federal immigration officers more latitude than some local police departments.",
+        "DHS said officers were justified in using tear gas or pepper spray in many cases but did not address how the weapons affected bystanders including children.",
+        "Charles Mauldin, a Bloody Sunday survivor who was tear-gassed at Selma in 1965, draws direct parallels between that experience and current ICE enforcement tactics against children."
       ],
-      "themes": [
+      "topics": [
+        "immigration enforcement",
+        "tear gas",
+        "deportation",
+        "civil rights"
+      ]
+    },
+    {
+      "title": "Counterterrorism Czar's Blueprint Targets Leftists, Ignores Far-Right Violence and Heaps Praise on Trump",
+      "url": "https://www.propublica.org/article/trump-counterterrorism-plan-ignores-far-rights-gorka",
+      "publication": "ProPublica",
+      "date": "2026-05-14",
+      "key_claims": [
+        "The 16-page counterterrorism strategy ranks threats based on politics rather than intelligence assessments, according to current and former counterterrorism officials.",
+        "The strategy places Latin American drug cartels as the top threat, above Islamist militant groups, which have traditionally been the top concern.",
+        "The violent far right, which the FBI has repeatedly called the leading domestic threat, is not mentioned in the strategy.",
+        "Militant leftists, described as a small subset of extremist violence in the U.S., are portrayed as a threat on par with global terrorist networks such as al-Qaida.",
+        "The strategy mentions former President Biden seven times and lavishes praise on Trump but offers few operational details for tackling the administration's stated top priorities."
+      ],
+      "topics": [
+        "counterterrorism",
+        "domestic extremism",
+        "Trump national security policy",
+        "far-right violence"
+      ]
+    },
+    {
+      "title": "A Unique Oregon Law Allows It to Block Healthcare Deals. In Five Years, the State Hasn't Done So Once.",
+      "url": "https://www.propublica.org/article/oregon-healthcare-mergers-oversight-law",
+      "publication": "ProPublica",
+      "date": "2026-05-14",
+      "key_claims": [
+        "Oregon became the first state in 2021 to give its health department broad power to block acquisitions and mergers of hospitals, hospices, and medical practices, but has not formally blocked a single transaction or issued any fines in five years.",
+        "Of nine healthcare deals for which Oregon regulators did follow-up reviews, at least three had outcomes the law was meant to forestall, including clinic closures and reduced rural access.",
+        "UnitedHealth Group's Optum Oregon subsidiary acquired the Corvallis Clinic and subsequently ended OB-GYN services there, leaving pregnant patients scrambling for care.",
+        "Oregon's oversight law is credited with leading to the withdrawal of two high-profile transactions, including a merger of two Portland-area hospital systems and acquisition of a major Medicaid nonprofit.",
+        "After Amazon bought One Medical for $3.9 billion, it closed the group's downtown Portland practice, cut $100 million in operating expenses nationwide, and saw a drop in Oregon patient satisfaction scores."
+      ],
+      "topics": [
+        "healthcare consolidation",
+        "healthcare regulation",
+        "Oregon health policy",
+        "hospital mergers"
+      ]
+    },
+    {
+      "title": "Immigrants Detained in Chicago Military-Style Raid Seek Millions in Damages",
+      "url": "https://www.propublica.org/article/chicago-immigration-raid-ice-dhs-fbi-federal-tort-claims",
+      "publication": "ProPublica",
+      "date": "2026-05-13",
+      "key_claims": [
+        "Seventeen men, women and children detained during a September 30 raid filed administrative claims against DHS and several other federal agencies, seeking approximately $5 million each in damages.",
+        "A large dog bit tenant Tolulope Akinsulie's ankle, thighs, hip and wrist during the raid, leaving dark scars that are still visible.",
+        "The claims allege that federal agents entered apartments without warrants during the midnight raid in Chicago's South Shore neighborhood.",
+        "Agents allegedly hit a man with what appeared to be the butt of a rifle, kicked another man lying on the floor, and ripped up a Mexican man's city of Chicago identification card.",
+        "DHS denied wrongdoing, stating the 'operation was performed in full compliance of the law,' while agents claimed they issued verbal warnings before entering Akinsulie's unit and believed he was hiding."
+      ],
+      "topics": [
         "immigration enforcement",
         "civil rights",
-        "trump administration",
-        "public health"
-      ],
-      "relevance": 8
+        "federal raid",
+        "ICE detention"
+      ]
     },
     {
-      "source": "ProPublica",
-      "title": "Counterterrorism Czar’s Blueprint Targets Leftists, Ignores Far-Right Violence and Heaps Praise on Trump",
-      "url": "https://www.propublica.org/article/trump-counterterrorism-plan-ignores-far-rights-gorka",
-      "published": "Thu, 14 May 2026 15:55:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "Sebastian Gorka's new 16-page counterterrorism strategy omits far-right violent extremism entirely despite the FBI repeatedly identifying it as the leading domestic threat, while elevating militant leftists to the level of global terror networks like al-Qaida.",
-        "Analysts and former officials criticize the document as politically motivated, noting it praises Trump extensively, aligns threat categories with his political agenda, and contains language echoing debunked right-wing conspiracy theories rather than intelligence assessments.",
-        "The strategy is undercut by internal contradictions, including touting counterterrorism goals while Trump has pardoned a major drug trafficker, slashed national security agency staffing, and pursued policies that fuel anti-American sentiment abroad."
+      "title": "A Noncitizen Says She Was Told She Could Vote. Then Customs Detained Her at the Airport and Threatened to Deport Her.",
+      "url": "https://www.propublica.org/article/noncitizen-voter-detained-airport-customs",
+      "publication": "ProPublica",
+      "date": "2026-05-13",
+      "key_claims": [
+        "A 57-year-old French permanent resident was detained for 30 hours at Detroit airport by CBP after admitting she voted in a local Kansas election as a noncitizen.",
+        "Estelle said she registered to vote because a state DMV employee told her she was eligible when she renewed her driver's license in 2023.",
+        "CBP confirmed the detention and placed Estelle in removal proceedings, marking what experts say is a new escalation in using customs enforcement for election-fraud investigations.",
+        "An immigration judge granted a request to cancel Estelle's removal proceedings after her attorney spoke with DHS officials.",
+        "A former Biden administration DHS deputy general counsel said she had never heard of someone being detained at a port of entry on suspicion of illegal voting, calling noncitizen voting 'a needle in a haystack.'"
       ],
-      "themes": [
-        "national security",
-        "counterterrorism",
-        "trump administration",
-        "domestic extremism"
-      ],
-      "relevance": 8
+      "topics": [
+        "noncitizen voting",
+        "immigration enforcement",
+        "Trump administration",
+        "election fraud"
+      ]
     },
     {
-      "source": "ProPublica",
-      "title": "A Unique Oregon Law Allows It to Block Healthcare Deals. In Five Years, the State Hasn’t Done So Once.",
-      "url": "https://www.propublica.org/article/oregon-healthcare-mergers-oversight-law",
-      "published": "Thu, 14 May 2026 09:00:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "Oregon's first-in-the-nation 2021 law granting the state power to block healthcare mergers and acquisitions has never been used to formally reject a single deal in five years, despite evaluating 65 transactions.",
-        "At least three of the nine deals that received follow-up reviews resulted in outcomes the law was designed to prevent, including hospice closures and reduced OB-GYN services following acquisitions by UnitedHealth Group and private equity firm Clayton, Dubilier & Rice.",
-        "Despite Oregon's mixed track record, five other states passed similar healthcare consolidation oversight laws in the past year, with Maine and New Mexico adopting legislation modeled on Oregon's approach."
+      "title": "He Was Fired for Sexually Harassing Students. California Allowed Him to Keep Teaching Anyway.",
+      "url": "https://www.propublica.org/article/california-fired-teacher-sexual-harassment",
+      "publication": "ProPublica",
+      "date": "2026-05-12",
+      "key_claims": [
+        "Jason Agan was fired by Fairfield-Suisun Unified School District in 2019 after at least 11 students and one parent submitted written complaints about his sexual harassment behavior.",
+        "An independent state panel deemed Agan 'unfit to teach,' but this finding was not shared publicly and his teaching license was only suspended for one week.",
+        "After being fired, Agan was hired at a second school and then a third, and faced another accusation of unwanted touching by an eighth grader at his second school.",
+        "California's Commission on Teacher Credentialing failed to revoke professional licenses in at least 67 cases where school districts reported educators for sexual harassment or sexual misconduct between 2019 and 2025.",
+        "At least 14 of those educators were rehired by other schools, and at least 12, including Agan, still work in education."
       ],
-      "themes": [
-        "healthcare consolidation",
-        "health policy",
-        "private equity",
-        "regulation"
-      ],
-      "relevance": 8
+      "topics": [
+        "teacher misconduct",
+        "sexual harassment",
+        "California education",
+        "teacher licensing"
+      ]
     },
     {
-      "source": "Onest Network",
-      "title": "Trump in China, Day 2 — Ceremony, Symbolism, and the Missing Substance",
-      "url": "https://www.onestnetwork.com/trump-in-china-day-2-ceremony-symbolism-and-the-missing-substance/",
-      "published": "Fri, 15 May 2026 15:22:11 GMT",
-      "summarized": true,
-      "bullets": [
-        "Trump's second day in China featured highly symbolic diplomacy at Zhongnanhai, including a three-hour meeting with Xi and a carefully curated lunch, but produced few confirmed concrete agreements.",
-        "Trump publicly claimed major deals including 200 Boeing aircraft purchases and agricultural agreements, but Chinese officials have not confirmed these announcements and the trade truce still lacks an extension.",
-        "Beijing's strategic goal appears to be locking the U.S. into a 'managed competition' framework under the banner of 'strategic stability,' while critical issues like Taiwan, rare earths, and semiconductor restrictions remain publicly unresolved."
+      "title": "Help Us Report on Teacher Misconduct in California",
+      "url": "https://www.propublica.org/getinvolved/teacher-misconduct-california-callout",
+      "publication": "ProPublica",
+      "date": "2026-05-12",
+      "key_claims": [
+        "California's Commission on Teacher Credentialing releases few details about misconduct cases, leaving the public largely in the dark",
+        "Dozens of cases were found in which the state did not revoke teachers' licenses after findings of sexual misconduct",
+        "KQED and ProPublica conducted interviews with former commission members and students and reviewed records to uncover issues",
+        "The investigation is ongoing and journalists are soliciting public input to get a full picture of the disciplinary process"
       ],
-      "themes": [
-        "us-china relations",
-        "trade policy",
-        "diplomacy",
-        "geopolitics"
-      ],
-      "relevance": 8
+      "topics": [
+        "teacher misconduct",
+        "California education",
+        "credentialing accountability",
+        "investigative journalism"
+      ]
     },
     {
-      "source": "Onest Network",
-      "title": "Read/Watch: A Sunken Russian Ship, Nuclear Reactor Questions, and North Korea",
-      "url": "https://www.onestnetwork.com/read-watch-a-sunken-russian-ship-nuclear-reactor-questions-and-north-korea/",
-      "published": "Wed, 13 May 2026 01:58:36 GMT",
-      "summarized": true,
-      "bullets": [
-        "A CNN investigation suggests the Russian cargo ship Ursa Major, which sank off Spain in December 2024 amid mysterious explosions, may have been secretly carrying components for two submarine nuclear reactors.",
-        "The alleged destination for the reactor components was North Korea, which would represent a dramatic escalation of the deepening military and technological cooperation between Russia and North Korea since the Ukraine invasion.",
-        "The full cargo, cause of sinking, and intended destination remain unconfirmed by independent authorities, but if verified, the incident would carry major implications for regional security, nuclear proliferation, and sanctions enforcement."
+      "title": "A U.S. Senate Candidate Says Foreign Truckers Are Making America's Roads Unsafe. His Own Truckers Have Caused Harm.",
+      "url": "https://www.propublica.org/article/mike-collins-georgia-senate-truck-crashes",
+      "publication": "ProPublica",
+      "date": "2026-05-11",
+      "key_claims": [
+        "Crashes involving truckers for Collins' business killed five people and injured more than 50 people over the past 25 years, according to federal data, court filings, and police records.",
+        "ProPublica's analysis of federal motor vehicle data shows Collins' business has a higher rate of unsafe driving and speeding violations per mile than the majority of trucking companies with substantial mileage.",
+        "The Trump administration's own officials have written that there is no empirical evidence showing foreign truckers cause more crashes than American citizen truckers.",
+        "Collins has opposed trucking safety rules — such as speed limiters and automatic emergency braking sensors — that experts say would reduce serious crashes, despite his family business potentially needing to invest in these technologies.",
+        "Court filings in one lawsuit state that both parties agreed to a $1 million payout from Collins' business's insurer, with multiple other settlements remaining confidential."
       ],
-      "themes": [
-        "nuclear proliferation",
-        "russia-north korea",
-        "maritime security",
-        "geopolitics"
-      ],
-      "relevance": 8
+      "topics": [
+        "trucking safety",
+        "Georgia Senate race",
+        "immigration policy",
+        "transportation regulation"
+      ]
     },
     {
-      "source": "NPR News",
-      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
-      "url": "https://www.npr.org/2026/05/16/g-s1-122486/louisiana-senate-cassidy-trump",
-      "published": "Sat, 16 May 2026 08:38:33 -0400",
-      "summarized": true,
-      "bullets": [
-        "Louisiana Senator Bill Cassidy, one of only seven Republican senators who voted to convict Donald Trump during his second impeachment trial, is now facing a reelection campaign that will test whether that vote ends his political career.",
-        "Cassidy's race is being closely watched as a barometer of Trump's continued influence over the Republican Party and whether GOP voters will punish members who broke with him.",
-        "The outcome of this Senate race could have broader implications for intra-party loyalty, political accountability, and the future direction of the Republican Party heading into the next election cycle."
-      ],
-      "themes": [
-        "republican party",
-        "trump influence",
-        "2026 election",
-        "senate politics"
-      ],
-      "relevance": 7
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "Court rules freight brokers can face negligent hiring suits under state law",
-      "url": "https://www.scotusblog.com/2026/05/court-rules-freight-brokers-can-face-negligent-hiring-suits-under-state-law/",
-      "published": "Fri, 15 May 2026 16:47:43 +0000",
-      "summarized": true,
-      "bullets": [
-        "The Supreme Court unanimously ruled that the Federal Aviation Administration Authorization Act of 1994 does not preempt state negligent-hiring lawsuits against freight brokers, because a safety exception in the law preserves states' authority to regulate motor vehicle safety.",
-        "The case arose from a 2017 accident in which a truck hired by broker C.H. Robinson struck injured motorist Shawn Montgomery, whose lawsuit alleged the broker ignored federal regulators' 'conditional' safety rating of the carrier.",
-        "Justice Kavanaugh's concurrence cautioned that the ruling is not a broad expansion of broker liability, emphasizing that brokers acting reasonably in selecting reputable carriers should still prevail against such tort claims."
-      ],
-      "themes": [
-        "supreme court",
-        "transportation law",
-        "tort liability",
-        "federal preemption"
-      ],
-      "relevance": 7
-    },
-    {
-      "source": "NPR News",
-      "title": "The townspeople of Vilseck, Germany, worry that Trump may pull out 5,000 U.S. troops",
-      "url": "https://www.npr.org/2026/05/16/nx-s1-5815881/trump-germany-withdrawal-nato-us-troops-vilseck",
-      "published": "Sat, 16 May 2026 06:00:00 -0400",
-      "summarized": true,
-      "bullets": [
-        "Residents of Vilseck, a small Bavarian town, are anxious about President Trump's threats to withdraw approximately 5,000 U.S. troops stationed there.",
-        "The local economy is heavily dependent on U.S. military personnel and their families, who provide significant income to local businesses and services.",
-        "Beyond economics, decades of coexistence have forged deep personal friendships between American military families and German townspeople, making a potential withdrawal both a financial and emotional concern."
-      ],
-      "themes": [
-        "us foreign policy",
-        "nato",
-        "transatlantic relations",
-        "military"
-      ],
-      "relevance": 6
-    },
-    {
-      "source": "SCOTUSblog",
       "title": "Justices validate authority of federal courts to confirm arbitration awards – at least in cases already in federal court",
       "url": "https://www.scotusblog.com/2026/05/justices-validate-authority-of-federal-courts-to-confirm-arbitration-awards-at-least-in-cases-al/",
-      "published": "Sat, 16 May 2026 03:03:47 +0000",
-      "summarized": true,
-      "bullets": [
-        "The Supreme Court unanimously ruled in Jules v. Andre Balazs Properties that federal courts retain jurisdiction to confirm or vacate arbitration awards in cases that were originally filed in federal court.",
-        "The decision clarifies the boundary set by the 2022 Badgerow ruling, which barred freestanding FAA suits from invoking federal jurisdiction, by distinguishing cases where federal jurisdiction already existed from the outset.",
-        "Justice Sotomayor's opinion holds that federal jurisdiction over the original dispute persists through arbitration proceedings, meaning courts can act on post-arbitration motions as part of the still-pending original case."
+      "publication": "SCOTUSblog",
+      "date": "2026-05-16",
+      "key_claims": [
+        "The Supreme Court unanimously validated federal courts' authority to confirm and enforce arbitration awards in cases already pending in federal court, in Jules v. Andre Balazs Properties.",
+        "The ruling distinguishes between FAA motions arising in pre-existing federal lawsuits versus 'freestanding' FAA motions filed outside any pre-existing federal case.",
+        "The 2022 Badgerow v. Walters decision held that federal courts cannot entertain freestanding suits under the FAA to confirm or vacate arbitration awards, but this new ruling clarifies that limitation does not apply to cases with pre-existing federal jurisdiction.",
+        "Justice Sotomayor's majority opinion held that federal jurisdiction established at the start of a case continues through arbitration proceedings and covers subsequent Section 9 and 10 FAA motions to confirm or vacate awards.",
+        "The FAA is described as 'something of an anomaly' because it provides federal standards but does not itself create federal jurisdiction."
       ],
-      "themes": [
-        "supreme court",
-        "arbitration",
+      "topics": [
+        "Supreme Court",
+        "arbitration law",
         "federal jurisdiction",
-        "labor law"
-      ],
-      "relevance": 6
+        "Federal Arbitration Act"
+      ]
     },
     {
-      "source": "SCOTUSblog",
-      "title": "Court denies Virginia’s request to reinstate congressional map that would benefit Democrats",
+      "title": "Court denies Virginia's request to reinstate congressional map that would benefit Democrats",
       "url": "https://www.scotusblog.com/2026/05/court-denies-virginias-request-to-reinstate-congressional-map-that-would-benefit-democrats/",
-      "published": "Fri, 15 May 2026 23:29:31 +0000",
-      "summarized": true,
-      "bullets": [
-        "The U.S. Supreme Court rejected Virginia Democrats' emergency request to reinstate a new congressional map drawn to favor Democrats, issuing a brief unsigned order with no noted dissents.",
-        "The Virginia Supreme Court had already struck down the map by ruling that the state legislature violated procedural requirements for constitutional amendments, specifically by approving the amendment after early voting had already begun in the 2025 general election.",
-        "The practical impact of the Supreme Court's denial is limited, as Governor Abigail Spanberger had already indicated Virginia would not use the new map for the 2026 elections regardless of the court's decision."
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "The Supreme Court denied Virginia Democrats' request to reinstate a new congressional map expected to strongly favor Democrats in 2026 elections, in a brief unsigned order with no public dissents.",
+        "Virginia Gov. Abigail Spanberger had already indicated the state would not use the 2026 map in upcoming elections, making the court's order's effects 'relatively minimal.'",
+        "The Virginia Supreme Court struck down a voter-approved constitutional amendment on procedural grounds, ruling the Legislature had not followed correct procedures when it put the amendment on the ballot.",
+        "The Virginia Supreme Court majority held that because over 1.3 million votes had already been cast before the Legislature voted on the proposed amendment on Oct. 31, 2025, the proper constitutional process was not followed.",
+        "Republican challengers argued the case involved state courts applying state law and was not one in which the U.S. Supreme Court should intervene, and that federal issues were raised too late."
       ],
-      "themes": [
-        "supreme court",
+      "topics": [
         "redistricting",
-        "virginia politics",
+        "Virginia congressional map",
+        "Supreme Court",
         "2026 midterms"
-      ],
-      "relevance": 6
+      ]
     },
     {
-      "source": "NPR News",
-      "title": "Elephants eat their crops. Farmers strike back. It's a war that's only getting worse",
-      "url": "https://www.npr.org/2026/05/16/g-s1-121654/elephants-farmers-crops-sri-lanka",
-      "published": "Sat, 16 May 2026 07:19:25 -0400",
-      "summarized": true,
-      "bullets": [
-        "In Sri Lanka, escalating conflict between wild elephants and farmers is resulting in fatal encounters on both sides as elephants raid agricultural land for food.",
-        "The tension reflects a broader human-wildlife conflict driven by habitat loss, population growth, and shrinking natural corridors that force elephants into farming communities.",
-        "Despite deep cultural and religious reverence for elephants in Sri Lanka, desperate farmers are increasingly retaliating against the animals to protect their livelihoods."
-      ],
-      "themes": [
-        "wildlife conflict",
-        "agriculture",
-        "conservation",
-        "sri lanka"
-      ],
-      "relevance": 5
-    },
-    {
-      "source": "NPR News",
-      "title": "Colleges got more rural students to apply. The challenge is getting them to attend",
-      "url": "https://www.npr.org/2026/05/16/nx-s1-5797420/selective-colleges-woo-rural-students",
-      "published": "Sat, 16 May 2026 05:00:00 -0400",
-      "summarized": true,
-      "bullets": [
-        "Selective universities are working to increase rural student enrollment, supported by significant philanthropic funding from a rural alumnus of the University of Chicago.",
-        "While outreach efforts have succeeded in boosting rural student applications, converting those applications into actual enrollment remains a persistent challenge.",
-        "The initiative highlights broader equity gaps in higher education access, particularly the underrepresentation of rural communities at elite institutions."
-      ],
-      "themes": [
-        "higher education",
-        "rural access",
-        "college admissions",
-        "education equity"
-      ],
-      "relevance": 5
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "Justice Clarence Thomas reflects on shared values and his “deeper” friendships on a past court",
+      "title": "Justice Clarence Thomas reflects on shared values and his \"deeper\" friendships on a past court",
       "url": "https://www.scotusblog.com/2026/05/justice-clarence-thomas-reflects-on-shared-values-and-his-deeper-friendships-on-a-past-court-/",
-      "published": "Fri, 15 May 2026 18:09:54 +0000",
-      "summarized": true,
-      "bullets": [
-        "Justice Thomas argued that the Declaration of Independence's self-evident truths about equality provide more accessible common ground for Americans than legal frameworks like textualism or originalism, which he said alienate most people.",
-        "Thomas expressed nostalgia for the earlier Supreme Court he joined in 1991, saying friendships among justices were 'much, much deeper' then and that his colleagues from the 'greatest generation' prioritized the institution over themselves.",
-        "Thomas credited the pandemic-era 'round robin' questioning format with bringing order to oral arguments, explaining he had previously avoided questioning because he found the constant interruptions rude."
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Thomas argued that the ideals in the Declaration of Independence provide common ground for all Americans regardless of religion or location, even under segregation.",
+        "Thomas said legal theories like textualism and originalism have 'disenfranchised most people' because most people don't understand them.",
+        "Thomas became the second-longest serving justice and could become the longest-serving justice in two years.",
+        "Thomas expressed that friendships on the earlier Supreme Court were 'much, much deeper' than those on the current court, crediting the 'greatest generation' justices who valued the institution over themselves.",
+        "Thomas noted he had known the four most recent justices — Gorsuch, Kavanaugh, Barrett, and Jackson — when they were law clerks while he was already a sitting justice."
       ],
-      "themes": [
-        "supreme court",
-        "judicial culture",
-        "constitutional law",
-        "american values"
-      ],
-      "relevance": 5
+      "topics": [
+        "Supreme Court",
+        "Clarence Thomas",
+        "judicial philosophy",
+        "Declaration of Independence"
+      ]
     },
     {
-      "source": "SCOTUSblog",
-      "title": "When (if ever) it’s appropriate to make jokes, take selfies, or curse before the court",
+      "title": "Court rules freight brokers can face negligent hiring suits under state law",
+      "url": "https://www.scotusblog.com/2026/05/court-rules-freight-brokers-can-face-negligent-hiring-suits-under-state-law/",
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "A unanimous Supreme Court ruled in Montgomery v. Caribe Transport II that federal law does not shield freight brokers from state lawsuits claiming they negligently hired dangerous motor carriers.",
+        "The case stemmed from a 2017 accident on Illinois Interstate 70 where Shawn Montgomery suffered severe injuries including leg amputation after a tractor-trailer rear-ended his stopped vehicle.",
+        "C.H. Robinson, the freight broker, had hired Caribe Transport II despite federal regulators giving the carrier a 'conditional' safety rating for deficiencies in driver qualification, hours of service, and crash rates.",
+        "Justice Amy Coney Barrett, writing for the 9-0 court, held that the FAAAA's safety exception in Section 14501(c)(2)(A) applies to negligent hiring claims because they concern motor vehicle safety, preventing preemption.",
+        "Barrett clarified that state regulations governing carrier pricing or highway routes would still remain preempted under the FAAAA, limiting the scope of the safety exception."
+      ],
+      "topics": [
+        "Supreme Court ruling",
+        "freight broker liability",
+        "federal preemption",
+        "trucking industry regulation"
+      ]
+    },
+    {
+      "title": "When (if ever) it's appropriate to make jokes, take selfies, or curse before the court",
       "url": "https://www.scotusblog.com/2026/05/when-if-ever-its-appropriate-to-make-jokes-take-selfies-or-curse-before-the-court/",
-      "published": "Fri, 15 May 2026 13:30:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "The Supreme Court's Guide for Counsel establishes strict protocols for oral arguments, including specific titles for justices, rules against interrupting, and directives to answer questions directly with 'yes' or 'no' when possible.",
-        "Chief Justice Roberts actively enforces courtroom decorum, including reprimanding Solicitor General Sauer for speaking over Justice Jackson, though Sauer has developed a reputation for repeatedly interrupting despite corrections.",
-        "While the guide discourages humor and casual familiarity, a handful of advocates like Lisa Blatt and Paul Clement are notable exceptions who successfully deploy wit before the court, and swearing is permissible when directly quoting relevant source material."
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "Attorney Geoffrey Pipoly repeated Trump's 'shithole country' comment during oral argument in Mullin v. Doe, a case involving Haitian nationals challenging the revocation of their deportation protections",
+        "Justice Sonia Sotomayor chose to say 's-hole country' rather than the full word when referencing the same Trump quote earlier in the argument",
+        "The Supreme Court's Guide for Counsel outlines specific protocols including that only the Chief Justice is addressed as 'Mr.' while others are called 'Justice [Last Name]' or 'Your Honor'",
+        "Attorneys are required to cease talking immediately when a justice interrupts them, even mid-sentence, and must never interrupt a justice who is speaking",
+        "The Guide for Counsel advises attorneys uncertain of a justice's name to use 'Your Honor' rather than risk addressing them by the wrong name"
       ],
-      "themes": [
-        "supreme court",
-        "legal procedure",
+      "topics": [
+        "Supreme Court",
         "oral arguments",
-        "judicial culture"
-      ],
-      "relevance": 5
+        "immigration",
+        "courtroom protocol"
+      ]
     },
     {
-      "source": "NPR News",
-      "title": "Timmy the humpback whale found dead off Danish coast",
-      "url": "https://www.npr.org/2026/05/16/g-s1-122490/timmy-humpback-whale-dead-stranded-rescue-denmark",
-      "published": "Sat, 16 May 2026 11:12:44 -0400",
-      "summarized": true,
-      "bullets": [
-        "Timmy, a humpback whale that was rescued in a high-profile and controversial operation after stranding repeatedly off Germany's Baltic Sea coast, has been found dead off a Danish island.",
-        "Danish authorities confirmed the deceased whale's identity two weeks after it was released following the rescue effort.",
-        "The whale's death raises questions about the effectiveness and ethics of the controversial marine rescue operation undertaken on its behalf."
+      "title": "Abortion pill to remain available by mail",
+      "url": "https://www.scotusblog.com/2026/05/abortion-pill-to-remain-available-by-mail/",
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "The Supreme Court granted requests from Danco Laboratories and GenBioPro to pause a 5th Circuit ruling that had reinstated a requirement that mifepristone be dispensed only in person.",
+        "Justices Clarence Thomas and Samuel Alito wrote dissenting opinions on the abortion pill ruling.",
+        "The court unanimously held in Montgomery v. Caribe Transport II that negligent hiring claims against freight brokers are not preempted by the Federal Aviation Administration Authorization Act.",
+        "The Department of Justice accused Yale School of Medicine of violating anti-discrimination laws by favoring Black and Hispanic applicants over white and Asian students.",
+        "Watchdog groups urged the Senate to investigate Justice Samuel Alito over oil stock conflicts, following his recusal from a Louisiana case due to financial interest in ConocoPhillips."
       ],
-      "themes": [
-        "wildlife",
-        "marine conservation",
-        "europe",
-        "environment"
+      "topics": [
+        "abortion",
+        "Supreme Court",
+        "mifepristone",
+        "judicial ethics"
+      ]
+    },
+    {
+      "title": "Republican legislators urge justices to leave Virginia Supreme Court's redistricting ruling in place",
+      "url": "https://www.scotusblog.com/2026/05/republican-legislators-urge-justices-to-leave-virginia-supreme-courts-redistricting-ruling-in-pl/",
+      "publication": "SCOTUSblog",
+      "date": "2026-05-15",
+      "key_claims": [
+        "The Virginia Supreme Court struck down a constitutional amendment allowing the General Assembly to enact a new congressional map, ruling the referendum invalid because proper procedures were not followed.",
+        "The Virginia Supreme Court found that the General Assembly passed the proposed constitutional amendment for the first time after more than 1.3 million votes had already been cast during the 2025 general election.",
+        "Voters had approved the constitutional amendment in April by a margin of around three percentage points before it was invalidated.",
+        "Republican legislators argue the Supreme Court should not intervene because Virginia Democrats never raised federal law claims before the state courts, only doing so when reaching the U.S. Supreme Court.",
+        "Virginia Gov. Abigail Spanberger has indicated Virginia will not use the new 2026 congressional map in upcoming elections, making the point of no return for election preparations moot."
       ],
-      "relevance": 4
+      "topics": [
+        "redistricting",
+        "Virginia politics",
+        "Supreme Court",
+        "congressional maps"
+      ]
+    },
+    {
+      "title": "Supreme Court allows for access to abortion pill by mail for now",
+      "url": "https://www.scotusblog.com/2026/05/court-allows-for-access-to-abortion-pill-by-mail-for-now/",
+      "publication": "SCOTUSblog",
+      "date": "2026-05-14",
+      "key_claims": [
+        "The Supreme Court issued an order blocking a 5th Circuit ruling that had barred the mailing of mifepristone, allowing it to continue to be sent through the mail while litigation continues.",
+        "Justice Clarence Thomas dissented, arguing drug companies cannot be irreparably harmed by an order making it harder to 'commit crimes.'",
+        "Justice Samuel Alito dissented, calling the order 'remarkable' and arguing it undermines the Dobbs v. Jackson Women's Health Organization decision.",
+        "In 2024, the Supreme Court unanimously ruled that doctors and medical groups challenging FDA's mifepristone policies lacked standing to sue.",
+        "Louisiana sued to reinstate the in-person dispensing requirement, and the 5th Circuit ruled Louisiana has standing and that the in-person requirement should be restored while litigation continues."
+      ],
+      "topics": [
+        "abortion",
+        "mifepristone",
+        "Supreme Court",
+        "reproductive rights"
+      ]
+    },
+    {
+      "title": "The fact of the matter",
+      "url": "https://www.scotusblog.com/2026/05/the-fact-of-the-matter/",
+      "publication": "SCOTUSblog",
+      "date": "2026-05-14",
+      "key_claims": [
+        "The Supreme Court heard argument in a case involving a jury verdict finding that glyphosate, a key ingredient in Roundup, causes cancer, with Monsanto arguing the jury was not entitled to make such a finding given a federal agency's contrary determination.",
+        "Legislative facts (general facts about the world) are distinct from adjudicative facts (the specific who, what, where, and when of individual cases), and both types can arise in individual litigation.",
+        "There are no clear rules about when each available method for settling questions of legislative fact is appropriate, creating ambiguity in the judicial system.",
+        "Legislative facts can be decided by Congress based on rational speculation, by federal agencies through findings supported by substantial evidence, by the Supreme Court through amicus briefs and independent research, or by juries based on courtroom evidence.",
+        "Legislative facts play a significant role in Second Amendment litigation, including questions about the historical meaning of 'arms' in 1791."
+      ],
+      "topics": [
+        "Second Amendment",
+        "Supreme Court",
+        "legislative facts",
+        "Roundup/glyphosate litigation"
+      ]
     }
-  ]
+  ],
+  "articles_processed": 56
 }
