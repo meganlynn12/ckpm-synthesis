@@ -1,28 +1,9 @@
 {
-  "generated_at": "2026-05-16T15:25:05.254706+00:00",
-  "elapsed_seconds": 67.0,
+  "generated_at": "2026-05-16T15:41:32.717011+00:00",
+  "elapsed_seconds": 67.2,
   "article_count": 20,
-  "digest": "## Daily Digest\n\n---\n\n### Big Picture\n\nThe dominant thread across today's reading is the erosion of institutional credibility — whether through governments that enforce selectively, agencies that deny documented abuses, or summits that produce symbolism without substance. Simultaneously, the rules-based international order is under visible strain on multiple fronts: U.S. commitments to Taiwan are being treated as negotiable, Russia is sustaining its war machine despite sanctions, and a counterterrorism framework is being shaped by political loyalty rather than intelligence. Domestically, civil liberties, regulatory oversight, and electoral accountability are each being tested in ways that reveal the gap between stated principles and actual practice.\n\n---\n\n### Top Stories\n\n1. **Trump-Xi Summit (Onest Network, Days 1 & 2 + May 13 Briefing):** The most consequential story of the day — Trump's ambiguity on Taiwan arms sales and his failure to secure concrete deliverables hands Beijing a strategic win, potentially reshaping the U.S. deterrence posture in the Pacific at a moment of maximum leverage for China.\n\n2. **ICE Detaining U.S. Citizens (ProPublica):** The repeated detention of a documented American citizen, combined with senior DHS officials publicly denying such incidents are occurring, represents a simultaneous civil liberties failure and institutional dishonesty that the Supreme Court's \"apparent ethnicity\" framework has made legally defensible.\n\n3. **Children Harmed by Tear Gas During Deportation Operations (ProPublica):** Documented physical harm to dozens of children — including infants — during immigration enforcement, with no national standards governing chemical agent use and no federal tracking of injuries, makes this both an immediate humanitarian crisis and a governance failure.\n\n4. **Russia's Massive Drone-Missile Attack on Ukraine + Potential Nuclear Reactor Transfer to North Korea (Onest Network):** Taken together, these two stories reveal that Russia is not being meaningfully constrained — it is escalating conventionally against Ukraine while potentially transferring nuclear technology to Pyongyang, suggesting sanctions and diplomatic pressure have reached their practical limits.\n\n5. **Gorka Counterterrorism Strategy Ignores Far-Right Violence (ProPublica):** A formal national security document that inverts the FBI's own threat assessments for political reasons is not merely bad policy — it is an institutionalization of disinformation at the strategic level, with direct operational consequences for which threats receive resources and attention.\n\n---\n\n### Connections\n\nThe Trump administration's pattern of public denial in the face of documented contrary evidence — ICE officials claiming no citizens have been wrongly detained while two were held that same week, DHS defending tear-gas use as targeted while ProPublica documented infant exposure, Trump claiming Iran was \"crushed\" while intelligence shows 70% of its missile stockpile intact — suggests a governing style in which official narrative is systematically decoupled from operational reality. Separately, both the Oregon healthcare oversight story and the Colorado marijuana regulation story reveal the same structural failure: laws with significant regulatory authority on paper that have been rendered toothless by industry capture and political deference, a pattern that calls into question whether progressive regulatory innovation at the state level can survive contact with the industries it targets. Finally, the Bill Cassidy reelection story and the Vilseck troop withdrawal anxiety both illustrate how Trump's leverage operates through credible threat rather than action — the uncertainty itself is the instrument, whether applied to Republican senators calculating their political survival or German towns calculating their economic one.",
+  "digest": "## Daily Digest — May 15, 2026\n\n---\n\n### Big Picture\n\nAmerican power is under simultaneous stress at home and abroad: Trump's China visit is reshaping the foundational assumptions of U.S. foreign policy on Taiwan, trade, and deterrence, while domestically, federal authority is being wielded selectively—aggressively against immigrants and political opponents, permissively toward industry and far-right actors. Beneath both threads runs a common logic of institutional erosion, where formal rules and oversight mechanisms exist on paper but are either captured, ignored, or weaponized for partisan ends.\n\n---\n\n### Top Stories\n\n1. **Trump in China (Days 1 & 2) + Global Briefing May 15** — Trump's Beijing visit may represent the most consequential foreign policy shift of his second term: by declining to publicly defend Taiwan, delaying a $13 billion arms package, and allowing Beijing to set the strategic frame as \"managed competition,\" the U.S. appears to be treating its most explosive security commitment as a negotiating variable rather than settled doctrine.\n\n2. **ICE Detaining U.S. Citizens (ProPublica)** — The repeated detention of a Florida-born U.S. citizen whose government-issued ID was dismissed by agents—while senior DHS officials publicly denied such incidents were occurring—is not an administrative error story; it is a civil liberties and institutional accountability crisis playing out in real time.\n\n3. **Children Harmed by Tear Gas During Deportation Campaign (ProPublica)** — At least 79 children physically harmed by federal use of chemical agents, with no national standard governing their use and no tracking system for follow-up, represents a documented pattern of state violence against minors that has received insufficient mainstream attention relative to its severity.\n\n4. **Gorka Counterterrorism Strategy Omits Far-Right Threat (ProPublica)** — A national counterterrorism blueprint that ignores the FBI's own top-ranked domestic threat while elevating political opponents of the administration to the level of al-Qaida is not a policy disagreement—it is the formalization of political targeting within the national security apparatus.\n\n5. **Russia's Drone-Missile Attack on Ukraine + Special Tribunal Progress (ONEST May 15)** — Russia deploying newly manufactured missiles despite sanctions, simultaneous with 36 nations advancing a special aggression tribunal, captures the central tension of the Ukraine conflict: the international legal and diplomatic architecture is strengthening while the military and economic pressure on Russia remains demonstrably insufficient.\n\n---\n\n### Connections\n\nThe most striking through-line today is the gap between formal institutional authority and actual institutional function: Oregon has a law to block harmful healthcare mergers and has never used it; Colorado has a marijuana regulatory system riddled with fraudulent data its own officials privately admit is broken; ICE has legal constraints on detention that agents openly disregard; and the U.S. has a Taiwan defense posture that the president himself is actively undermining in real time. Separately, the Selma veteran watching tear gas used against children and the ProPublica data on 79 harmed minors sit in direct tension with the Gorka counterterrorism document's studied silence on state-adjacent violence—the administration's threat taxonomy criminalizes dissent while exempting its own enforcement conduct from scrutiny. Finally, Trump's unverified claims of Boeing and agricultural deals in Beijing rhyme structurally with his claim that Iran's military was \"crushed,\" while intelligence shows Iran retains 70 percent of its missile stockpile—a president whose public assertions on both trade and military outcomes consistently outrun confirmable facts is a compounding foreign",
   "articles": [
-    {
-      "source": "ProPublica",
-      "title": "Why Have Immigration Agents Detained This American Citizen Three Times?",
-      "url": "https://www.propublica.org/article/immigration-leo-garcia-venegas-arrests-detentions-citizens-ice-dhs",
-      "published": "Fri, 15 May 2026 11:00:00 +0000",
-      "summarized": true,
-      "bullets": [
-        "U.S. citizen Leonardo Garcia Venegas, a Latino construction worker in Alabama, has been detained by immigration agents three times despite presenting a valid REAL ID each time, and his ongoing federal lawsuit against the Trump administration has not stopped the detentions.",
-        "Senior ICE and DHS officials publicly denied at a border security conference that any U.S. citizens have been mistakenly detained, even as two citizens—Garcia Venegas and a Bronx teenager—were held the same week those denials were made.",
-        "The repeated stops reflect a legal framework endorsed by Supreme Court Justice Kavanaugh permitting immigration stops based partly on 'apparent ethnicity,' job, and language, raising serious civil liberties concerns about racial profiling of American citizens."
-      ],
-      "themes": [
-        "immigration enforcement",
-        "civil rights",
-        "racial profiling",
-        "trump administration"
-      ],
-      "relevance": 9
-    },
     {
       "source": "Onest Network",
       "title": "ONEST Global Briefing — May 15, 2026",
@@ -30,9 +11,9 @@
       "published": "Sat, 16 May 2026 03:03:45 GMT",
       "summarized": true,
       "bullets": [
-        "President Trump declined to publicly commit to defending Taiwan after meeting with Xi Jinping, while also signaling uncertainty about a major arms sale, raising concerns that U.S. deterrence posture may be perceived as a bargaining chip rather than settled policy.",
-        "Russia launched one of its largest recent attacks on Ukraine using over 1,560 drones and 56 missiles, with evidence suggesting continued missile production despite international sanctions, highlighting the limits of air defense under mass-wave assaults.",
-        "Thirty-six states and the EU signed an agreement advancing the Special Tribunal for the Crime of Aggression against Ukraine, moving the legal mechanism toward full operation since the ICC lacks jurisdiction over this specific charge."
+        "President Trump declined to publicly commit to defending Taiwan and expressed uncertainty about a major arms sale to the island during his Beijing visit, raising concerns that U.S. policy toward Taiwan may be treated as a bargaining chip with China rather than settled doctrine.",
+        "Russia launched one of its largest recent attacks on Ukraine using over 1,560 drones and 56 missiles, with evidence suggesting newly manufactured missiles reached the battlefield despite international sanctions, highlighting ongoing gaps in sanctions enforcement.",
+        "A special tribunal for Russia's crime of aggression against Ukraine moved closer to launch after 36 states and the EU signed a foundational agreement in Chișinău, filling a jurisdictional gap left by the International Criminal Court."
       ],
       "themes": [
         "us-china relations",
@@ -49,15 +30,15 @@
       "published": "Thu, 14 May 2026 18:49:58 GMT",
       "summarized": true,
       "bullets": [
-        "China strategically placed Taiwan at the center of Day 1 talks, with Xi warning that mishandling the issue could lead to 'clashes and even conflicts,' while Trump conspicuously avoided the topic publicly.",
-        "Beijing appears to be leveraging Trump's desire for visible trade wins — including Boeing aircraft, energy, and agricultural purchases — to extract concessions on Taiwan arms sales and establish a new 'strategic stability' framework that could constrain future U.S. pressure on China.",
-        "Concrete deliverables from Day 1 were thin despite the warm optics, with China's Iran pledge costing Beijing little since it doesn't officially supply weapons anyway, and trade announcements remaining vague beyond beef export license approvals."
+        "China used Trump's first day in Beijing to firmly establish Taiwan as the central issue in U.S.-China relations, with Xi warning that mishandling it could lead to direct conflict between the two nations.",
+        "Trump focused publicly on trade wins—Boeing aircraft, energy, beef, and agricultural purchases—while notably avoiding Taiwan questions and having already delayed a $13 billion arms package to Taiwan ahead of the visit.",
+        "Beijing may have secured a strategic advantage by framing the visit around a new 'constructive strategic stability' baseline, potentially making future U.S. pressure on China appear as a violation of mutually endorsed stability."
       ],
       "themes": [
         "us-china relations",
         "taiwan",
         "trade policy",
-        "geopolitics"
+        "diplomacy"
       ],
       "relevance": 9
     },
@@ -68,17 +49,36 @@
       "published": "Wed, 13 May 2026 19:27:32 GMT",
       "summarized": true,
       "bullets": [
-        "President Trump arrived in Beijing for high-stakes talks with Xi Jinping covering trade, Taiwan, the Iran war, and AI, accompanied by executives from Boeing, Goldman Sachs, Apple, and SpaceX.",
-        "U.S. officials believe Chinese firms have been secretly plotting arms sales to Iran routed through third countries, adding significant pressure to the already tense U.S.-China summit.",
-        "Despite Trump's public claim that Iran's military was 'crushed,' intelligence reports indicate Iran retains roughly 70 percent of its prewar missile stockpile and has restored access to 30 of its 33 missile sites near the Strait of Hormuz, where U.S. operations have now cost $29 billion."
+        "President Trump arrived in China for high-stakes talks with Xi Jinping covering trade, Taiwan, Iran, AI safety, and allegations that Chinese firms secretly plotted arms sales to Iran.",
+        "U.S. military operations against Iran have cost $29 billion, yet intelligence reports indicate Iran retains roughly 70 percent of its prewar missile stockpile and has restored access to 30 of its 33 missile sites near the Strait of Hormuz, contradicting Trump's claim that Iran's military was 'crushed.'",
+        "Britain joined a multinational defensive mission in the Strait of Hormuz with warships, jets, and mine-hunting equipment as the conflict increasingly threatens global shipping, energy flows, and maritime security beyond direct military confrontation."
       ],
       "themes": [
         "us-china relations",
         "iran conflict",
         "strait of hormuz",
-        "trade policy"
+        "geopolitics"
       ],
       "relevance": 9
+    },
+    {
+      "source": "ProPublica",
+      "title": "Why Have Immigration Agents Detained This American Citizen Three Times?",
+      "url": "https://www.propublica.org/article/immigration-leo-garcia-venegas-arrests-detentions-citizens-ice-dhs",
+      "published": "Fri, 15 May 2026 11:00:00 +0000",
+      "summarized": true,
+      "bullets": [
+        "Leonardo Garcia Venegas, a U.S. citizen born in Florida, has been detained three times by immigration agents who repeatedly dismissed his Alabama REAL ID as proof of citizenship, leaving him demoralized and considering relocating to Mexico.",
+        "Senior ICE and DHS officials publicly denied that U.S. citizens have been mistakenly detained, even as Garcia Venegas and a Bronx teenager were held the same week those denials were made at a border security conference.",
+        "The repeated stops reflect a broader legal framework shaped by a Supreme Court ruling allowing agents to factor in 'apparent ethnicity,' occupation, and language during immigration stops, raising serious constitutional concerns about racial profiling."
+      ],
+      "themes": [
+        "immigration enforcement",
+        "civil liberties",
+        "racial profiling",
+        "trump administration"
+      ],
+      "relevance": 8
     },
     {
       "source": "ProPublica",
@@ -87,15 +87,15 @@
       "published": "Fri, 15 May 2026 10:00:00 +0000",
       "summarized": true,
       "bullets": [
-        "Colorado's Marijuana Enforcement Division privately admitted that illegally substituted hemp products may comprise roughly half the state's marijuana market, far exceeding what has been publicly disclosed.",
-        "The state's 'seed-to-sale' tracking system is riddled with fraudulent data, including transactions recorded at pennies per pound, costing millions in lost tax revenue and undermining regulatory oversight.",
-        "A bipartisan bill to overhaul marijuana safety testing and transfer oversight to the public health department collapsed after industry infighting over a potency tax and opposition from Governor Polis, leaving the problem unaddressed."
+        "Colorado's Marijuana Enforcement Division privately admitted that illegally substituted hemp products may constitute roughly half the state's marijuana market, far exceeding what regulators have publicly acknowledged.",
+        "The state's seed-to-sale tracking system is riddled with fraudulent data, including nominal sales reported at pennies per pound, costing the state millions in lost excise tax revenue and leaving only 26 investigators to oversee 2,100 businesses.",
+        "A reform bill that would have overhauled marijuana testing and consumer protections collapsed due to industry infighting over a potency tax provision and opposition from Governor Polis, leaving the illegal hemp problem unaddressed."
       ],
       "themes": [
-        "marijuana regulation",
-        "drug policy",
+        "cannabis regulation",
         "consumer safety",
-        "regulatory failure"
+        "regulatory failure",
+        "colorado politics"
       ],
       "relevance": 8
     },
@@ -106,14 +106,14 @@
       "published": "Fri, 15 May 2026 09:00:00 +0000",
       "summarized": true,
       "bullets": [
-        "Charles Mauldin, a 78-year-old civil rights veteran who was tear-gassed at the 1965 'Bloody Sunday' march in Selma, draws direct parallels to ProPublica's investigation finding at least 79 children physically harmed by tear gas and pepper spray during Trump's immigration enforcement operations.",
-        "ProPublica's investigation documented severe cases including a 6-month-old who briefly stopped breathing and children developing chronic respiratory issues after repeated exposure to chemical agents used near ICE facilities, with DHS defending its use of force as targeted at 'dangerous rioters' rather than children.",
-        "Experts warn there is no national standard governing law enforcement use of tear gas and pepper spray, no systematic tracking of harm caused, and limited research on long-term consequences, while pediatric and trauma specialists caution that exposure can cause lasting physical and psychological damage in children."
+        "Charles Mauldin, a survivor of the 1965 'Bloody Sunday' march in Selma, draws a direct parallel between being tear-gassed by police as a teenager and the current use of tear gas and pepper spray by federal immigration officers against children in 2026.",
+        "A ProPublica investigation found at least 79 children have been physically harmed by tear gas and pepper spray during Trump's immigration enforcement campaign, with cases ranging from a 6-month-old who briefly stopped breathing to teenagers suffering severe asthma attacks, often in or near their homes.",
+        "Medical and child welfare experts warn that both the physical and psychological effects of tear gas exposure on children can be long-lasting, while there is currently no national standard governing federal use of these weapons and no system to track or follow up with those harmed."
       ],
       "themes": [
         "immigration enforcement",
         "civil rights",
-        "police use of force",
+        "trump administration",
         "public health"
       ],
       "relevance": 8
@@ -125,15 +125,15 @@
       "published": "Thu, 14 May 2026 15:55:00 +0000",
       "summarized": true,
       "bullets": [
-        "Sebastian Gorka's new 16-page counterterrorism strategy omits far-right violence entirely despite FBI repeatedly identifying it as the leading domestic threat, while elevating militant leftists to the same threat level as al-Qaida.",
-        "Analysts and former officials criticize the document as politically motivated, noting it mentions Biden seven times, praises Trump extensively, and aligns threat priorities with the president's political agenda rather than intelligence assessments.",
-        "Several of the strategy's stated objectives are undercut by the administration's own actions, including pardoning a convicted drug trafficker, cutting national security workforce, and conducting airstrikes that fuel anti-American sentiment abroad."
+        "Sebastian Gorka's new 16-page counterterrorism strategy omits far-right violent extremism entirely despite the FBI repeatedly identifying it as the leading domestic threat, while elevating militant leftists to the level of global terror networks like al-Qaida.",
+        "Analysts and former officials criticize the document as politically motivated, noting it praises Trump extensively, aligns threat categories with his political agenda, and contains language echoing debunked right-wing conspiracy theories rather than intelligence assessments.",
+        "The strategy is undercut by internal contradictions, including touting counterterrorism goals while Trump has pardoned a major drug trafficker, slashed national security agency staffing, and pursued policies that fuel anti-American sentiment abroad."
       ],
       "themes": [
         "national security",
         "counterterrorism",
-        "domestic extremism",
-        "trump administration"
+        "trump administration",
+        "domestic extremism"
       ],
       "relevance": 8
     },
@@ -144,9 +144,9 @@
       "published": "Thu, 14 May 2026 09:00:00 +0000",
       "summarized": true,
       "bullets": [
-        "Oregon's 2021 law gave the state unprecedented authority to block healthcare mergers and acquisitions, but in five years it has never formally rejected a single deal or issued any fines despite reviewing 65 transactions.",
-        "At least three of the nine deals subject to follow-up reviews resulted in outcomes the law was designed to prevent, including rural hospice closures and the collapse of OB-GYN services in Corvallis after UnitedHealth Group's Optum subsidiary acquired the local clinic.",
-        "While Oregon officials defend the program as a national model that has imposed conditions on 15 deals and deterred two high-profile transactions, critics say lax early enforcement and deference to industry claims have undermined the law's effectiveness."
+        "Oregon's first-in-the-nation 2021 law granting the state power to block healthcare mergers and acquisitions has never been used to formally reject a single deal in five years, despite evaluating 65 transactions.",
+        "At least three of the nine deals that received follow-up reviews resulted in outcomes the law was designed to prevent, including hospice closures and reduced OB-GYN services following acquisitions by UnitedHealth Group and private equity firm Clayton, Dubilier & Rice.",
+        "Despite Oregon's mixed track record, five other states passed similar healthcare consolidation oversight laws in the past year, with Maine and New Mexico adopting legislation modeled on Oregon's approach."
       ],
       "themes": [
         "healthcare consolidation",
@@ -163,9 +163,9 @@
       "published": "Fri, 15 May 2026 15:22:11 GMT",
       "summarized": true,
       "bullets": [
-        "Trump's second day in China featured symbolic gestures like a rare visit to Zhongnanhai and a three-hour lunch with Xi, but produced no confirmed major trade deals despite Trump's public claims of 'fantastic' agreements.",
-        "Beijing's primary strategic goal appears to be locking Washington into a framework of 'managed competition with limits,' using the summit's positive optics to project China as a stable, open global power.",
-        "Critical unresolved issues—including Taiwan arms sales, rare earths, semiconductor restrictions, AI competition, and the expiring trade truce—were conspicuously absent from public deliverables, revealing a gap between summit atmospherics and substantive progress."
+        "Trump's second day in China featured highly symbolic diplomacy at Zhongnanhai, including a three-hour meeting with Xi and a carefully curated lunch, but produced few confirmed concrete agreements.",
+        "Trump publicly claimed major deals including 200 Boeing aircraft purchases and agricultural agreements, but Chinese officials have not confirmed these announcements and the trade truce still lacks an extension.",
+        "Beijing's strategic goal appears to be locking the U.S. into a 'managed competition' framework under the banner of 'strategic stability,' while critical issues like Taiwan, rare earths, and semiconductor restrictions remain publicly unresolved."
       ],
       "themes": [
         "us-china relations",
@@ -182,14 +182,14 @@
       "published": "Wed, 13 May 2026 01:58:36 GMT",
       "summarized": true,
       "bullets": [
-        "A CNN investigation suggests the Russian cargo ship Ursa Major, which sank off Spain in December 2024 after explosions, may have been secretly carrying components for two submarine nuclear reactors potentially bound for North Korea.",
-        "Russia officially claimed the ship carried ordinary, non-dangerous cargo and blamed a 'terrorist attack' for the sinking, but investigators point to suspicious cargo indicators and large unidentified containers that contradict the official account.",
-        "If confirmed, the alleged transfer would represent a significant escalation of Russia–North Korea military-technological cooperation beyond conventional weapons, with major implications for regional security, sanctions enforcement, and Northeast Asian stability."
+        "A CNN investigation suggests the Russian cargo ship Ursa Major, which sank off Spain in December 2024 amid mysterious explosions, may have been secretly carrying components for two submarine nuclear reactors.",
+        "The alleged destination for the reactor components was North Korea, which would represent a dramatic escalation of the deepening military and technological cooperation between Russia and North Korea since the Ukraine invasion.",
+        "The full cargo, cause of sinking, and intended destination remain unconfirmed by independent authorities, but if verified, the incident would carry major implications for regional security, nuclear proliferation, and sanctions enforcement."
       ],
       "themes": [
-        "russia",
-        "north korea",
         "nuclear proliferation",
+        "russia-north korea",
+        "maritime security",
         "geopolitics"
       ],
       "relevance": 8
@@ -201,15 +201,15 @@
       "published": "Sat, 16 May 2026 08:38:33 -0400",
       "summarized": true,
       "bullets": [
-        "Louisiana Senator Bill Cassidy, one of seven Republican senators who voted to convict Donald Trump after the January 6th Capitol attack, is now facing a reelection campaign that will serve as a key test of Trump's influence over the GOP.",
-        "Cassidy's reelection bid is being closely watched as a bellwether for whether Republican voters will punish members of their own party who broke with Trump on the impeachment vote.",
-        "The race highlights the broader tension within the Republican Party between loyalty to Trump and the political independence of elected officials who defied him."
+        "Louisiana Senator Bill Cassidy, one of only seven Republican senators who voted to convict Donald Trump during his second impeachment trial, is now facing a reelection campaign that will test whether that vote ends his political career.",
+        "Cassidy's race is being closely watched as a barometer of Trump's continued influence over the Republican Party and whether GOP voters will punish members who broke with him.",
+        "The outcome of this Senate race could have broader implications for intra-party loyalty, political accountability, and the future direction of the Republican Party heading into the next election cycle."
       ],
       "themes": [
         "republican party",
-        "trump impeachment",
+        "trump influence",
         "2026 election",
-        "gop politics"
+        "senate politics"
       ],
       "relevance": 7
     },
@@ -221,8 +221,8 @@
       "summarized": true,
       "bullets": [
         "The Supreme Court unanimously ruled that the Federal Aviation Administration Authorization Act of 1994 does not preempt state negligent-hiring lawsuits against freight brokers, because a safety exception in the law preserves states' authority to regulate motor vehicle safety.",
-        "The case stemmed from a 2017 accident in which Shawn Montgomery lost his leg after a tractor-trailer hired by broker C.H. Robinson struck his stopped vehicle, with allegations that the carrier had a 'conditional' federal safety rating at the time of hiring.",
-        "Justice Kavanaugh's concurrence cautioned that the ruling should not expose brokers to routine liability, emphasizing that brokers who exercise reasonable care in selecting reputable carriers should successfully defend against state tort claims."
+        "The case arose from a 2017 accident in which a truck hired by broker C.H. Robinson struck injured motorist Shawn Montgomery, whose lawsuit alleged the broker ignored federal regulators' 'conditional' safety rating of the carrier.",
+        "Justice Kavanaugh's concurrence cautioned that the ruling is not a broad expansion of broker liability, emphasizing that brokers acting reasonably in selecting reputable carriers should still prevail against such tort claims."
       ],
       "themes": [
         "supreme court",
@@ -239,15 +239,15 @@
       "published": "Sat, 16 May 2026 06:00:00 -0400",
       "summarized": true,
       "bullets": [
-        "Residents of Vilseck, a small Bavarian town in Germany, are anxious over President Trump's threats to withdraw approximately 5,000 U.S. troops stationed there.",
-        "The local economy is heavily dependent on the U.S. military presence, with American personnel and their families providing significant income to local businesses.",
-        "Beyond economic ties, decades of coexistence have forged deep personal friendships between German townspeople and American military families, making a potential withdrawal both a financial and emotional concern."
+        "Residents of Vilseck, a small Bavarian town, are anxious about President Trump's threats to withdraw approximately 5,000 U.S. troops stationed there.",
+        "The local economy is heavily dependent on U.S. military personnel and their families, who provide significant income to local businesses and services.",
+        "Beyond economics, decades of coexistence have forged deep personal friendships between American military families and German townspeople, making a potential withdrawal both a financial and emotional concern."
       ],
       "themes": [
         "us foreign policy",
         "nato",
-        "trump",
-        "us military"
+        "transatlantic relations",
+        "military"
       ],
       "relevance": 6
     },
@@ -258,9 +258,9 @@
       "published": "Sat, 16 May 2026 03:03:47 +0000",
       "summarized": true,
       "bullets": [
-        "The Supreme Court unanimously ruled in Jules v. Andre Balazs Properties that federal courts retain jurisdiction to confirm or vacate arbitration awards when the underlying case was originally filed in federal court.",
-        "Justice Sotomayor's opinion clarified that the 2022 Badgerow ruling—which barred freestanding FAA actions in federal court—does not apply when a pre-existing federal lawsuit already established jurisdiction before arbitration occurred.",
-        "The decision resolves a practical gap in arbitration law by confirming that federal jurisdiction persists through the arbitration process and covers post-arbitration motions tied to claims still technically pending before the court."
+        "The Supreme Court unanimously ruled in Jules v. Andre Balazs Properties that federal courts retain jurisdiction to confirm or vacate arbitration awards in cases that were originally filed in federal court.",
+        "The decision clarifies the boundary set by the 2022 Badgerow ruling, which barred freestanding FAA suits from invoking federal jurisdiction, by distinguishing cases where federal jurisdiction already existed from the outset.",
+        "Justice Sotomayor's opinion holds that federal jurisdiction over the original dispute persists through arbitration proceedings, meaning courts can act on post-arbitration motions as part of the still-pending original case."
       ],
       "themes": [
         "supreme court",
@@ -278,14 +278,14 @@
       "summarized": true,
       "bullets": [
         "The U.S. Supreme Court rejected Virginia Democrats' emergency request to reinstate a new congressional map drawn to favor Democrats, issuing a brief unsigned order with no noted dissents.",
-        "The Virginia Supreme Court had previously struck down the map after ruling the Legislature failed to follow proper constitutional procedures, specifically that the amendment was first approved after early voting had already begun in the 2025 general election.",
-        "The practical impact of the Supreme Court's denial is limited, as Governor Abigail Spanberger had already announced the state would not use the new map for the 2026 midterm elections."
+        "The Virginia Supreme Court had already struck down the map by ruling that the state legislature violated procedural requirements for constitutional amendments, specifically by approving the amendment after early voting had already begun in the 2025 general election.",
+        "The practical impact of the Supreme Court's denial is limited, as Governor Abigail Spanberger had already indicated Virginia would not use the new map for the 2026 elections regardless of the court's decision."
       ],
       "themes": [
         "supreme court",
         "redistricting",
         "virginia politics",
-        "2026 elections"
+        "2026 midterms"
       ],
       "relevance": 6
     },
@@ -296,14 +296,14 @@
       "published": "Sat, 16 May 2026 07:19:25 -0400",
       "summarized": true,
       "bullets": [
-        "In Sri Lanka, escalating conflict between farmers and wild elephants is resulting in fatal encounters for both humans and the animals.",
-        "Farmers whose crops are destroyed by elephants are increasingly retaliating, worsening an already tense coexistence on the island.",
-        "The crisis highlights a broader challenge of balancing cultural reverence for elephants with the economic survival needs of rural farming communities."
+        "In Sri Lanka, escalating conflict between wild elephants and farmers is resulting in fatal encounters on both sides as elephants raid agricultural land for food.",
+        "The tension reflects a broader human-wildlife conflict driven by habitat loss, population growth, and shrinking natural corridors that force elephants into farming communities.",
+        "Despite deep cultural and religious reverence for elephants in Sri Lanka, desperate farmers are increasingly retaliating against the animals to protect their livelihoods."
       ],
       "themes": [
-        "wildlife conservation",
+        "wildlife conflict",
         "agriculture",
-        "human-animal conflict",
+        "conservation",
         "sri lanka"
       ],
       "relevance": 5
@@ -315,15 +315,15 @@
       "published": "Sat, 16 May 2026 05:00:00 -0400",
       "summarized": true,
       "bullets": [
-        "Some of the most selective U.S. colleges are working to increase rural student enrollment, supported by significant philanthropic funding from a rural alumnus of the University of Chicago.",
-        "While outreach efforts have successfully boosted application numbers from rural students, converting those applications into actual enrollment remains a persistent challenge.",
-        "The initiative highlights a broader equity gap in higher education, where rural students are underrepresented at elite institutions despite efforts to diversify the student body geographically."
+        "Selective universities are working to increase rural student enrollment, supported by significant philanthropic funding from a rural alumnus of the University of Chicago.",
+        "While outreach efforts have succeeded in boosting rural student applications, converting those applications into actual enrollment remains a persistent challenge.",
+        "The initiative highlights broader equity gaps in higher education access, particularly the underrepresentation of rural communities at elite institutions."
       ],
       "themes": [
         "higher education",
-        "rural policy",
-        "education equity",
-        "college access"
+        "rural access",
+        "college admissions",
+        "education equity"
       ],
       "relevance": 5
     },
@@ -334,15 +334,15 @@
       "published": "Fri, 15 May 2026 18:09:54 +0000",
       "summarized": true,
       "bullets": [
-        "Justice Thomas argued that the Declaration of Independence's ideals of equality provide a unifying national foundation more accessible to ordinary Americans than legal doctrines like originalism or textualism.",
-        "Thomas expressed nostalgia for the earlier Supreme Court he joined in 1991, describing deeper collegial friendships among justices who had lived through the Depression and military service, contrasting those bonds with his relationships with the four most recently confirmed justices.",
-        "Thomas discussed his deliberate effort to hire law clerks from non-Ivy League and flagship state law schools, emphasizing his preference for candidates from working-class backgrounds over elite pedigrees."
+        "Justice Thomas argued that the Declaration of Independence's self-evident truths about equality provide more accessible common ground for Americans than legal frameworks like textualism or originalism, which he said alienate most people.",
+        "Thomas expressed nostalgia for the earlier Supreme Court he joined in 1991, saying friendships among justices were 'much, much deeper' then and that his colleagues from the 'greatest generation' prioritized the institution over themselves.",
+        "Thomas credited the pandemic-era 'round robin' questioning format with bringing order to oral arguments, explaining he had previously avoided questioning because he found the constant interruptions rude."
       ],
       "themes": [
         "supreme court",
         "judicial culture",
         "constitutional law",
-        "clarence thomas"
+        "american values"
       ],
       "relevance": 5
     },
@@ -353,15 +353,15 @@
       "published": "Fri, 15 May 2026 13:30:00 +0000",
       "summarized": true,
       "bullets": [
-        "The Supreme Court's Guide for Counsel establishes strict protocols for oral arguments, including specific titles for justices, rules against interrupting, and a preference for direct 'yes or no' answers over lengthy preambles.",
-        "Swearing is not explicitly prohibited in court, as demonstrated when attorney Geoffrey Pipoly directly quoted Trump's 'shithole country' remark, though Justice Sotomayor herself softened the same quote to 's-hole country' earlier in the argument.",
-        "The guide discourages attorneys from attempting humor or familiarity with justices, though a few prominent advocates like Lisa Blatt and Paul Clement are known exceptions who successfully bend this norm."
+        "The Supreme Court's Guide for Counsel establishes strict protocols for oral arguments, including specific titles for justices, rules against interrupting, and directives to answer questions directly with 'yes' or 'no' when possible.",
+        "Chief Justice Roberts actively enforces courtroom decorum, including reprimanding Solicitor General Sauer for speaking over Justice Jackson, though Sauer has developed a reputation for repeatedly interrupting despite corrections.",
+        "While the guide discourages humor and casual familiarity, a handful of advocates like Lisa Blatt and Paul Clement are notable exceptions who successfully deploy wit before the court, and swearing is permissible when directly quoting relevant source material."
       ],
       "themes": [
         "supreme court",
         "legal procedure",
         "oral arguments",
-        "judicial norms"
+        "judicial culture"
       ],
       "relevance": 5
     },
@@ -372,14 +372,15 @@
       "published": "Sat, 16 May 2026 11:12:44 -0400",
       "summarized": true,
       "bullets": [
-        "Timmy, a humpback whale that was rescued in a high-profile operation after repeatedly stranding off Germany's Baltic Sea coast, has been found dead off a Danish island.",
-        "Danish authorities confirmed the deceased whale's identity just two weeks after it was released following what was described as a spectacular and controversial rescue effort.",
-        "The whale's death raises questions about the effectiveness and ethics of the rescue intervention, which had already drawn significant public and scientific attention."
+        "Timmy, a humpback whale that was rescued in a high-profile and controversial operation after stranding repeatedly off Germany's Baltic Sea coast, has been found dead off a Danish island.",
+        "Danish authorities confirmed the deceased whale's identity two weeks after it was released following the rescue effort.",
+        "The whale's death raises questions about the effectiveness and ethics of the controversial marine rescue operation undertaken on its behalf."
       ],
       "themes": [
         "wildlife",
-        "environment",
-        "animal rescue"
+        "marine conservation",
+        "europe",
+        "environment"
       ],
       "relevance": 4
     }
