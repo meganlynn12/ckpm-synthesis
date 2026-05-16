@@ -27,8 +27,8 @@ EXTRACTION_PROMPT = """Extract the following from this article and return as JSO
   "url": "article url",
   "publication": "publication name",
   "date": "publication date if available, else null",
-  "key_claims": ["3-5 specific factual claims or arguments made in the article"],
-  "topics": ["2-4 topic tags, e.g. 'Iran War', 'Trump approval', 'redistricting', 'economy'"]
+  "key_claims": ["3 specific factual claims or arguments made in the article"],
+  "topics": ["2-3 topic tags, e.g. 'Iran War', 'Trump approval', 'redistricting', 'economy'"]
 }}
 
 Article metadata:
@@ -47,7 +47,6 @@ def extract_article(article: dict) -> dict | None:
     if not content or len(content.strip()) < 100:
         return None
 
-    # Truncate very long articles to save tokens
     content_truncated = content[:4000]
 
     prompt = EXTRACTION_PROMPT.format(
@@ -66,7 +65,6 @@ def extract_article(article: dict) -> dict | None:
             messages=[{"role": "user", "content": prompt}],
         )
         raw = response.content[0].text.strip()
-        # Strip markdown fences if present
         if raw.startswith("```"):
             raw = raw.split("```")[1]
             if raw.startswith("json"):
@@ -89,11 +87,11 @@ SYNTHESIS_PROMPT = """Below is today's extracted news intelligence from multiple
 
 Your task:
 1. Identify 4-6 major themes that cut across these sources (e.g. "Iran War & U.S. Foreign Policy", "Trump Domestic Corruption", "2026 Midterms & Redistricting", "Economy & Markets", "Democracy & Rule of Law", "Tech & AI", "World Affairs")
-2. For each theme, write a 2-4 paragraph synthesized executive briefing in analytical prose
+2. For each theme, write a 2-3 paragraph synthesized executive briefing in analytical prose
 3. Cite sources inline using this exact format: [Publication: Title](url)
 4. Each theme should synthesize across multiple sources where possible
 5. Be specific — use names, numbers, claims from the source material
-6. End with a "Big Picture" theme that connects the day's major threads
+6. End with a "Big Picture" section connecting the day's major threads
 
 Return this JSON structure:
 {{
@@ -101,7 +99,7 @@ Return this JSON structure:
   "themes": [
     {{
       "theme": "Theme Name",
-      "briefing": "2-4 paragraphs of analytical prose with [inline citations](url)...",
+      "briefing": "2-3 paragraphs of analytical prose with [inline citations](url)...",
       "source_count": 3,
       "publications": ["Pub1", "Pub2"]
     }}
@@ -114,35 +112,58 @@ Today's extracted intelligence ({article_count} articles from {source_count} pub
 {extractions_json}"""
 
 
+def _trim_extractions(extractions: list[dict]) -> list[dict]:
+    """Trim extractions to reduce synthesis prompt size — 3 claims max, shorter topics."""
+    trimmed = []
+    for e in extractions:
+        trimmed.append({
+            "title": e.get("title", ""),
+            "url": e.get("url", ""),
+            "publication": e.get("publication", ""),
+            "key_claims": e.get("key_claims", [])[:3],
+            "topics": e.get("topics", [])[:2],
+        })
+    return trimmed
+
+
 def synthesize_briefing(extractions: list[dict], date: str) -> dict | None:
     """Phase 2: Synthesize all article extractions into a themed executive briefing."""
     if not extractions:
         return None
 
     publications = list(set(e.get("publication", "Unknown") for e in extractions))
+    trimmed = _trim_extractions(extractions)
 
     prompt = SYNTHESIS_PROMPT.format(
         date=date,
-        article_count=len(extractions),
+        article_count=len(trimmed),
         source_count=len(publications),
-        extractions_json=json.dumps(extractions, indent=2),
+        extractions_json=json.dumps(trimmed, indent=2),
     )
+
+    print(f"  [synthesize] Prompt size: ~{len(prompt)//4} tokens estimated")
 
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=4000,
+            max_tokens=8000,  # bumped from 4000 — themed briefings need room
             system=SYNTHESIS_SYSTEM,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = response.content[0].text.strip()
+        print(f"  [synthesize] Response size: ~{len(raw)//4} tokens estimated, stop_reason={response.stop_reason}")
+
         if raw.startswith("```"):
             raw = raw.split("```")[1]
             if raw.startswith("json"):
                 raw = raw[4:]
         return json.loads(raw.strip())
+    except json.JSONDecodeError as e:
+        print(f"  [synthesize] JSON parse error: {e}")
+        print(f"  [synthesize] Raw response (first 500 chars): {raw[:500]}")
+        return None
     except Exception as e:
-        print(f"  [synthesize] Synthesis failed: {e}")
+        print(f"  [synthesize] API error: {type(e).__name__}: {e}")
         return None
 
 
@@ -155,8 +176,6 @@ def generate_briefing(articles: list[dict], date: str) -> dict:
     Full pipeline:
       1. Extract key claims from each article (Phase 1)
       2. Synthesize into themed briefing (Phase 2)
-
-    Returns a dict suitable for writing to content.json.
     """
     print(f"\n[summarizer] Phase 1: Extracting from {len(articles)} articles...")
     extractions = []
@@ -190,7 +209,6 @@ def generate_briefing(articles: list[dict], date: str) -> dict:
             "articles_processed": len(extractions),
         }
 
-    # Attach metadata
     briefing["articles_processed"] = len(extractions)
     briefing["articles_attempted"] = len(articles)
     briefing["publications"] = list(set(e.get("publication", "?") for e in extractions))
