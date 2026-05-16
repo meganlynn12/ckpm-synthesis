@@ -4,7 +4,7 @@ config.py — RSS source definitions for CKPM Content Aggregator
 All sources in FREE_RSS_SOURCES are publicly accessible without auth.
 Substack public feeds return full article content in content:encoded.
 
-PENDING sources (Gmail / Playwright) are defined but not yet wired in.
+PENDING sources (Playwright) are defined but not yet wired in.
 """
 
 # ---------------------------------------------------------------------------
@@ -36,35 +36,27 @@ FREE_RSS_SOURCES = [
     {"name": "G. Elliott Morris",       "url": "https://gelliottmorris.substack.com/feed"},
     {"name": "John Ellis",              "url": "https://substack.news-items.com/feed"},
     {"name": "Scott Galloway",          "url": "https://profgalloway.com/feed/"},
+    {"name": "Prof G Media (Monday Rage)", "url": "https://www.profgmedia.com/s/monday-rage/feed"},
     {"name": "Sabato's Crystal Ball",   "url": "https://crystalball.substack.com/feed"},
 
     # --- Free news RSS ---
-    # {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
+    {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
     {"name": "ProPublica", "url": "https://www.propublica.org/feeds/propublica/main"},
     {"name": "SCOTUSblog", "url": "https://www.scotusblog.com/feed/"},
 ]
 
 
 # ---------------------------------------------------------------------------
-# PENDING — Phase 2: Gmail ingestion
-# NYT, The Atlantic, MIT Technology Review (email newsletters)
-# ---------------------------------------------------------------------------
-
-GMAIL_SOURCES = [
-    {"name": "New York Times",          "sender": "nytdirect@nytimes.com"},
-    {"name": "The Atlantic",            "sender": "newsletters@theatlantic.com"},
-    {"name": "MIT Technology Review",   "sender": "newsletters@technologyreview.com"},
-]
-
-
-# ---------------------------------------------------------------------------
-# PENDING — Phase 3: Playwright scrapers
+# PENDING — Phase 2: Playwright scrapers
 # Paywalled sites requiring login or JS rendering
 # ---------------------------------------------------------------------------
 
 PLAYWRIGHT_SOURCES = [
-    {"name": "Wall Street Journal",  "url": "https://www.wsj.com"},
-    {"name": "The Economist",        "url": "https://www.economist.com"},
-    {"name": "Financial Times",      "url": "https://www.ft.com"},
-    {"name": "Foreign Affairs",      "url": "https://www.foreignaffairs.com"},
+    {"name": "New York Times",        "url": "https://www.nytimes.com"},
+    {"name": "The Atlantic",          "url": "https://www.theatlantic.com"},
+    {"name": "MIT Technology Review", "url": "https://www.technologyreview.com"},
+    {"name": "Wall Street Journal",   "url": "https://www.wsj.com"},
+    {"name": "The Economist",         "url": "https://www.economist.com"},
+    {"name": "Financial Times",       "url": "https://www.ft.com"},
+    {"name": "Foreign Affairs",       "url": "https://www.foreignaffairs.com"},
 ]
