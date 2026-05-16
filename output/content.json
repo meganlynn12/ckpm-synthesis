@@ -1,7 +1,188 @@
 {
-  "generated_at": null,
-  "elapsed_seconds": null,
-  "article_count": 0,
-  "digest": "",
-  "articles": []
+  "generated_at": "2026-05-16T15:02:06.735752+00:00",
+  "elapsed_seconds": 32.8,
+  "article_count": 20,
+  "digest": "No articles were successfully summarized today.",
+  "articles": [
+    {
+      "source": "NPR News",
+      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
+      "url": "https://www.npr.org/2026/05/16/g-s1-122486/louisiana-senate-cassidy-trump",
+      "published": "Sat, 16 May 2026 08:38:33 -0400",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "NPR News",
+      "title": "Elephants eat their crops. Farmers strike back. It's a war that's only getting worse",
+      "url": "https://www.npr.org/2026/05/16/g-s1-121654/elephants-farmers-crops-sri-lanka",
+      "published": "Sat, 16 May 2026 07:19:25 -0400",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "NPR News",
+      "title": "The townspeople of Vilseck, Germany, worry that Trump may pull out 5,000 U.S. troops",
+      "url": "https://www.npr.org/2026/05/16/nx-s1-5815881/trump-germany-withdrawal-nato-us-troops-vilseck",
+      "published": "Sat, 16 May 2026 06:00:00 -0400",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "NPR News",
+      "title": "Colleges got more rural students to apply. The challenge is getting them to attend",
+      "url": "https://www.npr.org/2026/05/16/nx-s1-5797420/selective-colleges-woo-rural-students",
+      "published": "Sat, 16 May 2026 05:00:00 -0400",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "NPR News",
+      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
+      "url": "https://www.npr.org/2026/05/16/nx-s1-5808979/louisiana-senate-cassidy-trump",
+      "published": "Sat, 16 May 2026 05:00:00 -0400",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "ProPublica",
+      "title": "Why Have Immigration Agents Detained This American Citizen Three Times?",
+      "url": "https://www.propublica.org/article/immigration-leo-garcia-venegas-arrests-detentions-citizens-ice-dhs",
+      "published": "Fri, 15 May 2026 11:00:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "ProPublica",
+      "title": "In a Private Meeting, Colorado Marijuana Regulators Acknowledge the Extent of Illegal Hemp Sales",
+      "url": "https://www.propublica.org/article/colorado-marijuana-regulators-meeting-illegal-hemp",
+      "published": "Fri, 15 May 2026 10:00:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "ProPublica",
+      "title": "At 17, He Was Tear-Gassed at Selma. At 78, He’s Watching Kids Tear-Gassed During Trump’s Deportation Campaign.",
+      "url": "https://www.propublica.org/article/charles-mauldin-selma-tear-gas",
+      "published": "Fri, 15 May 2026 09:00:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "ProPublica",
+      "title": "Counterterrorism Czar’s Blueprint Targets Leftists, Ignores Far-Right Violence and Heaps Praise on Trump",
+      "url": "https://www.propublica.org/article/trump-counterterrorism-plan-ignores-far-rights-gorka",
+      "published": "Thu, 14 May 2026 15:55:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "ProPublica",
+      "title": "A Unique Oregon Law Allows It to Block Healthcare Deals. In Five Years, the State Hasn’t Done So Once.",
+      "url": "https://www.propublica.org/article/oregon-healthcare-mergers-oversight-law",
+      "published": "Thu, 14 May 2026 09:00:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Justices validate authority of federal courts to confirm arbitration awards – at least in cases already in federal court",
+      "url": "https://www.scotusblog.com/2026/05/justices-validate-authority-of-federal-courts-to-confirm-arbitration-awards-at-least-in-cases-al/",
+      "published": "Sat, 16 May 2026 03:03:47 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Court denies Virginia’s request to reinstate congressional map that would benefit Democrats",
+      "url": "https://www.scotusblog.com/2026/05/court-denies-virginias-request-to-reinstate-congressional-map-that-would-benefit-democrats/",
+      "published": "Fri, 15 May 2026 23:29:31 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Justice Clarence Thomas reflects on shared values and his “deeper” friendships on a past court",
+      "url": "https://www.scotusblog.com/2026/05/justice-clarence-thomas-reflects-on-shared-values-and-his-deeper-friendships-on-a-past-court-/",
+      "published": "Fri, 15 May 2026 18:09:54 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Court rules freight brokers can face negligent hiring suits under state law",
+      "url": "https://www.scotusblog.com/2026/05/court-rules-freight-brokers-can-face-negligent-hiring-suits-under-state-law/",
+      "published": "Fri, 15 May 2026 16:47:43 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "When (if ever) it’s appropriate to make jokes, take selfies, or curse before the court",
+      "url": "https://www.scotusblog.com/2026/05/when-if-ever-its-appropriate-to-make-jokes-take-selfies-or-curse-before-the-court/",
+      "published": "Fri, 15 May 2026 13:30:00 +0000",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "Onest Network",
+      "title": "ONEST Global Briefing — May 15, 2026",
+      "url": "https://www.onestnetwork.com/onest-global-briefing-may-15-2026/",
+      "published": "Sat, 16 May 2026 03:03:45 GMT",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "Onest Network",
+      "title": "Trump in China, Day 2 — Ceremony, Symbolism, and the Missing Substance",
+      "url": "https://www.onestnetwork.com/trump-in-china-day-2-ceremony-symbolism-and-the-missing-substance/",
+      "published": "Fri, 15 May 2026 15:22:11 GMT",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "Onest Network",
+      "title": "Trump in China, Day 1 — Deals, Optics, and the Taiwan Pressure Point",
+      "url": "https://www.onestnetwork.com/trump-in-china-day-1-deals-optics-and-the-taiwan-pressure-point/",
+      "published": "Thu, 14 May 2026 18:49:58 GMT",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "Onest Network",
+      "title": "ONEST Global Briefing — May 13, 2026",
+      "url": "https://www.onestnetwork.com/onest-global-briefing-may-13-2026/",
+      "published": "Wed, 13 May 2026 19:27:32 GMT",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    },
+    {
+      "source": "Onest Network",
+      "title": "Read/Watch: A Sunken Russian Ship, Nuclear Reactor Questions, and North Korea",
+      "url": "https://www.onestnetwork.com/read-watch-a-sunken-russian-ship-nuclear-reactor-questions-and-north-korea/",
+      "published": "Wed, 13 May 2026 01:58:36 GMT",
+      "summarized": false,
+      "bullets": [],
+      "themes": []
+    }
+  ]
 }
