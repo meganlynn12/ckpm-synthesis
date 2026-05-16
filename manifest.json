@@ -1,0 +1,22 @@
+{
+  "name": "CKPM Daily Briefing",
+  "short_name": "CKPM",
+  "description": "Daily AI-synthesized news briefing",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a3a6b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/1a3a6b/ffffff?text=CK",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/1a3a6b/ffffff?text=CK",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

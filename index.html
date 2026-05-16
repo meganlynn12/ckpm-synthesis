@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<title>CKPM Briefing</title>
+<link rel="manifest" href="manifest.json">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f5f5f3;
+    --surface: #ffffff;
+    --border: rgba(0,0,0,0.1);
+    --text: #1a1a1a;
+    --muted: #666;
+    --accent: #1a3a6b;
+    --accent-light: #e8edf5;
+    --tag-bg: #eef2f8;
+    --tag-text: #1a3a6b;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111;
+      --surface: #1c1c1e;
+      --border: rgba(255,255,255,0.1);
+      --text: #f0f0f0;
+      --muted: #999;
+      --accent: #6b9ed2;
+      --accent-light: #1a2a3a;
+      --tag-bg: #1a2a3a;
+      --tag-text: #6b9ed2;
+    }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.25rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  header p {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 1.25rem;
+  }
+
+  .big-picture {
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .big-picture .label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .big-picture p {
+    font-size: 0.95rem;
+    color: var(--text);
+    line-height: 1.65;
+  }
+
+  .theme-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  .theme-header {
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .theme-header:active {
+    background: var(--bg);
+  }
+
+  .theme-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    flex: 1;
+  }
+
+  .theme-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .pub-count {
+    font-size: 0.75rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .chevron {
+    font-size: 0.75rem;
+    color: var(--muted);
+    transition: transform 0.2s ease;
+  }
+
+  .theme-card.open .chevron {
+    transform: rotate(180deg);
+  }
+
+  .theme-body {
+    display: none;
+    padding: 0 1.25rem 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .theme-card.open .theme-body {
+    display: block;
+  }
+
+  .theme-body p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text);
+    margin-top: 1rem;
+  }
+
+  .theme-body a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .theme-body a:hover {
+    border-bottom-color: var(--accent);
+  }
+
+  .pubs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 1rem;
+  }
+
+  .pub-tag {
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .meta-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .error {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--muted);
+  }
+
+  .error h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
+
+  .skeleton {
+    background: var(--border);
+    border-radius: 6px;
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .skeleton-block {
+    height: 80px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CKPM Daily Briefing</h1>
+  <p id="header-date">Loading...</p>
+</header>
+
+<main id="main">
+  <div class="skeleton skeleton-block"></div>
+  <div class="skeleton skeleton-block"></div>
+  <div class="skeleton skeleton-block"></div>
+</main>
+
+<script>
+const CONTENT_URL = './output/content.json';
+
+function renderBriefing(data) {
+  const main = document.getElementById('main');
+  const dateEl = document.getElementById('header-date');
+
+  const date = data.date
+    ? new Date(data.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+    : 'Today';
+  dateEl.textContent = date;
+
+  if (!data.themes || data.themes.length === 0) {
+    main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next scheduled run.</p></div>';
+    return;
+  }
+
+  let html = '';
+
+  if (data.articles_processed) {
+    html += `<div class="meta-bar"><span>${data.articles_processed} articles processed</span><span>${(data.publications || []).length} sources</span></div>`;
+  }
+
+  if (data.big_picture) {
+    html += `<div class="big-picture"><div class="label">Big Picture</div><p>${linkify(data.big_picture)}</p></div>`;
+  }
+
+  (data.themes || []).forEach((theme, i) => {
+    const pubs = (theme.publications || []);
+    const count = theme.source_count || pubs.length;
+    const pubTags = pubs.map(p => `<span class="pub-tag">${p}</span>`).join('');
+    const openClass = i === 0 ? ' open' : '';
+
+    html += `
+      <div class="theme-card${openClass}">
+        <div class="theme-header" onclick="toggle(this)">
+          <span class="theme-title">${theme.theme}</span>
+          <span class="theme-meta">
+            <span class="pub-count">${count} source${count !== 1 ? 's' : ''}</span>
+            <span class="chevron">▼</span>
+          </span>
+        </div>
+        <div class="theme-body">
+          <p>${linkify(theme.briefing || '')}</p>
+          ${pubTags ? `<div class="pubs">${pubTags}</div>` : ''}
+        </div>
+      </div>`;
+  });
+
+  main.innerHTML = html;
+}
+
+function linkify(text) {
+  return text.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+}
+
+function toggle(header) {
+  header.closest('.theme-card').classList.toggle('open');
+}
+
+async function load() {
+  try {
+    const res = await fetch(CONTENT_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    renderBriefing(data);
+  } catch (e) {
+    document.getElementById('main').innerHTML = '<div class="error"><h2>Could not load briefing</h2><p>The daily run may not have completed yet.</p></div>';
+    document.getElementById('header-date').textContent = 'Unavailable';
+  }
+}
+
+load();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>
