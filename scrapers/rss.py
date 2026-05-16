@@ -7,25 +7,58 @@ import calendar
 from datetime import datetime, timezone, timedelta
 
 import feedparser
+import requests
 from bs4 import BeautifulSoup
 
 from config import FREE_RSS_SOURCES, MAX_ARTICLES_PER_SOURCE, MAX_CONTENT_CHARS
 
-# Only include articles published within this window
 LOOKBACK_HOURS = 24
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; CKPM-Aggregator/1.0)",
+}
+
+# Strip characters that are invalid in XML 1.0
+# Valid: #x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]
+_INVALID_XML = re.compile(
+    r"[^\x09\x0A\x0D\x20-\uD7FF\uE000-\uFFFD\U00010000-\U0010FFFF]"
+)
+
+def sanitize_xml(raw: bytes) -> bytes:
+    """Remove characters that are invalid in XML 1.0 before parsing."""
+    try:
+        text = raw.decode("utf-8", errors="replace")
+    except Exception:
+        text = raw.decode("latin-1", errors="replace")
+    cleaned = _INVALID_XML.sub("", text)
+    return cleaned.encode("utf-8")
+
+
+def fetch_feed(url: str):
+    """
+    Fetch and parse an RSS feed robustly.
+    Falls back to feedparser direct fetch if requests fails.
+    """
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        clean = sanitize_xml(resp.content)
+        feed = feedparser.parse(clean)
+        # If sanitized parse yielded entries, use it
+        if feed.entries:
+            return feed
+    except Exception:
+        pass
+    # Fallback: let feedparser fetch directly (handles redirects etc.)
+    return feedparser.parse(url)
 
 
 def strip_html(html: str) -> str:
-    """Strip HTML tags and collapse whitespace."""
     text = BeautifulSoup(html, "html.parser").get_text(separator=" ")
     return re.sub(r"\s+", " ", text).strip()
 
 
 def entry_published_utc(entry) -> datetime | None:
-    """
-    Return the entry's publish time as a UTC-aware datetime, or None if unparseable.
-    feedparser provides published_parsed as a time.struct_time in UTC.
-    """
     parsed = getattr(entry, "published_parsed", None)
     if parsed is None:
         parsed = getattr(entry, "updated_parsed", None)
@@ -35,16 +68,13 @@ def entry_published_utc(entry) -> datetime | None:
 
 
 def is_recent(entry, cutoff: datetime) -> bool:
-    """Return True if the entry was published after cutoff."""
     pub = entry_published_utc(entry)
     if pub is None:
-        # If we can't parse the date, include it to avoid missing articles
-        return True
+        return True  # include if date unparseable
     return pub >= cutoff
 
 
 def parse_entry(entry, source_name: str) -> dict | None:
-    """Extract a normalised article dict from a feedparser entry."""
     content_html = ""
     if hasattr(entry, "content") and entry.content:
         content_html = entry.content[0].get("value", "")
@@ -70,10 +100,6 @@ def parse_entry(entry, source_name: str) -> dict | None:
 
 
 def fetch_rss_articles() -> list[dict]:
-    """
-    Fetch articles published in the last LOOKBACK_HOURS from all free RSS sources.
-    Returns a flat list of article dicts.
-    """
     cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     print(f"[rss] Fetching articles published after {cutoff.strftime('%Y-%m-%d %H:%M UTC')}")
 
@@ -85,10 +111,11 @@ def fetch_rss_articles() -> list[dict]:
         print(f"  Fetching: {name}")
 
         try:
-            feed = feedparser.parse(url)
+            feed = fetch_feed(url)
 
-            if feed.bozo and not feed.entries:
-                print(f"    ⚠ Feed parse error for {name}: {feed.bozo_exception}")
+            if not feed.entries:
+                bozo_msg = str(getattr(feed, "bozo_exception", "no entries"))
+                print(f"    ⚠ No entries for {name}: {bozo_msg}")
                 continue
 
             recent = [e for e in feed.entries[:MAX_ARTICLES_PER_SOURCE] if is_recent(e, cutoff)]
