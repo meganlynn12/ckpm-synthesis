@@ -1,95 +1,65 @@
-# main.py
-# Orchestrates the full Phase 1 pipeline:
-#   1. Fetch Substack articles (via Playwright session)
-#   2. Fetch free RSS articles
-#   3. Summarize all articles with Claude
-#   4. Generate daily digest
-#   5. Write output/content.json
+"""
+main.py — CKPM Content Aggregator pipeline
 
-import asyncio
+1. Fetch articles from all RSS sources
+2. Deduplicate
+3. Generate themed executive briefing via summarizer.py
+4. Write output/content.json
+"""
+
 import json
-import sys
+import os
 from datetime import datetime, timezone
-from pathlib import Path
 
-from scrapers.substack import fetch_substack_articles
 from scrapers.rss import fetch_rss_articles
-from summarizer import summarize_articles
+from summarizer import generate_briefing
 
-OUTPUT_FILE = Path("output/content.json")
-OUTPUT_FILE.parent.mkdir(exist_ok=True)
+OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "output", "content.json")
+MAX_ARTICLES = 60  # Cap to keep Phase 1 token cost reasonable
 
 
-async def main() -> None:
-    start = datetime.now(tz=timezone.utc)
+def main():
+    run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"\n{'='*60}")
-    print(f"Content Aggregator — {start.strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"CKPM Content Aggregator — {run_date}")
     print(f"{'='*60}\n")
 
-    # ------------------------------------------------------------------ #
-    # 1. Fetch
-    # ------------------------------------------------------------------ #
-    print("[ 1/3 ] Fetching Substack articles...")
-    try:
-        substack_articles = await fetch_substack_articles()
-    except Exception as e:
-        print(f"  ✗ Substack fetch failed: {e}")
-        substack_articles = []
+    # --- Fetch ---
+    print("[main] Fetching RSS sources...")
+    all_articles = fetch_rss_articles()
+    print(f"[main] Fetched {len(all_articles)} raw articles")
 
-    print(f"\n[ 2/3 ] Fetching free RSS articles...")
-    try:
-        rss_articles = fetch_rss_articles()
-    except Exception as e:
-        print(f"  ✗ RSS fetch failed: {e}")
-        rss_articles = []
-
-    all_articles = substack_articles + rss_articles
-    print(f"\n  Total articles fetched: {len(all_articles)}")
-
-    if not all_articles:
-        print("\n  No articles fetched — exiting.")
-        sys.exit(1)
-
-    seen_urls = set()
+    # --- Deduplicate by URL + title ---
+    seen = set()
     unique_articles = []
     for article in all_articles:
-        if article["url"] not in seen_urls:
-            seen_urls.add(article["url"])
+        key = article.get("url") or article.get("title", "").lower().strip()
+        title_key = article.get("title", "").lower().strip()
+        if key not in seen and title_key not in seen:
+            seen.add(key)
+            seen.add(title_key)
             unique_articles.append(article)
-    all_articles = unique_articles
 
-    # ------------------------------------------------------------------ #
-    # 2. Summarize
-    # ------------------------------------------------------------------ #
-    print(f"\n[ 3/3 ] Summarizing with Claude...")
-    summarized_articles, digest = await summarize_articles(all_articles)
+    print(f"[main] {len(unique_articles)} articles after deduplication")
 
-    # ------------------------------------------------------------------ #
-    # 3. Write output
-    # ------------------------------------------------------------------ #
-    # Sort by relevance descending so the frontend can show top articles first
-    summarized_articles.sort(key=lambda a: a.get("relevance", 0), reverse=True)
+    # Cap total articles to keep costs bounded
+    if len(unique_articles) > MAX_ARTICLES:
+        print(f"[main] Capping to {MAX_ARTICLES} most recent articles")
+        unique_articles = unique_articles[:MAX_ARTICLES]
 
-    # Strip raw content from output to keep file size reasonable
-    for article in summarized_articles:
-        article.pop("content", None)
+    # --- Generate briefing ---
+    briefing = generate_briefing(unique_articles, run_date)
 
-    elapsed = (datetime.now(tz=timezone.utc) - start).total_seconds()
+    # --- Write output ---
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(briefing, f, indent=2, ensure_ascii=False)
 
-    output = {
-        "generated_at": start.isoformat(),
-        "elapsed_seconds": round(elapsed, 1),
-        "article_count": len(summarized_articles),
-        "digest": digest,
-        "articles": summarized_articles,
-    }
-
-    OUTPUT_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-
-    print(f"\n{'='*60}")
-    print(f"Done in {elapsed:.1f}s — {len(summarized_articles)} articles written to {OUTPUT_FILE}")
-    print(f"{'='*60}\n")
+    print(f"\n[main] Written to {OUTPUT_PATH}")
+    print(f"[main] Themes: {[t['theme'] for t in briefing.get('themes', [])]}")
+    print(f"[main] Articles processed: {briefing.get('articles_processed', 0)}")
+    print(f"\n{'='*60}\n")
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

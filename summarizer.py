@@ -1,136 +1,199 @@
-# summarizer.py
-# Sends each article to Claude for summarization.
-# Produces bullet-point summaries and theme tags.
-# Also generates a daily digest across all articles.
+"""
+summarizer.py
 
-import asyncio
+Two-phase synthesis pipeline:
+  Phase 1 - Lightweight per-article extraction (title, url, source, key claims)
+  Phase 2 - One synthesis call: group into themes, write executive briefing with inline citations
+"""
+
 import json
 import os
-from anthropic import AsyncAnthropic
+import anthropic
 
-client = AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+MODEL = "claude-sonnet-4-6"
 
-# How many articles to summarize in parallel (stay well within rate limits)
-CONCURRENCY = 5
 
-ARTICLE_PROMPT = """\
-You are a research assistant summarizing articles for a well-informed reader \
-interested in politics, economics, law, technology, and current events.
+# ---------------------------------------------------------------------------
+# Phase 1: Extract key claims from a single article
+# ---------------------------------------------------------------------------
 
-Article source: {source}
-Article title: {title}
-Article content:
-{content}
+EXTRACTION_SYSTEM = """You are a precise news analyst. Given an article, extract structured metadata.
+Return ONLY valid JSON, no markdown, no preamble."""
 
-Respond with ONLY valid JSON in this exact format (no markdown, no extra text):
+EXTRACTION_PROMPT = """Extract the following from this article and return as JSON:
 {{
-  "bullets": [
-    "First key point in one clear sentence",
-    "Second key point in one clear sentence",
-    "Third key point in one clear sentence"
-  ],
-  "themes": ["theme1", "theme2", "theme3"],
-  "relevance": 8
+  "title": "article title",
+  "url": "article url",
+  "publication": "publication name",
+  "date": "publication date if available, else null",
+  "key_claims": ["3-5 specific factual claims or arguments made in the article"],
+  "topics": ["2-4 topic tags, e.g. 'Iran War', 'Trump approval', 'redistricting', 'economy'"]
 }}
 
-Guidelines:
-- bullets: exactly 3 bullet points, each a complete sentence capturing a distinct key idea
-- themes: 2-4 short lowercase tags (e.g. "supreme court", "inflation", "2024 election", "ai policy")
-- relevance: integer 1-10 rating how significant/substantive this article is (10 = major news/analysis)
-"""
+Article metadata:
+Title: {title}
+URL: {url}
+Publication: {source}
+Date: {date}
 
-DIGEST_PROMPT = """\
-You are synthesizing today's reading list for a well-informed reader.
-Below are summaries of {count} articles from across politics, economics, law, \
-technology, and current events.
-
-Articles:
-{articles}
-
-Write a daily digest with:
-1. A 2-3 sentence "Big Picture" paragraph identifying the most important overarching \
-   themes across today's reading
-2. A "Top Stories" section listing the 5 most significant articles with one sentence each \
-   explaining why they matter
-3. A "Connections" section (2-3 sentences) noting any interesting patterns, contradictions, \
-   or through-lines across sources
-
-Be analytical and direct. Do not hedge. Assume the reader is sophisticated.
-"""
+Article content:
+{content}"""
 
 
-async def summarize_article(article: dict, semaphore: asyncio.Semaphore) -> dict:
-    """Call Claude to summarize a single article. Returns the article with fields filled in."""
-    async with semaphore:
-        try:
-            prompt = ARTICLE_PROMPT.format(
-                source=article["source"],
-                title=article["title"],
-                content=article["content"],
-            )
-            response = await client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=400,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            raw = response.content[0].text.strip()
-            parsed = json.loads(raw)
+def extract_article(article: dict) -> dict | None:
+    """Phase 1: Extract key claims from one article. Returns structured dict or None on failure."""
+    content = article.get("content", "") or article.get("description", "")
+    if not content or len(content.strip()) < 100:
+        return None
 
-            article["bullets"] = parsed.get("bullets", [])
-            article["themes"] = parsed.get("themes", [])
-            article["relevance"] = parsed.get("relevance", 5)
-            article["summarized"] = True
+    # Truncate very long articles to save tokens
+    content_truncated = content[:4000]
 
-        except json.JSONDecodeError as e:
-            print(f"    ⚠ JSON parse error for '{article['title']}': {e}")
-            article["summarized"] = False
-        except Exception as e:
-            print(f"    ✗ Summarization error for '{article['title']}': {e}")
-            article["summarized"] = False
-
-        return article
-
-
-async def generate_digest(articles: list[dict]) -> str:
-    """Generate a daily digest from all summarized articles."""
-    summarized = [a for a in articles if a.get("summarized")]
-    if not summarized:
-        return "No articles were successfully summarized today."
-
-    # Build compact article list for the digest prompt
-    article_list = "\n\n".join(
-        f"[{a['source']}] {a['title']}\n" + "\n".join(f"- {b}" for b in a.get("bullets", []))
-        for a in summarized
+    prompt = EXTRACTION_PROMPT.format(
+        title=article.get("title", ""),
+        url=article.get("url", ""),
+        source=article.get("source", ""),
+        date=article.get("published", ""),
+        content=content_truncated,
     )
 
-    prompt = DIGEST_PROMPT.format(count=len(summarized), articles=article_list)
-
     try:
-        response = await client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=800,
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=500,
+            system=EXTRACTION_SYSTEM,
             messages=[{"role": "user", "content": prompt}],
         )
-        return response.content[0].text.strip()
+        raw = response.content[0].text.strip()
+        # Strip markdown fences if present
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        return json.loads(raw.strip())
     except Exception as e:
-        print(f"  ✗ Digest generation failed: {e}")
-        return "Digest generation failed."
+        print(f"  [extract] Failed for '{article.get('title', 'unknown')}': {e}")
+        return None
 
 
-async def summarize_articles(articles: list[dict]) -> tuple[list[dict], str]:
+# ---------------------------------------------------------------------------
+# Phase 2: Synthesize all extractions into a themed executive briefing
+# ---------------------------------------------------------------------------
+
+SYNTHESIS_SYSTEM = """You are a senior intelligence analyst producing a daily executive briefing.
+You write in an analytical, direct style — not journalistic fluff, not bullet lists.
+Return ONLY valid JSON, no markdown, no preamble."""
+
+SYNTHESIS_PROMPT = """Below is today's extracted news intelligence from multiple sources.
+
+Your task:
+1. Identify 4-6 major themes that cut across these sources (e.g. "Iran War & U.S. Foreign Policy", "Trump Domestic Corruption", "2026 Midterms & Redistricting", "Economy & Markets", "Democracy & Rule of Law", "Tech & AI", "World Affairs")
+2. For each theme, write a 2-4 paragraph synthesized executive briefing in analytical prose
+3. Cite sources inline using this exact format: [Publication: Title](url)
+4. Each theme should synthesize across multiple sources where possible
+5. Be specific — use names, numbers, claims from the source material
+6. End with a "Big Picture" theme that connects the day's major threads
+
+Return this JSON structure:
+{{
+  "date": "{date}",
+  "themes": [
+    {{
+      "theme": "Theme Name",
+      "briefing": "2-4 paragraphs of analytical prose with [inline citations](url)...",
+      "source_count": 3,
+      "publications": ["Pub1", "Pub2"]
+    }}
+  ],
+  "big_picture": "1-2 paragraph synthesis of the day's overarching narrative with citations"
+}}
+
+Today's extracted intelligence ({article_count} articles from {source_count} publications):
+
+{extractions_json}"""
+
+
+def synthesize_briefing(extractions: list[dict], date: str) -> dict | None:
+    """Phase 2: Synthesize all article extractions into a themed executive briefing."""
+    if not extractions:
+        return None
+
+    publications = list(set(e.get("publication", "Unknown") for e in extractions))
+
+    prompt = SYNTHESIS_PROMPT.format(
+        date=date,
+        article_count=len(extractions),
+        source_count=len(publications),
+        extractions_json=json.dumps(extractions, indent=2),
+    )
+
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=4000,
+            system=SYNTHESIS_SYSTEM,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = response.content[0].text.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        return json.loads(raw.strip())
+    except Exception as e:
+        print(f"  [synthesize] Synthesis failed: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Main entry point called from main.py
+# ---------------------------------------------------------------------------
+
+def generate_briefing(articles: list[dict], date: str) -> dict:
     """
-    Summarize all articles concurrently, then generate a daily digest.
-    Returns (summarized_articles, digest_text).
+    Full pipeline:
+      1. Extract key claims from each article (Phase 1)
+      2. Synthesize into themed briefing (Phase 2)
+
+    Returns a dict suitable for writing to content.json.
     """
-    print(f"  Summarizing {len(articles)} articles (concurrency={CONCURRENCY})...")
-    semaphore = asyncio.Semaphore(CONCURRENCY)
-    tasks = [summarize_article(article, semaphore) for article in articles]
-    summarized = await asyncio.gather(*tasks)
+    print(f"\n[summarizer] Phase 1: Extracting from {len(articles)} articles...")
+    extractions = []
+    for i, article in enumerate(articles):
+        print(f"  [{i+1}/{len(articles)}] {article.get('source', '?')} — {article.get('title', '')[:60]}")
+        result = extract_article(article)
+        if result:
+            extractions.append(result)
 
-    success = sum(1 for a in summarized if a.get("summarized"))
-    print(f"  ✓ {success}/{len(summarized)} articles summarized")
+    print(f"\n[summarizer] Phase 1 complete: {len(extractions)}/{len(articles)} articles extracted")
 
-    print("  Generating daily digest...")
-    digest = await generate_digest(list(summarized))
+    if not extractions:
+        return {
+            "date": date,
+            "error": "No articles could be extracted",
+            "themes": [],
+            "big_picture": "",
+            "articles_processed": 0,
+        }
 
-    return list(summarized), digest
+    print(f"\n[summarizer] Phase 2: Synthesizing {len(extractions)} extractions into themed briefing...")
+    briefing = synthesize_briefing(extractions, date)
+
+    if not briefing:
+        return {
+            "date": date,
+            "error": "Synthesis failed",
+            "themes": [],
+            "big_picture": "",
+            "extractions": extractions,
+            "articles_processed": len(extractions),
+        }
+
+    # Attach metadata
+    briefing["articles_processed"] = len(extractions)
+    briefing["articles_attempted"] = len(articles)
+    briefing["publications"] = list(set(e.get("publication", "?") for e in extractions))
+
+    print(f"[summarizer] Done. {len(briefing.get('themes', []))} themes generated.")
+    return briefing
