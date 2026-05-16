@@ -1,0 +1,13 @@
+# Sessions — contain auth tokens, never commit these
+sessions/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Local test runs
+*.log

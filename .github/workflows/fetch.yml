@@ -1,0 +1,71 @@
+# .github/workflows/fetch.yml
+# Runs the content aggregator nightly at 6 AM ET (11:00 UTC).
+# Caches the Substack session between runs to avoid daily logins.
+# Commits updated content.json back to the repo.
+
+name: Fetch & Summarize Content
+
+on:
+  schedule:
+    - cron: "0 11 * * *"      # 6 AM ET / 11 AM UTC daily
+  workflow_dispatch:            # Also allows manual trigger from GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ------------------------------------------------------------------ #
+      # Setup
+      # ------------------------------------------------------------------ #
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      # ------------------------------------------------------------------ #
+      # Restore cached Substack session (avoids daily re-login)
+      # ------------------------------------------------------------------ #
+      - name: Restore Substack session cache
+        uses: actions/cache@v4
+        with:
+          path: sessions/substack_session.json
+          key: substack-session-${{ github.run_id }}
+          restore-keys: substack-session-
+
+      # ------------------------------------------------------------------ #
+      # Run the aggregator
+      # ------------------------------------------------------------------ #
+      - name: Run content aggregator
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          SUBSTACK_EMAIL:     ${{ secrets.SUBSTACK_EMAIL }}
+          SUBSTACK_PASSWORD:  ${{ secrets.SUBSTACK_PASSWORD }}
+        run: python main.py
+
+      # ------------------------------------------------------------------ #
+      # Commit updated content.json back to repo
+      # ------------------------------------------------------------------ #
+      - name: Commit content.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/content.json
+          git diff --staged --quiet || git commit -m "chore: update content.json [skip ci]"
+          git push
