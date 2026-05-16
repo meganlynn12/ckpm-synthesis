@@ -43,23 +43,69 @@ async def login_substack() -> None:
         page = await context.new_page()
 
         await page.goto("https://substack.com/sign-in", wait_until="domcontentloaded", timeout=60000)
+        await page.wait_for_timeout(2000)
 
-        # Enter email
-        await page.fill('input[type="email"]', email)
-        await page.click('button:has-text("Continue")')
-        await page.wait_for_timeout(1500)
+        # Try multiple possible selectors for the email field
+        email_selectors = [
+            'input[type="email"]',
+            'input[name="email"]',
+            'input[placeholder*="email" i]',
+            'input[placeholder*="Email" i]',
+        ]
+        email_filled = False
+        for selector in email_selectors:
+            try:
+                await page.wait_for_selector(selector, timeout=5000)
+                await page.fill(selector, email)
+                email_filled = True
+                print(f"  Found email field with selector: {selector}")
+                break
+            except Exception:
+                continue
 
-        # Enter password (Substack uses a two-step flow)
-        try:
-            await page.fill('input[type="password"]', password)
-            await page.click('button[type="submit"]')
-            await page.wait_for_url("**/reader**", timeout=15000)
-        except PlaywrightTimeoutError:
-            # Some accounts land on a different post-login URL
-            await page.wait_for_timeout(3000)
-            if "substack.com" not in page.url:
-                raise RuntimeError(f"Unexpected post-login URL: {page.url}")
+        if not email_filled:
+            # Dump page HTML for debugging
+            html = await page.content()
+            print(f"  Page HTML snippet: {html[:500]}")
+            raise RuntimeError("Could not find email input field on Substack login page")
 
+        # Click continue/submit button
+        continue_selectors = [
+            'button:has-text("Continue")',
+            'button:has-text("Sign in")',
+            'button[type="submit"]',
+        ]
+        for selector in continue_selectors:
+            try:
+                await page.click(selector, timeout=5000)
+                break
+            except Exception:
+                continue
+
+        await page.wait_for_timeout(2000)
+
+        # Enter password
+        password_selectors = [
+            'input[type="password"]',
+            'input[name="password"]',
+        ]
+        for selector in password_selectors:
+            try:
+                await page.wait_for_selector(selector, timeout=8000)
+                await page.fill(selector, password)
+                break
+            except Exception:
+                continue
+
+        # Submit
+        for selector in ['button[type="submit"]', 'button:has-text("Sign in")']:
+            try:
+                await page.click(selector, timeout=5000)
+                break
+            except Exception:
+                continue
+
+        await page.wait_for_timeout(4000)
         await context.storage_state(path=str(SESSION_FILE))
         print(f"  Session saved to {SESSION_FILE}")
         await browser.close()
