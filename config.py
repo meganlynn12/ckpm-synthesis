@@ -8,6 +8,14 @@ PENDING sources (Gmail / Playwright) are defined but not yet wired in.
 """
 
 # ---------------------------------------------------------------------------
+# Fetcher settings
+# ---------------------------------------------------------------------------
+
+MAX_ARTICLES_PER_SOURCE = 10   # max articles pulled per RSS feed per run
+MAX_CONTENT_CHARS = 8000       # truncate article content before passing to Claude
+
+
+# ---------------------------------------------------------------------------
 # Active RSS sources — fetched every run
 # ---------------------------------------------------------------------------
 
@@ -31,7 +39,7 @@ FREE_RSS_SOURCES = [
     {"name": "Sabato's Crystal Ball",   "url": "https://crystalball.substack.com/feed"},
 
     # --- Free news RSS ---
-    {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
+    # {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
     {"name": "ProPublica", "url": "https://www.propublica.org/feeds/propublica/main"},
     {"name": "SCOTUSblog", "url": "https://www.scotusblog.com/feed/"},
 ]
