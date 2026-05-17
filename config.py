@@ -30,13 +30,13 @@ FREE_RSS_SOURCES = [
     {"name": "Phillips P. O'Brien",     "url": "https://phillipspobrien.substack.com/feed"},
     {"name": "Paul Krugman",            "url": "https://paulkrugman.substack.com/feed"},
     {"name": "Robert Reich",            "url": "https://robertreich.substack.com/feed"},
-    {"name": "Ruth Ben-Ghiat",          "url": "https://ruthbenghiat.substack.com/feed"},
+    # {"name": "Ruth Ben-Ghiat",          "url": "https://ruthbenghiat.substack.com/feed"},
     {"name": "Wake Up To Politics",     "url": "https://wakeuptopolitics.substack.com/feed"},
     {"name": "Slow Boring",             "url": "https://www.slowboring.com/feed"},
     {"name": "G. Elliott Morris",       "url": "https://gelliottmorris.substack.com/feed"},
     {"name": "John Ellis",              "url": "https://substack.news-items.com/feed"},
-    {"name": "Scott Galloway",          "url": "https://profgalloway.com/feed/"},
-    {"name": "Prof G Media (Monday Rage)", "url": "https://www.profgmedia.com/s/monday-rage/feed"},
+    {"name": "Scott Galloway",          "url": "https://www.profgmedia.com/feed"},
+    # {"name": "Prof G Media (Monday Rage)", "url": "https://www.profgmedia.com/s/monday-rage/feed"},
     # {"name": "Sabato's Crystal Ball",   "url": "https://crystalball.substack.com/feed"},
 
     # --- Free news RSS ---

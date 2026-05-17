@@ -16,7 +16,8 @@ from config import FREE_RSS_SOURCES, MAX_ARTICLES_PER_SOURCE, MAX_CONTENT_CHARS
 LOOKBACK_HOURS = 24
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; CKPM-Aggregator/1.0)",
+    # "User-Agent": "Mozilla/5.0 (compatible; CKPM-Aggregator/1.0)",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
 
 
