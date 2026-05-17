@@ -11,10 +11,10 @@
       "date": "2026-05-16T19:02:00+00:00",
       "key_claims": [
         "Trump's net approval rating hit a new second term low of -18.9 in the Silver Bulletin average as of May 16, 2026",
-        "Among US adults only, Trump's net approval is even lower at -20.6",
+        "Among US adults only, Trump's net approval rating is even lower at -20.6",
         "Approximately 48 percent of Americans strongly disapprove of Trump's job performance",
         "Democrats are on track for a strong performance in the midterms despite recent redistricting setbacks",
-        "The Silver Bulletin average weights more reliable polls heavily based on pollster ratings, sample size, recency, and publication frequency"
+        "The Silver Bulletin average weights more reliable polls heavily based on pollster ratings, sample size, recency, and polling frequency"
       ],
       "topics": [
         "Trump approval",
@@ -29,11 +29,11 @@
       "publication": "Silver Bulletin",
       "date": "2026-05-16T19:01:00+00:00",
       "key_claims": [
-        "The US and Iran were negotiating a one-page plan to end hostilities for thirty days, with the Strait of Hormuz to be reopened during the ceasefire",
-        "The US fired on two Iranian oil tankers on Friday despite ceasefire negotiations",
-        "Support for the Iran War stands at net -18, meaning it is unpopular and declining",
-        "Support for the conflict has continued to tick down following rough polls from The Economist/YouGov and RMG Research",
-        "Silver Bulletin's average weights more reliable polls more heavily and adjusts for house effects when calculating war support"
+        "As of Thursday May 15 2026, the US and Iran were negotiating a one-page plan to end hostilities for thirty days, with the Strait of Hormuz to be reopened during the ceasefire",
+        "On Friday, the US fired on two Iranian oil tankers despite the ceasefire negotiations",
+        "Support for the Iran War is at net -18 as of May 8, 2026, continuing to tick downward",
+        "The Silver Bulletin average weights more reliable polls more heavily and adjusts for house effects",
+        "The tracking page covers polls on US military action in Iran since March 1, 2026, the day after the war began"
       ],
       "topics": [
         "Iran War",
@@ -48,35 +48,35 @@
       "publication": "Silver Bulletin",
       "date": "2026-05-16T19:00:00+00:00",
       "key_claims": [
-        "The generic congressional ballot broke D +6 for the first time in the 2026 cycle, sitting at D +6.1",
+        "The generic congressional ballot broke D +6 for the first time in the 2026 cycle, currently sitting at D +6.1",
         "Before April, the generic ballot had hovered around D +5.4 since the beginning of the year",
         "The Virginia Supreme Court blocked a new House map approved by voters in November that could have netted Democrats four seats",
-        "The Supreme Court decision Louisiana v. Callais significantly weakened the Voting Rights Act, hurting Democrats in redistricting",
-        "Democrats remain favored to retake the House in November 2026 despite redistricting setbacks"
+        "The Supreme Court decision Louisiana v. Callais significantly weakened the Voting Rights Act, hurting Democratic redistricting prospects",
+        "Despite redistricting setbacks, Democrats remain favored to retake the House in November 2026"
       ],
       "topics": [
         "2026 midterms",
         "generic ballot",
         "redistricting",
-        "congressional elections"
+        "Congress"
       ]
     },
     {
       "title": "Donald Trump vs. America's Moms",
       "url": "https://www.thebulwark.com/p/trump-maternal-moms-children-daycare-wic",
       "publication": "The Bulwark",
-      "date": "2026-05-17T11:30:52+00:00",
+      "date": "2025-05-17T11:30:52+00:00",
       "key_claims": [
-        "The U.S. has the highest maternal and infant mortality rates among economically advanced countries, according to the Commonwealth Fund.",
-        "UNICEF rated the United States far behind countries like the Netherlands, Denmark, and France on child well-being.",
-        "Trump hosted an Oval Office event on maternal health featuring modest initiatives like reducing fertility drug costs and launching Moms.gov, but appeared to nod off during it.",
-        "Previous presidents including Obama, Biden, Johnson, and Nixon made substantial contributions to maternal and child health through programs like the ACA, Medicaid, Head Start, and food assistance.",
-        "Trump's first term saw a stall in insurance coverage expansion under the ACA, which the article frames as a preview of larger rollbacks to come."
+        "The United States has the highest maternal and infant mortality rates among economically advanced countries, according to the Commonwealth Fund.",
+        "UNICEF rated the United States far behind the Netherlands, Denmark, and France in child well-being.",
+        "Trump hosted an Oval Office event on maternal health touting initiatives like reducing fertility drug costs and launching Moms.gov, but appeared to nod off during it.",
+        "Previous presidents including Obama, Biden, Johnson, and Nixon made significant contributions to maternal and child well-being through programs like the ACA, Medicaid, Head Start, and food assistance.",
+        "Trump's real legacy on maternal and child well-being, according to the article, is downsizing or undermining key programs that young families rely on, rather than the modest initiatives he touted."
       ],
       "topics": [
-        "maternal and child health",
+        "maternal health",
+        "child welfare",
         "Trump policy",
-        "healthcare",
         "social safety net"
       ]
     },
@@ -86,17 +86,17 @@
       "publication": "The Bulwark",
       "date": "2026-05-17T10:02:22+00:00",
       "key_claims": [
-        "JD Vance is wrong about America's historical and patriotic legacy",
-        "Democrats need to build a 'patriotic center' to reclaim patriotism from Trumpism",
+        "JD Vance is wrong about America's historical and patriotic traditions",
+        "Democrats should adopt a 'patriotic center' political positioning to reclaim patriotism from Trumpism",
         "Social media companies should be taxed to fund education",
         "Democrats need a more aggressive economic message heading into 2028",
-        "AI deepfakes require regulation to protect democracy"
+        "AI deepfakes pose a threat to democracy and require regulation"
       ],
       "topics": [
         "Democratic Party strategy",
         "patriotism",
         "AI regulation",
-        "2028 politics"
+        "2028 election"
       ]
     },
     {
@@ -127,7 +127,7 @@
         "A Man for All Seasons (1966) won six Oscars and features a cast of legends",
         "The film became a touchstone for conservative intellectuals despite being written by Robert Bolt, a leftist",
         "The film's themes about conscience under autocracy feel more relevant than ever today",
-        "The story addresses people who preach virtue but capitulate when facing real consequences",
+        "The story addresses people who preach virtue but capitulate when faced with real consequences",
         "The film explores the rule of law, the seduction of power, and the cost of standing on principle"
       ],
       "topics": [
@@ -143,11 +143,11 @@
       "publication": "The Bulwark",
       "date": "2026-05-16T17:21:35+00:00",
       "key_claims": [
-        "Trump has repeatedly contradicted himself on camera regarding economic policy",
-        "Trump made claims about oil potentially reaching $300",
-        "Trump stated 'I don't think about Americans' financial situation'",
+        "Trump has repeatedly contradicted himself on camera regarding the economy and inflation",
+        "Trump made predictions about oil reaching $300 that conflict with his other economic statements",
+        "Trump stated 'I don't think about Americans' financial situation,' undermining his economic credibility",
         "Will Saletan argues Trump's own words reveal contradictions in his economic and political logic",
-        "The piece frames Trump as having damaged the economy while simultaneously boasting about it"
+        "Trump has made conflicting statements about gas prices and inflation"
       ],
       "topics": [
         "Trump economy",
@@ -162,17 +162,17 @@
       "publication": "John Ellis",
       "date": "2026-05-17T10:19:28+00:00",
       "key_claims": [
-        "Louisiana Sen. Bill Cassidy failed to make a runoff after voters heeded Trump's call to oust him, ending his two Senate terms.",
-        "Cassidy was one of seven Republican senators who voted to convict Trump in his 2021 impeachment trial.",
-        "Trump endorsed Rep. Julia Letlow, who advanced to a June 27 runoff against John Fleming with 45% of the vote to Fleming's 28%, while Cassidy received 24%.",
-        "Trump declared on social media that Cassidy's 'political career is OVER' following the primary results.",
-        "Analyst Amy Walter characterizes the current political environment as a battle between a favorable Democratic political environment (inflation, war in Iran) and structural Republican advantages from increased partisan entrenchment."
+        "Louisiana Sen. Bill Cassidy, one of seven Republican senators who voted to convict Trump in his 2021 impeachment trial, failed to make a runoff in his state primary.",
+        "Cassidy's loss is described as the most significant defeat for a Republican who sought to hold Trump accountable since Liz Cheney lost her primary in 2022.",
+        "Trump-endorsed candidate Rep. Julia Letlow advanced to a June 27 runoff with 45 percent of the vote, while Cassidy trailed with 24 percent.",
+        "Letlow will face John Fleming, the state treasurer, in the runoff after neither candidate won an outright majority.",
+        "Analyst Amy Walter framed upcoming elections as a battle between political environment factors (like inflation and the war in Iran) that help Democrats, and structural partisanship that helps Republicans."
       ],
       "topics": [
         "Republican primaries",
         "Trump political influence",
         "Louisiana Senate race",
-        "2026 midterms"
+        "partisanship"
       ]
     },
     {
@@ -181,17 +181,17 @@
       "publication": "Onest Network",
       "date": "2026-05-16T21:59:15+00:00",
       "key_claims": [
-        "Alyn Ware argues that lasting security cannot be built against others but must be built with them, through a concept called 'common security'",
-        "Nuclear-armed ships and submarines from the United States visited New Zealand ports as part of the ANZUS alliance, prompting moral opposition from Ware",
-        "Indigenous Pacific communities were treated as expendable, with Pacific islands used as nuclear testing grounds by France, the UK, and the US due to their distance from major power mainland territories",
-        "A 1974 legal challenge by Australia and New Zealand against French nuclear testing at the International Court of Justice demonstrated that international institutions could influence the behavior of powerful states",
-        "Ware has worked through the International Court of Justice, the United Nations, parliamentarians, and global civil society networks using a patient, incremental approach to nuclear disarmament"
+        "Alyn Ware argues that lasting security cannot be built against others but must be built with them, through 'common security' rather than nuclear deterrence.",
+        "Nuclear-armed ships and submarines from the United States visited New Zealand ports as part of the ANZUS alliance, which Ware opposed on moral grounds.",
+        "Indigenous Pacific communities were treated as expendable during nuclear testing by France, the UK, and the United States, with Pacific islands used as testing grounds due to their distance from major powers' mainland territories.",
+        "A 1974 legal challenge by Australia and New Zealand against French nuclear testing at the International Court of Justice demonstrated that international institutions can influence the behavior of powerful states.",
+        "Ware has worked through the International Court of Justice, the United Nations, parliamentarians, and global civil society networks to advance nuclear disarmament through patient, incremental, and law-based approaches."
       ],
       "topics": [
         "nuclear disarmament",
         "nonproliferation",
         "international law",
-        "global security"
+        "common security"
       ]
     },
     {
@@ -202,9 +202,8 @@
       "key_claims": [
         "The conventional narrative of clear European economic decline relative to the United States is wrong",
         "Widely used comparisons of productivity growth cannot be used to judge European versus U.S. economic success",
-        "There is a paradox of slow European growth occurring without a growing gap between Europe and the U.S.",
-        "Krugman argues he is continuing a wider discussion that has engaged commentators like Noah Smith and Luis Garicano",
-        "European economic performance is being mischaracterized by standard metrics"
+        "There is a US-Europe paradox where slow European growth has not resulted in a growing gap with the US",
+        "Smart observers like Noah Smith and Luis Garicano have engaged with Krugman's earlier arguments about European economic performance"
       ],
       "topics": [
         "European economy",
@@ -219,17 +218,17 @@
       "publication": "Robert Reich",
       "date": "2026-05-17T08:03:03+00:00",
       "key_claims": [
-        "Trump told a New York Times reporter that critical coverage of his Iran war could be considered 'treason,' representing an escalating threat against the press",
-        "Trump's war with Iran has caused Americans to pay $1.50 more per gallon for gas on average, with additional indirect costs for food and transportation",
-        "Trump stated he doesn't think about Americans' financial situation and claimed preventing Iran from having a nuclear weapon is his only motivation",
-        "The Iran nuclear situation was closer to resolution under the Obama-era nuclear deal, which Trump withdrew from, and Trump and Israel's aggression has pushed Iran's new leadership toward pursuing nuclear weapons",
-        "Trump has ended subsidies for renewable energy while subsidizing oil and gas, disadvantaging the U.S. relative to China in the renewable energy sector"
+        "Trump called a journalist's reporting 'treasonous' on Air Force One while returning from Beijing, claiming the US had 'a total military victory' in Iran",
+        "Americans are paying $1.50 more per gallon for gas on average as a result of Trump's war with Iran, with food and jet fuel costs also rising",
+        "Trump pulled the US out of the Obama-era Iran nuclear deal, which Reich argues brought the world closer to preventing Iran from obtaining nuclear weapons",
+        "Trump has subsidized fossil fuels and ended subsidies for renewables, while China excels in wind, solar, and battery technology",
+        "Iran's new, more extremist leadership has become more determined to develop nuclear weapons in response to Trump and Israel's military aggression"
       ],
       "topics": [
         "Iran War",
         "Trump foreign policy",
-        "press freedom",
-        "energy policy"
+        "energy costs",
+        "nuclear nonproliferation"
       ]
     },
     {
@@ -240,12 +239,12 @@
       "key_claims": [
         "On May 17, 1954, the Supreme Court unanimously decided Brown v. Board of Education, declaring racial segregation in public schools unconstitutional under the Fourteenth Amendment.",
         "Senator Strom Thurmond launched the longest filibuster in U.S. history at 24 hours and 18 minutes to block the Civil Rights Act of 1957.",
-        "Senator Cory Booker broke Thurmond's filibuster record on March 31–April 1, 2025, speaking for 25 hours, 5 minutes, and 59 seconds, though his speech was not technically a filibuster.",
-        "Three civil rights organizers—James Chaney, Andrew Goodman, and Michael Schwerner—were murdered by KKK members working with local law enforcement near Philadelphia, Mississippi, and buried in an earthen dam.",
-        "In Selma, Alabama, voting rolls were 99% white despite Black Americans outnumbering white Americans among the city's 29,500 residents, and a judge had banned public gatherings of more than two people to suppress voter registration."
+        "Senator Cory Booker broke Thurmond's filibuster record on March 31–April 1, 2025, speaking for 25 hours, 5 minutes, and 59 seconds, though his speech was not a filibuster.",
+        "James Chaney, Andrew Goodman, and Michael Schwerner were murdered by KKK members working with local law enforcement and buried in an earthen dam under construction near Philadelphia, Mississippi.",
+        "In Selma, Alabama, the city's voting rolls were 99% white despite Black Americans outnumbering white Americans in a city of 29,500 people, and a judge banned public gatherings of more than two people to stop voter registration meetings."
       ],
       "topics": [
-        "Civil Rights history",
+        "civil rights history",
         "voting rights",
         "racial segregation",
         "American history"
@@ -253,18 +252,18 @@
     },
     {
       "title": "I Blame My Father's Summer Reading Lists",
-      "url": "",
+      "url": null,
       "publication": "Suleika Jaouad",
       "date": "2026-05-17T06:02:15+00:00",
       "key_claims": [
-        "The author's major life choices, including a 15,000-mile solo road trip across America at age 27, can be traced back to summer reading lists assigned by her father.",
-        "Her father, a professor of French and Francophone literature, gave her books far beyond her emotional comprehension, including Nabokov's Lolita at age 12 and works by Anaïs Nin, Paul Bowles, Fanon, Flaubert, Kafka, Camus, and Sartre.",
-        "Reading Isabelle Eberhardt's 'The Passionate Nomad' at age 14 profoundly shaped the author's relationship with the desert and her desire for freedom and exploration.",
-        "The author's father has just published a biography titled 'The Immortal Journeys of Isabelle Eberhardt.'",
-        "The author later traced versions of Isabelle Eberhardt's journeys through North Africa, including studying in Morocco's Atlas Mountains, gathering oral histories in Tunisia, studying in Alexandria, and taking camping trips into the Sahara and other desert regions."
+        "The author's life choices, including a 15,000-mile solo road trip across America at age 27, can be traced back to summer reading lists assigned by her father.",
+        "Her father, a professor of French and Francophone literature, gave her books far beyond her emotional comprehension, including Nabokov's Lolita at age twelve and works by Anaïs Nin, Paul Bowles, Fanon, and Camus.",
+        "Reading Isabelle Eberhardt's journals at fourteen profoundly shaped her relationship to the desert and her sense of restlessness and freedom.",
+        "Her father's biography 'The Immortal Journeys of Isabelle Eberhardt' was published the week the article was written.",
+        "The author later traced versions of Isabelle Eberhardt's journeys through North Africa, including study in Morocco's Atlas Mountains, oral history work in Tunisia, and excursions into the Sahara, Sinai, and Wadi Rum."
       ],
       "topics": [
-        "reading and literature",
+        "books and reading",
         "memoir",
         "travel",
         "family influence"
@@ -276,16 +275,16 @@
       "publication": "Aaron Rupar from Public Notice",
       "date": "2026-05-17T03:24:09+00:00",
       "key_claims": [
-        "Public Notice is Aaron Rupar's platform for coverage of US politics and media",
+        "Public Notice is Aaron Rupar's online home for coverage of US politics and media",
         "Paid subscribers receive full access to the site including commenting privileges",
-        "Aaron Rupar reads all subscriber comments",
-        "Rupar posts clips of political media on Twitter (@atrupar)"
+        "Aaron Rupar monitors political media on Twitter (@atrupar) and posts clips",
+        "A paid subscription supports Rupar's work including his Twitter activity"
       ],
       "topics": [
-        "newsletter signup",
+        "newsletter subscription",
         "US politics",
         "media coverage",
-        "subscription"
+        "political journalism"
       ]
     },
     {
@@ -294,11 +293,10 @@
       "publication": "Substack",
       "date": "2026-05-17T01:32:02+00:00",
       "key_claims": [
-        "The verification code for signing in to Substack is 140918",
+        "The verification code for Substack sign-in is 140918",
         "The code is only valid for 10 minutes",
         "Users should not share the code with anyone",
-        "Substack employees will never ask for this code",
-        "An alternative login verification link is provided if the code does not work"
+        "Substack employees will never ask for the verification code"
       ],
       "topics": [
         "account verification",
@@ -313,12 +311,13 @@
       "date": "2026-05-17T01:31:24+00:00",
       "key_claims": [
         "A request was made to change a Substack account email address",
-        "The confirmation request expires in 6 hours",
-        "The email change is associated with a Substack account named 'Megan'"
+        "The email change request expires in 6 hours",
+        "The request originates from Substack Inc. based in San Francisco, CA"
       ],
       "topics": [
         "email verification",
-        "Substack account management"
+        "Substack",
+        "account management"
       ]
     }
   ],
