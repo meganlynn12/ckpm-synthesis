@@ -1,4 +1,4 @@
-const CACHE = 'ckpm-v1779040149';
+const CACHE = 'ckpm-v1779062029';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
