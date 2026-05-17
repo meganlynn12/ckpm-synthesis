@@ -5,6 +5,7 @@
 import re
 import calendar
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 
 import feedparser
 import requests
@@ -18,85 +19,65 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CKPM-Aggregator/1.0)",
 }
 
-# Strip characters that are invalid in XML 1.0
-# Valid: #x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]
-_INVALID_XML = re.compile(
-    r"[^\x09\x0A\x0D\x20-\uD7FF\uE000-\uFFFD\U00010000-\U0010FFFF]"
-)
-
-def sanitize_xml(raw: bytes) -> bytes:
-    """Remove characters that are invalid in XML 1.0 before parsing."""
-    try:
-        text = raw.decode("utf-8", errors="replace")
-    except Exception:
-        text = raw.decode("latin-1", errors="replace")
-    cleaned = _INVALID_XML.sub("", text)
-    return cleaned.encode("utf-8")
-
-
-def fetch_feed(url: str):
-    """
-    Fetch and parse an RSS feed robustly.
-    Falls back to feedparser direct fetch if requests fails.
-    """
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        clean = sanitize_xml(resp.content)
-        feed = feedparser.parse(clean)
-        # If sanitized parse yielded entries, use it
-        if feed.entries:
-            return feed
-    except Exception:
-        pass
-    # Fallback: let feedparser fetch directly (handles redirects etc.)
-    return feedparser.parse(url)
-
 
 def strip_html(html: str) -> str:
-    text = BeautifulSoup(html, "html.parser").get_text(separator=" ")
+    text = BeautifulSoup(html, "lxml").get_text(separator=" ")
     return re.sub(r"\s+", " ", text).strip()
 
 
-def entry_published_utc(entry) -> datetime | None:
-    parsed = getattr(entry, "published_parsed", None)
-    if parsed is None:
-        parsed = getattr(entry, "updated_parsed", None)
-    if parsed is None:
+def parse_date(date_str: str) -> datetime | None:
+    """Parse RSS date strings robustly."""
+    if not date_str:
         return None
-    return datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc)
+    try:
+        return parsedate_to_datetime(date_str).astimezone(timezone.utc)
+    except Exception:
+        pass
+    try:
+        from dateutil import parser as dateparser
+        return dateparser.parse(date_str).astimezone(timezone.utc)
+    except Exception:
+        return None
 
 
-def is_recent(entry, cutoff: datetime) -> bool:
-    pub = entry_published_utc(entry)
+def is_recent(pub: datetime | None, cutoff: datetime) -> bool:
     if pub is None:
         return True  # include if date unparseable
     return pub >= cutoff
 
 
-def parse_entry(entry, source_name: str) -> dict | None:
-    content_html = ""
-    if hasattr(entry, "content") and entry.content:
-        content_html = entry.content[0].get("value", "")
-    if not content_html:
-        content_html = getattr(entry, "summary", "")
+def parse_bs4_feed(content: bytes) -> list[dict]:
+    """
+    Parse RSS/Atom feed using BeautifulSoup + lxml XML parser.
+    lxml's XML parser has recovery mode enabled — handles malformed XML
+    that feedparser's strict parser rejects.
+    """
+    soup = BeautifulSoup(content, "xml")  # uses lxml's lenient XML parser
+    items = soup.find_all("item") or soup.find_all("entry")
+    results = []
+    for item in items:
+        title = item.find("title")
+        link = item.find("link")
+        pub_date = item.find("pubDate") or item.find("published") or item.find("updated")
+        content_tag = (
+            item.find("content:encoded")
+            or item.find("encoded")
+            or item.find("content")
+            or item.find("summary")
+            or item.find("description")
+        )
 
-    content_text = strip_html(content_html)[:MAX_CONTENT_CHARS]
-    if not content_text:
-        return None
+        link_url = ""
+        if link:
+            link_url = link.get("href") or link.get_text(strip=True)
 
-    pub = entry_published_utc(entry)
-
-    return {
-        "source": source_name,
-        "title": getattr(entry, "title", "Untitled"),
-        "url": getattr(entry, "link", ""),
-        "published": pub.isoformat() if pub else getattr(entry, "published", ""),
-        "content": content_text,
-        "summarized": False,
-        "bullets": [],
-        "themes": [],
-    }
+        results.append({
+            "title": title.get_text(strip=True) if title else "Untitled",
+            "url": link_url,
+            "published_str": pub_date.get_text(strip=True) if pub_date else "",
+            "content_html": content_tag.get_text(separator=" ") if content_tag else "",
+        })
+    return results
 
 
 def fetch_rss_articles() -> list[dict]:
@@ -111,21 +92,75 @@ def fetch_rss_articles() -> list[dict]:
         print(f"  Fetching: {name}")
 
         try:
-            feed = fetch_feed(url)
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            resp.raise_for_status()
+            raw = resp.content
+
+            # Try feedparser first (fastest, most complete)
+            feed = feedparser.parse(raw)
+            used_bs4 = False
 
             if not feed.entries:
-                bozo_msg = str(getattr(feed, "bozo_exception", "no entries"))
-                print(f"    ⚠ No entries for {name}: {bozo_msg}")
+                # Feedparser failed — fall back to BeautifulSoup + lxml
+                bs4_items = parse_bs4_feed(raw)
+                if bs4_items:
+                    used_bs4 = True
+                    count = 0
+                    for item in bs4_items[:MAX_ARTICLES_PER_SOURCE]:
+                        pub = parse_date(item["published_str"])
+                        if not is_recent(pub, cutoff):
+                            continue
+                        content_text = strip_html(item["content_html"])[:MAX_CONTENT_CHARS]
+                        if not content_text:
+                            continue
+                        all_articles.append({
+                            "source": name,
+                            "title": item["title"],
+                            "url": item["url"],
+                            "published": pub.isoformat() if pub else item["published_str"],
+                            "content": content_text,
+                            "summarized": False,
+                            "bullets": [],
+                            "themes": [],
+                        })
+                        count += 1
+                    print(f"    ✓ {count} articles in last {LOOKBACK_HOURS}h (via fallback parser)")
+                else:
+                    print(f"    ⚠ No entries for {name} (both parsers failed)")
                 continue
 
-            recent = [e for e in feed.entries[:MAX_ARTICLES_PER_SOURCE] if is_recent(e, cutoff)]
+            # feedparser succeeded — process normally
+            count = 0
+            for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
+                parsed = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+                pub = datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc) if parsed else None
 
-            for entry in recent:
-                article = parse_entry(entry, name)
-                if article:
-                    all_articles.append(article)
+                if not is_recent(pub, cutoff):
+                    continue
 
-            print(f"    ✓ {len(recent)} articles in last {LOOKBACK_HOURS}h")
+                content_html = ""
+                if hasattr(entry, "content") and entry.content:
+                    content_html = entry.content[0].get("value", "")
+                if not content_html:
+                    content_html = getattr(entry, "summary", "")
+
+                content_text = strip_html(content_html)[:MAX_CONTENT_CHARS]
+                if not content_text:
+                    continue
+
+                all_articles.append({
+                    "source": name,
+                    "title": getattr(entry, "title", "Untitled"),
+                    "url": getattr(entry, "link", ""),
+                    "published": pub.isoformat() if pub else getattr(entry, "published", ""),
+                    "content": content_text,
+                    "summarized": False,
+                    "bullets": [],
+                    "themes": [],
+                })
+                count += 1
+
+            print(f"    ✓ {count} articles in last {LOOKBACK_HOURS}h")
 
         except Exception as e:
             print(f"    ✗ Error fetching {name}: {e}")

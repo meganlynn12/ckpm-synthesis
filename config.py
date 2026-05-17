@@ -37,10 +37,10 @@ FREE_RSS_SOURCES = [
     {"name": "John Ellis",              "url": "https://substack.news-items.com/feed"},
     {"name": "Scott Galloway",          "url": "https://profgalloway.com/feed/"},
     {"name": "Prof G Media (Monday Rage)", "url": "https://www.profgmedia.com/s/monday-rage/feed"},
-    {"name": "Sabato's Crystal Ball",   "url": "https://crystalball.substack.com/feed"},
+    # {"name": "Sabato's Crystal Ball",   "url": "https://crystalball.substack.com/feed"},
 
     # --- Free news RSS ---
-    {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
+    # {"name": "NPR",        "url": "https://feeds.npr.org/1001/rss.xml"},
     {"name": "ProPublica", "url": "https://www.propublica.org/feeds/propublica/main"},
     {"name": "SCOTUSblog", "url": "https://www.scotusblog.com/feed/"},
 ]
