@@ -1,14 +1,15 @@
 # .github/workflows/fetch.yml
-# Runs the content aggregator nightly at 6 AM ET (11:00 UTC).
-# Caches the Substack session between runs to avoid daily logins.
+# Runs the content aggregator at 6 AM and 6 PM ET daily.
 # Commits updated content.json back to the repo.
 
 name: Fetch & Summarize Content
 
 on:
   schedule:
-    - cron: "0 11 * * *"      # 6 AM ET / 11 AM UTC daily
-  workflow_dispatch:            # Also allows manual trigger from GitHub UI
+    - cron: "0 11 * * *"      # 6 AM ET / 11:00 UTC
+    - cron: "0 17 * * *"      # 12 PM ET / 17:00 UTC
+    - cron: "0 23 * * *"      # 6 PM ET / 23:00 UTC
+  workflow_dispatch:            # Manual trigger from GitHub UI
 
 jobs:
   fetch:
@@ -55,8 +56,8 @@ jobs:
       - name: Run content aggregator
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
-          GMAIL_CREDENTIALS: ${{ secrets.GMAIL_CREDENTIALS }}
+          GMAIL_TOKEN:        ${{ secrets.GMAIL_TOKEN }}
+          GMAIL_CREDENTIALS:  ${{ secrets.GMAIL_CREDENTIALS }}
         run: python main.py
 
       # ------------------------------------------------------------------ #
