@@ -1,6 +1,6 @@
 # .github/workflows/fetch.yml
-# Runs the content aggregator at 6 AM and 6 PM ET daily.
-# Commits updated content.json back to the repo.
+# Runs the content aggregator at 6 AM, 12 PM, and 6 PM ET daily.
+# Commits updated content.json and bumps sw.js cache version back to repo.
 
 name: Fetch & Summarize Content
 
@@ -61,12 +61,20 @@ jobs:
         run: python main.py
 
       # ------------------------------------------------------------------ #
-      # Commit updated content.json back to repo
+      # Bump service worker cache version so clients always get fresh content
       # ------------------------------------------------------------------ #
-      - name: Commit content.json
+      - name: Bump service worker cache version
+        run: |
+          TIMESTAMP=$(date +%s)
+          sed -i "s/ckpm-v[0-9]*/ckpm-v${TIMESTAMP}/" sw.js
+
+      # ------------------------------------------------------------------ #
+      # Commit updated files back to repo
+      # ------------------------------------------------------------------ #
+      - name: Commit updated files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/content.json
+          git add output/content.json sw.js
           git diff --staged --quiet || git commit -m "chore: update content.json [skip ci]"
           git push
