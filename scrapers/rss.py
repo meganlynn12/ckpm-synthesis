@@ -107,10 +107,17 @@ def fetch_rss_articles() -> list[dict]:
                 if bs4_items:
                     used_bs4 = True
                     count = 0
-                    for item in bs4_items[:MAX_ARTICLES_PER_SOURCE]:
+                    for item in bs4_items:
+                        if count >= MAX_ARTICLES_PER_SOURCE:
+                            break # Stop if we hit our limit
+                            
                         pub = parse_date(item["published_str"])
                         if not is_recent(pub, cutoff):
-                            continue
+                            continue # Skip old posts, but don't add to count
+                    # for item in bs4_items[:MAX_ARTICLES_PER_SOURCE]:
+                    #     pub = parse_date(item["published_str"])
+                    #     if not is_recent(pub, cutoff):
+                    #         continue
                         content_text = strip_html(item["content_html"])[:MAX_CONTENT_CHARS]
                         if not content_text:
                             continue
@@ -129,11 +136,18 @@ def fetch_rss_articles() -> list[dict]:
                 else:
                     print(f"    ⚠ No entries for {name} (both parsers failed)")
                 continue
-
+            
             # feedparser succeeded — process normally
             count = 0
-            for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
+            for entry in feed.entries:
+                if count >= MAX_ARTICLES_PER_SOURCE:
+                    break # Stop if we hit our limit
+                    
                 parsed = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+            # feedparser succeeded — process normally
+            # count = 0
+            # for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
+            #     parsed = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
                 pub = datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc) if parsed else None
 
                 if not is_recent(pub, cutoff):
