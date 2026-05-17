@@ -2,9 +2,10 @@
 main.py — CKPM Content Aggregator pipeline
 
 1. Fetch articles from all RSS sources
-2. Deduplicate
-3. Generate themed executive briefing via summarizer.py
-4. Write output/content.json
+2. Fetch Substack newsletters from Gmail
+3. Deduplicate
+4. Generate themed executive briefing via summarizer.py
+5. Write output/content.json
 """
 
 import json
@@ -12,10 +13,11 @@ import os
 from datetime import datetime, timezone
 
 from scrapers.rss import fetch_rss_articles
+from scrapers.gmail import fetch_gmail_articles
 from summarizer import generate_briefing
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "output", "content.json")
-MAX_ARTICLES = 60  # Cap to keep Phase 1 token cost reasonable
+MAX_ARTICLES = 60
 
 
 def main():
@@ -24,10 +26,18 @@ def main():
     print(f"CKPM Content Aggregator — {run_date}")
     print(f"{'='*60}\n")
 
-    # --- Fetch ---
+    # --- Fetch RSS ---
     print("[main] Fetching RSS sources...")
-    all_articles = fetch_rss_articles()
-    print(f"[main] Fetched {len(all_articles)} raw articles")
+    rss_articles = fetch_rss_articles()
+    print(f"[main] RSS: {len(rss_articles)} articles\n")
+
+    # --- Fetch Gmail (Substack newsletters) ---
+    print("[main] Fetching Substack newsletters from Gmail...")
+    gmail_articles = fetch_gmail_articles()
+    print(f"[main] Gmail: {len(gmail_articles)} articles\n")
+
+    all_articles = rss_articles + gmail_articles
+    print(f"[main] Total fetched: {len(all_articles)} raw articles")
 
     # --- Deduplicate by URL + title ---
     seen = set()
@@ -42,7 +52,6 @@ def main():
 
     print(f"[main] {len(unique_articles)} articles after deduplication")
 
-    # Cap total articles to keep costs bounded
     if len(unique_articles) > MAX_ARTICLES:
         print(f"[main] Capping to {MAX_ARTICLES} most recent articles")
         unique_articles = unique_articles[:MAX_ARTICLES]

@@ -55,8 +55,8 @@ jobs:
       - name: Run content aggregator
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          SUBSTACK_EMAIL:     ${{ secrets.SUBSTACK_EMAIL }}
-          SUBSTACK_PASSWORD:  ${{ secrets.SUBSTACK_PASSWORD }}
+          GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
+          GMAIL_CREDENTIALS: ${{ secrets.GMAIL_CREDENTIALS }}
         run: python main.py
 
       # ------------------------------------------------------------------ #
