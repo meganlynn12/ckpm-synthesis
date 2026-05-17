@@ -3,35 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f1923">
 <title>CKPM Briefing</title>
 <link rel="manifest" href="manifest.json">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #f5f5f3;
+    --bg: #f4f4f0;
     --surface: #ffffff;
-    --border: rgba(0,0,0,0.1);
+    --border: rgba(0,0,0,0.08);
     --text: #1a1a1a;
-    --muted: #666;
+    --muted: #777;
     --accent: #1a3a6b;
-    --accent-light: #e8edf5;
-    --tag-bg: #eef2f8;
+    --accent-link: #2e5fa3;
+    --accent-light: #edf1f8;
+    --tag-bg: #edf1f8;
     --tag-text: #1a3a6b;
+    --header-bg: #0f1923;
+    --header-text: #f4f4f0;
+    --header-muted: rgba(244,244,240,0.55);
+    --sup-color: #2e5fa3;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #111;
-      --surface: #1c1c1e;
-      --border: rgba(255,255,255,0.1);
-      --text: #f0f0f0;
-      --muted: #999;
+      --bg: #0f1923;
+      --surface: #172230;
+      --border: rgba(255,255,255,0.08);
+      --text: #e8e8e4;
+      --muted: #8a96a3;
       --accent: #6b9ed2;
+      --accent-link: #89b8e8;
       --accent-light: #1a2a3a;
       --tag-bg: #1a2a3a;
-      --tag-text: #6b9ed2;
+      --tag-text: #89b8e8;
+      --header-bg: #080e14;
+      --header-text: #e8e8e4;
+      --header-muted: rgba(232,232,228,0.5);
+      --sup-color: #89b8e8;
     }
   }
 
@@ -44,35 +54,63 @@
     min-height: 100vh;
   }
 
+  /* ── Header ── */
   header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 1rem 1.25rem;
+    background: var(--header-bg);
+    padding: 1.25rem 1.5rem 1.1rem;
     position: sticky;
     top: 0;
     z-index: 10;
   }
 
-  header h1 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+  .header-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--header-text);
+    letter-spacing: 0.02em;
   }
 
-  header p {
-    font-size: 0.8rem;
-    color: var(--muted);
+  .header-subtitle {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--header-muted);
+    margin-top: 3px;
+  }
+
+  .header-tagline {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--header-muted);
     margin-top: 2px;
   }
 
+  .header-date {
+    font-size: 0.75rem;
+    color: var(--header-muted);
+    margin-top: 6px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 6px;
+  }
+
+  /* ── Main ── */
   main {
     max-width: 680px;
     margin: 0 auto;
     padding: 1.25rem;
   }
 
+  .meta-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  /* ── Big Picture ── */
   .big-picture {
     background: var(--accent-light);
     border-left: 3px solid var(--accent);
@@ -82,20 +120,21 @@
   }
 
   .big-picture .label {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 600;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--accent);
     margin-bottom: 0.5rem;
   }
 
   .big-picture p {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     color: var(--text);
-    line-height: 1.65;
+    line-height: 1.7;
   }
 
+  /* ── Theme Cards ── */
   .theme-card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -115,12 +154,10 @@
     -webkit-tap-highlight-color: transparent;
   }
 
-  .theme-header:active {
-    background: var(--bg);
-  }
+  .theme-header:active { background: var(--bg); }
 
   .theme-title {
-    font-size: 1rem;
+    font-size: 0.98rem;
     font-weight: 600;
     color: var(--text);
     flex: 1;
@@ -134,20 +171,18 @@
   }
 
   .pub-count {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     color: var(--muted);
     white-space: nowrap;
   }
 
   .chevron {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     color: var(--muted);
     transition: transform 0.2s ease;
   }
 
-  .theme-card.open .chevron {
-    transform: rotate(180deg);
-  }
+  .theme-card.open .chevron { transform: rotate(180deg); }
 
   .theme-body {
     display: none;
@@ -155,27 +190,71 @@
     border-top: 1px solid var(--border);
   }
 
-  .theme-card.open .theme-body {
-    display: block;
-  }
+  .theme-card.open .theme-body { display: block; }
 
-  .theme-body p {
+  .theme-body .briefing {
     font-size: 0.9rem;
-    line-height: 1.7;
+    line-height: 1.75;
     color: var(--text);
     margin-top: 1rem;
   }
 
-  .theme-body a {
-    color: var(--accent);
+  /* ── Inline citations ── */
+  sup.cite {
+    font-size: 0.65em;
+    color: var(--sup-color);
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1px;
+    vertical-align: super;
+    line-height: 0;
+  }
+
+  /* ── Links ── */
+  a {
+    color: var(--accent-link);
     text-decoration: none;
-    border-bottom: 1px solid transparent;
   }
 
-  .theme-body a:hover {
-    border-bottom-color: var(--accent);
+  a:hover { text-decoration: underline; }
+
+  /* ── Bibliography ── */
+  .bibliography {
+    margin-top: 1.1rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.9rem;
   }
 
+  .bibliography-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+
+  .bib-entry {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .bib-num {
+    color: var(--sup-color);
+    font-weight: 600;
+    flex-shrink: 0;
+    min-width: 1.4rem;
+  }
+
+  .bib-entry a {
+    color: var(--accent-link);
+  }
+
+  /* ── Source tags ── */
   .pubs {
     display: flex;
     flex-wrap: wrap;
@@ -186,21 +265,17 @@
   .pub-tag {
     background: var(--tag-bg);
     color: var(--tag-text);
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 500;
     padding: 3px 10px;
     border-radius: 100px;
+    text-decoration: none;
+    transition: opacity 0.15s;
   }
 
-  .meta-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
-    font-size: 0.8rem;
-    color: var(--muted);
-  }
+  .pub-tag:hover { opacity: 0.75; text-decoration: none; }
 
+  /* ── States ── */
   .error {
     text-align: center;
     padding: 3rem 1rem;
@@ -211,46 +286,101 @@
 
   .skeleton {
     background: var(--border);
-    border-radius: 6px;
+    border-radius: 10px;
     animation: pulse 1.4s ease-in-out infinite;
+    height: 72px;
+    margin-bottom: 1rem;
   }
 
   @keyframes pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.4; }
-  }
-
-  .skeleton-block {
-    height: 80px;
-    margin-bottom: 1rem;
-    border-radius: 10px;
+    50% { opacity: 0.35; }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>CKPM Daily Briefing</h1>
-  <p id="header-date">Loading...</p>
+  <div class="header-title">CKPM Briefing</div>
+  <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
+  <div class="header-tagline">Intelligence, curated.</div>
+  <div class="header-date" id="header-date">Loading...</div>
 </header>
 
 <main id="main">
-  <div class="skeleton skeleton-block"></div>
-  <div class="skeleton skeleton-block"></div>
-  <div class="skeleton skeleton-block"></div>
+  <div class="skeleton"></div>
+  <div class="skeleton"></div>
+  <div class="skeleton"></div>
 </main>
 
 <script>
 const CONTENT_URL = './output/content.json';
 
+// Known source URLs for tag links
+const SOURCE_URLS = {
+  "Silver Bulletin":        "https://www.natesilver.net",
+  "The Bulwark":            "https://www.thebulwark.com",
+  "Slow Boring":            "https://www.slowboring.com",
+  "Scott Galloway":         "https://www.profgmedia.com",
+  "John Ellis":             "https://substack.news-items.com",
+  "ProPublica":             "https://www.propublica.org",
+  "SCOTUSblog":             "https://www.scotusblog.com",
+  "Onest Network":          "https://www.onestnetwork.com",
+  "Heather Cox Richardson": "https://heathercoxrichardson.substack.com",
+  "Phillips P. O'Brien":    "https://phillipspobrien.substack.com",
+  "Paul Krugman":           "https://paulkrugman.substack.com",
+  "Robert Reich":           "https://robertreich.substack.com",
+  "Wake Up To Politics":    "https://wakeuptopolitics.substack.com",
+  "G. Elliott Morris":      "https://gelliottmorris.substack.com",
+};
+
+function formatDate(dateStr) {
+  if (!dateStr) return 'Today';
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function formatTime() {
+  return new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+}
+
+// Convert [1] and [2,3] to superscript spans
+function renderCitations(text) {
+  return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, (match, nums) => {
+    return `<sup class="cite">${match}</sup>`;
+  });
+}
+
+function renderBibliography(references) {
+  if (!references || references.length === 0) return '';
+  const entries = references.map(ref => {
+    const url = ref.url;
+    const title = ref.title || 'Article';
+    const pub = ref.publication || '';
+    const linked = url
+      ? `<a href="${url}" target="_blank" rel="noopener">${title}</a>`
+      : title;
+    return `<div class="bib-entry"><span class="bib-num">[${ref.num}]</span><span>${pub ? pub + ' — ' : ''}${linked}</span></div>`;
+  }).join('');
+  return `<div class="bibliography"><div class="bibliography-label">Sources</div>${entries}</div>`;
+}
+
+function renderPubTags(publications) {
+  if (!publications || publications.length === 0) return '';
+  const tags = publications.map(p => {
+    const url = SOURCE_URLS[p];
+    return url
+      ? `<a class="pub-tag" href="${url}" target="_blank" rel="noopener">${p}</a>`
+      : `<span class="pub-tag">${p}</span>`;
+  }).join('');
+  return `<div class="pubs">${tags}</div>`;
+}
+
 function renderBriefing(data) {
   const main = document.getElementById('main');
   const dateEl = document.getElementById('header-date');
 
-  const date = data.date
-    ? new Date(data.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
-    : 'Today';
-  dateEl.textContent = date;
+  dateEl.textContent = `${formatDate(data.date)} · Updated ${formatTime()}`;
 
   if (!data.themes || data.themes.length === 0) {
     main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next scheduled run.</p></div>';
@@ -264,13 +394,12 @@ function renderBriefing(data) {
   }
 
   if (data.big_picture) {
-    html += `<div class="big-picture"><div class="label">Big Picture</div><p>${linkify(data.big_picture)}</p></div>`;
+    html += `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture)}</p></div>`;
   }
 
   (data.themes || []).forEach((theme, i) => {
-    const pubs = (theme.publications || []);
+    const pubs = theme.publications || [];
     const count = theme.source_count || pubs.length;
-    const pubTags = pubs.map(p => `<span class="pub-tag">${p}</span>`).join('');
     const openClass = i === 0 ? ' open' : '';
 
     html += `
@@ -283,17 +412,14 @@ function renderBriefing(data) {
           </span>
         </div>
         <div class="theme-body">
-          <p>${linkify(theme.briefing || '')}</p>
-          ${pubTags ? `<div class="pubs">${pubTags}</div>` : ''}
+          <div class="briefing">${renderCitations(theme.briefing || '')}</div>
+          ${renderPubTags(pubs)}
+          ${renderBibliography(theme.references)}
         </div>
       </div>`;
   });
 
   main.innerHTML = html;
-}
-
-function linkify(text) {
-  return text.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
 }
 
 function toggle(header) {
