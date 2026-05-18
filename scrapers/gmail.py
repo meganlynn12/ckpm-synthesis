@@ -18,14 +18,33 @@ from config import MAX_CONTENT_CHARS
 LOOKBACK_HOURS = 24
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
+# Minimum content length to be considered a real article
+MIN_CONTENT_CHARS = 500
+
+# Subject patterns to skip — transactional/system emails
+SKIP_SUBJECT_PATTERNS = [
+    r"verification code",
+    r"confirm email",
+    r"confirm your email",
+    r"you're on the list",
+    r"youre on the list",
+    r"welcome to",
+    r"verify your",
+    r"live video",
+    r"is now live",
+    r"caption contest",
+    r"^\d{6} is your",       # OTP codes like "140918 is your..."
+    r"^re:",
+    r"^fwd:",
+]
+
+SKIP_SUBJECT_RE = re.compile(
+    "|".join(SKIP_SUBJECT_PATTERNS), re.IGNORECASE
+)
+
 
 def get_credentials() -> Credentials:
-    """
-    Build Gmail credentials from GitHub Secrets injected as env vars.
-    GMAIL_TOKEN and GMAIL_CREDENTIALS must be set in the environment.
-    """
     token_data = json.loads(os.environ["GMAIL_TOKEN"])
-
     creds = Credentials(
         token=token_data["token"],
         refresh_token=token_data["refresh_token"],
@@ -34,11 +53,8 @@ def get_credentials() -> Credentials:
         client_secret=token_data["client_secret"],
         scopes=token_data["scopes"],
     )
-
-    # Refresh if expired
     if creds.expired and creds.refresh_token:
         creds.refresh(Request())
-
     return creds
 
 
@@ -48,7 +64,6 @@ def strip_html(html: str) -> str:
 
 
 def decode_part(part: dict) -> str:
-    """Decode a base64url-encoded email body part."""
     data = part.get("body", {}).get("data", "")
     if not data:
         return ""
@@ -56,37 +71,28 @@ def decode_part(part: dict) -> str:
 
 
 def extract_body(payload: dict) -> str:
-    """
-    Recursively extract the best text content from an email payload.
-    Prefers text/html over text/plain for richer content.
-    """
     mime = payload.get("mimeType", "")
-
     if mime == "text/html":
         return decode_part(payload)
-
     if mime == "text/plain":
         return decode_part(payload)
-
     if "parts" in payload:
-        # Prefer html part
         html_content = ""
         plain_content = ""
         for part in payload["parts"]:
             result = extract_body(part)
-            if part.get("mimeType") == "text/html" or "html" in part.get("mimeType", ""):
-                html_content = result
-            elif part.get("mimeType") == "text/plain":
-                plain_content = result
+            part_mime = part.get("mimeType", "")
+            if "html" in part_mime:
+                html_content = html_content or result
+            elif "plain" in part_mime:
+                plain_content = plain_content or result
             elif result:
                 html_content = html_content or result
         return html_content or plain_content
-
     return ""
 
 
 def parse_gmail_date(date_str: str) -> datetime | None:
-    """Parse Gmail's internalDate (milliseconds since epoch)."""
     try:
         return datetime.fromtimestamp(int(date_str) / 1000, tz=timezone.utc)
     except Exception:
@@ -100,13 +106,23 @@ def get_header(headers: list, name: str) -> str:
     return ""
 
 
+def clean_sender_name(sender: str) -> str:
+    """Extract clean publication name from Gmail sender field."""
+    # "Heather Cox Richardson <heathercoxrichardson@substack.com>"
+    name_match = re.match(r"^(.+?)\s*<", sender)
+    if name_match:
+        name = name_match.group(1).strip().strip('"')
+        # Remove common suffixes
+        name = re.sub(r"\s*(newsletter|substack|via substack)$", "", name, flags=re.IGNORECASE)
+        return name.strip()
+    # Just an email address
+    email_match = re.match(r"([^@]+)@", sender)
+    return email_match.group(1) if email_match else sender
+
+
 def fetch_gmail_articles() -> list[dict]:
-    """
-    Fetch Substack newsletter emails from Gmail from the last LOOKBACK_HOURS.
-    Returns a flat list of article dicts matching the rss.py format.
-    """
     cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    cutoff_epoch_ms = int(cutoff.timestamp())
+    cutoff_epoch_sec = int(cutoff.timestamp())
 
     print(f"[gmail] Fetching Substack emails after {cutoff.strftime('%Y-%m-%d %H:%M UTC')}")
 
@@ -117,8 +133,7 @@ def fetch_gmail_articles() -> list[dict]:
         print(f"[gmail] ✗ Auth failed: {e}")
         return []
 
-    # Search for emails from any @substack.com sender in the time window
-    query = f"from:@substack.com after:{cutoff_epoch_ms // 1000}"
+    query = f"from:@substack.com after:{cutoff_epoch_sec}"
 
     try:
         result = service.users().messages().list(
@@ -135,9 +150,11 @@ def fetch_gmail_articles() -> list[dict]:
         print(f"[gmail] ✓ No Substack emails in last {LOOKBACK_HOURS}h")
         return []
 
-    print(f"[gmail] Found {len(messages)} Substack emails")
+    print(f"[gmail] Found {len(messages)} Substack emails, filtering...")
 
     articles = []
+    skipped = 0
+
     for msg_ref in messages:
         try:
             msg = service.users().messages().get(
@@ -152,20 +169,27 @@ def fetch_gmail_articles() -> list[dict]:
             date_ms = msg.get("internalDate", "0")
             pub = parse_gmail_date(date_ms)
 
-            # Extract newsletter name from sender
-            # e.g. "Heather Cox Richardson <heathercoxrichardson@substack.com>"
-            name_match = re.match(r"^(.+?)\s*<", sender)
-            source_name = name_match.group(1).strip() if name_match else sender
+            # Skip transactional/system emails
+            if SKIP_SUBJECT_RE.search(subject):
+                skipped += 1
+                continue
+
+            source_name = clean_sender_name(sender)
 
             body_html = extract_body(msg["payload"])
             content_text = strip_html(body_html)[:MAX_CONTENT_CHARS]
 
-            if not content_text:
+            # Skip if content is too short to be a real article
+            if len(content_text) < MIN_CONTENT_CHARS:
+                skipped += 1
                 continue
 
-            # Best-effort: extract the canonical URL from the email
-            url_match = re.search(r"https://[a-z0-9\-]+\.substack\.com/p/[^\s\"'>]+", body_html)
-            url = url_match.group(0).split("?")[0] if url_match else ""
+            # Extract canonical URL
+            url_match = re.search(
+                r"https://[a-z0-9\-]+\.substack\.com/p/[^\s\"'>?]+",
+                body_html
+            )
+            url = url_match.group(0) if url_match else ""
 
             articles.append({
                 "source": source_name,
@@ -183,5 +207,5 @@ def fetch_gmail_articles() -> list[dict]:
         except Exception as e:
             print(f"    ✗ Error processing message {msg_ref['id']}: {e}")
 
-    print(f"[gmail] ✓ {len(articles)} articles extracted")
+    print(f"[gmail] ✓ {len(articles)} articles extracted, {skipped} skipped")
     return articles

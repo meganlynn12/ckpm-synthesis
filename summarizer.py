@@ -148,11 +148,18 @@ def synthesize_briefing(extractions: list[dict], date: str) -> dict | None:
             messages=[{"role": "user", "content": prompt}],
         )
         raw = response.content[0].text.strip()
+        print(f"  [synthesize] Response size: ~{len(raw)} chars, stop_reason={response.stop_reason}")
         if raw.startswith("```"):
             raw = raw.split("```")[1]
             if raw.startswith("json"):
                 raw = raw[4:]
-        return json.loads(raw.strip())
+        cleaned = raw.strip()
+        try:
+            return json.loads(cleaned)
+        except json.JSONDecodeError as je:
+            print(f"  [synthesize] JSON parse error at position {je.pos}: {je.msg}")
+            print(f"  [synthesize] Near: {cleaned[max(0,je.pos-50):je.pos+50]}")
+            return None
     except Exception as e:
         print(f"  [synthesize] Synthesis failed: {e}")
         return None
@@ -183,6 +190,10 @@ def generate_briefing(articles: list[dict], date: str) -> dict:
         }
 
     print(f"\n[summarizer] Phase 2: Synthesizing {len(extractions)} extractions into themed briefing...")
+    # Cap to avoid token limits in synthesis prompt
+    if len(extractions) > 20:
+        print(f"[summarizer] Capping extractions to 20 for synthesis")
+        extractions = extractions[:20]
     briefing = synthesize_briefing(extractions, date)
 
     if not briefing:
