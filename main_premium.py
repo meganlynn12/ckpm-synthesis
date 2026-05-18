@@ -4,7 +4,7 @@ main_premium.py — Premium Journalism Content Aggregator pipeline
 Pipeline:
 1. Fetch newsletter emails from Gmail (scrapers/premium_gmail.py)
    Each article tagged: tier = "newsletter" | "breaking" | "longform"
-2. Deduplicate
+2. Deduplicate (breaking news alerts are never deduplicated)
 3. Route to three-tier summarizer (summarizer_premium.py):
    - Tier 1  newsletter  → structure extraction only (NYT, Economist)
    - Tier 2  breaking    → end-of-day narrative digest (NYT alerts)
@@ -31,7 +31,7 @@ RUN_LABELS = {
     22: "6 PM",  23: "6 PM",
 }
 
-MAX_ARTICLES = 80   # higher cap than substack pipeline — newsletters can be dense
+MAX_ARTICLES = 80
 
 
 def get_run_label(dt: datetime) -> str:
@@ -84,8 +84,16 @@ def main():
         return
 
     # ── Deduplicate ──
+    # Breaking news alerts are never deduplicated — their value is in
+    # the full set of alerts across the day, which the summarizer collapses
+    # into a narrative. Deduplication by URL/title would collapse multiple
+    # alerts about the same evolving story into one.
     seen, unique = set(), []
     for article in articles:
+        if article.get("tier") == "breaking":
+            unique.append(article)
+            continue
+
         key       = article.get("url") or article.get("title", "").lower().strip()
         title_key = article.get("title", "").lower().strip()
         if key not in seen and title_key not in seen:
@@ -93,19 +101,25 @@ def main():
             seen.add(title_key)
             unique.append(article)
 
-    print(f"[main_premium] {len(unique)} articles after deduplication")
+    breaking_count = sum(1 for a in unique if a.get("tier") == "breaking")
+    print(f"[main_premium] {len(unique)} articles after deduplication "
+          f"({breaking_count} breaking alerts preserved)")
 
     if len(unique) > MAX_ARTICLES:
-        print(f"[main_premium] Capping to {MAX_ARTICLES}")
-        unique = unique[:MAX_ARTICLES]
+        # Cap non-breaking articles; always keep all breaking alerts
+        breaking  = [a for a in unique if a.get("tier") == "breaking"]
+        non_break = [a for a in unique if a.get("tier") != "breaking"]
+        non_break = non_break[:MAX_ARTICLES - len(breaking)]
+        unique    = breaking + non_break
+        print(f"[main_premium] Capped to {len(unique)} (all {len(breaking)} breaking alerts kept)")
 
     # ── Three-tier synthesis ──
     briefing = generate_premium_briefing(unique, run_date)
 
     # ── Attach run metadata ──
-    briefing["generated_at"]      = generated_at
-    briefing["run_label"]         = run_label
-    briefing["archive_filename"]  = archive_filename
+    briefing["generated_at"]     = generated_at
+    briefing["run_label"]        = run_label
+    briefing["archive_filename"] = archive_filename
 
     # ── Write current ──
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -121,13 +135,13 @@ def main():
     # ── Update archive index ──
     counts = briefing.get("counts", {})
     update_archive_index({
-        "date":             run_date,
-        "run_label":        run_label,
-        "generated_at":     generated_at,
-        "filename":         archive_filename,
-        "pipeline":         "premium",
-        "counts":           counts,
-        "total_articles":   sum(counts.values()),
+        "date":           run_date,
+        "run_label":      run_label,
+        "generated_at":   generated_at,
+        "filename":       archive_filename,
+        "pipeline":       "premium",
+        "counts":         counts,
+        "total_articles": sum(counts.values()),
     })
     print(f"[main_premium] Archive index updated")
 
