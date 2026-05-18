@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-05-18",
-    "run_label": "21:11 UTC",
-    "generated_at": "2026-05-18T21:11:09.843917+00:00",
+    "run_label": "21:21 UTC",
+    "generated_at": "2026-05-18T21:21:13.746293+00:00",
     "filename": "2026-05-18-21.json",
     "articles_processed": 28,
     "theme_count": 6,
     "publications": [
-      "Onest Network",
-      "Scott Galloway",
+      "Silver Bulletin",
+      "John Ellis",
+      "Slow Boring",
       "SCOTUSblog",
       "The Bulwark",
+      "Scott Galloway",
       "ProPublica",
-      "Slow Boring",
-      "John Ellis",
-      "Silver Bulletin"
+      "Onest Network"
     ]
   },
   {
