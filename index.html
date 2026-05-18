@@ -24,6 +24,7 @@
     --header-text: #f4f4f0;
     --header-muted: rgba(244,244,240,0.55);
     --sup-color: #2e5fa3;
+    --drawer-bg: #0a1520;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -42,6 +43,7 @@
       --header-text: #e8e8e4;
       --header-muted: rgba(232,232,228,0.5);
       --sup-color: #89b8e8;
+      --drawer-bg: #060c12;
     }
   }
 
@@ -61,7 +63,13 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
   }
+
+  .header-left { flex: 1; min-width: 0; }
 
   .header-title {
     font-size: 1.35rem;
@@ -94,11 +102,153 @@
     padding-top: 6px;
   }
 
+  .archive-btn {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    color: var(--header-muted);
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 4px;
+    flex-shrink: 0;
+    transition: background 0.15s;
+  }
+
+  .archive-btn:hover { background: rgba(255,255,255,0.14); }
+
+  /* ── Archive Drawer ── */
+  .drawer-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 100;
+  }
+
+  .drawer-overlay.open { display: block; }
+
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 300px;
+    height: 100vh;
+    background: var(--drawer-bg);
+    z-index: 101;
+    transition: right 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .drawer-overlay.open .drawer { right: 0; }
+
+  .drawer-header {
+    padding: 1.25rem 1.25rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  .drawer-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--header-text);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .drawer-close {
+    background: none;
+    border: none;
+    color: var(--header-muted);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .drawer-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem 0;
+  }
+
+  .drawer-date-group {
+    padding: 0.6rem 1.25rem 0.2rem;
+  }
+
+  .drawer-date-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--header-muted);
+  }
+
+  .drawer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.65rem 1.25rem;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: background 0.1s;
+    gap: 0.75rem;
+  }
+
+  .drawer-item:hover { background: rgba(255,255,255,0.05); }
+
+  .drawer-item.active {
+    border-left-color: var(--accent);
+    background: rgba(255,255,255,0.06);
+  }
+
+  .drawer-item-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--header-text);
+  }
+
+  .drawer-item-meta {
+    font-size: 0.7rem;
+    color: var(--header-muted);
+    text-align: right;
+    flex-shrink: 0;
+  }
+
   /* ── Main ── */
   main {
     max-width: 680px;
     margin: 0 auto;
     padding: 1.25rem;
+  }
+
+  .viewing-banner {
+    background: var(--accent-light);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--accent);
+  }
+
+  .viewing-banner button {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.78rem;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
   }
 
   .meta-bar {
@@ -199,7 +349,6 @@
     margin-top: 1rem;
   }
 
-  /* ── Inline citations ── */
   sup.cite {
     font-size: 0.65em;
     color: var(--sup-color);
@@ -210,15 +359,9 @@
     line-height: 0;
   }
 
-  /* ── Links ── */
-  a {
-    color: var(--accent-link);
-    text-decoration: none;
-  }
-
+  a { color: var(--accent-link); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* ── Bibliography ── */
   .bibliography {
     margin-top: 1.1rem;
     border-top: 1px solid var(--border);
@@ -250,11 +393,8 @@
     min-width: 1.4rem;
   }
 
-  .bib-entry a {
-    color: var(--accent-link);
-  }
+  .bib-entry a { color: var(--accent-link); }
 
-  /* ── Source tags ── */
   .pubs {
     display: flex;
     flex-wrap: wrap;
@@ -275,7 +415,6 @@
 
   .pub-tag:hover { opacity: 0.75; text-decoration: none; }
 
-  /* ── States ── */
   .error {
     text-align: center;
     padding: 3rem 1rem;
@@ -301,11 +440,27 @@
 <body>
 
 <header>
-  <div class="header-title">CKPM Briefing</div>
-  <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
-  <div class="header-tagline">Real intelligence, AI curated.</div>
-  <div class="header-date" id="header-date">Loading...</div>
+  <div class="header-left">
+    <div class="header-title">CKPM Briefing</div>
+    <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
+    <div class="header-tagline">Real Intelligence, AI curated.</div>
+    <div class="header-date" id="header-date">Loading...</div>
+  </div>
+  <button class="archive-btn" onclick="openArchive()">Archive ↗</button>
 </header>
+
+<!-- Archive Drawer -->
+<div class="drawer-overlay" id="drawer-overlay" onclick="handleOverlayClick(event)">
+  <div class="drawer" id="drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Past Briefings</span>
+      <button class="drawer-close" onclick="closeArchive()">✕</button>
+    </div>
+    <div class="drawer-list" id="drawer-list">
+      <div style="padding: 1.5rem; text-align: center; color: var(--header-muted); font-size: 0.8rem;">Loading...</div>
+    </div>
+  </div>
+</div>
 
 <main id="main">
   <div class="skeleton"></div>
@@ -314,9 +469,7 @@
 </main>
 
 <script>
-const CONTENT_URL = './output/content.json';
-
-// Known source URLs for tag links
+const BASE_URL = './output/';
 const SOURCE_URLS = {
   "Silver Bulletin":        "https://www.natesilver.net",
   "The Bulwark":            "https://www.thebulwark.com",
@@ -334,33 +487,31 @@ const SOURCE_URLS = {
   "G. Elliott Morris":      "https://gelliottmorris.substack.com",
 };
 
+let currentFilename = 'content.json';
+
 function formatDate(dateStr) {
   if (!dateStr) return 'Today';
   const d = new Date(dateStr + 'T12:00:00');
   return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-function formatTime() {
-  return new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+function formatDateShort(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// Convert [1] and [2,3] to superscript spans
 function renderCitations(text) {
-  return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, (match, nums) => {
-    return `<sup class="cite">${match}</sup>`;
-  });
+  return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, match => `<sup class="cite">${match}</sup>`);
 }
 
 function renderBibliography(references) {
   if (!references || references.length === 0) return '';
   const entries = references.map(ref => {
-    const url = ref.url;
-    const title = ref.title || 'Article';
-    const pub = ref.publication || '';
-    const linked = url
-      ? `<a href="${url}" target="_blank" rel="noopener">${title}</a>`
-      : title;
-    return `<div class="bib-entry"><span class="bib-num">[${ref.num}]</span><span>${pub ? pub + ' — ' : ''}${linked}</span></div>`;
+    const linked = ref.url
+      ? `<a href="${ref.url}" target="_blank" rel="noopener">${ref.title || 'Article'}</a>`
+      : (ref.title || 'Article');
+    return `<div class="bib-entry"><span class="bib-num">[${ref.num}]</span><span>${ref.publication ? ref.publication + ' — ' : ''}${linked}</span></div>`;
   }).join('');
   return `<div class="bibliography"><div class="bibliography-label">Sources</div>${entries}</div>`;
 }
@@ -376,14 +527,16 @@ function renderPubTags(publications) {
   return `<div class="pubs">${tags}</div>`;
 }
 
-function renderBriefing(data) {
+function renderBriefing(data, isArchive = false) {
   const main = document.getElementById('main');
   const dateEl = document.getElementById('header-date');
 
   const updatedAt = data.generated_at
     ? new Date(data.generated_at).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })
-    : formatTime();
-  dateEl.textContent = `${formatDate(data.date)} · Updated ${updatedAt}`;
+    : '';
+
+  const runLabel = data.run_label ? ` · ${data.run_label} Edition` : '';
+  dateEl.textContent = `${formatDate(data.date)}${runLabel}${updatedAt ? ' · Updated ' + updatedAt : ''}`;
 
   if (!data.themes || data.themes.length === 0) {
     main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next scheduled run.</p></div>';
@@ -391,6 +544,10 @@ function renderBriefing(data) {
   }
 
   let html = '';
+
+  if (isArchive) {
+    html += `<div class="viewing-banner"><span>Viewing archived briefing: ${formatDate(data.date)}${runLabel}</span><button onclick="loadCurrent()">← Latest</button></div>`;
+  }
 
   if (data.articles_processed) {
     html += `<div class="meta-bar"><span>${data.articles_processed} articles processed</span><span>${(data.publications || []).length} sources</span></div>`;
@@ -429,19 +586,102 @@ function toggle(header) {
   header.closest('.theme-card').classList.toggle('open');
 }
 
-async function load() {
+async function loadBriefing(filename, isArchive = false) {
+  currentFilename = filename;
+  document.getElementById('main').innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
   try {
-    const res = await fetch(CONTENT_URL + '?t=' + Date.now());
+    const res = await fetch(BASE_URL + filename + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
-    renderBriefing(data);
+    renderBriefing(data, isArchive);
+    updateActiveDrawerItem(filename);
   } catch (e) {
-    document.getElementById('main').innerHTML = '<div class="error"><h2>Could not load briefing</h2><p>The daily run may not have completed yet.</p></div>';
+    document.getElementById('main').innerHTML = '<div class="error"><h2>Could not load briefing</h2><p>The run may not have completed yet.</p></div>';
     document.getElementById('header-date').textContent = 'Unavailable';
   }
 }
 
-load();
+function loadCurrent() {
+  loadBriefing('content.json', false);
+  closeArchive();
+}
+
+// ── Archive Drawer ──
+
+async function loadArchiveIndex() {
+  try {
+    const res = await fetch(BASE_URL + 'archive.json?t=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    return await res.json();
+  } catch (e) {
+    return [];
+  }
+}
+
+function groupByDate(entries) {
+  const groups = {};
+  for (const entry of entries) {
+    const d = entry.date || 'Unknown';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(entry);
+  }
+  return groups;
+}
+
+async function openArchive() {
+  document.getElementById('drawer-overlay').classList.add('open');
+  const list = document.getElementById('drawer-list');
+
+  const index = await loadArchiveIndex();
+
+  if (!index.length) {
+    list.innerHTML = '<div style="padding: 1.5rem; text-align: center; color: var(--header-muted); font-size: 0.8rem;">No archived briefings yet.</div>';
+    return;
+  }
+
+  const groups = groupByDate(index);
+  let html = '';
+
+  for (const [date, entries] of Object.entries(groups)) {
+    html += `<div class="drawer-date-group"><div class="drawer-date-label">${formatDateShort(date)}</div></div>`;
+    for (const entry of entries) {
+      const isActive = entry.filename === currentFilename ||
+        (currentFilename === 'content.json' && entry === index[0]);
+      html += `
+        <div class="drawer-item${isActive ? ' active' : ''}" onclick="selectArchiveItem('${entry.filename}', this)">
+          <span class="drawer-item-label">${entry.run_label || entry.filename}</span>
+          <span class="drawer-item-meta">${entry.articles_processed || 0} articles<br>${entry.theme_count || 0} themes</span>
+        </div>`;
+    }
+  }
+
+  list.innerHTML = html;
+}
+
+function selectArchiveItem(filename, el) {
+  document.querySelectorAll('.drawer-item').forEach(i => i.classList.remove('active'));
+  el.classList.add('active');
+  const isArchive = filename !== 'content.json';
+  loadBriefing(filename, isArchive);
+  closeArchive();
+}
+
+function updateActiveDrawerItem(filename) {
+  document.querySelectorAll('.drawer-item').forEach(item => {
+    item.classList.remove('active');
+  });
+}
+
+function closeArchive() {
+  document.getElementById('drawer-overlay').classList.remove('open');
+}
+
+function handleOverlayClick(e) {
+  if (e.target === document.getElementById('drawer-overlay')) closeArchive();
+}
+
+// ── Init ──
+loadBriefing('content.json', false);
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});

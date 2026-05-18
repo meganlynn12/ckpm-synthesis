@@ -75,6 +75,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/content.json sw.js
+          git add output/content.json output/archive.json output/*.json sw.js
           git diff --staged --quiet || git commit -m "chore: update content.json"
           git push

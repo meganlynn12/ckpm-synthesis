@@ -5,7 +5,9 @@ main.py — CKPM Content Aggregator pipeline
 2. Fetch Substack newsletters from Gmail
 3. Deduplicate
 4. Generate themed executive briefing via summarizer.py
-5. Write output/content.json
+5. Write output/content.json (current)
+6. Write output/YYYY-MM-DD-HH.json (archive)
+7. Update output/archive.json index
 """
 
 import json
@@ -16,16 +18,56 @@ from scrapers.rss import fetch_rss_articles
 from scrapers.gmail import fetch_gmail_articles
 from summarizer import generate_briefing
 
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "output", "content.json")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+CURRENT_PATH = os.path.join(OUTPUT_DIR, "content.json")
+ARCHIVE_INDEX_PATH = os.path.join(OUTPUT_DIR, "archive.json")
+
+# Human-readable run labels by UTC hour
+RUN_LABELS = {
+    10: "6 AM",
+    11: "6 AM",   # DST fallback
+    16: "12 PM",
+    17: "12 PM",  # DST fallback
+    22: "6 PM",
+    23: "6 PM",   # DST fallback
+}
+
 MAX_ARTICLES = 60
 
 
+def get_run_label(dt: datetime) -> str:
+    """Return a human-readable label for this run based on UTC hour."""
+    return RUN_LABELS.get(dt.hour, f"{dt.strftime('%H:%M')} UTC")
+
+
+def update_archive_index(archive_entry: dict) -> None:
+    """Add this run to the archive index, keeping most recent first."""
+    index = []
+    if os.path.exists(ARCHIVE_INDEX_PATH):
+        try:
+            with open(ARCHIVE_INDEX_PATH, "r") as f:
+                index = json.load(f)
+        except Exception:
+            index = []
+
+    # Avoid duplicates by filename
+    index = [e for e in index if e.get("filename") != archive_entry["filename"]]
+    index.insert(0, archive_entry)
+
+    with open(ARCHIVE_INDEX_PATH, "w", encoding="utf-8") as f:
+        json.dump(index, f, indent=2, ensure_ascii=False)
+
+
 def main():
-    run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    generated_at = datetime.now(timezone.utc).isoformat()
+    now = datetime.now(timezone.utc)
+    run_date = now.strftime("%Y-%m-%d")
+    run_label = get_run_label(now)
+    archive_filename = f"{now.strftime('%Y-%m-%d-%H')}.json"
+    archive_path = os.path.join(OUTPUT_DIR, archive_filename)
+    generated_at = now.isoformat()
 
     print(f"\n{'='*60}")
-    print(f"CKPM Content Aggregator — {run_date}")
+    print(f"CKPM Content Aggregator — {run_date} {run_label}")
     print(f"{'='*60}\n")
 
     # --- Fetch RSS ---
@@ -33,7 +75,7 @@ def main():
     rss_articles = fetch_rss_articles()
     print(f"[main] RSS: {len(rss_articles)} articles\n")
 
-    # --- Fetch Gmail (Substack newsletters) ---
+    # --- Fetch Gmail ---
     print("[main] Fetching Substack newsletters from Gmail...")
     gmail_articles = fetch_gmail_articles()
     print(f"[main] Gmail: {len(gmail_articles)} articles\n")
@@ -41,7 +83,7 @@ def main():
     all_articles = rss_articles + gmail_articles
     print(f"[main] Total fetched: {len(all_articles)} raw articles")
 
-    # --- Deduplicate by URL + title ---
+    # --- Deduplicate ---
     seen = set()
     unique_articles = []
     for article in all_articles:
@@ -63,15 +105,34 @@ def main():
 
     # --- Attach metadata ---
     briefing["generated_at"] = generated_at
+    briefing["run_label"] = run_label
+    briefing["archive_filename"] = archive_filename
 
-    # --- Write output ---
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    # --- Write current ---
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(CURRENT_PATH, "w", encoding="utf-8") as f:
         json.dump(briefing, f, indent=2, ensure_ascii=False)
+    print(f"\n[main] Written to content.json")
 
-    print(f"\n[main] Written to {OUTPUT_PATH}")
-    print(f"[main] Generated at: {generated_at}")
-    print(f"[main] Themes: {[t['theme'] for t in briefing.get('themes', [])]}")
+    # --- Write archive file ---
+    with open(archive_path, "w", encoding="utf-8") as f:
+        json.dump(briefing, f, indent=2, ensure_ascii=False)
+    print(f"[main] Archived to {archive_filename}")
+
+    # --- Update archive index ---
+    archive_entry = {
+        "date": run_date,
+        "run_label": run_label,
+        "generated_at": generated_at,
+        "filename": archive_filename,
+        "articles_processed": briefing.get("articles_processed", 0),
+        "theme_count": len(briefing.get("themes", [])),
+        "publications": briefing.get("publications", []),
+    }
+    update_archive_index(archive_entry)
+    print(f"[main] Archive index updated")
+
+    print(f"\n[main] Themes: {[t['theme'] for t in briefing.get('themes', [])]}")
     print(f"[main] Articles processed: {briefing.get('articles_processed', 0)}")
     print(f"\n{'='*60}\n")
 
