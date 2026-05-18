@@ -1,6 +1,24 @@
 [
   {
     "date": "2026-05-18",
+    "run_label": "20:46 UTC",
+    "generated_at": "2026-05-18T20:46:20.530926+00:00",
+    "filename": "2026-05-18-20.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "Silver Bulletin",
+      "Slow Boring",
+      "Onest Network",
+      "SCOTUSblog",
+      "John Ellis",
+      "The Bulwark",
+      "ProPublica",
+      "Scott Galloway"
+    ]
+  },
+  {
+    "date": "2026-05-18",
     "run_label": "12 PM",
     "generated_at": "2026-05-18T16:59:59.908753+00:00",
     "filename": "2026-05-18-16.json",
