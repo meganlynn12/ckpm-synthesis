@@ -45,8 +45,8 @@ jobs:
       - name: Run Substack pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN_JSON }}
-          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+          GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN }}
         run: python main.py
 
       - name: Commit Substack output
