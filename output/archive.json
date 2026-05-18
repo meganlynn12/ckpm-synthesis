@@ -2,29 +2,18 @@
   {
     "date": "2026-05-18",
     "run_label": "12 PM",
-    "generated_at": "2026-05-18T16:42:04.098673+00:00",
+    "generated_at": "2026-05-18T16:54:11.953854+00:00",
     "filename": "2026-05-18-16.json",
-    "articles_processed": 37,
+    "articles_processed": 25,
     "theme_count": 6,
     "publications": [
-      "Phillips's Newsletter (Phillips P. OBrien)",
-      "Gabe Fleisher",
-      "ProPublica",
-      "Public Notice",
-      "Jacob Morgan",
-      "John Ellis",
-      "The Bulwark",
-      "Silver Bulletin",
-      "The Freedom Frequency",
-      "Letters from an American (Heather Cox Richardson)",
-      "Letters from an American",
-      "Paul Krugman (Substack)",
-      "Slow Boring",
       "Scott Galloway",
-      "Kasparov's Next Move",
-      "Lucid (Ruth Ben-Ghiat)",
+      "The Bulwark",
+      "Slow Boring",
       "SCOTUSblog",
-      "Robert Reich"
+      "John Ellis",
+      "Silver Bulletin",
+      "ProPublica"
     ]
   },
   {
