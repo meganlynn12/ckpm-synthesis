@@ -1,0 +1,311 @@
+"""
+scrapers/premium_gmail.py
+
+Gmail ingestion for premium journalism sources across two accounts.
+
+Account 1 (GMAIL_TOKEN_JSON)     — authorized Gmail (Substack pipeline)
+                                   Will also receive WSJ + FT when re-subscribed later.
+Account 2 (GMAIL_TOKEN_JSON_2)   — second Gmail
+                                   MIT TR, NYT, Economist, Atlantic, Foreign Affairs
+
+Three content tiers, tagged on each returned article:
+  tier: "newsletter"   — professionally edited digest; render as-is, no AI summary
+  tier: "breaking"     — intraday alert; collapse into end-of-day narrative
+  tier: "longform"     — few articles/day, deep analytical synthesis warranted
+"""
+
+import base64
+import json
+import os
+import re
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
+
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
+
+# ---------------------------------------------------------------------------
+# Config
+# ---------------------------------------------------------------------------
+
+SCOPES          = ["https://www.googleapis.com/auth/gmail.readonly"]
+LOOKBACK_HOURS  = 28
+MAX_PER_SENDER  = 5
+
+# ---------------------------------------------------------------------------
+# Exact sender → source definition
+# tier:
+#   "newsletter" — render as-is (NYT Morning, Economist Espresso, etc.)
+#   "breaking"   — end-of-day collapse (NYT breaking alerts)
+#   "longform"   — deep synthesis (Foreign Affairs, Atlantic long reads, MIT TR features)
+# ---------------------------------------------------------------------------
+
+PREMIUM_SENDERS = {
+    # ── Account 2 sources ──
+    "newsletters@technologyreview.com": {
+        "name": "MIT Technology Review",
+        "tier": "longform",
+        "home_url": "https://www.technologyreview.com",
+    },
+    "nytdirect@nytimes.com": {
+        "name": "New York Times",
+        "tier": "newsletter",
+        "home_url": "https://www.nytimes.com",
+    },
+    "breakingnews@nytimes.com": {
+        "name": "New York Times",
+        "tier": "breaking",
+        "home_url": "https://www.nytimes.com",
+    },
+    "noreply@e.economist.com": {
+        "name": "The Economist",
+        "tier": "newsletter",
+        "home_url": "https://www.economist.com",
+    },
+    "newsletters@e.economist.com": {
+        "name": "The Economist",
+        "tier": "newsletter",
+        "home_url": "https://www.economist.com",
+    },
+    "email@theatlantic.com": {
+        "name": "The Atlantic",
+        "tier": "longform",
+        "home_url": "https://www.theatlantic.com",
+    },
+    "news@foreignaffairs.com": {
+        "name": "Foreign Affairs",
+        "tier": "longform",
+        "home_url": "https://www.foreignaffairs.com",
+    },
+    # ── Account 1 — add WSJ + FT here when re-subscribed ──
+    # "newsletters@wsj.com": {
+    #     "name": "Wall Street Journal",
+    #     "tier": "newsletter",
+    #     "home_url": "https://www.wsj.com",
+    # },
+    # "firstft@ft.com": {
+    #     "name": "Financial Times",
+    #     "tier": "newsletter",
+    #     "home_url": "https://www.ft.com",
+    # },
+}
+
+# ---------------------------------------------------------------------------
+# Gmail auth
+# ---------------------------------------------------------------------------
+
+def _load_credentials(token_json_str: str) -> Credentials:
+    """Build Credentials from a JSON string (GitHub secret value)."""
+    info  = json.loads(token_json_str)
+    creds = Credentials.from_authorized_user_info(info, SCOPES)
+    if creds.expired and creds.refresh_token:
+        creds.refresh(Request())
+    return creds
+
+
+def _get_services() -> list[tuple[object, str]]:
+    """
+    Return a list of (gmail_service, label) pairs — one per authorized account.
+    Label is used only for logging.
+    """
+    services = []
+
+    token1 = os.environ.get("GMAIL_TOKEN_JSON")
+    if token1:
+        try:
+            creds = _load_credentials(token1)
+            svc   = build("gmail", "v1", credentials=creds, cache_discovery=False)
+            services.append((svc, "account-1"))
+            print("[premium_gmail] Account 1 authenticated ✓")
+        except Exception as e:
+            print(f"[premium_gmail] Account 1 auth failed: {e}")
+
+    token2 = os.environ.get("GMAIL_TOKEN_JSON_2")
+    if token2:
+        try:
+            creds = _load_credentials(token2)
+            svc   = build("gmail", "v1", credentials=creds, cache_discovery=False)
+            services.append((svc, "account-2"))
+            print("[premium_gmail] Account 2 authenticated ✓")
+        except Exception as e:
+            print(f"[premium_gmail] Account 2 auth failed: {e}")
+
+    if not services:
+        raise RuntimeError(
+            "No Gmail tokens found. Set GMAIL_TOKEN_JSON and/or GMAIL_TOKEN_JSON_2."
+        )
+
+    return services
+
+# ---------------------------------------------------------------------------
+# Email parsing helpers
+# ---------------------------------------------------------------------------
+
+def _headers_dict(headers_list: list) -> dict:
+    return {h["name"].lower(): h["value"] for h in headers_list}
+
+
+def _decode_body(payload: dict) -> str:
+    """Recursively extract plain-text or HTML body from a Gmail message payload."""
+    mime_type = payload.get("mimeType", "")
+    body_data = payload.get("body", {}).get("data", "")
+
+    if mime_type == "text/plain" and body_data:
+        return base64.urlsafe_b64decode(body_data).decode("utf-8", errors="replace")
+
+    if mime_type == "text/html" and body_data:
+        raw = base64.urlsafe_b64decode(body_data).decode("utf-8", errors="replace")
+        return _strip_html(raw)
+
+    for part in payload.get("parts", []):
+        result = _decode_body(part)
+        if result:
+            return result
+
+    return ""
+
+
+def _strip_html(html: str) -> str:
+    html = re.sub(r"<(br|p|div|li|h[1-6])[^>]*>", "\n", html, flags=re.IGNORECASE)
+    html = re.sub(r"<[^>]+>", "", html)
+    for ent, char in [("&amp;","&"),("&lt;","<"),("&gt;",">"),
+                      ("&quot;",'"'),("&#39;","'"),("&nbsp;"," ")]:
+        html = html.replace(ent, char)
+    html = re.sub(r"\n{3,}", "\n\n", html)
+    return html.strip()
+
+
+def _parse_date(date_str: str) -> str:
+    try:
+        return parsedate_to_datetime(date_str).isoformat()
+    except Exception:
+        return datetime.now(timezone.utc).isoformat()
+
+
+def _extract_primary_url(body: str, home_url: str) -> str:
+    """Pull the first HTTP link from the email body, falling back to home_url."""
+    match = re.search(r"https?://[^\s\"'<>]+", body)
+    return match.group(0) if match else home_url
+
+
+def _sender_address(from_header: str) -> str:
+    """Extract bare email address from a From: header like 'Name <addr@domain.com>'."""
+    m = re.search(r"<([^>]+)>", from_header)
+    return m.group(1).lower() if m else from_header.lower().strip()
+
+# ---------------------------------------------------------------------------
+# Core fetch
+# ---------------------------------------------------------------------------
+
+def _fetch_from_service(service, account_label: str) -> list[dict]:
+    """Fetch and parse premium newsletter emails from one Gmail account."""
+    cutoff   = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+    after_ts = int(cutoff.timestamp())
+
+    # Narrow query to known sender addresses to avoid pulling the full inbox
+    sender_filter = " OR ".join(f"from:{addr}" for addr in PREMIUM_SENDERS)
+    query = f"({sender_filter}) after:{after_ts}"
+
+    print(f"[premium_gmail] {account_label}: querying Gmail...")
+
+    messages   = []
+    page_token = None
+    while True:
+        kwargs = {"userId": "me", "q": query, "maxResults": 200}
+        if page_token:
+            kwargs["pageToken"] = page_token
+        result     = service.users().messages().list(**kwargs).execute()
+        messages  += result.get("messages", [])
+        page_token  = result.get("nextPageToken")
+        if not page_token:
+            break
+
+    print(f"[premium_gmail] {account_label}: {len(messages)} matching messages found")
+
+    articles:      list[dict]      = []
+    sender_counts: dict[str, int]  = {}
+
+    for msg_ref in messages:
+        try:
+            msg = service.users().messages().get(
+                userId="me", id=msg_ref["id"], format="full"
+            ).execute()
+        except Exception as e:
+            print(f"[premium_gmail]   Error fetching message {msg_ref['id']}: {e}")
+            continue
+
+        payload = msg.get("payload", {})
+        headers = _headers_dict(payload.get("headers", []))
+        sender  = _sender_address(headers.get("from", ""))
+        source  = PREMIUM_SENDERS.get(sender)
+
+        if not source:
+            continue
+
+        count = sender_counts.get(sender, 0)
+        if count >= MAX_PER_SENDER:
+            continue
+
+        subject   = headers.get("subject", "(no subject)")
+        published = _parse_date(headers.get("date", ""))
+        body      = _decode_body(payload)
+
+        if not body or len(body.strip()) < 80:
+            continue
+
+        primary_url = _extract_primary_url(body, source["home_url"])
+
+        article = {
+            "source":      source["name"],
+            "title":       subject,
+            "url":         primary_url,
+            "published":   published,
+            "content":     body[:8000],
+            "description": body[:500],
+            "tier":        source["tier"],   # "newsletter" | "breaking" | "longform"
+            "sender":      sender,
+        }
+
+        articles.append(article)
+        sender_counts[sender] = count + 1
+        print(f"[premium_gmail]   [{source['tier']}] {source['name']}: {subject[:70]}")
+
+    return articles
+
+# ---------------------------------------------------------------------------
+# Public entry point
+# ---------------------------------------------------------------------------
+
+def fetch_premium_gmail_articles() -> list[dict]:
+    """
+    Authenticate against all configured Gmail accounts and return
+    all premium journalism articles tagged by tier.
+
+    Returns list of article dicts with keys:
+        source, title, url, published, content, description, tier, sender
+    """
+    print(f"\n[premium_gmail] Starting fetch (lookback: {LOOKBACK_HOURS}h)...")
+
+    try:
+        services = _get_services()
+    except RuntimeError as e:
+        print(f"[premium_gmail] {e}")
+        return []
+
+    all_articles = []
+    for service, label in services:
+        articles = _fetch_from_service(service, label)
+        all_articles.extend(articles)
+
+    # Summary by tier
+    tiers = {"newsletter": 0, "breaking": 0, "longform": 0}
+    for a in all_articles:
+        tiers[a.get("tier", "newsletter")] += 1
+
+    print(f"\n[premium_gmail] Done. {len(all_articles)} total articles:")
+    print(f"  newsletter : {tiers['newsletter']}")
+    print(f"  breaking   : {tiers['breaking']}")
+    print(f"  longform   : {tiers['longform']}")
+
+    return all_articles
