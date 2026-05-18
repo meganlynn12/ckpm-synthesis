@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-05-18",
+    "run_label": "6 PM",
+    "generated_at": "2026-05-18T23:01:25.058460+00:00",
+    "filename": "2026-05-18-23.json",
+    "articles_processed": 43,
+    "theme_count": 6,
+    "publications": [
+      "Paul Krugman (Substack)",
+      "Kasparov's Next Move",
+      "SCOTUSblog",
+      "Robert Reich",
+      "Silver Bulletin",
+      "ProPublica",
+      "Phillips's Newsletter (Substack)",
+      "John Ellis",
+      "The Bulwark",
+      "Slow Boring",
+      "Letters from an American (Heather Cox Richardson)",
+      "Galen Druke (GD POLITICS)",
+      "The Freedom Frequency",
+      "Public Notice",
+      "Scott Galloway",
+      "Jacob Morgan",
+      "Gabe Fleisher",
+      "Onest Network"
+    ]
+  },
+  {
+    "date": "2026-05-18",
     "run_label": "21:29 UTC",
     "generated_at": "2026-05-18T21:29:54.560365+00:00",
     "filename": "2026-05-18-21.json",
