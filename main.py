@@ -22,6 +22,8 @@ MAX_ARTICLES = 60
 
 def main():
     run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    generated_at = datetime.now(timezone.utc).isoformat()
+
     print(f"\n{'='*60}")
     print(f"CKPM Content Aggregator — {run_date}")
     print(f"{'='*60}\n")
@@ -59,12 +61,16 @@ def main():
     # --- Generate briefing ---
     briefing = generate_briefing(unique_articles, run_date)
 
+    # --- Attach metadata ---
+    briefing["generated_at"] = generated_at
+
     # --- Write output ---
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(briefing, f, indent=2, ensure_ascii=False)
 
     print(f"\n[main] Written to {OUTPUT_PATH}")
+    print(f"[main] Generated at: {generated_at}")
     print(f"[main] Themes: {[t['theme'] for t in briefing.get('themes', [])]}")
     print(f"[main] Articles processed: {briefing.get('articles_processed', 0)}")
     print(f"\n{'='*60}\n")

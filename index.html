@@ -303,7 +303,7 @@
 <header>
   <div class="header-title">CKPM Briefing</div>
   <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
-  <div class="header-tagline">Intelligence, curated.</div>
+  <div class="header-tagline">Real intelligence, AI curated.</div>
   <div class="header-date" id="header-date">Loading...</div>
 </header>
 
@@ -380,7 +380,10 @@ function renderBriefing(data) {
   const main = document.getElementById('main');
   const dateEl = document.getElementById('header-date');
 
-  dateEl.textContent = `${formatDate(data.date)} · Updated ${formatTime()}`;
+  const updatedAt = data.generated_at
+    ? new Date(data.generated_at).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })
+    : formatTime();
+  dateEl.textContent = `${formatDate(data.date)} · Updated ${updatedAt}`;
 
   if (!data.themes || data.themes.length === 0) {
     main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next scheduled run.</p></div>';
