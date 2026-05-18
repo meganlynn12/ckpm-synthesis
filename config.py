@@ -54,3 +54,54 @@ PLAYWRIGHT_SOURCES = [
     {"name": "Financial Times",       "url": "https://www.ft.com"},
     {"name": "Foreign Affairs",       "url": "https://www.foreignaffairs.com"},
 ]
+
+# ---------------------------------------------------------------------------
+# ADDITIONS TO config.py
+# Add this block below the existing PLAYWRIGHT_SOURCES section
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# Premium Gmail newsletter sources
+# These are ingested via scrapers/premium_gmail.py using the same Gmail OAuth
+# token as the Substack pipeline. Each source maps to a specific newsletter
+# sender domain and optional subject keywords.
+# See scrapers/premium_gmail.py for full matching logic.
+# ---------------------------------------------------------------------------
+
+PREMIUM_GMAIL_SOURCES = [
+    {
+        "name": "New York Times",
+        "sender_domain": "nytimes.com",
+        "newsletters": ["The Morning", "DealBook", "Evening Briefing"],
+    },
+    {
+        "name": "MIT Technology Review",
+        "sender_domain": "technologyreview.com",
+        "newsletters": ["The Download", "Weekend Reads"],
+    },
+    {
+        "name": "The Atlantic",
+        "sender_domain": "theatlantic.com",
+        "newsletters": ["The Atlantic Daily"],
+    },
+    {
+        "name": "Financial Times",
+        "sender_domain": "ft.com",
+        "newsletters": ["FirstFT", "FT Weekend"],
+    },
+    {
+        "name": "The Economist",
+        "sender_domain": "economist.com",
+        "newsletters": ["Espresso", "Weekly edition"],
+    },
+    {
+        "name": "Wall Street Journal",
+        "sender_domain": "wsj.com",
+        "newsletters": ["What's News", "The 10-Point"],
+    },
+    {
+        "name": "Foreign Affairs",
+        "sender_domain": "foreignaffairs.com",
+        "newsletters": [],  # all newsletters
+    },
+]

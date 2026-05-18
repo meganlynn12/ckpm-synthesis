@@ -1,80 +1,87 @@
-# .github/workflows/fetch.yml
-# Runs the content aggregator at 6 AM, 12 PM, and 6 PM ET daily.
-# Commits updated content.json and bumps sw.js cache version back to repo.
-
 name: Fetch & Summarize Content
 
 on:
   schedule:
+    # 6 AM ET = 11:00 UTC (EST) / 10:00 UTC (EDT)
+    # Running at both to handle DST transitions
     - cron: "0 11 * * *"      # 6 AM ET / 11:00 UTC
-    - cron: "0 17 * * *"      # 12 PM ET / 17:00 UTC
+    # - cron: "0 17 * * *"      # 12 PM ET / 17:00 UTC
     - cron: "0 23 * * *"      # 6 PM ET / 23:00 UTC
-  workflow_dispatch:            # Manual trigger from GitHub UI
+
+  workflow_dispatch:  # allow manual trigger from Actions tab
 
 jobs:
-  fetch:
+  # ─────────────────────────────────────────────
+  # Job 1: Substack & Open Web pipeline (existing)
+  # ─────────────────────────────────────────────
+  substack-pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-      # ------------------------------------------------------------------ #
-      # Setup
-      # ------------------------------------------------------------------ #
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.12
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
+          cache: pip
 
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
 
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
-      - name: Install Playwright browsers
-        run: playwright install chromium --with-deps
-
-      # ------------------------------------------------------------------ #
-      # Restore cached Substack session (avoids daily re-login)
-      # ------------------------------------------------------------------ #
-      - name: Restore Substack session cache
-        uses: actions/cache@v4
-        with:
-          path: sessions/substack_session.json
-          key: substack-session-${{ github.run_id }}
-          restore-keys: substack-session-
-
-      # ------------------------------------------------------------------ #
-      # Run the aggregator
-      # ------------------------------------------------------------------ #
-      - name: Run content aggregator
+      - name: Run Substack pipeline
         env:
-          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_TOKEN:        ${{ secrets.GMAIL_TOKEN }}
-          GMAIL_CREDENTIALS:  ${{ secrets.GMAIL_CREDENTIALS }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
         run: python main.py
 
-      # ------------------------------------------------------------------ #
-      # Bump service worker cache version so clients always get fresh content
-      # ------------------------------------------------------------------ #
-      - name: Bump service worker cache version
-        run: |
-          TIMESTAMP=$(date +%s)
-          sed -i "s/ckpm-v[0-9]*/ckpm-v${TIMESTAMP}/" sw.js
-
-      # ------------------------------------------------------------------ #
-      # Commit updated files back to repo
-      # ------------------------------------------------------------------ #
-      - name: Commit updated files
+      - name: Commit Substack output
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/content.json output/archive.json output/*.json sw.js
-          git diff --staged --quiet || git commit -m "chore: update content.json"
+          git add output/content.json output/archive.json output/20*.json || true
+          git diff --staged --quiet || git commit -m "chore: substack briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  # ─────────────────────────────────────────────
+  # Job 2: Premium Journalism pipeline (new)
+  # ─────────────────────────────────────────────
+  premium-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Run after substack job to avoid git push conflicts
+    needs: substack-pipeline
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Pull fresh after substack job's commit
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Premium pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+        run: python main_premium.py
+
+      - name: Commit Premium output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/premium_content.json output/premium_archive.json output/premium_20*.json || true
+          git diff --staged --quiet || git commit -m "chore: premium briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
