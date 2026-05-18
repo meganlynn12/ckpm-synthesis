@@ -143,7 +143,7 @@ def synthesize_briefing(extractions: list[dict], date: str) -> dict | None:
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=4000,
+            max_tokens=8000,
             system=SYNTHESIS_SYSTEM,
             messages=[{"role": "user", "content": prompt}],
         )
