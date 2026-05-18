@@ -73,7 +73,6 @@ header {
 #landing { display: none; max-width: 680px; margin: 0 auto; padding: 2rem 1.25rem; }
 #landing.visible { display: block; }
 .landing-intro { text-align: center; margin-bottom: 2rem; }
-.landing-intro h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.4rem; }
 .landing-intro p { font-size: 0.85rem; color: var(--muted); }
 .mode-cards { display: flex; flex-direction: column; gap: 1rem; }
 .mode-card {
@@ -132,7 +131,7 @@ a:hover { text-decoration: underline; }
 .error { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 .error h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
 
-/* ── Substack briefing (existing style) ── */
+/* ── Substack briefing ── */
 .meta-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; font-size: 0.78rem; color: var(--muted); }
 .big-picture { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem; }
 .big-picture .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
@@ -169,45 +168,33 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 
 /* Executive summary */
 .exec-summary {
-  background: var(--gold-light);
-  border-left: 3px solid var(--gold);
-  border-radius: 0 8px 8px 0;
-  padding: 1rem 1.25rem; margin-bottom: 0.5rem;
+  background: var(--gold-light); border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 0.5rem;
 }
 .exec-summary .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-muted); margin-bottom: 0.5rem; }
 .exec-summary p { font-size: 0.92rem; line-height: 1.7; }
 
 /* Newsletter cards */
-.newsletter-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; margin-bottom: 1rem; overflow: hidden;
-}
-.newsletter-header {
-  padding: 1rem 1.25rem; cursor: pointer;
-  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  user-select: none; -webkit-tap-highlight-color: transparent;
-}
+.newsletter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
+.newsletter-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 1rem; user-select: none; -webkit-tap-highlight-color: transparent; }
 .newsletter-header:active { background: var(--bg); }
 .newsletter-source { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-muted); margin-bottom: 3px; }
 .newsletter-title { font-size: 0.96rem; font-weight: 600; }
 .newsletter-card.open .chevron { transform: rotate(180deg); }
 .newsletter-body { display: none; border-top: 1px solid var(--border); }
 .newsletter-card.open .newsletter-body { display: block; }
-.newsletter-item {
-  padding: 0.85rem 1.25rem;
-  border-bottom: 1px solid var(--border);
-}
+.newsletter-item { padding: 0.85rem 1.25rem; border-bottom: 1px solid var(--border); }
 .newsletter-item:last-child { border-bottom: none; }
 .newsletter-item-headline { font-size: 0.88rem; font-weight: 600; margin-bottom: 0.3rem; }
 .newsletter-item-headline a { color: var(--text); }
 .newsletter-item-headline a:hover { color: var(--accent-link); text-decoration: none; }
 .newsletter-item-blurb { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
 
-/* Breaking news digest */
+/* Breaking news */
 .breaking-card {
   background: var(--red-light); border: 1px solid rgba(192,57,43,0.15);
-  border-left: 3px solid var(--red);
-  border-radius: 0 10px 10px 0; padding: 1rem 1.25rem; margin-bottom: 1rem;
+  border-left: 3px solid var(--red); border-radius: 0 10px 10px 0;
+  padding: 1rem 1.25rem; margin-bottom: 1rem;
 }
 .breaking-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 6px; }
 .breaking-narrative { font-size: 0.9rem; line-height: 1.75; }
@@ -218,16 +205,9 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 .breaking-ref { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.3rem; display: flex; gap: 0.5rem; }
 .breaking-ref-num { color: var(--red); font-weight: 600; flex-shrink: 0; min-width: 1.4rem; }
 
-/* Longform synthesis cards */
-.longform-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; margin-bottom: 1rem; overflow: hidden;
-}
-.longform-header {
-  padding: 1rem 1.25rem; cursor: pointer;
-  display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;
-  user-select: none; -webkit-tap-highlight-color: transparent;
-}
+/* Longform */
+.longform-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
+.longform-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; user-select: none; -webkit-tap-highlight-color: transparent; }
 .longform-header:active { background: var(--bg); }
 .longform-source-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
 .longform-source { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-muted); }
@@ -238,9 +218,9 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 .longform-card.open .longform-body { display: block; }
 .longform-section { margin-top: 1rem; }
 .longform-section-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-muted); margin-bottom: 0.4rem; }
-.longform-section p { font-size: 0.88rem; line-height: 1.65; color: var(--text); }
+.longform-section p { font-size: 0.88rem; line-height: 1.65; }
 .longform-args { list-style: none; padding: 0; }
-.longform-args li { font-size: 0.88rem; line-height: 1.65; color: var(--text); padding: 0.4rem 0 0.4rem 1rem; border-left: 2px solid var(--gold); margin-bottom: 0.4rem; }
+.longform-args li { font-size: 0.88rem; line-height: 1.65; padding: 0.4rem 0 0.4rem 1rem; border-left: 2px solid var(--gold); margin-bottom: 0.4rem; }
 .longform-questions { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.4rem; }
 .longform-question { font-size: 0.84rem; color: var(--muted); font-style: italic; padding-left: 1rem; border-left: 2px solid var(--border); line-height: 1.5; }
 .longform-link { display: inline-block; margin-top: 1rem; font-size: 0.8rem; color: var(--accent-link); }
@@ -252,7 +232,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
   <div class="header-left">
     <div class="header-title">CKPM Briefing</div>
     <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
-    <div class="header-tagline">Real Intelligence, AI curated.</div>
+    <div class="header-tagline">Real intelligence, curated with AI.</div>
     <div class="header-date" id="header-date">Select a briefing below</div>
   </div>
   <div class="header-actions">
@@ -264,8 +244,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 <!-- ── Landing ── -->
 <div id="landing" class="visible">
   <div class="landing-intro">
-    <h2>Choose your briefing</h2>
-    <p>Both pipelines update nightly at 6 AM ET.</p>
+    <p>Updated twice daily — 6 AM and 6 PM ET.</p>
   </div>
   <div class="mode-cards">
     <div class="mode-card substack" onclick="selectMode('substack')">
@@ -296,7 +275,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
         <div class="mode-sources">
           <span class="mode-tag">New York Times</span><span class="mode-tag">The Economist</span>
           <span class="mode-tag">MIT Tech Review</span><span class="mode-tag">The Atlantic</span>
-          <span class="mode-tag">Foreign Affairs</span>
+          <span class="mode-tag">Foreign Affairs</span><span class="mode-tag">The Athletic</span>
         </div>
         <div class="mode-meta">
           <span class="mode-status" id="premium-status">
@@ -347,12 +326,11 @@ const SOURCE_URLS = {
   "New York Times":"https://www.nytimes.com","MIT Technology Review":"https://www.technologyreview.com",
   "The Atlantic":"https://www.theatlantic.com","The Economist":"https://www.economist.com",
   "Wall Street Journal":"https://www.wsj.com","Financial Times":"https://www.ft.com",
-  "Foreign Affairs":"https://www.foreignaffairs.com",
+  "Foreign Affairs":"https://www.foreignaffairs.com","The Athletic":"https://theathletic.com",
 };
 
-// ── Utilities ──────────────────────────────────────────────────────────────
 function modeContentFile(m) { return m === 'premium' ? 'premium_content.json' : 'content.json'; }
-function modeArchiveFile(m) { return m === 'premium' ? 'premium_archive.json' : 'archive.json'; }
+function modeArchiveFile(m)  { return m === 'premium' ? 'premium_archive.json' : 'archive.json'; }
 function formatDate(s) {
   if (!s) return 'Today';
   return new Date(s + 'T12:00:00').toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
@@ -371,7 +349,6 @@ function timeAgo(iso) {
 function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 28*3600*1000; }
 function renderCitations(t) { return t.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m=>`<sup class="cite">${m}</sup>`); }
 
-// ── Screen switching ───────────────────────────────────────────────────────
 function showLanding() {
   document.getElementById('landing').classList.add('visible');
   document.getElementById('briefing-view').classList.remove('visible');
@@ -389,7 +366,6 @@ function selectMode(mode) {
   loadBriefing(modeContentFile(mode), false);
 }
 
-// ── Substack briefing renderer (existing) ─────────────────────────────────
 function renderSubstackBriefing(data, isArchive) {
   const main = document.getElementById('main');
   if (!data.themes || !data.themes.length) {
@@ -408,7 +384,6 @@ function renderSubstackBriefing(data, isArchive) {
   main.innerHTML = html;
 }
 
-// ── Premium briefing renderer ──────────────────────────────────────────────
 function renderPremiumBriefing(data, isArchive) {
   const main = document.getElementById('main');
   const { executive_summary, newsletters=[], breaking_digest, longform=[], counts={} } = data;
@@ -416,37 +391,29 @@ function renderPremiumBriefing(data, isArchive) {
 
   if (isArchive) html += `<div style="background:var(--gold-light);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--gold-muted)"><span>Archived: ${formatDate(data.date)}</span><button onclick="loadCurrent()" style="background:none;border:none;color:var(--gold-muted);font-size:.78rem;cursor:pointer;text-decoration:underline">← Latest</button></div>`;
 
-  // Executive summary
-  if (executive_summary) {
-    html += `<div class="exec-summary"><div class="label">Executive Summary</div><p>${executive_summary}</p></div>`;
-  }
+  if (executive_summary) html += `<div class="exec-summary"><div class="label">Executive Summary</div><p>${executive_summary}</p></div>`;
 
-  // ── Tier 1: Newsletters ──
   if (newsletters.length) {
     html += `<div class="section-label">📰 Newsletters <span class="count">${newsletters.length} edition${newsletters.length!==1?'s':''}</span></div>`;
     newsletters.forEach((n, i) => {
       const items = (n.items||[]).map(item => {
-        const headline = item.url
-          ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>`
-          : item.headline;
+        const headline = item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>` : item.headline;
         return `<div class="newsletter-item"><div class="newsletter-item-headline">${headline}</div>${item.blurb?`<div class="newsletter-item-blurb">${item.blurb}</div>`:''}</div>`;
       }).join('');
       html += `<div class="newsletter-card${i===0?' open':''}"><div class="newsletter-header" onclick="toggle(this)"><div><div class="newsletter-source">${n.source}</div><div class="newsletter-title">${n.title}</div></div><span class="chevron">▼</span></div><div class="newsletter-body">${items||'<div style="padding:1rem 1.25rem;font-size:.85rem;color:var(--muted)">No items extracted.</div>'}</div></div>`;
     });
   }
 
-  // ── Tier 2: Breaking news ──
   if (breaking_digest && breaking_digest.narrative) {
     const alertCount = breaking_digest.alert_count || 0;
     const narrative  = breaking_digest.narrative.split('\n\n').map(p=>`<p>${renderCitations(p)}</p>`).join('');
     const refs = (breaking_digest.references||[]).map(r =>
-      `<div class="breaking-ref"><span class="breaking-ref-num">[${r.num}]</span><span>${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Alert'}</a>`:(r.title||'Alert')} — ${r.published?new Date(r.published).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):''}}</span></div>`
+      `<div class="breaking-ref"><span class="breaking-ref-num">[${r.num}]</span><span>${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Alert'}</a>`:(r.title||'Alert')} — ${r.published?new Date(r.published).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):''}</span></div>`
     ).join('');
     html += `<div class="section-label">🔴 Breaking News <span class="count">${alertCount} alert${alertCount!==1?'s':''}</span></div>`;
     html += `<div class="breaking-card"><div class="breaking-label">⚡ End-of-Day Digest</div><div class="breaking-narrative">${narrative}</div>${refs?`<div class="breaking-sources"><div class="breaking-sources-label">Alerts cited</div>${refs}</div>`:''}</div>`;
   }
 
-  // ── Tier 3: Longform ──
   if (longform.length) {
     html += `<div class="section-label">📖 Long Reads <span class="count">${longform.length} article${longform.length!==1?'s':''}</span></div>`;
     longform.forEach((a, i) => {
@@ -478,7 +445,6 @@ function renderPremiumBriefing(data, isArchive) {
   main.innerHTML = html;
 }
 
-// ── Data loading ───────────────────────────────────────────────────────────
 async function loadBriefing(filename, isArchive=false) {
   currentFilename = filename;
   document.getElementById('main').innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
@@ -486,7 +452,7 @@ async function loadBriefing(filename, isArchive=false) {
     const res = await fetch(BASE_URL + filename + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
-    const dateEl = document.getElementById('header-date');
+    const dateEl    = document.getElementById('header-date');
     const updatedAt = data.generated_at ? new Date(data.generated_at).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',hour12:true}) : '';
     const runLabel  = data.run_label ? ` · ${data.run_label} Edition` : '';
     dateEl.textContent = `${formatDate(data.date)}${runLabel}${updatedAt?' · Updated '+updatedAt:''}`;
@@ -498,16 +464,18 @@ async function loadBriefing(filename, isArchive=false) {
   }
 }
 function loadCurrent() { loadBriefing(modeContentFile(currentMode), false); closeArchive(); }
-function toggle(header) { header.closest('[class$="-card"],[class*="-card "]').classList.toggle('open'); }
+function toggle(header) {
+  const card = header.closest('.theme-card, .newsletter-card, .longform-card');
+  if (card) card.classList.toggle('open');
+}
 
-// ── Landing card status ────────────────────────────────────────────────────
 async function loadCardStatus(mode) {
   const dotEl  = document.querySelector(`#${mode}-status .status-dot`);
   const textEl = document.getElementById(`${mode}-meta-text`);
   try {
     const res = await fetch(BASE_URL + modeContentFile(mode) + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
-    const data = await res.json();
+    const data   = await res.json();
     dotEl.className = 'status-dot' + (isStale(data.generated_at) ? ' stale' : '');
     const counts = data.counts || {};
     const total  = data.articles_processed || Object.values(counts).reduce((a,b)=>a+b,0);
@@ -518,7 +486,6 @@ async function loadCardStatus(mode) {
   }
 }
 
-// ── Archive drawer ─────────────────────────────────────────────────────────
 async function openArchive() {
   document.getElementById('drawer-overlay').classList.add('open');
   const list = document.getElementById('drawer-list');
@@ -533,8 +500,8 @@ async function openArchive() {
     for (const [date,entries] of Object.entries(groups)) {
       html+=`<div class="drawer-date-group"><div class="drawer-date-label">${formatDateShort(date)}</div></div>`;
       for (const e of entries) {
-        const total = e.total_articles || e.articles_processed || 0;
-        const active = e.filename===currentFilename;
+        const total  = e.total_articles || e.articles_processed || 0;
+        const active = e.filename === currentFilename;
         html+=`<div class="drawer-item${active?' active':''}" onclick="selectArchiveItem('${e.filename}',this)"><span class="drawer-item-label">${e.run_label||e.filename}</span><span class="drawer-item-meta">${total} articles</span></div>`;
       }
     }
@@ -550,7 +517,6 @@ function selectArchiveItem(filename, el) {
 function closeArchive() { document.getElementById('drawer-overlay').classList.remove('open'); }
 function handleOverlayClick(e) { if(e.target===document.getElementById('drawer-overlay')) closeArchive(); }
 
-// ── Init ───────────────────────────────────────────────────────────────────
 loadCardStatus('substack');
 loadCardStatus('premium');
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});

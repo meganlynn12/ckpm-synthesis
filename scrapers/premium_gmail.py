@@ -12,6 +12,10 @@ Three content tiers, tagged on each returned article:
   tier: "newsletter"   — professionally edited digest; render as-is, no AI summary
   tier: "breaking"     — intraday alert; collapse into end-of-day narrative
   tier: "longform"     — few articles/day, deep analytical synthesis warranted
+
+Sender matching supports two formats in PREMIUM_SENDERS keys:
+  - Exact address:  "nytdirect@nytimes.com"
+  - Domain suffix:  "@e1.theathletic.com"  (matches any address ending in that string)
 """
 
 import base64
@@ -29,16 +33,42 @@ from googleapiclient.discovery import build
 # Config
 # ---------------------------------------------------------------------------
 
-SCOPES          = ["https://www.googleapis.com/auth/gmail.readonly"]
-LOOKBACK_HOURS  = 28
-MAX_PER_SENDER  = 5
+SCOPES         = ["https://www.googleapis.com/auth/gmail.readonly"]
+LOOKBACK_HOURS = 28
+MAX_PER_SENDER = 5
+
+# ---------------------------------------------------------------------------
+# Promotional email filtering
+# ---------------------------------------------------------------------------
+
+PROMO_QUERY_EXCLUSIONS = (
+    "-category:promotions"
+    " -subject:subscribe"
+    " -subject:subscription"
+    " -subject:renew"
+    " -subject:renewal"
+    " -subject:gift"
+    " -subject:offer"
+    " -subject:deal"
+    " -subject:save"
+    " -subject:payment"
+    " -subject:invoice"
+)
+
+PROMO_SUBJECT_KEYWORDS = [
+    "subscribe", "subscription", "renew", "renewal",
+    "gift", "offer", "deal", "save ", "% off",
+    "free trial", "your account", "payment", "invoice",
+    "last chance", "limited time", "act now", "upgrade",
+    "billing", "expires", "expiring",
+]
 
 # ---------------------------------------------------------------------------
 # Exact sender → source definition
-# tier:
-#   "newsletter" — render as-is (NYT Morning, Economist Espresso, etc.)
-#   "breaking"   — end-of-day collapse (NYT breaking alerts)
-#   "longform"   — deep synthesis (Foreign Affairs, Atlantic long reads, MIT TR features)
+#
+# Keys are either:
+#   - exact address:   "nytdirect@nytimes.com"
+#   - domain suffix:   "@e1.theathletic.com"   (matches any *@e1.theathletic.com)
 # ---------------------------------------------------------------------------
 
 PREMIUM_SENDERS = {
@@ -78,6 +108,12 @@ PREMIUM_SENDERS = {
         "tier": "longform",
         "home_url": "https://www.foreignaffairs.com",
     },
+    # Domain-suffix match — any sender @e1.theathletic.com
+    "@e1.theathletic.com": {
+        "name": "The Athletic",
+        "tier": "newsletter",
+        "home_url": "https://theathletic.com",
+    },
     # ── Account 1 — add WSJ + FT here when re-subscribed ──
     # "newsletters@wsj.com": {
     #     "name": "Wall Street Journal",
@@ -96,7 +132,6 @@ PREMIUM_SENDERS = {
 # ---------------------------------------------------------------------------
 
 def _load_credentials(token_json_str: str) -> Credentials:
-    """Build Credentials from a JSON string (GitHub secret value)."""
     info  = json.loads(token_json_str)
     creds = Credentials.from_authorized_user_info(info, SCOPES)
     if creds.expired and creds.refresh_token:
@@ -105,10 +140,6 @@ def _load_credentials(token_json_str: str) -> Credentials:
 
 
 def _get_services() -> list[tuple[object, str]]:
-    """
-    Return a list of (gmail_service, label) pairs — one per authorized account.
-    Label is used only for logging.
-    """
     services = []
 
     token1 = os.environ.get("GMAIL_TOKEN_JSON")
@@ -147,7 +178,6 @@ def _headers_dict(headers_list: list) -> dict:
 
 
 def _decode_body(payload: dict) -> str:
-    """Recursively extract plain-text or HTML body from a Gmail message payload."""
     mime_type = payload.get("mimeType", "")
     body_data = payload.get("body", {}).get("data", "")
 
@@ -184,7 +214,6 @@ def _parse_date(date_str: str) -> str:
 
 
 def _extract_primary_url(body: str, home_url: str) -> str:
-    """Pull the first HTTP link from the email body, falling back to home_url."""
     match = re.search(r"https?://[^\s\"'<>]+", body)
     return match.group(0) if match else home_url
 
@@ -194,18 +223,53 @@ def _sender_address(from_header: str) -> str:
     m = re.search(r"<([^>]+)>", from_header)
     return m.group(1).lower() if m else from_header.lower().strip()
 
+
+def _match_source(sender: str) -> tuple[str, dict] | tuple[None, None]:
+    """
+    Match a sender address against PREMIUM_SENDERS.
+    Supports exact matches and domain-suffix matches (keys starting with '@').
+    Returns (matched_key, source_dict) or (None, None).
+    """
+    # Exact match first
+    if sender in PREMIUM_SENDERS:
+        return sender, PREMIUM_SENDERS[sender]
+
+    # Domain-suffix match
+    for key, source in PREMIUM_SENDERS.items():
+        if key.startswith("@") and sender.endswith(key):
+            return key, source
+
+    return None, None
+
+
+def _is_promo(subject: str) -> bool:
+    subject_lower = subject.lower()
+    return any(kw in subject_lower for kw in PROMO_SUBJECT_KEYWORDS)
+
+
+def _sender_query_terms() -> str:
+    """
+    Build Gmail from: query terms for all configured senders.
+    Exact addresses use from:addr; domain suffixes use from:@domain.
+    """
+    terms = []
+    for key in PREMIUM_SENDERS:
+        if key.startswith("@"):
+            terms.append(f"from:{key}")        # Gmail supports from:@domain.com
+        else:
+            terms.append(f"from:{key}")
+    return " OR ".join(terms)
+
 # ---------------------------------------------------------------------------
 # Core fetch
 # ---------------------------------------------------------------------------
 
 def _fetch_from_service(service, account_label: str) -> list[dict]:
-    """Fetch and parse premium newsletter emails from one Gmail account."""
     cutoff   = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     after_ts = int(cutoff.timestamp())
 
-    # Narrow query to known sender addresses to avoid pulling the full inbox
-    sender_filter = " OR ".join(f"from:{addr}" for addr in PREMIUM_SENDERS)
-    query = f"({sender_filter}) after:{after_ts}"
+    sender_filter = _sender_query_terms()
+    query = f"({sender_filter}) after:{after_ts} {PROMO_QUERY_EXCLUSIONS}"
 
     print(f"[premium_gmail] {account_label}: querying Gmail...")
 
@@ -223,8 +287,9 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
 
     print(f"[premium_gmail] {account_label}: {len(messages)} matching messages found")
 
-    articles:      list[dict]      = []
-    sender_counts: dict[str, int]  = {}
+    articles:      list[dict]     = []
+    sender_counts: dict[str, int] = {}
+    promo_skipped: int            = 0
 
     for msg_ref in messages:
         try:
@@ -238,18 +303,25 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
         payload = msg.get("payload", {})
         headers = _headers_dict(payload.get("headers", []))
         sender  = _sender_address(headers.get("from", ""))
-        source  = PREMIUM_SENDERS.get(sender)
 
+        matched_key, source = _match_source(sender)
         if not source:
             continue
 
-        count = sender_counts.get(sender, 0)
+        subject = headers.get("subject", "(no subject)")
+
+        # Subject keyword promo filter
+        if _is_promo(subject):
+            print(f"[premium_gmail]   [skipped-promo] {subject[:70]}")
+            promo_skipped += 1
+            continue
+
+        count = sender_counts.get(matched_key, 0)
         if count >= MAX_PER_SENDER:
             continue
 
-        subject   = headers.get("subject", "(no subject)")
-        published = _parse_date(headers.get("date", ""))
-        body      = _decode_body(payload)
+        published   = _parse_date(headers.get("date", ""))
+        body        = _decode_body(payload)
 
         if not body or len(body.strip()) < 80:
             continue
@@ -263,13 +335,16 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
             "published":   published,
             "content":     body[:8000],
             "description": body[:500],
-            "tier":        source["tier"],   # "newsletter" | "breaking" | "longform"
+            "tier":        source["tier"],
             "sender":      sender,
         }
 
         articles.append(article)
-        sender_counts[sender] = count + 1
+        sender_counts[matched_key] = count + 1
         print(f"[premium_gmail]   [{source['tier']}] {source['name']}: {subject[:70]}")
+
+    if promo_skipped:
+        print(f"[premium_gmail] {account_label}: {promo_skipped} promotional email(s) skipped")
 
     return articles
 
@@ -298,7 +373,6 @@ def fetch_premium_gmail_articles() -> list[dict]:
         articles = _fetch_from_service(service, label)
         all_articles.extend(articles)
 
-    # Summary by tier
     tiers = {"newsletter": 0, "breaking": 0, "longform": 0}
     for a in all_articles:
         tiers[a.get("tier", "newsletter")] += 1
