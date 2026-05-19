@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 from config import FREE_RSS_SOURCES, MAX_ARTICLES_PER_SOURCE, MAX_CONTENT_CHARS
 
-LOOKBACK_HOURS = 24
+LOOKBACK_HOURS = 13
 
 HEADERS = {
     # "User-Agent": "Mozilla/5.0 (compatible; CKPM-Aggregator/1.0)",
