@@ -233,6 +233,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
     <div class="header-title">CKPM Intel Brief</div>
     <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
     <div class="header-tagline">Real intelligence, curated with AI.</div>
+    <div class="header-date" id="header-date"></div>
   </div>
   <div class="header-actions">
     <button class="header-btn back-btn" id="back-btn" onclick="showLanding()">← Home</button>
@@ -354,7 +355,6 @@ function showLanding() {
   document.getElementById('briefing-view').classList.remove('visible');
   document.getElementById('back-btn').style.display = 'none';
   document.getElementById('archive-btn').style.display = 'none';
-  // document.getElementById('header-date').textContent = 'Select a briefing below';
   currentMode = null; currentFilename = null; closeArchive();
 }
 function selectMode(mode) {
@@ -452,7 +452,7 @@ async function loadBriefing(filename, isArchive=false) {
     const res = await fetch(BASE_URL + filename + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
-    // const dateEl    = document.getElementById('header-date');
+    const dateEl    = document.getElementById('header-date');
     const updatedAt = data.generated_at ? new Date(data.generated_at).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',hour12:true}) : '';
     const runLabel  = data.run_label ? ` · ${data.run_label} Edition` : '';
     dateEl.textContent = `${formatDate(data.date)}${runLabel}${updatedAt?' · Updated '+updatedAt:''}`;
@@ -460,7 +460,7 @@ async function loadBriefing(filename, isArchive=false) {
     else renderSubstackBriefing(data, isArchive);
   } catch(e) {
     document.getElementById('main').innerHTML = '<div class="error"><h2>Could not load briefing</h2><p>The run may not have completed yet.</p></div>';
-    // document.getElementById('header-date').textContent = 'Unavailable';
+    document.getElementById('header-date').textContent = 'Unavailable';
   }
 }
 function loadCurrent() { loadBriefing(modeContentFile(currentMode), false); closeArchive(); }
