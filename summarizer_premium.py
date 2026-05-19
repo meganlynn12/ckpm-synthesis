@@ -69,7 +69,7 @@ Return ONLY valid JSON, no markdown, no preamble."""
 
 _NEWSLETTER_PROMPT = """Extract the individual story items from this newsletter email.
 Each item should have a headline, a brief description (the blurb as written — do not paraphrase),
-and the article URL if one is present in the text near that item.
+and the article URL if one is present in the text near that item (include any URL found near the item, even tracking or redirect links).
 
 Return this JSON:
 {{
