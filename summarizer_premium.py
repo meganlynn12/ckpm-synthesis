@@ -5,6 +5,7 @@ Three-tier synthesis pipeline for premium journalism content.
 
 Tier 1 — parse_newsletter(article)
     Extracts structured headline items from a newsletter email body.
+    URLs are matched from a pre-extracted list from raw HTML.
     No summarization — structure extraction only.
     Output: list of {headline, blurb, url}
 
@@ -52,7 +53,6 @@ def _call(system: str, prompt: str, max_tokens: int = 1000) -> dict | str | None
                 raw = raw[4:]
         return json.loads(raw.strip())
     except json.JSONDecodeError:
-        # Return raw text for non-JSON responses
         return raw.strip()
     except Exception as e:
         print(f"  [summarizer_premium] API call failed: {e}")
@@ -69,7 +69,16 @@ Return ONLY valid JSON, no markdown, no preamble."""
 
 _NEWSLETTER_PROMPT = """Extract the individual story items from this newsletter email.
 Each item should have a headline, a brief description (the blurb as written — do not paraphrase),
-and the article URL if one is present in the text near that item (include any URL found near the item, even tracking or redirect links).
+and the best matching URL from the provided URL list below.
+
+To find the URL for each item:
+- Look through the available URLs list
+- Match each headline to the most relevant URL (the one most likely to be the article link)
+- Prefer URLs that contain words from the headline or are clearly article links
+- If no good match exists, use null
+
+Available URLs extracted from the email (match these to headlines):
+{urls}
 
 Return this JSON:
 {{
@@ -77,7 +86,7 @@ Return this JSON:
     {{
       "headline": "Story headline as written",
       "blurb": "Brief description as written in the newsletter",
-      "url": "https://... or null if not found"
+      "url": "matching URL from the list above, or null if no good match"
     }}
   ]
 }}
@@ -98,10 +107,14 @@ def parse_newsletter(article: dict) -> dict:
     Returns the article dict augmented with an 'items' list.
     No summarization — structure extraction only.
     """
+    urls = article.get("urls", [])
+    url_list = "\n".join(urls) if urls else "No URLs found in this email."
+
     prompt = _NEWSLETTER_PROMPT.format(
         source=article.get("source", ""),
         title=article.get("title", ""),
         content=article.get("content", "")[:6000],
+        urls=url_list,
     )
 
     result = _call(_NEWSLETTER_SYSTEM, prompt, max_tokens=1500)
@@ -195,8 +208,8 @@ def synthesize_breaking(articles: list[dict]) -> dict | None:
     if not isinstance(result, dict):
         return None
 
-    result["tier"]           = "breaking"
-    result["alert_count"]    = len(articles)
+    result["tier"]        = "breaking"
+    result["alert_count"] = len(articles)
     return result
 
 
@@ -374,7 +387,6 @@ def generate_premium_briefing(articles: list[dict], date: str) -> dict:
         counts: { newsletter, breaking, longform }
     }
     """
-    # Route by tier
     newsletter_articles = [a for a in articles if a.get("tier") == "newsletter"]
     breaking_articles   = [a for a in articles if a.get("tier") == "breaking"]
     longform_articles   = [a for a in articles if a.get("tier") == "longform"]
