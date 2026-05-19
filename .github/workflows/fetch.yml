@@ -4,10 +4,10 @@ on:
   schedule:
     # 6 AM ET = 11:00 UTC (EST) / 10:00 UTC (EDT)
     - cron: "0 10 * * *"
-    - cron: "0 11 * * *"
+    # - cron: "0 11 * * *"
     # 6 PM ET = 23:00 UTC (EST) / 22:00 UTC (EDT)
     - cron: "0 22 * * *"
-    - cron: "0 23 * * *"
+    # - cron: "0 23 * * *"
   workflow_dispatch:
 
 jobs:
