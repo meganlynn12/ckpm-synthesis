@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 from config import MAX_CONTENT_CHARS
 
-LOOKBACK_HOURS = 24
+LOOKBACK_HOURS = 13
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
 # Minimum content length to be considered a real article

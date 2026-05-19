@@ -10,8 +10,12 @@ Account 2 (GMAIL_TOKEN_JSON_2)   — second Gmail
 
 Three content tiers, tagged on each returned article:
   tier: "newsletter"   — professionally edited digest; render as-is, no AI summary
-  tier: "breaking"     — intraday alert; collapse into end-of-day narrative
+  tier: "breaking"     — intraday alert; end-of-day digest (PM run only)
   tier: "longform"     — few articles/day, deep analytical synthesis warranted
+
+Run-time aware logic:
+  6 AM run (UTC 10/11): newsletter 13h, longform 13h, breaking SKIPPED
+  6 PM run (UTC 22/23): newsletter 13h, longform 13h, breaking 18h
 
 Sender matching supports two formats in PREMIUM_SENDERS keys:
   - Exact address:  "nytdirect@nytimes.com"
@@ -30,24 +34,29 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
 # ---------------------------------------------------------------------------
-# Tier-specific config
+# Run-time detection
+# AM run: UTC hours 10-11 (6 AM ET)
+# PM run: UTC hours 22-23 (6 PM ET)
+# ---------------------------------------------------------------------------
+
+AM_HOURS = {10, 11}
+PM_HOURS = {22, 23}
+
+def _is_pm_run() -> bool:
+    return datetime.now(timezone.utc).hour in PM_HOURS
+
+# ---------------------------------------------------------------------------
+# Tier-specific lookback hours
 #
-# Lookback:
-#   newsletter — 28h, standard daily cadence
-#   breaking   — 26h, captures a full previous day with buffer; on busy news
-#                days NYT can send 10+ alerts so we want all of them
-#   longform   — 72h, Foreign Affairs and Atlantic publish infrequently
-#
-# Max per sender:
-#   newsletter — 3, usually one edition per day per sender
-#   breaking   — 20, high volume on busy news days
-#   longform   — 5, unlikely to exceed but gives room
+# newsletter/longform: 13h both runs — catches content since last run
+# breaking:            18h PM run only — full day back to midnight
+#                      skipped entirely on AM run
 # ---------------------------------------------------------------------------
 
 LOOKBACK_HOURS_BY_TIER = {
-    "newsletter": 28,
-    "breaking":   26,
-    "longform":   72,
+    "newsletter": 13,
+    "longform":   13,
+    "breaking":   18,   # only used on PM run
 }
 
 MAX_PER_SENDER_BY_TIER = {
@@ -55,9 +64,6 @@ MAX_PER_SENDER_BY_TIER = {
     "breaking":   20,
     "longform":   5,
 }
-
-# Overall query lookback — widest window, then filter per-tier after download
-LOOKBACK_HOURS_MAX = max(LOOKBACK_HOURS_BY_TIER.values())
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
@@ -88,15 +94,10 @@ PROMO_SUBJECT_KEYWORDS = [
 ]
 
 # ---------------------------------------------------------------------------
-# Exact sender → source definition
-#
-# Keys are either:
-#   - exact address:   "nytdirect@nytimes.com"
-#   - domain suffix:   "@e1.theathletic.com"   (matches any *@e1.theathletic.com)
+# Sender definitions
 # ---------------------------------------------------------------------------
 
 PREMIUM_SENDERS = {
-    # ── Account 2 sources ──
     "newsletters@technologyreview.com": {
         "name": "MIT Technology Review",
         "tier": "longform",
@@ -132,13 +133,12 @@ PREMIUM_SENDERS = {
         "tier": "longform",
         "home_url": "https://www.foreignaffairs.com",
     },
-    # Domain-suffix match — any sender @e1.theathletic.com
     "@e1.theathletic.com": {
         "name": "The Athletic",
         "tier": "newsletter",
         "home_url": "https://theathletic.com",
     },
-    # ── Account 1 — add WSJ + FT here when re-subscribed ──
+    # ── Add WSJ + FT here when re-subscribed ──
     # "newsletters@wsj.com": {
     #     "name": "Wall Street Journal",
     #     "tier": "newsletter",
@@ -243,17 +243,11 @@ def _extract_primary_url(body: str, home_url: str) -> str:
 
 
 def _sender_address(from_header: str) -> str:
-    """Extract bare email address from a From: header like 'Name <addr@domain.com>'."""
     m = re.search(r"<([^>]+)>", from_header)
     return m.group(1).lower() if m else from_header.lower().strip()
 
 
 def _match_source(sender: str) -> tuple[str, dict] | tuple[None, None]:
-    """
-    Match a sender address against PREMIUM_SENDERS.
-    Supports exact matches and domain-suffix matches (keys starting with '@').
-    Returns (matched_key, source_dict) or (None, None).
-    """
     if sender in PREMIUM_SENDERS:
         return sender, PREMIUM_SENDERS[sender]
     for key, source in PREMIUM_SENDERS.items():
@@ -267,7 +261,6 @@ def _is_promo(subject: str) -> bool:
 
 
 def _is_within_tier_window(published_iso: str, tier: str) -> bool:
-    """Check whether an email's date falls within its tier's lookback window."""
     try:
         published = datetime.fromisoformat(published_iso)
         cutoff    = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS_BY_TIER[tier])
@@ -285,14 +278,22 @@ def _sender_query_terms() -> str:
 # Core fetch
 # ---------------------------------------------------------------------------
 
-def _fetch_from_service(service, account_label: str) -> list[dict]:
-    cutoff   = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS_MAX)
+def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]:
+    # Use the widest applicable lookback for the Gmail query
+    # then filter per-tier after download
+    max_hours = max(
+        LOOKBACK_HOURS_BY_TIER["newsletter"],
+        LOOKBACK_HOURS_BY_TIER["longform"],
+        LOOKBACK_HOURS_BY_TIER["breaking"] if pm_run else 0,
+    )
+
+    cutoff   = datetime.now(timezone.utc) - timedelta(hours=max_hours)
     after_ts = int(cutoff.timestamp())
 
     sender_filter = _sender_query_terms()
     query = f"({sender_filter}) after:{after_ts} {PROMO_QUERY_EXCLUSIONS}"
 
-    print(f"[premium_gmail] {account_label}: querying Gmail (max lookback: {LOOKBACK_HOURS_MAX}h)...")
+    print(f"[premium_gmail] {account_label}: querying Gmail (max lookback: {max_hours}h)...")
 
     messages   = []
     page_token = None
@@ -312,6 +313,7 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
     sender_counts: dict[str, int] = {}
     promo_skipped: int            = 0
     window_skipped: int           = 0
+    breaking_skipped: int         = 0
 
     for msg_ref in messages:
         try:
@@ -330,6 +332,13 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
         if not source:
             continue
 
+        tier = source["tier"]
+
+        # Skip breaking news entirely on AM run
+        if tier == "breaking" and not pm_run:
+            breaking_skipped += 1
+            continue
+
         subject = headers.get("subject", "(no subject)")
 
         if _is_promo(subject):
@@ -337,15 +346,12 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
             promo_skipped += 1
             continue
 
-        tier      = source["tier"]
         published = _parse_date(headers.get("date", ""))
 
-        # Tier-specific lookback window filter
         if not _is_within_tier_window(published, tier):
             window_skipped += 1
             continue
 
-        # Tier-specific per-sender cap
         max_count = MAX_PER_SENDER_BY_TIER.get(tier, 5)
         count     = sender_counts.get(matched_key, 0)
         if count >= max_count:
@@ -373,9 +379,11 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
         print(f"[premium_gmail]   [{tier}] {source['name']}: {subject[:70]}")
 
     if promo_skipped:
-        print(f"[premium_gmail] {account_label}: {promo_skipped} promotional email(s) skipped")
+        print(f"[premium_gmail] {account_label}: {promo_skipped} promo email(s) skipped")
     if window_skipped:
         print(f"[premium_gmail] {account_label}: {window_skipped} email(s) outside tier window")
+    if breaking_skipped:
+        print(f"[premium_gmail] {account_label}: {breaking_skipped} breaking alert(s) skipped (AM run)")
 
     return articles
 
@@ -388,13 +396,18 @@ def fetch_premium_gmail_articles() -> list[dict]:
     Authenticate against all configured Gmail accounts and return
     all premium journalism articles tagged by tier.
 
-    Returns list of article dicts with keys:
-        source, title, url, published, content, description, tier, sender
+    Breaking news is only fetched on PM runs (UTC 22-23).
     """
-    print(f"\n[premium_gmail] Starting fetch...")
-    print(f"  newsletter lookback : {LOOKBACK_HOURS_BY_TIER['newsletter']}h  (max {MAX_PER_SENDER_BY_TIER['newsletter']} per sender)")
-    print(f"  breaking lookback   : {LOOKBACK_HOURS_BY_TIER['breaking']}h  (max {MAX_PER_SENDER_BY_TIER['breaking']} per sender)")
-    print(f"  longform lookback   : {LOOKBACK_HOURS_BY_TIER['longform']}h  (max {MAX_PER_SENDER_BY_TIER['longform']} per sender)")
+    pm_run = _is_pm_run()
+    run_type = "PM" if pm_run else "AM"
+
+    print(f"\n[premium_gmail] Starting {run_type} fetch...")
+    print(f"  newsletter lookback : {LOOKBACK_HOURS_BY_TIER['newsletter']}h")
+    print(f"  longform lookback   : {LOOKBACK_HOURS_BY_TIER['longform']}h")
+    if pm_run:
+        print(f"  breaking lookback   : {LOOKBACK_HOURS_BY_TIER['breaking']}h (PM run)")
+    else:
+        print(f"  breaking            : skipped (AM run)")
 
     try:
         services = _get_services()
@@ -404,7 +417,7 @@ def fetch_premium_gmail_articles() -> list[dict]:
 
     all_articles = []
     for service, label in services:
-        articles = _fetch_from_service(service, label)
+        articles = _fetch_from_service(service, label, pm_run)
         all_articles.extend(articles)
 
     tiers = {"newsletter": 0, "breaking": 0, "longform": 0}
