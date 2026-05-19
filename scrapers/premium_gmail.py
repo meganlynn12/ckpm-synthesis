@@ -30,12 +30,36 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
 # ---------------------------------------------------------------------------
-# Config
+# Tier-specific config
+#
+# Lookback:
+#   newsletter — 28h, standard daily cadence
+#   breaking   — 26h, captures a full previous day with buffer; on busy news
+#                days NYT can send 10+ alerts so we want all of them
+#   longform   — 72h, Foreign Affairs and Atlantic publish infrequently
+#
+# Max per sender:
+#   newsletter — 3, usually one edition per day per sender
+#   breaking   — 20, high volume on busy news days
+#   longform   — 5, unlikely to exceed but gives room
 # ---------------------------------------------------------------------------
 
-SCOPES         = ["https://www.googleapis.com/auth/gmail.readonly"]
-LOOKBACK_HOURS = 28
-MAX_PER_SENDER = 5
+LOOKBACK_HOURS_BY_TIER = {
+    "newsletter": 28,
+    "breaking":   26,
+    "longform":   72,
+}
+
+MAX_PER_SENDER_BY_TIER = {
+    "newsletter": 3,
+    "breaking":   20,
+    "longform":   5,
+}
+
+# Overall query lookback — widest window, then filter per-tier after download
+LOOKBACK_HOURS_MAX = max(LOOKBACK_HOURS_BY_TIER.values())
+
+SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
 # ---------------------------------------------------------------------------
 # Promotional email filtering
@@ -230,48 +254,45 @@ def _match_source(sender: str) -> tuple[str, dict] | tuple[None, None]:
     Supports exact matches and domain-suffix matches (keys starting with '@').
     Returns (matched_key, source_dict) or (None, None).
     """
-    # Exact match first
     if sender in PREMIUM_SENDERS:
         return sender, PREMIUM_SENDERS[sender]
-
-    # Domain-suffix match
     for key, source in PREMIUM_SENDERS.items():
         if key.startswith("@") and sender.endswith(key):
             return key, source
-
     return None, None
 
 
 def _is_promo(subject: str) -> bool:
-    subject_lower = subject.lower()
-    return any(kw in subject_lower for kw in PROMO_SUBJECT_KEYWORDS)
+    return any(kw in subject.lower() for kw in PROMO_SUBJECT_KEYWORDS)
+
+
+def _is_within_tier_window(published_iso: str, tier: str) -> bool:
+    """Check whether an email's date falls within its tier's lookback window."""
+    try:
+        published = datetime.fromisoformat(published_iso)
+        cutoff    = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS_BY_TIER[tier])
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+        return published >= cutoff
+    except Exception:
+        return True
 
 
 def _sender_query_terms() -> str:
-    """
-    Build Gmail from: query terms for all configured senders.
-    Exact addresses use from:addr; domain suffixes use from:@domain.
-    """
-    terms = []
-    for key in PREMIUM_SENDERS:
-        if key.startswith("@"):
-            terms.append(f"from:{key}")        # Gmail supports from:@domain.com
-        else:
-            terms.append(f"from:{key}")
-    return " OR ".join(terms)
+    return " OR ".join(f"from:{key}" for key in PREMIUM_SENDERS)
 
 # ---------------------------------------------------------------------------
 # Core fetch
 # ---------------------------------------------------------------------------
 
 def _fetch_from_service(service, account_label: str) -> list[dict]:
-    cutoff   = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+    cutoff   = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS_MAX)
     after_ts = int(cutoff.timestamp())
 
     sender_filter = _sender_query_terms()
     query = f"({sender_filter}) after:{after_ts} {PROMO_QUERY_EXCLUSIONS}"
 
-    print(f"[premium_gmail] {account_label}: querying Gmail...")
+    print(f"[premium_gmail] {account_label}: querying Gmail (max lookback: {LOOKBACK_HOURS_MAX}h)...")
 
     messages   = []
     page_token = None
@@ -290,6 +311,7 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
     articles:      list[dict]     = []
     sender_counts: dict[str, int] = {}
     promo_skipped: int            = 0
+    window_skipped: int           = 0
 
     for msg_ref in messages:
         try:
@@ -310,19 +332,26 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
 
         subject = headers.get("subject", "(no subject)")
 
-        # Subject keyword promo filter
         if _is_promo(subject):
             print(f"[premium_gmail]   [skipped-promo] {subject[:70]}")
             promo_skipped += 1
             continue
 
-        count = sender_counts.get(matched_key, 0)
-        if count >= MAX_PER_SENDER:
+        tier      = source["tier"]
+        published = _parse_date(headers.get("date", ""))
+
+        # Tier-specific lookback window filter
+        if not _is_within_tier_window(published, tier):
+            window_skipped += 1
             continue
 
-        published   = _parse_date(headers.get("date", ""))
-        body        = _decode_body(payload)
+        # Tier-specific per-sender cap
+        max_count = MAX_PER_SENDER_BY_TIER.get(tier, 5)
+        count     = sender_counts.get(matched_key, 0)
+        if count >= max_count:
+            continue
 
+        body = _decode_body(payload)
         if not body or len(body.strip()) < 80:
             continue
 
@@ -335,16 +364,18 @@ def _fetch_from_service(service, account_label: str) -> list[dict]:
             "published":   published,
             "content":     body[:8000],
             "description": body[:500],
-            "tier":        source["tier"],
+            "tier":        tier,
             "sender":      sender,
         }
 
         articles.append(article)
         sender_counts[matched_key] = count + 1
-        print(f"[premium_gmail]   [{source['tier']}] {source['name']}: {subject[:70]}")
+        print(f"[premium_gmail]   [{tier}] {source['name']}: {subject[:70]}")
 
     if promo_skipped:
         print(f"[premium_gmail] {account_label}: {promo_skipped} promotional email(s) skipped")
+    if window_skipped:
+        print(f"[premium_gmail] {account_label}: {window_skipped} email(s) outside tier window")
 
     return articles
 
@@ -360,7 +391,10 @@ def fetch_premium_gmail_articles() -> list[dict]:
     Returns list of article dicts with keys:
         source, title, url, published, content, description, tier, sender
     """
-    print(f"\n[premium_gmail] Starting fetch (lookback: {LOOKBACK_HOURS}h)...")
+    print(f"\n[premium_gmail] Starting fetch...")
+    print(f"  newsletter lookback : {LOOKBACK_HOURS_BY_TIER['newsletter']}h  (max {MAX_PER_SENDER_BY_TIER['newsletter']} per sender)")
+    print(f"  breaking lookback   : {LOOKBACK_HOURS_BY_TIER['breaking']}h  (max {MAX_PER_SENDER_BY_TIER['breaking']} per sender)")
+    print(f"  longform lookback   : {LOOKBACK_HOURS_BY_TIER['longform']}h  (max {MAX_PER_SENDER_BY_TIER['longform']} per sender)")
 
     try:
         services = _get_services()
