@@ -66,7 +66,7 @@ SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 # ---------------------------------------------------------------------------
 
 PROMO_QUERY_EXCLUSIONS = (
-    "-category:promotions"
+    # "-category:promotions"
     " -subject:subscribe"
     " -subject:subscription"
     " -subject:renew"
