@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-05-19",
+    "run_label": "12 PM",
+    "generated_at": "2026-05-19T16:02:00.069352+00:00",
+    "filename": "2026-05-19-16.json",
+    "articles_processed": 42,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "Kasparov's Next Move",
+      "Silver Bulletin",
+      "John Ellis",
+      "Kareem Abdul-Jabbar",
+      "ProPublica",
+      "Public Notice",
+      "Robert Reich",
+      "Letters from an American",
+      "Slow Boring",
+      "Paul Krugman from Paul Krugman",
+      "The Bulwark",
+      "AI Supremacy (Michael Spencer)",
+      "Free the Inquiry by Heterodox Academy",
+      "Prof Robert Pape",
+      "Onest Network",
+      "G. Elliott Morris / Strength In Numbers",
+      "SCOTUSblog"
+    ]
+  },
+  {
+    "date": "2026-05-19",
     "run_label": "13:50 UTC",
     "generated_at": "2026-05-19T13:50:32.902956+00:00",
     "filename": "2026-05-19-13.json",
