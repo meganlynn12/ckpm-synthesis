@@ -4,22 +4,23 @@ scrapers/premium_gmail.py
 Gmail ingestion for premium journalism sources across two accounts.
 
 Account 1 (GMAIL_TOKEN_JSON)     — authorized Gmail (Substack pipeline)
-                                   Will also receive WSJ + FT when re-subscribed later.
 Account 2 (GMAIL_TOKEN_JSON_2)   — second Gmail
                                    MIT TR, NYT, Economist, Atlantic, Foreign Affairs
 
-Three content tiers, tagged on each returned article:
-  tier: "newsletter"   — professionally edited digest; render as-is, no AI summary
-  tier: "breaking"     — intraday alert; end-of-day digest (PM run only)
-  tier: "longform"     — few articles/day, deep analytical synthesis warranted
+Tier detection (dynamic, per email):
+  breakingnews@nytimes.com              → always "breaking"
+  nytdirect@nytimes.com + "french"      → "longform" (David French column)
+  email@theatlantic.com + known subject → "newsletter" (Atlantic Daily etc.)
+  email@theatlantic.com + other         → "longform" (feature articles)
+  everything else                       → "newsletter"
 
-Run-time aware logic:
-  6 AM run (UTC 10/11): newsletter 13h, longform 13h, breaking SKIPPED
-  6 PM run (UTC 22/23): newsletter 13h, longform 13h, breaking 18h
+Lookback windows:
+  newsletter : 13h both runs
+  breaking   : 18h PM run only (skipped on AM run)
+  longform   : 72h both runs (weekly columns need longer window)
 
-Sender matching supports two formats in PREMIUM_SENDERS keys:
-  - Exact address:  "nytdirect@nytimes.com"
-  - Domain suffix:  "@e1.theathletic.com"  (matches any address ending in that string)
+AM run (UTC 10-11): newsletter + longform only, breaking skipped
+PM run (UTC 22-23): newsletter + longform + breaking
 """
 
 import base64
@@ -35,32 +36,25 @@ from googleapiclient.discovery import build
 
 # ---------------------------------------------------------------------------
 # Run-time detection
-# AM run: UTC hours 10-11 (6 AM ET)
-# PM run: UTC hours 22-23 (6 PM ET)
 # ---------------------------------------------------------------------------
 
-AM_HOURS = {10, 11}
 PM_HOURS = {22, 23}
 
 def _is_pm_run() -> bool:
     return datetime.now(timezone.utc).hour in PM_HOURS
 
 # ---------------------------------------------------------------------------
-# Tier-specific lookback hours
-#
-# newsletter/longform: 13h both runs — catches content since last run
-# breaking:            18h PM run only — full day back to midnight
-#                      skipped entirely on AM run
+# Tier-specific config
 # ---------------------------------------------------------------------------
 
 LOOKBACK_HOURS_BY_TIER = {
     "newsletter": 13,
-    "longform":   13,
-    "breaking":   18,   # only used on PM run
+    "breaking":   18,
+    "longform":   72,
 }
 
 MAX_PER_SENDER_BY_TIER = {
-    "newsletter": 3,
+    "newsletter": 5,
     "breaking":   20,
     "longform":   5,
 }
@@ -94,13 +88,29 @@ PROMO_SUBJECT_KEYWORDS = [
 ]
 
 # ---------------------------------------------------------------------------
+# Atlantic newsletter subject keywords
+# Emails matching these → "newsletter"; everything else → "longform"
+# ---------------------------------------------------------------------------
+
+ATLANTIC_NEWSLETTER_SUBJECTS = [
+    "the atlantic daily",
+    "notes from the editor",
+    "one story to read today",
+    "atlantic intelligence",
+    "national security",
+    "the unfinished revolution",
+]
+
+# ---------------------------------------------------------------------------
 # Sender definitions
+# All default to "newsletter" except breakingnews which is "breaking"
+# Dynamic tier detection in _detect_tier() handles per-email overrides
 # ---------------------------------------------------------------------------
 
 PREMIUM_SENDERS = {
     "newsletters@technologyreview.com": {
         "name": "MIT Technology Review",
-        "tier": "longform",
+        "tier": "newsletter",
         "home_url": "https://www.technologyreview.com",
     },
     "nytdirect@nytimes.com": {
@@ -125,12 +135,12 @@ PREMIUM_SENDERS = {
     },
     "email@theatlantic.com": {
         "name": "The Atlantic",
-        "tier": "longform",
+        "tier": "newsletter",   # overridden per-email by _detect_tier()
         "home_url": "https://www.theatlantic.com",
     },
     "news@foreignaffairs.com": {
         "name": "Foreign Affairs",
-        "tier": "longform",
+        "tier": "newsletter",
         "home_url": "https://www.foreignaffairs.com",
     },
     "@e1.theathletic.com": {
@@ -150,6 +160,40 @@ PREMIUM_SENDERS = {
     #     "home_url": "https://www.ft.com",
     # },
 }
+
+# ---------------------------------------------------------------------------
+# Dynamic tier detection
+# ---------------------------------------------------------------------------
+
+def _detect_tier(source: dict, subject: str, from_header: str = "") -> str:
+    """
+    Determine the correct tier for an email based on source and subject.
+
+    Priority order:
+    1. Breaking news sender → always "breaking"
+    2. NYT + "french" in subject → "longform" (David French column)
+    3. Atlantic + known newsletter subject → "newsletter"
+    4. Atlantic + unknown subject → "longform" (feature article)
+    5. Everything else → "newsletter"
+    """
+    # Breaking always stays breaking
+    if source.get("tier") == "breaking":
+        return "breaking"
+
+    subject_lower = subject.lower()
+
+    # David French columns from NYT — detected by sender name in From header
+    if source.get("name") == "New York Times" and "david french" in from_header.lower():
+        return "longform"
+
+    # Atlantic — known newsletters vs longform features
+    if source.get("name") == "The Atlantic":
+        if any(kw in subject_lower for kw in ATLANTIC_NEWSLETTER_SUBJECTS):
+            return "newsletter"
+        return "longform"
+
+    # Default — everything else is a newsletter
+    return "newsletter"
 
 # ---------------------------------------------------------------------------
 # Gmail auth
@@ -279,8 +323,6 @@ def _sender_query_terms() -> str:
 # ---------------------------------------------------------------------------
 
 def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]:
-    # Use the widest applicable lookback for the Gmail query
-    # then filter per-tier after download
     max_hours = max(
         LOOKBACK_HOURS_BY_TIER["newsletter"],
         LOOKBACK_HOURS_BY_TIER["longform"],
@@ -332,15 +374,17 @@ def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]
         if not source:
             continue
 
-        tier = source["tier"]
+        subject = headers.get("subject", "(no subject)")
 
-        # Skip breaking news entirely on AM run
+        # Dynamic tier detection
+        tier = _detect_tier(source, subject, headers.get("from", ""))
+
+        # Skip breaking on AM run
         if tier == "breaking" and not pm_run:
             breaking_skipped += 1
             continue
 
-        subject = headers.get("subject", "(no subject)")
-
+        # Promo filter
         if _is_promo(subject):
             print(f"[premium_gmail]   [skipped-promo] {subject[:70]}")
             promo_skipped += 1
@@ -348,10 +392,12 @@ def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]
 
         published = _parse_date(headers.get("date", ""))
 
+        # Tier-specific lookback window
         if not _is_within_tier_window(published, tier):
             window_skipped += 1
             continue
 
+        # Tier-specific per-sender cap
         max_count = MAX_PER_SENDER_BY_TIER.get(tier, 5)
         count     = sender_counts.get(matched_key, 0)
         if count >= max_count:
@@ -396,9 +442,10 @@ def fetch_premium_gmail_articles() -> list[dict]:
     Authenticate against all configured Gmail accounts and return
     all premium journalism articles tagged by tier.
 
-    Breaking news is only fetched on PM runs (UTC 22-23).
+    Breaking news only fetched on PM runs (UTC 22-23).
+    Longform uses 72h lookback for weekly columns.
     """
-    pm_run = _is_pm_run()
+    pm_run   = _is_pm_run()
     run_type = "PM" if pm_run else "AM"
 
     print(f"\n[premium_gmail] Starting {run_type} fetch...")
