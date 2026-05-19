@@ -1,4 +1,4 @@
-const CACHE = 'ckpm-v7';
+const CACHE = 'ckpm-v8';
 const STATIC_ASSETS = ['./manifest.json'];
 
 // Never cache index.html — always fetch fresh from network

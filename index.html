@@ -224,8 +224,7 @@ sup.cite:hover { opacity: 0.75; }
 
 <!-- Citation tooltip -->
 <div id="cite-tooltip">
-  <div class="cite-tooltip-pub" id="cite-tooltip-pub"></div>
-  <div class="cite-tooltip-title" id="cite-tooltip-title"></div>
+  <div id="cite-tooltip-content"></div>
 </div>
 
 <header>
@@ -378,9 +377,11 @@ function showCiteTooltip(el, e) {
   const keys = (el.dataset.keys || '').split(',').map(k => k.trim());
   const refs  = keys.map(k => CITE_MAP[k]).filter(Boolean);
   if (!refs.length) return;
-  const ref = refs[0];
-  tooltipPub.textContent   = ref.publication || '';
-  tooltipTitle.textContent = ref.title || '';
+  document.getElementById('cite-tooltip-content').innerHTML = refs.map((ref, i) =>
+    `${i > 0 ? '<div style="border-top:1px solid rgba(255,255,255,0.1);margin:5px 0"></div>' : ''}
+     ${ref.publication ? `<div class="cite-tooltip-pub">${ref.publication}</div>` : ''}
+     <div class="cite-tooltip-title">${ref.title || ''}</div>`
+  ).join('');
   tooltip.classList.add('visible');
   tooltipVisible = true;
   positionTooltip(e);
@@ -443,7 +444,6 @@ function renderSubstackBriefing(data, isArchive) {
   let html = '';
   if (isArchive) html += `<div style="background:var(--accent-light);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--accent)"><span>Archived: ${formatDate(data.date)}</span><button onclick="loadCurrent()" style="background:none;border:none;color:var(--accent);font-size:.78rem;cursor:pointer;text-decoration:underline">← Latest</button></div>`;
   if (data.articles_processed) html += `<div class="meta-bar"><span>${data.articles_processed} articles · ${(data.publications||[]).length} sources</span></div>`;
-  if (data.big_picture) html += `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture, null)}</p></div>`;
 
   (data.themes||[]).forEach((t, i) => {
     const prefix = `t${i}`;
@@ -462,6 +462,24 @@ function renderSubstackBriefing(data, isArchive) {
     const tags  = pubs.map(p => { const u=SOURCE_URLS[p]; return u?`<a class="pub-tag" href="${u}" target="_blank" rel="noopener">${p}</a>`:`<span class="pub-tag">${p}</span>`; }).join('');
     html += `<div class="theme-card${i===0?' open':''}"><div class="theme-header" onclick="toggle(this)"><span class="theme-title">${t.theme}</span><span class="theme-meta"><span class="pub-count">${count} source${count!==1?'s':''}</span><span class="chevron">▼</span></span></div><div class="theme-body"><div class="briefing">${renderCitations(t.briefing||'', prefix)}</div>${tags?`<div class="pubs">${tags}</div>`:''} ${refs?`<div class="bibliography"><div class="bibliography-label">Sources</div>${refs}</div>`:''}</div></div>`;
   });
+  // build global prefix from all themes' CITE_MAP entries
+  const GLOBAL_NUM_MAP = {};
+  Object.entries(CITE_MAP).forEach(([key, ref]) => {
+    const num = key.split('-').pop();
+    if (!GLOBAL_NUM_MAP[num]) GLOBAL_NUM_MAP[num] = ref;
+  });
+  Object.entries(GLOBAL_NUM_MAP).forEach(([num, ref]) => {
+    CITE_MAP[`g-${num}`] = ref;
+  });
+
+  // prepend big picture (now CITE_MAP is fully populated)
+  const bpHtml = data.big_picture
+    ? `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture, 'g')}</p></div>`
+    : '';
+
+  // insert big picture after meta bar, before themes
+  html = html + bpHtml + themesHtml;
+
   main.innerHTML = html;
 }
 
