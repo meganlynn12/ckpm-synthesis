@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-05-19",
+    "run_label": "12:39 UTC",
+    "generated_at": "2026-05-19T12:39:13.802404+00:00",
+    "filename": "2026-05-19-12.json",
+    "articles_processed": 50,
+    "theme_count": 6,
+    "publications": [
+      "Paul Krugman (Substack)",
+      "Jacob Morgan",
+      "Public Notice",
+      "Onest Network",
+      "ProPublica",
+      "Free the Inquiry by Heterodox Academy",
+      "Paul Krugman from Paul Krugman",
+      "Letters from an American",
+      "Gabe Fleisher",
+      "AI Supremacy (Michael Spencer)",
+      "SCOTUSblog",
+      "The Freedom Frequency",
+      "Scott Galloway",
+      "Kasparov's Next Move",
+      "Robert Reich",
+      "John Ellis",
+      "Kareem Abdul-Jabbar",
+      "The Bulwark",
+      "Galen Druke / GD POLITICS",
+      "G. Elliott Morris / Strength In Numbers",
+      "Silver Bulletin",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-05-19",
     "run_label": "02:41 UTC",
     "generated_at": "2026-05-19T02:41:28.888812+00:00",
     "filename": "2026-05-19-02.json",
