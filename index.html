@@ -369,8 +369,6 @@ function renderCitations(text, prefix) {
 
 // ── Citation tooltip ───────────────────────────────────────────────────────
 const tooltip      = document.getElementById('cite-tooltip');
-const tooltipPub   = document.getElementById('cite-tooltip-pub');
-const tooltipTitle = document.getElementById('cite-tooltip-title');
 let tooltipVisible = false;
 
 function showCiteTooltip(el, e) {
@@ -477,8 +475,11 @@ function renderSubstackBriefing(data, isArchive) {
     ? `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture, 'g')}</p></div>`
     : '';
 
-  // insert big picture after meta bar, before themes
-  html = html + bpHtml + themesHtml;
+  // html already contains archive banner + meta bar + themes
+  // insert bpHtml after meta bar by rebuilding order
+  const headerHtml = html.split('<div class="theme-card')[0];
+  const themesOnly = html.slice(headerHtml.length);
+  html = headerHtml + bpHtml + themesOnly;
 
   main.innerHTML = html;
 }
