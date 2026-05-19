@@ -9,38 +9,29 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --bg: #f4f4f0;
-  --surface: #ffffff;
-  --border: rgba(0,0,0,0.08);
-  --text: #1a1a1a;
-  --muted: #777;
-  --accent: #1a3a6b;
-  --accent-link: #2e5fa3;
-  --accent-light: #edf1f8;
-  --tag-bg: #edf1f8;
-  --tag-text: #1a3a6b;
-  --header-bg: #0f1923;
-  --header-text: #f4f4f0;
-  --header-muted: rgba(244,244,240,0.55);
-  --sup-color: #2e5fa3;
-  --drawer-bg: #0a1520;
-  --gold: #b8972a;
-  --gold-light: #faf6ec;
-  --gold-muted: #7a6018;
-  --red-light: #fef2f2;
-  --red: #c0392b;
+  --bg: #f4f4f0; --surface: #ffffff; --border: rgba(0,0,0,0.08);
+  --text: #1a1a1a; --muted: #777; --accent: #1a3a6b;
+  --accent-link: #2e5fa3; --accent-light: #edf1f8;
+  --tag-bg: #edf1f8; --tag-text: #1a3a6b;
+  --header-bg: #0f1923; --header-text: #f4f4f0;
+  --header-muted: rgba(244,244,240,0.55); --sup-color: #2e5fa3;
+  --drawer-bg: #0a1520; --gold: #b8972a; --gold-light: #faf6ec;
+  --gold-muted: #7a6018; --red-light: #fef2f2; --red: #c0392b;
+  --tooltip-bg: #1a1a2e; --tooltip-text: #f0f0f0;
+  --tooltip-muted: rgba(240,240,240,0.6);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0f1923; --surface: #172230;
-    --border: rgba(255,255,255,0.08); --text: #e8e8e4; --muted: #8a96a3;
-    --accent: #6b9ed2; --accent-link: #89b8e8; --accent-light: #1a2a3a;
+    --bg: #0f1923; --surface: #172230; --border: rgba(255,255,255,0.08);
+    --text: #e8e8e4; --muted: #8a96a3; --accent: #6b9ed2;
+    --accent-link: #89b8e8; --accent-light: #1a2a3a;
     --tag-bg: #1a2a3a; --tag-text: #89b8e8;
     --header-bg: #080e14; --header-text: #e8e8e4;
     --header-muted: rgba(232,232,228,0.5); --sup-color: #89b8e8;
-    --drawer-bg: #060c12;
-    --gold: #d4af50; --gold-light: #1e1a0a; --gold-muted: #d4af50;
-    --red-light: #1f0a0a; --red: #e57373;
+    --drawer-bg: #060c12; --gold: #d4af50; --gold-light: #1e1a0a;
+    --gold-muted: #d4af50; --red-light: #1f0a0a; --red: #e57373;
+    --tooltip-bg: #0a0a1a; --tooltip-text: #f0f0f0;
+    --tooltip-muted: rgba(240,240,240,0.55);
   }
 }
 body {
@@ -69,11 +60,24 @@ header {
 .header-btn:hover { background: rgba(255,255,255,0.14); }
 .back-btn, .archive-btn { display: none; }
 
+/* ── Citation tooltip ── */
+#cite-tooltip {
+  display: none; position: fixed; z-index: 999;
+  background: var(--tooltip-bg); color: var(--tooltip-text);
+  border-radius: 8px; padding: 0.6rem 0.85rem;
+  max-width: 260px; box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  pointer-events: none;
+}
+#cite-tooltip.visible { display: block; }
+.cite-tooltip-pub {
+  font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--tooltip-muted); margin-bottom: 3px;
+}
+.cite-tooltip-title { font-size: 0.82rem; line-height: 1.4; }
+
 /* ── Landing ── */
 #landing { display: none; max-width: 680px; margin: 0 auto; padding: 2rem 1.25rem; }
 #landing.visible { display: block; }
-.landing-intro { text-align: center; margin-bottom: 2rem; }
-.landing-intro p { font-size: 0.85rem; color: var(--muted); }
 .mode-cards { display: flex; flex-direction: column; gap: 1rem; }
 .mode-card {
   background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
@@ -131,7 +135,7 @@ a:hover { text-decoration: underline; }
 .error { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 .error h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
 
-/* ── Substack briefing ── */
+/* ── Substack ── */
 .meta-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; font-size: 0.78rem; color: var(--muted); }
 .big-picture { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem; }
 .big-picture .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
@@ -147,7 +151,12 @@ a:hover { text-decoration: underline; }
 .theme-body { display: none; padding: 0 1.25rem 1.25rem; border-top: 1px solid var(--border); }
 .theme-card.open .theme-body { display: block; }
 .theme-body .briefing { font-size: 0.9rem; line-height: 1.75; margin-top: 1rem; }
-sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor: pointer; margin-left: 1px; vertical-align: super; line-height: 0; }
+sup.cite {
+  font-size: 0.65em; color: var(--sup-color); font-weight: 600;
+  cursor: pointer; margin-left: 1px; vertical-align: super; line-height: 0;
+  border-bottom: 1px dotted var(--sup-color);
+}
+sup.cite:hover { opacity: 0.75; }
 .bibliography { margin-top: 1.1rem; border-top: 1px solid var(--border); padding-top: 0.9rem; }
 .bibliography-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; }
 .bib-entry { display: flex; gap: 0.5rem; font-size: 0.78rem; line-height: 1.5; color: var(--muted); margin-bottom: 0.4rem; }
@@ -156,7 +165,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 .pub-tag { background: var(--tag-bg); color: var(--tag-text); font-size: 0.68rem; font-weight: 500; padding: 3px 10px; border-radius: 100px; text-decoration: none; transition: opacity 0.15s; }
 .pub-tag:hover { opacity: 0.75; text-decoration: none; }
 
-/* ── Premium layout ── */
+/* ── Premium ── */
 .section-label {
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--muted);
@@ -165,16 +174,9 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
   display: flex; align-items: center; gap: 0.5rem;
 }
 .section-label .count { font-weight: 400; opacity: 0.7; }
-
-/* Executive summary */
-.exec-summary {
-  background: var(--gold-light); border-left: 3px solid var(--gold);
-  border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 0.5rem;
-}
+.exec-summary { background: var(--gold-light); border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 0.5rem; }
 .exec-summary .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-muted); margin-bottom: 0.5rem; }
 .exec-summary p { font-size: 0.92rem; line-height: 1.7; }
-
-/* Newsletter cards */
 .newsletter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
 .newsletter-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 1rem; user-select: none; -webkit-tap-highlight-color: transparent; }
 .newsletter-header:active { background: var(--bg); }
@@ -189,13 +191,7 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 .newsletter-item-headline a { color: var(--text); }
 .newsletter-item-headline a:hover { color: var(--accent-link); text-decoration: none; }
 .newsletter-item-blurb { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
-
-/* Breaking news */
-.breaking-card {
-  background: var(--red-light); border: 1px solid rgba(192,57,43,0.15);
-  border-left: 3px solid var(--red); border-radius: 0 10px 10px 0;
-  padding: 1rem 1.25rem; margin-bottom: 1rem;
-}
+.breaking-card { background: var(--red-light); border: 1px solid rgba(192,57,43,0.15); border-left: 3px solid var(--red); border-radius: 0 10px 10px 0; padding: 1rem 1.25rem; margin-bottom: 1rem; }
 .breaking-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 6px; }
 .breaking-narrative { font-size: 0.9rem; line-height: 1.75; }
 .breaking-narrative p { margin-bottom: 0.75rem; }
@@ -204,8 +200,6 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 .breaking-sources-label { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
 .breaking-ref { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.3rem; display: flex; gap: 0.5rem; }
 .breaking-ref-num { color: var(--red); font-weight: 600; flex-shrink: 0; min-width: 1.4rem; }
-
-/* Longform */
 .longform-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
 .longform-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; user-select: none; -webkit-tap-highlight-color: transparent; }
 .longform-header:active { background: var(--bg); }
@@ -227,6 +221,12 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 </style>
 </head>
 <body>
+
+<!-- Citation tooltip -->
+<div id="cite-tooltip">
+  <div class="cite-tooltip-pub" id="cite-tooltip-pub"></div>
+  <div class="cite-tooltip-title" id="cite-tooltip-title"></div>
+</div>
 
 <header>
   <div class="header-left">
@@ -289,8 +289,8 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
     </div>
   </div>
   <div style="text-align:center;margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);font-size:0.82rem;color:var(--muted);">
-      ☕ This briefing costs real money to run — subscriptions, API calls, hosting.
-      <br>If you find it valuable, <a href="https://buymeacoffee.com/ckpm" target="_blank" rel="noopener" style="color:var(--accent-link)">buy me a coffee</a>.
+    ☕ This briefing costs real money to run — subscriptions, API calls, hosting.
+    <br>If you find it valuable, <a href="https://buymeacoffee.com/ckpm" target="_blank" rel="noopener" style="color:var(--accent-link)">buy me a coffee</a>.
   </div>
 </div>
 
@@ -318,6 +318,10 @@ sup.cite { font-size: 0.65em; color: var(--sup-color); font-weight: 600; cursor:
 const BASE_URL = './output/';
 let currentMode = null;
 let currentFilename = null;
+
+// Global citation map — keyed by "prefix-num", e.g. "t0-1", "b-3"
+// Reset on each briefing load
+let CITE_MAP = {};
 
 const SOURCE_URLS = {
   "Silver Bulletin":"https://www.natesilver.net","The Bulwark":"https://www.thebulwark.com",
@@ -351,15 +355,74 @@ function timeAgo(iso) {
   if (d < 86400) return `${Math.round(d/3600)}h ago`;
   return `${Math.round(d/86400)}d ago`;
 }
-function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 28*3600*1000; }
-function renderCitations(t) { return t.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m=>`<sup class="cite">${m}</sup>`); }
+function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 14*3600*1000; }
 
+// Render citations — adds data-keys for tooltip lookup when prefix provided
+function renderCitations(text, prefix) {
+  if (!prefix) {
+    return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m => `<sup class="cite">${m}</sup>`);
+  }
+  return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, (match, nums) => {
+    const keys = nums.split(',').map(n => `${prefix}-${n.trim()}`).join(',');
+    return `<sup class="cite" data-keys="${keys}">${match}</sup>`;
+  });
+}
+
+// ── Citation tooltip ───────────────────────────────────────────────────────
+const tooltip      = document.getElementById('cite-tooltip');
+const tooltipPub   = document.getElementById('cite-tooltip-pub');
+const tooltipTitle = document.getElementById('cite-tooltip-title');
+let tooltipVisible = false;
+
+function showCiteTooltip(el, e) {
+  const keys = (el.dataset.keys || '').split(',').map(k => k.trim());
+  const refs  = keys.map(k => CITE_MAP[k]).filter(Boolean);
+  if (!refs.length) return;
+  const ref = refs[0];
+  tooltipPub.textContent   = ref.publication || '';
+  tooltipTitle.textContent = ref.title || '';
+  tooltip.classList.add('visible');
+  tooltipVisible = true;
+  positionTooltip(e);
+}
+
+function positionTooltip(e) {
+  const pad = 12;
+  const tw  = tooltip.offsetWidth  || 260;
+  const th  = tooltip.offsetHeight || 60;
+  let x = e.clientX + pad;
+  let y = e.clientY + pad;
+  if (x + tw > window.innerWidth  - pad) x = e.clientX - tw - pad;
+  if (y + th > window.innerHeight - pad) y = e.clientY - th - pad;
+  tooltip.style.left = x + 'px';
+  tooltip.style.top  = y + 'px';
+}
+
+function hideCiteTooltip() {
+  tooltip.classList.remove('visible');
+  tooltipVisible = false;
+}
+
+document.addEventListener('click', e => {
+  const cite = e.target.closest('sup.cite');
+  if (cite) {
+    e.stopPropagation();
+    if (tooltipVisible) { hideCiteTooltip(); return; }
+    showCiteTooltip(cite, e);
+    return;
+  }
+  if (tooltipVisible) hideCiteTooltip();
+});
+
+// ── Screen switching ───────────────────────────────────────────────────────
 function showLanding() {
   document.getElementById('landing').classList.add('visible');
   document.getElementById('briefing-view').classList.remove('visible');
   document.getElementById('back-btn').style.display = 'none';
   document.getElementById('archive-btn').style.display = 'none';
-  currentMode = null; currentFilename = null; closeArchive();
+  document.getElementById('header-date').textContent = '';
+  currentMode = null; currentFilename = null;
+  CITE_MAP = {}; hideCiteTooltip(); closeArchive();
 }
 function selectMode(mode) {
   currentMode = mode;
@@ -370,7 +433,9 @@ function selectMode(mode) {
   loadBriefing(modeContentFile(mode), false);
 }
 
+// ── Substack renderer ──────────────────────────────────────────────────────
 function renderSubstackBriefing(data, isArchive) {
+  CITE_MAP = {};
   const main = document.getElementById('main');
   if (!data.themes || !data.themes.length) {
     main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next run.</p></div>'; return;
@@ -378,17 +443,31 @@ function renderSubstackBriefing(data, isArchive) {
   let html = '';
   if (isArchive) html += `<div style="background:var(--accent-light);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--accent)"><span>Archived: ${formatDate(data.date)}</span><button onclick="loadCurrent()" style="background:none;border:none;color:var(--accent);font-size:.78rem;cursor:pointer;text-decoration:underline">← Latest</button></div>`;
   if (data.articles_processed) html += `<div class="meta-bar"><span>${data.articles_processed} articles · ${(data.publications||[]).length} sources</span></div>`;
-  if (data.big_picture) html += `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture)}</p></div>`;
-  (data.themes||[]).forEach((t,i) => {
-    const pubs = t.publications||[], count = t.source_count||pubs.length;
-    const refs = (t.references||[]).map(r=>`<div class="bib-entry"><span class="bib-num">[${r.num}]</span><span>${r.publication?r.publication+' — ':''} ${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Article'}</a>`:(r.title||'Article')}</span></div>`).join('');
-    const tags = pubs.map(p=>{ const u=SOURCE_URLS[p]; return u?`<a class="pub-tag" href="${u}" target="_blank" rel="noopener">${p}</a>`:`<span class="pub-tag">${p}</span>`; }).join('');
-    html += `<div class="theme-card${i===0?' open':''}"><div class="theme-header" onclick="toggle(this)"><span class="theme-title">${t.theme}</span><span class="theme-meta"><span class="pub-count">${count} source${count!==1?'s':''}</span><span class="chevron">▼</span></span></div><div class="theme-body"><div class="briefing">${renderCitations(t.briefing||'')}</div>${tags?`<div class="pubs">${tags}</div>`:''} ${refs?`<div class="bibliography"><div class="bibliography-label">Sources</div>${refs}</div>`:''}</div></div>`;
+  if (data.big_picture) html += `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture, null)}</p></div>`;
+
+  (data.themes||[]).forEach((t, i) => {
+    const prefix = `t${i}`;
+    // Populate CITE_MAP for this theme's references
+    (t.references||[]).forEach(r => {
+      CITE_MAP[`${prefix}-${r.num}`] = {
+        title:       r.title       || '',
+        publication: r.publication || '',
+        url:         r.url         || '',
+      };
+    });
+    const pubs  = t.publications||[], count = t.source_count||pubs.length;
+    const refs  = (t.references||[]).map(r =>
+      `<div class="bib-entry"><span class="bib-num">[${r.num}]</span><span>${r.publication?r.publication+' — ':''} ${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Article'}</a>`:(r.title||'Article')}</span></div>`
+    ).join('');
+    const tags  = pubs.map(p => { const u=SOURCE_URLS[p]; return u?`<a class="pub-tag" href="${u}" target="_blank" rel="noopener">${p}</a>`:`<span class="pub-tag">${p}</span>`; }).join('');
+    html += `<div class="theme-card${i===0?' open':''}"><div class="theme-header" onclick="toggle(this)"><span class="theme-title">${t.theme}</span><span class="theme-meta"><span class="pub-count">${count} source${count!==1?'s':''}</span><span class="chevron">▼</span></span></div><div class="theme-body"><div class="briefing">${renderCitations(t.briefing||'', prefix)}</div>${tags?`<div class="pubs">${tags}</div>`:''} ${refs?`<div class="bibliography"><div class="bibliography-label">Sources</div>${refs}</div>`:''}</div></div>`;
   });
   main.innerHTML = html;
 }
 
+// ── Premium renderer ───────────────────────────────────────────────────────
 function renderPremiumBriefing(data, isArchive) {
+  CITE_MAP = {};
   const main = document.getElementById('main');
   const { executive_summary, newsletters=[], breaking_digest, longform=[], counts={} } = data;
   let html = '';
@@ -410,7 +489,15 @@ function renderPremiumBriefing(data, isArchive) {
 
   if (breaking_digest && breaking_digest.narrative) {
     const alertCount = breaking_digest.alert_count || 0;
-    const narrative  = breaking_digest.narrative.split('\n\n').map(p=>`<p>${renderCitations(p)}</p>`).join('');
+    // Populate CITE_MAP for breaking news refs
+    (breaking_digest.references||[]).forEach(r => {
+      CITE_MAP[`b-${r.num}`] = {
+        title:       r.title  || '',
+        publication: r.source || 'New York Times',
+        url:         r.url    || '',
+      };
+    });
+    const narrative = breaking_digest.narrative.split('\n\n').map(p => `<p>${renderCitations(p, 'b')}</p>`).join('');
     const refs = (breaking_digest.references||[]).map(r =>
       `<div class="breaking-ref"><span class="breaking-ref-num">[${r.num}]</span><span>${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Alert'}</a>`:(r.title||'Alert')} — ${r.published?new Date(r.published).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):''}</span></div>`
     ).join('');
@@ -449,13 +536,15 @@ function renderPremiumBriefing(data, isArchive) {
   main.innerHTML = html;
 }
 
+// ── Data loading ───────────────────────────────────────────────────────────
 async function loadBriefing(filename, isArchive=false) {
   currentFilename = filename;
+  CITE_MAP = {}; hideCiteTooltip();
   document.getElementById('main').innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
   try {
     const res = await fetch(BASE_URL + filename + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
-    const data = await res.json();
+    const data      = await res.json();
     const dateEl    = document.getElementById('header-date');
     const updatedAt = data.generated_at ? new Date(data.generated_at).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',hour12:true}) : '';
     const runLabel  = data.run_label ? ` · ${data.run_label} Edition` : '';
@@ -473,13 +562,14 @@ function toggle(header) {
   if (card) card.classList.toggle('open');
 }
 
+// ── Landing card status ────────────────────────────────────────────────────
 async function loadCardStatus(mode) {
   const dotEl  = document.querySelector(`#${mode}-status .status-dot`);
   const textEl = document.getElementById(`${mode}-meta-text`);
   try {
-    const res = await fetch(BASE_URL + modeContentFile(mode) + '?t=' + Date.now());
+    const res  = await fetch(BASE_URL + modeContentFile(mode) + '?t=' + Date.now());
     if (!res.ok) throw new Error(res.status);
-    const data   = await res.json();
+    const data = await res.json();
     dotEl.className = 'status-dot' + (isStale(data.generated_at) ? ' stale' : '');
     const counts = data.counts || {};
     const total  = data.articles_processed || Object.values(counts).reduce((a,b)=>a+b,0);
@@ -490,6 +580,7 @@ async function loadCardStatus(mode) {
   }
 }
 
+// ── Archive drawer ─────────────────────────────────────────────────────────
 async function openArchive() {
   document.getElementById('drawer-overlay').classList.add('open');
   const list = document.getElementById('drawer-list');
@@ -521,6 +612,7 @@ function selectArchiveItem(filename, el) {
 function closeArchive() { document.getElementById('drawer-overlay').classList.remove('open'); }
 function handleOverlayClick(e) { if(e.target===document.getElementById('drawer-overlay')) closeArchive(); }
 
+// ── Init ───────────────────────────────────────────────────────────────────
 loadCardStatus('substack');
 loadCardStatus('premium');
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
