@@ -5,7 +5,6 @@ Three-tier synthesis pipeline for premium journalism content.
 
 Tier 1 — parse_newsletter(article)
     Extracts structured headline items from a newsletter email body.
-    URLs are matched from a pre-extracted list from raw HTML.
     No summarization — structure extraction only.
     Output: list of {headline, blurb, url}
 
@@ -46,7 +45,6 @@ def _call(system: str, prompt: str, max_tokens: int = 1000) -> dict | str | None
             messages=[{"role": "user", "content": prompt}],
         )
         raw = response.content[0].text.strip()
-        # Strip markdown fences if present
         if raw.startswith("```"):
             raw = raw.split("```")[1]
             if raw.startswith("json"):
@@ -69,16 +67,7 @@ Return ONLY valid JSON, no markdown, no preamble."""
 
 _NEWSLETTER_PROMPT = """Extract the individual story items from this newsletter email.
 Each item should have a headline, a brief description (the blurb as written — do not paraphrase),
-and the best matching URL from the provided URL list below.
-
-To find the URL for each item:
-- Look through the available URLs list
-- Match each headline to the most relevant URL (the one most likely to be the article link)
-- Prefer URLs that contain words from the headline or are clearly article links
-- If no good match exists, use null
-
-Available URLs extracted from the email (match these to headlines):
-{urls}
+and the article URL if one is present in the text near that item.
 
 Return this JSON:
 {{
@@ -86,7 +75,7 @@ Return this JSON:
     {{
       "headline": "Story headline as written",
       "blurb": "Brief description as written in the newsletter",
-      "url": "matching URL from the list above, or null if no good match"
+      "url": "https://... or null if not found"
     }}
   ]
 }}
@@ -107,14 +96,10 @@ def parse_newsletter(article: dict) -> dict:
     Returns the article dict augmented with an 'items' list.
     No summarization — structure extraction only.
     """
-    urls = article.get("urls", [])
-    url_list = "\n".join(urls) if urls else "No URLs found in this email."
-
     prompt = _NEWSLETTER_PROMPT.format(
         source=article.get("source", ""),
         title=article.get("title", ""),
         content=article.get("content", "")[:6000],
-        urls=url_list,
     )
 
     result = _call(_NEWSLETTER_SYSTEM, prompt, max_tokens=1500)
@@ -122,7 +107,6 @@ def parse_newsletter(article: dict) -> dict:
     if isinstance(result, dict) and "items" in result:
         items = result["items"]
     else:
-        # Fallback: single item with the raw content
         items = [{"headline": article.get("title", ""), "blurb": "", "url": article.get("url")}]
 
     return {
@@ -185,10 +169,6 @@ Breaking news alerts (numbered for citation):
 
 
 def synthesize_breaking(articles: list[dict]) -> dict | None:
-    """
-    Tier 2: Collapse multiple breaking news alerts into a coherent
-    end-of-day narrative.
-    """
     if not articles:
         return None
 
@@ -252,9 +232,6 @@ Article content:
 
 
 def synthesize_longform_article(article: dict) -> dict | None:
-    """
-    Tier 3: Deep synthesis of a single long-form article.
-    """
     prompt = _LONGFORM_PROMPT.format(
         source=article.get("source", ""),
         title=article.get("title", ""),
@@ -279,7 +256,6 @@ def synthesize_longform_article(article: dict) -> dict | None:
 
 
 def synthesize_longform_parallel(articles: list[dict]) -> list[dict]:
-    """Run Tier 3 synthesis in parallel across all longform articles."""
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futures = {executor.submit(synthesize_longform_article, a): a for a in articles}
@@ -295,7 +271,7 @@ def synthesize_longform_parallel(articles: list[dict]) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Top level: Executive summary across all three tiers
+# Top level: Executive summary
 # ---------------------------------------------------------------------------
 
 _EXEC_SYSTEM = """You are a senior analyst writing a one-paragraph executive summary.
@@ -332,8 +308,6 @@ def synthesize_executive_summary(
     breaking:    dict | None,
     longform:    list[dict],
 ) -> str:
-    """Generate a cross-cutting executive summary across all three tiers."""
-
     newsletter_headlines = "\n".join(
         f"- {n['source']}: {n['title']}"
         for n in newsletters
@@ -373,20 +347,6 @@ def synthesize_executive_summary(
 # ---------------------------------------------------------------------------
 
 def generate_premium_briefing(articles: list[dict], date: str) -> dict:
-    """
-    Route articles by tier and run the appropriate synthesis pipeline.
-
-    Returns a unified briefing dict:
-    {
-        date, generated_at, pipeline,
-        executive_summary,
-        newsletters:     [ {source, title, published, items: [{headline, blurb, url}]} ],
-        breaking_digest: { narrative, references, alert_count } | null,
-        longform:        [ {source, title, url, thesis, context, arguments,
-                            significance, questions_raised} ],
-        counts: { newsletter, breaking, longform }
-    }
-    """
     newsletter_articles = [a for a in articles if a.get("tier") == "newsletter"]
     breaking_articles   = [a for a in articles if a.get("tier") == "breaking"]
     longform_articles   = [a for a in articles if a.get("tier") == "longform"]
@@ -396,13 +356,11 @@ def generate_premium_briefing(articles: list[dict], date: str) -> dict:
           f"{len(breaking_articles)} breaking, "
           f"{len(longform_articles)} longform")
 
-    # ── Tier 1: newsletters ──
     newsletters = []
     if newsletter_articles:
         print(f"\n[summarizer_premium] Tier 1: parsing {len(newsletter_articles)} newsletter(s)...")
         newsletters = parse_newsletters_parallel(newsletter_articles)
 
-    # ── Tier 2: breaking news ──
     breaking_digest = None
     if breaking_articles:
         print(f"\n[summarizer_premium] Tier 2: synthesizing {len(breaking_articles)} breaking alert(s)...")
@@ -410,13 +368,11 @@ def generate_premium_briefing(articles: list[dict], date: str) -> dict:
         if breaking_digest:
             print(f"  ✓ Breaking news digest complete")
 
-    # ── Tier 3: longform ──
     longform = []
     if longform_articles:
         print(f"\n[summarizer_premium] Tier 3: synthesizing {len(longform_articles)} longform article(s)...")
         longform = synthesize_longform_parallel(longform_articles)
 
-    # ── Executive summary ──
     executive_summary = ""
     if newsletters or breaking_digest or longform:
         print(f"\n[summarizer_premium] Writing executive summary...")
