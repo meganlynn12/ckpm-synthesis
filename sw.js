@@ -1,4 +1,4 @@
-const CACHE = 'ckpm-v1779122601';
+const CACHE = 'ckpm-v2';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
@@ -16,8 +16,10 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // content.json: network first, fall back to cache
-  if (url.pathname.endsWith('content.json')) {
+  // Network-first for all output JSON files:
+  // content.json, premium_content.json, archive.json,
+  // premium_archive.json, and all dated archive files
+  if (url.pathname.includes('/output/') && url.pathname.endsWith('.json')) {
     e.respondWith(
       fetch(e.request)
         .then(res => {
