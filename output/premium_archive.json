@@ -1,6 +1,19 @@
 [
   {
     "date": "2026-05-19",
+    "run_label": "12:41 UTC",
+    "generated_at": "2026-05-19T12:41:06.929875+00:00",
+    "filename": "premium_2026-05-19-12.json",
+    "pipeline": "premium",
+    "counts": {
+      "newsletter": 6,
+      "breaking": 11,
+      "longform": 3
+    },
+    "total_articles": 20
+  },
+  {
+    "date": "2026-05-19",
     "run_label": "02:43 UTC",
     "generated_at": "2026-05-19T02:43:17.074693+00:00",
     "filename": "premium_2026-05-19-02.json",
