@@ -59,6 +59,7 @@ def main():
     archive_filename = f"premium_{now.strftime('%Y-%m-%d-%H')}.json"
     archive_path     = os.path.join(OUTPUT_DIR, archive_filename)
     generated_at     = now.isoformat()
+    is_scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
 
     print(f"\n{'='*60}")
     print(f"Premium Journalism Aggregator — {run_date} {run_label}")
@@ -128,22 +129,25 @@ def main():
     print(f"\n[main_premium] Written → premium_content.json")
 
     # ── Write archive ──
-    with open(archive_path, "w", encoding="utf-8") as f:
-        json.dump(briefing, f, indent=2, ensure_ascii=False)
-    print(f"[main_premium] Archived → {archive_filename}")
+    if is_scheduled:
+        with open(archive_path, "w", encoding="utf-8") as f:
+            json.dump(briefing, f, indent=2, ensure_ascii=False)
+        print(f"[main_premium] Archived → {archive_filename}")
 
-    # ── Update archive index ──
-    counts = briefing.get("counts", {})
-    update_archive_index({
-        "date":           run_date,
-        "run_label":      run_label,
-        "generated_at":   generated_at,
-        "filename":       archive_filename,
-        "pipeline":       "premium",
-        "counts":         counts,
-        "total_articles": sum(counts.values()),
-    })
-    print(f"[main_premium] Archive index updated")
+        # ── Update archive index ──
+        counts = briefing.get("counts", {})
+        update_archive_index({
+            "date":           run_date,
+            "run_label":      run_label,
+            "generated_at":   generated_at,
+            "filename":       archive_filename,
+            "pipeline":       "premium",
+            "counts":         counts,
+            "total_articles": sum(counts.values()),
+        })
+        print(f"[main_premium] Archive index updated")
+    else:
+        print(f"[main_premium] Manual run — skipping archive")
 
     print(f"\n[main_premium] Summary:")
     print(f"  Newsletters  : {counts.get('newsletter', 0)}")

@@ -65,6 +65,7 @@ def main():
     archive_filename = f"{now.strftime('%Y-%m-%d-%H')}.json"
     archive_path = os.path.join(OUTPUT_DIR, archive_filename)
     generated_at = now.isoformat()
+    is_scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
 
     print(f"\n{'='*60}")
     print(f"CKPM Content Aggregator — {run_date} {run_label}")
@@ -115,22 +116,25 @@ def main():
     print(f"\n[main] Written to content.json")
 
     # --- Write archive file ---
-    with open(archive_path, "w", encoding="utf-8") as f:
-        json.dump(briefing, f, indent=2, ensure_ascii=False)
-    print(f"[main] Archived to {archive_filename}")
+    if is_scheduled:
+        with open(archive_path, "w", encoding="utf-8") as f:
+            json.dump(briefing, f, indent=2, ensure_ascii=False)
+        print(f"[main] Archived to {archive_filename}")
 
-    # --- Update archive index ---
-    archive_entry = {
-        "date": run_date,
-        "run_label": run_label,
-        "generated_at": generated_at,
-        "filename": archive_filename,
-        "articles_processed": briefing.get("articles_processed", 0),
-        "theme_count": len(briefing.get("themes", [])),
-        "publications": briefing.get("publications", []),
-    }
-    update_archive_index(archive_entry)
-    print(f"[main] Archive index updated")
+        # --- Update archive index ---
+        archive_entry = {
+            "date": run_date,
+            "run_label": run_label,
+            "generated_at": generated_at,
+            "filename": archive_filename,
+            "articles_processed": briefing.get("articles_processed", 0),
+            "theme_count": len(briefing.get("themes", [])),
+            "publications": briefing.get("publications", []),
+        }
+        update_archive_index(archive_entry)
+        print(f"[main] Archive index updated")
+    else:
+        print(f"[main] Manual run — skipping archive")
 
     print(f"\n[main] Themes: {[t['theme'] for t in briefing.get('themes', [])]}")
     print(f"[main] Articles processed: {briefing.get('articles_processed', 0)}")
