@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-05-20",
+    "run_label": "12:25 UTC",
+    "generated_at": "2026-05-20T12:25:29.637940+00:00",
+    "filename": "2026-05-20-12.json",
+    "articles_processed": 23,
+    "theme_count": 6,
+    "publications": [
+      "Public Notice",
+      "Silver Bulletin",
+      "The Bulwark",
+      "Scott Galloway",
+      "Slow Boring",
+      "ProPublica",
+      "Bojan's (Bojan Tunguz)",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Robert Reich",
+      "Lucid (Ruth Ben-Ghiat)",
+      "John Ellis",
+      "Center for Humane Technology",
+      "Onest Network",
+      "Letters from an American (Heather Cox Richardson)",
+      "Paul Krugman from Paul Krugman",
+      "Kasparov's Next Move"
+    ]
+  },
+  {
     "date": "2026-05-19",
     "run_label": "6 PM",
     "generated_at": "2026-05-19T23:01:57.415410+00:00",
