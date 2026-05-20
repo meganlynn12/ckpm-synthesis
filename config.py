@@ -15,7 +15,7 @@ MAX_CONTENT_CHARS = 8000
 # ---------------------------------------------------------------------------
 
 FREE_RSS_SOURCES = [
-    {"name": "Silver Bulletin",  "url": "https://www.natesilver.net/feed"},
+    # {"name": "Silver Bulletin",  "url": "https://www.natesilver.net/feed"},
     {"name": "The Bulwark",      "url": "https://www.thebulwark.com/feed"},
     {"name": "Slow Boring",      "url": "https://www.slowboring.com/feed"},
     {"name": "Scott Galloway",   "url": "https://www.profgmedia.com/feed"},
@@ -32,6 +32,7 @@ FREE_RSS_SOURCES = [
 # ---------------------------------------------------------------------------
 
 SUBSTACK_GMAIL_SOURCES = [
+    "Nate Silver / Silver Bulletin",
     "Heather Cox Richardson",
     "Phillips P. O'Brien",
     "Paul Krugman",
