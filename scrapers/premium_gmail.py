@@ -87,7 +87,8 @@ PROMO_SUBJECT_KEYWORDS = [
     "gift", "offer", "deal", "save ", "% off",
     "free trial", "your account", "payment", "invoice",
     "last chance", "limited time", "act now", "upgrade",
-    "billing", "expires", "expiring",
+    "billing", "expires", "expiring", "payment receipt",
+    "your receipt", "receipt from",
 ]
 
 # ---------------------------------------------------------------------------

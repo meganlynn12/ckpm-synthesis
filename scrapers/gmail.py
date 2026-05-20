@@ -36,6 +36,10 @@ SKIP_SUBJECT_PATTERNS = [
     r"^\d{6} is your",       # OTP codes like "140918 is your..."
     r"^re:",
     r"^fwd:",
+    r"payment receipt",
+    r"receipt from",
+    r"your receipt",
+    r"invoice #",
 ]
 
 SKIP_SUBJECT_RE = re.compile(
