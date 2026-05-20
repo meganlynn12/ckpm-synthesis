@@ -2,21 +2,6 @@
   "date": "2026-05-20",
   "themes": [
     {
-      "theme": "Administrative & Subscription Notices",
-      "briefing": "A routine subscription payment of $8 USD was processed on May 20, 2026, covering the period through June 20, 2026, for access to Silver Bulletin, the newsletter published by statistician and analyst Nate Silver[23]. The transaction, logged under invoice #19218A01-399509 and associated with the account ckpm.ventures.llc@gmail.com, reflects no anomalies and requires no further action beyond acknowledgment for recordkeeping purposes[23]. Silver Bulletin remains an active subscription in the monitored feed, and continued access through the next billing cycle is confirmed.",
-      "references": [
-        {
-          "num": 23,
-          "publication": "Silver Bulletin",
-          "title": "Your payment receipt from Silver Bulletin #19218A01-399509",
-          "url": null
-        }
-      ],
-      "publications": [
-        "Silver Bulletin"
-      ]
-    },
-    {
       "theme": "Technology, AI & Scientific Publishing",
       "briefing": "The tension between AI integration and academic integrity is crystallizing around institutional gatekeeping decisions, most notably arXiv's announcement of a year-long ban on authors whose submissions exhibit signs of careless AI use — including hallucinated references, plagiarized content, and residual chatbot scaffolding[21]. The policy reflects genuine concern: fabricated citations pose a compounding threat to scientific literature, as downstream papers may cite hallucinated sources before errors are detected, with no reliable mechanism for removal[21]. However, critics argue the enforcement architecture is poorly calibrated, falling disproportionately on early-career researchers who lack the institutional insulation and established networks that tenured faculty take for granted[21]. The composition of those publicly endorsing the ban — predominantly senior academics who have benefited from existing gatekeeping structures — raises questions about whether the policy is substantively protective or procedurally self-serving[21].\n\nThe deeper analytical challenge is that arXiv's response may be, as one observer frames it, fighting the last war[21]. Policies designed to preserve the integrity of the traditional scientific paper as a discrete, human-authored artifact may be structurally inadequate if AI is already reshaping how scientific knowledge is produced at a more fundamental level[21]. Meanwhile, broader efforts to recalibrate the incentive structures governing technology development — the mission space occupied by organizations such as the Center for Humane Technology — remain at the newsletter and podcast stage, signaling ambient concern without yet offering actionable frameworks commensurate with the scale of disruption underway[22]. The gap between the pace of AI's penetration into research workflows and the maturity of governance responses remains the defining risk in this domain.",
       "references": [
