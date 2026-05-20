@@ -149,6 +149,11 @@ PREMIUM_SENDERS = {
         "tier": "newsletter",
         "home_url": "https://theathletic.com",
     },
+    "newsletters@rand.org": {
+    "name": "RAND Corporation",
+    "tier": "newsletter",
+    "home_url": "https://www.rand.org",
+    },
     # ── Add WSJ + FT here when re-subscribed ──
     # "newsletters@wsj.com": {
     #     "name": "Wall Street Journal",
