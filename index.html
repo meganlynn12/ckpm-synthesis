@@ -502,7 +502,11 @@ function renderPremiumBriefing(data, isArchive) {
         const headline = item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a>` : item.headline;
         return `<div class="newsletter-item"><div class="newsletter-item-headline">${headline}</div>${item.blurb?`<div class="newsletter-item-blurb">${item.blurb}</div>`:''}</div>`;
       }).join('');
-      html += `<div class="newsletter-card${i===0?' open':''}"><div class="newsletter-header" onclick="toggle(this)"><div><div class="newsletter-source">${n.source}</div><div class="newsletter-title">${n.title}</div></div><span class="chevron">▼</span></div><div class="newsletter-body">${items||'<div style="padding:1rem 1.25rem;font-size:.85rem;color:var(--muted)">No items extracted.</div>'}</div></div>`;
+      const hasLinks = (n.items||[]).some(item => item.url);
+    const fallbackLink = !hasLinks && n.url
+      ? `<div style="padding:0.75rem 1.25rem;border-top:1px solid var(--border)"><a href="${n.url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-link)">Read on ${n.source} →</a></div>`
+      : '';
+    html += `<div class="newsletter-card${i===0?' open':''}"><div class="newsletter-header" onclick="toggle(this)"><div><div class="newsletter-source">${n.source}</div><div class="newsletter-title">${n.title}</div></div><span class="chevron">▼</span></div><div class="newsletter-body">${items||'<div style="padding:1rem 1.25rem;font-size:.85rem;color:var(--muted)">No items extracted.</div>'}${fallbackLink}</div></div>`;
     });
   }
 
