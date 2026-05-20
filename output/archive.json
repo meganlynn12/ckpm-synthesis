@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-05-20",
+    "run_label": "6 PM",
+    "generated_at": "2026-05-20T23:12:52.784020+00:00",
+    "filename": "2026-05-20-23.json",
+    "articles_processed": 30,
+    "theme_count": 6,
+    "publications": [
+      "After Babel (by Jon Haidt)",
+      "The Bulwark",
+      "News Items by John Ellis",
+      "Kasparov's Next Move",
+      "Letters from an American",
+      "Onest Network",
+      "SCOTUSblog",
+      "Scott Galloway",
+      "Public Notice",
+      "Gabe Fleisher",
+      "The Freedom Frequency",
+      "Substack (Weekly Stack digest)",
+      "Louis-François from What's AI",
+      "Bojan's (by Bojan Tunguz)",
+      "Paul Krugman (Substack)",
+      "Matthew Yglesias / Slow Boring",
+      "ProPublica",
+      "Robert Reich"
+    ]
+  }
+]
