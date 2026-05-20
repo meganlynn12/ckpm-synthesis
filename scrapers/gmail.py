@@ -133,7 +133,8 @@ def fetch_gmail_articles() -> list[dict]:
         print(f"[gmail] ✗ Auth failed: {e}")
         return []
 
-    query = f"from:@substack.com after:{cutoff_epoch_sec}"
+    # query = f"from:@substack.com after:{cutoff_epoch_sec}"
+    query = f"(from:@substack.com OR from:goodpolitics@virginia.edu) after:{cutoff_epoch_sec}"
 
     try:
         result = service.users().messages().list(

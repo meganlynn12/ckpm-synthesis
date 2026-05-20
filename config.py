@@ -39,6 +39,7 @@ SUBSTACK_GMAIL_SOURCES = [
     "Robert Reich",
     "Wake Up To Politics",
     "G. Elliott Morris",
+    "Sabato's Crystal Ball",
 ]
 
 
