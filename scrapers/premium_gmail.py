@@ -53,8 +53,8 @@ def _is_pm_run() -> bool:
 
 LOOKBACK_HOURS_BY_TIER = {
     "newsletter": 13,
-    "breaking":   18,
-    "longform":   72,
+    "breaking":   24,
+    "longform":   24,
 }
 
 MAX_PER_SENDER_BY_TIER = {
