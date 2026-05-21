@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-05-21",
+    "run_label": "6 PM",
+    "generated_at": "2026-05-21T23:03:30.172509+00:00",
+    "filename": "2026-05-21-23.json",
+    "articles_processed": 30,
+    "theme_count": 6,
+    "publications": [
+      "John Ellis",
+      "Data Science Weekly",
+      "Charlotte's Web Thoughts",
+      "Galen Druke",
+      "Prof Robert Pape",
+      "Paul Krugman from Paul Krugman",
+      "Making AI Accessible with Louis-François (What's AI)",
+      "G. Elliott Morris / Strength In Numbers",
+      "Public Notice",
+      "Scott Galloway",
+      "Kasparov's Next Move",
+      "Free the Inquiry by Heterodox Academy",
+      "SCOTUSblog",
+      "Matthew Yglesias",
+      "Thinking about... by Timothy Snyder",
+      "ProPublica",
+      "The Bulwark",
+      "Onest Network"
+    ]
+  },
+  {
+    "date": "2026-05-21",
     "run_label": "12:45 UTC",
     "generated_at": "2026-05-21T12:45:08.758151+00:00",
     "filename": "2026-05-21-12.json",
