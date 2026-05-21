@@ -192,12 +192,6 @@ def _detect_tier(source: dict, subject: str, from_header: str = "") -> str:
     if source.get("name") == "New York Times" and "david french" in from_header_lower:
         return "longform"
 
-    # Atlantic — known newsletters vs longform features
-    if source.get("name") == "The Atlantic":
-        if any(kw in subject_lower for kw in ATLANTIC_NEWSLETTER_SUBJECTS):
-            return "newsletter"
-        return "longform"
-
     return "newsletter"
 
 # ---------------------------------------------------------------------------
