@@ -38,14 +38,6 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
-# ---------------------------------------------------------------------------
-# Run-time detection
-# ---------------------------------------------------------------------------
-
-PM_HOURS = {22, 23}
-
-def _is_pm_run() -> bool:
-    return datetime.now(timezone.utc).hour in PM_HOURS
 
 # ---------------------------------------------------------------------------
 # Tier-specific config
@@ -53,7 +45,7 @@ def _is_pm_run() -> bool:
 
 LOOKBACK_HOURS_BY_TIER = {
     "newsletter": 13,
-    "breaking":   24,
+    "breaking":   18,
     "longform":   24,
 }
 
@@ -365,12 +357,8 @@ def _sender_query_terms() -> str:
 # Core fetch
 # ---------------------------------------------------------------------------
 
-def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]:
-    max_hours = max(
-        LOOKBACK_HOURS_BY_TIER["newsletter"],
-        LOOKBACK_HOURS_BY_TIER["longform"],
-        LOOKBACK_HOURS_BY_TIER["breaking"] if pm_run else 0,
-    )
+def _fetch_from_service(service, account_label: str) -> list[dict]:
+    max_hours = max(LOOKBACK_HOURS_BY_TIER.values())
 
     cutoff   = datetime.now(timezone.utc) - timedelta(hours=max_hours)
     after_ts = int(cutoff.timestamp())
@@ -423,11 +411,6 @@ def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]
         # Dynamic tier detection — passes raw From header for David French detection
         tier = _detect_tier(source, subject, from_header)
 
-        # Skip breaking on AM run
-        if tier == "breaking" and not pm_run:
-            breaking_skipped += 1
-            continue
-
         # Promo filter
         if _is_promo(subject):
             print(f"[premium_gmail]   [skipped-promo] {subject[:70]}")
@@ -477,8 +460,6 @@ def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]
         print(f"[premium_gmail] {account_label}: {promo_skipped} promo email(s) skipped")
     if window_skipped:
         print(f"[premium_gmail] {account_label}: {window_skipped} email(s) outside tier window")
-    if breaking_skipped:
-        print(f"[premium_gmail] {account_label}: {breaking_skipped} breaking alert(s) skipped (AM run)")
 
     return articles
 
@@ -495,16 +476,10 @@ def fetch_premium_gmail_articles() -> list[dict]:
     Longform uses 72h lookback for weekly columns.
     URLs extracted from raw HTML and passed to summarizer for link matching.
     """
-    pm_run   = _is_pm_run()
-    run_type = "PM" if pm_run else "AM"
-
-    print(f"\n[premium_gmail] Starting {run_type} fetch...")
+    print(f"\n[premium_gmail] Starting fetch...")
     print(f"  newsletter lookback : {LOOKBACK_HOURS_BY_TIER['newsletter']}h")
+    print(f"  breaking lookback   : {LOOKBACK_HOURS_BY_TIER['breaking']}h")
     print(f"  longform lookback   : {LOOKBACK_HOURS_BY_TIER['longform']}h")
-    if pm_run:
-        print(f"  breaking lookback   : {LOOKBACK_HOURS_BY_TIER['breaking']}h (PM run)")
-    else:
-        print(f"  breaking            : skipped (AM run)")
 
     try:
         services = _get_services()
@@ -514,7 +489,7 @@ def fetch_premium_gmail_articles() -> list[dict]:
 
     all_articles = []
     for service, label in services:
-        articles = _fetch_from_service(service, label, pm_run)
+        articles = _fetch_from_service(service, label)
         all_articles.extend(articles)
 
     tiers = {"newsletter": 0, "breaking": 0, "longform": 0}
