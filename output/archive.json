@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-21",
+    "run_label": "12:45 UTC",
+    "generated_at": "2026-05-21T12:45:08.758151+00:00",
+    "filename": "2026-05-21-12.json",
+    "articles_processed": 17,
+    "theme_count": 6,
+    "publications": [
+      "The Bulwark",
+      "Slow Boring",
+      "Robert Reich",
+      "Letters from an American (Heather Cox Richardson)",
+      "Paul Krugman (Substack)",
+      "Free the Inquiry by Heterodox Academy",
+      "AI Supremacy (Michael Spencer and Michael Fritzell)",
+      "ProPublica",
+      "John Ellis",
+      "Scott Galloway",
+      "Galen Druke",
+      "Onest Network",
+      "Public Notice"
+    ]
+  },
+  {
     "date": "2026-05-20",
     "run_label": "6 PM",
     "generated_at": "2026-05-20T23:12:52.784020+00:00",
