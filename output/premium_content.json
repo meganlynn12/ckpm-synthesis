@@ -1,7 +1,7 @@
 {
   "date": "2026-05-21",
   "pipeline": "premium",
-  "executive_summary": "The dominant thread running through today's content is the accelerating unraveling of U.S.-Cuba relations under the Trump administration, a story with significant geopolitical and economic consequences. Both The Economist and the New York Times converge on this narrative from different angles: the NYT reports that the U.S. has formally charged Raúl Castro, a dramatic escalation in direct confrontation with Cuban leadership, while The Economist frames Trump's broader Cuba strategy as a deliberate push toward an endgame that is already distorting American economic interests — what it calls the 'MAGA tax' holding America back. This matters because the Cuba pressure campaign does not exist in isolation; Foreign Affairs contextualizes it within a wider pattern of the U.S. simultaneously hardening postures toward adversarial states — Iran, Russia, and China — while managing fragile relationships with partners like Mexico and Ukraine, suggesting a foreign policy doctrine that prioritizes confrontation over stability. The confluence of these signals indicates that the administration is making a series of high-stakes bets across multiple theaters at once, with compounding risks that the day's newsletters collectively, if implicitly, warn against.",
+  "executive_summary": "The defining thread of the day is the accelerating consolidation and commercialization of influence—across media, technology, and geopolitics—as powerful actors move aggressively to lock in structural advantages before conditions shift. In the business and technology space, James Murdoch's $300 million acquisition of a 50 percent stake in Vox Media and OpenAI's imminent IPO filing signal that the era of scrappy, independent digital institutions is closing fast, replaced by a landscape where scale and capital determine survival. The Economist's warning that the 'MAGA tax' is holding America back connects directly to this dynamic, arguing that ideologically driven economic policy is distorting the very markets now being reshaped by these mega-deals. Meanwhile, Foreign Affairs frames the Iran and Ukraine crises as Cold War-era proxy conflicts being exploited by China and Russia, and the New York Times reports U.S. charges against Raúl Castro—together suggesting that Washington is simultaneously trying to project hard power abroad while its domestic economic credibility erodes. The day's most important story, in short, is that America's leverage—financial, diplomatic, and institutional—is being contested on every front at once, and the actors who move decisively today are positioning to define the terms of whatever order emerges next.",
   "newsletters": [
     {
       "source": "The Athletic",
@@ -13,6 +13,49 @@
           "headline": "A former NFL player did a disastrous open mic. He thinks everyone should try it",
           "blurb": "\"If you expose yourself to something that feels so scary,\" former NFL player Jack Crawford said, \"it just has an effect on you.\"",
           "url": "https://www.nytimes.com/athletic/7292172/2026/05/20/jack-crawford-nfl-standup-comedy-failure/?source=athletic_targeted_email"
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "New York Times",
+      "title": "The Evening: U.S. charges Raúl Castro",
+      "published": "2026-05-20T22:00:49+00:00",
+      "url": "https://www.nytimes.com",
+      "items": [
+        {
+          "headline": "The U.S. charges Raúl Castro, increasing the pressure on Cuba",
+          "blurb": "The Justice Department charged Raúl Castro, the 94-year-old former president of Cuba and brother of Fidel Castro, with murder and a conspiracy to kill U.S. citizens. The accusations stem from the 1996 downing of two civilian planes, which were connected to a group that made provocative flights over the island.",
+          "url": null
+        },
+        {
+          "headline": "Jan. 6 police officers sue to block Trump's new fund",
+          "blurb": "Two police officers who defended the Capitol on Jan. 6, 2021, filed a lawsuit today in an effort to block a $1.8 billion fund created this week by the Justice Department to pay people who claim mistreatment by the federal government.",
+          "url": null
+        },
+        {
+          "headline": "The U.S. and Israel aimed to install a hard-liner in Iran",
+          "blurb": "At the start of the Iran war, the U.S. and Israel had an audacious and surprising plan: They wanted to replace Iran's supreme leader with Mahmoud Ahmadinejad, a former Iranian president known for his anti-Israel and anti-American views.",
+          "url": null
+        },
+        {
+          "headline": "Barney Frank, the congressman and gay pioneer, dies at 86",
+          "blurb": "Barney Frank, the liberal Democrat who represented Massachusetts in the House for 32 years and helped write the most significant overhaul of the nation's financial regulations since the Great Depression, died yesterday at 86.",
+          "url": null
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "The Economist",
+      "title": "🔴 The Insider: The MAGA tax is holding America back",
+      "published": "2026-05-20T11:49:39-06:00",
+      "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODJ9AAcAAAAAAZ3ZgG5wqQVNVg9FxrdlMlPRw4uwqiRjXb0BEYQ1bEC1DuQrgua6aJ0iCy-5y05HgPDf3ndWwrs4vdcxMcqBodABXwwulAGMWedKF8fzP_wY_Q",
+      "items": [
+        {
+          "headline": "The MAGA tax is holding America back",
+          "blurb": "For the past year America has been running a giant experiment. What happens when you take one of the world's most successful economies and put in place two big growth-busting changes: tariffs and a sudden stop in immigration? Many observers—including us—thought the impact would be unambiguously negative. Yet America's economy is still the envy of the rich world. The country's GDP grew faster than that of any other G7 country last year. Its stockmarkets have repeatedly hit record highs over the past 15 months. What is going on? In this week's cover story, we have crunched the numbers. An artificial-intelligence boom, soaring stockmarkets and some of Donald Trump's own measures have boosted the economy. But by our calculations, the president's chaotic policymaking, sweeping tariffs and mass deportations are, in fact, hurting growth—a drag we call the 'MAGA tax'. Our calculations suggest that without the MAGA tax, America's economy would have grown more than half a percentage point faster.",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODJ9AAcAAAAAAZ3ZgG5z_cLMKeWfQ7FSmepkZ3irxX6giDfEy8Skh5pAxcWhCIhFNqedRM99TdPtxVkjo8GvXxvj5CKhHZ9V-zkYv96AQNsYObXEiLj2"
         }
       ],
       "tier": "newsletter"
@@ -67,43 +110,29 @@
       "tier": "newsletter"
     },
     {
-      "source": "The Economist",
-      "title": "🔴 The Insider: The MAGA tax is holding America back",
-      "published": "2026-05-20T11:49:39-06:00",
-      "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODJ9AAcAAAAAAZ3ZgG5wqQVNVg9FxrdlMlPRw4uwqiRjXb0BEYQ1bEC1DuQrgua6aJ0iCy-5y05HgPDf3ndWwrs4vdcxMcqBodABXwwulAGMWedKF8fzP_wY_Q",
+      "source": "Foreign Affairs",
+      "title": "Iran as Vietnam, Ukraine as Korea; Why Mexico’s Cartels Are So Hard to Defeat; How China and Russia Can Exploit the Iran War",
+      "published": "2026-05-20T10:02:59-04:00",
+      "url": "https://www.foreignaffairs.com",
       "items": [
         {
-          "headline": "The MAGA tax is holding America back",
-          "blurb": "For the past year America has been running a giant experiment. What happens when you take one of the world's most successful economies and put in place two big growth-busting changes: tariffs and a sudden stop in immigration? Many observers—including us—thought the impact would be unambiguously negative. Yet America's economy is still the envy of the rich world. The country's GDP grew faster than that of any other G7 country last year. Its stockmarkets have repeatedly hit record highs over the past 15 months. What is going on? In this week's cover story, which will be published tomorrow, we offer an answer. We have crunched the numbers. An artificial-intelligence boom, soaring stockmarkets and some of Donald Trump's own measures have boosted the economy. But by our calculations, the president's chaotic policymaking, sweeping tariffs and mass deportations are, in fact, hurting growth—a drag we call the \"MAGA tax\". Our calculations suggest that without the MAGA tax, America's economy would have grown more than half a percentage point faster.",
-          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODJ9AAcAAAAAAZ3ZgG5z_cLMKeWfQ7FSmepkZ3irxX6giDfEy8Skh5pAxcWhCIhFNqedRM99TdPtxVkjo8GvXxvj5CKhHZ9V-zkYv96AQNsYObXEiLj2"
-        }
-      ],
-      "tier": "newsletter"
-    },
-    {
-      "source": "New York Times",
-      "title": "The Evening: U.S. charges Raúl Castro",
-      "published": "2026-05-20T22:00:49+00:00",
-      "url": "https://www.nytimes.com",
-      "items": [
-        {
-          "headline": "The U.S. charges Raúl Castro, increasing the pressure on Cuba",
-          "blurb": "The Justice Department charged Raúl Castro, the 94-year-old former president of Cuba and brother of Fidel Castro, with murder and a conspiracy to kill U.S. citizens. The accusations stem from the 1996 downing of two civilian planes, which were connected to a group that made provocative flights over the island.\nThe charges, which can be read here, are part of an effort by the Trump administration to topple Cuba's Communist government. They also laid the grounds for potential action by the U.S. military to remove Raúl Castro from the country. American officials used an indictment of Venezuela's former leader, Nicolás Maduro, as reason to capture him in Caracas and to reshape the country's government.\nCastro is frail, has poor hearing and difficulty speaking and no longer holds any official title, but he still wields enormous power, particularly over the military. He has also had a hand in secret negotiations with the Trump administration.\nMonths ago, Marco Rubio, the secretary of state and the son of immigrants who left Cuba before the Castro revolution, reached out to a grandson of Castro to try to negotiate an economic opening. But U.S. officials have grown impatient. In a rare direct address, Rubio urged Cubans to align with the Trump administration. Cuba's ambassador to the U.N. said the country was ready to negotiate, but did not believe the U.S. was operating in good faith.",
+          "headline": "Iran as Vietnam, Ukraine as Korea",
+          "blurb": "Similar Wars End in Similar Ways",
           "url": null
         },
         {
-          "headline": "Jan. 6 police officers sue to block Trump's new fund",
-          "blurb": "Two police officers who defended the Capitol on Jan. 6, 2021, filed a lawsuit today in an effort to block a $1.8 billion fund created this week by the Justice Department to pay people who claim mistreatment by the federal government.\nThe officers accused the Trump administration of creating a \"slush fund\" to reward the pro-Trump rioters who had tried to stop the certification of the 2020 election. Multiple Jan. 6 rioters have expressed excitement about the prospect of getting paid.\nThe arrangement between President Trump and his own administration — including the fund and a guarantee of immunity from I.R.S. audits — has generated widespread opposition and raised profound questions about presidential power. The whole enterprise, our chief legal correspondent writes, tests the limits of the America's constitutional system.",
+          "headline": "Why Mexico's Cartels Are So Hard to Defeat",
+          "blurb": "The Real Test of Sheinbaum's Security Strategy",
           "url": null
         },
         {
-          "headline": "The U.S. and Israel aimed to install a hard-liner in Iran",
-          "blurb": "At the start of the Iran war, the U.S. and Israel had an audacious and surprising plan: They wanted to replace Iran's supreme leader with Mahmoud Ahmadinejad, a former Iranian president known for his anti-Israel and anti-American views.\nThe plan, which Ahmadinejad was consulted on, quickly went awry: Ahmadinejad was wounded in a strike that had been designed to free him from house arrest. Soon after, he became disillusioned with the regime-change effort and has not been seen since.",
+          "headline": "How China and Russia Can Exploit the Iran War",
+          "blurb": "And How America Can Avoid Playing Into Their Hands",
           "url": null
         },
         {
-          "headline": "Barney Frank, the congressman and gay pioneer, dies at 86",
-          "blurb": "Barney Frank, the liberal Democrat who represented Massachusetts in the House for 32 years and helped write the most significant overhaul of the nation's financial regulations since the Great Depression, died yesterday at 86.",
+          "headline": "The Transatlantic MAGA Fantasy",
+          "blurb": "How Trump Misread Europe",
           "url": null
         }
       ],
@@ -134,49 +163,6 @@
       "tier": "newsletter"
     },
     {
-      "source": "Foreign Affairs",
-      "title": "Iran as Vietnam, Ukraine as Korea; Why Mexico’s Cartels Are So Hard to Defeat; How China and Russia Can Exploit the Iran War",
-      "published": "2026-05-20T10:02:59-04:00",
-      "url": "https://www.foreignaffairs.com",
-      "items": [
-        {
-          "headline": "Iran as Vietnam, Ukraine as Korea",
-          "blurb": "Similar Wars End in Similar Ways",
-          "url": null
-        },
-        {
-          "headline": "Why Mexico's Cartels Are So Hard to Defeat",
-          "blurb": "The Real Test of Sheinbaum's Security Strategy",
-          "url": null
-        },
-        {
-          "headline": "How China and Russia Can Exploit the Iran War",
-          "blurb": "And How America Can Avoid Playing Into Their Hands",
-          "url": null
-        },
-        {
-          "headline": "The Transatlantic MAGA Fantasy",
-          "blurb": "How Trump Misread Europe",
-          "url": null
-        }
-      ],
-      "tier": "newsletter"
-    },
-    {
-      "source": "The Athletic",
-      "title": "The Knicks pulled off a miracle comeback",
-      "published": "2026-05-20T13:48:41+00:00",
-      "url": "https://theathletic.com/nba/",
-      "items": [
-        {
-          "headline": "The Knicks pulled off a miracle comeback",
-          "blurb": "",
-          "url": "https://theathletic.com/nba/"
-        }
-      ],
-      "tier": "newsletter"
-    },
-    {
       "source": "The Athletic",
       "title": "The Wembanyama economy",
       "published": "2026-05-20T14:00:02+00:00",
@@ -184,12 +170,12 @@
       "items": [
         {
           "headline": "Welcome to Wemby's world",
-          "blurb": "With his Game 1 performance in the NBA's West finals, Victor Wembanyama just solidified himself as the premier must-see spectacle in sports. That's amid a jam-packed sports year including the Winter Olympics and World Cup, no less. His 40-point, 20-rebound conference finals debut Monday — putting him in the \"legendary playoff performance\" S-tier on his first try — was riveting.",
+          "blurb": "With his Game 1 performance in the NBA's West finals, Victor Wembanyama just solidified himself as the premier must-see spectacle in sports. That's amid a jam-packed sports year including the Winter Olympics and World Cup, no less. His 40-point, 20-rebound conference finals debut Monday — putting him in the \"legendary playoff performance\" S-tier on his first try — was riveting. Here is a 7-foot-4 \"alien\" dominating the defending champs (and reigning two-time MVP Shai Gilgeous-Alexander), complete with an effortless, Steph Curry-style, logo-adjacent 3-pointer in crunch time.",
           "url": "https://www.nytimes.com/athletic/7291321/2026/05/19/victor-wembanyama-spurs-thunder-game-1-playoffs-stats/"
         },
         {
           "headline": "Tottenham relegation cri$i$ reaches endgame",
-          "blurb": "The other Spurs' financial picture is a bit grim, and that is before any estimated opportunity cost of their possible relegation from the Premier League to the Championship. (Meanwhile: Spare a thought for West Ham, who go down if Spurs stay up.)",
+          "blurb": "As a reminder, the other Spurs' financial picture is a bit grim, and that is before any estimated opportunity cost of their possible relegation from the Premier League to the Championship. (Meanwhile: Spare a thought for West Ham, who go down if Spurs stay up.)",
           "url": "https://www.nytimes.com/athletic/7234117/2026/04/29/tottenham-relegation-finances-wages-bookkeeper/"
         },
         {
@@ -198,86 +184,75 @@
           "url": "https://www.nytimes.com/athletic/7291434/2026/05/19/inside-arsenal-premier-league-title-win/"
         },
         {
-          "headline": "World Cup countdown: What's it like to be a ticket broker?",
-          "blurb": "22 days to the World Cup. So what's it like to be a ticket broker? Mixed bag!",
+          "headline": "World Cup countdown: 22 days. So what's it like to be a ticket broker?",
+          "blurb": "22 days until the World Cup. So what's it like to be a ticket broker? Mixed bag!",
           "url": "https://www.nytimes.com/athletic/7272366/2026/05/18/world-cup-ticket-brokers/"
         },
         {
           "headline": "NFL schedule release winners",
-          "blurb": "NBC and its honcho, Rick Cordella, for securing what should be the most-watched game of this (and perhaps any) NFL regular season (Bills-Chiefs on Thanksgiving night). New Disney CEO Josh D'Amaro and ESPN for getting arguably the network's best \"Monday Night\" slate ever. Netflix and its sports impresario Gabe Spitzer for expanding its reach to include that Week 1 Thursday night game in Australia. Owner Stan Kroenke and his L.A. Rams, who are not just the odds-on favorite to win the Super Bowl, but are appearing on national TV more than any other team.",
+          "blurb": "NBC and its honcho, Rick Cordella, for securing what should be the most-watched game of this (and perhaps any) NFL regular season (Bills-Chiefs on Thanksgiving night). New Disney CEO Josh D'Amaro and ESPN for getting arguably the network's best \"Monday Night\" slate ever (perhaps not coincidentally, in a year the company is airing the Super Bowl for the first time). Netflix and its sports impresario Gabe Spitzer for expanding its reach to include that Week 1 Thursday night game in Australia. Owner Stan Kroenke and his L.A. Rams, who are not just the odds-on favorite to win the Super Bowl, but are appearing on national TV more than any other team.",
           "url": "https://www.nytimes.com/athletic/7279452/2026/05/15/nfl-schedule-2026-national-tv-games-thanksgiving-christmas/"
-        }
-      ],
-      "tier": "newsletter"
-    },
-    {
-      "source": "The Athletic",
-      "title": "Caitlin Clark, Indiana Fever star, named Indianapolis 500 grand marshal",
-      "published": "2026-05-20T13:34:39+00:00",
-      "url": "https://www.nytimes.com/athletic/",
-      "items": [
-        {
-          "headline": "Brian Flores subpoenas 25 NFL teams to delay discrimination lawsuit, league alleges",
-          "blurb": "Brian Flores subpoenas 25 NFL teams to delay discrimination lawsuit, league alleges",
-          "url": "https://www.nytimes.com/athletic/7293681/2026/05/20/brian-flores-nfl-discrimination-lawsuit-team-subpoenas/?source=dailyemail"
-        },
-        {
-          "headline": "Arsenal partners with startup to sell gold and silver collectibles",
-          "blurb": "Arsenal partners with startup to sell gold and silver collectibles",
-          "url": "https://www.nytimes.com/athletic/7293556/2026/05/20/arsenal-echo-gold-collectibles-tickets-coins/?source=dailyemail"
-        },
-        {
-          "headline": "Big Ten, Tony Petitti all in on 24-team CFP: 'We feel strongly about it'",
-          "blurb": "Big Ten, Tony Petitti all in on 24-team CFP: 'We feel strongly about it'",
-          "url": "https://www.nytimes.com/athletic/7293218/2026/05/20/big-ten-meetings-tony-petitti-24-team-cfp/?source=dailyemail"
-        },
-        {
-          "headline": "Connections: Sports Edition today: Hints and answers for May 20, 2026, puzzle No. 604",
-          "blurb": "Connections: Sports Edition today: Hints and answers for May 20, 2026, puzzle No. 604",
-          "url": "https://www.nytimes.com/athletic/7293625/2026/05/20/connections-sports-edition-hints-answers-may-20-2026/?source=dailyemail"
-        },
-        {
-          "headline": "How did the Knicks beat the Cavs? Behind New York's 30-8 run in Game 1 comeback",
-          "blurb": "How did the Knicks beat the Cavs? Behind New York's 30-8 run in Game 1 comeback",
-          "url": "https://www.nytimes.com/athletic/7293522/2026/05/19/knicks-cavaliers-comeback-playoffs-nba/?source=dailyemail"
-        },
-        {
-          "headline": "Caitlin Clark, Indiana Fever star, named Indianapolis 500 grand marshal",
-          "blurb": "A two-time WNBA All-Star, Clark will call racers to their cars before Sunday's race.",
-          "url": "https://www.nytimes.com/athletic/7291264/2026/05/19/caitlin-clark-indianapolis-indy-500-grand-marshal/?source=dailyemail"
-        },
-        {
-          "headline": "The Sports Bra revolutionized the bar scene. Now, it's seeking the public's help to raise $1.2m",
-          "blurb": "The Sports Bra revolutionized the bar scene. Now, it's seeking the public's help to raise $1.2m",
-          "url": "https://www.nytimes.com/athletic/7290942/2026/05/20/sports-bra-bar-womens-soccer-equity-crowdfunding/?source=dailyemail"
-        },
-        {
-          "headline": "Victor Wembanyama's astounding Game 1 masterpiece just tilted the NBA on its head",
-          "blurb": "Victor Wembanyama's astounding Game 1 masterpiece just tilted the NBA on its head",
-          "url": "https://www.nytimes.com/athletic/7291321/2026/05/19/victor-wembanyama-spurs-thunder-game-1-playoffs-stats/?source=dailyemail"
-        },
-        {
-          "headline": "Tennis players fear wrist injuries more than any other. Carlos Alcaraz is no exception",
-          "blurb": "Tennis players fear wrist injuries more than any other. Carlos Alcaraz is no exception",
-          "url": "https://www.nytimes.com/athletic/7263807/2026/05/20/tennis-worst-injury-wrist-recovery-treatment/?source=dailyemail"
-        },
-        {
-          "headline": "2026 FIFA World Cup Panini sticker tips, quirks and the most valuable items so far",
-          "blurb": "2026 FIFA World Cup Panini sticker tips, quirks and the most valuable items so far",
-          "url": "https://www.nytimes.com/athletic/7290962/2026/05/19/panini-2026-fifa-world-cup-stickers-most-valuable/?source=dailyemail"
         }
       ],
       "tier": "newsletter"
     }
   ],
-  "breaking_digest": null,
+  "breaking_digest": {
+    "narrative": "The business and technology sectors dominated the day's news, with three major financial stories breaking in quick succession. James Murdoch acquired a 50 percent stake in Vox Media for $300 million [6], signaling continued consolidation in digital media. Shortly after, OpenAI announced it is preparing to file for an IPO in the coming weeks [3], a landmark move for the AI industry. Later in the evening, SpaceX disclosed financial details revealing just how profitable the rocket company has become [1], underscoring the growing commercial power of private space ventures.\n\nOn the legal and political front, the Justice Department charged former Cuban president Raúl Castro in connection with the 1996 downing of civilian planes [2], a decades-old case involving the deaths of four Cuban-American activists. Separately, police officers who were present during the January 6 Capitol riot filed suit to block a $1.8 billion fund established by the Trump administration [4], raising legal questions about the distribution of those resources. The day also brought word of the death of Barney Frank, the longtime Massachusetts congressman and co-author of the landmark Dodd-Frank financial reform law, at age 86 [5].",
+    "references": [
+      {
+        "num": 1,
+        "title": "Breaking news: SpaceX reveals just how lucrative it has been",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T21:17:16+00:00"
+      },
+      {
+        "num": 2,
+        "title": "Breaking news: U.S. charges Raúl Castro in 1996 downing of planes",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T18:02:39+00:00"
+      },
+      {
+        "num": 3,
+        "title": "Breaking news: OpenAI prepares to file for I.P.O. in coming weeks",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T17:27:56+00:00"
+      },
+      {
+        "num": 4,
+        "title": "Breaking news: Jan. 6 police officers sue to block Trump's $1.8 billion fund",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T15:08:43+00:00"
+      },
+      {
+        "num": 5,
+        "title": "Breaking news: Barney Frank dies at 86",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T14:05:19+00:00"
+      },
+      {
+        "num": 6,
+        "title": "Breaking news: James Murdoch buys half of Vox Media for $300 million",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-20T13:26:59+00:00"
+      }
+    ],
+    "tier": "breaking",
+    "alert_count": 6
+  },
   "longform": [],
   "counts": {
-    "newsletter": 9,
-    "breaking": 0,
+    "newsletter": 7,
+    "breaking": 6,
     "longform": 0
   },
-  "generated_at": "2026-05-21T02:17:19.973791+00:00",
-  "run_label": "02:17 UTC",
+  "generated_at": "2026-05-21T02:57:26.011682+00:00",
+  "run_label": "02:57 UTC",
   "archive_filename": "premium_2026-05-21-02.json"
 }
