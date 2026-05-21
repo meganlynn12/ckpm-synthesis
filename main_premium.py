@@ -129,13 +129,13 @@ def main():
     print(f"\n[main_premium] Written → premium_content.json")
 
     # ── Write archive ──
+    counts = briefing.get("counts", {})
     if is_scheduled:
         with open(archive_path, "w", encoding="utf-8") as f:
             json.dump(briefing, f, indent=2, ensure_ascii=False)
         print(f"[main_premium] Archived → {archive_filename}")
 
         # ── Update archive index ──
-        counts = briefing.get("counts", {})
         update_archive_index({
             "date":           run_date,
             "run_label":      run_label,
