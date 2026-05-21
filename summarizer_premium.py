@@ -66,8 +66,9 @@ Extract structured items from a newsletter email body.
 Return ONLY valid JSON, no markdown, no preamble."""
 
 _NEWSLETTER_PROMPT = """Extract the individual story items from this newsletter email.
+The content may be raw HTML — if so, extract href URLs directly from anchor tags near each headline.
 Each item should have a headline, a brief description (the blurb as written — do not paraphrase),
-and the article URL if one is present in the text near that item.
+and the article URL extracted from the nearest anchor tag href, or from plain text if no HTML.
 
 Return this JSON:
 {{
@@ -96,10 +97,13 @@ def parse_newsletter(article: dict) -> dict:
     Returns the article dict augmented with an 'items' list.
     No summarization — structure extraction only.
     """
+    # Use raw HTML for sources with tracked links, plain text for others
+    content = article.get("content_html") or article.get("content", "")
+
     prompt = _NEWSLETTER_PROMPT.format(
         source=article.get("source", ""),
         title=article.get("title", ""),
-        content=article.get("content", "")[:6000],
+        content=content[:8000],
     )
 
     result = _call(_NEWSLETTER_SYSTEM, prompt, max_tokens=1500)
