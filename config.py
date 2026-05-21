@@ -23,6 +23,7 @@ FREE_RSS_SOURCES = [
     {"name": "ProPublica",       "url": "https://www.propublica.org/feeds/propublica/main"},
     {"name": "SCOTUSblog",       "url": "https://www.scotusblog.com/feed/"},
     {"name": "Onest Network",    "url": "https://www.onestnetwork.com/rss/"},
+    {"name": "Center for Humane Technology", "url": "https://centerforhumanetechnology.substack.com/feed"},
 ]
 
 
