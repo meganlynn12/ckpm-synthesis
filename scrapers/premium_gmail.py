@@ -449,24 +449,24 @@ def _fetch_from_service(service, account_label: str, pm_run: bool) -> list[dict]
 
         # Extract URLs from raw HTML before stripping
         raw_html = _get_raw_html(payload)
-        body     = _decode_body(payload)
+        urls     = _extract_urls_from_html(raw_html) if raw_html else []
+
+        body = _decode_body(payload)
         if not body or len(body.strip()) < 80:
             continue
 
         primary_url = _extract_primary_url(body, source["home_url"])
 
-        # Pass raw HTML for sources that use tracked links
-        html_sources = {"The Atlantic", "Foreign Affairs"}
         article = {
-            "source":       source["name"],
-            "title":        subject,
-            "url":          primary_url,
-            "published":    published,
-            "content":      body[:8000],
-            "content_html": raw_html[:12000] if source["name"] in html_sources else None,
-            "description":  body[:500],
-            "tier":         tier,
-            "sender":       sender,
+            "source":      source["name"],
+            "title":       subject,
+            "url":         primary_url,
+            "published":   published,
+            "content":     body[:8000],
+            "description": body[:500],
+            "tier":        tier,
+            "sender":      sender,
+            "urls":        urls[:40],   # pass to summarizer for URL matching
         }
 
         articles.append(article)
