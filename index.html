@@ -526,7 +526,7 @@ function renderPremiumBriefing(data, isArchive) {
       `<div class="breaking-ref"><span class="breaking-ref-num">[${r.num}]</span><span>${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Alert'}</a>`:(r.title||'Alert')} — ${r.published?new Date(r.published).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):''}</span></div>`
     ).join('');
     html += `<div class="section-label">🔴 Breaking News <span class="count">${alertCount} alert${alertCount!==1?'s':''}</span></div>`;
-    html += `<div class="breaking-card"><div class="breaking-label">⚡ End-of-Day Digest</div><div class="breaking-narrative">${narrative}</div>${refs?`<div class="breaking-sources"><div class="breaking-sources-label">Alerts cited</div>${refs}</div>`:''}</div>`;
+    html += `<div class="breaking-card"><div class="breaking-label">⚡ SITREP</div><div class="breaking-narrative">${narrative}</div>${refs?`<div class="breaking-sources"><div class="breaking-sources-label">Alerts cited</div>${refs}</div>`:''}</div>`;
   }
 
   if (longform.length) {
