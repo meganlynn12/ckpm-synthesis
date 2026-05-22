@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-05-22",
+    "run_label": "12:19 UTC",
+    "generated_at": "2026-05-22T12:19:31.593411+00:00",
+    "filename": "2026-05-22-12.json",
+    "articles_processed": 14,
+    "theme_count": 5,
+    "publications": [
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Scott Galloway",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "John Ellis",
+      "Public Notice",
+      "Robert Reich",
+      "Slow Boring",
+      "Paul Krugman (Substack)",
+      "ProPublica"
+    ]
+  },
+  {
     "date": "2026-05-21",
     "run_label": "6 PM",
     "generated_at": "2026-05-21T23:03:30.172509+00:00",
