@@ -20,6 +20,7 @@ import json
 import os
 import concurrent.futures
 import anthropic
+import re 
 
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 MODEL = "claude-sonnet-4-6"
@@ -323,7 +324,9 @@ def synthesize_big_picture(theme_results: list[dict]) -> str:
             raw = raw.split("```")[1]
             if raw.startswith("json"):
                 raw = raw[4:]
-        result = json.loads(raw.strip())
+        # Remove invalid control characters that break JSON parsing
+        raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', raw.strip())
+        result = json.loads(raw)
         return result.get("big_picture", "")
     except Exception as e:
         print(f"[summarizer] Phase 3 big picture failed: {e}")
