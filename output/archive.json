@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-23",
+    "run_label": "6 AM",
+    "generated_at": "2026-05-23T11:11:19.231819+00:00",
+    "filename": "2026-05-23-11.json",
+    "articles_processed": 7,
+    "theme_count": 4,
+    "publications": [
+      "Scott Galloway",
+      "Paul Krugman and Heather Cox Richardson (Substack)",
+      "Kareem Abdul-Jabbar",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "Public Notice"
+    ]
+  },
+  {
     "date": "2026-05-22",
     "run_label": "6 PM",
     "generated_at": "2026-05-22T22:58:15.773192+00:00",
