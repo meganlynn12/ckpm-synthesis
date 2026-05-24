@@ -1,6 +1,27 @@
 [
   {
     "date": "2026-05-24",
+    "run_label": "14:24 UTC",
+    "generated_at": "2026-05-24T14:24:57.670259+00:00",
+    "filename": "2026-05-24-14.json",
+    "articles_processed": 12,
+    "theme_count": 5,
+    "publications": [
+      "Kasparov's Next Move",
+      "AVDD",
+      "Timothy Snyder from \"Thinking about...\"",
+      "Adam Grant, Granted",
+      "Phillips's Newsletter (Substack)",
+      "Letters from an American",
+      "John Ellis from Political News Items",
+      "Paul Krugman (Substack)",
+      "Robert Reich",
+      "Letters from an American by Heather Cox Richardson",
+      "The Bulwark"
+    ]
+  },
+  {
+    "date": "2026-05-24",
     "run_label": "6 AM",
     "generated_at": "2026-05-24T11:17:26.666560+00:00",
     "filename": "2026-05-24-11.json",
