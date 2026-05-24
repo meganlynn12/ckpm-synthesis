@@ -1,6 +1,17 @@
 [
   {
     "date": "2026-05-24",
+    "run_label": "6 AM",
+    "generated_at": "2026-05-24T11:17:26.666560+00:00",
+    "filename": "2026-05-24-11.json",
+    "articles_processed": 3,
+    "theme_count": 3,
+    "publications": [
+      "The Bulwark"
+    ]
+  },
+  {
+    "date": "2026-05-24",
     "run_label": "02:01 UTC",
     "generated_at": "2026-05-24T02:01:36.971240+00:00",
     "filename": "2026-05-24-02.json",
