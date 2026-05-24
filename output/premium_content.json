@@ -1,7 +1,7 @@
 {
   "date": "2026-05-24",
   "pipeline": "premium",
-  "executive_summary": "The single most important connecting thread across today's content is the fragility of institutional safeguards and the systems societies rely on to contain high-stakes threats. The White House shooting incident — neutralized by Secret Service agents before casualties could mount — underscores how security infrastructure, when functioning, averts catastrophe, but also how quickly such threats can materialize without warning. This resonates directly with the Foreign Affairs newsletter on Ebola's lessons, which examines how public health institutions similarly serve as the critical barrier between manageable risk and systemic collapse, and how failures of preparation or response can prove catastrophic. Both stories, at their core, ask the same question: are our protective systems robust enough to handle the threats they were built to contain? That question carries urgent relevance at a moment when confidence in institutions — whether security agencies or global health bodies — is under sustained pressure worldwide.",
+  "executive_summary": "The dominant thread running through today's content is institutional resilience under pressure — the capacity of established systems to respond to sudden, destabilizing threats. The most concrete expression of this is the breaking news of a gunman being shot and killed near the White House by Secret Service agents, a stark reminder that the security architecture protecting the executive branch remains in active, lethal deployment. This incident connects directly to the Foreign Affairs newsletter on Ebola's lessons, which interrogates how institutions learn — or fail to learn — from acute crises, drawing a clear line between public health emergency response and security preparedness as parallel tests of systemic readiness. Both stories ultimately ask the same question: when a threat materializes without warning, how well do the protocols, people, and institutions designed to contain it actually hold? Today's news cycle, sparse on long-form analysis, places that question in sharp relief with real-world evidence rather than theoretical framing.",
   "newsletters": [
     {
       "source": "Foreign Affairs",
@@ -13,6 +13,30 @@
           "headline": "The Backstory: Ebola’s Lessons",
           "blurb": "",
           "url": "https://www.foreignaffairs.com"
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "New York Times",
+      "title": "The Morning: Colbert’s connection",
+      "published": "2026-05-24T11:30:32+00:00",
+      "url": "https://www.nytimes.com",
+      "items": [
+        {
+          "headline": "Stephen and I",
+          "blurb": "Stephen Colbert went off the air last week. Today, a Morning writer reflects on the late-night host's ability to find connection, recounting a personal moment from a 2007 taping of 'The Colbert Report' and what made Colbert special to so many audiences over two decades.",
+          "url": null
+        },
+        {
+          "headline": "In his own words",
+          "blurb": "Colbert's 'Late Show' found its identity in needling President Trump. CBS says that's not why it canceled the series — late-night interview shows are expensive to make, and viewership has fallen over the decades. Colbert sat down with a colleague to talk about the motivations behind the cancellation, explaining how authoritarians don't like comedians and discussing how he evolved the show and what he might do next.",
+          "url": null
+        },
+        {
+          "headline": "The end of an institution",
+          "blurb": "Comedy critic Jason Zinoman looked back on the 33-year run of 'The Late Show,' which began after David Letterman was passed up for the 'Tonight Show' job and decided to compete against it instead. Both Letterman and Colbert came into the show as ironic outsiders, and both sanded down those personalities a bit in their turn to the mainstream — but not entirely.",
+          "url": null
         }
       ],
       "tier": "newsletter"
@@ -35,7 +59,7 @@
         },
         {
           "headline": "Full USMNT roster",
-          "blurb": null,
+          "blurb": "Full USMNT roster leaks.",
           "url": "https://www.nytimes.com/athletic/7303156/2026/05/23/usmnt-world-cup-roster-pochettino-full-usa-squad/"
         },
         {
@@ -48,7 +72,7 @@
     }
   ],
   "breaking_digest": {
-    "narrative": "A gunman was shot and killed by Secret Service agents following a shooting incident near the White House, officials confirmed [1]. No further details on casualties or a motive were immediately available, and the incident remains under active investigation. Separately, the Cannes Film Festival concluded with the Norwegian film 'Fjord' claiming the prestigious Palme d'Or, the festival's top prize [2].",
+    "narrative": "Secret Service agents shot and killed a gunman near the White House on Saturday, according to officials [1]. The incident marked a serious security breach in the vicinity of the executive mansion, though no further details on the shooter's identity or motive were immediately available. The Secret Service responded to the threat and neutralized the suspect.\n\nSeparately, the Cannes Film Festival concluded its 2026 edition with the Palme d'Or, the festival's top prize, awarded to 'Fjord' [2]. The announcement capped the prestigious international film competition held on the French Riviera.",
     "references": [
       {
         "num": 1,
@@ -70,11 +94,11 @@
   },
   "longform": [],
   "counts": {
-    "newsletter": 2,
+    "newsletter": 3,
     "breaking": 2,
     "longform": 0
   },
-  "generated_at": "2026-05-24T11:18:17.144355+00:00",
+  "generated_at": "2026-05-24T11:44:58.781840+00:00",
   "run_label": "6 AM",
   "archive_filename": "premium_2026-05-24-11.json"
 }
