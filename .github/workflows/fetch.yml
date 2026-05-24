@@ -2,12 +2,10 @@ name: Fetch & Summarize Content
 
 on:
   schedule:
-    # 6 AM ET = 11:00 UTC (EST) / 10:00 UTC (EDT)
-    - cron: "0 10 * * *"
-    # - cron: "0 11 * * *"
-    # 8 PM ET = 01:00 UTC (EST) / 24:00 UTC (EDT)
-    - cron: "0 0 * * *"
-    # - cron: "0 1 * * *"
+    - cron: "0 13 * * *"   # 9 AM EDT / 7 AM MDT
+    # - cron: "0 14 * * *"   # 9 AM EST / 7 AM MST
+    - cron: "0 1 * * *"    # 9 PM EDT / 7 PM MDT
+    # - cron: "0 2 * * *"    # 9 PM EST / 7 PM MST
   workflow_dispatch:
 
 jobs:
