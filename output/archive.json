@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-25",
+    "run_label": "05:23 UTC",
+    "generated_at": "2026-05-25T05:23:20.738262+00:00",
+    "filename": "2026-05-25-05.json",
+    "articles_processed": 9,
+    "theme_count": 4,
+    "publications": [
+      "The Bulwark",
+      "Lucid (Substack)",
+      "Heather Cox Richardson from Letters from an American",
+      "Phillips's Newsletter by Phillips P. OBrien",
+      "Letters from an American (Heather Cox Richardson)"
+    ]
+  },
+  {
     "date": "2026-05-24",
     "run_label": "14:24 UTC",
     "generated_at": "2026-05-24T14:24:57.670259+00:00",
