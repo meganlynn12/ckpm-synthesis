@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-05-25",
+    "run_label": "15:51 UTC",
+    "generated_at": "2026-05-25T15:51:46.611785+00:00",
+    "filename": "2026-05-25-15.json",
+    "articles_processed": 15,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "The Bulwark",
+      "AVDD",
+      "Galen Druke",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Slow Boring",
+      "Heather Cox Richardson from Letters from an American",
+      "SCOTUSblog",
+      "John Ellis",
+      "Kasparov's Next Move",
+      "Paul Krugman (Substack)",
+      "Public Notice",
+      "Robert Reich",
+      "Jacob Morgan"
+    ]
+  },
+  {
+    "date": "2026-05-25",
     "run_label": "05:23 UTC",
     "generated_at": "2026-05-25T05:23:20.738262+00:00",
     "filename": "2026-05-25-05.json",
