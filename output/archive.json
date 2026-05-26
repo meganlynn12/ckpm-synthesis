@@ -1,6 +1,31 @@
 [
   {
     "date": "2026-05-26",
+    "run_label": "12 PM",
+    "generated_at": "2026-05-26T16:44:12.641678+00:00",
+    "filename": "2026-05-26-16.json",
+    "articles_processed": 24,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "Louis-François from What's AI",
+      "AI Supremacy by Michael Spencer",
+      "ProPublica",
+      "Kareem Abdul-Jabbar",
+      "Public Notice",
+      "John Ellis",
+      "AVDD",
+      "G. Elliott Morris / Strength In Numbers",
+      "Slow Boring",
+      "Robert Reich",
+      "SCOTUSblog",
+      "Letters from an American (Heather Cox Richardson)",
+      "Paul Krugman (Substack)",
+      "The Bulwark"
+    ]
+  },
+  {
+    "date": "2026-05-26",
     "run_label": "05:05 UTC",
     "generated_at": "2026-05-26T05:05:52.805424+00:00",
     "filename": "2026-05-26-05.json",
