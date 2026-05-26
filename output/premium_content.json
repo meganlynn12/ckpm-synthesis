@@ -1,16 +1,202 @@
 {
   "date": "2026-05-26",
-  "generated_at": "2026-05-26T05:06:59.648585+00:00",
-  "run_label": "05:06 UTC",
-  "archive_filename": "premium_2026-05-26-05.json",
   "pipeline": "premium",
-  "executive_summary": "",
-  "newsletters": [],
-  "breaking_digest": null,
+  "executive_summary": "The defining thread of today's content is the escalating U.S. military confrontation with Iran, which cuts across both the breaking news alerts and the Economist's newsletter coverage of Iran talks coming under fire. The United States carried out new strikes in southern Iran, representing a significant and deliberate escalation beyond diplomatic channels — a move that signals the Biden administration has shifted from negotiation to direct military pressure. This matters because it marks a potential turning point in U.S.-Iran relations with immediate implications for regional stability, energy markets, and broader Middle East security architecture. The absence of long-form analysis today makes the Economist's brief mention all the more significant as a contextual anchor, underscoring that the diplomatic track is not merely stalled but actively under assault from both military action and political opposition.",
+  "newsletters": [
+    {
+      "source": "The Athletic",
+      "title": "The Knicks are in the NBA Finals, and owner James Dolan expected nothing else",
+      "published": "2026-05-26T12:50:41+00:00",
+      "url": "https://theathletic.com/",
+      "items": [
+        {
+          "headline": "The Knicks are in the NBA Finals, and owner James Dolan expected nothing else",
+          "blurb": "The Knicks finally put all the pieces together and did what they were supposed to do, give themselves a shot at an NBA title.",
+          "url": "https://www.nytimes.com/athletic/7308265/2026/05/26/knicks-nba-finals-james-dolan-jalen-brunson/?source=athletic_targeted_email"
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "New York Times",
+      "title": "The Morning: Your questions, answered",
+      "published": "2026-05-26T10:39:49+00:00",
+      "url": "https://www.nytimes.com",
+      "items": [
+        {
+          "headline": "When I read that the administration has authorized a sale of weapons to another country, do they come from an existing U.S. stockpile, or is the government authorizing a defense contractor to make and sell new weapons?",
+          "blurb": "There are two ways that the government authorizes a weapons sale to a foreign country. In one, the U.S. government acts as a middleman: A nation buys weapons directly from the government, which then works with defense contractors to complete the order. In the other (less regulated) form, the State Department issues a license to a foreign government to deal directly with an American defense contractor to purchase the arms.",
+          "url": null
+        },
+        {
+          "headline": "How are people in Gaza doing? Is food and humanitarian aid now getting to them?",
+          "blurb": "Since the October 2025 cease-fire agreement between Israel and Hamas, the delivery of food items into Gaza has improved, but humanitarian officials say it is still well short of what people need. Little progress has been made toward the reconstruction of Gaza. American and Israeli officials have said the rebuilding depends on Hamas giving up its weapons. The militant group has resisted that demand. Many Palestinians want to relocate abroad, but only a small fraction of Gaza's inhabitants have been allowed to leave. Meanwhile, trash is accumulating in displacement camps, and rats are proliferating.",
+          "url": null
+        },
+        {
+          "headline": "Is there a law that requires websites to let users opt out of systems that gather personal information for advertising?",
+          "blurb": "It depends where you live! There's no federal law. But a number of states have laws that grant their residents the right to opt out of the sale of their personal data or the use of it for targeted ads. See what each state allows here.",
+          "url": null
+        },
+        {
+          "headline": "The United States is $39 trillion in debt. To whom does it owe all that money? If we were to repay our debts, where would it all go?",
+          "blurb": "About 80 percent of the debt is held by the public, which means people who buy Treasury securities like bonds, bills and notes. The government is borrowing against those and needs to repay them when they come due. According to the Peter G. Peterson Foundation, a fiscal watchdog...",
+          "url": null
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A reality check on the AI jobs hysteria",
+      "published": "2026-05-26T12:01:53+00:00",
+      "url": "https://ter.li/MAY26_AI_DOWNLOAD?mc_cid=37d10d6ed0&mc_eid=UNIQID",
+      "items": [
+        {
+          "headline": "A reality check on the AI jobs hysteria",
+          "blurb": "Despite the growing hysteria over AI's threat to white-collar jobs, there's still scant evidence that the technology has had a large-scale impact on the labor market. Analysis of US labor data shows that unemployment in occupations most exposed to AI is actually lower than in less-exposed jobs. There are also no signs that large numbers of workers are shifting from AI-threatened professions into supposedly safer manual-labor jobs. It's true that things aren't great in the job market—but the question is why.",
+          "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=Active Qualified&utm_content=05-26-2026&mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        },
+        {
+          "headline": "Opinion: It's time to address the looming crisis in entry-level work",
+          "blurb": "AI has not yet produced mass unemployment. But it may be quietly weakening the first rung of the career ladder. A recent Stanford study found that young workers in AI-exposed occupations suffered a sharp decline in employment after the spread of generative AI. The same pattern didn't appear in low-exposure jobs, suggesting AI is replacing junior tasks that once gave young workers their first foothold. It's time to rethink how we train, prepare, and support young people entering the workforce.",
+          "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=Active Qualified&utm_content=05-26-2026&mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        },
+        {
+          "headline": "The Pope has called for governments to regulate AI",
+          "blurb": "In his first major document, Pope Leo said AI must be \"disarmed.\" He warned that AI fuels war and misinformation, but could also \"open up a horizon extending in all directions.\" Anthropic cofounder Chris Olah also spoke at the event.",
+          "url": "https://www.bbc.co.uk/news/articles/cedppn6002jo?mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        },
+        {
+          "headline": "SpaceX has launched its biggest and most powerful rocket",
+          "blurb": "The Starship V3 made its test flight debut two days after Elon Musk announced SpaceX's IPO. SpaceX pulled off the launch, but not the landing. The rocket could be key to SpaceX's valuation, but rivals to the company are rising.",
+          "url": "https://www.theguardian.com/science/2026/may/22/spacex-launch-texas-test-flight?mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        },
+        {
+          "headline": "Huawei says it can make industry-leading chips within five years",
+          "blurb": "The Chinese tech giant announced a breakthrough in chip design. Its progress underscores Beijing's push to neutralize US sanctions. Chinese chip stocks rallied after the announcement.",
+          "url": "https://www.reuters.com/world/asia-pacific/huawei-proposes-new-path-chip-development-amid-us-sanctions-2026-05-25/?mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        },
+        {
+          "headline": "A new vaccine may protect against the Ebola virus behind today's crisis",
+          "blurb": "Tests have shown promising results for the mRNA vaccine. Another Ebola vaccine could be ready for trials in months. But vaccines face a new problem: their name.",
+          "url": "https://www.newscientist.com/article/2527731-experimental-mrna-vaccine-may-protect-against-multiple-ebola-viruses/?mc_cid=37d10d6ed0&mc_eid=UNIQID"
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "The Economist",
+      "title": "The US in Brief: Iran talks come under fire",
+      "published": "2026-05-26T05:14:29-06:00",
+      "url": "https://marber-cdn.economist.com/foundations/latest/css/font-face.css",
+      "items": [
+        {
+          "headline": "America carried out new air strikes on Iran",
+          "blurb": "US Central Command said it had struck missile sites in the south of the country and boats laying mines, in what it called an act of self-defence \"to protect our troops\" during an \"ongoing ceasefire\". Donald Trump has spent days suggesting a deal is near, though he also warned negotiators \"not to rush\". Iran said talks had advanced, but that an agreement was \"not imminent\".",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODh9AAcAAAAAAeB0kMHXH9fvR6H3QJEQS-wi5LJfsANrb8uNOQxM57SOlJ3zQnsoBbKZt3-AJy-5hzSzS47cayGmGoNzSVydK5LjJ_VBJvnHHnxxil-H"
+        },
+        {
+          "headline": "Mr Trump faces another test of his grip on the Republican Party in a Texas primary run-off",
+          "blurb": "John Cornyn, the incumbent senator, is fighting to fend off Ken Paxton, the state's attorney-general, whom Mr Trump endorsed last week. Some Republicans fear Mr Paxton's legal troubles—including an impeachment by fellow Republicans—could make him a weaker candidate against James Talarico, the Democrats' well-funded nominee, in November's midterms.",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODh9AAcAAAAAAeB0kMHZln68VywKvmhTck5CeDieF34OJh-q9_Gb1WP1SqjGWMyZZ2MUuUDjtxnkM0onXVyXqXSxrd5bZ3Vmzm0VMd1v1P400eE55G0m"
+        },
+        {
+          "headline": "Court documents showed that Nasire Best, a man accused of opening fire near the White House, had previously been detained twice by the Secret Service",
+          "blurb": "Court documents showed that Nasire Best, a man accused of opening fire near the White House on Saturday, had previously been detained twice by the Secret Service after trying to enter the building. Mr Best allegedly wounded a bystander before the Secret Service shot and killed him. During one of the earlier incidents he told officers he was Jesus Christ.",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODh9AAcAAAAAAeB0kMHabViuR9_1lnKaFf86-e8_B3a84DktyeOse_PJD3XTmmme09MDbzgU_2u4B-FHaSrgKJbVHqnnLwDAjhxP0EJ4s5h3msPI3YY0"
+        },
+        {
+          "headline": "Immigration and Customs Enforcement agents pepper-sprayed Andy Kim, a Democratic senator from New Jersey",
+          "blurb": "Immigration and Customs Enforcement agents pepper-sprayed Andy Kim, a Democratic senator from New Jersey, during his visit to Delaney Hall, a migrant detention centre in the state. Around 300 of those held there are on a work and hunger strike, demanding the release of elderly, young and sick inmates. Protesters had gathered outside to try to stop the transfer of the strike's organiser, Martin Soto; officials said they moved him to another facility.",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODh9AAcAAAAAAeB0kMHbtS1L9wPwNPsThEjKPeFhEuDkwdxC7ciG2TCswEy49PUQXe4b33r7UmNSOU2dKiampXytt-g8IXd8TvbUqZGOnHaFlbvBzn77"
+        },
+        {
+          "headline": "Firefighters said they had eliminated the threat of explosion posed by a damaged chemical tank in Orange County, California",
+          "blurb": "Some 50,000 residents of Garden Grove, a city south of Los Angeles, were evacuated after the tank, which contains methyl methacrylate, a flammable substance used to make plastic, overheated on Thursday. Around 16,000 people are still unable to return home.",
+          "url": null
+        },
+        {
+          "headline": "The nine and the one",
+          "blurb": "The Supreme Court has blocked Mr Trump's most blatant attempts to claim powers the constitution clearly does not grant him. But on several major questions—from immigration to the power of inde[pendence]...",
+          "url": "https://click.e.economist.com/?qs=ABB7InYiOjEsImQiOjQ4ODh9AAcAAAAAAeB0kMHcNuxx2TbDSyMs5QobMeVDifpar7fP0AN_LJfXUcysA31XQCEIjBvLAMLpH-PzZQvf5-fRv9yrVvj4BCootOBWl5zodIEFq_1p"
+        }
+      ],
+      "tier": "newsletter"
+    },
+    {
+      "source": "The Athletic",
+      "title": "Your sports rules questions, answered",
+      "published": "2026-05-26T10:20:17+00:00",
+      "url": "https://www.nytimes.com/athletic/tag/the-pulse/",
+      "items": [
+        {
+          "headline": "Do umpires have a 'home' city?",
+          "blurb": "Do umpires have a \"home\" city? A team they might work a bit more frequently so that they get to be home once in a while? Or are they on the road constantly? — Bob R., Minneapolis, Minn.\n\n💬 Jayson Stark: Bob, those answers are \"no\" (kind of) and \"yes\" (definitely). Here's the way ump scheduling works: The league draws up schedules for all 19 crews. Then the crew chiefs pick their schedule in order of seniority. So longtime crew chiefs can make sure they get 3-6 series near home. But they also try to give the other umps on their crew a chance to get home. No matter how it works out, unlike all 30 teams, they won't get close to 81 home games. So their suitcases are always packed!",
+          "url": null
+        },
+        {
+          "headline": "Is there any tracking on José Ramírez's bat-flying habit?",
+          "blurb": "I've seen (as a Guards fan) José Ramírez send a bat flying out of his hands, maybe a dozen times or more, this season. Is there any tracking on this? If so, is there another record that he could break this season? — Mark S., Columbus, Ohio\n\n💬 Levi Weaver: The short answer: I haven't seen it tracked. But have you seen those Google AI commercials that are like \"batters who jumped over the foul line hit the ball four percent harder than those who didn't\"? They're the worst. A whole ad campaign based on the premise \"But what if correlation WAS causation … and we made none of the data publicly available?\" How useless. But it means the data does exist! So, unfortunately, your best bet at getting an answer is probably my worst nightmare: more of those commercials. Sorry, Mark.",
+          "url": null
+        },
+        {
+          "headline": "We're calling that stat 'OOPS' now",
+          "blurb": "I've been on this one-man quixotic crusade for a while now, but can we *please* start referring to the pitching statistic Opponent's OPS as OOPS? It's just sitting right there, and it *works*! (Currently known as OPS against.) — Ben L., Lancaster, Calif.\n\n💬 Branch: Yes. I'm making the call here.",
+          "url": null
+        },
+        {
+          "headline": "Why isn't Dallas in the NFC South and Carolina in the NFC East?",
+          "blurb": "Why isn't Dallas in the NFC South and Carolina in the NFC East? Seems perfectly logical, though I know that the NFL, at times, doesn't resort to logic. I'm not a Cowboys fan. Just a fan of geography. — Marty L., Austin, Texas\n\n💬 Branch: I'm taking this one, too, because we published a great retelling of this exact story back in 2022. The answer seems to be pretty simple: Dallas wanted to stay in the NFC East for media exposure, and the NFL granted its wish.",
+          "url": "https://www.nytimes.com/athletic/3630230/2022/09/27/nfl-division-realignment-vote-history/"
+        },
+        {
+          "headline": "Knicks complete sweep",
+          "blurb": "The last time the Knicks were in the NBA Finals was the same year Serena Williams won her first of 23 major singles titles, and Stephen Curry was still a decade away from even being drafted. But they're back now, after a 130-93 blowout win in Cleveland last night, and won't play again until Game 1 on June 3. Celebrity New York fans invaded Rocket Arena to see a team built on patience, restraint and conference finals MVP Jalen Brunson (one of six Knicks to score in double figures).",
+          "url": "https://www.nytimes.com/athletic/7307873/2026/05/25/knicks-win-game-4-cavs-sweep-takeaways-nba-playoffs/"
+        },
+        {
+          "headline": "Hurricanes snagged another 3-2 overtime win against the Canadiens",
+          "blurb": "The Hurricanes snagged another 3-2 overtime win against the Canadiens to take a 2-1 series lead.",
+          "url": "https://www.nytimes.com/athletic/7308366/2026/05/25/canadiens-hurricanes-nhl-playoffs-game-3-score-result-takeaways/"
+        },
+        {
+          "headline": "Astros throw quirky no-hitter",
+          "blurb": "Beleaguered Astros starter Tatsuya Imai combined with two relievers, Steven Okert and Alimber Santa, to no-hit the Rangers last night. The feat isn't that rare on its own, but the circumstances here add some intrigue: Houston entered play yesterday with the sport's highest ERA, Imai — who threw six innings — has infamously struggled to adapt his game since coming over from Japan and … Santa was making his major-league debut.",
+          "url": "https://www.nytimes.com/athletic/7308296/2026/05/25/astros-tatsuya-imai-no-hitter-rangers/"
+        }
+      ],
+      "tier": "newsletter"
+    }
+  ],
+  "breaking_digest": {
+    "narrative": "The United States carried out new military strikes in southern Iran [2], marking a significant escalation in tensions in the region. The strikes represent the latest in a series of U.S. military actions targeting Iranian territory, though further details on targets and casualties were not immediately available.\n\nOn the sports front, the New York Knicks completed a sweep of the Cleveland Cavaliers to advance to the NBA Finals [1]. The Knicks' postseason run caps a dominant performance against Cleveland, sending New York to the championship round for the first time in decades.",
+    "references": [
+      {
+        "num": 1,
+        "title": "Breaking news: Knicks sweep Cavaliers to reach N.B.A. finals",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-26T02:51:59+00:00"
+      },
+      {
+        "num": 2,
+        "title": "Breaking news: U.S. carries out new strikes in southern Iran",
+        "url": "https://www.nytimes.com",
+        "source": "New York Times",
+        "published": "2026-05-26T00:00:27+00:00"
+      }
+    ],
+    "tier": "breaking",
+    "alert_count": 2
+  },
   "longform": [],
   "counts": {
-    "newsletter": 0,
-    "breaking": 0,
+    "newsletter": 5,
+    "breaking": 2,
     "longform": 0
-  }
+  },
+  "generated_at": "2026-05-26T13:33:47.238150+00:00",
+  "run_label": "13:33 UTC",
+  "archive_filename": "premium_2026-05-26-13.json"
 }
