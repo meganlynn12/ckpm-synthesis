@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-05-27",
+    "run_label": "05:19 UTC",
+    "generated_at": "2026-05-27T05:19:28.904340+00:00",
+    "filename": "2026-05-27-05.json",
+    "articles_processed": 24,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "The Freedom Frequency",
+      "Slow Boring",
+      "Prof Robert Pape",
+      "Onest Network",
+      "G. Elliott Morris / Strength In Numbers",
+      "Silver Bulletin",
+      "SCOTUSblog",
+      "Letters from an American",
+      "Robert Reich",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-05-26",
     "run_label": "12 PM",
     "generated_at": "2026-05-26T16:44:12.641678+00:00",
