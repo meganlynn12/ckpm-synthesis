@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-05-27",
+    "run_label": "12 PM",
+    "generated_at": "2026-05-27T16:38:35.637458+00:00",
+    "filename": "2026-05-27-16.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "Robert Reich",
+      "Tim, Sarah and JVL - The Bulwark",
+      "Gabe Fleisher",
+      "Slow Boring",
+      "Prof Robert Pape",
+      "Scott Galloway",
+      "FiftyPlusOne.news",
+      "Public Notice",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Substack",
+      "John Ellis",
+      "Charlotte's Web Thoughts by Charlotte Clymer",
+      "G. Elliott Morris (Strength In Numbers)",
+      "Paul Krugman",
+      "AVDD",
+      "ProPublica",
+      "The Bulwark",
+      "Letters from an American",
+      "SCOTUSblog"
+    ]
+  },
+  {
+    "date": "2026-05-27",
     "run_label": "05:19 UTC",
     "generated_at": "2026-05-27T05:19:28.904340+00:00",
     "filename": "2026-05-27-05.json",
