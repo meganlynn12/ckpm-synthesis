@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-05-28",
+    "run_label": "05:11 UTC",
+    "generated_at": "2026-05-28T05:11:17.505734+00:00",
+    "filename": "2026-05-28-05.json",
+    "articles_processed": 22,
+    "theme_count": 6,
+    "publications": [
+      "Substack",
+      "Onest Network",
+      "Center for Politics at UVA",
+      "SCOTUSblog",
+      "Escalation Trap (Prof Robert Pape)",
+      "Scott Galloway",
+      "Towards AI",
+      "Letters from an American",
+      "The Bulwark",
+      "Slow Boring"
+    ]
+  },
+  {
     "date": "2026-05-27",
     "run_label": "12 PM",
     "generated_at": "2026-05-27T16:38:35.637458+00:00",
