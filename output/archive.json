@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-05-28",
+    "run_label": "12 PM",
+    "generated_at": "2026-05-28T16:54:56.258810+00:00",
+    "filename": "2026-05-28-16.json",
+    "articles_processed": 24,
+    "theme_count": 6,
+    "publications": [
+      "Robert Reich",
+      "John Ellis",
+      "Galen Druke (GD Politics)",
+      "Richard Haass, Home & Away",
+      "Paul Krugman (Substack)",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "AVDD",
+      "The Bulwark",
+      "Prof Robert Pape",
+      "AI Supremacy",
+      "Escalation Trap by Prof Robert Pape",
+      "Phillips's Newsletter",
+      "Free the Inquiry by Heterodox Academy",
+      "Gabe Fleisher",
+      "Slow Boring",
+      "Letters from an American (Heather Cox Richardson)",
+      "ProPublica",
+      "Public Notice",
+      "SCOTUSblog"
+    ]
+  },
+  {
+    "date": "2026-05-28",
     "run_label": "05:11 UTC",
     "generated_at": "2026-05-28T05:11:17.505734+00:00",
     "filename": "2026-05-28-05.json",
