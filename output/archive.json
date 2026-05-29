@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-29",
+    "run_label": "05:15 UTC",
+    "generated_at": "2026-05-29T05:15:30.512269+00:00",
+    "filename": "2026-05-29-05.json",
+    "articles_processed": 29,
+    "theme_count": 6,
+    "publications": [
+      "Letters from an American",
+      "Robert Reich",
+      "Escalation Trap (Prof Robert Pape)",
+      "Data Science Weekly",
+      "The Freedom Frequency",
+      "SCOTUSblog",
+      "Prof Robert Pape",
+      "The Bulwark",
+      "Kasparov's Next Move",
+      "Lucid (Ruth Ben-Ghiat)",
+      "Silver Bulletin",
+      "Scott Galloway",
+      "Onest Network"
+    ]
+  },
+  {
     "date": "2026-05-28",
     "run_label": "12 PM",
     "generated_at": "2026-05-28T16:54:56.258810+00:00",
