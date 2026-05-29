@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-05-29",
+    "run_label": "12 PM",
+    "generated_at": "2026-05-29T16:42:37.511478+00:00",
+    "filename": "2026-05-29-16.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "John Ellis",
+      "Paul Krugman from Paul Krugman",
+      "FiftyPlusOne.news",
+      "Kasparov's Next Move",
+      "Robert Reich",
+      "Scott Galloway",
+      "Gabe Fleisher",
+      "The Bulwark",
+      "ProPublica",
+      "G. Elliott Morris / Strength In Numbers",
+      "Onest Network",
+      "AVDD",
+      "Public Notice",
+      "Slow Boring",
+      "Letters from an American (Heather Cox Richardson)",
+      "SCOTUSblog"
+    ]
+  },
+  {
+    "date": "2026-05-29",
     "run_label": "05:15 UTC",
     "generated_at": "2026-05-29T05:15:30.512269+00:00",
     "filename": "2026-05-29-05.json",
