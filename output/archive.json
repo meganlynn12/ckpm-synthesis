@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-30",
+    "run_label": "04:54 UTC",
+    "generated_at": "2026-05-30T04:54:09.841209+00:00",
+    "filename": "2026-05-30-04.json",
+    "articles_processed": 16,
+    "theme_count": 4,
+    "publications": [
+      "FiftyPlusOne.news",
+      "The Freedom Frequency",
+      "John Ellis from Political News Items",
+      "Slow Boring",
+      "Onest Network",
+      "Public Notice (Aaron Rupar and Decoding Fox News)",
+      "Letters from an American",
+      "The Bulwark",
+      "Scott Galloway"
+    ]
+  },
+  {
     "date": "2026-05-29",
     "run_label": "12 PM",
     "generated_at": "2026-05-29T16:42:37.511478+00:00",
