@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-31",
+    "run_label": "05:21 UTC",
+    "generated_at": "2026-05-31T05:21:30.364478+00:00",
+    "filename": "2026-05-31-05.json",
+    "articles_processed": 8,
+    "theme_count": 5,
+    "publications": [
+      "Onest Network",
+      "The Bulwark",
+      "Robert Reich",
+      "Letters from an American",
+      "Paul Krugman from Paul Krugman"
+    ]
+  },
+  {
     "date": "2026-05-30",
     "run_label": "14:41 UTC",
     "generated_at": "2026-05-30T14:41:27.400440+00:00",
