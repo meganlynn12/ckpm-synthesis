@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-06-01",
+    "run_label": "18:38 UTC",
+    "generated_at": "2026-06-01T18:38:49.724475+00:00",
+    "filename": "2026-06-01-18.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "Free the Inquiry by Heterodox Academy",
+      "AVDD",
+      "Prof Robert Pape from Escalation Trap",
+      "Phillips's Newsletter",
+      "The Bulwark",
+      "John Ellis from Political News Items",
+      "Jacob Morgan",
+      "Paul Krugman from Paul Krugman",
+      "Prof Robert Pape",
+      "Public Notice",
+      "Gabe Fleisher",
+      "Robert Reich",
+      "Scott Galloway",
+      "John Ellis",
+      "ProPublica",
+      "SCOTUSblog",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-06-01",
     "run_label": "06:06 UTC",
     "generated_at": "2026-06-01T06:06:56.430296+00:00",
     "filename": "2026-06-01-06.json",
