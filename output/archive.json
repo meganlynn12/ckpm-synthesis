@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-01",
+    "run_label": "06:06 UTC",
+    "generated_at": "2026-06-01T06:06:56.430296+00:00",
+    "filename": "2026-06-01-06.json",
+    "articles_processed": 10,
+    "theme_count": 4,
+    "publications": [
+      "Escalation Trap by Prof Robert Pape",
+      "Robert Reich",
+      "Lucid (Ruth Ben-Ghiat)",
+      "Slow Boring",
+      "The Bulwark",
+      "Letters from an American",
+      "Paul Krugman (Substack)",
+      "Letters from an American (Heather Cox Richardson)"
+    ]
+  },
+  {
     "date": "2026-05-31",
     "run_label": "14:45 UTC",
     "generated_at": "2026-05-31T14:45:51.104296+00:00",
