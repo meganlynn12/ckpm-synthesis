@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-06-02",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-02T17:24:31.482002+00:00",
+    "filename": "2026-06-02-17.json",
+    "articles_processed": 30,
+    "theme_count": 6,
+    "publications": [
+      "Silver Bulletin",
+      "Slow Boring",
+      "Towards AI (Louie Peters)",
+      "AI Supremacy (Michael Spencer)",
+      "Public Notice",
+      "Prof Robert Pape from Escalation Trap",
+      "Paul Krugman from Paul Krugman",
+      "John Ellis",
+      "Scott Galloway",
+      "Thinking about... by Timothy Snyder",
+      "Kareem Abdul-Jabbar",
+      "G. Elliott Morris (Strength In Numbers)",
+      "The Bulwark",
+      "Letters from an American (Heather Cox Richardson)",
+      "After Babel (Jon Haidt)",
+      "ProPublica",
+      "SCOTUSblog",
+      "Robert Reich",
+      "AVDD"
+    ]
+  },
+  {
+    "date": "2026-06-02",
     "run_label": "05:52 UTC",
     "generated_at": "2026-06-02T05:52:05.503502+00:00",
     "filename": "2026-06-02-05.json",
