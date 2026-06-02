@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-06-02",
+    "run_label": "05:52 UTC",
+    "generated_at": "2026-06-02T05:52:05.503502+00:00",
+    "filename": "2026-06-02-05.json",
+    "articles_processed": 23,
+    "theme_count": 6,
+    "publications": [
+      "Galen Druke / GD Politics",
+      "Letters from an American (Heather Cox Richardson)",
+      "Slow Boring",
+      "Scott Galloway",
+      "JVL - The Bulwark",
+      "Letters from an American",
+      "Onest Network",
+      "SCOTUSblog",
+      "Silver Bulletin",
+      "The Bulwark",
+      "Kasparov's Next Move",
+      "Robert Reich"
+    ]
+  },
+  {
     "date": "2026-06-01",
     "run_label": "18:38 UTC",
     "generated_at": "2026-06-01T18:38:49.724475+00:00",
