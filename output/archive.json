@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-03",
+    "run_label": "06:06 UTC",
+    "generated_at": "2026-06-03T06:06:36.375896+00:00",
+    "filename": "2026-06-03-06.json",
+    "articles_processed": 13,
+    "theme_count": 5,
+    "publications": [
+      "SCOTUSblog",
+      "The Freedom Frequency",
+      "Slow Boring",
+      "Scott Galloway",
+      "Charlotte's Web Thoughts",
+      "The Bulwark",
+      "Letters from an American (Heather Cox Richardson)",
+      "Letters from an American"
+    ]
+  },
+  {
     "date": "2026-06-02",
     "run_label": "12 PM",
     "generated_at": "2026-06-02T17:24:31.482002+00:00",
