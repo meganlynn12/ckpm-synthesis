@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-06-04",
+    "run_label": "05:58 UTC",
+    "generated_at": "2026-06-04T05:58:48.522872+00:00",
+    "filename": "2026-06-04-05.json",
+    "articles_processed": 23,
+    "theme_count": 6,
+    "publications": [
+      "Slow Boring",
+      "The Bulwark",
+      "Robert Reich",
+      "Center for Politics at UVA",
+      "Charlotte's Web Thoughts",
+      "Scott Galloway",
+      "The Freedom Frequency",
+      "Silver Bulletin",
+      "SCOTUSblog",
+      "Onest Network",
+      "Letters from an American",
+      "Prof Robert Pape (Substack)",
+      "Galen Druke / GD Politics"
+    ]
+  },
+  {
     "date": "2026-06-03",
     "run_label": "18:00 UTC",
     "generated_at": "2026-06-03T18:00:39.783136+00:00",
