@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-04",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-04T16:20:47.081864+00:00",
+    "filename": "2026-06-04-16.json",
+    "articles_processed": 25,
+    "theme_count": 6,
+    "publications": [
+      "Public Notice",
+      "ProPublica",
+      "The Bulwark",
+      "SCOTUSblog",
+      "Free the Inquiry by Heterodox Academy",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "John Ellis",
+      "Paul Krugman (Substack)",
+      "Phillips P. OBrien from Phillips's",
+      "Letters from an American",
+      "Data Science Weekly",
+      "AVDD",
+      "Slow Boring",
+      "Thinking about... by Timothy Snyder",
+      "Onest Network",
+      "Louis-François from Learn AI Together",
+      "Robert Reich",
+      "Prof Robert Pape from Escalation Trap"
+    ]
+  },
+  {
+    "date": "2026-06-04",
     "run_label": "05:58 UTC",
     "generated_at": "2026-06-04T05:58:48.522872+00:00",
     "filename": "2026-06-04-05.json",
