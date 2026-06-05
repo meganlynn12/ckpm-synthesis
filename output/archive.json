@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-05",
+    "run_label": "05:20 UTC",
+    "generated_at": "2026-06-05T05:20:56.464098+00:00",
+    "filename": "2026-06-05-05.json",
+    "articles_processed": 18,
+    "theme_count": 6,
+    "publications": [
+      "Onest Network",
+      "Scott Galloway",
+      "Robert Reich",
+      "Letters from an American",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Pete Buttigieg"
+    ]
+  },
+  {
     "date": "2026-06-04",
     "run_label": "12 PM",
     "generated_at": "2026-06-04T16:20:47.081864+00:00",
