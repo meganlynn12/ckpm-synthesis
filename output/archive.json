@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-05",
+    "run_label": "15:54 UTC",
+    "generated_at": "2026-06-05T15:54:59.360327+00:00",
+    "filename": "2026-06-05-15.json",
+    "articles_processed": 27,
+    "theme_count": 6,
+    "publications": [
+      "SCOTUSblog",
+      "G. Elliott Morris",
+      "AVDD",
+      "Paul Krugman (Substack)",
+      "Slow Boring",
+      "Robert Reich",
+      "Letters from an American (Heather Cox Richardson)",
+      "Kasparov's Next Move",
+      "Public Notice",
+      "Onest Network",
+      "The Bulwark",
+      "Richard Haass, Home & Away",
+      "Gabe Fleisher",
+      "ProPublica",
+      "FiftyPlusOne.news",
+      "Free the Inquiry by Heterodox Academy",
+      "John Ellis",
+      "Scott Galloway"
+    ]
+  },
+  {
+    "date": "2026-06-05",
     "run_label": "05:20 UTC",
     "generated_at": "2026-06-05T05:20:56.464098+00:00",
     "filename": "2026-06-05-05.json",
