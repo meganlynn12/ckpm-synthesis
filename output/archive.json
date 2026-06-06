@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-06-06",
+    "run_label": "04:55 UTC",
+    "generated_at": "2026-06-06T04:55:52.417654+00:00",
+    "filename": "2026-06-06-04.json",
+    "articles_processed": 28,
+    "theme_count": 5,
+    "publications": [
+      "Scott Galloway",
+      "Phillips's Newsletter (Substack)",
+      "Louis-François from What's AI",
+      "SCOTUSblog",
+      "Silver Bulletin",
+      "Onest Network",
+      "ProPublica",
+      "Ruth Ben-Ghiat from Lucid",
+      "The Freedom Frequency",
+      "From Sam Harris",
+      "The Bulwark",
+      "Letters from an American",
+      "Charlotte's Web Thoughts by Charlotte Clymer",
+      "Public Notice",
+      "Slow Boring",
+      "Robert Reich"
+    ]
+  },
+  {
     "date": "2026-06-05",
     "run_label": "15:54 UTC",
     "generated_at": "2026-06-05T15:54:59.360327+00:00",
