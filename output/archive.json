@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-07",
+    "run_label": "05:24 UTC",
+    "generated_at": "2026-06-07T05:24:46.397099+00:00",
+    "filename": "2026-06-07-05.json",
+    "articles_processed": 9,
+    "theme_count": 5,
+    "publications": [
+      "Letters from an American",
+      "Letters from an American (Heather Cox Richardson / 250 to 250)",
+      "Letters from an American (Heather Cox Richardson)",
+      "Robert Reich",
+      "Ruth Ben-Ghiat from Lucid",
+      "The Bulwark",
+      "Onest Network"
+    ]
+  },
+  {
     "date": "2026-06-06",
     "run_label": "14:41 UTC",
     "generated_at": "2026-06-06T14:41:53.209342+00:00",
