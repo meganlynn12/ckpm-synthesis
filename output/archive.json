@@ -1,6 +1,25 @@
 [
   {
     "date": "2026-06-07",
+    "run_label": "14:53 UTC",
+    "generated_at": "2026-06-07T14:53:30.987069+00:00",
+    "filename": "2026-06-07-14.json",
+    "articles_processed": 11,
+    "theme_count": 5,
+    "publications": [
+      "The Bulwark",
+      "Louis-François from What's AI",
+      "Paul Krugman (Substack)",
+      "Robert Reich",
+      "Phillips's Newsletter (Substack)",
+      "AVDD",
+      "Ruth Ben-Ghiat from Lucid",
+      "Letters from an American (Heather Cox Richardson)",
+      "Scott Galloway"
+    ]
+  },
+  {
+    "date": "2026-06-07",
     "run_label": "05:24 UTC",
     "generated_at": "2026-06-07T05:24:46.397099+00:00",
     "filename": "2026-06-07-05.json",
