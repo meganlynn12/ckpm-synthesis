@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-09",
+    "run_label": "05:09 UTC",
+    "generated_at": "2026-06-09T05:09:55.499423+00:00",
+    "filename": "2026-06-09-05.json",
+    "articles_processed": 17,
+    "theme_count": 5,
+    "publications": [
+      "The Bulwark",
+      "Robert Reich",
+      "ProPublica",
+      "Letters from an American (Heather Cox Richardson)",
+      "Slow Boring",
+      "Scott Galloway",
+      "Paul Krugman from Paul Krugman",
+      "SCOTUSblog"
+    ]
+  },
+  {
     "date": "2026-06-08",
     "run_label": "12 PM",
     "generated_at": "2026-06-08T16:49:43.776661+00:00",
