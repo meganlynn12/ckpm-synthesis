@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-06-09",
+    "run_label": "15:56 UTC",
+    "generated_at": "2026-06-09T15:56:12.310526+00:00",
+    "filename": "2026-06-09-15.json",
+    "articles_processed": 27,
+    "theme_count": 2,
+    "publications": [
+      "ProPublica",
+      "SCOTUSblog",
+      "Towards AI",
+      "AVDD",
+      "G. Elliott Morris / Strength In Numbers",
+      "Robert Reich",
+      "Scott Galloway",
+      "Letters from an American (Heather Cox Richardson)",
+      "Public Notice",
+      "John Ellis",
+      "Onest Network",
+      "Paul Krugman (Substack)",
+      "Kareem Abdul-Jabbar",
+      "Center for Politics at UVA",
+      "The Bulwark",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-06-09",
     "run_label": "05:09 UTC",
     "generated_at": "2026-06-09T05:09:55.499423+00:00",
     "filename": "2026-06-09-05.json",
