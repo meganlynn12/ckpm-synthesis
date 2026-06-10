@@ -1,6 +1,37 @@
 [
   {
     "date": "2026-06-10",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-10T16:35:51.042972+00:00",
+    "filename": "2026-06-10-16.json",
+    "articles_processed": 31,
+    "theme_count": 6,
+    "publications": [
+      "AVDD",
+      "The Freedom Frequency",
+      "Phillips P. OBrien (Substack/Phillips's Newsletter)",
+      "SCOTUSblog",
+      "FiftyPlusOne.news",
+      "Gabe Fleisher",
+      "Letters from an American (Heather Cox Richardson)",
+      "Scott Galloway",
+      "Public Notice",
+      "Ruth Ben-Ghiat from Lucid",
+      "Paul Krugman from Paul Krugman",
+      "John Ellis",
+      "Slow Boring",
+      "Onest Network",
+      "The Bulwark",
+      "Prof Robert Pape (Substack)",
+      "Free the Inquiry by Heterodox Academy",
+      "Robert Reich",
+      "Galen Druke",
+      "Phillips's Newsletter (Substack)",
+      "ProPublica"
+    ]
+  },
+  {
+    "date": "2026-06-10",
     "run_label": "05:22 UTC",
     "generated_at": "2026-06-10T05:22:25.669494+00:00",
     "filename": "2026-06-10-05.json",
