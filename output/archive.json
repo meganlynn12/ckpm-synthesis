@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-11",
+    "run_label": "05:52 UTC",
+    "generated_at": "2026-06-11T05:52:01.358685+00:00",
+    "filename": "2026-06-11-05.json",
+    "articles_processed": 12,
+    "theme_count": 5,
+    "publications": [
+      "Letters from an American (Heather Cox Richardson)",
+      "Robert Reich",
+      "Letters from an American",
+      "The Bulwark",
+      "Slow Boring"
+    ]
+  },
+  {
     "date": "2026-06-10",
     "run_label": "12 PM",
     "generated_at": "2026-06-10T16:35:51.042972+00:00",
