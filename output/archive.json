@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-06-12",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-12T16:19:23.287505+00:00",
+    "filename": "2026-06-12-16.json",
+    "articles_processed": 23,
+    "theme_count": 6,
+    "publications": [
+      "The Bulwark",
+      "Scott Galloway",
+      "Free the Inquiry by Heterodox Academy",
+      "Gabe Fleisher",
+      "Slow Boring",
+      "Letters from an American (Heather Cox Richardson)",
+      "Public Notice",
+      "SCOTUSblog",
+      "G. Elliott Morris / Strength In Numbers",
+      "John Ellis",
+      "Kareem Abdul-Jabbar",
+      "ProPublica",
+      "Robert Reich",
+      "Paul Krugman",
+      "AVDD",
+      "Kasparov's Next Move",
+      "The Freedom Frequency"
+    ]
+  },
+  {
+    "date": "2026-06-12",
     "run_label": "05:51 UTC",
     "generated_at": "2026-06-12T05:51:24.954980+00:00",
     "filename": "2026-06-12-05.json",
