@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-12",
+    "run_label": "05:51 UTC",
+    "generated_at": "2026-06-12T05:51:24.954980+00:00",
+    "filename": "2026-06-12-05.json",
+    "articles_processed": 18,
+    "theme_count": 5,
+    "publications": [
+      "The Freedom Frequency",
+      "SCOTUSblog",
+      "JVL - The Bulwark",
+      "Richard Haass, Home & Away",
+      "Data Science Weekly",
+      "Robert Reich",
+      "The Bulwark",
+      "Letters from an American",
+      "Scott Galloway"
+    ]
+  },
+  {
     "date": "2026-06-11",
     "run_label": "12 PM",
     "generated_at": "2026-06-11T16:55:40.986178+00:00",
