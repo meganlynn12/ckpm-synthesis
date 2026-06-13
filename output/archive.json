@@ -1,6 +1,28 @@
 [
   {
     "date": "2026-06-13",
+    "run_label": "15:01 UTC",
+    "generated_at": "2026-06-13T15:01:33.788187+00:00",
+    "filename": "2026-06-13-15.json",
+    "articles_processed": 15,
+    "theme_count": 5,
+    "publications": [
+      "John Ellis",
+      "Substack",
+      "Letters from an American",
+      "Public Notice",
+      "Free the Inquiry by Heterodox Academy",
+      "The Bulwark",
+      "Open Letters, from Anne Applebaum",
+      "Robert Reich",
+      "Paul Krugman",
+      "Phillips's Newsletter by Phillips P. OBrien",
+      "Thinking about... (Timothy Snyder)",
+      "Letters from an American (Heather Cox Richardson)"
+    ]
+  },
+  {
+    "date": "2026-06-13",
     "run_label": "05:22 UTC",
     "generated_at": "2026-06-13T05:22:40.133132+00:00",
     "filename": "2026-06-13-05.json",
