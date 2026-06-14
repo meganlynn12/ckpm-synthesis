@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-14",
+    "run_label": "05:52 UTC",
+    "generated_at": "2026-06-14T05:52:40.966538+00:00",
+    "filename": "2026-06-14-05.json",
+    "articles_processed": 9,
+    "theme_count": 5,
+    "publications": [
+      "Onest Network",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Letters from an American",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-06-13",
     "run_label": "15:01 UTC",
     "generated_at": "2026-06-13T15:01:33.788187+00:00",
