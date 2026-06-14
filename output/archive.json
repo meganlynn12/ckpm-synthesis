@@ -1,6 +1,23 @@
 [
   {
     "date": "2026-06-14",
+    "run_label": "15:07 UTC",
+    "generated_at": "2026-06-14T15:07:38.261271+00:00",
+    "filename": "2026-06-14-15.json",
+    "articles_processed": 9,
+    "theme_count": 5,
+    "publications": [
+      "Free the Inquiry by Heterodox Academy",
+      "Letters from an American (Heather Cox Richardson)",
+      "Paul Krugman",
+      "The Bulwark",
+      "AVDD",
+      "Phillips P. OBrien from Phillips's",
+      "Robert Reich"
+    ]
+  },
+  {
+    "date": "2026-06-14",
     "run_label": "05:52 UTC",
     "generated_at": "2026-06-14T05:52:40.966538+00:00",
     "filename": "2026-06-14-05.json",
