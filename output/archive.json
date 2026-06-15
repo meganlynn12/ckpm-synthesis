@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-15",
+    "run_label": "06:28 UTC",
+    "generated_at": "2026-06-15T06:28:57.659143+00:00",
+    "filename": "2026-06-15-06.json",
+    "articles_processed": 15,
+    "theme_count": 6,
+    "publications": [
+      "The Bulwark",
+      "Silver Bulletin",
+      "Letters from an American",
+      "Onest Network",
+      "Citrini",
+      "Kasparov's Next Move",
+      "Lucid",
+      "Robert Reich"
+    ]
+  },
+  {
     "date": "2026-06-14",
     "run_label": "15:07 UTC",
     "generated_at": "2026-06-14T15:07:38.261271+00:00",
