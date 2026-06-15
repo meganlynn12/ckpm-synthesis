@@ -1,6 +1,36 @@
 [
   {
     "date": "2026-06-15",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-15T17:58:26.214195+00:00",
+    "filename": "2026-06-15-17.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "SCOTUSblog",
+      "Azeem Azhar, Exponential View",
+      "Michael Spencer and Gennaro Cuofano from AI Supremacy",
+      "Public Notice",
+      "Prof Robert Pape from Escalation Trap",
+      "Letters from an American",
+      "Robert Reich (Substack)",
+      "Onest Network",
+      "Gabe Fleisher",
+      "Galen Druke",
+      "The Bulwark",
+      "John Ellis",
+      "AVDD",
+      "ProPublica",
+      "The Freedom Frequency",
+      "Robert Reich",
+      "Scott Galloway",
+      "Louis-François from What's AI",
+      "Paul Krugman",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-06-15",
     "run_label": "06:28 UTC",
     "generated_at": "2026-06-15T06:28:57.659143+00:00",
     "filename": "2026-06-15-06.json",
