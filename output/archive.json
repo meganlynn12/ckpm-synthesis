@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-06-16",
+    "run_label": "06:35 UTC",
+    "generated_at": "2026-06-16T06:35:29.724956+00:00",
+    "filename": "2026-06-16-06.json",
+    "articles_processed": 17,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "Letters from an American",
+      "Onest Network",
+      "Robert Reich (Substack)",
+      "Thinking about... by Timothy Snyder",
+      "The Bulwark",
+      "Jacob Morgan",
+      "Kasparov's Next Move",
+      "SCOTUSblog",
+      "Slow Boring",
+      "Lucid (Ruth Ben-Ghiat and Timothy Snyder)",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Heather Cox Richardson from Letters from an American"
+    ]
+  },
+  {
     "date": "2026-06-15",
     "run_label": "12 PM",
     "generated_at": "2026-06-15T17:58:26.214195+00:00",
