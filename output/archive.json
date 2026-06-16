@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-16",
+    "run_label": "18:05 UTC",
+    "generated_at": "2026-06-16T18:05:09.150843+00:00",
+    "filename": "2026-06-16-18.json",
+    "articles_processed": 27,
+    "theme_count": 6,
+    "publications": [
+      "Slow Boring",
+      "Scott Galloway",
+      "Escalation Trap (Prof Robert Pape)",
+      "AVDD",
+      "Robert Reich",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Prof Robert Pape",
+      "John Ellis",
+      "Charlotte's Web Thoughts",
+      "G. Elliott Morris / Strength In Numbers",
+      "Public Notice",
+      "The Bulwark",
+      "SCOTUSblog",
+      "Towards AI",
+      "Kareem Abdul-Jabbar",
+      "Letters from an American",
+      "Paul Krugman (Substack)",
+      "ProPublica"
+    ]
+  },
+  {
+    "date": "2026-06-16",
     "run_label": "06:35 UTC",
     "generated_at": "2026-06-16T06:35:29.724956+00:00",
     "filename": "2026-06-16-06.json",
