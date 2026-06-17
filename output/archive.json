@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-17",
+    "run_label": "06:16 UTC",
+    "generated_at": "2026-06-17T06:16:52.855141+00:00",
+    "filename": "2026-06-17-06.json",
+    "articles_processed": 17,
+    "theme_count": 4,
+    "publications": [
+      "The Bulwark",
+      "Letters from an American (Heather Cox Richardson)",
+      "Escalation Trap by Prof Robert Pape",
+      "Onest Network",
+      "The Freedom Frequency",
+      "Robert Reich",
+      "Letters from an American",
+      "Scott Galloway",
+      "SCOTUSblog"
+    ]
+  },
+  {
     "date": "2026-06-16",
     "run_label": "18:05 UTC",
     "generated_at": "2026-06-16T18:05:09.150843+00:00",
