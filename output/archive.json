@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-06-17",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-17T16:39:00.403558+00:00",
+    "filename": "2026-06-17-16.json",
+    "articles_processed": 32,
+    "theme_count": 6,
+    "publications": [
+      "Public Notice",
+      "Gabe Fleisher",
+      "AVDD",
+      "AI Supremacy",
+      "Louis-François from What's AI",
+      "SCOTUSblog",
+      "Azeem Azhar, Exponential View",
+      "Paul Krugman",
+      "John Ellis",
+      "Silver Bulletin",
+      "Robert Reich",
+      "ProPublica",
+      "Letters from an American",
+      "Free the Inquiry by Heterodox Academy",
+      "The Bulwark",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "Prof Robert Pape from Escalation Trap",
+      "Scott Galloway",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-06-17",
     "run_label": "06:16 UTC",
     "generated_at": "2026-06-17T06:16:52.855141+00:00",
     "filename": "2026-06-17-06.json",
