@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-06-18",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-18T16:33:41.380705+00:00",
+    "filename": "2026-06-18-16.json",
+    "articles_processed": 29,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "Robert Reich",
+      "John Ellis",
+      "Public Notice",
+      "SCOTUSblog",
+      "Learn AI Together (Louis-François Bouchard)",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "Slow Boring",
+      "Paul Krugman",
+      "Paul Krugman (Substack)",
+      "Phillips P. OBrien and Foreign Office by M.Weiss",
+      "The Bulwark",
+      "Free the Inquiry by Heterodox Academy",
+      "Letters from an American (Heather Cox Richardson)",
+      "FiftyPlusOne.news",
+      "Azeem Azhar, Exponential View",
+      "Prof Robert Pape",
+      "ProPublica",
+      "Galen Druke"
+    ]
+  },
+  {
+    "date": "2026-06-18",
     "run_label": "05:57 UTC",
     "generated_at": "2026-06-18T05:57:47.851986+00:00",
     "filename": "2026-06-18-05.json",
