@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-19",
+    "run_label": "06:23 UTC",
+    "generated_at": "2026-06-19T06:23:07.460299+00:00",
+    "filename": "2026-06-19-06.json",
+    "articles_processed": 13,
+    "theme_count": 5,
+    "publications": [
+      "Scott Galloway",
+      "Data Science Weekly",
+      "Center for Humane Technology (CHT) / Substack",
+      "Letters from an American",
+      "Onest Network",
+      "SCOTUSblog",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-06-18",
     "run_label": "12 PM",
     "generated_at": "2026-06-18T16:33:41.380705+00:00",
