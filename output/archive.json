@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-20",
+    "run_label": "05:18 UTC",
+    "generated_at": "2026-06-20T05:18:02.261861+00:00",
+    "filename": "2026-06-20-05.json",
+    "articles_processed": 12,
+    "theme_count": 5,
+    "publications": [
+      "Scott Galloway",
+      "Letters from an American",
+      "FiftyPlusOne.news",
+      "Letters from an American (Heather Cox Richardson)",
+      "Public Notice",
+      "Onest Network",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-06-19",
     "run_label": "12 PM",
     "generated_at": "2026-06-19T16:00:09.659742+00:00",
