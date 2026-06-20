@@ -1,6 +1,28 @@
 [
   {
     "date": "2026-06-20",
+    "run_label": "15:03 UTC",
+    "generated_at": "2026-06-20T15:03:15.369539+00:00",
+    "filename": "2026-06-20-15.json",
+    "articles_processed": 13,
+    "theme_count": 4,
+    "publications": [
+      "Onest Network",
+      "Letters from an American (Heather Cox Richardson)",
+      "Public Notice",
+      "Phillips's Newsletter",
+      "The Bulwark",
+      "John Ellis",
+      "Free the Inquiry by Heterodox Academy",
+      "Paul Krugman",
+      "Kasparov's Next Move",
+      "Open Letters, from Anne Applebaum",
+      "Robert Reich",
+      "Substack"
+    ]
+  },
+  {
+    "date": "2026-06-20",
     "run_label": "05:18 UTC",
     "generated_at": "2026-06-20T05:18:02.261861+00:00",
     "filename": "2026-06-20-05.json",
