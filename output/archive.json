@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-21",
+    "run_label": "06:06 UTC",
+    "generated_at": "2026-06-21T06:06:00.280235+00:00",
+    "filename": "2026-06-21-06.json",
+    "articles_processed": 7,
+    "theme_count": 4,
+    "publications": [
+      "Azeem Azhar, Exponential View",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "Letters from an American",
+      "AVDD",
+      "Onest Network",
+      "AVDD (American Vets in Defense of Democracy)"
+    ]
+  },
+  {
     "date": "2026-06-20",
     "run_label": "15:03 UTC",
     "generated_at": "2026-06-20T15:03:15.369539+00:00",
