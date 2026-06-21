@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-21",
+    "run_label": "15:11 UTC",
+    "generated_at": "2026-06-21T15:11:30.759757+00:00",
+    "filename": "2026-06-21-15.json",
+    "articles_processed": 11,
+    "theme_count": 5,
+    "publications": [
+      "Escalation Trap by Prof Robert Pape",
+      "Robert Reich",
+      "Paul Krugman",
+      "John Ellis",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "Timothy Snyder from \"Thinking about...\"",
+      "Azeem Azhar, Exponential View",
+      "Onest Network",
+      "Phillips's Newsletter (Phillips P. OBrien)"
+    ]
+  },
+  {
+    "date": "2026-06-21",
     "run_label": "06:06 UTC",
     "generated_at": "2026-06-21T06:06:00.280235+00:00",
     "filename": "2026-06-21-06.json",
