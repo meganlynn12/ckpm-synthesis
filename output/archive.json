@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-22",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-22T17:40:42.962524+00:00",
+    "filename": "2026-06-22-17.json",
+    "articles_processed": 34,
+    "theme_count": 6,
+    "publications": [
+      "Phillips's Newsletter by Phillips P. OBrien",
+      "The Bulwark",
+      "Prof Robert Pape from Escalation Trap",
+      "Paul Krugman",
+      "Galen Druke",
+      "Public Notice",
+      "John Ellis",
+      "Ruth Ben-Ghiat from Lucid",
+      "Scott Galloway",
+      "AVDD",
+      "Slow Boring",
+      "Free the Inquiry by Heterodox Academy",
+      "Phillips's Newsletter",
+      "Adam Grant, Granted",
+      "Gabe Fleisher",
+      "Robert Reich",
+      "SCOTUSblog",
+      "ProPublica"
+    ]
+  },
+  {
+    "date": "2026-06-22",
     "run_label": "06:31 UTC",
     "generated_at": "2026-06-22T06:31:42.264582+00:00",
     "filename": "2026-06-22-06.json",
