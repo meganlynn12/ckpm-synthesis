@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-22",
+    "run_label": "06:31 UTC",
+    "generated_at": "2026-06-22T06:31:42.264582+00:00",
+    "filename": "2026-06-22-06.json",
+    "articles_processed": 9,
+    "theme_count": 4,
+    "publications": [
+      "Escalation Trap by Prof Robert Pape",
+      "Onest Network",
+      "The Bulwark",
+      "Letters from an American",
+      "Ruth Ben-Ghiat from Lucid"
+    ]
+  },
+  {
     "date": "2026-06-21",
     "run_label": "15:11 UTC",
     "generated_at": "2026-06-21T15:11:30.759757+00:00",
