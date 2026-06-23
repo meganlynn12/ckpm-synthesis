@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-06-23",
+    "run_label": "05:04 UTC",
+    "generated_at": "2026-06-23T05:04:43.681641+00:00",
+    "filename": "2026-06-23-05.json",
+    "articles_processed": 22,
+    "theme_count": 6,
+    "publications": [
+      "SCOTUSblog",
+      "Robert Reich",
+      "Jessica Tarlov & Scott Galloway",
+      "The Bulwark",
+      "Scott Galloway",
+      "Jacob Morgan",
+      "Charlotte's Web Thoughts",
+      "Onest Network",
+      "Slow Boring",
+      "The Freedom Frequency",
+      "Letters from an American",
+      "Thinking about... by Timothy Snyder"
+    ]
+  },
+  {
     "date": "2026-06-22",
     "run_label": "12 PM",
     "generated_at": "2026-06-22T17:40:42.962524+00:00",
