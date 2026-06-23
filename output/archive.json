@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-06-23",
+    "run_label": "15:49 UTC",
+    "generated_at": "2026-06-23T15:49:04.174260+00:00",
+    "filename": "2026-06-23-15.json",
+    "articles_processed": 27,
+    "theme_count": 6,
+    "publications": [
+      "Towards AI",
+      "Can We Still Govern? by Don Moynihan",
+      "G. Elliott Morris",
+      "Slow Boring",
+      "Kareem Abdul-Jabbar",
+      "Public Notice",
+      "ProPublica",
+      "Paul Krugman (Substack)",
+      "AVDD",
+      "Letters from an American (Heather Cox Richardson)",
+      "John Ellis",
+      "Thinking about... by Timothy Snyder",
+      "Prof Robert Pape",
+      "The Bulwark",
+      "SCOTUSblog",
+      "Scott Galloway",
+      "AI Supremacy by Michael Spencer",
+      "Silver Bulletin",
+      "Robert Reich"
+    ]
+  },
+  {
+    "date": "2026-06-23",
     "run_label": "05:04 UTC",
     "generated_at": "2026-06-23T05:04:43.681641+00:00",
     "filename": "2026-06-23-05.json",
