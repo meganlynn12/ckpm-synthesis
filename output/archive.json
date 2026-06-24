@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-06-24",
+    "run_label": "15:33 UTC",
+    "generated_at": "2026-06-24T15:33:25.265181+00:00",
+    "filename": "2026-06-24-15.json",
+    "articles_processed": 25,
+    "theme_count": 5,
+    "publications": [
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Tim, Sarah and JVL - The Bulwark",
+      "Free the Inquiry by Heterodox Academy",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "What's AI by Louis-François Bouchard",
+      "Slow Boring",
+      "John Ellis",
+      "Paul Krugman",
+      "The Bulwark",
+      "Citrini",
+      "Silver Bulletin",
+      "SCOTUSblog",
+      "ProPublica",
+      "Scott Galloway",
+      "G. Elliott Morris (Strength In Numbers)",
+      "Gabe Fleisher",
+      "Public Notice",
+      "Letters from an American"
+    ]
+  },
+  {
+    "date": "2026-06-24",
     "run_label": "05:04 UTC",
     "generated_at": "2026-06-24T05:04:02.865951+00:00",
     "filename": "2026-06-24-05.json",
