@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-24",
+    "run_label": "05:04 UTC",
+    "generated_at": "2026-06-24T05:04:02.865951+00:00",
+    "filename": "2026-06-24-05.json",
+    "articles_processed": 24,
+    "theme_count": 5,
+    "publications": [
+      "Robert Reich",
+      "Letters from an American (Heather Cox Richardson)",
+      "Onest Network",
+      "SCOTUSblog",
+      "Robert Reich (Substack)",
+      "Letters from an American",
+      "ProPublica",
+      "The Freedom Frequency",
+      "The Bulwark",
+      "Scott Galloway",
+      "Charlotte's Web Thoughts"
+    ]
+  },
+  {
     "date": "2026-06-23",
     "run_label": "15:49 UTC",
     "generated_at": "2026-06-23T15:49:04.174260+00:00",
