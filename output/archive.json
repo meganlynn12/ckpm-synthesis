@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-25",
+    "run_label": "05:07 UTC",
+    "generated_at": "2026-06-25T05:07:27.182922+00:00",
+    "filename": "2026-06-25-05.json",
+    "articles_processed": 17,
+    "theme_count": 5,
+    "publications": [
+      "Slow Boring",
+      "Heather Cox Richardson from Letters from an American",
+      "Letters from an American",
+      "Lucid (Substack)",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "Prof Robert Pape",
+      "Kasparov's Next Move",
+      "Substack",
+      "Onest Network",
+      "The Bulwark",
+      "Scott Galloway"
+    ]
+  },
+  {
     "date": "2026-06-24",
     "run_label": "15:33 UTC",
     "generated_at": "2026-06-24T15:33:25.265181+00:00",
