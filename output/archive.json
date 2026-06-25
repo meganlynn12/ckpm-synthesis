@@ -1,6 +1,37 @@
 [
   {
     "date": "2026-06-25",
+    "run_label": "15:39 UTC",
+    "generated_at": "2026-06-25T15:39:48.049756+00:00",
+    "filename": "2026-06-25-15.json",
+    "articles_processed": 36,
+    "theme_count": 6,
+    "publications": [
+      "Azeem Azhar, Exponential View",
+      "G. Elliott Morris",
+      "Scott Galloway",
+      "AI Supremacy",
+      "Slow Boring",
+      "ProPublica",
+      "Letters from an American",
+      "Can We Still Govern?",
+      "Paul Krugman",
+      "FiftyPlusOne.news",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Public Notice",
+      "Onest Network",
+      "AVDD",
+      "John Ellis",
+      "Phillips P. OBrien from Phillips's",
+      "Free the Inquiry by Heterodox Academy",
+      "The Freedom Frequency",
+      "Learn AI Together (Louis-François Bouchard / Towards AI)",
+      "Robert Reich"
+    ]
+  },
+  {
+    "date": "2026-06-25",
     "run_label": "05:07 UTC",
     "generated_at": "2026-06-25T05:07:27.182922+00:00",
     "filename": "2026-06-25-05.json",
