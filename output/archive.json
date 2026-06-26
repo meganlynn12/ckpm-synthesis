@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-06-26",
+    "run_label": "15:24 UTC",
+    "generated_at": "2026-06-26T15:24:00.770313+00:00",
+    "filename": "2026-06-26-15.json",
+    "articles_processed": 22,
+    "theme_count": 6,
+    "publications": [
+      "Letters from an American (Heather Cox Richardson)",
+      "Paul Krugman",
+      "AVDD",
+      "SCOTUSblog",
+      "ProPublica",
+      "Towards AI (Louie Peters / Louis-François Bouchard)",
+      "John Ellis",
+      "Louis-François from What's AI",
+      "The Bulwark",
+      "Slow Boring",
+      "Robert Reich",
+      "Louis-François from Learn AI Together",
+      "Kareem Abdul-Jabbar",
+      "Scott Galloway",
+      "Public Notice",
+      "Gabe Fleisher"
+    ]
+  },
+  {
+    "date": "2026-06-26",
     "run_label": "05:10 UTC",
     "generated_at": "2026-06-26T05:10:29.407732+00:00",
     "filename": "2026-06-26-05.json",
