@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-26",
+    "run_label": "05:10 UTC",
+    "generated_at": "2026-06-26T05:10:29.407732+00:00",
+    "filename": "2026-06-26-05.json",
+    "articles_processed": 21,
+    "theme_count": 6,
+    "publications": [
+      "Letters from an American",
+      "Galen Druke",
+      "The Bulwark",
+      "SCOTUSblog",
+      "Data Science Weekly",
+      "Robert Reich",
+      "The Freedom Frequency",
+      "Escalation Trap (Prof Robert Pape)",
+      "Scott Galloway",
+      "Onest Network",
+      "Silver Bulletin"
+    ]
+  },
+  {
     "date": "2026-06-25",
     "run_label": "15:39 UTC",
     "generated_at": "2026-06-25T15:39:48.049756+00:00",
