@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-06-27",
+    "run_label": "04:55 UTC",
+    "generated_at": "2026-06-27T04:55:48.199023+00:00",
+    "filename": "2026-06-27-04.json",
+    "articles_processed": 20,
+    "theme_count": 6,
+    "publications": [
+      "Scott Galloway",
+      "Pete Buttigieg",
+      "FiftyPlusOne.news",
+      "Richard Haass, Home & Away",
+      "Slow Boring",
+      "John Ellis from Political News Items",
+      "The Bulwark",
+      "Kasparov's Next Move",
+      "The Freedom Frequency",
+      "Letters from an American",
+      "Robert Reich",
+      "SCOTUSblog",
+      "Public Notice"
+    ]
+  },
+  {
     "date": "2026-06-26",
     "run_label": "15:24 UTC",
     "generated_at": "2026-06-26T15:24:00.770313+00:00",
