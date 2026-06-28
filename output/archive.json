@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-28",
+    "run_label": "05:19 UTC",
+    "generated_at": "2026-06-28T05:19:28.323724+00:00",
+    "filename": "2026-06-28-05.json",
+    "articles_processed": 15,
+    "theme_count": 6,
+    "publications": [
+      "Robert Reich",
+      "Onest Network",
+      "Paul Krugman",
+      "John Ellis from Political News Items",
+      "Letters from an American",
+      "The Bulwark",
+      "Azeem Azhar, Exponential View",
+      "News Items by John Ellis",
+      "Silver Bulletin"
+    ]
+  },
+  {
     "date": "2026-06-27",
     "run_label": "14:42 UTC",
     "generated_at": "2026-06-27T14:42:18.435069+00:00",
