@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-06-28",
+    "run_label": "14:49 UTC",
+    "generated_at": "2026-06-28T14:49:08.794190+00:00",
+    "filename": "2026-06-28-14.json",
+    "articles_processed": 7,
+    "theme_count": 5,
+    "publications": [
+      "Phillips P. OBrien from Phillips's",
+      "Paul Krugman (Substack)",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich"
+    ]
+  },
+  {
+    "date": "2026-06-28",
     "run_label": "05:19 UTC",
     "generated_at": "2026-06-28T05:19:28.323724+00:00",
     "filename": "2026-06-28-05.json",
