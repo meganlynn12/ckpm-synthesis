@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-29",
+    "run_label": "05:53 UTC",
+    "generated_at": "2026-06-29T05:53:05.247417+00:00",
+    "filename": "2026-06-29-05.json",
+    "articles_processed": 9,
+    "theme_count": 4,
+    "publications": [
+      "The Bulwark",
+      "Paul Krugman",
+      "Letters from an American (Heather Cox Richardson)",
+      "Silver Bulletin",
+      "Prof Robert Pape",
+      "Escalation Trap (Prof Robert Pape)",
+      "Letters from an American"
+    ]
+  },
+  {
     "date": "2026-06-28",
     "run_label": "14:49 UTC",
     "generated_at": "2026-06-28T14:49:08.794190+00:00",
