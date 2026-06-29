@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-06-29",
+    "run_label": "12 PM",
+    "generated_at": "2026-06-29T16:38:32.025087+00:00",
+    "filename": "2026-06-29-16.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "Slow Boring",
+      "Public Notice",
+      "Onest Network",
+      "Escalation Trap (Prof Robert Pape)",
+      "Can We Still Govern? by Don Moynihan",
+      "SCOTUSblog",
+      "ProPublica",
+      "Azeem Azhar, Exponential View",
+      "Scott Galloway",
+      "Robert Reich",
+      "Letters from an American (Heather Cox Richardson)",
+      "Gabe Fleisher",
+      "Timothy Snyder from \"Thinking about...\"",
+      "Prof Robert Pape from Escalation Trap",
+      "The Bulwark",
+      "Paul Krugman",
+      "G. Elliott Morris / Strength In Numbers"
+    ]
+  },
+  {
+    "date": "2026-06-29",
     "run_label": "05:53 UTC",
     "generated_at": "2026-06-29T05:53:05.247417+00:00",
     "filename": "2026-06-29-05.json",
