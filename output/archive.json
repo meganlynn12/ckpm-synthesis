@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-06-30",
+    "run_label": "05:06 UTC",
+    "generated_at": "2026-06-30T05:06:52.849265+00:00",
+    "filename": "2026-06-30-05.json",
+    "articles_processed": 24,
+    "theme_count": 6,
+    "publications": [
+      "ProPublica",
+      "Slow Boring",
+      "SCOTUSblog",
+      "Robert Reich",
+      "Letters from an American",
+      "Silver Bulletin",
+      "Paul Krugman",
+      "Scott Galloway",
+      "GD Politics (Galen Druke)",
+      "The Bulwark",
+      "Kasparov's Next Move",
+      "Jacob Morgan",
+      "Jessica Tarlov & Scott Galloway"
+    ]
+  },
+  {
     "date": "2026-06-29",
     "run_label": "12 PM",
     "generated_at": "2026-06-29T16:38:32.025087+00:00",
