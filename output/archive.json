@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-06-30",
+    "run_label": "15:28 UTC",
+    "generated_at": "2026-06-30T15:28:43.723606+00:00",
+    "filename": "2026-06-30-15.json",
+    "articles_processed": 26,
+    "theme_count": 6,
+    "publications": [
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Scott Galloway",
+      "G. Elliott Morris (Strength In Numbers)",
+      "Paul Krugman",
+      "Slow Boring",
+      "Kareem Abdul-Jabbar",
+      "Phillips P. OBrien from Phillips's Newsletter (Substack)",
+      "Free the Inquiry by Heterodox Academy",
+      "Public Notice",
+      "AI Supremacy",
+      "SCOTUSblog",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "ProPublica",
+      "AVDD"
+    ]
+  },
+  {
+    "date": "2026-06-30",
     "run_label": "05:06 UTC",
     "generated_at": "2026-06-30T05:06:52.849265+00:00",
     "filename": "2026-06-30-05.json",
