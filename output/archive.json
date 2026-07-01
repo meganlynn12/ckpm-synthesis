@@ -1,6 +1,31 @@
 [
   {
     "date": "2026-07-01",
+    "run_label": "15:42 UTC",
+    "generated_at": "2026-07-01T15:42:34.852872+00:00",
+    "filename": "2026-07-01-15.json",
+    "articles_processed": 20,
+    "theme_count": 6,
+    "publications": [
+      "Free the Inquiry by Heterodox Academy",
+      "Public Notice",
+      "Robert Reich",
+      "Open Letters, from Anne Applebaum",
+      "ProPublica",
+      "The Bulwark",
+      "Escalation Trap (Prof Robert Pape)",
+      "Scott Galloway",
+      "Phillips's Newsletter (Phillips P. OBrien)",
+      "Letters from an American (Heather Cox Richardson)",
+      "Towards AI",
+      "Paul Krugman",
+      "SCOTUSblog",
+      "Onest Network",
+      "Slow Boring"
+    ]
+  },
+  {
+    "date": "2026-07-01",
     "run_label": "05:24 UTC",
     "generated_at": "2026-07-01T05:24:33.732113+00:00",
     "filename": "2026-07-01-05.json",
