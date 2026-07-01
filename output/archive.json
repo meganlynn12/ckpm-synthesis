@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-01",
+    "run_label": "05:24 UTC",
+    "generated_at": "2026-07-01T05:24:33.732113+00:00",
+    "filename": "2026-07-01-05.json",
+    "articles_processed": 15,
+    "theme_count": 4,
+    "publications": [
+      "Onest Network",
+      "Letters from an American",
+      "Kasparov's Next Move",
+      "SCOTUSblog",
+      "Lucid (Substack) by Ruth Ben-Ghiat",
+      "Scott Galloway",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-06-30",
     "run_label": "15:28 UTC",
     "generated_at": "2026-06-30T15:28:43.723606+00:00",
