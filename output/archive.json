@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-02",
+    "run_label": "05:00 UTC",
+    "generated_at": "2026-07-02T05:00:23.860288+00:00",
+    "filename": "2026-07-02-05.json",
+    "articles_processed": 19,
+    "theme_count": 6,
+    "publications": [
+      "Onest Network",
+      "Robert Reich",
+      "Kasparov's Next Move",
+      "The Freedom Frequency",
+      "Scott Galloway",
+      "The Bulwark",
+      "Letters from an American",
+      "SCOTUSblog",
+      "Slow Boring"
+    ]
+  },
+  {
     "date": "2026-07-01",
     "run_label": "15:42 UTC",
     "generated_at": "2026-07-01T15:42:34.852872+00:00",
