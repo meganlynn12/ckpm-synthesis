@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-07-02",
+    "run_label": "15:15 UTC",
+    "generated_at": "2026-07-02T15:15:54.277992+00:00",
+    "filename": "2026-07-02-15.json",
+    "articles_processed": 23,
+    "theme_count": 6,
+    "publications": [
+      "Paul Krugman",
+      "Public Notice",
+      "Free the Inquiry by Heterodox Academy",
+      "Scott Galloway",
+      "Onest Network",
+      "Robert Reich",
+      "Phillips's (Substack)",
+      "SCOTUSblog",
+      "Kasparov's Next Move",
+      "Slow Boring",
+      "The Bulwark",
+      "Letters from an American (Heather Cox Richardson)",
+      "ProPublica",
+      "Galen Druke",
+      "Center for Politics at UVA (Sabato's Crystal Ball)",
+      "Richard Haass, Home & Away"
+    ]
+  },
+  {
+    "date": "2026-07-02",
     "run_label": "05:00 UTC",
     "generated_at": "2026-07-02T05:00:23.860288+00:00",
     "filename": "2026-07-02-05.json",
