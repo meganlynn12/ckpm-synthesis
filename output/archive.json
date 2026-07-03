@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-07-03",
+    "run_label": "04:44 UTC",
+    "generated_at": "2026-07-03T04:44:27.897803+00:00",
+    "filename": "2026-07-03-04.json",
+    "articles_processed": 24,
+    "theme_count": 5,
+    "publications": [
+      "Robert Reich",
+      "Phillips P. OBrien (Substack)",
+      "Letters from an American",
+      "Data Science Weekly",
+      "After Babel (Jon Haidt / Jean M. Twenge)",
+      "Scott Galloway",
+      "ProPublica",
+      "Letters from an American (Heather Cox Richardson)",
+      "Onest Network",
+      "The Freedom Frequency",
+      "Escalation Trap by Prof Robert Pape",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-07-02",
     "run_label": "15:15 UTC",
     "generated_at": "2026-07-02T15:15:54.277992+00:00",
