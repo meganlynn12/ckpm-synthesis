@@ -1,6 +1,31 @@
 [
   {
     "date": "2026-07-03",
+    "run_label": "15:12 UTC",
+    "generated_at": "2026-07-03T15:12:09.442963+00:00",
+    "filename": "2026-07-03-15.json",
+    "articles_processed": 19,
+    "theme_count": 6,
+    "publications": [
+      "The Bulwark",
+      "Phillips P. OBrien from Phillips's",
+      "Letters from an American",
+      "Slow Boring",
+      "Can We Still Govern?",
+      "ProPublica",
+      "Paul Krugman",
+      "Public Notice",
+      "SCOTUSblog",
+      "Onest Network",
+      "Prof Robert Pape",
+      "Scott Galloway",
+      "Learn AI Together (Louis-François from Learn AI Together)",
+      "Kareem Abdul-Jabbar",
+      "Robert Reich"
+    ]
+  },
+  {
+    "date": "2026-07-03",
     "run_label": "04:44 UTC",
     "generated_at": "2026-07-03T04:44:27.897803+00:00",
     "filename": "2026-07-03-04.json",
