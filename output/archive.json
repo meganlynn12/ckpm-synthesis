@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-04",
+    "run_label": "04:37 UTC",
+    "generated_at": "2026-07-04T04:37:50.324048+00:00",
+    "filename": "2026-07-04-04.json",
+    "articles_processed": 15,
+    "theme_count": 5,
+    "publications": [
+      "Letters from an American",
+      "The Bulwark",
+      "AVDD",
+      "Slow Boring",
+      "Jacob Morgan",
+      "Robert Reich",
+      "Scott Galloway",
+      "Silver Bulletin"
+    ]
+  },
+  {
     "date": "2026-07-03",
     "run_label": "15:12 UTC",
     "generated_at": "2026-07-03T15:12:09.442963+00:00",
