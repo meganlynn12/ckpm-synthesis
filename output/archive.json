@@ -1,6 +1,25 @@
 [
   {
     "date": "2026-07-05",
+    "run_label": "14:43 UTC",
+    "generated_at": "2026-07-05T14:43:38.863681+00:00",
+    "filename": "2026-07-05-14.json",
+    "articles_processed": 9,
+    "theme_count": 5,
+    "publications": [
+      "Scott Galloway",
+      "Paul Krugman (Substack)",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich",
+      "Letters from an American",
+      "Phillips's Newsletter (Substack)",
+      "Free the Inquiry by Heterodox Academy",
+      "The Bulwark",
+      "Open Letters, from Anne Applebaum"
+    ]
+  },
+  {
+    "date": "2026-07-05",
     "run_label": "04:59 UTC",
     "generated_at": "2026-07-05T04:59:28.112328+00:00",
     "filename": "2026-07-05-04.json",
