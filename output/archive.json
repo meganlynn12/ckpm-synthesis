@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-05",
+    "run_label": "04:59 UTC",
+    "generated_at": "2026-07-05T04:59:28.112328+00:00",
+    "filename": "2026-07-05-04.json",
+    "articles_processed": 5,
+    "theme_count": 3,
+    "publications": [
+      "Charlotte's Web Thoughts by Charlotte Clymer",
+      "The Bulwark",
+      "Letters from an American",
+      "Letters from an American (Heather Cox Richardson)"
+    ]
+  },
+  {
     "date": "2026-07-04",
     "run_label": "14:37 UTC",
     "generated_at": "2026-07-04T14:37:34.256649+00:00",
