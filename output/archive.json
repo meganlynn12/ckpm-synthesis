@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-06",
+    "run_label": "05:14 UTC",
+    "generated_at": "2026-07-06T05:14:36.020512+00:00",
+    "filename": "2026-07-06-05.json",
+    "articles_processed": 10,
+    "theme_count": 5,
+    "publications": [
+      "Onest Network",
+      "Letters from an American",
+      "Robert Reich",
+      "Gabe Fleisher / Wake Up To Politics",
+      "The Bulwark"
+    ]
+  },
+  {
     "date": "2026-07-05",
     "run_label": "14:43 UTC",
     "generated_at": "2026-07-05T14:43:38.863681+00:00",
