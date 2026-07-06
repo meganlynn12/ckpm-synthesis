@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-07-06",
+    "run_label": "12 PM",
+    "generated_at": "2026-07-06T16:21:07.731368+00:00",
+    "filename": "2026-07-06-16.json",
+    "articles_processed": 25,
+    "theme_count": 6,
+    "publications": [
+      "Prof Robert Pape from Escalation Trap",
+      "Prof Robert Pape",
+      "AVDD",
+      "SCOTUSblog",
+      "Slow Boring",
+      "Public Notice (Aaron Rupar and Judd Legum)",
+      "Letters from an American (Heather Cox Richardson)",
+      "ProPublica",
+      "Gabe Fleisher",
+      "Azeem Azhar, Exponential View",
+      "AI Supremacy (Michael Spencer)",
+      "The Bulwark",
+      "Phillips's Newsletter by Phillips P. OBrien",
+      "Robert Reich",
+      "Scott Galloway",
+      "John Ellis",
+      "Galen Druke / GD POLITICS",
+      "Paul Krugman"
+    ]
+  },
+  {
+    "date": "2026-07-06",
     "run_label": "05:14 UTC",
     "generated_at": "2026-07-06T05:14:36.020512+00:00",
     "filename": "2026-07-06-05.json",
