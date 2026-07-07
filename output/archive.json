@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-07-07",
+    "run_label": "15:43 UTC",
+    "generated_at": "2026-07-07T15:43:38.198023+00:00",
+    "filename": "2026-07-07-15.json",
+    "articles_processed": 25,
+    "theme_count": 6,
+    "publications": [
+      "ProPublica",
+      "Free the Inquiry by Heterodox Academy",
+      "Prof Robert Pape",
+      "AVDD",
+      "Can We Still Govern? by Don Moynihan",
+      "Scott Galloway",
+      "Paul Krugman",
+      "Kareem Abdul-Jabbar",
+      "John Ellis",
+      "Letters from an American (Heather Cox Richardson)",
+      "Public Notice",
+      "Phillips P. OBrien from Phillips's",
+      "Robert Reich",
+      "Slow Boring",
+      "The Bulwark",
+      "G. Elliott Morris",
+      "SCOTUSblog"
+    ]
+  },
+  {
+    "date": "2026-07-07",
     "run_label": "04:54 UTC",
     "generated_at": "2026-07-07T04:54:52.966473+00:00",
     "filename": "2026-07-07-04.json",
