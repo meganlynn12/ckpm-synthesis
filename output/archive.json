@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-07-08",
+    "run_label": "15:22 UTC",
+    "generated_at": "2026-07-08T15:22:32.374563+00:00",
+    "filename": "2026-07-08-15.json",
+    "articles_processed": 28,
+    "theme_count": 6,
+    "publications": [
+      "AVDD",
+      "Gabe Fleisher / Wake Up To Politics",
+      "Prof Robert Pape from Escalation Trap",
+      "Slow Boring",
+      "John Ellis",
+      "Free the Inquiry by Heterodox Academy",
+      "Public Notice",
+      "AI Supremacy (Michael Spencer and Weng Honn)",
+      "Robert Reich",
+      "SCOTUSblog",
+      "After Babel (Jon Haidt / Substack)",
+      "Scott Galloway",
+      "Paul Krugman",
+      "Letters from an American (Heather Cox Richardson)",
+      "The Bulwark",
+      "ProPublica",
+      "Charlotte's Web Thoughts",
+      "Prof Robert Pape"
+    ]
+  },
+  {
+    "date": "2026-07-08",
     "run_label": "04:16 UTC",
     "generated_at": "2026-07-08T04:16:26.164767+00:00",
     "filename": "2026-07-08-04.json",
