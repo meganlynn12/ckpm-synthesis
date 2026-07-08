@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-08",
+    "run_label": "04:16 UTC",
+    "generated_at": "2026-07-08T04:16:26.164767+00:00",
+    "filename": "2026-07-08-04.json",
+    "articles_processed": 20,
+    "theme_count": 6,
+    "publications": [
+      "The Freedom Frequency",
+      "ProPublica",
+      "Maya Shankar",
+      "Onest Network",
+      "Letters from an American",
+      "The Bulwark",
+      "Scott Galloway",
+      "FiftyPlusOne.news",
+      "Robert Reich",
+      "G. Elliott Morris"
+    ]
+  },
+  {
     "date": "2026-07-07",
     "run_label": "15:43 UTC",
     "generated_at": "2026-07-07T15:43:38.198023+00:00",
