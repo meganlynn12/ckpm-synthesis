@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-07-09",
+    "run_label": "15:56 UTC",
+    "generated_at": "2026-07-09T15:56:17.878860+00:00",
+    "filename": "2026-07-09-15.json",
+    "articles_processed": 27,
+    "theme_count": 6,
+    "publications": [
+      "Free the Inquiry by Heterodox Academy",
+      "Public Notice",
+      "Robert Reich",
+      "Phillips P. OBrien from Phillips's",
+      "Center for Politics at UVA",
+      "John Ellis from Political News Items",
+      "Slow Boring",
+      "AVDD",
+      "Prof Robert Pape",
+      "Merici from Can We Still Govern?",
+      "The Bulwark",
+      "ProPublica",
+      "John Ellis",
+      "Paul Krugman (Substack)",
+      "Learn AI Together (Louis-François Bouchard / Towards AI)",
+      "Scott Galloway",
+      "SCOTUSblog",
+      "Letters from an American (Heather Cox Richardson)",
+      "Gabe Fleisher"
+    ]
+  },
+  {
+    "date": "2026-07-09",
     "run_label": "04:56 UTC",
     "generated_at": "2026-07-09T04:56:33.803378+00:00",
     "filename": "2026-07-09-04.json",
