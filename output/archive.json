@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-07-09",
+    "run_label": "04:56 UTC",
+    "generated_at": "2026-07-09T04:56:33.803378+00:00",
+    "filename": "2026-07-09-04.json",
+    "articles_processed": 19,
+    "theme_count": 5,
+    "publications": [
+      "Slow Boring",
+      "Ruth Ben-Ghiat from Lucid",
+      "Scott Galloway",
+      "The Bulwark",
+      "Silver Bulletin",
+      "The Freedom Frequency",
+      "Letters from an American",
+      "Paul Krugman (Substack)",
+      "ProPublica",
+      "Onest Network",
+      "Robert Reich"
+    ]
+  },
+  {
     "date": "2026-07-08",
     "run_label": "15:22 UTC",
     "generated_at": "2026-07-08T15:22:32.374563+00:00",
