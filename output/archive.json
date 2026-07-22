@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-22",
+    "run_label": "04:19 UTC",
+    "generated_at": "2026-07-22T04:19:10.027015+00:00",
+    "filename": "2026-07-22-04.json",
+    "articles_processed": 0,
+    "theme_count": 0,
+    "publications": []
+  },
+  {
     "date": "2026-07-21",
     "run_label": "15:03 UTC",
     "generated_at": "2026-07-21T15:03:47.916841+00:00",
