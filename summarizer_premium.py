@@ -1,55 +1,43 @@
 """
-summarizer_premium.py
+summarizer_premium.py — PROPINT three-tier synthesis (Gemini)
 
-Three-tier synthesis pipeline for premium journalism content.
-
-Tier 1 — parse_newsletter(article)
-    Extracts structured headline items from a newsletter email body.
-    No summarization — structure extraction only.
-    Output: list of {headline, blurb, url}
-
-Tier 2 — synthesize_breaking(articles)
-    Collapses multiple intraday breaking news alerts into a coherent
-    end-of-day narrative with inline citations.
-    Output: {narrative, references}
-
-Tier 3 — synthesize_longform(article)
-    Deep per-article analytical synthesis.
-    Output: {thesis, context, arguments, significance, questions_raised}
-
-Top level — synthesize_executive_summary(newsletters, breaking, longform)
-    One-paragraph cross-cutting thread connecting all three sections.
-    Output: string
+Tier 1 — parse_newsletter(article)   → structure extraction only
+Tier 2 — synthesize_breaking(...)    → end-of-day style narrative digest
+Tier 3 — synthesize_longform(...)    → deep per-article analytical synthesis
+Top     — synthesize_executive_summary(...) → cross-cutting paragraph
 """
 
 import json
 import os
+import re
 import concurrent.futures
+import google.generativeai as genai
 
-import anthropic
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 
-client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-MODEL  = "claude-sonnet-4-6"
+# Adjust if a newer Gemini model is available — check ai.google.dev for current names
+MODEL = "gemini-2.0-flash"
 
-# ---------------------------------------------------------------------------
-# Shared helpers
-# ---------------------------------------------------------------------------
+
+def _clean_json(raw: str) -> str:
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+    raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', raw.strip())
+    return raw
+
 
 def _call(system: str, prompt: str, max_tokens: int = 1000) -> dict | str | None:
-    """Make a Claude API call and return parsed JSON or raw text."""
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=max_tokens,
-            system=system,
-            messages=[{"role": "user", "content": prompt}],
+        model = genai.GenerativeModel(MODEL, system_instruction=system)
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(max_output_tokens=max_tokens),
         )
-        raw = response.content[0].text.strip()
-        if raw.startswith("```"):
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        return json.loads(raw.strip())
+        raw = _clean_json(response.text)
+        return json.loads(raw)
     except json.JSONDecodeError:
         return raw.strip()
     except Exception as e:
@@ -91,11 +79,6 @@ Email body:
 
 
 def parse_newsletter(article: dict) -> dict:
-    """
-    Tier 1: Extract structured items from a newsletter email.
-    Returns the article dict augmented with an 'items' list.
-    No summarization — structure extraction only.
-    """
     prompt = _NEWSLETTER_PROMPT.format(
         source=article.get("source", ""),
         title=article.get("title", ""),
@@ -120,7 +103,6 @@ def parse_newsletter(article: dict) -> dict:
 
 
 def parse_newsletters_parallel(articles: list[dict]) -> list[dict]:
-    """Run Tier 1 parsing in parallel across all newsletter articles."""
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futures = {executor.submit(parse_newsletter, a): a for a in articles}
@@ -134,15 +116,15 @@ def parse_newsletters_parallel(articles: list[dict]) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Tier 2: Breaking news end-of-day digest
+# Tier 2: Breaking news digest (SITREP)
 # ---------------------------------------------------------------------------
 
-_BREAKING_SYSTEM = """You are a senior news editor writing an end-of-day briefing.
+_BREAKING_SYSTEM = """You are a senior news editor writing a concise briefing.
 Write in direct, factual prose. No speculation. Use inline citations like [1] or [2,3].
 Return ONLY valid JSON, no markdown, no preamble."""
 
-_BREAKING_PROMPT = """You have received {count} breaking news alerts throughout the day.
-Write a concise end-of-day digest that:
+_BREAKING_PROMPT = """You have received {count} breaking news alerts.
+Write a concise digest that:
 - Groups related alerts into coherent story threads
 - Explains what happened, in sequence where relevant
 - Uses inline citations like [1] or [2,3] to reference specific alerts
@@ -178,11 +160,7 @@ def synthesize_breaking(articles: list[dict]) -> dict | None:
         for i, a in enumerate(articles)
     )
 
-    prompt = _BREAKING_PROMPT.format(
-        count=len(articles),
-        numbered_alerts=numbered_alerts,
-    )
-
+    prompt = _BREAKING_PROMPT.format(count=len(articles), numbered_alerts=numbered_alerts)
     result = _call(_BREAKING_SYSTEM, prompt, max_tokens=1200)
 
     if not isinstance(result, dict):
@@ -219,7 +197,7 @@ Return this JSON:
   ]
 }}
 
-Be specific. Avoid vague summaries. Quote the author's actual framing where it sharpens the synthesis.
+Be specific. Avoid vague summaries.
 
 Article metadata:
   Source:    {source}
@@ -303,14 +281,9 @@ Return this JSON:
 }}"""
 
 
-def synthesize_executive_summary(
-    newsletters: list[dict],
-    breaking:    dict | None,
-    longform:    list[dict],
-) -> str:
+def synthesize_executive_summary(newsletters, breaking, longform) -> str:
     newsletter_headlines = "\n".join(
-        f"- {n['source']}: {n['title']}"
-        for n in newsletters
+        f"- {n['source']}: {n['title']}" for n in newsletters
     ) or "None today."
 
     breaking_summary = (
@@ -320,8 +293,7 @@ def synthesize_executive_summary(
     )
 
     longform_theses = "\n".join(
-        f"- {a['source']}: {a.get('thesis', a.get('title',''))}"
-        for a in longform
+        f"- {a['source']}: {a.get('thesis', a.get('title',''))}" for a in longform
     ) or "None today."
 
     prompt = _EXEC_PROMPT.format(

@@ -1,17 +1,12 @@
 """
-main_premium.py — Premium Journalism Content Aggregator pipeline
+main_premium.py — Premium Journalism Content Aggregator pipeline (PROPINT)
 
-Pipeline:
-1. Fetch newsletter emails from Gmail (scrapers/premium_gmail.py)
-   Each article tagged: tier = "newsletter" | "breaking" | "longform"
+1. Fetch newsletter emails from Gmail (3-tier: newsletter / breaking / longform)
 2. Deduplicate (breaking news alerts are never deduplicated)
-3. Route to three-tier summarizer (summarizer_premium.py):
-   - Tier 1  newsletter  → structure extraction only (NYT, Economist)
-   - Tier 2  breaking    → end-of-day narrative digest (NYT alerts)
-   - Tier 3  longform    → deep synthesis (Foreign Affairs, Atlantic, MIT TR)
-4. Write output/premium_content.json  (current)
-5. Write output/premium_YYYY-MM-DD-HH.json  (archive)
-6. Update output/premium_archive.json  (index)
+3. Synthesize via summarizer_premium.py (Gemini)
+4. Write output/premium_content.json (current)
+5. Write output/premium_YYYY-MM-DD-HHMM.json (archive) — always; manual runs labeled
+6. Update output/premium_archive.json index
 """
 
 import json
@@ -25,17 +20,13 @@ OUTPUT_DIR         = os.path.join(os.path.dirname(__file__), "output")
 CURRENT_PATH       = os.path.join(OUTPUT_DIR, "premium_content.json")
 ARCHIVE_INDEX_PATH = os.path.join(OUTPUT_DIR, "premium_archive.json")
 
-RUN_LABELS = {
-    10: "6 AM",  11: "6 AM",
-    16: "12 PM", 17: "12 PM",
-    22: "6 PM",  23: "6 PM",
-}
-
 MAX_ARTICLES = 80
 
 
-def get_run_label(dt: datetime) -> str:
-    return RUN_LABELS.get(dt.hour, f"{dt.strftime('%H:%M')} UTC")
+def get_run_label(now: datetime, is_scheduled: bool) -> str:
+    if is_scheduled:
+        return "7 AM"
+    return f"Manual {now.strftime('%Y-%m-%d %H:%M')} UTC"
 
 
 def update_archive_index(entry: dict) -> None:
@@ -54,18 +45,17 @@ def update_archive_index(entry: dict) -> None:
 
 def main():
     now              = datetime.now(timezone.utc)
+    is_scheduled     = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
     run_date         = now.strftime("%Y-%m-%d")
-    run_label        = get_run_label(now)
-    archive_filename = f"premium_{now.strftime('%Y-%m-%d-%H')}.json"
+    run_label        = get_run_label(now, is_scheduled)
+    archive_filename = f"premium_{now.strftime('%Y-%m-%d-%H%M')}.json"
     archive_path     = os.path.join(OUTPUT_DIR, archive_filename)
     generated_at     = now.isoformat()
-    is_scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
 
     print(f"\n{'='*60}")
     print(f"Premium Journalism Aggregator — {run_date} {run_label}")
     print(f"{'='*60}\n")
 
-    # ── Fetch ──
     print("[main_premium] Fetching premium journalism newsletters...")
     articles = fetch_premium_gmail_articles()
     print(f"[main_premium] Fetched: {len(articles)} articles\n")
@@ -84,17 +74,13 @@ def main():
             json.dump(empty, f, indent=2, ensure_ascii=False)
         return
 
-    # ── Deduplicate ──
-    # Breaking news alerts are never deduplicated — their value is in
-    # the full set of alerts across the day, which the summarizer collapses
-    # into a narrative. Deduplication by URL/title would collapse multiple
-    # alerts about the same evolving story into one.
+    # Breaking news alerts are never deduplicated — the summarizer needs the
+    # full set of alerts to collapse into a coherent digest.
     seen, unique = set(), []
     for article in articles:
         if article.get("tier") == "breaking":
             unique.append(article)
             continue
-
         key       = article.get("url") or article.get("title", "").lower().strip()
         title_key = article.get("title", "").lower().strip()
         if key not in seen and title_key not in seen:
@@ -107,47 +93,39 @@ def main():
           f"({breaking_count} breaking alerts preserved)")
 
     if len(unique) > MAX_ARTICLES:
-        # Cap non-breaking articles; always keep all breaking alerts
         breaking  = [a for a in unique if a.get("tier") == "breaking"]
         non_break = [a for a in unique if a.get("tier") != "breaking"]
         non_break = non_break[:MAX_ARTICLES - len(breaking)]
         unique    = breaking + non_break
         print(f"[main_premium] Capped to {len(unique)} (all {len(breaking)} breaking alerts kept)")
 
-    # ── Three-tier synthesis ──
     briefing = generate_premium_briefing(unique, run_date)
 
-    # ── Attach run metadata ──
     briefing["generated_at"]     = generated_at
     briefing["run_label"]        = run_label
     briefing["archive_filename"] = archive_filename
 
-    # ── Write current ──
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(CURRENT_PATH, "w", encoding="utf-8") as f:
         json.dump(briefing, f, indent=2, ensure_ascii=False)
     print(f"\n[main_premium] Written → premium_content.json")
 
-    # ── Write archive ──
-    counts = briefing.get("counts", {})
-    if is_scheduled:
-        with open(archive_path, "w", encoding="utf-8") as f:
-            json.dump(briefing, f, indent=2, ensure_ascii=False)
-        print(f"[main_premium] Archived → {archive_filename}")
+    with open(archive_path, "w", encoding="utf-8") as f:
+        json.dump(briefing, f, indent=2, ensure_ascii=False)
+    print(f"[main_premium] Archived → {archive_filename}")
 
-        # ── Update archive index ──
-        update_archive_index({
-            "date":           run_date,
-            "run_label":      run_label,
-            "generated_at":   generated_at,
-            "filename":       archive_filename,
-            "pipeline":       "premium",
-            "counts":         counts,
-            "total_articles": sum(counts.values()),
-        })
-        print(f"[main_premium] Archive index updated")
-    else:
-        print(f"[main_premium] Manual run — skipping archive")
+    counts = briefing.get("counts", {})
+    update_archive_index({
+        "date":           run_date,
+        "run_label":      run_label,
+        "generated_at":   generated_at,
+        "filename":       archive_filename,
+        "pipeline":       "premium",
+        "counts":         counts,
+        "total_articles": sum(counts.values()),
+        "manual":         not is_scheduled,
+    })
+    print(f"[main_premium] Archive index updated")
 
     print(f"\n[main_premium] Summary:")
     print(f"  Newsletters  : {counts.get('newsletter', 0)}")

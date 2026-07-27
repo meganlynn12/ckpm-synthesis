@@ -135,35 +135,21 @@ a:hover { text-decoration: underline; }
 .error { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 .error h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
 
-/* ── Substack ── */
+/* ── OSINT: narrative + source summaries ── */
 .meta-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; font-size: 0.78rem; color: var(--muted); }
-.big-picture { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem; }
-.big-picture .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
-.big-picture p { font-size: 0.92rem; line-height: 1.7; }
-.theme-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
-.theme-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 1rem; user-select: none; -webkit-tap-highlight-color: transparent; }
-.theme-header:active { background: var(--bg); }
-.theme-title { font-size: 0.98rem; font-weight: 600; flex: 1; }
-.theme-meta { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-.pub-count { font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
-.chevron { font-size: 0.72rem; color: var(--muted); transition: transform 0.2s ease; }
-.theme-card.open .chevron { transform: rotate(180deg); }
-.theme-body { display: none; padding: 0 1.25rem 1.25rem; border-top: 1px solid var(--border); }
-.theme-card.open .theme-body { display: block; }
-.theme-body .briefing { font-size: 0.9rem; line-height: 1.75; margin-top: 1rem; }
-sup.cite {
-  font-size: 0.65em; color: var(--sup-color); font-weight: 600;
-  cursor: pointer; margin-left: 1px; vertical-align: super; line-height: 0;
-  border-bottom: 1px dotted var(--sup-color);
+.narrative-summary { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem; }
+.narrative-summary .label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
+.narrative-summary p { font-size: 0.92rem; line-height: 1.7; }
+.source-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 1rem 1.25rem; margin-bottom: 0.75rem;
 }
-sup.cite:hover { opacity: 0.75; }
-.bibliography { margin-top: 1.1rem; border-top: 1px solid var(--border); padding-top: 0.9rem; }
-.bibliography-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; }
-.bib-entry { display: flex; gap: 0.5rem; font-size: 0.78rem; line-height: 1.5; color: var(--muted); margin-bottom: 0.4rem; }
-.bib-num { color: var(--sup-color); font-weight: 600; flex-shrink: 0; min-width: 1.4rem; }
-.pubs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
-.pub-tag { background: var(--tag-bg); color: var(--tag-text); font-size: 0.68rem; font-weight: 500; padding: 3px 10px; border-radius: 100px; text-decoration: none; transition: opacity 0.15s; }
-.pub-tag:hover { opacity: 0.75; text-decoration: none; }
+.source-card-header { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.4rem; }
+.source-name { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.source-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.4rem; }
+.source-title a { color: var(--text); }
+.source-title a:hover { color: var(--accent-link); text-decoration: none; }
+.source-summary-text { font-size: 0.88rem; line-height: 1.65; color: var(--text); }
 
 /* ── Premium ── */
 .section-label {
@@ -218,6 +204,7 @@ sup.cite:hover { opacity: 0.75; }
 .longform-questions { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.4rem; }
 .longform-question { font-size: 0.84rem; color: var(--muted); font-style: italic; padding-left: 1rem; border-left: 2px solid var(--border); line-height: 1.5; }
 .longform-link { display: inline-block; margin-top: 1rem; font-size: 0.8rem; color: var(--accent-link); }
+.chevron { font-size: 0.72rem; color: var(--muted); transition: transform 0.2s ease; }
 </style>
 </head>
 <body>
@@ -231,7 +218,7 @@ sup.cite:hover { opacity: 0.75; }
   <div class="header-left">
     <div class="header-title">CKPM Intel Brief</div>
     <div class="header-subtitle">Critical &middot; Knowledge &middot; Precision &middot; Methods</div>
-    <div class="header-tagline">Real intelligence, curated with AI, twice a day (AM &amp; PM).</div>
+    <div class="header-tagline">Real intelligence, curated with AI, every morning.</div>
     <div class="header-date" id="header-date"></div>
   </div>
   <div class="header-actions">
@@ -247,16 +234,13 @@ sup.cite:hover { opacity: 0.75; }
       <div class="mode-icon">📡</div>
       <div class="mode-body">
         <div class="mode-title">OSINT</div>
-        <div class="mode-desc">Open Source: Independent writers, political analysis, and free RSS sources — synthesized into a themed executive briefing.</div>
+        <div class="mode-desc">Open Source: Independent writers, political analysis, and free RSS sources — a quick 2-3 sentence take per source, plus one narrative tying it together.</div>
         <div class="mode-sources">
           <span class="mode-tag">Heather Cox Richardson</span><span class="mode-tag">Nate Silver</span>
           <span class="mode-tag">The Bulwark</span><span class="mode-tag">ProPublica</span>
           <span class="mode-tag">SCOTUSblog</span><span class="mode-tag">Paul Krugman</span>
           <span class="mode-tag">Scott Galloway</span><span class="mode-tag">John Ellis</span>
-          <span class="mode-tag">Onest</span><span class="mode-tag">The Freedom Frequency</span>
-          <span class="mode-tag">Jacob Morgan</span><span class="mode-tag">Robert Reich</span>
-          <span class="mode-tag">Gabe Fleisher</span><span class="mode-tag">Matthew Yglesias</span>
-          <span class="mode-tag">Public Notice</span><span class="mode-tag">+more</span>
+          <span class="mode-tag">Sabato's Crystal Ball</span><span class="mode-tag">+more</span>
         </div>
         <div class="mode-meta">
           <span class="mode-status" id="substack-status">
@@ -276,6 +260,7 @@ sup.cite:hover { opacity: 0.75; }
           <span class="mode-tag">New York Times</span><span class="mode-tag">The Economist</span>
           <span class="mode-tag">MIT Tech Review</span><span class="mode-tag">The Atlantic</span>
           <span class="mode-tag">Foreign Affairs</span><span class="mode-tag">The Athletic</span>
+          <span class="mode-tag">RAND</span>
         </div>
         <div class="mode-meta">
           <span class="mode-status" id="premium-status">
@@ -318,8 +303,6 @@ const BASE_URL = './output/';
 let currentMode = null;
 let currentFilename = null;
 
-// Global citation map — keyed by "prefix-num", e.g. "t0-1", "b-3"
-// Reset on each briefing load
 let CITE_MAP = {};
 
 const SOURCE_URLS = {
@@ -335,7 +318,7 @@ const SOURCE_URLS = {
   "The Atlantic":"https://www.theatlantic.com","The Economist":"https://www.economist.com",
   "Wall Street Journal":"https://www.wsj.com","Financial Times":"https://www.ft.com",
   "Foreign Affairs":"https://www.foreignaffairs.com","The Athletic":"https://theathletic.com",
-  "RAND Corporation": "https://www.rand.org",
+  "RAND Corporation":"https://www.rand.org",
 };
 
 function modeContentFile(m) { return m === 'premium' ? 'premium_content.json' : 'content.json'; }
@@ -355,26 +338,21 @@ function timeAgo(iso) {
   if (d < 86400) return `${Math.round(d/3600)}h ago`;
   return `${Math.round(d/86400)}d ago`;
 }
-function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 14*3600*1000; }
-
-// Render citations — adds data-keys for tooltip lookup when prefix provided
+function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 30*3600*1000; }
 function renderCitations(text, prefix) {
-  if (!prefix) {
-    return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m => `<sup class="cite">${m}</sup>`);
-  }
+  if (!prefix) return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m=>`<sup class="cite">${m}</sup>`);
   return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, (match, nums) => {
     const keys = nums.split(',').map(n => `${prefix}-${n.trim()}`).join(',');
     return `<sup class="cite" data-keys="${keys}">${match}</sup>`;
   });
 }
 
-// ── Citation tooltip ───────────────────────────────────────────────────────
-const tooltip      = document.getElementById('cite-tooltip');
+const tooltip = document.getElementById('cite-tooltip');
 let tooltipVisible = false;
 
 function showCiteTooltip(el, e) {
   const keys = (el.dataset.keys || '').split(',').map(k => k.trim());
-  const refs  = keys.map(k => CITE_MAP[k]).filter(Boolean);
+  const refs = keys.map(k => CITE_MAP[k]).filter(Boolean);
   if (!refs.length) return;
   document.getElementById('cite-tooltip-content').innerHTML = refs.map((ref, i) =>
     `${i > 0 ? '<div style="border-top:1px solid rgba(255,255,255,0.1);margin:5px 0"></div>' : ''}
@@ -385,7 +363,6 @@ function showCiteTooltip(el, e) {
   tooltipVisible = true;
   positionTooltip(e);
 }
-
 function positionTooltip(e) {
   const pad = 12;
   const tw  = tooltip.offsetWidth  || 260;
@@ -397,12 +374,7 @@ function positionTooltip(e) {
   tooltip.style.left = x + 'px';
   tooltip.style.top  = y + 'px';
 }
-
-function hideCiteTooltip() {
-  tooltip.classList.remove('visible');
-  tooltipVisible = false;
-}
-
+function hideCiteTooltip() { tooltip.classList.remove('visible'); tooltipVisible = false; }
 document.addEventListener('click', e => {
   const cite = e.target.closest('sup.cite');
   if (cite) {
@@ -414,7 +386,6 @@ document.addEventListener('click', e => {
   if (tooltipVisible) hideCiteTooltip();
 });
 
-// ── Screen switching ───────────────────────────────────────────────────────
 function showLanding() {
   document.getElementById('landing').classList.add('visible');
   document.getElementById('briefing-view').classList.remove('visible');
@@ -433,59 +404,39 @@ function selectMode(mode) {
   loadBriefing(modeContentFile(mode), false);
 }
 
-// ── Substack renderer ──────────────────────────────────────────────────────
+// ── OSINT renderer: narrative + per-source summaries ──
 function renderSubstackBriefing(data, isArchive) {
-  CITE_MAP = {};
   const main = document.getElementById('main');
-  if (!data.themes || !data.themes.length) {
+  const summaries = data.source_summaries || [];
+
+  if (!summaries.length && !data.narrative_summary) {
     main.innerHTML = '<div class="error"><h2>No briefing available</h2><p>Check back after the next run.</p></div>'; return;
   }
+
   let html = '';
   if (isArchive) html += `<div style="background:var(--accent-light);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--accent)"><span>Archived: ${formatDate(data.date)}</span><button onclick="loadCurrent()" style="background:none;border:none;color:var(--accent);font-size:.78rem;cursor:pointer;text-decoration:underline">← Latest</button></div>`;
+
   if (data.articles_processed) html += `<div class="meta-bar"><span>${data.articles_processed} articles · ${(data.publications||[]).length} sources</span></div>`;
 
-  (data.themes||[]).forEach((t, i) => {
-    const prefix = `t${i}`;
-    // Populate CITE_MAP for this theme's references
-    (t.references||[]).forEach(r => {
-      CITE_MAP[`${prefix}-${r.num}`] = {
-        title:       r.title       || '',
-        publication: r.publication || '',
-        url:         r.url         || '',
-      };
-    });
-    const pubs  = t.publications||[], count = t.source_count||pubs.length;
-    const refs  = (t.references||[]).map(r =>
-      `<div class="bib-entry"><span class="bib-num">[${r.num}]</span><span>${r.publication?r.publication+' — ':''} ${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Article'}</a>`:(r.title||'Article')}</span></div>`
-    ).join('');
-    const tags  = pubs.map(p => { const u=SOURCE_URLS[p]; return u?`<a class="pub-tag" href="${u}" target="_blank" rel="noopener">${p}</a>`:`<span class="pub-tag">${p}</span>`; }).join('');
-    html += `<div class="theme-card${i===0?' open':''}"><div class="theme-header" onclick="toggle(this)"><span class="theme-title">${t.theme}</span><span class="theme-meta"><span class="pub-count">${count} source${count!==1?'s':''}</span><span class="chevron">▼</span></span></div><div class="theme-body"><div class="briefing">${renderCitations(t.briefing||'', prefix)}</div>${tags?`<div class="pubs">${tags}</div>`:''} ${refs?`<div class="bibliography"><div class="bibliography-label">Sources</div>${refs}</div>`:''}</div></div>`;
-  });
-  // build global prefix from all themes' CITE_MAP entries
-  const GLOBAL_NUM_MAP = {};
-  Object.entries(CITE_MAP).forEach(([key, ref]) => {
-    const num = key.split('-').pop();
-    if (!GLOBAL_NUM_MAP[num]) GLOBAL_NUM_MAP[num] = ref;
-  });
-  Object.entries(GLOBAL_NUM_MAP).forEach(([num, ref]) => {
-    CITE_MAP[`g-${num}`] = ref;
-  });
+  if (data.narrative_summary) {
+    html += `<div class="narrative-summary"><div class="label">Today's Narrative</div><p>${data.narrative_summary}</p></div>`;
+  }
 
-  // prepend big picture (now CITE_MAP is fully populated)
-  const bpHtml = data.big_picture
-    ? `<div class="big-picture"><div class="label">Big Picture</div><p>${renderCitations(data.big_picture, 'g')}</p></div>`
-    : '';
-
-  // html already contains archive banner + meta bar + themes
-  // insert bpHtml after meta bar by rebuilding order
-  const headerHtml = html.split('<div class="theme-card')[0];
-  const themesOnly = html.slice(headerHtml.length);
-  html = headerHtml + bpHtml + themesOnly;
+  summaries.forEach(s => {
+    const title = s.url
+      ? `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`
+      : s.title;
+    html += `<div class="source-card">
+      <div class="source-card-header"><span class="source-name">${s.source}</span></div>
+      <div class="source-title">${title}</div>
+      <div class="source-summary-text">${s.summary || ''}</div>
+    </div>`;
+  });
 
   main.innerHTML = html;
 }
 
-// ── Premium renderer ───────────────────────────────────────────────────────
+// ── Premium renderer ──
 function renderPremiumBriefing(data, isArchive) {
   CITE_MAP = {};
   const main = document.getElementById('main');
@@ -504,24 +455,19 @@ function renderPremiumBriefing(data, isArchive) {
         return `<div class="newsletter-item"><div class="newsletter-item-headline">${headline}</div>${item.blurb?`<div class="newsletter-item-blurb">${item.blurb}</div>`:''}</div>`;
       }).join('');
       const hasLinks = (n.items||[]).some(item => item.url);
-    const fallbackLink = !hasLinks && n.url
-      ? `<div style="padding:0.75rem 1.25rem;border-top:1px solid var(--border)"><a href="${n.url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-link)">Read on ${n.source} →</a></div>`
-      : '';
-    html += `<div class="newsletter-card${i===0?' open':''}"><div class="newsletter-header" onclick="toggle(this)"><div><div class="newsletter-source">${n.source}</div><div class="newsletter-title">${n.title}</div></div><span class="chevron">▼</span></div><div class="newsletter-body">${items||'<div style="padding:1rem 1.25rem;font-size:.85rem;color:var(--muted)">No items extracted.</div>'}${fallbackLink}</div></div>`;
+      const fallbackLink = !hasLinks && n.url
+        ? `<div style="padding:0.75rem 1.25rem;border-top:1px solid var(--border)"><a href="${n.url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-link)">Read on ${n.source} →</a></div>`
+        : '';
+      html += `<div class="newsletter-card${i===0?' open':''}"><div class="newsletter-header" onclick="toggle(this)"><div><div class="newsletter-source">${n.source}</div><div class="newsletter-title">${n.title}</div></div><span class="chevron">▼</span></div><div class="newsletter-body">${items||'<div style="padding:1rem 1.25rem;font-size:.85rem;color:var(--muted)">No items extracted.</div>'}${fallbackLink}</div></div>`;
     });
   }
 
   if (breaking_digest && breaking_digest.narrative) {
     const alertCount = breaking_digest.alert_count || 0;
-    // Populate CITE_MAP for breaking news refs
     (breaking_digest.references||[]).forEach(r => {
-      CITE_MAP[`b-${r.num}`] = {
-        title:       r.title  || '',
-        publication: r.source || 'New York Times',
-        url:         r.url    || '',
-      };
+      CITE_MAP[`b-${r.num}`] = { title: r.title || '', publication: r.source || 'New York Times', url: r.url || '' };
     });
-    const narrative = breaking_digest.narrative.split('\n\n').map(p => `<p>${renderCitations(p, 'b')}</p>`).join('');
+    const narrative = breaking_digest.narrative.split('\n\n').map(p=>`<p>${renderCitations(p, 'b')}</p>`).join('');
     const refs = (breaking_digest.references||[]).map(r =>
       `<div class="breaking-ref"><span class="breaking-ref-num">[${r.num}]</span><span>${r.url?`<a href="${r.url}" target="_blank" rel="noopener">${r.title||'Alert'}</a>`:(r.title||'Alert')} — ${r.published?new Date(r.published).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):''}</span></div>`
     ).join('');
@@ -560,7 +506,6 @@ function renderPremiumBriefing(data, isArchive) {
   main.innerHTML = html;
 }
 
-// ── Data loading ───────────────────────────────────────────────────────────
 async function loadBriefing(filename, isArchive=false) {
   currentFilename = filename;
   CITE_MAP = {}; hideCiteTooltip();
@@ -582,11 +527,10 @@ async function loadBriefing(filename, isArchive=false) {
 }
 function loadCurrent() { loadBriefing(modeContentFile(currentMode), false); closeArchive(); }
 function toggle(header) {
-  const card = header.closest('.theme-card, .newsletter-card, .longform-card');
+  const card = header.closest('.newsletter-card, .longform-card');
   if (card) card.classList.toggle('open');
 }
 
-// ── Landing card status ────────────────────────────────────────────────────
 async function loadCardStatus(mode) {
   const dotEl  = document.querySelector(`#${mode}-status .status-dot`);
   const textEl = document.getElementById(`${mode}-meta-text`);
@@ -604,7 +548,6 @@ async function loadCardStatus(mode) {
   }
 }
 
-// ── Archive drawer ─────────────────────────────────────────────────────────
 async function openArchive() {
   document.getElementById('drawer-overlay').classList.add('open');
   const list = document.getElementById('drawer-list');
@@ -621,7 +564,8 @@ async function openArchive() {
       for (const e of entries) {
         const total  = e.total_articles || e.articles_processed || 0;
         const active = e.filename === currentFilename;
-        html+=`<div class="drawer-item${active?' active':''}" onclick="selectArchiveItem('${e.filename}',this)"><span class="drawer-item-label">${e.run_label||e.filename}</span><span class="drawer-item-meta">${total} articles</span></div>`;
+        const label  = e.manual ? `${e.run_label}` : (e.run_label || e.filename);
+        html+=`<div class="drawer-item${active?' active':''}" onclick="selectArchiveItem('${e.filename}',this)"><span class="drawer-item-label">${label}</span><span class="drawer-item-meta">${total} articles</span></div>`;
       }
     }
     list.innerHTML=html;
@@ -636,7 +580,6 @@ function selectArchiveItem(filename, el) {
 function closeArchive() { document.getElementById('drawer-overlay').classList.remove('open'); }
 function handleOverlayClick(e) { if(e.target===document.getElementById('drawer-overlay')) closeArchive(); }
 
-// ── Init ───────────────────────────────────────────────────────────────────
 loadCardStatus('substack');
 loadCardStatus('premium');
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});

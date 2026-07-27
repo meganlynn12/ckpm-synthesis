@@ -2,15 +2,14 @@ name: Fetch & Summarize Content
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 9 AM EDT / 7 AM MDT
-    # - cron: "0 14 * * *"   # 9 AM EST / 7 AM MST
-    - cron: "0 1 * * *"    # 9 PM EDT / 7 PM MDT
-    # - cron: "0 2 * * *"    # 9 PM EST / 7 PM MST
+    # 7 AM MDT (UTC-6) = 13:00 UTC. In winter (MST, UTC-7) this becomes 6 AM MT —
+    # add "0 14 * * *" as a second cron if you want to preserve 7 AM through DST.
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 jobs:
   # ─────────────────────────────────────────────
-  # Job 1: Substack & Open Web pipeline
+  # Job 1: OSINT — Substack & Open Web pipeline
   # ─────────────────────────────────────────────
   substack-pipeline:
     runs-on: ubuntu-latest
@@ -40,23 +39,24 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
-      - name: Run Substack pipeline
+      - name: Run OSINT pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
           GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python main.py
 
-      - name: Commit Substack output
+      - name: Commit OSINT output
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/content.json output/archive.json output/20*.json || true
-          git diff --staged --quiet || git commit -m "chore: substack briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "chore: OSINT briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
   # ─────────────────────────────────────────────
-  # Job 2: Premium Journalism pipeline
+  # Job 2: PROPINT — Premium Journalism pipeline
   # ─────────────────────────────────────────────
   premium-pipeline:
     runs-on: ubuntu-latest
@@ -78,16 +78,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Premium pipeline
+      - name: Run PROPINT pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_TOKEN_JSON_2: ${{ secrets.GMAIL_TOKEN_JSON_2 }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python main_premium.py
 
-      - name: Commit Premium output
+      - name: Commit PROPINT output
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/premium_content.json output/premium_archive.json output/premium_20*.json || true
-          git diff --staged --quiet || git commit -m "chore: premium briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "chore: PROPINT briefing $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
