@@ -20,7 +20,7 @@ from google.genai import types
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-3.5-flash-lite"
 
 
 def _clean_json(raw: str) -> str:
@@ -106,7 +106,7 @@ def run_summaries_parallel(articles: list[dict]) -> list[dict]:
         i, a = args
         return i, summarize_article(a)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futures = {executor.submit(task, (i, a)): i for i, a in enumerate(articles)}
         for future in concurrent.futures.as_completed(futures):
             try:

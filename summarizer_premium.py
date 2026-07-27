@@ -17,7 +17,7 @@ from google.genai import types
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-3.5-flash-lite"
 
 
 def _clean_json(raw: str) -> str:
