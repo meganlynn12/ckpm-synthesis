@@ -1,5 +1,5 @@
 """
-summarizer.py — OSINT summarization (Gemini)
+summarizer.py — OSINT summarization (Gemini, google-genai SDK)
 
 Two-phase pipeline:
 
@@ -14,9 +14,10 @@ import json
 import os
 import re
 import concurrent.futures
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
 MODEL = "gemini-2.0-flash"
@@ -34,8 +35,14 @@ def _clean_json(raw: str) -> str:
 
 def _call(prompt: str, system: str) -> dict | None:
     try:
-        model = genai.GenerativeModel(MODEL, system_instruction=system)
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system,
+                response_mime_type="application/json",
+            ),
+        )
         raw = _clean_json(response.text)
         return json.loads(raw)
     except Exception as e:

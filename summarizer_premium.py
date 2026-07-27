@@ -1,8 +1,8 @@
 """
-summarizer_premium.py — PROPINT three-tier synthesis (Gemini)
+summarizer_premium.py — PROPINT three-tier synthesis (Gemini, google-genai SDK)
 
 Tier 1 — parse_newsletter(article)   → structure extraction only
-Tier 2 — synthesize_breaking(...)    → end-of-day style narrative digest
+Tier 2 — synthesize_breaking(...)    → SITREP-style narrative digest
 Tier 3 — synthesize_longform(...)    → deep per-article analytical synthesis
 Top     — synthesize_executive_summary(...) → cross-cutting paragraph
 """
@@ -11,9 +11,10 @@ import json
 import os
 import re
 import concurrent.futures
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
 MODEL = "gemini-2.0-flash"
@@ -31,10 +32,14 @@ def _clean_json(raw: str) -> str:
 
 def _call(system: str, prompt: str, max_tokens: int = 1000) -> dict | str | None:
     try:
-        model = genai.GenerativeModel(MODEL, system_instruction=system)
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.GenerationConfig(max_output_tokens=max_tokens),
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system,
+                response_mime_type="application/json",
+                max_output_tokens=max_tokens,
+            ),
         )
         raw = _clean_json(response.text)
         return json.loads(raw)
