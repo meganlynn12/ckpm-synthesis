@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-07-27",
+    "run_label": "Manual 2026-07-27 20:02 UTC",
+    "generated_at": "2026-07-27T20:02:16.170656+00:00",
+    "filename": "2026-07-27-2002.json",
+    "articles_processed": 18,
+    "publications": [
+      "SCOTUSblog",
+      "Scott Galloway",
+      "John Ellis",
+      "ProPublica",
+      "Slow Boring",
+      "The Bulwark"
+    ],
+    "manual": true
+  },
+  {
+    "date": "2026-07-27",
     "run_label": "Manual 2026-07-27 19:47 UTC",
     "generated_at": "2026-07-27T19:47:16.069035+00:00",
     "filename": "2026-07-27-1947.json",
