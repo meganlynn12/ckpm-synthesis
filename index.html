@@ -150,6 +150,15 @@ a:hover { text-decoration: underline; }
 .source-title a { color: var(--text); }
 .source-title a:hover { color: var(--accent-link); text-decoration: none; }
 .source-summary-text { font-size: 0.88rem; line-height: 1.65; color: var(--text); }
+.source-summary-list { list-style: none; padding: 0; margin: 0; }
+.source-summary-list li {
+  font-size: 0.88rem; line-height: 1.55; color: var(--text);
+  padding-left: 1rem; position: relative; margin-bottom: 0.35rem;
+}
+.source-summary-list li:last-child { margin-bottom: 0; }
+.source-summary-list li::before {
+  content: "•"; position: absolute; left: 0; color: var(--accent);
+}
 
 /* ── Premium ── */
 .section-label {
@@ -339,6 +348,11 @@ function timeAgo(iso) {
   return `${Math.round(d/86400)}d ago`;
 }
 function isStale(iso) { return !iso || (Date.now() - new Date(iso).getTime()) > 30*3600*1000; }
+function splitSentences(text) {
+  if (!text) return [];
+  const matches = text.match(/[^.!?]+[.!?]+(\s|$)/g);
+  return matches ? matches.map(s => s.trim()).filter(Boolean) : [text.trim()];
+}
 function renderCitations(text, prefix) {
   if (!prefix) return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, m=>`<sup class="cite">${m}</sup>`);
   return text.replace(/\[(\d+(?:,\s*\d+)*)\]/g, (match, nums) => {
@@ -426,10 +440,11 @@ function renderSubstackBriefing(data, isArchive) {
     const title = s.url
       ? `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`
       : s.title;
+    const bullets = splitSentences(s.summary).map(sent => `<li>${sent}</li>`).join('');
     html += `<div class="source-card">
       <div class="source-card-header"><span class="source-name">${s.source}</span></div>
       <div class="source-title">${title}</div>
-      <div class="source-summary-text">${s.summary || ''}</div>
+      <ul class="source-summary-list">${bullets}</ul>
     </div>`;
   });
 
