@@ -10,6 +10,8 @@ Top     — synthesize_executive_summary(...) → cross-cutting paragraph
 import json
 import os
 import re
+import time
+import threading
 import concurrent.futures
 from google import genai
 from google.genai import types
@@ -18,6 +20,25 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
 MODEL = "gemini-3.5-flash-lite"
+
+# ---------------------------------------------------------------------------
+# Rate limiting — free tier is 15 requests/minute for this model, shared
+# across the whole project (not per-thread). Space calls out so parallel
+# workers never collectively exceed that.
+# ---------------------------------------------------------------------------
+
+_rate_lock = threading.Lock()
+_last_call_time = [0.0]
+MIN_INTERVAL_SECONDS = 4.5  # ~13.3 req/min, safely under the 15/min cap
+
+
+def _throttle():
+    with _rate_lock:
+        now = time.monotonic()
+        wait = _last_call_time[0] + MIN_INTERVAL_SECONDS - now
+        if wait > 0:
+            time.sleep(wait)
+        _last_call_time[0] = time.monotonic()
 
 
 def _clean_json(raw: str) -> str:
@@ -30,24 +51,31 @@ def _clean_json(raw: str) -> str:
     return raw
 
 
-def _call(system: str, prompt: str, max_tokens: int = 1000) -> dict | str | None:
-    try:
-        response = client.models.generate_content(
-            model=MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=system,
-                response_mime_type="application/json",
-                max_output_tokens=max_tokens,
-            ),
-        )
-        raw = _clean_json(response.text)
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        return raw.strip()
-    except Exception as e:
-        print(f"  [summarizer_premium] API call failed: {e}")
-        return None
+def _call(system: str, prompt: str, max_tokens: int = 1000, max_retries: int = 2) -> dict | str | None:
+    for attempt in range(max_retries + 1):
+        _throttle()
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=system,
+                    response_mime_type="application/json",
+                    max_output_tokens=max_tokens,
+                ),
+            )
+            raw = _clean_json(response.text)
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            return raw.strip()
+        except Exception as e:
+            is_rate_limit = "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)
+            if is_rate_limit and attempt < max_retries:
+                print(f"  [summarizer_premium] Rate limited, retrying in 10s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(10)
+                continue
+            print(f"  [summarizer_premium] API call failed: {e}")
+            return None
 
 
 # ---------------------------------------------------------------------------
@@ -109,7 +137,7 @@ def parse_newsletter(article: dict) -> dict:
 
 def parse_newsletters_parallel(articles: list[dict]) -> list[dict]:
     results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(parse_newsletter, a): a for a in articles}
         for future in concurrent.futures.as_completed(futures):
             try:
@@ -240,7 +268,7 @@ def synthesize_longform_article(article: dict) -> dict | None:
 
 def synthesize_longform_parallel(articles: list[dict]) -> list[dict]:
     results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(synthesize_longform_article, a): a for a in articles}
         for future in concurrent.futures.as_completed(futures):
             try:

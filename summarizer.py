@@ -13,6 +13,8 @@ Two-phase pipeline:
 import json
 import os
 import re
+import time
+import threading
 import concurrent.futures
 from google import genai
 from google.genai import types
@@ -21,6 +23,25 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Adjust if a newer Gemini model is available — check ai.google.dev for current names
 MODEL = "gemini-3.5-flash-lite"
+
+# ---------------------------------------------------------------------------
+# Rate limiting — free tier is 15 requests/minute for this model, shared
+# across the whole project (not per-thread). Space calls out so parallel
+# workers never collectively exceed that.
+# ---------------------------------------------------------------------------
+
+_rate_lock = threading.Lock()
+_last_call_time = [0.0]
+MIN_INTERVAL_SECONDS = 4.5  # ~13.3 req/min, safely under the 15/min cap
+
+
+def _throttle():
+    with _rate_lock:
+        now = time.monotonic()
+        wait = _last_call_time[0] + MIN_INTERVAL_SECONDS - now
+        if wait > 0:
+            time.sleep(wait)
+        _last_call_time[0] = time.monotonic()
 
 
 def _clean_json(raw: str) -> str:
@@ -33,21 +54,28 @@ def _clean_json(raw: str) -> str:
     return raw
 
 
-def _call(prompt: str, system: str) -> dict | None:
-    try:
-        response = client.models.generate_content(
-            model=MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=system,
-                response_mime_type="application/json",
-            ),
-        )
-        raw = _clean_json(response.text)
-        return json.loads(raw)
-    except Exception as e:
-        print(f"  [summarizer] API call failed: {e}")
-        return None
+def _call(prompt: str, system: str, max_retries: int = 2) -> dict | None:
+    for attempt in range(max_retries + 1):
+        _throttle()
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=system,
+                    response_mime_type="application/json",
+                ),
+            )
+            raw = _clean_json(response.text)
+            return json.loads(raw)
+        except Exception as e:
+            is_rate_limit = "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e)
+            if is_rate_limit and attempt < max_retries:
+                print(f"  [summarizer] Rate limited, retrying in 10s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(10)
+                continue
+            print(f"  [summarizer] API call failed: {e}")
+            return None
 
 
 # ---------------------------------------------------------------------------
