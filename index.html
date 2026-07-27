@@ -440,7 +440,7 @@ function renderSubstackBriefing(data, isArchive) {
     const title = s.url
       ? `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`
       : s.title;
-    const bullets = splitSentences(s.summary).map(sent => `<li>${sent}</li>`).join('');
+    const bullets = (s.bullets || []).map(b => `<li>${b}</li>`).join('');
     html += `<div class="source-card">
       <div class="source-card-header"><span class="source-name">${s.source}</span></div>
       <div class="source-title">${title}</div>

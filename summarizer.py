@@ -85,12 +85,13 @@ def _call(prompt: str, system: str, max_retries: int = 2) -> dict | None:
 SOURCE_SUMMARY_SYSTEM = """You are a precise news analyst. Summarize articles concisely.
 Return ONLY valid JSON, no markdown, no preamble."""
 
-SOURCE_SUMMARY_PROMPT = """Summarize this article in 2-3 sentences — direct, factual, no fluff,
-no editorializing beyond what the source itself argues.
+SOURCE_SUMMARY_PROMPT = """Summarize this article as 2-3 short bullet points — direct, factual,
+no fluff, no editorializing beyond what the source itself argues. Each bullet should be a
+complete, self-contained sentence covering one distinct point.
 
 Return this JSON:
 {{
-  "summary": "2-3 sentence summary of the article's key point(s)"
+  "bullets": ["First key point.", "Second key point.", "Third key point if needed."]
 }}
 
 Source: {source}
@@ -122,7 +123,7 @@ def summarize_article(article: dict) -> dict | None:
         "title":     article.get("title", ""),
         "url":       article.get("url", ""),
         "published": article.get("published", ""),
-        "summary":   result.get("summary", ""),
+        "bullets":   result.get("bullets", []),
     }
 
 
@@ -168,7 +169,7 @@ Source summaries:
 
 def synthesize_narrative(source_summaries: list[dict]) -> str:
     summaries_text = "\n".join(
-        f"- {s['source']}: {s['summary']}" for s in source_summaries
+        f"- {s['source']}: {' '.join(s.get('bullets', []))}" for s in source_summaries
     )
     prompt = NARRATIVE_PROMPT.format(summaries=summaries_text)
     result = _call(prompt, NARRATIVE_SYSTEM)
