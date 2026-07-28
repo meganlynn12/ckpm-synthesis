@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-07-28",
+    "run_label": "7 AM",
+    "generated_at": "2026-07-28T15:21:41.202330+00:00",
+    "filename": "2026-07-28-1521.json",
+    "articles_processed": 26,
+    "publications": [
+      "Paul Krugman",
+      "Kareem Abdul-Jabbar",
+      "ProPublica",
+      "Onest Network",
+      "Center for Humane Technology",
+      "Louie from Towards AI",
+      "Ruth Ben-Ghiat and Jonathan Swan from Lucid",
+      "Paul Waldman from Public Notice",
+      "Slow Boring",
+      "Open Letters, from Anne Applebaum",
+      "John Ellis",
+      "Scott Galloway",
+      "Your Local Epidemiologist",
+      "Robert Reich",
+      "Michael Spencer from AI Supremacy",
+      "The Bulwark",
+      "Heather Cox Richardson from Letters from an American",
+      "G. Elliott Morris",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-07-27",
     "run_label": "Manual 2026-07-27 20:48 UTC",
     "generated_at": "2026-07-27T20:48:12.982933+00:00",
