@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-07-29",
+    "run_label": "7 AM",
+    "generated_at": "2026-07-29T15:30:48.147902+00:00",
+    "filename": "2026-07-29-1530.json",
+    "articles_processed": 22,
+    "publications": [
+      "Louis-François from What's AI",
+      "Prof Robert Pape",
+      "The Bulwark",
+      "ProPublica",
+      "John Ellis",
+      "Slow Boring",
+      "Gabe Fleisher",
+      "Paul Krugman",
+      "Liz Dye from Public Notice",
+      "Scott Galloway",
+      "SCOTUSblog",
+      "Free the Inquiry by Heterodox Academy",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Phillips P. OBrien from Phillips’s",
+      "AVDD",
+      "Prof Robert Pape from Escalation Trap"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-07-28",
     "run_label": "7 AM",
     "generated_at": "2026-07-28T15:21:41.202330+00:00",
