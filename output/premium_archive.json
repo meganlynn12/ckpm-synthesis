@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-30",
+    "run_label": "7 AM",
+    "generated_at": "2026-07-30T15:12:55.254317+00:00",
+    "filename": "premium_2026-07-30-1512.json",
+    "pipeline": "premium",
+    "counts": {
+      "newsletter": 7,
+      "breaking": 3,
+      "longform": 0
+    },
+    "total_articles": 10,
+    "manual": false
+  },
+  {
     "date": "2026-07-29",
     "run_label": "7 AM",
     "generated_at": "2026-07-29T15:37:25.920918+00:00",
