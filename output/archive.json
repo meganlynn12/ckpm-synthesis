@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-07-30",
+    "run_label": "7 AM",
+    "generated_at": "2026-07-30T15:10:15.962714+00:00",
+    "filename": "2026-07-30-1510.json",
+    "articles_processed": 29,
+    "publications": [
+      "Prof Robert Pape",
+      "ProPublica",
+      "Free the Inquiry by Heterodox Academy",
+      "Lisa Needham from Public Notice",
+      "Galen Druke from GD POLITICS",
+      "Scott Galloway",
+      "Paul Krugman",
+      "AVDD",
+      "SCOTUSblog",
+      "Kasparov's Next Move",
+      "John Ellis",
+      "Don Moynihan from Can We Still Govern?",
+      "Heather Cox Richardson from Letters from an American",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich",
+      "The Bulwark",
+      "Center for Politics at UVA",
+      "Michael Spencer from AI Supremacy",
+      "Louis-François from Learn AI Together",
+      "Phillips P. OBrien and Ivanna Ryzhkova from Phillips’s",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-07-29",
     "run_label": "7 AM",
     "generated_at": "2026-07-29T15:30:48.147902+00:00",
