@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-07-31",
+    "run_label": "7 AM",
+    "generated_at": "2026-07-31T15:19:38.465346+00:00",
+    "filename": "2026-07-31-1519.json",
+    "articles_processed": 32,
+    "publications": [
+      "John Ellis",
+      "Prof Robert Pape",
+      "Prof Robert Pape from Escalation Trap",
+      "The Bulwark",
+      "Alexander Hertel-Fernandez, Sam Berger, and Sophie Jacobson from Can We Still Govern?",
+      "Kareem Abdul-Jabbar",
+      "ProPublica",
+      "Sarah Longwell - The Bulwark",
+      "Robert Reich",
+      "SCOTUSblog",
+      "FiftyPlusOne.news",
+      "Open Letters, from Anne Applebaum",
+      "Your Local Epidemiologist",
+      "Richard Haass, Home & Away",
+      "Michael Spencer from AI Supremacy",
+      "Onest Network",
+      "Aaron Rupar and Thor Benson from Public Notice",
+      "Slow Boring",
+      "Paul Krugman",
+      "G. Elliott Morris",
+      "Heather Cox Richardson from Letters from an American",
+      "Gabe Fleisher",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-07-30",
     "run_label": "7 AM",
     "generated_at": "2026-07-30T15:10:15.962714+00:00",
