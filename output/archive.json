@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-08-02",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-02T14:36:26.087514+00:00",
+    "filename": "2026-08-02-1436.json",
+    "articles_processed": 13,
+    "publications": [
+      "",
+      "Scott Galloway",
+      "Pete Buttigieg",
+      "Heather Cox Richardson from Letters from an American",
+      "Onest Network",
+      "Phillips P. OBrien from Phillips’s",
+      "Azeem Azhar, Exponential View",
+      "Paul Krugman",
+      "The Bulwark",
+      "Don Moynihan from Can We Still Govern?",
+      "G. Elliott Morris",
+      "Robert Reich"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-01",
     "run_label": "7 AM",
     "generated_at": "2026-08-01T14:26:25.207306+00:00",
