@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-03",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-03T15:43:18.302365+00:00",
+    "filename": "2026-08-03-1543.json",
+    "articles_processed": 29,
+    "publications": [
+      "Paul Krugman",
+      "Heather Cox Richardson from Letters from an American",
+      "Prof Robert Pape",
+      "FiftyPlusOne.news",
+      "John Ellis",
+      "AVDD",
+      "Free the Inquiry by Heterodox Academy",
+      "Prof Robert Pape from Escalation Trap",
+      "SCOTUSblog",
+      "Ruth Ben-Ghiat from Lucid",
+      "Azeem Azhar, Exponential View",
+      "ProPublica",
+      "Scott Galloway",
+      "Robert Reich",
+      "The Freedom Frequency",
+      "G. Elliott Morris",
+      "Noah Berlatsky from Public Notice",
+      "Open Letters, from Anne Applebaum",
+      "The Bulwark",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-02",
     "run_label": "7 AM",
     "generated_at": "2026-08-02T14:36:26.087514+00:00",
