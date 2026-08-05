@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-08-05",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-05T15:13:50.349966+00:00",
+    "filename": "2026-08-05-1513.json",
+    "articles_processed": 26,
+    "publications": [
+      "Jacob Morgan",
+      "Prof Robert Pape from Escalation Trap",
+      "Robert Reich",
+      "Free the Inquiry by Heterodox Academy",
+      "The Bulwark",
+      "Lisa Needham from Public Notice",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "ProPublica",
+      "Your Local Epidemiologist",
+      "Azeem Azhar, Exponential View",
+      "Heather Cox Richardson from Letters from an American",
+      "John Ellis",
+      "Scott Galloway",
+      "Paul Krugman",
+      "Slow Boring",
+      "Silver Bulletin",
+      "SCOTUSblog",
+      "Phillips P. OBrien and Fabian Hoffmann from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-04",
     "run_label": "7 AM",
     "generated_at": "2026-08-04T15:24:05.932818+00:00",
