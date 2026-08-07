@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-07",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-07T14:13:15.237368+00:00",
+    "filename": "2026-08-07-1413.json",
+    "articles_processed": 20,
+    "publications": [
+      "Paul Krugman",
+      "Robert Reich",
+      "John Ellis",
+      "Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "ProPublica",
+      "Heather Cox Richardson from Letters from an American",
+      "SCOTUSblog",
+      "David R. Lurie from Public Notice",
+      "The Bulwark",
+      "Slow Boring",
+      "Citrini",
+      "G. Elliott Morris",
+      "Louis-François from What's AI",
+      "Kareem Abdul-Jabbar"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-05",
     "run_label": "7 AM",
     "generated_at": "2026-08-05T15:13:50.349966+00:00",
