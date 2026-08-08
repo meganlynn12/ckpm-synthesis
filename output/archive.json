@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-08",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-08T13:45:40.734795+00:00",
+    "filename": "2026-08-08-1345.json",
+    "articles_processed": 12,
+    "publications": [
+      "Free the Inquiry by Heterodox Academy",
+      "Prof Robert Pape from Escalation Trap",
+      "John Ellis from Political News Items",
+      "Robert Reich",
+      "The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "Justin Glawe and Ava Shook from Public Notice",
+      "Prof Robert Pape",
+      "Paul Krugman",
+      "Heather Cox Richardson from Letters from an American",
+      "News Items by John Ellis"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-07",
     "run_label": "7 AM",
     "generated_at": "2026-08-07T14:13:15.237368+00:00",
