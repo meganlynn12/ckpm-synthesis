@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-13",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-13T14:21:46.939101+00:00",
+    "filename": "2026-08-13-1421.json",
+    "articles_processed": 22,
+    "publications": [
+      "Robert Reich",
+      "Galen Druke from GD POLITICS",
+      "Heather Cox Richardson from Letters from an American",
+      "Kasparov's Next Move",
+      "Phillips P. OBrien from Phillips’s",
+      "The Bulwark",
+      "Free the Inquiry by Heterodox Academy",
+      "John Ellis",
+      "Anat Shenker-Osorio from Public Notice",
+      "Paul Krugman",
+      "Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "Prof Robert Pape",
+      "FiftyPlusOne.news",
+      "Slow Boring",
+      "ProPublica",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-12",
     "run_label": "7 AM",
     "generated_at": "2026-08-12T14:20:32.144650+00:00",
