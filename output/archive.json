@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-14",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-14T14:15:32.241640+00:00",
+    "filename": "2026-08-14-1415.json",
+    "articles_processed": 22,
+    "publications": [
+      "SCOTUSblog",
+      "John Ellis",
+      "ProPublica",
+      "G. Elliott Morris",
+      "Paul Krugman",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Slow Boring",
+      "Kareem Abdul-Jabbar",
+      "Scott Galloway",
+      "The Bulwark",
+      "Gabe Fleisher",
+      "Lisa Needham from Public Notice",
+      "Prof Robert Pape"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-13",
     "run_label": "7 AM",
     "generated_at": "2026-08-13T14:21:46.939101+00:00",
