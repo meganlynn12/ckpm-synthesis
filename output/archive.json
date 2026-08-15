@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-15",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-15T13:30:22.673114+00:00",
+    "filename": "2026-08-15-1330.json",
+    "articles_processed": 15,
+    "publications": [
+      "The Bulwark",
+      "John Ellis",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Azeem Azhar, Exponential View",
+      "Phillips P. OBrien from Phillips’s",
+      "Paul Krugman",
+      "Brynn Tannehill from Public Notice",
+      "News Items by John Ellis"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-14",
     "run_label": "7 AM",
     "generated_at": "2026-08-14T14:15:32.241640+00:00",
