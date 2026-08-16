@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-16",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-16T13:31:20.181355+00:00",
+    "filename": "2026-08-16-1331.json",
+    "articles_processed": 8,
+    "publications": [
+      "",
+      "AVDD",
+      "Azeem Azhar, Exponential View",
+      "Paul Krugman",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Sarah Longwell - The Bulwark",
+      "Ruth Ben-Ghiat from Lucid"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-15",
     "run_label": "7 AM",
     "generated_at": "2026-08-15T13:30:22.673114+00:00",
