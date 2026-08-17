@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-08-17",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-17T13:39:08.438176+00:00",
+    "filename": "2026-08-17-1339.json",
+    "articles_processed": 18,
+    "publications": [
+      "Galen Druke from GD POLITICS",
+      "Noah Berlatsky from Public Notice",
+      "SCOTUSblog",
+      "Don Moynihan from Can We Still Govern?",
+      "Slow Boring",
+      "Phillips P. OBrien from Phillips’s",
+      "John Ellis",
+      "Scott Galloway",
+      "Paul Krugman",
+      "ProPublica",
+      "The Bulwark",
+      "John Ellis from Political News Items",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Onest Network"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-16",
     "run_label": "7 AM",
     "generated_at": "2026-08-16T13:31:20.181355+00:00",
