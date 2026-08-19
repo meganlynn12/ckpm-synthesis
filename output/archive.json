@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-19",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-19T13:43:24.130067+00:00",
+    "filename": "2026-08-19-1343.json",
+    "articles_processed": 20,
+    "publications": [
+      "SCOTUSblog",
+      "Azeem Azhar, Exponential View",
+      "ProPublica",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Jonathan Cohn - The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "John Ellis",
+      "Paul Krugman",
+      "Scott Galloway",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Liz Dye from Public Notice",
+      "The Bulwark",
+      "Slow Boring",
+      "AVDD"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-18",
     "run_label": "7 AM",
     "generated_at": "2026-08-18T13:41:46.054368+00:00",
