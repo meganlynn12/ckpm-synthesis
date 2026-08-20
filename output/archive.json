@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-20",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-20T13:46:55.192621+00:00",
+    "filename": "2026-08-20-1346.json",
+    "articles_processed": 20,
+    "publications": [
+      "Galen Druke",
+      "ProPublica",
+      "Paul Waldman from Public Notice",
+      "Center for Politics at UVA",
+      "SCOTUSblog",
+      "John Ellis",
+      "Robert Reich",
+      "The Bulwark",
+      "Louis-François from What's AI",
+      "FiftyPlusOne.news",
+      "Paul Krugman",
+      "Heather Cox Richardson from Letters from an American",
+      "Silver Bulletin",
+      "Michael Spencer from AI Supremacy",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-19",
     "run_label": "7 AM",
     "generated_at": "2026-08-19T13:43:24.130067+00:00",
