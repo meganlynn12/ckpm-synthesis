@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-21",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-21T13:45:00.148696+00:00",
+    "filename": "2026-08-21-1345.json",
+    "articles_processed": 20,
+    "publications": [
+      "The Bulwark",
+      "John Ellis",
+      "G. Elliott Morris",
+      "Ruth Ben-Ghiat from Lucid",
+      "Phillips P. OBrien from Phillips’s",
+      "Slow Boring",
+      "Free the Inquiry by Heterodox Academy",
+      "Robert Reich",
+      "SCOTUSblog",
+      "Heather Cox Richardson from Letters from an American",
+      "Paul Krugman",
+      "Tom Schaller from Public Notice",
+      "ProPublica",
+      "Sarah Longwell - The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-20",
     "run_label": "7 AM",
     "generated_at": "2026-08-20T13:46:55.192621+00:00",
