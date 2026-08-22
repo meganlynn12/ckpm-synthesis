@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-22",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-22T13:31:55.792545+00:00",
+    "filename": "2026-08-22-1331.json",
+    "articles_processed": 13,
+    "publications": [
+      "Onest Network",
+      "The Bulwark",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich",
+      "Michael Spencer from AI Supremacy",
+      "Paul Krugman",
+      "Sebastian Raschka, PhD from Ahead of AI",
+      "Prof Robert Pape",
+      "Aaron Rupar from Public Notice",
+      "Heather Cox Richardson from Letters from an American",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-21",
     "run_label": "7 AM",
     "generated_at": "2026-08-21T13:45:00.148696+00:00",
