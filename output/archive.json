@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-23",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-23T13:32:10.425974+00:00",
+    "filename": "2026-08-23-1332.json",
+    "articles_processed": 9,
+    "publications": [
+      "",
+      "Paul Krugman",
+      "Phillips P. OBrien from Phillips’s",
+      "The Bulwark",
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Heather Cox Richardson from Letters from an American",
+      "AVDD",
+      "Azeem Azhar, Exponential View"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-22",
     "run_label": "7 AM",
     "generated_at": "2026-08-22T13:31:55.792545+00:00",
