@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-24",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-24T13:59:42.684795+00:00",
+    "filename": "2026-08-24-1359.json",
+    "articles_processed": 17,
+    "publications": [
+      "Bulwark Takes",
+      "Noah Berlatsky from Public Notice",
+      "Phillips P. OBrien from Phillips’s",
+      "The Bulwark",
+      "Slow Boring",
+      "John Ellis",
+      "Paul Krugman",
+      "Robert Reich",
+      "ProPublica",
+      "Heather Cox Richardson from Letters from an American",
+      "Free the Inquiry by Heterodox Academy",
+      "Azeem Azhar, Exponential View",
+      "Prof Robert Pape from Escalation Trap",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-23",
     "run_label": "7 AM",
     "generated_at": "2026-08-23T13:32:10.425974+00:00",
