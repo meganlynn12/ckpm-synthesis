@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-08-25",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-25T13:50:30.064311+00:00",
+    "filename": "2026-08-25-1350.json",
+    "articles_processed": 23,
+    "publications": [
+      "Molly Hardy from Can We Still Govern?",
+      "Paul Krugman",
+      "Your Local Epidemiologist",
+      "Scott Galloway",
+      "Robert Reich",
+      "Open Letters, from Anne Applebaum",
+      "The Bulwark",
+      "Slow Boring",
+      "Lisa Needham from Public Notice",
+      "ProPublica",
+      "Prof Robert Pape from Escalation Trap",
+      "Kareem Abdul-Jabbar",
+      "John Ellis",
+      "Heather Cox Richardson from Letters from an American",
+      "Will Sommer - The Bulwark",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-24",
     "run_label": "7 AM",
     "generated_at": "2026-08-24T13:59:42.684795+00:00",
