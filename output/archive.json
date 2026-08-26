@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-26",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-26T13:54:28.236418+00:00",
+    "filename": "2026-08-26-1354.json",
+    "articles_processed": 20,
+    "publications": [
+      "SCOTUSblog",
+      "ProPublica",
+      "G. Elliott Morris",
+      "The Bulwark",
+      "Paul Krugman",
+      "Robert Reich",
+      "Ruth Ben-Ghiat from Lucid",
+      "Liz Dye from Public Notice",
+      "Heather Cox Richardson from Letters from an American",
+      "John Ellis",
+      "Your Local Epidemiologist",
+      "Phillips P. OBrien from Phillips’s",
+      "Michael Spencer from AI Supremacy",
+      "Slow Boring",
+      "Timothy Snyder from \\\"Thinking about...\\"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-25",
     "run_label": "7 AM",
     "generated_at": "2026-08-25T13:50:30.064311+00:00",
