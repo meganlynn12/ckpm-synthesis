@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-27",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-27T22:50:29.210396+00:00",
+    "filename": "2026-08-27-2250.json",
+    "articles_processed": 24,
+    "publications": [
+      "Paul Krugman",
+      "Onest Network",
+      "Galen Druke",
+      "Slow Boring",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Center for Politics at UVA",
+      "Paul Waldman from Public Notice",
+      "G. Elliott Morris",
+      "Robert Reich",
+      "ProPublica",
+      "The Freedom Frequency",
+      "Prof Robert Pape",
+      "Louis-François from Learn AI Together",
+      "Citrini"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-26",
     "run_label": "7 AM",
     "generated_at": "2026-08-26T13:54:28.236418+00:00",
