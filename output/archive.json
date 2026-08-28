@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-08-28",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-28T22:54:21.384058+00:00",
+    "filename": "2026-08-28-2254.json",
+    "articles_processed": 30,
+    "publications": [
+      "Aaron Rupar and Thor Benson from Public Notice",
+      "Slow Boring",
+      "FiftyPlusOne.news",
+      "SCOTUSblog",
+      "Louis-François from What's AI",
+      "G. Elliott Morris",
+      "Kareem Abdul-Jabbar",
+      "The Bulwark",
+      "Heather Cox Richardson from Letters from an American",
+      "Robert Reich",
+      "ProPublica",
+      "Scott Galloway",
+      "Your Local Epidemiologist",
+      "Silver Bulletin",
+      "Gabe Fleisher",
+      "The Freedom Frequency",
+      "Paul Krugman",
+      "Richard Haass, Home & Away"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-27",
     "run_label": "7 AM",
     "generated_at": "2026-08-27T22:50:29.210396+00:00",
