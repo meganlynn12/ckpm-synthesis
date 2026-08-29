@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-29",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-29T17:00:05.862611+00:00",
+    "filename": "2026-08-29-1700.json",
+    "articles_processed": 12,
+    "publications": [
+      "Adam Grant, Granted",
+      "AVDD",
+      "Paul Krugman",
+      "Joe Perticone - The Bulwark",
+      "Robert Reich",
+      "Slow Boring",
+      "Onest Network",
+      "Scott Galloway",
+      "Aaron Rupar and Thor Benson from Public Notice",
+      "Heather Cox Richardson from Letters from an American",
+      "The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-28",
     "run_label": "7 AM",
     "generated_at": "2026-08-28T22:54:21.384058+00:00",
