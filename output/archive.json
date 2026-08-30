@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-30",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-30T17:13:36.345396+00:00",
+    "filename": "2026-08-30-1713.json",
+    "articles_processed": 9,
+    "publications": [
+      "G. Elliott Morris",
+      "",
+      "Robert Reich",
+      "The Bulwark",
+      "Don Moynihan from Can We Still Govern?",
+      "Phillips P. OBrien from Phillips’s",
+      "Paul Krugman",
+      "Heather Cox Richardson from Letters from an American",
+      "Ruth Ben-Ghiat and Mary L Trump from Lucid"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-29",
     "run_label": "7 AM",
     "generated_at": "2026-08-29T17:00:05.862611+00:00",
