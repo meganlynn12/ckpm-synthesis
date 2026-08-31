@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-31",
+    "run_label": "7 AM",
+    "generated_at": "2026-08-31T19:24:36.572674+00:00",
+    "filename": "2026-08-31-1924.json",
+    "articles_processed": 25,
+    "publications": [
+      "Scott Galloway",
+      "Slow Boring",
+      "Prof Robert Pape",
+      "AVDD",
+      "Robert Reich",
+      "ProPublica",
+      "Prof Robert Pape from Escalation Trap",
+      "Sam Stein—The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "SCOTUSblog",
+      "The Freedom Frequency",
+      "Gabe Fleisher",
+      "Onest Network",
+      "The Bulwark",
+      "John Ellis",
+      "Paul Krugman",
+      "Paul Waldman from Public Notice"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-30",
     "run_label": "7 AM",
     "generated_at": "2026-08-30T17:13:36.345396+00:00",
