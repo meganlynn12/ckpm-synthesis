@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-01",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-01T17:11:10.857423+00:00",
+    "filename": "2026-09-01-1711.json",
+    "articles_processed": 29,
+    "publications": [
+      "G. Elliott Morris",
+      "Michael Spencer, CT Zhao, and Han Chen from AI Supremacy",
+      "Scott Galloway",
+      "Azeem Azhar, Exponential View",
+      "Your Local Epidemiologist",
+      "Heather Cox Richardson from Letters from an American",
+      "Ruth Ben-Ghiat from Lucid",
+      "Prof Robert Pape from Escalation Trap",
+      "Robert Reich",
+      "Kareem Abdul-Jabbar",
+      "Slow Boring",
+      "The Freedom Frequency",
+      "Noah Berlatsky from Public Notice",
+      "Louie from Towards AI",
+      "Paul Krugman",
+      "John Ellis from Political News Items",
+      "John Ellis",
+      "SCOTUSblog",
+      "The Bulwark",
+      "ProPublica"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-08-31",
     "run_label": "7 AM",
     "generated_at": "2026-08-31T19:24:36.572674+00:00",
