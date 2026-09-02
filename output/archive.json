@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-02",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-02T17:01:43.908889+00:00",
+    "filename": "2026-09-02-1701.json",
+    "articles_processed": 29,
+    "publications": [
+      "",
+      "The Bulwark",
+      "Slow Boring",
+      "G. Elliott Morris",
+      "AVDD",
+      "Liz Dye from Public Notice",
+      "Paul Krugman",
+      "Robert Reich",
+      "Scott Galloway",
+      "The Freedom Frequency",
+      "Phillips P. OBrien from Phillips’s",
+      "John Ellis",
+      "ProPublica",
+      "Gabe Fleisher",
+      "Prof Robert Pape from Escalation Trap",
+      "Don Moynihan from Can We Still Govern?",
+      "Center for Politics at UVA",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Your Local Epidemiologist",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-01",
     "run_label": "7 AM",
     "generated_at": "2026-09-01T17:11:10.857423+00:00",
