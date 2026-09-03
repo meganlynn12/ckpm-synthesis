@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-03",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-03T16:57:07.622697+00:00",
+    "filename": "2026-09-03-1657.json",
+    "articles_processed": 31,
+    "publications": [
+      "The Freedom Frequency",
+      "Galen Druke",
+      "Robert Reich",
+      "Center for Politics at UVA",
+      "ProPublica",
+      "Kasparov's Next Move",
+      "Tom Schaller from Public Notice",
+      "Slow Boring",
+      "Michael Spencer from AI Supremacy",
+      "Gabe Fleisher",
+      "Matthew Yglesias",
+      "Data Science Weekly",
+      "SCOTUSblog",
+      "John Ellis",
+      "The Bulwark",
+      "Louis-François from Learn AI Together",
+      "Paul Krugman",
+      "Charlie Cook Politics",
+      "Scott Galloway",
+      "Prof Robert Pape",
+      "John Ellis from Political News Items",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-02",
     "run_label": "7 AM",
     "generated_at": "2026-09-02T17:01:43.908889+00:00",
