@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-09-04",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-04T16:45:44.813384+00:00",
+    "filename": "2026-09-04-1645.json",
+    "articles_processed": 24,
+    "publications": [
+      "FiftyPlusOne.news",
+      "Sarah Longwell - The Bulwark",
+      "Slow Boring",
+      "Lisa Needham from Public Notice",
+      "Heather Cox Richardson from Letters from an American",
+      "Phillips P. OBrien from Phillips’s",
+      "ProPublica",
+      "SCOTUSblog",
+      "Paul Krugman",
+      "John Ellis",
+      "Gabe Fleisher",
+      "The Bulwark",
+      "Scott Galloway",
+      "John Ellis from Political News Items",
+      "Open Letters, from Anne Applebaum"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-03",
     "run_label": "7 AM",
     "generated_at": "2026-09-03T16:57:07.622697+00:00",
