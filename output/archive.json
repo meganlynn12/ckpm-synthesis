@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-05",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-05T15:49:42.493271+00:00",
+    "filename": "2026-09-05-1549.json",
+    "articles_processed": 15,
+    "publications": [
+      "Aaron Rupar from Public Notice",
+      "Sarah and JVL - The Bulwark",
+      "Ruth Ben-Ghiat from Lucid",
+      "Robert Reich",
+      "Onest Network",
+      "The Bulwark",
+      "Slow Boring",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Prof Robert Pape",
+      "Charlotte Clymer from Charlotte's Web Thoughts",
+      "John Ellis",
+      "Silver Bulletin",
+      "Heather Cox Richardson from Letters from an American",
+      "Paul Krugman"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-04",
     "run_label": "7 AM",
     "generated_at": "2026-09-04T16:45:44.813384+00:00",
