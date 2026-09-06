@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-06",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-06T16:00:21.953456+00:00",
+    "filename": "2026-09-06-1600.json",
+    "articles_processed": 10,
+    "publications": [
+      "",
+      "Don Moynihan from Can We Still Govern?",
+      "Azeem Azhar, Exponential View",
+      "Paul Krugman",
+      "Robert Reich",
+      "The Bulwark",
+      "AVDD",
+      "Phillips P. OBrien from Phillips’s",
+      "Heather Cox Richardson from Letters from an American",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-05",
     "run_label": "7 AM",
     "generated_at": "2026-09-05T15:49:42.493271+00:00",
