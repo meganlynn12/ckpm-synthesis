@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-07",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-07T18:07:54.440501+00:00",
+    "filename": "2026-09-07-1807.json",
+    "articles_processed": 19,
+    "publications": [
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "The Freedom Frequency",
+      "John Ellis from Political News Items",
+      "Noah Berlatsky from Public Notice",
+      "Robert Reich",
+      "Azeem Azhar, Exponential View",
+      "Prof Robert Pape from Escalation Trap",
+      "Galen Druke",
+      "Paul Krugman",
+      "Silver Bulletin",
+      "Phillips P. OBrien from Phillips’s",
+      "The Bulwark",
+      "Louie from Towards AI",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-06",
     "run_label": "7 AM",
     "generated_at": "2026-09-06T16:00:21.953456+00:00",
