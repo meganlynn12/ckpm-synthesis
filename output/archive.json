@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-09-08",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-08T17:05:55.213497+00:00",
+    "filename": "2026-09-08-1705.json",
+    "articles_processed": 26,
+    "publications": [
+      "The Freedom Frequency",
+      "Prof Robert Pape",
+      "Kareem Abdul-Jabbar",
+      "SCOTUSblog",
+      "Prof Robert Pape from Escalation Trap",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "ProPublica",
+      "Paul Waldman from Public Notice",
+      "Scott Galloway",
+      "Slow Boring",
+      "Michael Spencer from AI Supremacy",
+      "The Bulwark",
+      "Paul Krugman",
+      "John Ellis"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-07",
     "run_label": "7 AM",
     "generated_at": "2026-09-07T18:07:54.440501+00:00",
