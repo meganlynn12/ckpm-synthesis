@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-09",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-09T17:03:13.858199+00:00",
+    "filename": "2026-09-09-1703.json",
+    "articles_processed": 26,
+    "publications": [
+      "Paul Krugman",
+      "AVDD",
+      "Louie from Towards AI",
+      "Sebastian Raschka, PhD from Ahead of AI",
+      "Center for Politics at UVA",
+      "ProPublica",
+      "Scott Galloway",
+      "Slow Boring",
+      "Liz Dye from Public Notice",
+      "Robert Reich",
+      "John Ellis",
+      "The Bulwark",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "SCOTUSblog",
+      "Phillips P. OBrien from Phillips’s",
+      "Louis-François from Learn AI Together",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-08",
     "run_label": "7 AM",
     "generated_at": "2026-09-08T17:05:55.213497+00:00",
