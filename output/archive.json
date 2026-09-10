@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-10",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-10T16:54:47.653408+00:00",
+    "filename": "2026-09-10-1654.json",
+    "articles_processed": 38,
+    "publications": [
+      "SCOTUSblog",
+      "Louis-François from Learn AI Together",
+      "Michael Spencer from AI Supremacy",
+      "ProPublica",
+      "Slow Boring",
+      "Louis-François from What's AI",
+      "Heather Cox Richardson from Letters from an American",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Center for Politics at UVA",
+      "Data Science Weekly",
+      "The Bulwark",
+      "John Ellis",
+      "Silver Bulletin",
+      "Center for Humane Technology",
+      "Paul Krugman",
+      "Scott Galloway",
+      "Tom Schaller from Public Notice",
+      "Energy Common Sense",
+      "Galen Druke"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-09",
     "run_label": "7 AM",
     "generated_at": "2026-09-09T17:03:13.858199+00:00",
