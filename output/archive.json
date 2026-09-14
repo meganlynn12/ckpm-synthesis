@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-14",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-14T18:22:08.012803+00:00",
+    "filename": "2026-09-14-1822.json",
+    "articles_processed": 31,
+    "publications": [
+      "Paul Krugman",
+      "Azeem Azhar, Exponential View",
+      "Gabe Fleisher",
+      "SCOTUSblog",
+      "John Ellis",
+      "Robert Reich",
+      "Prof Robert Pape from Escalation Trap",
+      "Phillips P. OBrien from Phillips’s",
+      "Your Local Epidemiologist",
+      "ProPublica",
+      "The Bulwark",
+      "Klement on Investing",
+      "Michael Spencer from AI Supremacy",
+      "Slow Boring",
+      "Heather Cox Richardson from Letters from an American",
+      "Kasparov's Next Move",
+      "Louis-François from What's AI",
+      "AVDD",
+      "The Freedom Frequency",
+      "Noah Berlatsky from Public Notice",
+      "Scott Galloway",
+      "Onest Network"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-13",
     "run_label": "7 AM",
     "generated_at": "2026-09-13T16:51:27.437562+00:00",
