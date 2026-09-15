@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-09-15",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-15T17:29:44.184927+00:00",
+    "filename": "2026-09-15-1729.json",
+    "articles_processed": 26,
+    "publications": [
+      "Kareem Abdul-Jabbar",
+      "Robert Reich",
+      "SCOTUSblog",
+      "John Ellis",
+      "Louie from Towards AI",
+      "Paul Krugman",
+      "Paul Waldman from Public Notice",
+      "Klement on Investing",
+      "ProPublica",
+      "The Bulwark",
+      "Your Local Epidemiologist",
+      "Azeem Azhar, Exponential View",
+      "Scott Galloway",
+      "Heather Cox Richardson from Letters from an American",
+      "Slow Boring",
+      "Open Letters, from Anne Applebaum",
+      "G. Elliott Morris",
+      "Ruth Ben-Ghiat from Lucid"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-14",
     "run_label": "7 AM",
     "generated_at": "2026-09-14T18:22:08.012803+00:00",
