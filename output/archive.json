@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-16",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-16T17:30:05.642889+00:00",
+    "filename": "2026-09-16-1730.json",
+    "articles_processed": 34,
+    "publications": [
+      "",
+      "Citrini",
+      "John Ellis",
+      "Don Moynihan from Can We Still Govern?",
+      "Scott Galloway",
+      "Liz Dye from Public Notice",
+      "Pete Buttigieg",
+      "Michael Spencer and Jeff Morhous from AI Supremacy",
+      "Heather Cox Richardson from Letters from an American",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Slow Boring",
+      "Prof Robert Pape from Escalation Trap",
+      "Center for Politics at UVA",
+      "SCOTUSblog",
+      "Your Local Epidemiologist",
+      "Gabe Fleisher",
+      "Klement on Investing",
+      "ProPublica",
+      "The Bulwark",
+      "Robert Reich",
+      "Paul Krugman",
+      "Phillips P. OBrien from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-15",
     "run_label": "7 AM",
     "generated_at": "2026-09-15T17:29:44.184927+00:00",
