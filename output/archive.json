@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-09-17",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-17T17:30:07.655384+00:00",
+    "filename": "2026-09-17-1730.json",
+    "articles_processed": 24,
+    "publications": [
+      "Galen Druke from GD POLITICS",
+      "Slow Boring",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Silver Bulletin",
+      "Paul Krugman",
+      "Scott Galloway",
+      "Tom Schaller from Public Notice",
+      "Louis-François from Learn AI Together",
+      "Klement on Investing",
+      "ProPublica",
+      "John Ellis",
+      "Azeem Azhar, Exponential View",
+      "Heather Cox Richardson from Letters from an American",
+      "Jon Haidt from After Babel",
+      "Robert Reich"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-16",
     "run_label": "7 AM",
     "generated_at": "2026-09-16T17:30:05.642889+00:00",
