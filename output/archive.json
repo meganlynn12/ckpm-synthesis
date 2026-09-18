@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-18",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-18T16:57:45.532529+00:00",
+    "filename": "2026-09-18-1657.json",
+    "articles_processed": 32,
+    "publications": [
+      "Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "AVDD",
+      "Klement on Investing",
+      "Gabe Fleisher",
+      "Paul Krugman",
+      "ProPublica",
+      "G. Elliott Morris",
+      "Prof Robert Pape",
+      "SCOTUSblog",
+      "Slow Boring",
+      "John Ellis",
+      "Kareem Abdul-Jabbar",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Phillips P. OBrien from Phillips’s",
+      "Your Local Epidemiologist",
+      "Lisa Needham from Public Notice",
+      "FiftyPlusOne.news",
+      "The Freedom Frequency",
+      "The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-17",
     "run_label": "7 AM",
     "generated_at": "2026-09-17T17:30:07.655384+00:00",
