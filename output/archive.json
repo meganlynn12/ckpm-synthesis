@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-19",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-19T16:16:39.104557+00:00",
+    "filename": "2026-09-19-1616.json",
+    "articles_processed": 17,
+    "publications": [
+      "The Bulwark",
+      "Energy Common Sense",
+      "John Ellis",
+      "Open Letters, from Anne Applebaum",
+      "Paul Krugman",
+      "Azeem Azhar, Exponential View",
+      "Prof Robert Pape from Escalation Trap",
+      "Aaron Rupar from Public Notice",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Robert Reich",
+      "Phillips P. OBrien from Phillips’s",
+      "Heather Cox Richardson from Letters from an American",
+      "ProPublica",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-18",
     "run_label": "7 AM",
     "generated_at": "2026-09-18T16:57:45.532529+00:00",
