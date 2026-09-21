@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-09-21",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-21T18:30:02.163976+00:00",
+    "filename": "2026-09-21-1830.json",
+    "articles_processed": 30,
+    "publications": [
+      "Noah Berlatsky from Public Notice",
+      "Robert Reich",
+      "Prof Robert Pape from Escalation Trap",
+      "SCOTUSblog",
+      "The Bulwark",
+      "AVDD",
+      "Phillips P. OBrien from Phillips’s",
+      "ProPublica",
+      "Slow Boring",
+      "Paul Krugman",
+      "LS from Can We Still Govern?",
+      "The Freedom Frequency",
+      "Heather Cox Richardson from Letters from an American",
+      "Scott Galloway",
+      "Klement on Investing",
+      "Kasparov's Next Move",
+      "Azeem Azhar, Exponential View",
+      "Gabe Fleisher",
+      "Timothy Snyder from \\\"Thinking about...\\"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-20",
     "run_label": "7 AM",
     "generated_at": "2026-09-20T16:42:08.438517+00:00",
