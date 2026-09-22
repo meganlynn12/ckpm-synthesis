@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-22",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-22T17:32:24.046072+00:00",
+    "filename": "2026-09-22-1732.json",
+    "articles_processed": 9,
+    "publications": [
+      "ProPublica",
+      "Robert Reich",
+      "JVL - The Bulwark",
+      "The Bulwark",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Center for Politics at UVA",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-21",
     "run_label": "7 AM",
     "generated_at": "2026-09-21T18:30:02.163976+00:00",
