@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-09-25",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-25T17:47:42.381349+00:00",
+    "filename": "2026-09-25-1747.json",
+    "articles_processed": 26,
+    "publications": [
+      "AVDD",
+      "Azeem Azhar, Exponential View",
+      "Richard Haass, Home & Away",
+      "John Ellis",
+      "G. Elliott Morris",
+      "Scott Galloway",
+      "The Bulwark",
+      "Paul Krugman",
+      "Kenny Stancil and Chris Dols from Can We Still Govern?",
+      "SCOTUSblog",
+      "Charlie Cook Politics",
+      "ProPublica",
+      "Gabe Fleisher",
+      "Slow Boring",
+      "Justin Glawe from Public Notice"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-24",
     "run_label": "7 AM",
     "generated_at": "2026-09-24T17:45:48.106345+00:00",
