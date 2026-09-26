@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-09-26",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-26T16:53:10.646459+00:00",
+    "filename": "2026-09-26-1653.json",
+    "articles_processed": 17,
+    "publications": [
+      "Slow Boring",
+      "Phillips P. OBrien and Kate Leschyshyn from Phillips’s",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Heather Cox Richardson from Letters from an American",
+      "Azeem Azhar, Exponential View",
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Prof Robert Pape from Escalation Trap",
+      "ProPublica",
+      "Paul Krugman",
+      "Brynn Tannehill from Public Notice",
+      "Michael Spencer from AI Supremacy",
+      "John Ellis",
+      "The Bulwark",
+      "The Freedom Frequency"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-25",
     "run_label": "7 AM",
     "generated_at": "2026-09-25T17:47:42.381349+00:00",
