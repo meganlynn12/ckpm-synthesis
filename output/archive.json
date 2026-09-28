@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-09-28",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-28T20:00:44.007029+00:00",
+    "filename": "2026-09-28-2000.json",
+    "articles_processed": 19,
+    "publications": [
+      "G. Elliott Morris",
+      "Phillips P. OBrien from Phillips’s",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Scott Galloway",
+      "Slow Boring",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Don Moynihan from Can We Still Govern?",
+      "Gabe Fleisher",
+      "Silver Bulletin",
+      "Jacob Morgan",
+      "Prof Robert Pape",
+      "ProPublica"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-27",
     "run_label": "7 AM",
     "generated_at": "2026-09-27T17:33:26.661580+00:00",
