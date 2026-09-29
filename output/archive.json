@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-29",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-29T18:28:34.198581+00:00",
+    "filename": "2026-09-29-1828.json",
+    "articles_processed": 33,
+    "publications": [
+      "Scott Galloway",
+      "Onest Network",
+      "David R. Lurie from Public Notice",
+      "Your Local Epidemiologist",
+      "Michael Spencer from AI Supremacy",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "SCOTUSblog",
+      "Slow Boring",
+      "The Freedom Frequency",
+      "Azeem Azhar, Exponential View",
+      "The Bulwark",
+      "Robert Reich",
+      "ProPublica",
+      "G. Elliott Morris",
+      "Louis-François from What's AI",
+      "John Ellis",
+      "Sebastian Raschka, PhD from Ahead of AI",
+      "AVDD",
+      "Kareem Abdul-Jabbar",
+      "Louie from Towards AI",
+      "Klement on Investing",
+      "Paul Krugman"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-28",
     "run_label": "7 AM",
     "generated_at": "2026-09-28T20:00:44.007029+00:00",
