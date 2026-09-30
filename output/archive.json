@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-30",
+    "run_label": "7 AM",
+    "generated_at": "2026-09-30T18:17:39.310855+00:00",
+    "filename": "2026-09-30-1817.json",
+    "articles_processed": 31,
+    "publications": [
+      "",
+      "Robert Reich",
+      "John Ellis",
+      "SCOTUSblog",
+      "Klement on Investing",
+      "Pete Buttigieg",
+      "Liz Dye from Public Notice",
+      "Your Local Epidemiologist",
+      "Catherine Rampell - The Bulwark",
+      "The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "Heather Cox Richardson from Letters from an American",
+      "Adam Grant, Granted",
+      "Prof Robert Pape from Escalation Trap",
+      "Slow Boring",
+      "Gabe Fleisher",
+      "Scott Galloway",
+      "ProPublica",
+      "The Freedom Frequency",
+      "Dermot McGrath from AI Supremacy",
+      "Paul Krugman"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-29",
     "run_label": "7 AM",
     "generated_at": "2026-09-29T18:28:34.198581+00:00",
