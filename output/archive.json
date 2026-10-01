@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-01",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-01T18:42:54.152641+00:00",
+    "filename": "2026-10-01-1842.json",
+    "articles_processed": 28,
+    "publications": [
+      "Robert Reich",
+      "ProPublica",
+      "Klement on Investing",
+      "Your Local Epidemiologist",
+      "Paul Krugman",
+      "Galen Druke from GD POLITICS",
+      "Data Science Weekly",
+      "SCOTUSblog",
+      "Center for Politics at UVA",
+      "John Ellis",
+      "Slow Boring",
+      "Michael Spencer from AI Supremacy",
+      "Louis-François from Learn AI Together",
+      "Scott Galloway",
+      "Paul Waldman from Public Notice",
+      "Silver Bulletin",
+      "The Freedom Frequency",
+      "Prof Robert Pape from Escalation Trap",
+      "The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-09-30",
     "run_label": "7 AM",
     "generated_at": "2026-09-30T18:17:39.310855+00:00",
