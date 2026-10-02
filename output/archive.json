@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-02",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-02T18:13:49.771451+00:00",
+    "filename": "2026-10-02-1813.json",
+    "articles_processed": 30,
+    "publications": [
+      "Scott Galloway",
+      "John Ellis",
+      "Slow Boring",
+      "ProPublica",
+      "FiftyPlusOne.news",
+      "Phillips P. OBrien from Phillips’s",
+      "Kareem Abdul-Jabbar",
+      "Margo J Anderson from Can We Still Govern?",
+      "Klement on Investing",
+      "Heather Cox Richardson from Letters from an American",
+      "SCOTUSblog",
+      "The Bulwark",
+      "The Freedom Frequency",
+      "Gabe Fleisher",
+      "G. Elliott Morris",
+      "Lisa Needham from Public Notice",
+      "Paul Krugman",
+      "Robert Reich",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Prof Robert Pape from Escalation Trap",
+      "Sarah Longwell—The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-01",
     "run_label": "7 AM",
     "generated_at": "2026-10-01T18:42:54.152641+00:00",
