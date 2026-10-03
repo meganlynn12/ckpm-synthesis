@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-03",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-03T17:00:29.933130+00:00",
+    "filename": "2026-10-03-1700.json",
+    "articles_processed": 16,
+    "publications": [
+      "Your Local Epidemiologist",
+      "Tom Schaller from Public Notice",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "Silver Bulletin",
+      "Slow Boring",
+      "ProPublica",
+      "Open Letters, from Anne Applebaum",
+      "Prof Robert Pape from Escalation Trap",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Azeem Azhar, Exponential View",
+      "Scott Galloway",
+      "The Bulwark",
+      "G. Elliott Morris",
+      "Paul Krugman"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-02",
     "run_label": "7 AM",
     "generated_at": "2026-10-02T18:13:49.771451+00:00",
