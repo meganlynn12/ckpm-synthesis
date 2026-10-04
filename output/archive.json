@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-04",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-04T17:19:18.682332+00:00",
+    "filename": "2026-10-04-1719.json",
+    "articles_processed": 12,
+    "publications": [
+      "",
+      "G. Elliott Morris",
+      "The Bulwark",
+      "John Ellis",
+      "Scott Galloway",
+      "Robert Reich",
+      "Paul Krugman",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Heather Cox Richardson from Letters from an American",
+      "Phillips P. OBrien from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-03",
     "run_label": "7 AM",
     "generated_at": "2026-10-03T17:00:29.933130+00:00",
