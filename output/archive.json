@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-06",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-06T18:48:46.634788+00:00",
+    "filename": "2026-10-06-1848.json",
+    "articles_processed": 34,
+    "publications": [
+      "Robert Reich",
+      "Your Local Epidemiologist",
+      "FiftyPlusOne.news",
+      "Silver Bulletin",
+      "Klement on Investing",
+      "John Ellis",
+      "Paul Krugman",
+      "Louie from Towards AI",
+      "The Bulwark",
+      "Don Moynihan from Can We Still Govern?",
+      "G. Elliott Morris",
+      "Center for Politics at UVA",
+      "Prof Robert Pape",
+      "ProPublica",
+      "Slow Boring",
+      "Jacob Morgan",
+      "Heather Cox Richardson from Letters from an American",
+      "SCOTUSblog",
+      "Paul Waldman from Public Notice",
+      "Scott Galloway",
+      "Ruth Ben-Ghiat and Casey Michel from Lucid",
+      "Kareem Abdul-Jabbar",
+      "Kasparov's Next Move"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-04",
     "run_label": "7 AM",
     "generated_at": "2026-10-04T17:19:18.682332+00:00",
