@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-10-07",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-07T19:13:29.650260+00:00",
+    "filename": "2026-10-07-1913.json",
+    "articles_processed": 33,
+    "publications": [
+      "Robert Reich",
+      "AVDD",
+      "Gabe Fleisher",
+      "Tim, Sarah and JVL - The Bulwark",
+      "Jasmine Sun",
+      "SCOTUSblog",
+      "Azeem Azhar, Exponential View",
+      "ProPublica",
+      "John Ellis",
+      "Your Local Epidemiologist",
+      "John Ellis from Political News Items",
+      "Scott Galloway",
+      "Paul Krugman",
+      "Slow Boring",
+      "Klement on Investing",
+      "The Bulwark",
+      "Prof Robert Pape",
+      "Prof Robert Pape from Escalation Trap",
+      "Phillips P. OBrien from Phillips’s",
+      "Noah Berlatsky from Public Notice",
+      "Louie from Towards AI",
+      "Michael Spencer from AI Supremacy"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-06",
     "run_label": "7 AM",
     "generated_at": "2026-10-06T18:48:46.634788+00:00",
