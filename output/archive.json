@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-10-08",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-08T19:09:55.040838+00:00",
+    "filename": "2026-10-08-1909.json",
+    "articles_processed": 16,
+    "publications": [
+      "SCOTUSblog",
+      "Robert Reich",
+      "Tom Schaller from Public Notice",
+      "G. Elliott Morris",
+      "Jacob Morgan",
+      "Paul Krugman",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "John Ellis",
+      "ProPublica",
+      "The Bulwark",
+      "FiftyPlusOne.news"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-07",
     "run_label": "7 AM",
     "generated_at": "2026-10-07T19:13:29.650260+00:00",
