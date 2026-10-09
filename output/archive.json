@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-09",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-09T18:40:26.192897+00:00",
+    "filename": "2026-10-09-1840.json",
+    "articles_processed": 39,
+    "publications": [
+      "John Ellis",
+      "Paul Krugman",
+      "Slow Boring",
+      "Scott Galloway",
+      "Robert Reich",
+      "Your Local Epidemiologist",
+      "SCOTUSblog",
+      "FiftyPlusOne.news",
+      "ProPublica",
+      "Onest Network",
+      "The Bulwark",
+      "Silver Bulletin",
+      "Richard Haass, Home & Away",
+      "Sarah Longwell—The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "Aaron Rupar and Paul Waldman from Public Notice",
+      "Klement on Investing",
+      "The Freedom Frequency",
+      "Prof Robert Pape",
+      "Gabe Fleisher",
+      "Lisa Needham from Public Notice",
+      "Michael Spencer from AI Supremacy",
+      "Louis-François from Learn AI Together"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-08",
     "run_label": "7 AM",
     "generated_at": "2026-10-08T19:09:55.040838+00:00",
