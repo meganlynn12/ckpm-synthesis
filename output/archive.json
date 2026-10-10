@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-10-10",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-10T17:39:47.058864+00:00",
+    "filename": "2026-10-10-1739.json",
+    "articles_processed": 17,
+    "publications": [
+      "Slow Boring",
+      "Phillips P. OBrien from Phillips’s",
+      "Michael Spencer from AI Supremacy",
+      "Aaron Rupar and Thor Benson from Public Notice",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Scott Galloway",
+      "John Ellis",
+      "Azeem Azhar, Exponential View",
+      "The Bulwark",
+      "Robert Reich",
+      "ProPublica",
+      "Paul Krugman",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-09",
     "run_label": "7 AM",
     "generated_at": "2026-10-09T18:40:26.192897+00:00",
