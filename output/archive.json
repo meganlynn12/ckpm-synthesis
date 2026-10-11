@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-10-11",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-11T17:55:15.034515+00:00",
+    "filename": "2026-10-11-1755.json",
+    "articles_processed": 13,
+    "publications": [
+      "John Ellis",
+      "",
+      "Onest Network",
+      "G. Elliott Morris",
+      "Prof Robert Pape",
+      "Paul Krugman",
+      "The Bulwark",
+      "Robert Reich",
+      "John Ellis from Political News Items",
+      "Phillips P. OBrien from Phillips’s",
+      "Jon Haidt from After Babel"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-10",
     "run_label": "7 AM",
     "generated_at": "2026-10-10T17:39:47.058864+00:00",
