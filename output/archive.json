@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-12",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-12T21:35:04.799302+00:00",
+    "filename": "2026-10-12-2135.json",
+    "articles_processed": 27,
+    "publications": [
+      "SCOTUSblog",
+      "Scott Galloway",
+      "Slow Boring",
+      "Bulwark Takes",
+      "Robert Reich",
+      "Michael Spencer and Ayesha Tariq, CFA from AI Supremacy",
+      "Paul Krugman",
+      "The Bulwark",
+      "Vanessa Williamson and Ellis Chen from Can We Still Govern?",
+      "Lisa Needham from Public Notice",
+      "Galen Druke from GD POLITICS",
+      "Jessica Tarlov & Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "Gabe Fleisher",
+      "The Freedom Frequency",
+      "Prof Robert Pape",
+      "John Ellis",
+      "G. Elliott Morris",
+      "Ruth Ben-Ghiat from Lucid",
+      "Azeem Azhar, Exponential View",
+      "Louis-François from What's AI"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-11",
     "run_label": "7 AM",
     "generated_at": "2026-10-11T17:55:15.034515+00:00",
