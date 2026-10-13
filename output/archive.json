@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-13",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-13T19:45:52.791575+00:00",
+    "filename": "2026-10-13-1945.json",
+    "articles_processed": 31,
+    "publications": [
+      "Noah Berlatsky from Public Notice",
+      "Silver Bulletin",
+      "Jacob Morgan",
+      "Louis-François from What's AI",
+      "The Bulwark",
+      "Phillips P. OBrien from Phillips’s",
+      "Onest Network",
+      "Scott Galloway",
+      "AVDD",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Slow Boring",
+      "Robert Reich",
+      "Louis-François from Learn AI Together",
+      "Jon Haidt from After Babel",
+      "SCOTUSblog",
+      "ProPublica",
+      "Paul Krugman",
+      "John Ellis",
+      "Ruth Ben-Ghiat from Lucid"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-12",
     "run_label": "7 AM",
     "generated_at": "2026-10-12T21:35:04.799302+00:00",
