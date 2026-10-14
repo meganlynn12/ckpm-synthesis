@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-14",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-14T17:48:47.279766+00:00",
+    "filename": "2026-10-14-1748.json",
+    "articles_processed": 30,
+    "publications": [
+      "",
+      "Open Letters, from Anne Applebaum",
+      "Robert Reich",
+      "Scott Galloway",
+      "Paul Krugman",
+      "John Ellis",
+      "Your Local Epidemiologist",
+      "The Bulwark",
+      "ProPublica",
+      "G. Elliott Morris",
+      "Gabe Fleisher",
+      "Klement on Investing",
+      "Liz Dye from Public Notice",
+      "Slow Boring",
+      "Michael Spencer from AI Supremacy",
+      "Prof Robert Pape from Escalation Trap",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-13",
     "run_label": "7 AM",
     "generated_at": "2026-10-13T19:45:52.791575+00:00",
