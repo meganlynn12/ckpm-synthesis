@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-16",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-16T17:11:11.894943+00:00",
+    "filename": "2026-10-16-1711.json",
+    "articles_processed": 19,
+    "publications": [
+      "Prof Robert Pape",
+      "SCOTUSblog",
+      "Louis-François from Learn AI Together",
+      "Sarah and JVL - The Bulwark",
+      "Gabe Fleisher",
+      "Heather Cox Richardson from Letters from an American",
+      "Klement on Investing",
+      "Prof Robert Pape from Escalation Trap",
+      "Scott Galloway",
+      "Center for Politics at UVA",
+      "Kareem Abdul-Jabbar",
+      "Robert Reich",
+      "The Bulwark",
+      "G. Elliott Morris",
+      "ProPublica"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-15",
     "run_label": "7 AM",
     "generated_at": "2026-10-15T17:38:20.962316+00:00",
