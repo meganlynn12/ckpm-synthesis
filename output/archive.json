@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-17",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-17T16:09:21.739765+00:00",
+    "filename": "2026-10-17-1609.json",
+    "articles_processed": 12,
+    "publications": [
+      "Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "Slow Boring",
+      "Brynn Tannehill from Public Notice",
+      "The Bulwark",
+      "Robert Reich",
+      "Paul Krugman",
+      "The Freedom Frequency",
+      "Phillips P. OBrien from Phillips’s",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-16",
     "run_label": "7 AM",
     "generated_at": "2026-10-16T17:11:11.894943+00:00",
