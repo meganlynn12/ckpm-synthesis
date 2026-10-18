@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-18",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-18T16:23:04.154103+00:00",
+    "filename": "2026-10-18-1623.json",
+    "articles_processed": 16,
+    "publications": [
+      "The Bulwark",
+      "",
+      "Prof Robert Pape from Escalation Trap",
+      "Aaron Rupar and Thor Benson from Public Notice",
+      "Robert Reich",
+      "AVDD",
+      "G. Elliott Morris",
+      "Don Moynihan from Can We Still Govern?",
+      "Heather Cox Richardson from Letters from an American",
+      "Prof Robert Pape",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "John Ellis",
+      "Paul Krugman",
+      "Azeem Azhar, Exponential View",
+      "Phillips P. OBrien from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-17",
     "run_label": "7 AM",
     "generated_at": "2026-10-17T16:09:21.739765+00:00",
