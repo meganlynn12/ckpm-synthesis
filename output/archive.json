@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-20",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-20T17:48:09.498591+00:00",
+    "filename": "2026-10-20-1748.json",
+    "articles_processed": 26,
+    "publications": [
+      "Citrini",
+      "Michael Spencer and Gencay from AI Supremacy",
+      "David R. Lurie from Public Notice",
+      "ProPublica",
+      "Paul Krugman",
+      "Klement on Investing",
+      "The Bulwark",
+      "SCOTUSblog",
+      "Center for Politics at UVA",
+      "Robert Reich",
+      "John Ellis",
+      "Prof Robert Pape",
+      "Slow Boring",
+      "G. Elliott Morris",
+      "Scott Galloway",
+      "Prof Robert Pape from Escalation Trap",
+      "Your Local Epidemiologist",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-19",
     "run_label": "7 AM",
     "generated_at": "2026-10-19T19:04:07.089057+00:00",
