@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-10-21",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-21T17:55:25.685125+00:00",
+    "filename": "2026-10-21-1755.json",
+    "articles_processed": 34,
+    "publications": [
+      "Klement on Investing",
+      "The Bulwark",
+      "Robert Reich",
+      "Slow Boring",
+      "Gabe Fleisher",
+      "Your Local Epidemiologist",
+      "Prof Robert Pape from Escalation Trap",
+      "AVDD",
+      "Louie from Towards AI",
+      "Heather Cox Richardson from Letters from an American",
+      "SCOTUSblog",
+      "Paul Krugman",
+      "Prof Robert Pape",
+      "G. Elliott Morris",
+      "Ruth Ben-Ghiat from Lucid",
+      "ProPublica",
+      "Scott Galloway",
+      "Michael Spencer from AI Supremacy",
+      "The Freedom Frequency",
+      "John Ellis",
+      "John Ellis from Political News Items",
+      "Liz Dye from Public Notice"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-20",
     "run_label": "7 AM",
     "generated_at": "2026-10-20T17:48:09.498591+00:00",
