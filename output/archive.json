@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-24",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-24T16:26:58.368135+00:00",
+    "filename": "2026-10-24-1626.json",
+    "articles_processed": 16,
+    "publications": [
+      "Charlotte Clymer from Charlotte's Web Thoughts",
+      "Sebastian Raschka, PhD from Ahead of AI",
+      "Heather Cox Richardson from Letters from an American",
+      "John Ellis",
+      "Michael Spencer and Gencay from AI Supremacy",
+      "Scott Galloway",
+      "Prof Robert Pape",
+      "Lisa Needham from Public Notice",
+      "Paul Krugman",
+      "Louis-François from What's AI",
+      "The Bulwark",
+      "Galen Druke from GD POLITICS",
+      "Robert Reich",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-23",
     "run_label": "7 AM",
     "generated_at": "2026-10-23T17:44:24.415718+00:00",
