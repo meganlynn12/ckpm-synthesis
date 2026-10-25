@@ -1,200 +1,204 @@
 {
-  "date": "2026-10-24",
-  "narrative_summary": "A pervasive collision of domestic political volatility, technological acceleration, and geopolitical escalation defines the current landscape. In the United States, midterm election integrity faces severe distortions from corrupted polling data, targeted campaign controversies, and controversial alignments between political figures and prominent tech magnates. Simultaneously, cybersecurity leaders warn of an impending vulnerability tsunami driven by artificial intelligence advancements, even as open-weight models and autonomous agent systems rapidly evolve. Internationally, domestic unrest in Europe over energy and cost-of-living crises mirrors dangerous historical escalations involving Iran, threatening to ignite political violence at home. Together, these threads underscore a volatile convergence where institutional trust, digital infrastructure, and democratic norms are increasingly strained on multiple fronts.",
+  "date": "2026-10-25",
+  "narrative_summary": "Contemporary political and technological landscapes are being reshaped by aggressive polarization, institutional strain, and rapid automation. Political campaigns increasingly deploy xenophobic attacks, partisan patronage, and media propaganda to consolidate power, while an algorithmic cybersecurity arms race strains vulnerable digital infrastructure. Simultaneously, compounding economic vulnerabilities—including AI market overspending and historical parallels of speculative excess—threaten future financial stability. Internationally, shifting geopolitical alignments and great power escalation traps compound global volatility as democratic norms face mounting authoritarian pressure.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Trump’s Cruelty to Abuse Victims Extends Far Beyond Amy Acton",
-      "url": "https://www.thebulwark.com/p/trump-cruelty-sexual-abuse-victims-protects-predators-extends-far-beyond-amy-acton",
-      "published": "2026-10-24T14:57:38+00:00",
+      "title": "GOP Closes Campaign With Unapologetic Bigotry",
+      "url": "https://www.thebulwark.com/p/gop-closes-campaign-with-unapologetic-bigotry-abdul-el-sayed-michigan-mike-rogers-sharia",
+      "published": "2026-10-25T14:03:37+00:00",
       "bullets": [
-        "Ohio gubernatorial candidate Vivek Ramaswamy released a campaign ad featuring Amy Acton's estranged mother to smear Acton, who was a child rape survivor.",
-        "Donald Trump publicly encouraged Ramaswamy to continue running the ad despite widespread bipartisan unease.",
-        "The article argues that Trump's support for the ad contradicts his stated rhetoric of protecting women and children from abuse."
+        "Republican campaigns have increasingly utilized anti-Muslim rhetoric and xenophobic attacks, such as an ad targeting Michigan Senate nominee Abdul El-Sayed.",
+        "The attack ad falsely claims El-Sayed intends to impose sharia law in America by misrepresenting a seventeen-year-old quote about personal religious observance.",
+        "Similar rhetoric has appeared nationwide in GOP campaign materials and platforms, reflecting a broader political strategy to exploit fears surrounding Islam."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Focus Group Shows Why Susan Collins is in Trouble (with Alex Seitz-Wald)",
-      "url": "https://www.thebulwark.com/p/focus-group-shows-why-susan-collins",
-      "published": "2026-10-24T10:01:12+00:00",
+      "title": "How Ohio Trump Voters Reacted to Vivek’s Attack Ad",
+      "url": "https://www.thebulwark.com/p/how-ohio-trump-voters-reacted-to-vivek-ramaswamy-attack-ad-amy-acton-smear",
+      "published": "2026-10-25T11:29:33+00:00",
       "bullets": [
-        "Senator Susan Collins is facing a challenging sixth-term reelection bid in Maine as her reputation as an independent loses some of its appeal.",
-        "Many former Collins voters are ready for a change while retaining residual goodwill toward her and remaining uninspired by her opponent, Troy Jackson.",
-        "Local issues and voter sentiment across Maine are expected to play a critical role in the outcome of the closely watched Senate race."
-      ]
-    },
-    {
-      "source": "Slow Boring",
-      "title": "The polls were fake, but the results were real",
-      "url": "https://www.slowboring.com/p/the-polls-were-fake-but-the-results",
-      "published": "2026-10-24T13:01:16+00:00",
-      "bullets": [
-        "The author expresses unprecedented distrust in polling data during the current midterm election cycle while using the platform X.",
-        "The article highlights Mallory McMorrow's U.S. Senate campaign event that took place on April 19, 2026."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "The AI Bubble Isn't Where You Think It Is",
-      "url": "https://www.profgmedia.com/p/the-ai-bubble-isnt-where-you-think",
-      "published": "2026-10-24T11:01:06+00:00",
-      "bullets": [
-        "Ed Elson explains why the true artificial intelligence bubble has not yet impacted public markets.",
-        "The full analysis and exclusive video content are restricted to paid Prof G+ subscribers on Substack."
+        "Vivek Ramaswamy is running a $4 million attack ad in the Ohio gubernatorial race featuring Democrat Amy Acton's estranged mother accusing Acton of lying.",
+        "The ad omits that the mother has not seen Acton in decades following her husband's arrest for abusing Acton as a child.",
+        "A focus group of Trump voters who have soured on him was convened to evaluate the impact of Ramaswamy's controversial campaign spot."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Black October.",
-      "url": "https://substack.news-items.com/p/black-october",
-      "published": "2026-10-24T10:47:46+00:00",
+      "title": "The Hackening.",
+      "url": "https://substack.news-items.com/p/the-hackening",
+      "published": "2026-10-25T12:30:01+00:00",
       "bullets": [
-        "Cybersecurity leaders warn that artificial intelligence will expose unprecedented weaknesses in global internet infrastructure.",
-        "Tech executives report a wave of critical vulnerabilities found by AI in a widely used coding language during what is being called Black October.",
-        "Industry leaders predict an incoming vulnerability tsunami that will leave insufficient time to patch critical systems."
+        "Increasingly capable AI systems are enabling the rapid discovery and exploitation of software vulnerabilities at unprecedented scales.",
+        "Reported common vulnerabilities and monthly cyberattacks have accelerated sharply in 2026, creating an automated cybersecurity arms race.",
+        "Critical internet infrastructure relies heavily on legacy software supported by underfunded organizations, such as the PHP Foundation running on a shoestring budget."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "A Texas Cop Signed on to Help ICE Deport His Neighbors. It Tore the Town Apart.",
+      "url": "https://www.propublica.org/article/deportations-ingram-texas-287g-jaron-alexander",
+      "published": "2026-10-25T04:00:00+00:00",
+      "bullets": [
+        "Ingram, Texas, partnered with ICE and local police officer Jaron Alexander to participate in a federal deportation campaign.",
+        "Alexander's enforcement actions resulted in the deportation of individuals equivalent to 10% of the small town's Latino population.",
+        "The agreement and subsequent police actions created significant division within the community and directly impacted local families."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "Who has already voted for the 2026 midterms? Who’s undecided? How might they vote?",
+      "url": "",
+      "published": "2026-10-25T15:17:44+00:00",
+      "bullets": [
+        "Relatively few voters remain undecided heading into the 2026 midterms, with polls showing only about 5% to 10% of voters unsure after leaning.",
+        "Undecided voters prioritize the economy and inflation significantly more than decided voters, with 63% naming prices or jobs as the top issue.",
+        "A large majority of undecided voters disapprove of Donald Trump's overall job performance and his handling of prices."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Eight for Eight – Keeping Score of the Escalation Trap",
+      "url": "",
+      "published": "2026-10-25T13:50:04+00:00",
+      "bullets": [
+        "Prof Robert Pape asserts that the Escalation Trap model has accurately forecast eight consecutive turns of the Iran war since June 2025.",
+        "The model explains how great power strikes against weaker adversaries backfire by rallying nationalist resistance and forcing dangerous strategic escalation.",
+        "According to the analysis, the most dangerous phase of the conflict and a major US escalation window will open immediately following Election Day."
+      ]
+    },
+    {
+      "source": "Don Moynihan and Pamela Herd from Can We Still Govern?",
+      "title": "Automating the Bribe State",
+      "url": "",
+      "published": "2026-10-25T13:44:32+00:00",
+      "bullets": [
+        "The Trump administration utilizes automation to deliver targeted financial payouts and benefits primarily to specific groups and battleground states.",
+        "Federal resources and policy favors are explicitly conditioned on the election of Republican candidates and political loyalty.",
+        "While automation facilitates targeted payments for certain populations, administrative burdens are simultaneously increased for vulnerable social program recipients."
+      ]
+    },
+    {
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "“Autumn in the sky...”",
+      "url": "",
+      "published": "2026-10-25T13:19:33+00:00",
+      "bullets": [
+        "Timothy Snyder published four translated poems by Ukrainian writer, journalist, and activist Svitlana Povaliaieva.",
+        "Povaliaieva's two sons both served in the Ukrainian armed forces following the Russian invasion and were killed in action.",
+        "The publication encourages support for Ukrainian writers and soldiers."
+      ]
+    },
+    {
+      "source": "",
+      "title": "Scott Galloway, Timothy Snyder, and Aaron Rupar posted new notes",
+      "url": "",
+      "published": "2026-10-25T13:11:35+00:00",
+      "bullets": [
+        "Scott Galloway posted a note criticizing Elon Musk.",
+        "Timothy Snyder noted that the U.S. president has repeatedly called for the president of Ukraine to leave office.",
+        "Aaron Rupar shared a quote regarding a debate encounter."
       ]
     },
     {
       "source": "Prof Robert Pape",
-      "title": "France Is Burning-- Iran War About to Escalate: Could It Happen Here?",
-      "url": "",
-      "published": "2026-10-24T16:18:21+00:00",
+      "title": "What’s Driving France’s Riots, and What They Tell Americans",
+      "url": "https://professorrobertpape.substack.com/p/whats-driving-frances-riots-and-what&coupon=32d05f5d",
+      "published": "2026-10-25T12:57:54+00:00",
       "bullets": [
-        "France has deployed 70,000 police and faced widespread protests driven by cost-of-living concerns and fuel prices impacted by the Gulf conflict.",
-        "US and international military movements signal preparations for a potential escalation involving Iran in the weeks following November 3.",
-        "Professor Robert Pape warns that domestic unrest abroad serves as a warning for how international conflicts can trigger political and social violence at home."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape",
-      "title": "Four Days: How a War Abroad Comes Home",
-      "url": "https://professorrobertpape.substack.com/p/four-days-how-a-war-abroad-comes&coupon=32d05f5d",
-      "published": "2026-10-24T13:38:36+00:00",
-      "bullets": [
-        "Prof Robert Pape draws a parallel between the 1970 escalation of the Vietnam War into Cambodia and current geopolitical tensions surrounding a potential escalation with Iran.",
-        "The author argues that foreign military escalations trigger domestic political violence through three specific mechanisms associated with the Escalation Trap and Violent Populism.",
-        "The article warns that the upcoming eight weeks are among the most dangerous in decades due to the convergence of midterm elections, a transfer of power, and impending foreign conflict."
-      ]
-    },
-    {
-      "source": "Galen Druke from GD POLITICS",
-      "title": "BONUS: A Poll Hunter’s Guide to the Final Stretch",
-      "url": "",
-      "published": "2026-10-24T13:03:36+00:00",
-      "bullets": [
-        "Democrats are currently favored to win control of both the House and the Senate in the final stretch of the election.",
-        "Investigator Mary Radcliffe uncovered fake pollsters whose fabricated numbers have infiltrated standard polling averages.",
-        "The episode also evaluates early voting data caveats, October surprises, and international political developments in France and Israel."
-      ]
-    },
-    {
-      "source": "Louis-François from What's AI",
-      "title": "Open models can't write like Opus yet. Use them anyway.",
-      "url": "",
-      "published": "2026-10-24T12:00:50+00:00",
-      "bullets": [
-        "Open-weight models from labs like GLM, Moonshot, and DeepSeek currently outperform the best offerings from Meta, xAI, and Google on writing benchmarks.",
-        "Despite strong performance from open models, a significant quality gap remains between them and top-tier closed models like Anthropic's Opus.",
-        "ToneBench evaluates models by having them generate YouTube scripts in a specific voice, which are then scored by multiple AI judges."
-      ]
-    },
-    {
-      "source": "Sebastian Raschka, PhD from Ahead of AI",
-      "title": "Build Your Own Reasoning Model: A Full Video Course",
-      "url": "",
-      "published": "2026-10-24T11:14:32+00:00",
-      "bullets": [
-        "Sebastian Raschka released a new video course titled Build Your Own Reasoning Model, featuring eight videos and over 11 hours of coding in Python and PyTorch.",
-        "The curriculum covers evaluation, inference-time scaling, reinforcement learning, and distillation implemented from scratch.",
-        "The author explains that reasoning models serve as upgraded engines inside broader agent harnesses that manage context and tool access."
+        "Massive protests and riots in France have drawn hundreds of thousands of demonstrators, resulted in widespread detentions, and begun spreading to other European cities.",
+        "Various commentators attribute the unrest to different causes, including the cost of living, political extremism, and the collapse of President Emmanuel Macron's administration.",
+        "Polling data analyzed by Professor Robert Pape reveals surprising insights into the drivers of this violent populism that could foreshadow similar political volatility in the United States."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "Lisa Graves at the Brattleboro Literary Festival",
-      "url": "",
-      "published": "2026-10-24T10:30:35+00:00",
+      "title": "The Crisis Next Time",
+      "url": "https://paulkrugman.substack.com/p/the-crisis-next-time&coupon=367e7c82",
+      "published": "2026-10-25T10:44:55+00:00",
       "bullets": [
-        "Paul Krugman highlights a past conversation with Lisa Graves regarding the corruption and decline of the Supreme Court.",
-        "The post shares a recorded appearance of Lisa Graves discussing these issues at the Brattleboro Literary Festival."
+        "The United States economy will inevitably experience a future slump because major recessions remain an inescapable part of the economic cycle.",
+        "Persistent inflation, a potential artificial intelligence investment bubble, and rising long-term government bond yields present three distinct pathways to a major economic crisis.",
+        "Data hints at the possibility of each disaster type, making none of them safe to rule out."
       ]
     },
     {
-      "source": "Michael Spencer and Gencay from AI Supremacy",
-      "title": "Full Guide to OpenAI dots",
+      "source": "Aaron Rupar from Public Notice",
+      "title": "How Fox News whips viewers into a pre-midterm hysteria",
       "url": "",
-      "published": "2026-10-20T10:10:33+00:00",
+      "published": "2026-10-25T10:17:33+00:00",
       "bullets": [
-        "OpenAI introduced Dots as always-on AI agents designed to operate continuously in the background within the ChatGPT ecosystem with minimal oversight.",
-        "The article provides a comprehensive guide detailing how to set up OpenAI Dots, connect them to Slack, and implement four practical use cases.",
-        "Running asynchronous personal AI assistants in cloud environments has become a standard approach for handling both professional and personal tasks."
+        "Matt Gertz argues that Fox News hosts function as professional propagandists whose primary role is shielding Donald Trump from crises and scandals.",
+        "Gertz points out that Fox News played a significant role in pushing out White House Press Secretary Katie Zacharia following disastrous appearances on the network.",
+        "Gertz remains skeptical that the massive Dominion settlement will deter Fox News from fully supporting Trump's future election meddling efforts."
       ]
     },
     {
-      "source": "Lisa Needham from Public Notice",
-      "title": "In defense of empathy",
+      "source": "Michael Spencer from AI Supremacy",
+      "title": "The Great AI Financing Push-Back",
       "url": "",
-      "published": "2026-10-24T10:17:33+00:00",
+      "published": "2026-10-21T09:45:40+00:00",
       "bullets": [
-        "A Public Religion Research Institute poll shows that 54 percent of Republicans and white evangelical Protestants reject the idea that empathy is a foundational moral value for a healthy society.",
-        "Elon Musk popularized the concept of civilizational suicidal empathy during a podcast appearance, framing Western empathy toward undocumented immigrants as a dangerous exploit.",
-        "Musk's rhetoric aligns with great replacement theory narratives regarding immigration and political shifts in the United States."
+        "Recent open-source model releases include Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection AI's Beam.",
+        "A widening gap between high AI infrastructure spending and expected returns has heightened financing and macro concerns in the sector.",
+        "Gartner predicts significant risks of write-downs for AI infrastructure and estimates that over 80 percent of specialized Neo Clouds could cease operating independently by 2030."
+      ]
+    },
+    {
+      "source": "Phillips P. OBrien from Phillips’s",
+      "title": "Weekend Update #208: Trump Reacts To Pressure Not Flattery",
+      "url": "",
+      "published": "2026-10-25T08:56:39+00:00",
+      "bullets": [
+        "Recent US policy shifts, including a diesel deal and the neutering of sanctions, have provided material aid to Russia and signaled that the US will not stop international business with Putin.",
+        "Militarily, the US hindered Ukraine by blocking European delivery of Patriot missiles and restricting Ukrainian Starlink satellite communications, which degraded Ukraine's air defense and strike campaigns.",
+        "Starlink speeds were recently restored to Ukraine after intense political and financial pressure, demonstrating that the Trump administration reacts to raw pressure rather than flattery."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Defund Musk and Impeach Trump | The Coffee Klatch for Saturday, October 24, 2026",
+      "title": "Trump and his Sycophants Exposed",
       "url": "",
-      "published": "2026-10-24T08:02:09+00:00",
+      "published": "2026-10-25T08:03:26+00:00",
       "bullets": [
-        "Robert Reich and Heather Lofthouse discuss strategies regarding Elon Musk and Donald Trump in an episode of The Coffee Klatch.",
-        "The hosts argue that Elon Musk is funding Republican races and Donald Trump is attempting to weaponize the Justice Department to interfere with upcoming midterm elections.",
-        "Reich and Lofthouse express confidence that these efforts by Musk and Trump to influence the elections will ultimately fail."
+        "Moderate and independent voters are increasingly alarmed by Donald Trump's authoritarian actions and rhetoric.",
+        "Controversial policies such as deploying the National Guard, targeting political opponents, and aggressive immigration enforcement have alienated the broader public.",
+        "The political landscape has shifted from partisan divides to a fundamental conflict between democracy and dictatorship."
       ]
     },
     {
       "source": "Heather Cox Richardson from Letters from an American",
-      "title": "October 23, 2026",
+      "title": "October 24, 2026",
       "url": "",
-      "published": "2026-10-24T07:22:03+00:00",
+      "published": "2026-10-25T05:07:15+00:00",
       "bullets": [
-        "Ukrainian President Volodymyr Zelensky stated that Starlink and Starshield restrictions continue to hinder Ukraine, contradicting Donald Trump's claims that Elon Musk removed them.",
-        "Reports reveal that an Alaskan liquefied natural gas project involves funding and technology from Novatek, a Russian company under U.S. sanctions with close ties to Vladimir Putin.",
-        "Several executives, including Polar LNG CEO Joel Riddle, resigned after discovering the project's Russian financing, prompting Trump to waive new congressional sanctions."
-      ]
-    },
-    {
-      "source": "Charlotte Clymer from Charlotte's Web Thoughts",
-      "title": "Vivek Ramaswamy Keeps Walking Into Smacking Rakes",
-      "url": "",
-      "published": "2026-10-24T03:51:52+00:00",
-      "bullets": [
-        "Vivek Ramaswamy's campaign released an ad featuring Donna Arthur, the estranged mother of his Democratic opponent, Dr. Amy Acton.",
-        "The campaign failed to properly vet Arthur before releasing the ad, neglecting to question why she had been estranged from her daughter for nearly five decades.",
-        "Information quickly emerged after the ad's release revealing that Arthur had lost custody of Acton when she was twelve years old."
+        "In the 1920 election, Americans elected Republicans who rejected Progressive Era business regulations in favor of handing government control to businessmen.",
+        "Treasury Secretary Andrew Mellon cut taxes for the wealthy, while Commerce Secretary Herbert Hoover positioned the government as an ally to business and helped avoid antitrust lawsuits.",
+        "The resulting economic boom filled American homes with new consumer technologies and sparked a massive stock market speculation frenzy by 1929."
       ]
     }
   ],
   "articles_processed": 16,
   "articles_attempted": 16,
   "publications": [
-    "Charlotte Clymer from Charlotte's Web Thoughts",
-    "Sebastian Raschka, PhD from Ahead of AI",
-    "Heather Cox Richardson from Letters from an American",
-    "John Ellis",
-    "Michael Spencer and Gencay from AI Supremacy",
-    "Scott Galloway",
+    "",
     "Prof Robert Pape",
-    "Lisa Needham from Public Notice",
-    "Paul Krugman",
-    "Louis-François from What's AI",
     "The Bulwark",
-    "Galen Druke from GD POLITICS",
-    "Robert Reich",
-    "Slow Boring"
+    "John Ellis",
+    "ProPublica",
+    "Phillips P. OBrien from Phillips’s",
+    "Paul Krugman",
+    "Michael Spencer from AI Supremacy",
+    "Prof Robert Pape from Escalation Trap",
+    "Aaron Rupar from Public Notice",
+    "G. Elliott Morris",
+    "Don Moynihan and Pamela Herd from Can We Still Govern?",
+    "Heather Cox Richardson from Letters from an American",
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "Robert Reich"
   ],
-  "generated_at": "2026-10-24T16:26:58.368135+00:00",
+  "generated_at": "2026-10-25T16:58:35.735688+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-10-24-1626.json"
+  "archive_filename": "2026-10-25-1658.json"
 }

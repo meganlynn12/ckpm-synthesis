@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-25",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-25T16:58:35.735688+00:00",
+    "filename": "2026-10-25-1658.json",
+    "articles_processed": 16,
+    "publications": [
+      "",
+      "Prof Robert Pape",
+      "The Bulwark",
+      "John Ellis",
+      "ProPublica",
+      "Phillips P. OBrien from Phillips’s",
+      "Paul Krugman",
+      "Michael Spencer from AI Supremacy",
+      "Prof Robert Pape from Escalation Trap",
+      "Aaron Rupar from Public Notice",
+      "G. Elliott Morris",
+      "Don Moynihan and Pamela Herd from Can We Still Govern?",
+      "Heather Cox Richardson from Letters from an American",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Robert Reich"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-24",
     "run_label": "7 AM",
     "generated_at": "2026-10-24T16:26:58.368135+00:00",
