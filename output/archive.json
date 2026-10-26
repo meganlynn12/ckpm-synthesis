@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-26",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-26T19:02:53.012201+00:00",
+    "filename": "2026-10-26-1902.json",
+    "articles_processed": 32,
+    "publications": [
+      "Slow Boring",
+      "Prof Robert Pape",
+      "Scott Galloway",
+      "AVDD",
+      "Robert Reich",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Paul Krugman",
+      "Center for Politics at UVA",
+      "The Free Press",
+      "SCOTUSblog",
+      "The Bulwark",
+      "Paul Waldman from Public Notice",
+      "John Ellis",
+      "Prof Robert Pape from Escalation Trap",
+      "Galen Druke from GD POLITICS",
+      "Azeem Azhar, Exponential View",
+      "ProPublica",
+      "Klement on Investing",
+      "Gabe Fleisher"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-25",
     "run_label": "7 AM",
     "generated_at": "2026-10-25T16:58:35.735688+00:00",

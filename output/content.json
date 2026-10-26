@@ -1,204 +1,381 @@
 {
-  "date": "2026-10-25",
-  "narrative_summary": "Contemporary political and technological landscapes are being reshaped by aggressive polarization, institutional strain, and rapid automation. Political campaigns increasingly deploy xenophobic attacks, partisan patronage, and media propaganda to consolidate power, while an algorithmic cybersecurity arms race strains vulnerable digital infrastructure. Simultaneously, compounding economic vulnerabilities—including AI market overspending and historical parallels of speculative excess—threaten future financial stability. Internationally, shifting geopolitical alignments and great power escalation traps compound global volatility as democratic norms face mounting authoritarian pressure.",
+  "date": "2026-10-26",
+  "narrative_summary": "As elections approach globally, domestic politics are dominated by intense partisan friction, aggressive campaigning tactics, and high-stakes congressional races that could alter the balance of power. Meanwhile, international developments—including political shifts in Brazil, escalating maritime tensions involving Iran, and strategic maneuvers by authoritarian regimes—highlight the persistent fragility of geopolitical and economic stability. Technological and structural challenges, from the rapid scaling of artificial intelligence to corporate mega-mergers like the proposed Tesla-SpaceX integration, continue to test regulatory frameworks and market assumptions. Amid these compounding pressures, legal and institutional battlegrounds ranging from municipal zoning laws to federal court interpretations underscore ongoing struggles over governance and executive authority. Together, these threads reflect a period of acute transition where political polarization, economic uncertainty, and institutional strain converge.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "GOP Closes Campaign With Unapologetic Bigotry",
-      "url": "https://www.thebulwark.com/p/gop-closes-campaign-with-unapologetic-bigotry-abdul-el-sayed-michigan-mike-rogers-sharia",
-      "published": "2026-10-25T14:03:37+00:00",
+      "title": "Pre-Election Day Livestream This Sunday Night",
+      "url": "https://www.thebulwark.com/p/pre-election-day-livestream-this",
+      "published": "2026-10-26T17:12:21+00:00",
       "bullets": [
-        "Republican campaigns have increasingly utilized anti-Muslim rhetoric and xenophobic attacks, such as an ad targeting Michigan Senate nominee Abdul El-Sayed.",
-        "The attack ad falsely claims El-Sayed intends to impose sharia law in America by misrepresenting a seventeen-year-old quote about personal religious observance.",
-        "Similar rhetoric has appeared nationwide in GOP campaign materials and platforms, reflecting a broader political strategy to exploit fears surrounding Islam."
+        "The Bulwark is hosting a pre-election night livestream exclusively for Bulwark+ members on Sunday, November 1 at 8:30 p.m. ET.",
+        "The broadcast will feature contributors Joe Perticone, Andrew Egger, Tim Miller, Sam Stein, Lauren Egan, and Jonathan Cohn discussing the latest news in competitive races and answering viewer questions.",
+        "A recording of the livestream will be made available on the Bulwark Takes feed and website for members who cannot attend the live event."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "How Ohio Trump Voters Reacted to Vivek’s Attack Ad",
-      "url": "https://www.thebulwark.com/p/how-ohio-trump-voters-reacted-to-vivek-ramaswamy-attack-ad-amy-acton-smear",
-      "published": "2026-10-25T11:29:33+00:00",
+      "title": "Who’s Right? The Polls or the Vibes?",
+      "url": "https://www.thebulwark.com/p/whos-right-the-polls-or-the-vibes",
+      "published": "2026-10-26T16:32:12+00:00",
       "bullets": [
-        "Vivek Ramaswamy is running a $4 million attack ad in the Ohio gubernatorial race featuring Democrat Amy Acton's estranged mother accusing Acton of lying.",
-        "The ad omits that the mother has not seen Acton in decades following her husband's arrest for abusing Acton as a child.",
-        "A focus group of Trump voters who have soured on him was convened to evaluate the impact of Ramaswamy's controversial campaign spot."
+        "Public vibes suggest a massive Democratic wave driven by candidate quality advantages, poor economic news for Republicans, and severe presidential unpopularity.",
+        "Polling data paints a more complicated picture, showing many races within the margin of error and resembling coin flips.",
+        "The upcoming election carries both significant downside risks and the potential for a landslide Democratic victory."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "MAGA Mondays: MAGA Influencer Says GOP Early Vote Numbers Are Too Depressing to Share",
+      "url": "https://www.thebulwark.com/p/maga-mondays-maga-influencer-says",
+      "published": "2026-10-26T15:29:59+00:00",
+      "bullets": [
+        "Donald Trump recently published a 1,300-word meltdown directed at Bill Maher.",
+        "A prominent MAGA data analyst refused to share early voting numbers because she found them too depressing.",
+        "Right-wing influencers attempted to spin recent election results in Serbia and Brazil."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Trump’s Rallies Have Become What He Covets: Ass",
+      "url": "https://www.thebulwark.com/p/trump-rallies-midterms-promises-butts-5000-lejeune-vucic-bolsonaro-lula",
+      "published": "2026-10-26T13:31:12+00:00",
+      "bullets": [
+        "President Donald Trump appears exhausted and relies on repetitive rhetoric during his recent campaign rallies.",
+        "Trump has increasingly focused on bizarre commentary regarding the physical appearance of individuals around him.",
+        "Trump has conditioned various policy promises and financial payouts on Republican victories in the upcoming midterms."
+      ]
+    },
+    {
+      "source": "Slow Boring",
+      "title": "Scammy fundraising is a big problem",
+      "url": "https://www.slowboring.com/p/scammy-fundraising-is-a-big-problem",
+      "published": "2026-10-26T10:01:03+00:00",
+      "bullets": [
+        "Millions of Americans face a barrage of relentless and often sketchy political fundraising texts as Election Day approaches.",
+        "While Democrats hold a small-dollar fundraising advantage over billionaire-backed Republican efforts, exploiting or misleading these donors risks eroding vital trust.",
+        "Democratic politicians should structurally rethink aggressive and misleading fundraising tactics over upcoming election cycles to protect their donor base."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "The Anxious Democrat’s Guide to the First 60 Minutes of Election Night",
+      "url": "https://www.profgmedia.com/p/the-anxious-democrats-guide-to-the",
+      "published": "2026-10-26T16:40:11+00:00",
+      "bullets": [
+        "Voters will soon decide control of Congress amidst tight Senate races and a substantial Democratic lead in the House.",
+        "Kentucky's sixth congressional district will serve as an early barometer of Democratic success on election night.",
+        "Indiana's fifth district features a competitive race between incumbent Republican Victoria Spartz and Democrat JD Ford."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Why Housing Is So Expensive, and the Myth of Timing the Market",
+      "url": "https://www.profgmedia.com/p/why-housing-is-so-expensive-and-the",
+      "published": "2026-10-26T16:33:26+00:00",
+      "bullets": [
+        "Scott Galloway discusses the factors driving high housing costs and debunks the myth of timing the market.",
+        "The episode addresses strategies for managing regret after selling stock that subsequently increases in value.",
+        "Galloway shares insights on the benefits of later-in-life parenting and navigating career and family decisions."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "What Happened to Netflix? ft. Matt Belloni",
+      "url": "https://www.profgmedia.com/p/what-happened-to-netflix-ft-matt",
+      "published": "2026-10-26T14:48:42+00:00",
+      "bullets": [
+        "Scott Galloway and Matt Belloni discuss Netflix's recent layoffs, executive departures, and declining hit production.",
+        "The conversation highlights YouTube as Netflix's primary rival for viewer attention.",
+        "The participants also examine the viability of Paramount Skydance's takeover of Warner Bros. amid massive debt."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Signal-ing Our Thanks",
+      "url": "https://www.profgmedia.com/p/signal-ing-our-thanks",
+      "published": "2026-10-26T11:13:34+00:00",
+      "bullets": [
+        "Prof G Media won nine Signal Awards across five categories, including three Listener's Choice awards.",
+        "The Prof G Pod secured a gold award in the Business People & Entrepreneurs Shaping Culture category.",
+        "Paid subscribers gain access to a replay of a live session where producers shared podcasting strategies."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Is Musk Using SpaceX to Hide Tesla’s Problems?",
+      "url": "https://www.profgmedia.com/p/is-musk-using-spacex-to-hide-teslas",
+      "published": "2026-10-26T11:04:18+00:00",
+      "bullets": [
+        "Special committees at Tesla and SpaceX are evaluating a potential $3.5 trillion merger between the two companies.",
+        "Tesla's revenue is flat and auto sales are declining, whereas SpaceX is experiencing rapid revenue growth and profit expansion.",
+        "The proposed merger would dilute SpaceX shareholders while potentially allowing Elon Musk to increase his voting control and personal wealth."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "The $3.5T Bailout: Elon's Plan To Merge Tesla And SpaceX",
+      "url": "https://www.profgmedia.com/p/the-35t-bailout-elons-plan-to-merge",
+      "published": "2026-10-26T10:03:42+00:00",
+      "bullets": [
+        "Scott Galloway and Ed Elson analyze Elon Musk's potential plan to merge Tesla and SpaceX.",
+        "The discussion covers the proposed deal structure, the hurdles it would face, and the existential threats both companies confront.",
+        "The podcast also examines growing challenges in the AI buildout and whether investors have adequately priced in associated risks."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "The Hackening.",
-      "url": "https://substack.news-items.com/p/the-hackening",
-      "published": "2026-10-25T12:30:01+00:00",
+      "title": "Mid-Term Preview",
+      "url": "https://substack.news-items.com/p/mid-term-preview",
+      "published": "2026-10-26T16:47:43+00:00",
       "bullets": [
-        "Increasingly capable AI systems are enabling the rapid discovery and exploitation of software vulnerabilities at unprecedented scales.",
-        "Reported common vulnerabilities and monthly cyberattacks have accelerated sharply in 2026, creating an automated cybersecurity arms race.",
-        "Critical internet infrastructure relies heavily on legacy software supported by underfunded organizations, such as the PHP Foundation running on a shoestring budget."
+        "The 2026 mid-term Senate elections will be decided in key states referred to as The Inland Ground, including Ohio, Iowa, Kansas, Nebraska, Michigan, Minnesota, and Texas.",
+        "The decisive factor in these specific states will be the performance of the rural vote.",
+        "Former White House official and campaign manager Jim Messina is the featured guest discussing these election dynamics in the second part of the podcast series."
+      ]
+    },
+    {
+      "source": "John Ellis",
+      "title": "October Surprise.",
+      "url": "https://substack.news-items.com/p/october-surprise",
+      "published": "2026-10-26T09:36:29+00:00",
+      "bullets": [
+        "Top Chinese Communist Party officials are gathering in Beijing for the fifth plenum to intensify Xi Jinping's anti-corruption campaign ahead of his expected fourth term.",
+        "Despite Xi's dominance, analysts note he faces persistent challenges in controlling millions of party members and ensuring compliance across China.",
+        "Luiz Inácio Lula da Silva won Brazil's presidential election with 51.8% of the vote after shifting his campaign strategy to reconnect with low-income and working-class voters."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "A Texas Cop Signed on to Help ICE Deport His Neighbors. It Tore the Town Apart.",
-      "url": "https://www.propublica.org/article/deportations-ingram-texas-287g-jaron-alexander",
-      "published": "2026-10-25T04:00:00+00:00",
+      "title": "In a Newly Drawn District, Black Voters May Get a Representative Who Spent Years Undermining Their Interests",
+      "url": "https://www.propublica.org/article/brent-taylor-memphis-tennessee-preemption-laws",
+      "published": "2026-10-26T10:00:00+00:00",
       "bullets": [
-        "Ingram, Texas, partnered with ICE and local police officer Jaron Alexander to participate in a federal deportation campaign.",
-        "Alexander's enforcement actions resulted in the deportation of individuals equivalent to 10% of the small town's Latino population.",
-        "The agreement and subsequent police actions created significant division within the community and directly impacted local families."
+        "Tennessee Republicans redrew Memphis into three congressional districts, transforming the state's sole majority-Black district into a majority-white district.",
+        "State Sen. Brent Taylor, a white Republican running for the newly configured seat, is favored to win after previously championing laws that stripped power from local Memphis officials.",
+        "Taylor's legislative record includes measures targeting local criminal justice reforms, such as restricting bail discretion and overriding local policies on police traffic stops."
       ]
     },
     {
-      "source": "G. Elliott Morris",
-      "title": "Who has already voted for the 2026 midterms? Who’s undecided? How might they vote?",
-      "url": "",
-      "published": "2026-10-25T15:17:44+00:00",
+      "source": "ProPublica",
+      "title": "Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims",
+      "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
+      "published": "2026-10-26T09:00:00+00:00",
       "bullets": [
-        "Relatively few voters remain undecided heading into the 2026 midterms, with polls showing only about 5% to 10% of voters unsure after leaning.",
-        "Undecided voters prioritize the economy and inflation significantly more than decided voters, with 63% naming prices or jobs as the top issue.",
-        "A large majority of undecided voters disapprove of Donald Trump's overall job performance and his handling of prices."
+        "A federal grand jury indicted cybersecurity CEO Zohar Pinhasi for allegedly defrauding ransomware victims through his firm, MonsterCloud.",
+        "Pinhasi falsely promised clients he could recover encrypted files without paying hackers, while actually paying the ransoms and charging victims massive fees.",
+        "Federal investigators state that Pinhasi collected over $19 million from clients while paying more than $8 million in ransoms."
       ]
     },
     {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "Eight for Eight – Keeping Score of the Escalation Trap",
-      "url": "",
-      "published": "2026-10-25T13:50:04+00:00",
+      "source": "SCOTUSblog",
+      "title": "The Supreme Court as agent of the people",
+      "url": "https://www.scotusblog.com/2026/10/the-supreme-court-as-agent-of-the-people/",
+      "published": "2026-10-26T14:00:00+00:00",
       "bullets": [
-        "Prof Robert Pape asserts that the Escalation Trap model has accurately forecast eight consecutive turns of the Iran war since June 2025.",
-        "The model explains how great power strikes against weaker adversaries backfire by rallying nationalist resistance and forcing dangerous strategic escalation.",
-        "According to the analysis, the most dangerous phase of the conflict and a major US escalation window will open immediately following Election Day."
+        "Federal courts are properly conceptualized as faithful agents of We the People rather than of Congress.",
+        "Textualist jurists support the view that courts act as faithful agents of the Constitution and the people.",
+        "Viewing courts as agents of Congress is mistaken because the branches are coequal and Congress cannot make law alone."
       ]
     },
     {
-      "source": "Don Moynihan and Pamela Herd from Can We Still Govern?",
-      "title": "Automating the Bribe State",
-      "url": "",
-      "published": "2026-10-25T13:44:32+00:00",
+      "source": "SCOTUSblog",
+      "title": "When the Supreme Court blessed zoning",
+      "url": "https://www.scotusblog.com/2026/10/when-the-supreme-court-blessed-zoning/",
+      "published": "2026-10-26T13:30:00+00:00",
       "bullets": [
-        "The Trump administration utilizes automation to deliver targeted financial payouts and benefits primarily to specific groups and battleground states.",
-        "Federal resources and policy favors are explicitly conditioned on the election of Republican candidates and political loyalty.",
-        "While automation facilitates targeted payments for certain populations, administrative burdens are simultaneously increased for vulnerable social program recipients."
+        "In the landmark case Village of Euclid v. Ambler Realty, the Supreme Court upheld the constitutionality of comprehensive municipal zoning.",
+        "The litigation arose after the village of Euclid passed a 1922 ordinance restricting land use on a 68-acre property owned by Ambler Realty, significantly reducing its market value.",
+        "Following an unusual legal process involving a granted rehearing, the court ruled 6-3 in favor of the city's police power to regulate urban development."
+      ]
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Trump-related cases coming to the court",
+      "url": "https://www.scotusblog.com/2026/10/trump-related-cases-coming-to-the-court/",
+      "published": "2026-10-26T13:00:00+00:00",
+      "bullets": [
+        "The Trump administration has asked the Supreme Court to allow the resumption of border wall construction in the Big Bend region of Texas.",
+        "Several cities and an immigrant legal services group are urging the court to pause an agreement between Texas and the Department of Justice regarding deportation proceedings.",
+        "The Supreme Court's November sitting is scheduled to begin on Monday, November 2."
+      ]
+    },
+    {
+      "source": "Gabe Fleisher",
+      "title": "Trump’s Election Lawsuits Are Doomed to Fail",
+      "url": "",
+      "published": "2026-10-26T18:02:56+00:00",
+      "bullets": [
+        "President Trump is actively investing resources and holding numerous rallies to support Republican candidates in the midterms.",
+        "The Justice Department has filed lawsuits seeking voter information from states as part of an effort to investigate noncitizen voting.",
+        "Presidents possess almost no power over elections, making the administration's election lawsuits doomed to fail."
+      ]
+    },
+    {
+      "source": "Galen Druke from GD POLITICS",
+      "title": "Last chance: 20% off GD POLITICS ends at 5:38 p.m. ET",
+      "url": "",
+      "published": "2026-10-26T17:01:35+00:00",
+      "bullets": [
+        "A 20% discount on GD POLITICS subscriptions for first-time paid subscribers ends today at 5:38 p.m. ET.",
+        "Paid subscribers receive exclusive perks including Thursday episodes, virtual happy hours, merch discounts, and access to the subscriber chat."
+      ]
+    },
+    {
+      "source": "Center for Politics at UVA",
+      "title": "Sabato's Crystal Ball - Despite a Blocked Gerrymander, Virginia Democrats Aim for House Gains Anyway - Vol. 24, Iss. 77",
+      "url": "",
+      "published": "2026-10-26T16:34:46+00:00",
+      "bullets": [
+        "Virginia Democrats previously attempted to gerrymander the state's congressional map to secure four additional U.S. House seats, but the effort was blocked by the state Supreme Court.",
+        "Despite the blocked redistricting attempt, Democrats remain politically ascendant following strong electoral victories in the commonwealth.",
+        "Democrats have identified four target seats on the current map and view winning up to three of them as a plausible outcome."
+      ]
+    },
+    {
+      "source": "Azeem Azhar, Exponential View",
+      "title": "📈 Monday data: For science the bottleneck isn’t intelligence",
+      "url": "",
+      "published": "2026-10-26T15:25:12+00:00",
+      "bullets": [
+        "Artificial intelligence is increasingly capable of self-improvement by optimizing its surrounding code, harnesses, and development workflows.",
+        "While fields like math and coding allow closed-loop digital advancement, whether this compounding intelligence translates across all sciences remains dependent on the specific domain."
+      ]
+    },
+    {
+      "source": "AVDD",
+      "title": "AVDD Strait of Hormuz SITREP",
+      "url": "https://avddemocracy.substack.com/p/avdd-strait-of-hormuz-sitrep-34a",
+      "published": "2026-10-26T14:19:39+00:00",
+      "bullets": [
+        "Economic coercion and maritime control remain central to the conflict, with Iran intensifying attacks against commercial shipping in the Strait of Hormuz.",
+        "Gulf crude oil exports have recovered to pre-war levels despite maritime insecurity and elevated shipping costs, though refined petroleum product exports remain low.",
+        "Senior officials from Saudi Arabia, Pakistan, and Turkey met with Iranian representatives in Tehran to discuss regional security and potential U.S.-Israeli strikes."
+      ]
+    },
+    {
+      "source": "The Free Press",
+      "title": "A Freethinker’s Guide to the Midterms. Plus. . .",
+      "url": "",
+      "published": "2026-10-26T10:03:48+00:00",
+      "bullets": [
+        "The publication features a guide to the midterms that encourages voters to reject partisan groupthink and party over country mentality.",
+        "Erick Erickson explains his decision not to vote for GOP Senate candidate Mike Collins in Georgia.",
+        "Peter Savodnik examines Democratic figures endorsing Michigan Senate candidate Abdul El-Sayed despite controversial past comments."
       ]
     },
     {
       "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "“Autumn in the sky...”",
+      "title": "Before and After the Elections (video)",
       "url": "",
-      "published": "2026-10-25T13:19:33+00:00",
+      "published": "2026-10-26T13:09:35+00:00",
       "bullets": [
-        "Timothy Snyder published four translated poems by Ukrainian writer, journalist, and activist Svitlana Povaliaieva.",
-        "Povaliaieva's two sons both served in the Ukrainian armed forces following the Russian invasion and were killed in action.",
-        "The publication encourages support for Ukrainian writers and soldiers."
+        "Timothy Snyder and Glenn Kirschner discuss expectations, strategies, and post-victory outcomes surrounding the elections in a video conversation.",
+        "The authors argue that a decisive victory by the opposition could enable systemic changes and deter election tampering through large voting margins and the rule of law.",
+        "Following a win, the new majority should rapidly pursue anti-corruption measures, remove money from politics, and promote economic justice."
       ]
     },
     {
-      "source": "",
-      "title": "Scott Galloway, Timothy Snyder, and Aaron Rupar posted new notes",
-      "url": "",
-      "published": "2026-10-25T13:11:35+00:00",
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Is Iran Stronger Than It Was in the Spring?",
+      "url": "https://escalationtrap.substack.com/p/is-iran-stronger-than-it-was-in-the",
+      "published": "2026-10-26T12:02:43+00:00",
       "bullets": [
-        "Scott Galloway posted a note criticizing Elon Musk.",
-        "Timothy Snyder noted that the U.S. president has repeatedly called for the president of Ukraine to leave office.",
-        "Aaron Rupar shared a quote regarding a debate encounter."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape",
-      "title": "What’s Driving France’s Riots, and What They Tell Americans",
-      "url": "https://professorrobertpape.substack.com/p/whats-driving-frances-riots-and-what&coupon=32d05f5d",
-      "published": "2026-10-25T12:57:54+00:00",
-      "bullets": [
-        "Massive protests and riots in France have drawn hundreds of thousands of demonstrators, resulted in widespread detentions, and begun spreading to other European cities.",
-        "Various commentators attribute the unrest to different causes, including the cost of living, political extremism, and the collapse of President Emmanuel Macron's administration.",
-        "Polling data analyzed by Professor Robert Pape reveals surprising insights into the drivers of this violent populism that could foreshadow similar political volatility in the United States."
+        "Disagreements persist between Washington and Israeli officials regarding the current strength and recovery of Iran's missile launcher inventory.",
+        "Evaluating Iran's military capability requires analyzing its core missions rather than simply counting available weapons.",
+        "Iran possesses a largely unused weapon that could potentially trigger a severe economic crisis surpassing the 1973 oil shock."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "The Crisis Next Time",
-      "url": "https://paulkrugman.substack.com/p/the-crisis-next-time&coupon=367e7c82",
-      "published": "2026-10-25T10:44:55+00:00",
+      "title": "The Oligarchs Lose a Big One",
+      "url": "",
+      "published": "2026-10-26T11:49:46+00:00",
       "bullets": [
-        "The United States economy will inevitably experience a future slump because major recessions remain an inescapable part of the economic cycle.",
-        "Persistent inflation, a potential artificial intelligence investment bubble, and rising long-term government bond yields present three distinct pathways to a major economic crisis.",
-        "Data hints at the possibility of each disaster type, making none of them safe to rule out."
+        "Incumbent president Luiz Inacio Lula da Silva won Brazil's presidential election against Flavio Bolsonaro by a decisive three-percentage-point margin.",
+        "The election occurred despite alleged efforts by domestic right-wing actors to disrupt working-class voter access through public transportation bottlenecks.",
+        "Internal communications revealed that U.S.-based social media company Meta hindered Lula's accounts while promoting his opponent's profile."
       ]
     },
     {
-      "source": "Aaron Rupar from Public Notice",
-      "title": "How Fox News whips viewers into a pre-midterm hysteria",
-      "url": "",
-      "published": "2026-10-25T10:17:33+00:00",
+      "source": "Prof Robert Pape",
+      "title": "Will Israel’s Election Change the Iran War?",
+      "url": "https://professorrobertpape.substack.com/p/will-israels-election-change-the&coupon=32d05f5d",
+      "published": "2026-10-26T10:59:02+00:00",
       "bullets": [
-        "Matt Gertz argues that Fox News hosts function as professional propagandists whose primary role is shielding Donald Trump from crises and scandals.",
-        "Gertz points out that Fox News played a significant role in pushing out White House Press Secretary Katie Zacharia following disastrous appearances on the network.",
-        "Gertz remains skeptical that the massive Dominion settlement will deter Fox News from fully supporting Trump's future election meddling efforts."
+        "Israelis are voting in an election widely viewed as a referendum on the ongoing war with Iran.",
+        "Prime Minister Netanyahu seeks another military round, while his leading challenger, Gadi Eisenkot, argues Netanyahu is unfit to manage the conflict.",
+        "Polls indicate three potential outcomes—a Netanyahu victory, a political deadlock, or an Eisenkot-led government—each leading to a different trajectory for the war."
       ]
     },
     {
-      "source": "Michael Spencer from AI Supremacy",
-      "title": "The Great AI Financing Push-Back",
+      "source": "Klement on Investing",
+      "title": "Nice earnings forecasts you have. Shame if something happened to them",
       "url": "",
-      "published": "2026-10-21T09:45:40+00:00",
+      "published": "2026-10-26T10:47:44+00:00",
       "bullets": [
-        "Recent open-source model releases include Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection AI's Beam.",
-        "A widening gap between high AI infrastructure spending and expected returns has heightened financing and macro concerns in the sector.",
-        "Gartner predicts significant risks of write-downs for AI infrastructure and estimates that over 80 percent of specialized Neo Clouds could cease operating independently by 2030."
+        "The current equity bull case heavily relies on exceptionally high earnings forecasts.",
+        "Historical evidence shows that earnings forecasts tend to fail most spectacularly when markets price in exceptional future profit growth."
       ]
     },
     {
-      "source": "Phillips P. OBrien from Phillips’s",
-      "title": "Weekend Update #208: Trump Reacts To Pressure Not Flattery",
+      "source": "Paul Waldman from Public Notice",
+      "title": "Vivek Ramaswamy discovers that voters have their limits",
       "url": "",
-      "published": "2026-10-25T08:56:39+00:00",
+      "published": "2026-10-26T10:17:33+00:00",
       "bullets": [
-        "Recent US policy shifts, including a diesel deal and the neutering of sanctions, have provided material aid to Russia and signaled that the US will not stop international business with Putin.",
-        "Militarily, the US hindered Ukraine by blocking European delivery of Patriot missiles and restricting Ukrainian Starlink satellite communications, which degraded Ukraine's air defense and strike campaigns.",
-        "Starlink speeds were recently restored to Ukraine after intense political and financial pressure, demonstrating that the Trump administration reacts to raw pressure rather than flattery."
+        "Vivek Ramaswamy's campaign aired a political advertisement featuring his opponent Amy Acton's estranged mother attacking her, highlighting Acton's history of childhood abuse.",
+        "The ad sparked immediate and widespread backlash from both Democrats and prominent Republicans who condemned it as a violation of basic decency.",
+        "The severe negative reaction suggests that Ramaswamy misjudged the electorate's tolerance for overtly cruel campaign tactics."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Trump and his Sycophants Exposed",
+      "title": "Watch, Read, and Share",
       "url": "",
-      "published": "2026-10-25T08:03:26+00:00",
+      "published": "2026-10-26T08:03:05+00:00",
       "bullets": [
-        "Moderate and independent voters are increasingly alarmed by Donald Trump's authoritarian actions and rhetoric.",
-        "Controversial policies such as deploying the National Guard, targeting political opponents, and aggressive immigration enforcement have alienated the broader public.",
-        "The political landscape has shifted from partisan divides to a fundamental conflict between democracy and dictatorship."
+        "Robert Reich shares a transcript of a speech delivered by former President Barack Obama in Cleveland, Ohio.",
+        "Obama encourages voters in Ohio to support candidates Amy Acton and Sherrod Brown while advocating for early voting.",
+        "The speech emphasizes that voters have the power to reject years of chaos and corruption by making their voices heard at the ballot box."
       ]
     },
     {
-      "source": "Heather Cox Richardson from Letters from an American",
-      "title": "October 24, 2026",
+      "source": "Klement on Investing",
+      "title": "Building DACCS the right way",
       "url": "",
-      "published": "2026-10-25T05:07:15+00:00",
+      "published": "2026-10-26T07:01:34+00:00",
       "bullets": [
-        "In the 1920 election, Americans elected Republicans who rejected Progressive Era business regulations in favor of handing government control to businessmen.",
-        "Treasury Secretary Andrew Mellon cut taxes for the wealthy, while Commerce Secretary Herbert Hoover positioned the government as an ally to business and helped avoid antitrust lawsuits.",
-        "The resulting economic boom filled American homes with new consumer technologies and sparked a massive stock market speculation frenzy by 1929."
+        "Direct Air Carbon Capture and Storage (DACCS) is controversial due to uncertainties regarding its cost and scalability, yet it remains crucial for abating hard-to-reach emissions like cement production.",
+        "Researchers modeled various infrastructure scenarios for capturing and storing 100 million tons of CO2 annually in Europe, comparing isolated networks against fully integrated systems.",
+        "Planning DACCS in isolation with its own power supply costs €20 billion or more, whereas integrating it with existing energy networks or new power generation reduces costs by about 30%."
       ]
     }
   ],
-  "articles_processed": 16,
-  "articles_attempted": 16,
+  "articles_processed": 32,
+  "articles_attempted": 32,
   "publications": [
-    "",
+    "Slow Boring",
     "Prof Robert Pape",
-    "The Bulwark",
-    "John Ellis",
-    "ProPublica",
-    "Phillips P. OBrien from Phillips’s",
-    "Paul Krugman",
-    "Michael Spencer from AI Supremacy",
-    "Prof Robert Pape from Escalation Trap",
-    "Aaron Rupar from Public Notice",
-    "G. Elliott Morris",
-    "Don Moynihan and Pamela Herd from Can We Still Govern?",
-    "Heather Cox Richardson from Letters from an American",
+    "Scott Galloway",
+    "AVDD",
+    "Robert Reich",
     "Timothy Snyder from \\\"Thinking about...\\",
-    "Robert Reich"
+    "Paul Krugman",
+    "Center for Politics at UVA",
+    "The Free Press",
+    "SCOTUSblog",
+    "The Bulwark",
+    "Paul Waldman from Public Notice",
+    "John Ellis",
+    "Prof Robert Pape from Escalation Trap",
+    "Galen Druke from GD POLITICS",
+    "Azeem Azhar, Exponential View",
+    "ProPublica",
+    "Klement on Investing",
+    "Gabe Fleisher"
   ],
-  "generated_at": "2026-10-25T16:58:35.735688+00:00",
+  "generated_at": "2026-10-26T19:02:53.012201+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-10-25-1658.json"
+  "archive_filename": "2026-10-26-1902.json"
 }
