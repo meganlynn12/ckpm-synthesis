@@ -1,406 +1,429 @@
 {
-  "date": "2026-10-27",
-  "narrative_summary": "Converging institutional, technological, and political pressures are reshaping the domestic and international landscape ahead of critical midterm elections. Domestically, the Department of Justice's legal challenges to state election procedures intersect with intense partisan battles over congressional control, concentrated corporate power, and the national security implications of tech monopolies like SpaceX. Simultaneously, the rapid commercialization and IPO filing of artificial intelligence leader Anthropic highlight immense infrastructure, energy, and existential risks that are increasingly colliding with local public resistance and regulatory scrutiny. On the geopolitical front, mounting friction surrounding Middle East conflicts, European manufacturing declines under Chinese competition, and strategic military expansions like Poland's new PAC-3 facility underscore a period of profound systemic strain. Together, these developments illustrate a society grappling with the destabilizing consequences of rapid technological disruption, polarized governance, and contested global alliances.",
+  "date": "2026-10-28",
+  "narrative_summary": "Geopolitical volatility and technological acceleration are converging on multiple fronts, as escalations involving Iran and the Houthis severely strain global energy markets and infrastructure. Domestically, the Trump administration faces mounting scrutiny over controversial international alignments and aggressive legal actions against political rivals, even as tech billionaires exercise unprecedented influence over democratic norms and information ecosystems. Simultaneously, rapid advancements in artificial intelligence and quantum computing offer transformative economic potential while introducing severe cybersecurity vulnerabilities and intense market pressures, exemplified by Anthropic's public market debut. These compounding pressures unfold against the backdrop of high-stakes midterm elections, where questions of institutional integrity, voting access, and public preparedness dominate the political landscape.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Nationalize SpaceX",
-      "url": "https://www.thebulwark.com/p/nationalize-spacex-elon-musk",
-      "published": "2026-10-27T16:30:49+00:00",
+      "title": "Trump’s Safe Space for Strongmen",
+      "url": "https://www.thebulwark.com/p/trump-safe-space-for-strongmen-brazil-flavio-bolsonaro",
+      "published": "2026-10-28T16:49:20+00:00",
       "bullets": [
-        "SpaceX represents a significant national security vulnerability regardless of who owns or controls the company.",
-        "Potential policy solutions to address this risk range from outright nationalization and corporate breakup to aggressive regulation."
+        "Secretary of State Marco Rubio clandestinely arranged for Brazilian national Flávio Bolsonaro, who is under investigation for massive money laundering, to enter and receive a visa in the United States.",
+        "The Trump administration's assistance to Bolsonaro contradicts its stated hardline stance against allowing suspected foreign criminals into the country."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Morning Shots: James Talarico Takes Direct Aim at Elon Musk",
-      "url": "https://www.thebulwark.com/p/morning-shots-james-talarico-takes",
-      "published": "2026-10-27T15:40:18+00:00",
+      "title": "Command Post: The Next Phase of the Iran War Could Be Far Worse",
+      "url": "https://www.thebulwark.com/p/command-post-the-next-phase-of-the",
+      "published": "2026-10-28T16:37:08+00:00",
       "bullets": [
-        "Bill Kristol and Andrew Egger analyze competitive Senate races one week before Election Day.",
-        "Key factors reshaping the political map include Donald Trump's unpopularity, rising prices, and Elon Musk's spending.",
-        "The discussion highlights high-stakes matchups in Texas, Mississippi, Kansas, and Florida, along with the significance of independent courts."
+        "Analysts are warning that potential renewed U.S. strikes on Iran could lead to a much worse phase of conflict.",
+        "Iran is actively preparing for retaliation against potential military actions.",
+        "Tensions include an extraordinary standoff between Israeli Prime Minister Netanyahu and Israel's military leadership."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Former Collins Voters Explain Why She’s Tough to Beat—And Has to Go",
-      "url": "https://www.thebulwark.com/p/former-collins-voters-explain-why-tough-to-beat-jackson-maine-midterms",
-      "published": "2026-10-27T14:35:39+00:00",
+      "title": "The Case El-Sayed Can Make to Black Voters",
+      "url": "https://www.thebulwark.com/p/the-case-abdul-el-sayed-can-make-to-black-michigan-voters",
+      "published": "2026-10-28T14:40:40+00:00",
       "bullets": [
-        "Senator Susan Collins remains a formidable political candidate despite her history of defeating tough odds.",
-        "A noticeable shift in political sentiment surrounds Collins during the current election cycle.",
-        "Mainers who previously voted for both Joe Biden and Susan Collins in 2020 explain their perspectives on her vulnerability."
+        "A political attack ad in Michigan's Senate race falsely claims that Democratic nominee Abdul El-Sayed's platform entirely ignores Black voters.",
+        "El-Sayed's campaign actually features a specific policy agenda called 'THRIVE' that outlines a twenty-one-point plan for Black communities in Michigan.",
+        "Republicans are targeting Black voters to exploit El-Sayed's past struggles with this demographic during the primary amid a tightly contested Senate race."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Wave Goodbye to a Republican Congress",
-      "url": "https://www.thebulwark.com/p/wave-goodbye-to-a-republican-congress-midterms-polling-early-vote-comey-indictment",
-      "published": "2026-10-27T13:25:56+00:00",
+      "title": "How Do You Solve a Problem Like Elon Musk?",
+      "url": "https://www.thebulwark.com/p/how-do-you-solve-a-problem-like-elon-musk-talarico-texas-trans-money-senate",
+      "published": "2026-10-28T13:34:24+00:00",
       "bullets": [
-        "Early voting data and recent polls indicate a strong national lead for Democrats ahead of the midterm elections.",
-        "Polling shows President Trump with low approval ratings while Democrats maintain an advantage on the generic ballot.",
-        "Current trends suggest both chambers of Congress are likely to change hands, reflecting historical midterm wave patterns."
+        "Elon Musk is utilizing his unprecedented wealth and personal platform on X to aggressively target Democratic candidate James Talarico in the Texas Senate race.",
+        "Musk's involvement extends beyond traditional campaign donations to include direct attacks, algorithmic amplification, and suspected ties to deceptive political mailers.",
+        "Democratic candidate James Talarico is attempting to counter Musk's influence by framing the billionaire's heavy financial intervention as a negative liability for his Republican opponent."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Hegseth Needs More T—Poll Shows He’s No Male Role Model",
-      "url": "https://www.thebulwark.com/p/new-poll-bulwark-pablo-torre-finds-out-survey-americans-politics-sports-masculinity-betting",
-      "published": "2026-10-27T10:31:13+00:00",
+      "title": "America’s Other Middle East War",
+      "url": "https://www.thebulwark.com/p/americas-other-middle-east-war-houthis-iran",
+      "published": "2026-10-28T09:30:55+00:00",
       "bullets": [
-        "A national survey by The Bulwark and Pablo Torre Finds Out shows that only 28 percent of American adults view Defense Secretary Pete Hegseth as a strong role model for men.",
-        "Among young adults aged 18 to 29, just 18 percent view Hegseth as a strong role model, while 34 percent do not.",
-        "Donald Trump ranked lowest among nine public figures polled regarding male role models, with 55 percent saying he is not a strong role model."
+        "The Houthi movement in Yemen is often mischaracterized as merely an Iran-backed proxy, overlooking its distinct local political, territorial, and economic ambitions.",
+        "The Houthis have escalated missile and drone attacks against Saudi Arabia, severely disrupting regional infrastructure, aviation, and international trade.",
+        "Decades of conflict between the Houthis and a Saudi-led coalition have resulted in a devastating humanitarian catastrophe without achieving definitive military victory for either side."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "Why I don’t write about A.I. all the time",
-      "url": "https://www.slowboring.com/p/why-i-dont-write-about-ai-all-the",
-      "published": "2026-10-27T10:01:46+00:00",
+      "title": "Those who work and those who post",
+      "url": "https://www.slowboring.com/p/those-who-work-and-those-who-post",
+      "published": "2026-10-28T10:03:29+00:00",
       "bullets": [
-        "The author acknowledges that existential risk from artificial intelligence is real, yet continues to focus primarily on politics and generalist topics.",
-        "Maintaining a successful newsletter and performing one's established profession is viewed as a more effective contribution than obsessively following the biggest current news trend.",
-        "Society functions because people perform varied necessary roles rather than everyone attempting to center themselves on the most dramatic historical events."
+        "Leftist politicians like Bernie Sanders and Zohran Mamdani governed pragmatically as mayors to build political power rather than because they abandoned their ideology.",
+        "A divide exists between executives who face real accountability for outcomes and legislators who primarily engage in factional posturing.",
+        "Former governors who governed as pragmatic moderates often align with progressive interest groups once they transition to federal legislative roles."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "REPLAY: Heather Cox Richardson on Why “The Republican Party No Longer Exists”",
-      "url": "https://www.profgmedia.com/p/replay-heather-cox-richardson-on",
-      "published": "2026-10-27T17:23:04+00:00",
+      "title": "REPLAY: Trump May Blame Canada if Republicans Lose Midterms",
+      "url": "https://www.profgmedia.com/p/replay-trump-may-blame-canada-if",
+      "published": "2026-10-28T16:54:09+00:00",
       "bullets": [
-        "Scott Galloway and Heather Cox Richardson discussed upcoming midterms and political parallels to the 1850s.",
-        "The conversation explored the future of the Republican Party and public backlash against concentrated wealth and power.",
-        "Topics also included Elon Musk's influence, aging political leaders, and the impact of social media on democracy."
+        "Trump is campaigning heavily to support vulnerable Republicans as midterm Senate races become increasingly competitive.",
+        "The administration faces scrutiny regarding political accountability at home and abroad, including warnings directed at Canada and donor network investigations in Brazil.",
+        "Democratic figures like AOC are actively pushing back against Republican efforts to frame their party as communist."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Live Today: Heather Cox Richardson",
-      "url": "https://www.profgmedia.com/p/live-today-heather-cox-richardson",
-      "published": "2026-10-27T11:39:32+00:00",
+      "title": "Do You Need Rich Parents to Buy a Home? — with Kyla Scanlon and Aziz Sunderji",
+      "url": "https://www.profgmedia.com/p/do-you-need-rich-parents-to-buy-a",
+      "published": "2026-10-28T13:39:37+00:00",
       "bullets": [
-        "Scott Galloway is hosting a live stream discussion with U.S. history author Heather Cox Richardson exclusively for Prof G+ subscribers to discuss midterm predictions, approval ratings, and 2028 candidates.",
-        "The latest Prof G+ deep dive features Matt Belloni discussing Netflix layoffs, streaming challenges, and the Paramount Skydance takeover of Warner Bros.",
-        "Prof G Media recently won nine Signal Awards and aims to maintain a hopeful and helpful editorial tone heading into the midterms."
+        "Kyla Scanlon and Aziz Sunderji join Scott Galloway to discuss the causes of high housing costs and potential solutions for affordability.",
+        "The discussion explores barriers to building more homes and the impact of housing prices on relationships and family planning.",
+        "The guests and host evaluate whether current housing policy interventions are actually effective."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "The $800 Billion Catch Behind Anthropic's IPO",
-      "url": "https://www.profgmedia.com/p/the-800-billion-catch-behind-anthropics",
-      "published": "2026-10-27T11:01:25+00:00",
+      "title": "Anthropic’s Numbers May Never Look This Good Again",
+      "url": "https://www.profgmedia.com/p/anthropics-numbers-may-never-look",
+      "published": "2026-10-28T11:04:08+00:00",
       "bullets": [
-        "Ed Elson and Paul Kedrosky analyze Anthropic's S-1 filing to highlight potential red flags and overlooked risks for investors.",
-        "Robert Armstrong discusses the possibility of an impending stock market correction and identifies potential triggers."
+        "Anthropic filed to go public despite a cooling market for AI and data center investments.",
+        "The company's current S-1 filing showcases peak financial strength, including rapid revenue growth, recent operating profit, and substantial cash reserves.",
+        "Future financial performance faces headwinds from slowing revenue growth, rising cloud platform fees, and nearly $1 trillion in pending compute obligations."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Why Steve Eisman Isn't Buying Anthropic's IPO",
+      "url": "https://www.profgmedia.com/p/why-steve-eisman-isnt-buying-anthropics",
+      "published": "2026-10-28T11:04:00+00:00",
+      "bullets": [
+        "Investor Steve Eisman analyzes Anthropic's S-1 filing to discuss key data points and corporate governance structure.",
+        "Dan Chiolan breaks down the winners and losers in the ongoing autonomous vehicle race.",
+        "Ed Elson shares his perspective on why the Anthropic IPO is currently misunderstood by the market."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Trump’s War on the Press and the Fight for Free Speech",
+      "url": "https://www.profgmedia.com/p/trumps-war-on-the-press-and-the-fight",
+      "published": "2026-10-28T11:03:41+00:00",
+      "bullets": [
+        "Greg Lukianoff and Scott Galloway discuss ongoing threats to free speech in America, focusing on Trump's campaign against the press.",
+        "The conversation addresses concerns that artificial intelligence could grant those in power unprecedented control over public beliefs.",
+        "FIRE's research on campus censorship is examined alongside a debate over denying venues to artists based on their political views."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Risk Factors.",
-      "url": "https://substack.news-items.com/p/risk-factors",
-      "published": "2026-10-27T09:28:37+00:00",
+      "title": "Milestone.",
+      "url": "https://substack.news-items.com/p/milestone",
+      "published": "2026-10-28T09:41:10+00:00",
       "bullets": [
-        "Anthropic has officially filed an IPO prospectus that includes 94 pages detailing potential risk factors, including catastrophic or existential threats to humanity.",
-        "The prospectus notes that potential AI-related harms are so large that the insurance industry may lack the capacity or expertise to underwrite them.",
-        "Industry concerns are growing over AI breakthroughs in cryptography, such as Anthropic models solving long-standing NSA encryption mysteries."
+        "IBM successfully connected two quantum computing chips using meter-long aluminum cables, marking a key milestone toward scaling up quantum machines.",
+        "AI researcher Nick Cammarata estimates his new interpretability methods can help decode the behavior of more than 90 percent of neurons in advanced AI systems.",
+        "OpenAI claims its models have devised an algorithm that beats the exponential time hypothesis, a fundamental computer science assumption regarding puzzle-solving limits."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "This Oil Company Is Linked to 1,000 Pollution Incidents and Other Violations. Oklahoma Never Punished It.",
-      "url": "https://www.propublica.org/article/oklahoma-oil-pollution-citation-violations",
-      "published": "2026-10-27T09:00:00+00:00",
+      "title": "Meet ProPublica’s 2026 Class of Emerging Reporters",
+      "url": "https://www.propublica.org/article/propublica-emerging-reporters-2026",
+      "published": "2026-10-28T15:45:00+00:00",
       "bullets": [
-        "Oklahoma regulators failed to punish Citation Oil & Gas despite staff recommendations and over 1,000 recorded pollution incidents and violations tied to the company.",
-        "Toxic wastewater gushing from injection wells in an Oklahoma oil field threatened local drinking water sources and caused widespread environmental damage.",
-        "State officials ultimately allowed Citation to resume high-pressure injection operations rather than pursuing administrative penalties through the regulatory commission's court system."
+        "ProPublica's Emerging Reporters Program supports college students pursuing investigative journalism through training, financial assistance, and mentorships.",
+        "Participants in the program receive a $9,000 stipend, conference attendance, and one-on-one guidance from ProPublica journalists.",
+        "The 2026 class consists of exceptional student journalists selected from universities across multiple states."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "How Cleta Mitchell Turned Trump’s “Big Lie” Into a Movement",
+      "url": "https://www.propublica.org/article/cleta-mitchell-elections-trump",
+      "published": "2026-10-28T09:00:00+00:00",
+      "bullets": [
+        "Conservative election lawyer Cleta Mitchell founded the grassroots Election Integrity Network to advocate for restrictive voting laws and rules following the 2020 election.",
+        "Mitchell and her associates have gained significant influence within the second Trump administration, helping shape federal strategies and policies regarding elections.",
+        "The administration has appointed members of Mitchell's network to key positions to investigate voter rolls and past voting irregularities."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Court declines to restore Biden-era regulation allowing some deportation proceedings to be suspended",
-      "url": "https://www.scotusblog.com/2026/10/court-declines-to-restore-biden-era-regulation-allowing-some-deportation-proceedings-to-be-suspe/",
-      "published": "2026-10-27T16:49:00+00:00",
+      "title": "Court to consider federal inmate’s ability to use habeas to accelerate transfer to a halfway house or home confinement",
+      "url": "https://www.scotusblog.com/2026/10/court-to-consider-federal-inmates-ability-to-use-habeas-to-accelerate-transfer-to-a-halfway-hous/",
+      "published": "2026-10-28T15:00:00+00:00",
       "bullets": [
-        "The Supreme Court declined to restore a Biden-era regulation that permitted immigration judges to suspend certain deportation proceedings.",
-        "The court refused to pause an agreement between Texas and the Department of Justice that invalidated the administrative-closure rule.",
-        "Three cities and an immigrant legal services group had urged the justices to intervene, alleging collusion between Texas and the federal government."
+        "The Supreme Court will consider whether a federal inmate can use the habeas statute to challenge the Bureau of Prisons' refusal to accelerate a transfer to a halfway house or home confinement.",
+        "Inmate William Maxwell argues he is entitled to additional time credits under the First Step Act, which the BOP allegedly failed to count properly.",
+        "Lower courts previously rejected Maxwell's petition, with the Fifth Circuit ruling that habeas relief is unavailable because the requested transfer would not automatically result in accelerated release."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Assessing the first round of oral arguments of the 2026-27 term",
-      "url": "https://www.scotusblog.com/2026/10/assessing-the-first-round-of-oral-arguments-of-the-2026-27-term/",
-      "published": "2026-10-27T14:30:00+00:00",
+      "title": "Justices to decide whether failure to plead an affirmative defense prevents moving for summary judgment on that same defense",
+      "url": "https://www.scotusblog.com/2026/10/justices-to-decide-whether-failure-to-plead-an-affirmative-defense-prevents-moving-for-summary-j/",
+      "published": "2026-10-28T14:00:00+00:00",
       "bullets": [
-        "Justice Ketanji Brown Jackson initially spoke less than usual in the first case of the term but ultimately finished the six-case sitting with more words than any of her colleagues.",
-        "Jackson, Sonia Sotomayor, and Neil Gorsuch showed unexpected cross-ideological alignment by repeatedly directing their questioning toward the same litigating side.",
-        "The October session's cases primarily raised questions concerning when, where, and under what conditions judicial intervention is available."
+        "The Supreme Court will decide in Younge v. Fulton Judicial Circuit District Attorney's Office whether failing to plead an affirmative defense in an answer prevents a party from later moving for summary judgment on that defense.",
+        "Jasmine Younge challenged her termination under Title VII, after which the DA's office raised an unpleaded personal-staff exemption defense for the first time during pretrial proceedings.",
+        "Lower courts and the Eleventh Circuit ruled in favor of the DA's office, concluding that Younge suffered no prejudice from the late assertion because the record contained sufficient discovery regarding the exemption."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "The Trump administration’s attempt to prevent noncitizen voting and the role of the Supreme Court",
-      "url": "https://www.scotusblog.com/2026/10/the-trump-administrations-attempt-to-prevent-noncitizen-voting-and-the-role-of-supreme-court/",
-      "published": "2026-10-27T14:00:00+00:00",
+      "title": "Two cheers for “insecure originalism”",
+      "url": "https://www.scotusblog.com/2026/10/two-cheers-for-insecure-originalism/",
+      "published": "2026-10-28T13:30:00+00:00",
       "bullets": [
-        "The Trump administration sued California to force election officials to segregate mailed ballots cast by certain voters it believes are noncitizens.",
-        "The DOJ relies on a federal statute making noncitizen voting a crime, citing 18 U.S.C. § 611 as its primary legal authority.",
-        "The lawsuit faces fundamental legal challenges regarding whether the Constitution grants Congress the authority to regulate voter qualifications or interfere with state election procedures."
+        "Justice Samuel Alito argues in his new book that twenty-first-century originalist judges should abandon judicial \"insecurity\" and stop worrying about advancing their own policy preferences.",
+        "Alito's rejection of judicial insecurity breaks with decades of conservative legal thought championed by figures like Justice Antonin Scalia, who viewed discomfort with legal outcomes as a sign of integrity.",
+        "What Alito characterizes as insecurity is actually a vital form of judicial humility and self-awareness that guards against partisan bias in polarized times."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Another Trump term?",
-      "url": "https://www.scotusblog.com/2026/10/another-trump-term/",
-      "published": "2026-10-27T13:30:00+00:00",
+      "title": "SCOTUS won’t disturb Texas-DOJ deal on deportation proceedings",
+      "url": "https://www.scotusblog.com/2026/10/scotus-will-not-disturb-texas-doj-deal-on-deportation-proceedings/",
+      "published": "2026-10-28T13:00:00+00:00",
       "bullets": [
-        "The Supreme Court's current 2026-27 term is initially less Trump-centric than its predecessor, but pending petitions could soon change that.",
-        "The justices are considering a Trump administration challenge to a federal court ruling blocking its policy of quickly removing border crossers without asylum hearings.",
-        "The administration has also asked the court to decide whether federal trial courts have the power to review the detention and deportation of foreign students and academics accused of supporting Palestine."
+        "The Supreme Court denied a request to pause an agreement between Texas and the Department of Justice.",
+        "The disputed agreement prevents the enforcement of a Biden-era rule allowing immigration judges to pause certain deportation proceedings.",
+        "The Trump administration also recently asked the justices to allow the resumption of border wall construction in southwestern Texas."
       ]
     },
     {
-      "source": "SCOTUSblog",
-      "title": "The Supreme Court and prediction markets",
-      "url": "https://www.scotusblog.com/2026/10/the-supreme-court-and-prediction-markets/",
-      "published": "2026-10-27T13:00:00+00:00",
-      "bullets": [
-        "The Trump administration asked the Supreme Court to allow the resumption of border wall construction in the Big Bend region of Texas.",
-        "Three cities and an immigrant legal services group have petitioned the Supreme Court to pause a Texas-DOJ agreement affecting deportation proceedings."
-      ]
-    },
-    {
-      "source": "Onest Network",
-      "title": "Poland Is Getting a Patriot Missile Maintenance Hub. The Devil is in the Details.",
-      "url": "https://www.onestnetwork.com/poland-is-getting-a-patriot-missile-maintenance-hub-the-devil-is-in-the-details/",
-      "published": "2026-10-27T18:25:04+00:00",
-      "bullets": [
-        "The United States selected Poland to host Europe's first PAC-3 missile maintenance facility, eliminating the need to ship interceptors back to the U.S. for servicing.",
-        "The project involves an estimated investment of about 1 billion złoty and is expected to take at least a year to become operational following detailed negotiations with Lockheed Martin.",
-        "The facility focuses solely on maintenance and repair rather than missile production, meaning it improves the readiness of existing weapons but does not increase overall inventory."
-      ]
-    },
-    {
-      "source": "Aaron Rupar from Public Notice",
-      "title": "Thank you for supporting Public Notice",
+      "source": "Phillips P. OBrien and Illia Ponomarenko from Phillips’s",
+      "title": "Live with Phillips P. OBrien and Illia Ponomarenkor",
       "url": "",
-      "published": "2026-10-27T17:51:00+00:00",
+      "published": "2026-10-28T17:01:02+00:00",
       "bullets": [
-        "Public Notice is offering a limited-time 20 percent discount on paid subscriptions.",
-        "Paid subscribers receive access to weekly columns, community comments, and exclusive Q and As with Aaron Rupar."
+        "Phillips P. OBrien and Illia Ponomarenko published a recorded live video discussion on October 28, 2026.",
+        "The content is made available through a Substack publication."
       ]
     },
     {
-      "source": "Azeem Azhar, Exponential View",
-      "title": "🔮 Anthropic’s S-1 in charts",
+      "source": "",
+      "title": "Recommendations from your Substacks",
       "url": "",
-      "published": "2026-10-27T17:31:56+00:00",
+      "published": "2026-10-28T16:59:15+00:00",
       "bullets": [
-        "Anthropic's S-1 filing demonstrates that the organization has transitioned from a research lab into a commercial business with cash flow and satisfied customers.",
-        "While revenue growth remains very high, it is beginning to slow, with over 80 percent of current revenue driven by models released within the last six months.",
-        "The financial analysis highlights questions regarding whether the company can sustain the growth rates necessary to fund its massive compute commitments."
-      ]
-    },
-    {
-      "source": "The Freedom Frequency",
-      "title": "Beware of Five Tricks in Policy Debates",
-      "url": "",
-      "published": "2026-10-27T17:31:00+00:00",
-      "bullets": [
-        "Short-form media and politically biased AI summaries encourage sensationalism and crowd out the nuance needed for public policy debates.",
-        "The tyranny of the popular category exploits widely supported goals like education and environmental protection to push costly and ineffective policies.",
-        "Presentness bias leads policymakers to ignore long-term costs and benefits by focusing almost entirely on immediate outcomes."
-      ]
-    },
-    {
-      "source": "Center for Politics at UVA",
-      "title": "Sabato's Crystal Ball - With One Week Left, 20 Rating Changes  - Vol. 24, Iss. 78",
-      "url": "",
-      "published": "2026-10-27T16:57:07+00:00",
-      "bullets": [
-        "Democrats hold a slight advantage in retaking the Senate with one week remaining until Election Day.",
-        "Sabato's Crystal Ball issued 20 rating changes across Senate, House, and gubernatorial contests.",
-        "Several Republican-held seats shifted toward Democrats in both the House and Senate projections."
-      ]
-    },
-    {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Ohio’s Race for Governor",
-      "url": "",
-      "published": "2026-10-27T12:47:33+00:00",
-      "bullets": [
-        "The Republican candidate for Ohio governor released an attack ad exploiting the Democratic opponent Dr. Amy Acton's childhood sexual abuse.",
-        "While national figures like Donald Trump and JD Vance defended the ad, some state-level Republicans opposed it.",
-        "The Democratic ticket featuring Dr. Amy Acton and David Pepper has run a positive campaign focused on health, education, and systemic change."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape",
-      "title": "Who Stopped Israel’s Strike on Iran?",
-      "url": "https://professorrobertpape.substack.com/p/who-stopped-israels-strike-on-iran&coupon=32d05f5d",
-      "published": "2026-10-27T12:39:01+00:00",
-      "bullets": [
-        "Prime Minister Netanyahu reportedly pushed for a military strike on Iran prior to an election.",
-        "Army chief Lt. Gen. Eyal Zamir resisted the strike and demanded signed legal authorization.",
-        "Zamir reportedly took his opposition outside of Israel's government in an unprecedented confrontation."
-      ]
-    },
-    {
-      "source": "Energy Common Sense",
-      "title": "Special Edition: Anthropic, Epic.",
-      "url": "",
-      "published": "2026-10-27T12:13:13+00:00",
-      "bullets": [
-        "Anthropic filed for an IPO that highlights the massive infrastructure and electricity demands required to scale artificial intelligence.",
-        "The company warns that power constraints, regulatory hurdles, and volatile energy costs could impede the deployment of new computing capacity.",
-        "The filing acknowledges significant uncertainties, ranging from financial viability and infrastructure expenses to potential existential risks posed by advanced AI."
-      ]
-    },
-    {
-      "source": "Your Local Epidemiologist",
-      "title": "Bird flu in mink, measles double last year, SNAP at an all time low.",
-      "url": "",
-      "published": "2026-10-27T11:36:11+00:00",
-      "bullets": [
-        "U.S. measles cases have more than doubled compared to last year, reaching the highest official count since 1991.",
-        "Influenza test positivity has overtaken COVID-19 nationwide, with the CDC expecting a winter respiratory virus season similar to last year.",
-        "The ongoing measles outbreak threatens the United States' measles elimination status, which has been held since 2000."
+        "The article highlights recent reading and Substack recommendations from authors including Justin Wolfers, Joseph Heath, John Warner, and Brad DeLong.",
+        "Don Moynihan features Platypus Economics in his newsletter 'Can We Still Govern?'",
+        "The digest lists personal Substack publications such as 'In Due Course', 'The Biblioracle Recommends', and 'DeLong's Grasping Reality Weblog'."
       ]
     },
     {
       "source": "Prof Robert Pape from Escalation Trap",
-      "title": "Is a True Off-Ramp Emerging?",
-      "url": "https://escalationtrap.substack.com/p/is-a-true-off-ramp-emerging",
-      "published": "2026-10-27T11:38:39+00:00",
+      "title": "This Week’s Briefing Moves to Thursday, Live From London",
+      "url": "",
+      "published": "2026-10-28T16:49:49+00:00",
       "bullets": [
-        "Representatives from Saudi Arabia, Pakistan, and Turkey recently met with Iran's president in Tehran without American participation.",
-        "Qatar is actively brokering an agreement to reopen the Strait of Hormuz.",
-        "Professor Robert Pape argues that ending the conflict requires a regional balancing strategy between Gulf states and Iran instead of continued U.S. intervention."
+        "Prof Robert Pape is rescheduling this week's briefing to Thursday, October 29, at 4pm ET to broadcast live from London after being invited to tape an appearance on The Diary of a CEO.",
+        "The briefing will cover Iran's military and economic standing, Israel's political deadlock and ties to Washington, regional diplomatic efforts, and British emergency preparedness stockpiles.",
+        "Subscribers unable to attend the live afternoon session will receive access to the full recorded video."
       ]
     },
     {
-      "source": "Charlotte Clymer from Charlotte's Web Thoughts",
-      "title": "Today May Be One of Reckoning for Netanyahu",
+      "source": "Gabe Fleisher",
+      "title": "The End of Zombie Politics?",
       "url": "",
-      "published": "2026-10-27T11:36:41+00:00",
+      "published": "2026-10-28T15:01:04+00:00",
       "bullets": [
-        "Israel is holding its first legislative election since 2022 and the October 7, 2023, Hamas attacks, with Prime Minister Benjamin Netanyahu facing a strong challenge to his leadership.",
-        "The 120-seat Knesset requires parties to clear a 3.25 percent threshold to win seats, and governing power depends on forming a coalition that reaches the majority threshold of 61 seats."
+        "Modern American political tradition typically expects primary losers to publicly endorse and campaign for their party's nominee.",
+        "Multiple primary losers from both major parties are breaking with this convention by withholding endorsements or refusing to campaign together.",
+        "Instances from both Republicans and Democrats show former rivals bypassing traditional unity rituals and supporting alternative candidates or causes."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "New post: Polls may have too few Trump voters from red America",
+      "url": "",
+      "published": "2026-10-28T14:07:44+00:00",
+      "bullets": [
+        "G. Elliott Morris published a new post discussing whether current polls undercount Trump voters from red America.",
+        "An initial email distribution error prevented most subscribers from receiving the article in the morning.",
+        "The author resent the newsletter to ensure the full subscriber base could access the data lab analysis."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Britain Just Told Its People to Stock Up -- What Does London Know That Americans Don’t?",
+      "url": "https://escalationtrap.substack.com/p/britain-just-told-its-people-to-stock",
+      "published": "2026-10-28T13:42:11+00:00",
+      "bullets": [
+        "Britain launched its largest public-preparedness campaign since the Cold War, advising households to stockpile 72 hours of essential supplies.",
+        "Defence Secretary Wes Streeting stated that Britain has just over 1,000 days to prepare to fight and win.",
+        "While London cited no specific threat, the article notes the UK faces risks from Iran and Russia while Washington has not similarly leveled with the American public."
+      ]
+    },
+    {
+      "source": "Energy Common Sense",
+      "title": "Sh*tshow: 8 Months",
+      "url": "",
+      "published": "2026-10-28T12:50:53+00:00",
+      "bullets": [
+        "Eight months into the conflict, attacks like the Houthi missile strike on Saudi Arabia's Ras Tanura refinery highlight ongoing threats to global energy infrastructure.",
+        "The war has driven up financial burdens, with Brent crude rising to $116 per barrel, U.S. gasoline jumping to $4.25 a gallon, and daily crude carrier rates reaching over $1 million.",
+        "Military costs have surpassed $47 billion alongside a human toll of 21 U.S. service member deaths, while the conflict has cost the typical American household roughly $2,000."
+      ]
+    },
+    {
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "Our American Matrix, Our American Skynet",
+      "url": "",
+      "published": "2026-10-28T12:26:34+00:00",
+      "bullets": [
+        "Tech billionaires have recently violated basic liberties such as freedom of speech, voting, and life.",
+        "Elon Musk restricted Ukraine's access to Starlink, hindering their defense against Russian attacks and resulting in avoidable deaths.",
+        "Meta temporarily suspended the Instagram account and locked out administrators of the No Kings Coalition during a major American voter mobilization event."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape",
+      "title": "Europe’s Revolt Has a Date -- Will America’s?",
+      "url": "https://professorrobertpape.substack.com/p/europes-revolt-has-a-date-will-americas&coupon=32d05f5d",
+      "published": "2026-10-28T11:58:21+00:00",
+      "bullets": [
+        "Protests involving students and workers have erupted across multiple European countries since October 17.",
+        "Author Robert Pape highlights that focal point events can rapidly transform scattered grievances into widespread movements or violence.",
+        "The author questions whether the United States will experience a similar focal point event ahead of its midterm elections."
+      ]
+    },
+    {
+      "source": "Your Local Epidemiologist",
+      "title": "Politics is medicine on a large scale",
+      "url": "",
+      "published": "2026-10-28T11:40:34+00:00",
+      "bullets": [
+        "Rudolf Virchow famously argued in 1848 that medicine is a social science and politics is simply medicine on a large scale.",
+        "Health-related policies, officials, and regulations are determined by outcomes at multiple levels of government, from local school boards to federal committees.",
+        "Elections directly shape health outcomes by influencing healthcare access, insurance, medical costs, and the living conditions that affect well-being."
+      ]
+    },
+    {
+      "source": "FiftyPlusOne.news",
+      "title": "Trump's endorsees won 96% of their primaries in 2026",
+      "url": "",
+      "published": "2026-10-28T11:04:06+00:00",
+      "bullets": [
+        "President Trump's endorsed candidates won 96 percent of their primary elections during the 2026 cycle.",
+        "An analysis of a dataset tracking every congressional and gubernatorial race shows that some of Trump's picks may risk key general election races for Republicans.",
+        "Trump's high overall win rate was bolstered by a significant number of endorsements in uncontested or less competitive races."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "Trump Doesn’t Give a Damn About Your Problems",
+      "title": "Hack Apocalypse Now",
       "url": "",
-      "published": "2026-10-27T10:43:41+00:00",
+      "published": "2026-10-28T10:30:55+00:00",
       "bullets": [
-        "Republican struggles in the looming midterms are driven by public anger over epic corruption and soaring energy prices.",
-        "Energy prices have increased significantly due to Trump's war with Iran, contradicting his 2024 campaign promise to cut them in half.",
-        "Trump dismissed the financial burden on everyday consumers by celebrating massive profits for the oil and gas industry."
+        "Paul Krugman highlights multiple economic and societal concerns regarding artificial intelligence, including labor displacement, data center crowding, and potential market bubble risks.",
+        "Recent events show AI is being used to uncover critical software vulnerabilities, such as flaws in the PHP programming language, leading to government website outages.",
+        "Cybersecurity experts warn that AI-driven exploitation of software flaws could trigger widespread digital disruptions and security compromises in the near future."
       ]
     },
     {
-      "source": "Lisa Needham from Public Notice",
-      "title": "Living in the long, stupid shadow of the Big Lie",
+      "source": "Liz Dye from Public Notice",
+      "title": "Trump takes one more desperate swing at Jim Comey",
       "url": "",
-      "published": "2026-10-27T10:17:32+00:00",
+      "published": "2026-10-28T10:17:33+00:00",
       "bullets": [
-        "The Trump administration is using the Department of Justice to interfere in upcoming elections.",
-        "The DOJ demanded California investigate 20,000 alleged non-citizen voters provided on an insecure thumb drive with a Post-it note password.",
-        "A Ninth Circuit panel recently ruled against immediately ordering California to segregate mail-in ballots based on the administration's disputed list."
+        "Maurene Comey won her wrongful termination lawsuit against the Justice Department following her firing.",
+        "The Trump DOJ has filed criminal charges against former FBI Director James Comey for the third time in 13 months.",
+        "The latest indictment involves an Espionage Act charge related to a 2016 New York Times article about email surveillance."
       ]
     },
     {
-      "source": "Michael Spencer from AI Supremacy",
-      "title": "Anthropic S-1 & Datacenters are Politically Unsustainable in 2026",
+      "source": "Galen Druke",
+      "title": "BONUS: Talking Midterms With The Irish Times",
       "url": "",
-      "published": "2026-10-27T10:15:38+00:00",
+      "published": "2026-10-28T10:17:33+00:00",
       "bullets": [
-        "Growing public opposition and negative sentiment toward artificial intelligence have created a major bottleneck for AI infrastructure development.",
-        "A significant majority of Americans oppose the construction of AI data centers and power infrastructure near their communities, leading to moratoriums and proposed bans across multiple states.",
-        "Local opposition, zoning rejections, and rising concerns over utility bills and community health have delayed billions of dollars in data center projects."
+        "Galen Druke appeared on The Irish Times podcast Inside Politics to discuss the upcoming congressional midterms with Hugh Linehan.",
+        "The conversation explored electoral swings in a polarized U.S., differences between midterm and presidential electorates, and potential lessons for both political parties.",
+        "Druke and Linehan also examined the historical relationship between midterm outcomes and subsequent presidential elections."
       ]
     },
     {
-      "source": "Phillips P. OBrien from Phillips’s",
-      "title": "The First Military Investigation",
+      "source": "Michael Spencer and Michael Fritzell from AI Supremacy",
+      "title": "How to use Claude AI for Investing and Equity Research",
       "url": "",
-      "published": "2026-10-27T09:22:10+00:00",
+      "published": "2026-10-28T09:15:37+00:00",
       "bullets": [
-        "American companies with military portfolios that aligned closely with the Trump administration are reportedly growing nervous over potential midterm election shifts.",
-        "The author proposes a military investigation into the use of Artificial Intelligence within Pentagon war planning and operations, particularly concerning the Iran War.",
-        "The article highlights Elon Musk's unprecedented public statements regarding the Russo-Ukraine war and political ideologies."
+        "The article explores how to use Claude AI for investing and equity research, featuring insights from analyst Michael Fritzell.",
+        "Anthropic is experiencing significant growth and momentum heading into its anticipated upcoming IPO.",
+        "Recent updates like Opus 5.5 and new financial sector tools highlight Claude's expanding role in financial services."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Musk Wants Me Imprisoned",
-      "url": "",
-      "published": "2026-10-27T08:02:44+00:00",
+      "title": "Office Hours: How Will Democrats Do?",
+      "url": "https://robertreich.substack.com/p/office-hours-how-well-will-democrats&coupon=d77dee36",
+      "published": "2026-10-28T08:02:54+00:00",
       "bullets": [
-        "Robert Reich suggested on his podcast that Democrats should defund Elon Musk and lay the groundwork for nationalizing Starlink and SpaceX.",
-        "In response to the podcast, Elon Musk called for Reich to be imprisoned for advocating the seizure of companies.",
-        "Reich stated he is not intimidated by Musk's threats, but expressed deep concern for vulnerable individuals targeted by powerful bullies."
-      ]
-    },
-    {
-      "source": "Klement on Investing",
-      "title": "The decline of German manufacturing",
-      "url": "",
-      "published": "2026-10-27T07:01:24+00:00",
-      "bullets": [
-        "A second China shock is harming European manufacturing as Chinese companies compete effectively in high-tech goods.",
-        "German manufacturers have lost market share faster than the European average, particularly in core strengths like cars, machinery, and electrical equipment.",
-        "Germany's manufacturing decline stems from Chinese competitors outpacing them in quality and innovation rather than price alone."
+        "Robert Reich discusses upcoming midterm election predictions with six days remaining until the results.",
+        "The publication prompts readers and political observers to share their expectations regarding how the nation will vote."
       ]
     },
     {
       "source": "Heather Cox Richardson from Letters from an American",
-      "title": "October 26, 2026",
+      "title": "October 27, 2026",
       "url": "",
-      "published": "2026-10-27T05:34:32+00:00",
+      "published": "2026-10-28T06:49:07+00:00",
       "bullets": [
-        "Former president Barack Obama drew large crowds at rallies in Ohio and Michigan while mocking Donald Trump's behavior and policies.",
-        "Donald Trump published a lengthy social media post attacking late-night host Bill Maher and defending his own popularity among Republicans.",
-        "Trump's continued efforts to maintain Republican control in Congress stem largely from his fears of potential impeachment hearings and investigations."
+        "A student-led democratic movement successfully ousted Serbian leader Aleksandar Vučić from power.",
+        "Leftist incumbent Luiz Inácio Lula da Silva defeated right-wing presidential candidate Flávio Bolsonaro in Brazil's election.",
+        "Flávio Bolsonaro conceded after facing pressure and failing to overturn the election results, despite initial claims of corruption and foreign backing."
+      ]
+    },
+    {
+      "source": "Klement on Investing",
+      "title": "Gold reserves and exchange rate management",
+      "url": "",
+      "published": "2026-10-28T07:00:58+00:00",
+      "bullets": [
+        "Central banks with larger foreign exchange reserves, particularly in US dollars, are better equipped to stabilize their exchange rates against unexpected Federal Reserve policy shocks.",
+        "Gold functions as an indirect dollar asset that foreign exchange markets view similarly to general foreign reserves when liquidity is needed.",
+        "Holding gold reserves does not provide statistically significant improvements in exchange rate stability compared to holding direct US dollar reserves."
       ]
     }
   ],
-  "articles_processed": 34,
-  "articles_attempted": 34,
+  "articles_processed": 36,
+  "articles_attempted": 36,
   "publications": [
-    "The Freedom Frequency",
-    "Slow Boring",
-    "SCOTUSblog",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "ProPublica",
-    "Paul Krugman",
+    "",
+    "Gabe Fleisher",
     "Energy Common Sense",
-    "Prof Robert Pape from Escalation Trap",
+    "ProPublica",
+    "Michael Spencer and Michael Fritzell from AI Supremacy",
+    "Your Local Epidemiologist",
+    "Klement on Investing",
+    "SCOTUSblog",
+    "G. Elliott Morris",
+    "FiftyPlusOne.news",
     "The Bulwark",
+    "Phillips P. OBrien and Illia Ponomarenko from Phillips’s",
     "John Ellis",
     "Heather Cox Richardson from Letters from an American",
-    "Your Local Epidemiologist",
-    "Onest Network",
-    "Center for Politics at UVA",
-    "Phillips P. OBrien from Phillips’s",
-    "Lisa Needham from Public Notice",
-    "Azeem Azhar, Exponential View",
-    "Klement on Investing",
-    "Robert Reich",
-    "Aaron Rupar from Public Notice",
-    "Michael Spencer from AI Supremacy",
-    "Charlotte Clymer from Charlotte's Web Thoughts",
+    "Prof Robert Pape from Escalation Trap",
+    "Galen Druke",
+    "Paul Krugman",
     "Prof Robert Pape",
-    "Scott Galloway"
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "Slow Boring",
+    "Liz Dye from Public Notice",
+    "Scott Galloway",
+    "Robert Reich"
   ],
-  "generated_at": "2026-10-27T18:33:51.854729+00:00",
+  "generated_at": "2026-10-28T18:40:25.610484+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-10-27-1833.json"
+  "archive_filename": "2026-10-28-1840.json"
 }
