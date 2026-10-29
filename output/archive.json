@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-10-29",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-29T18:49:03.170176+00:00",
+    "filename": "2026-10-29-1849.json",
+    "articles_processed": 35,
+    "publications": [
+      "Scott Galloway",
+      "ProPublica",
+      "The Bulwark",
+      "The Freedom Frequency",
+      "Gabe Fleisher",
+      "Klement on Investing",
+      "FiftyPlusOne.news",
+      "Prof Robert Pape from Escalation Trap",
+      "Center for Politics at UVA",
+      "Louis-François from Learn AI Together",
+      "G. Elliott Morris",
+      "Robert Reich",
+      "Tom Schaller from Public Notice",
+      "Slow Boring",
+      "Azeem Azhar, Exponential View",
+      "Phillips P. OBrien from Phillips’s",
+      "John Ellis",
+      "Michael Spencer from AI Supremacy",
+      "Center for Humane Technology",
+      "SCOTUSblog",
+      "Heather Cox Richardson from Letters from an American",
+      "Paul Krugman"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-28",
     "run_label": "7 AM",
     "generated_at": "2026-10-28T18:40:25.610484+00:00",
