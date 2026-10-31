@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-10-31",
+    "run_label": "7 AM",
+    "generated_at": "2026-10-31T17:31:12.555973+00:00",
+    "filename": "2026-10-31-1731.json",
+    "articles_processed": 16,
+    "publications": [
+      "Prof Robert Pape",
+      "Heather Cox Richardson from Letters from an American",
+      "Slow Boring",
+      "Center for Politics at UVA",
+      "Prof Robert Pape from Escalation Trap",
+      "Paul Krugman",
+      "Robert Reich",
+      "Scott Galloway",
+      "The Bulwark",
+      "The Freedom Frequency",
+      "Galen Druke",
+      "John Ellis",
+      "Phillips P. OBrien from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-30",
     "run_label": "7 AM",
     "generated_at": "2026-10-30T18:26:16.844444+00:00",
