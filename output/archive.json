@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-11-01",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-01T18:17:02.129910+00:00",
+    "filename": "2026-11-01-1817.json",
+    "articles_processed": 18,
+    "publications": [
+      "",
+      "Silver Bulletin",
+      "Don Moynihan from Can We Still Govern?",
+      "John Ellis from Political News Items",
+      "Scott Galloway",
+      "Heather Cox Richardson from Letters from an American",
+      "Prof Robert Pape from Escalation Trap",
+      "John Ellis",
+      "The Bulwark",
+      "Aaron Rupar from Public Notice",
+      "Mykola Bielieskov",
+      "Robert Reich",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Paul Krugman",
+      "Phillips P. OBrien from Phillips’s",
+      "Ruth Ben-Ghiat from Lucid"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-10-31",
     "run_label": "7 AM",
     "generated_at": "2026-10-31T17:31:12.555973+00:00",
