@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-02",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-02T22:10:57.838282+00:00",
+    "filename": "2026-11-02-2210.json",
+    "articles_processed": 43,
+    "publications": [
+      "Phillips P. OBrien from Phillips’s",
+      "Louis-François from What's AI",
+      "Jacob Morgan",
+      "Gabe Fleisher",
+      "Center for Politics at UVA",
+      "Scott Galloway",
+      "ProPublica",
+      "Azeem Azhar, Exponential View",
+      "Onest Network",
+      "Prof Robert Pape from Escalation Trap",
+      "Prof Robert Pape",
+      "Galen Druke",
+      "Silver Bulletin",
+      "G. Elliott Morris",
+      "Open Letters, from Anne Applebaum",
+      "John Ellis",
+      "SCOTUSblog",
+      "Slow Boring",
+      "Paul Krugman",
+      "Robert Reich",
+      "The Bulwark",
+      "David R. Lurie from Public Notice"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-01",
     "run_label": "7 AM",
     "generated_at": "2026-11-01T18:17:02.129910+00:00",
