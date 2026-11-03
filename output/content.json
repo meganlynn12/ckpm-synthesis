@@ -1,506 +1,442 @@
 {
-  "date": "2026-11-02",
-  "narrative_summary": "As the United States approaches a high-stakes midterm election cycle, forecasters project potential Democratic gains in Congress amid intense battles over voting rules, immigration enforcement, and federal overreach. The Trump administration faces severe scrutiny over governance scandals, aggressive foreign policy maneuvers regarding Iran, and unprecedented legal interventions in state election administration that have reached the Supreme Court. Meanwhile, early voting data indicates surging turnout among key demographic groups, even as analysts debate whether traditional polling adequately captures hidden momentum or hostile voter sentiment. Beyond domestic politics, broader institutional pressures—from artificial intelligence disruption in the workplace to volatile geopolitical alignments in Europe and the Middle East—continue to strain traditional state systems.",
+  "date": "2026-11-03",
+  "narrative_summary": "As millions of Americans head to the polls for a high-stakes midterm election driven by economic anxieties, inflation, and public backlash against controversial administration policies, quantitative models and early voting indicators strongly favor a potential Democratic wave to capture both congressional chambers. The turbulent election cycle has been further compounded by aggressive Republican gerrymandering, legal battles over certification processes, and intense scrutiny surrounding executive branch overreaches like unauthorized federal restructuring and foreign policy crises in the Middle East. Meanwhile, the Supreme Court weighs critical administrative and civil liability questions, and independent analysts closely monitor economic indicators, AI market vulnerabilities, and election integrity issues nationwide. Pundits and newsrooms are mobilizing live coverage events to track real-time returns as the nation decides whether to reconfigure the balance of federal power.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Command Post: Tucker Carlson Says Trump is Considering a Nuclear Attack on Iran",
-      "url": "https://www.thebulwark.com/p/command-post-tucker-carlson-says",
-      "published": "2026-11-02T20:50:44+00:00",
+      "title": "Trump Makes Multiple Wild Claims During Pre-Election Fox Interview | Morning Shots",
+      "url": "https://www.thebulwark.com/p/trump-makes-multiple-wild-claims",
+      "published": "2026-11-03T16:59:27+00:00",
       "bullets": [
-        "Tucker Carlson claimed the Trump administration might be considering a nuclear attack on Iran.",
-        "Ben Parker and Lt. Gen. Mark Hertling analyzed and discredited Carlson's claims regarding potential nuclear escalation.",
-        "The discussion highlighted Donald Trump's focus on war casualties and the absence of easy military solutions."
+        "Donald Trump made surprising final-stretch claims, including an announcement that he is cutting off military aid to Israel.",
+        "Commentators analyzed Trump's closing message alongside potential renewed strikes on Iran.",
+        "Republicans face a precarious position due to controversies including the Minneapolis ICE crackdown, the war in Iran, and ongoing corruption scandals."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Bill Kristol and JVL: Trump Could Be More Dangerous Post-Election",
-      "url": "https://www.thebulwark.com/p/bill-kristol-and-jvl-trump-could",
-      "published": "2026-11-02T20:49:34+00:00",
+      "title": "Heads We Win, Tails You’re Decertified",
+      "url": "https://www.thebulwark.com/p/election-certification-seating-formalities-republicans",
+      "published": "2026-11-03T16:58:28+00:00",
       "bullets": [
-        "A briefed Democratic senator warned that the ongoing Iran war plan is insane and threatens a devastating escalation.",
-        "Polling remains favorable for Democrats ahead of the midterms, though opinions differ on the final Senate margin.",
-        "Bill Kristol, Jonathan V. Last, and Tim Miller discussed current political developments and legal planning regarding potential election meddling."
+        "Republicans are attempting to use the certification and seating stages of elections to potentially overturn Democratic victories.",
+        "The Trump administration's Department of Justice filed a lawsuit to block Alaska from certifying election results if the incumbent Republican senator loses due to alleged voter confusion.",
+        "Alaskan officials, including the governor, have suggested they might withhold or alter certification if they conclude wrongdoing occurred."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "A Close-Up View of the Wildest 24 Hours of the El-Sayed Campaign",
-      "url": "https://www.thebulwark.com/p/a-close-up-view-of-the-wildest-24-hours-abdul-el-sayed-campaign-haley-stevens-mike-rogers-michigan-senate",
-      "published": "2026-11-02T20:00:47+00:00",
+      "title": "The Alex Pretti Election",
+      "url": "https://www.thebulwark.com/p/the-alex-pretti-election-minneapolis-minnesota-trump-agenda-turning-point-ice-good-midterms-vivek-ramaswamy-acton-quarter-zip",
+      "published": "2026-11-03T14:28:38+00:00",
       "bullets": [
-        "Former Democratic rival Haley Stevens endorsed Republican Senate nominee Mike Rogers, disrupting Abdul El-Sayed's campaign events targeting Black voters.",
-        "El-Sayed attempted to pivot media attention away from the endorsement toward local voter concerns, but his press conference was cut short after reporters repeatedly pressed him on the rift.",
-        "Following the endorsement, El-Sayed's campaign raised $2.4 million amid a backlash against Stevens from fellow Democrats, while a New York Times/Siena poll showed El-Sayed leading by 11 points."
+        "Americans are voting on Election Day following a turbulent year defined by Donald Trump's controversial domestic and foreign policies.",
+        "Trump's political downfall was significantly accelerated by a disastrous Middle East war with Iran that spiked energy prices and fractured his coalition.",
+        "A major turning point for the administration was its botched ICE occupation of Minneapolis, which sparked fierce local resistance and public backlash against state violence."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "I Believe in the Kaiju Tsunami",
-      "url": "https://www.thebulwark.com/p/i-believe-in-the-kaiju-tsunami",
-      "published": "2026-11-02T17:52:14+00:00",
+      "title": "Trump Was Right. He Is on the Ballot.",
+      "url": "https://www.thebulwark.com/p/trump-was-right-he-is-on-the-ballot-polling-midterms",
+      "published": "2026-11-03T10:23:32+00:00",
       "bullets": [
-        "Polling and current trends indicate a shift toward 53 or 54 projected Democratic Senate seats.",
-        "The author argues that actual voter momentum currently exceeds what is reflected in existing polls."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "MAGA Mondays: GOP Operative Roger Stone Panics Over Midterms, Calls in JD Vance",
-      "url": "https://www.thebulwark.com/p/maga-mondays-gop-operative-roger",
-      "published": "2026-11-02T16:26:55+00:00",
-      "bullets": [
-        "Republican operative Roger Stone made a desperate effort to rescue a struggling MAGA candidate as Election Day approached.",
-        "Donald Trump expressed fury over a $50 million pardon controversy involving Alina Habba.",
-        "Other recent developments included a failed MAGA investigation in Alaska and alarming nuclear claims by Tucker Carlson."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "Blue Texas Is a Mirage—Until It Isn’t",
-      "url": "https://www.thebulwark.com/p/blue-texas-is-a-mirage-until-it-isnt-james-talarico-ken-paxton-senate-trump-vance-midterms",
-      "published": "2026-11-02T15:35:36+00:00",
-      "bullets": [
-        "A massive crowd attended a Republican midterm rally in rural Weatherford, Texas, featuring surrogate speakers campaigning for Donald Trump and local candidates.",
-        "Speakers at the event heavily emphasized cultural grievances, attacking a Democratic opponent over LGBTQ+ issues and progressive policies.",
-        "The intense political mobilization reflects Republican efforts to stave off potential electoral defeats in a state increasingly viewed as a competitive battleground."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "It Won’t Be a Blue Tsunami. It’ll Be an Orange Crush.",
-      "url": "https://www.thebulwark.com/p/it-wont-be-a-blue-tsunami-orange-crush-midterms-polls-early-vote-democrats-trump-norway",
-      "published": "2026-11-02T14:35:17+00:00",
-      "bullets": [
-        "The author argues that the 2026 midterm elections are shaping up to be a decisive electoral repudiation of Donald Trump and Trumpism.",
-        "Recent polling indicates that Democrats are poised to comfortably flip both the House and the Senate.",
-        "Surveys show Democrats leading in an unprecedented number of long-standing Republican strongholds."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "Republicans Have Earned a Rout",
-      "url": "https://www.thebulwark.com/p/republicans-have-earned-a-rout-2026-midterms-blue-wave",
-      "published": "2026-11-02T09:52:51+00:00",
-      "bullets": [
-        "The Trump administration faces sharp criticism ahead of the midterm elections for foreign policy alignments, mass deportations, and controversial domestic policies.",
-        "The article details numerous governance scandals, including unhinged public behavior, questionable pardons, and controversial military and immigration enforcement actions.",
-        "The author argues that concerns regarding the progressive left do not justify overlooking the severe flaws and actions of the current Republican administration."
+        "Most Americans are treating the midterm elections as a referendum on Donald Trump's performance in office.",
+        "Declining economic conditions and high costs for essentials like gas and food are driving down Trump's approval ratings and voter enthusiasm.",
+        "Trump has lost support among major demographic groups and key constituencies that previously backed him."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "The seven most important midterms of all time",
-      "url": "https://www.slowboring.com/p/the-seven-most-important-midterms",
-      "published": "2026-11-02T11:03:35+00:00",
+      "title": "What not to watch tonight",
+      "url": "https://www.slowboring.com/p/what-not-to-watch-tonight",
+      "published": "2026-11-03T11:02:25+00:00",
       "bullets": [
-        "Election forecasting models provide probability estimates for Senate control that cannot be definitively validated due to the inability to test them across repeated real-world elections.",
-        "Congressional midterms serve as the primary driving force of the American constitutional system and frequently introduce major political shifts despite lacking presidential-level drama.",
-        "The historical phenomenon of midterm backlash is a consistent political pattern rather than a physical law, making its emergence contingent on specific circumstances."
+        "The Substack Midterms Hub provides election updates and commentary while acknowledging the inherent unpredictability of election outcomes.",
+        "Early indicators and demographic trends generate conflicting expert opinions, making actual vote counts necessary.",
+        "Exit polls are unreliable for analyzing demographic subgroup behavior because they rely on assumptions about the electorate's composition rather than confirmed turnout data."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "‘Twas the Night Before Midterms",
-      "url": "https://www.profgmedia.com/p/twas-the-night-before-midterms",
-      "published": "2026-11-02T20:05:06+00:00",
+      "title": "REPLAY: A Democratic Tsunami Predicted on Election Day",
+      "url": "https://www.profgmedia.com/p/replay-a-democratic-tsunami-predicted",
+      "published": "2026-11-03T18:18:46+00:00",
       "bullets": [
-        "The publication is hosting a week of free daily livestreams and companion newsletters to provide real-time coverage during election season.",
-        "A special 26 percent discount is being offered this week for monthly and annual Prof G+ paid subscriptions.",
-        "Paid subscribers gain access to exclusive content, including upcoming 2027 predictions and research reports."
+        "Millions of Americans cast votes in the 2026 midterms, with early voting outpacing the previous cycle in key battleground states.",
+        "Potential Democratic congressional victories could lead to Hakeem Jeffries becoming the first Black speaker and prompt investigations into Elon Musk.",
+        "President Trump is downplaying the prospect of renewed military conflict with Iran while negotiations continue through Qatari mediators."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Haley Stevens’ Bombshell Endorsement Could Backfire Big Time",
-      "url": "https://www.profgmedia.com/p/replay-haley-stevens-bombshell-endorsement",
-      "published": "2026-11-02T17:47:35+00:00",
+      "title": "Anthropic's Q3 Results Are In — The Costs Are Exploding",
+      "url": "https://www.profgmedia.com/p/anthropics-q3-results-are-in-the",
+      "published": "2026-11-03T12:03:18+00:00",
       "bullets": [
-        "Haley Stevens' endorsement of Republican Senate nominee Mike Rogers in Michigan threatens to disrupt Abdul El-Sayed's campaign amid a fractured Democratic unity push.",
-        "Recent polling indicates Democrats leading in five key Senate battlegrounds despite Donald Trump's final campaign efforts.",
-        "Democratic Senate candidate Josh Turek in Iowa is drawing criticism for a campaign advertisement addressing transgender issues."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "Is AI Killing Software? & Talking to Your Kids About Peer Pressure",
-      "url": "https://www.profgmedia.com/p/is-ai-killing-software-and-talking",
-      "published": "2026-11-02T17:45:04+00:00",
-      "bullets": [
-        "Scott Galloway discusses how to guide sons through fraternity life and peer pressure.",
-        "The episode covers strategies for diversifying investments beyond the S&P 500.",
-        "Galloway evaluates the validity of fears surrounding the SaaSpocalypse and government jobs data."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "The Anxious Democrat’s Guide to the Big 11 Races on Election Night",
-      "url": "https://www.profgmedia.com/p/the-anxious-democrats-guide-to-the-18e",
-      "published": "2026-11-02T17:03:05+00:00",
-      "bullets": [
-        "Voters head to the polls in a high-spending midterm election cycle viewed as a critical referendum on the current administration.",
-        "Tight Senate and congressional races in states like South Carolina, Ohio, Maine, and New Hampshire will help define the outcome of election night.",
-        "Key electoral battlegrounds feature competitive matchups driven by local economic issues, healthcare policies, and candidate positioning."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "What America Can Learn From Brazil’s Election",
-      "url": "https://www.profgmedia.com/p/what-america-can-learn-from-brazils",
-      "published": "2026-11-02T14:57:35+00:00",
-      "bullets": [
-        "President Luiz Inácio Lula da Silva secured a fourth term in Brazil despite trailing in the initial round against Flávio Bolsonaro.",
-        "Analysts attribute the political comeback to a strategic WhatsApp campaign and voters' economic anxieties despite strong macroeconomic indicators.",
-        "Brazil's election results buck the broader rightward political trend observed across Latin America."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "Is Inflation About to Cost Trump Congress?",
-      "url": "https://www.profgmedia.com/p/is-inflation-about-to-cost-trump",
-      "published": "2026-11-02T12:02:40+00:00",
-      "bullets": [
-        "Searches on Yelp for all-you-can-eat buffets increased by 252 percent over the course of a year.",
-        "The surge in budget-conscious dining searches reflects growing consumer inflation pressures."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "The Stock Market Is Already Pricing In A Democratic Sweep",
-      "url": "https://www.profgmedia.com/p/the-stock-market-is-already-pricing",
-      "published": "2026-11-02T11:15:01+00:00",
-      "bullets": [
-        "Scott Galloway and Ed Elson discuss voter impacts from the Trump administration's economic policies ahead of the midterm elections.",
-        "The hosts analyze recent Big Tech earnings, focusing on Google, Apple's AI strategy, and capital expenditures.",
-        "They also examine new Instagram features and the potential competitive threat posed to Netflix."
+        "Ed Elson and John Foley analyze Anthropic's amended S-1 filings and potential credit rating implications.",
+        "Deirdre Bosa discusses the Nasdaq entering correction territory and market sentiment in San Francisco.",
+        "Mark Zandi evaluates the overall state of the economy ahead of the midterm elections."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Half True.",
-      "url": "https://substack.news-items.com/p/half-true",
-      "published": "2026-11-02T10:52:39+00:00",
+      "title": "America Votes.",
+      "url": "https://substack.news-items.com/p/america-votes-226",
+      "published": "2026-11-03T11:44:55+00:00",
       "bullets": [
-        "North American natural gas consumers are largely avoiding the economic fallout of the Iran conflict due to the shale revolution and domestic geological abundance.",
-        "The U.S. is reportedly backing a plan to resume Russian natural-gas sales to Europe via Ukraine using a U.S. intermediary to bypass sanctions.",
-        "Stretched public finances and aging populations are threatening traditional state-funded pensions and welfare systems across Europe."
+        "John Ellis and Jack Leslie will host a live video podcast tonight from 6:30 pm to 8 pm Eastern Time to discuss election results.",
+        "The broadcast will cover early returns and analysis for key Senate races in Georgia, South Carolina, North Carolina, and Ohio."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "After ProPublica Investigation, House Democrats Demand Answers on U.S. Citizens Detained by Immigration Agents",
-      "url": "https://www.propublica.org/article/american-citizens-ice-detention-congress-impact",
-      "published": "2026-11-02T17:45:00+00:00",
+      "title": "We Can’t Predict What Will Happen on Election Day. But We’ll Be Here to Cover It.",
+      "url": "https://www.propublica.org/article/propublica-approach-2026-midterm-elections",
+      "published": "2026-11-03T11:00:00+00:00",
       "bullets": [
-        "House Democrats sent a letter to DHS Secretary Markwayne Mullin demanding transparency regarding the detention of U.S. citizens by immigration agents.",
-        "Lawmakers are pressing the administration to disclose the total number of detained citizens, details on verification procedures, and agent training methods.",
-        "The inquiry follows an investigation by ProPublica identifying more than 500 American citizens who were wrongfully detained during immigration enforcement operations."
+        "This midterm election cycle has been defined by massive spending, aggressive redistricting, and unprecedented challenges to election integrity from President Trump and his allies.",
+        "ProPublica reporters are deployed across 11 key states and Washington, D.C., to monitor voter suppression, interference, and election mechanics despite the unpredictability of outcomes.",
+        "The newsroom's accountability journalism has focused on issues like the depletion of the Cybersecurity and Infrastructure Security Agency and Postal Service delays affecting mail-in ballots."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "“Chaos” in the Air: Five Ways Voting Could Be Disrupted on Election Day",
-      "url": "https://www.propublica.org/article/five-voting-disruptions-midterm-election",
-      "published": "2026-11-02T11:00:00+00:00",
+      "title": "I Was There to Document the Aftermath of Deadly Flooding. Then, It Started Raining.",
+      "url": "https://www.propublica.org/article/ruidoso-new-mexico-floods-fire",
+      "published": "2026-11-03T10:30:00+00:00",
       "bullets": [
-        "The Trump administration has pursued unprecedented federal control over elections by demanding unredacted voter rolls, restricting mail-in voting, and prosecuting alleged noncitizen voters.",
-        "Federal efforts and threats to prosecute election officials who do not reject targeted ballots have heightened anxiety and created confusion among voters.",
-        "Voting experts and election officials are actively monitoring potential issues such as federal interference, law enforcement presence near polling locations, and expanded partisan poll-watching operations."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "Tribal Leaders Warned Border Wall Construction Would Disturb Native American Remains. They Were Right.",
-      "url": "https://www.propublica.org/article/border-wall-remains-native-american-organ-pipe",
-      "published": "2026-11-02T10:00:00+00:00",
-      "bullets": [
-        "Tribal leaders previously warned that border wall construction in Organ Pipe Cactus National Monument would disturb Native American burial sites.",
-        "The National Park Service confirmed that human remains aligning with tribal cremation practices were unearthed during construction on September 8.",
-        "Affected family members have chosen to delay the reburial of the remains until ongoing construction in the area ceases."
+        "Following wildfires in Ruidoso, New Mexico, heavy monsoon rains triggered recurring flash floods that caused property damage and killed three people in July 2025.",
+        "ProPublica reported that village leaders failed to act on flood warnings, abandoned relocation plans, and prioritized tourism over public safety.",
+        "First responders stated that leadership left them understaffed and inadequately equipped, making the flood fatalities preventable."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Trump administration asks Supreme Court to intervene in California ballots dispute",
-      "url": "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
-      "published": "2026-11-02T18:33:05+00:00",
+      "title": "Will an ability to hold federal officers accountable survive this term?",
+      "url": "https://www.scotusblog.com/2026/11/will-an-ability-to-hold-federal-officers-accountable-survive-this-term/",
+      "published": "2026-11-03T15:00:00+00:00",
       "bullets": [
-        "The Trump administration asked the Supreme Court to order California to keep the ballots of over 20,000 allegedly registered noncitizens separate until their citizenship can be verified.",
-        "The filing follows lower court rejections from a federal district judge and the 9th Circuit regarding the administration's emergency requests to block or sequester the ballots.",
-        "Solicitor General D. John Sauer argued that once these ballots are commingled, they cannot be traced, causing permanent harm to the government's ability to enforce federal voting laws."
+        "The Supreme Court is considering whether to eliminate Bivens, the 1971 precedent that allows individuals to sue federal officers for constitutional violations.",
+        "Unlike state and local officers who can be sued under federal statute, federal officers currently rely on Bivens for civil liability and money damages.",
+        "The upcoming case Nielsen v. Watanabe centers on whether creating such remedies is a judicial responsibility or exclusively the province of Congress."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Is Montgomery affirmative action’s final chapter?",
-      "url": "https://www.scotusblog.com/2026/11/is-montgomery-affirmative-actions-final-chapter/",
-      "published": "2026-11-02T15:30:00+00:00",
+      "title": "The border wall dispute isn’t fit for the emergency docket",
+      "url": "https://www.scotusblog.com/2026/11/the-border-wall-dispute-isnt-fit-for-the-emergency-docket/",
+      "published": "2026-11-03T14:30:00+00:00",
       "bullets": [
-        "The Supreme Court granted cert in Association for Education Fairness v. Montgomery County Board of Education to address the constitutionality of race-neutral alternatives in admissions.",
-        "Montgomery County used a geographic and standardized test-based lottery for its magnet schools that significantly increased black and Latino enrollment while decreasing Asian enrollment.",
-        "Legal precedent dictates that using proxies with the purpose and effect of racial discrimination is unconstitutional."
+        "The Justice Department asked the Supreme Court's emergency docket to lift an injunction blocking border wall construction in the remote Big Bend Sector of west Texas.",
+        "A federal district court previously ruled that the Department of Homeland Security failed to show the region qualifies as an area of high illegal entry under the 1996 law used to waive environmental reviews.",
+        "The administration argues that Supreme Court intervention is necessary to prevent irreparable harm, while critics contend the government is misusing the emergency docket for a fast-track victory."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Justice Kagan: firing point blank in Smith & Wesson v. Estados Unidos Mexicanos",
-      "url": "https://www.scotusblog.com/2026/11/justice-kagan-firing-point-blank-in-smith-wesson-v-estados-unidos-de-mexico/",
-      "published": "2026-11-02T15:00:00+00:00",
+      "title": "Court won’t intervene in California ballot dispute",
+      "url": "https://www.scotusblog.com/2026/11/court-wont-intervene-in-california-ballot-dispute/",
+      "published": "2026-11-03T14:00:00+00:00",
       "bullets": [
-        "Justice Elena Kagan varies the placement of topic and thesis sentences in her writing depending on the type of paragraph.",
-        "In expository paragraphs, Kagan places the issue and point at the very beginning to meet reader expectations and maintain engagement.",
-        "In introductory and narrative paragraphs, Kagan often introduces the topic in the first sentence while delaying the thesis until the end."
+        "The Supreme Court denied a Trump administration request to intervene in a California ballot dispute concerning alleged noncitizen voting.",
+        "The justices heard oral arguments in cases involving federal inmate transfer challenges and affirmative defenses in civil litigation.",
+        "The court also released its argument calendar for the upcoming January session."
       ]
     },
     {
-      "source": "SCOTUSblog",
-      "title": "The SCOTUS forecasting contest",
-      "url": "https://www.scotusblog.com/2026/11/the-scotus-forecasting-contest/",
-      "published": "2026-11-02T14:30:00+00:00",
-      "bullets": [
-        "SCOTUSblog is hosting its inaugural Supreme Court forecasting contest in collaboration with Good Judgment Inc. to test human predictions against artificial intelligence.",
-        "Participants can submit and update likelihood forecasts for major cases from the 2026-27 term, including recent arguments from the October and November sessions.",
-        "The top three most accurate forecasters will be announced and rewarded with prizes in July."
-      ]
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "A surge in cases on religion and schools",
-      "url": "https://www.scotusblog.com/2026/11/a-surge-in-cases-on-religion-and-schools/",
-      "published": "2026-11-02T14:00:00+00:00",
-      "bullets": [
-        "The Supreme Court is scheduled to hear oral arguments in seven cases over a nine-day period.",
-        "Tuesday's docket includes St. Mary Catholic Parish v. Roy, which involves a religious discrimination challenge by Colorado preschools over universal preschool admission requirements.",
-        "The justices are reviewing cases regarding federal inmate habeas petitions, affirmative defense pleading standards, and a pending request from the Trump administration to resume border wall construction."
-      ]
-    },
-    {
-      "source": "Onest Network",
-      "title": "Trump Says America Is Booming. The Treasury Says It Needs to Borrow $1.4 Trillion.",
-      "url": "https://www.onestnetwork.com/trump-says-america-is-booming-the-treasury-says-it-needs-to-borrow-1-4-trillion/",
-      "published": "2026-11-02T21:01:18+00:00",
-      "bullets": [
-        "President Trump described an unprecedented economic boom, while the U.S. Treasury projected $1.42 trillion in government borrowing over a six-month period.",
-        "Recent economic growth has been heavily driven by investments in artificial intelligence and technology, which does not automatically ensure broad household financial security.",
-        "Trump's proposal to issue $5,000 checks to adult citizens lacks congressional authorization and a concrete funding mechanism, threatening to further increase federal deficits."
-      ]
-    },
-    {
-      "source": "Onest Network",
-      "title": "What Judicial Independence Actually Means and Why Courts Still Depend on Everyone Else",
-      "url": "https://www.onestnetwork.com/what-judicial-independence-actually-means-and-why-courts-still-depend-on-everyone-else/",
-      "published": "2026-11-02T19:39:47+00:00",
-      "bullets": [
-        "Federal judges possess constitutional protections such as life tenure and guaranteed salaries to shield them from immediate political pressure and allow for independent decision-making.",
-        "Courts lack the power of the purse or the sword and ultimately rely on other branches of government and officials to enforce their rulings.",
-        "Historical and modern examples demonstrate that judicial authority depends on the willingness of other institutions to recognize its legitimacy and comply with its decisions."
-      ]
-    },
-    {
-      "source": "Robert Reich",
-      "title": "“Wealth and Poverty” Class 7: How to make America fairer? From PRE-distribution to RE-distribution",
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "On Power and Joy -- what comes next",
       "url": "",
-      "published": "2026-11-02T22:01:13+00:00",
+      "published": "2026-11-03T18:05:58+00:00",
       "bullets": [
-        "Robert Reich's course session examines public policies affecting income and wealth inequality, focusing on taxation and redistribution.",
-        "Key questions include whether top marginal tax rates and wealth should be increased, and how government programs distribute resources.",
-        "The curriculum contrasts policies centered on taxation with those focused on the beneficiaries of government-funded programs."
-      ]
-    },
-    {
-      "source": "Silver Bulletin",
-      "title": "Where polls and fundamentals clash",
-      "url": "",
-      "published": "2026-11-02T17:59:25+00:00",
-      "bullets": [
-        "Democrats' Senate odds benefit from higher-quality candidates running in various races.",
-        "Current polls and other available data generally present a consistent overall picture for the elections.",
-        "Battleground Senate contests feature Democratic leads that remain within a normal-sized polling error of flipping."
-      ]
-    },
-    {
-      "source": "Gabe Fleisher",
-      "title": "Respect the Thermostat",
-      "url": "",
-      "published": "2026-11-02T17:01:57+00:00",
-      "bullets": [
-        "Polls indicate potential Democratic blowouts in the 2026 midterm elections despite late-breaking campaign developments.",
-        "American democracy historically evolved to include divided government through congressional midterms that check the presidency.",
-        "Unlike European parliamentary systems where power centers do not co-exist, the U.S. system forces the incumbent party to share power."
-      ]
-    },
-    {
-      "source": "Center for Politics at UVA",
-      "title": "Sabato's Crystal Ball - Final Ratings for 2026 - Vol. 24, Iss. 84",
-      "url": "",
-      "published": "2026-11-02T17:02:41+00:00",
-      "bullets": [
-        "Sabato's Crystal Ball final 2026 ratings favor Democrats to capture majorities in the House, Senate, and gubernatorial races.",
-        "The final projections place Democrats with at least 239 seats in the House and 53 seats in the Senate.",
-        "Analysts note that President Trump faces a challenging political environment similar to George W. Bush in 2006 due to low presidential approval."
-      ]
-    },
-    {
-      "source": "Azeem Azhar, Exponential View",
-      "title": "📈 Political ads turn against data centers",
-      "url": "",
-      "published": "2026-11-02T15:41:38+00:00",
-      "bullets": [
-        "Political opposition to data centers surged, with 57 percent of political ads mentioning them in October expressing opposition and only 3 percent supporting them.",
-        "Semiconductor parts accounted for nearly half of South Korea's exports in October.",
-        "The United States holds 72 percent of the world's AI compute capacity, compared to 10 percent in China."
-      ]
-    },
-    {
-      "source": "Jacob Morgan",
-      "title": "Weekly Briefing: Employee Engagement Hits a 15-Year Low, Microsoft Offers 60,000 Buyouts, and Can Employees Opt Ou…",
-      "url": "",
-      "published": "2026-11-02T15:32:57+00:00",
-      "bullets": [
-        "U.S. employee engagement fell below 30% for the first time in 15 years, driven by declines among remote and hybrid workers.",
-        "Microsoft offered voluntary buyouts to approximately 60,000 employees as part of an ongoing workforce restructuring effort.",
-        "Workers are increasingly asking for the ability to opt out of using artificial intelligence in the workplace."
-      ]
-    },
-    {
-      "source": "Louis-François from What's AI",
-      "title": "Stop Building Agent Loops. Start Building Runs.",
-      "url": "",
-      "published": "2026-11-02T13:02:25+00:00",
-      "bullets": [
-        "Production data shows that the primary cause of run failures in 41 percent of affected accounts is the customer's own server timing out or dropping the connection.",
-        "LLM API errors rank second as a cause of crashes, accounting for 15 percent of issues encountered during production workloads.",
-        "Transitioning from simple agent loops to durable execution infrastructure helps long-running agents survive hours or days of task execution."
-      ]
-    },
-    {
-      "source": "G. Elliott Morris",
-      "title": "Early vote data shows Latinos, young people, Democrats surging in turnout",
-      "url": "",
-      "published": "2026-11-02T13:51:20+00:00",
-      "bullets": [
-        "Early vote data from multiple states indicates surging turnout among Democrats, Latinos, and young people.",
-        "New voters participating in the midterms are younger, more Latino, and significantly less Republican compared to 2022.",
-        "Hispanic early voter numbers in Houston's Harris County doubled relative to the previous midterm cycle."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "TEN MINUTES: THE WEAPON TRUMP DIDN’T NAME",
-      "url": "https://escalationtrap.substack.com/p/ten-minutes-the-weapon-trump-didnt",
-      "published": "2026-11-02T13:22:16+00:00",
-      "bullets": [
-        "President Trump stated that the United States could strike Iran's remaining nuclear program at Pickaxe Mountain in ten minutes.",
-        "Pickaxe Mountain is buried 80 to 100 meters under granite and is considered by experts to be beyond the reach of standard conventional bunker-buster weapons.",
-        "In response to the threats, Iran's leadership ordered a geographically unrestricted reaction and warned that regional airports would be unable to operate flights."
-      ]
-    },
-    {
-      "source": "Open Letters, from Anne Applebaum",
-      "title": "American Bullying",
-      "url": "",
-      "published": "2026-11-02T13:13:05+00:00",
-      "bullets": [
-        "The Trump administration has actively pressured European governments in Poland, Romania, and Germany to alter their political coalitions in favor of nationalist and far-right parties.",
-        "Unlike past administrations that promoted democracy, the current U.S. policy supports European political figures aligned with MAGA ideology or favored commercial interests.",
-        "While urging European allies to take primary responsibility for their own defense, Washington concurrently backs political factions that oppose military aid to Ukraine and defense cooperation."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape",
-      "title": "Shotguns at the Door: Why Tomorrow’s Polls Could Be Wrong",
-      "url": "https://professorrobertpape.substack.com/p/shotguns-at-the-door-why-tomorrows&coupon=32d05f5d",
-      "published": "2026-11-02T12:17:32+00:00",
-      "bullets": [
-        "Traditional polls may be inaccurate because canvassers face hostility and physical threats when knocking on likely MAGA doors.",
-        "Internal Democratic panic, such as backlash over a Michigan endorsement, suggests the party doubts its current poll leads.",
-        "Professor Robert Pape argues that standard surveys fail to reach hostile Trump voters, necessitating adjustments to House and Senate projections."
+        "Timothy Snyder and Jess Craven hosted a live video discussion focusing on power, joy, and post-election actions.",
+        "The speakers argue that achieving affordability requires directly addressing systemic corruption.",
+        "A newly empowered opposition has a rare opportunity to tackle money in politics, inequality, and presidential self-dealing."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "Oligarchy is on the Ballot",
+      "title": "Navigating the Chaos",
       "url": "",
-      "published": "2026-11-02T11:30:42+00:00",
+      "published": "2026-11-03T17:58:03+00:00",
       "bullets": [
-        "A tiny group of ultra-wealthy megadonors has poured billions of dollars into the midterm elections to support Republican candidates.",
-        "The author argues that oligarchs are funding campaigns to protect themselves from potential investigations into corruption under a Democratic Congress.",
-        "The extreme political influence of these billionaires is driven by the massive concentration of wealth at the top and the Citizens United Supreme Court ruling."
+        "Paul Krugman has released a new ebook titled Navigating the Chaos.",
+        "The publication is a thematic collection of previously published Substack posts and includes additional framing material.",
+        "The ebook serves as a chronological chronicle of current events."
       ]
     },
     {
-      "source": "Galen Druke",
-      "title": "Our Final Takes On The 2026 Election",
+      "source": "Catherine Rampell - The Bulwark",
+      "title": "Brendan Boyle Has a Warning for Trump’s Project 2025 Mastermind",
       "url": "",
-      "published": "2026-11-02T11:30:47+00:00",
+      "published": "2026-11-03T17:36:56+00:00",
       "bullets": [
-        "The final pre-election episode of GD POLITICS examines final poll numbers, remaining uncertainties, and key storylines leading into election night.",
-        "Hosts and guests analyze whether strong Democratic numbers in red states indicate favorable conditions or polling blind spots regarding Republican voters.",
-        "The broadcast outlines election-night coverage plans, including a joint livestream and live blog with Silver Bulletin, The Argument, and Slow Boring."
+        "Representative Brendan Boyle discusses Democratic plans to reverse healthcare cuts, tariffs, and economic fallout if they regain the House.",
+        "Sam Stein and Catherine Rampell analyze Election Day dynamics, Donald Trump's economic message, and voter frustrations over rising costs."
       ]
     },
     {
-      "source": "David R. Lurie from Public Notice",
-      "title": "How Trump destroyed his own dictatorial ambitions",
+      "source": "Azeem Azhar, Exponential View",
+      "title": "👀 EV Unfiltered – opening my sketchbook",
       "url": "",
-      "published": "2026-11-02T11:17:36+00:00",
+      "published": "2026-11-03T17:33:44+00:00",
       "bullets": [
-        "Donald Trump's efforts to dismantle federal institutions have undermined his own power rather than enhancing his dictatorial ambitions.",
-        "Unlike effective past conservative presidents who wielded state mechanisms to achieve their goals, Trump sought to replace ordered government with chaos.",
-        "By attacking the very government he oversees, Trump has reduced himself to an isolated and weakened lame duck."
+        "Azeem Azhar is considering sharing raw research notes, unfinished ideas, and internal memos with paying members of Exponential View.",
+        "These unpolished materials would include interim research topics such as tech sector liquidity pauses, research quality classification, and compute versus human economic returns.",
+        "The proposed behind-the-scenes content would be published six to eight times a month pending reader feedback from a poll."
       ]
     },
     {
-      "source": "Phillips P. OBrien from Phillips’s",
-      "title": "The USA Has Not Been So Insecure Since The US Civil War",
+      "source": "Klement on Investing",
+      "title": "On AI and Iran, Trump risks bombing himself in the foot",
       "url": "",
-      "published": "2026-11-02T10:16:00+00:00",
+      "published": "2026-11-03T17:02:40+00:00",
       "bullets": [
-        "The author argues that the United States is currently less secure than at any time since the US Civil War.",
-        "The text asserts that Donald Trump's administration has deliberately divided the country, enriched cronies, and degraded national security.",
-        "The article contends that allies in Europe and the Indo-Pacific can no longer rely on the United States for defense."
+        "Oil prices are currently dropping rapidly despite expectations of a potential US military strike on Iran following the midterms.",
+        "A strike on Iran could trigger higher oil prices and create unintended economic consequences.",
+        "Such geopolitical actions threaten to derail the Trump administration's signature economic bet on the artificial intelligence boom."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "💬 New thread from The Bulwark",
+      "url": "",
+      "published": "2026-11-03T16:18:28+00:00",
+      "bullets": [
+        "The Bulwark invited subscribers to share their election predictions and discuss expected outcomes for the House and Senate.",
+        "The publication announced a live election night coverage event hosted by Tim, Sarah, and JVL starting at 7 p.m. ET.",
+        "The broadcast will feature updates from correspondents in various states and will be simulcast across multiple platforms including Substack, YouTube, Facebook, and Twitch."
+      ]
+    },
+    {
+      "source": "Charlie Cook Politics",
+      "title": "GOP is losing control of events—and Trump owns it all",
+      "url": "",
+      "published": "2026-11-03T14:25:49+00:00",
+      "bullets": [
+        "President Trump bears full responsibility for a political environment presenting severe challenges for the Republican Party.",
+        "Trump's policies and loyalty tests have alienated core supporters and pushed away strong potential candidates.",
+        "Recent polling indicates significant Democratic leads in multiple Republican-held Senate races."
+      ]
+    },
+    {
+      "source": "Your Local Epidemiologist",
+      "title": "Election stress and your heart, early flu, another CDC leader leaves, and a mom’s hard question about vaccine inju…",
+      "url": "",
+      "published": "2026-11-03T13:17:01+00:00",
+      "bullets": [
+        "Studies indicate that election periods are linked to an increased risk of abnormal heart rhythms and cardiovascular hospitalizations.",
+        "Flu season has begun across every region in the United States, marked by an early surge in test positivity rates and increasing hospitalizations.",
+        "Recent public health developments include the departure of another top scientist from the CDC and ongoing public trust challenges regarding vaccine data."
+      ]
+    },
+    {
+      "source": "Charlotte Clymer from Charlotte's Web Thoughts",
+      "title": "You Shouldn’t Be Nervous About Tonight",
+      "url": "",
+      "published": "2026-11-03T12:49:25+00:00",
+      "bullets": [
+        "The author expresses absolute certainty that the Democratic Party will retake both the House and the Senate.",
+        "The author predicts that results for the House will likely be known before midnight ET, while Senate results will not be certain until the following morning at the earliest.",
+        "Readers are urged to take action and encourage others to vote if they disagree with the author's predictions."
+      ]
+    },
+    {
+      "source": "Ruth Ben-Ghiat from Lucid",
+      "title": "Elections and Resistance",
+      "url": "",
+      "published": "2026-11-03T12:40:41+00:00",
+      "bullets": [
+        "Election denial is characterized as a form of mass fraud and corruption wherein loyalists propagate falsehoods regarding election outcomes.",
+        "Data shows that belief in the 2020 election falsehood remains deeply entrenched among a significant portion of Republican voters.",
+        "Elections and resistance share a synergistic relationship where autocratic subversion tactics are countered by opposition innovation and mobilization."
+      ]
+    },
+    {
+      "source": "Kasparov's Next Move",
+      "title": "Election Day Through Russian Eyes",
+      "url": "",
+      "published": "2026-11-03T12:31:49+00:00",
+      "bullets": [
+        "Garry Kasparov recounts his attempt to run for the Russian presidency in the 2008 elections.",
+        "His campaign faced systemic obstruction, including venue cancellations and Kremlin-backed denials of event spaces required for candidate registration."
+      ]
+    },
+    {
+      "source": "Don Moynihan from Can We Still Govern?",
+      "title": "Accountability Day for Musk?",
+      "url": "",
+      "published": "2026-11-03T12:12:33+00:00",
+      "bullets": [
+        "Elon Musk and his DOGE team dramatically restructured the federal government without facing standard transparency or congressional oversight.",
+        "The executive branch and the Department of Justice have shielded DOGE operations from accountability, freedom of information requests, and legal scrutiny.",
+        "Congressional Democrats pursuing investigations into Musk and DOGE represent the primary mechanism for restoring democratic accountability."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Now Free for Everyone – What a Nuclear Strike on Iran Would Really Do",
+      "url": "",
+      "published": "2026-11-03T12:09:04+00:00",
+      "bullets": [
+        "Reports indicate President Trump may consider using a tactical nuclear weapon to destroy Iran's deeply buried Pickaxe Mountain facility.",
+        "Proponents argue a nuclear strike is needed because conventional bombs cannot reach the heavily fortified site.",
+        "Such a strike would break an 80-year taboo against combat nuclear use and trigger severe strategic, economic, and geopolitical consequences."
+      ]
+    },
+    {
+      "source": "Paul Krugman",
+      "title": "Moment of Truth",
+      "url": "",
+      "published": "2026-11-03T11:29:13+00:00",
+      "bullets": [
+        "Polling and prediction markets indicate Democrats have a strong chance of winning both the House and the Senate.",
+        "The author expresses deep anxiety regarding the election because he believes the fundamental idea of America is at stake."
+      ]
+    },
+    {
+      "source": "Lisa Needham from Public Notice",
+      "title": "James O’Keefe’s Minnesota stunt backfires spectacularly",
+      "url": "",
+      "published": "2026-11-03T11:17:30+00:00",
+      "bullets": [
+        "Hennepin County Attorney Mary Moriarty charged conservative activists James O’Keefe and Cam Higby with two felonies each for identity theft and unlawful voting during the August Minnesota primary.",
+        "The pair wore offensive costumes and used real voters' names without permission at multiple polling locations in an attempt to target Minnesota's voter vouching law.",
+        "The article notes that O'Keefe has a history of facing criminal charges for past stunts, including a 2010 guilty plea for entering federal property under false pretenses."
+      ]
+    },
+    {
+      "source": "George Conway - The Bulwark",
+      "title": "Mike Madrid Predicts a Political Earthquake in Texas",
+      "url": "",
+      "published": "2026-11-03T11:03:30+00:00",
+      "bullets": [
+        "George Conway and Republican strategist Mike Madrid discussed extraordinary Latino voter turnout and the possibility of a Democratic upset in Texas.",
+        "The discussion highlighted potential fractures in Trump's 2024 coalition and the risk that his gerrymandering scheme could hand Democrats more House seats.",
+        "They also examined the prospect of a sweeping Republican defeat and the fallout from Haley Stevens endorsing Mike Rogers in Michigan."
+      ]
+    },
+    {
+      "source": "Kareem Abdul-Jabbar",
+      "title": "Knowledge Is Better Than Ignorance",
+      "url": "https://kareem.substack.com/p/knowledge-is-better-than-ignorance",
+      "published": "2026-11-03T11:03:24+00:00",
+      "bullets": [
+        "Kareem Abdul-Jabbar examines how anti-intellectualism and the false notion that all opinions deserve equal respect impact modern democracy.",
+        "The article touches upon political developments including an intense Senate race in Michigan and commentary on political leadership.",
+        "Abdul-Jabbar references Isaac Asimov's writings on the cult of ignorance to highlight the growing prevalence of anti-intellectualism in political and cultural life."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "FINAL forecast: a blue wave, or a blue tsunami?",
+      "url": "",
+      "published": "2026-11-03T11:03:29+00:00",
+      "bullets": [
+        "Quantitative indicators and early voting data show Democrats holding a significant turnout and polling edge ahead of election night.",
+        "The forecasting model gives Democrats an 8-in-10 chance of winning majorities in both the House and the Senate.",
+        "Democrats lead the generic ballot by nearly nine points and are heavily favored to capture the House of Representatives."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "2026 ELECTION DAY LIVE BLOG",
+      "url": "",
+      "published": "2026-11-03T11:03:11+00:00",
+      "bullets": [
+        "Pre-election polls and early vote forecasts indicate a potential Democratic wave capable of flipping both the House and Senate.",
+        "Subscriber communities on Discord and live-updating blog posts will track real-time election day insights.",
+        "A commercial-free livestream hosted jointly by The Downballot and Strength In Numbers will begin on election night at 6:45 PM Eastern."
+      ]
+    },
+    {
+      "source": "Michael Spencer and Sid Saladi from AI Supremacy",
+      "title": "How to Use Meta Muse as Your Personal AI Assistant",
+      "url": "",
+      "published": "2026-11-03T10:20:29+00:00",
+      "bullets": [
+        "Meta Muse reached ten million downloads in the United States and Canada during its first forty days following its September launch.",
+        "Instinct raised a one billion dollar Series C round that quadrupled its valuation to ten billion dollars for its personal agent technology.",
+        "Anthropic updated Claude Code to block requests related to cloning video games and performing reverse-engineering tasks."
+      ]
+    },
+    {
+      "source": "FiftyPlusOne.news",
+      "title": "The final polls and race ratings show a late shift toward Democrats",
+      "url": "",
+      "published": "2026-11-03T10:02:39+00:00",
+      "bullets": [
+        "Final polls and race ratings indicate a late electoral shift favoring Democrats in the generic ballot and key Senate contests.",
+        "The FiftyPlusOne forecast model gives Democrats a 99 percent chance of taking the House and a 79 percent chance of winning the Senate.",
+        "Nonpartisan race raters have also shifted numerous House and Senate ratings in favor of Democrats over the final two weeks of the race."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "If Democrats Win Tomorrow",
+      "title": "A message to you",
       "url": "",
-      "published": "2026-11-02T09:02:59+00:00",
+      "published": "2026-11-03T09:02:31+00:00",
       "bullets": [
-        "The upcoming election presents a choice between politicians who enabled a neofascist cult and those who rejected it.",
-        "Voters have engaged in a sustained rebellion against the political establishment because they view the system as rigged and unresponsive to ordinary people.",
-        "Standard economic indicators fail to capture the deep economic insecurity, unfairness, and frustration felt by American workers."
+        "Voters face a stark choice between candidates who scapegoat minority groups and those who recognize the economic damage caused by Republican policies and tariffs.",
+        "A majority of Americans are expected to reject Republican control of Congress due to frustration over rising prices and threats to democratic values.",
+        "Citizens must continue to organize and pressure elected officials regardless of the election outcome to protect democracy from the executive branch and the Supreme Court."
+      ]
+    },
+    {
+      "source": "Heather Cox Richardson from Letters from an American",
+      "title": "November 2, 2026",
+      "url": "",
+      "published": "2026-11-03T08:02:00+00:00",
+      "bullets": [
+        "Donald Trump delivered his midterm election closing argument in a speech at the Lincoln Memorial Reflecting Pool, focusing heavily on his Washington construction projects.",
+        "During the speech, Trump spent the first 16 minutes discussing the reflecting pool, algae, and granite before pivoting to usual exaggerations and boasts about other local projects.",
+        "Early voting and polling suggest the upcoming midterm elections may result in a Democratic wave, with Republicans reportedly bracing for significant losses."
+      ]
+    },
+    {
+      "source": "Klement on Investing",
+      "title": "It’s not you, it’s your AI",
+      "url": "",
+      "published": "2026-11-03T07:01:09+00:00",
+      "bullets": [
+        "Recent research demonstrates that large language models exhibit distinct biases when providing investment recommendations.",
+        "A new study reveals that changing the activation of a single neuron in popular open-weight models can entirely manipulate their stock and portfolio recommendations.",
+        "This vulnerability means financial advisers using AI may deliver biased advice unrelated to true investor preferences, regardless of whether they use open-weight or closed-weight models."
       ]
     }
   ],
-  "articles_processed": 43,
-  "articles_attempted": 43,
+  "articles_processed": 37,
+  "articles_attempted": 37,
   "publications": [
-    "Phillips P. OBrien from Phillips’s",
-    "Louis-François from What's AI",
-    "Jacob Morgan",
-    "Gabe Fleisher",
-    "Center for Politics at UVA",
-    "Scott Galloway",
-    "ProPublica",
-    "Azeem Azhar, Exponential View",
-    "Onest Network",
-    "Prof Robert Pape from Escalation Trap",
-    "Prof Robert Pape",
-    "Galen Druke",
-    "Silver Bulletin",
-    "G. Elliott Morris",
-    "Open Letters, from Anne Applebaum",
+    "Paul Krugman",
+    "Catherine Rampell - The Bulwark",
+    "Don Moynihan from Can We Still Govern?",
+    "The Bulwark",
     "John Ellis",
     "SCOTUSblog",
-    "Slow Boring",
-    "Paul Krugman",
+    "FiftyPlusOne.news",
+    "Ruth Ben-Ghiat from Lucid",
+    "Kareem Abdul-Jabbar",
     "Robert Reich",
-    "The Bulwark",
-    "David R. Lurie from Public Notice"
+    "Klement on Investing",
+    "Kasparov's Next Move",
+    "Prof Robert Pape from Escalation Trap",
+    "ProPublica",
+    "Scott Galloway",
+    "Lisa Needham from Public Notice",
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "Azeem Azhar, Exponential View",
+    "Charlie Cook Politics",
+    "Your Local Epidemiologist",
+    "G. Elliott Morris",
+    "Charlotte Clymer from Charlotte's Web Thoughts",
+    "Heather Cox Richardson from Letters from an American",
+    "Michael Spencer and Sid Saladi from AI Supremacy",
+    "George Conway - The Bulwark",
+    "Slow Boring"
   ],
-  "generated_at": "2026-11-02T22:10:57.838282+00:00",
+  "generated_at": "2026-11-03T19:58:05.228301+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-02-2210.json"
+  "archive_filename": "2026-11-03-1958.json"
 }
