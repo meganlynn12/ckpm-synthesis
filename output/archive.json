@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-11-06",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-06T19:51:50.868347+00:00",
+    "filename": "2026-11-06-1951.json",
+    "articles_processed": 32,
+    "publications": [
+      "SCOTUSblog",
+      "Louis-François from What's AI",
+      "FiftyPlusOne.news",
+      "ProPublica",
+      "The Bulwark",
+      "Michael Spencer and Sid Saladi from AI Supremacy",
+      "Ruth Ben-Ghiat from Lucid",
+      "Your Local Epidemiologist",
+      "Paul Krugman",
+      "Klement on Investing",
+      "John Ellis from Political News Items",
+      "Gabe Fleisher",
+      "Tom Schaller from Public Notice",
+      "Slow Boring",
+      "Robert Reich",
+      "Kareem Abdul-Jabbar",
+      "Heather Cox Richardson from Letters from an American",
+      "Azeem Azhar, Exponential View",
+      "Onest Network",
+      "G. Elliott Morris",
+      "Bulwark Takes",
+      "John Ellis",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-05",
     "run_label": "7 AM",
     "generated_at": "2026-11-05T20:28:56.045235+00:00",
