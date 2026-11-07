@@ -1,388 +1,165 @@
 {
-  "date": "2026-11-06",
-  "narrative_summary": "The political landscape has undergone a dramatic shift following a blue tsunami in the midterm elections, where Democrats secured majorities in both the House and Senate alongside key gubernatorial victories. This widespread electoral rebuke of Donald Trump and the MAGA movement has empowered incoming congressional leaders to prepare aggressive oversight and investigative agendas targeting administration policies and financial conflicts. Meanwhile, the Republican Party faces severe internal friction and questions regarding a post-Trump future as voters push back against both political establishment norms and aggressive AI infrastructure expansion. These domestic political realignments unfold alongside ongoing global controversies, judicial battles, and accelerated advancements in artificial intelligence models.",
+  "date": "2026-11-07",
+  "narrative_summary": "Tuesday's midterm elections delivered a historic electoral rebuke of Donald Trump and the MAGA movement, with voters handing Democrats majorities in both congressional chambers and sweeping victories nationwide. Fuelled by anti-establishment fury and shifting demographics, including significant gains among Hispanic and Black voters, the resulting political landscape has empowered Democrats to pursue aggressive oversight, defensive redistricting, and ambitious policy overhauls. This domestic power shift coincides with international volatility, as foreign adversaries like Russia and Iran escalate military campaigns, gambling on a perceived weakening of Washington's global position. Meanwhile, analysts and commentators are actively reevaluating the future of American governance, economic stability, and the shifting dynamics of both domestic and foreign policy in the wake of the landslide.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Trumpfall",
-      "url": "https://www.thebulwark.com/p/trumpfall-did-we-finally-break-trump",
-      "published": "2026-11-06T17:13:24+00:00",
+      "title": "Dems Have Their Finger on the Impeachment Trigger",
+      "url": "https://www.thebulwark.com/p/democrats-have-their-finger-on-the-impeachment-trigger-ice-dhs-investigations-consequences",
+      "published": "2026-11-07T17:02:30+00:00",
       "bullets": [
-        "The author observes that Donald Trump exhibits significant physical decline, including visible exhaustion, obesity, and health issues.",
-        "Despite previous resilience, Trump's will-to-power and dominance reportedly began to break down following recent events.",
-        "The article concludes with a promotional pitch for Bulwark+ subscriptions following the election."
+        "Incoming House Oversight Committee chair Robert Garcia and fellow Democrats plan to use their new congressional majority to pursue investigations and accountability for the second Trump administration.",
+        "House Democrats have elevated investigations into ICE and DHS immigration enforcement abuses to a top priority following strong opposition from Latino voters in the midterm elections.",
+        "Lawmakers such as Rep. Delia Ramirez emphasize that these inquiries aim to establish accountability and justice rather than political retaliation."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Trump Got One Thing Right: We’re Not Tired of Winning",
-      "url": "https://www.thebulwark.com/p/trump-got-one-thing-right-were-not-tired-winning-midterms-senate-house-blue-wave-tsunami-republicans-trans-vibe-shift",
-      "published": "2026-11-06T14:22:28+00:00",
+      "title": "Dems Aren’t Backing Off Their Own Redistricting Push",
+      "url": "https://www.thebulwark.com/p/democrat-not-backing-off-their-own-redistricting-push-after-2026-midterms",
+      "published": "2026-11-07T12:03:30+00:00",
       "bullets": [
-        "Recent election results show significant Democratic gains nationwide, including majorities in the Senate and House as well as key governorships.",
-        "Commentator William Kristol argues that the American public's decisive rejection of Trump and Trumpism warrants an extended weekend of celebration.",
-        "Trump's recent executive order designating the Oval Office a national landmark and Pete Hegseth's defensive video release highlight ongoing political controversies."
+        "Following massive midterm victories, Democrats secured control of both chambers of Congress, numerous governors' mansions, and state legislatures.",
+        "Democratic officials remain committed to pursuing mid-decade redistricting efforts to secure more House seats.",
+        "Party leaders view redistricting as both an offensive strategy for growth and a defensive measure against Republican efforts."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Dems Put Up Saddam Numbers in Cheesecake Factory Districts",
-      "url": "https://www.thebulwark.com/p/democrats-midterms-put-up-saddam-hussein-numbers-in-cheesecake-factory-congressional-house-districts",
-      "published": "2026-11-06T11:31:10+00:00",
+      "title": "Nate Silver: Trump’s Collapse May Be Irreversible",
+      "url": "https://www.thebulwark.com/p/nate-silver-trumps-collapse-may-be",
+      "published": "2026-11-07T10:39:03+00:00",
       "bullets": [
-        "Republicans criticized former President Barack Obama for making a remark mocking Donald Trump's interior decor by comparing it to a Cheesecake Factory opened by Saddam Hussein.",
-        "GOP figures and conservative pundits argued that Obama's comment demonstrated elitism and contributed to Democrats losing working-class voters.",
-        "Despite the political controversy, election results show that Democrats won a majority of the U.S. House districts that contain a Cheesecake Factory location."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "How ‘Tuner’ Found the Perfect Pitch",
-      "url": "https://www.thebulwark.com/p/how-tuner-found-the-perfect-pitch",
-      "published": "2026-11-06T11:03:35+00:00",
-      "bullets": [
-        "Director Daniel Roher discusses his first narrative feature film, Tuner, in a recent interview.",
-        "The 107-minute thriller is currently streaming on Paramount+ and available for rental.",
-        "The film stars Leo Woodall, Dustin Hoffman, and Havana Rose Liu."
+        "Tuesday night delivered the most significant electoral rebuke of Donald Trump and the MAGA movement to date.",
+        "Nate Silver and Sarah discussed the election results on a podcast episode analyzing their potential long-term national impact.",
+        "The massive scale of the defeat has raised fundamental questions about the future political landscape and public support for Trump."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "The enigma of Trump",
-      "url": "https://www.slowboring.com/p/the-enigma-of-trump",
-      "published": "2026-11-06T11:00:39+00:00",
+      "title": "The end of purple Colorado?",
+      "url": "https://www.slowboring.com/p/the-end-of-purple-colorado",
+      "published": "2026-11-07T14:02:40+00:00",
       "bullets": [
-        "Donald Trump remains an enigmatic and overexposed political figure whose core motivations and genuine policy priorities are difficult to decipher.",
-        "Despite appearing indifferent to governance at times, Trump has actively intervened in high-stakes political maneuvers such as redistricting and candidate selection.",
-        "Future Republican presidential nominations will likely hinge on whether primary voters remain loyal to Trump or shift toward post-Trump figures following midterm results."
+        "Colorado Democrats appear to have achieved one of their best midterm performances in state history.",
+        "Election results are still actively being tallied across the state.",
+        "U.S. Representative Lauren Boebert was observed monitoring incoming election results during an election night watch party."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "REPLAY: Trump Faces New Rebellion as GOP Eyes 2028",
-      "url": "https://www.profgmedia.com/p/replay-trump-faces-new-rebellion",
-      "published": "2026-11-06T18:54:14+00:00",
+      "title": "The AI Boom Is Running Out Of Easy Money",
+      "url": "https://www.profgmedia.com/p/the-ai-boom-is-running-out-of-easy",
+      "published": "2026-11-07T12:03:07+00:00",
       "bullets": [
-        "President Trump faces escalating political challenges following midterms, including a blocked monument plan, potential conflict with Iran, and market turmoil.",
-        "Republicans are increasingly looking toward a post-Trump future as internal party divisions grow and figures like Mike Pence break with the president.",
-        "Democrats are capitalizing on midterm momentum driven by affordability concerns while advancing policy initiatives across several states."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "Boys to Men",
-      "url": "https://www.profgmedia.com/p/boys-to-men",
-      "published": "2026-11-06T17:47:26+00:00",
-      "bullets": [
-        "Young men swung heavily toward Democrats in the recent midterms as part of a massive electoral rejection of the ruling political establishment.",
-        "Young men are struggling with educational achievement, social isolation, and rising rates of despair, reflecting a broader systemic failure.",
-        "Political parties ignore the economic and social pain of young men at their peril, as these voters support whichever party promises change."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "The Week: The Blue Tsunami, Alphabet’s Worst Day Ever, and How to Log Off",
-      "url": "https://www.profgmedia.com/p/the-week-the-blue-tsunami-alphabets",
-      "published": "2026-11-06T17:44:29+00:00",
-      "bullets": [
-        "Democrats secured majorities in both chambers of Congress in what is described as a blue tsunami.",
-        "Investors are showing hesitation about committing additional capital to Big Tech following Alphabet's significant market downturn.",
-        "A Stanford psychiatrist offers strategies on how individuals can get out of their own heads and log off."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "Is This The End Of MAGA? — ft. Anthony Scaramucci",
-      "url": "https://www.profgmedia.com/p/trump-got-his-full-a-kicked-what",
-      "published": "2026-11-06T11:02:39+00:00",
-      "bullets": [
-        "Ed Elson and guest Anthony Scaramucci analyze the midterm election results and their implications for the nation.",
-        "The discussion covers potential shifts in Donald Trump's policies, market reactions, and possible White House personnel changes.",
-        "The participants examine what the election outcomes signal for the future of the Republican Party and the MAGA movement."
-      ]
-    },
-    {
-      "source": "John Ellis",
-      "title": "A Complete Collapse.",
-      "url": "https://substack.news-items.com/p/a-complete-collapse",
-      "published": "2026-11-06T11:30:53+00:00",
-      "bullets": [
-        "An independent study by METR found that Anthropic's AI models are improving nearly twice as fast as before, raising concerns about recursive self-improvement.",
-        "The Democratic House majority surpassed 250 seats, achieving the party's largest majority in nearly two decades following multiple seat flips.",
-        "Democrats secured a majority of governor's offices for the first time in 16 years after winning key races and flipping multiple states."
+        "The momentum and easy financial gains in the artificial intelligence trade are beginning to fade.",
+        "Ed Elson discusses the shifting market dynamics surrounding artificial intelligence in a newsletter episode."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "On the Ground in the Final Days Before Trump’s Midterm Debacle",
-      "url": "https://www.propublica.org/article/trump-movement-rally-voters-appeal",
-      "published": "2026-11-06T18:30:00+00:00",
+      "title": "Texas’ School Voucher Program Could Be “Unrecognizable, If Not Extinct,” Says Democratic Lawmaker",
+      "url": "https://www.propublica.org/article/texas-school-vouchers-gina-hinojosa",
+      "published": "2026-11-07T11:00:00+00:00",
       "bullets": [
-        "Working-class voters at a final midterm rally in Ohio expressed anxiety over economic struggles like high fuel costs while maintaining their loyalty to President Donald Trump.",
-        "Attendees grappled with reconciling their personal financial difficulties with Trump's presidency during a tense political climate.",
-        "Trump's demeanor and oratory at the event lacked the fierce bravado of his past campaigns, reflecting a more subdued political atmosphere."
+        "Texas Governor-elect Gina Hinojosa pledged to dismantle Governor Greg Abbott's education agenda, including his recently launched school voucher program and public school takeovers.",
+        "Democrats won back the Texas House and made significant gains in rural areas where voters opposed the voucher program.",
+        "Eliminating the state's voucher program entirely will require legislative action, though lawmakers anticipate major overhauls due to shifting political dynamics."
       ]
     },
     {
-      "source": "ProPublica",
-      "title": "Trump Official Who Wants Data Centers on Public Lands Has Tens of Millions Invested in AI Industry",
-      "url": "https://www.propublica.org/article/burgum-public-land-data-centers-investments",
-      "published": "2026-11-06T11:00:00+00:00",
-      "bullets": [
-        "Interior Secretary Doug Burgum is leading the Trump administration's push to build AI data centers on public lands.",
-        "Burgum holds between $18.1 million and $64.4 million in investments in AI companies through an investment firm he co-founded.",
-        "While ethics experts note his investments likely comply with criminal conflict-of-interest statutes, watchdogs argue they create an appearance of a conflict of interest."
-      ]
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "Justices consider when a constitutional rule is “previously unavailable” to prisoner",
-      "url": "https://www.scotusblog.com/2026/11/justices-consider-when-a-constitutional-rule-is-previously-unavailable-to-prisoner/",
-      "published": "2026-11-06T18:07:06+00:00",
-      "bullets": [
-        "The Supreme Court heard oral arguments in Guerrero v. Johnson regarding whether a death-row inmate can bring a successive federal habeas challenge using updated psychiatric standards for intellectual disability.",
-        "Texas argued that the Antiterrorism and Effective Death Penalty Act bars the claim because Atkins v. Virginia was established before the crimes and changes in diagnostic manuals do not constitute a new constitutional rule.",
-        "Several justices questioned whether the updated diagnostic standards effectively filled a substantive gap in the previous legal rule, making the claim previously unavailable to the prisoner."
-      ]
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "The poisoned public rights doctrine and Sun Valley Orchards",
-      "url": "https://www.scotusblog.com/2026/11/the-poisoned-public-rights-doctrine-and-sun-valley-orchards/",
-      "published": "2026-11-06T15:00:00+00:00",
-      "bullets": [
-        "The Supreme Court will hear Department of Labor v. Sun Valley Orchards, LLC to decide if administrative law judges can impose ruinous fines without an Article III court or Seventh Amendment jury.",
-        "The author argues that while immigration is a government privilege, the government cannot condition participation in the H-2A visa program on employers surrendering their constitutional rights.",
-        "The government relies on the public-rights doctrine to justify non-Article III adjudication, a doctrine the author argues was improperly expanded in Atlas Roofing Co. v. OSHA."
-      ]
-    },
-    {
-      "source": "SCOTUSblog",
-      "title": "Democrats won control of Congress. So what does that mean for the Supreme Court?",
-      "url": "https://www.scotusblog.com/2026/11/democrats-won-control-of-congress-what-might-that-mean-for-the-supreme-court/",
-      "published": "2026-11-06T14:30:00+00:00",
-      "bullets": [
-        "Democratic control of both houses of Congress following the midterm elections will significantly complicate President Trump's ability to fill potential Supreme Court vacancies.",
-        "The power shift increases the likelihood of Democratic-led court reforms, though passing ambitious measures like expansion or term limits remains difficult due to the Senate filibuster and presidential veto.",
-        "Justice Samuel Alito confirmed he intends to remain on the bench through the current term despite the election results and previous retirement rumors."
-      ]
-    },
-    {
-      "source": "Onest Network",
-      "title": "Sanctioned Russian Official Praised at White House Co-Chairs Organization Promoting Kremlin Interests Abroad",
-      "url": "https://www.onestnetwork.com/sanctioned-russian-official-praised-at-white-house-co-chairs-organization-promoting-kremlin-interests-abroad/",
-      "published": "2026-11-06T18:22:32+00:00",
-      "bullets": [
-        "First Lady Melania Trump publicly thanked sanctioned Russian official Yana Lantratova at the White House for her role in evacuating civilians from Oleshky, Ukraine.",
-        "Lantratova is under U.S. sanctions since 2022, accused by Ukraine of involvement in the forced transfer of children, and co-chairs an organization promoting Kremlin interests.",
-        "While the Vatican credited Pope Leo XIV for securing the humanitarian ceasefire, the White House ceremony featured Kremlin officials praising Vladimir Putin's efforts."
-      ]
-    },
-    {
-      "source": "Gabe Fleisher",
-      "title": "What Will the Democrats Do With Power?",
+      "source": "Prof Robert Pape",
+      "title": "Putin Doubles Down on Both Wars — Since the Midterms",
       "url": "",
-      "published": "2026-11-06T16:21:32+00:00",
+      "published": "2026-11-07T14:35:35+00:00",
       "bullets": [
-        "Reader questions focused on what legislative and investigative agenda Democrats will pursue after winning control of Congress, and whether Chuck Schumer and Hakeem Jeffries will retain their leadership roles.",
-        "Democrats largely ran on an anti-Trump platform rather than a detailed legislative agenda, leaving their exact priorities for the upcoming Congress vague.",
-        "The author outlines four major decision points facing Democrats in the new Congress: materialist versus post-materialist, fresh faces versus same leaders, investigate versus legislate, and undo versus rebuild."
+        "Russia has intensified its military campaign against Ukraine's energy infrastructure to freeze the country into submission.",
+        "Moscow is deepening ties with Iran, including advancing missile launcher contracts and considering requests for advanced air defense systems.",
+        "The author argues that these simultaneous escalations on two fronts are driven by a perceived weakening of Washington's position following the midterms."
       ]
     },
     {
-      "source": "Bulwark Takes",
-      "title": "The Trio: Laura Loomer Is Not Taking This Election Well",
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "Now We Act: With Rep. Ro Khanna on America’s Future",
       "url": "",
-      "published": "2026-11-06T15:34:15+00:00",
+      "published": "2026-11-07T14:03:31+00:00",
       "bullets": [
-        "The Bulwark podcast hosts discussed MAGA election night failures and the negative reactions of prominent conservative influencers.",
-        "Show participants reviewed the specific reactions of figures like Laura Loomer, Benny Johnson, and Tim Pool to the election results.",
-        "The episode also covered the recent conviction of Russell Brand for rape and sexual assault."
+        "Timothy Snyder launched a new series titled \"Now We Act\" featuring unscripted live conversations with Democratic lawmakers.",
+        "The first released session features Representative Ro Khanna discussing wealth, governance, and visions for America's future.",
+        "Additional recorded sessions with various elected officials and a schedule for upcoming live senator discussions were announced."
       ]
     },
     {
-      "source": "FiftyPlusOne.news",
-      "title": "The New York Times finds FiftyPlusOne was the most accurate forecaster of 2026",
-      "url": "",
-      "published": "2026-11-06T15:00:25+00:00",
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Playing With Fire — One of My Three Warning Lights Just Turned Red",
+      "url": "https://escalationtrap.substack.com/p/playing-with-fire-one-of-my-three",
+      "published": "2026-11-07T13:29:32+00:00",
       "bullets": [
-        "The New York Times identified FiftyPlusOne as the most accurate overall election forecaster of the 2026 cycle.",
-        "FiftyPlusOne outperformed prediction markets such as Kalshi and Polymarket in predicting overall control of the House and Senate.",
-        "The platform demonstrated superior probabilistic calibration compared to rival forecasters and prediction markets throughout the campaign period."
-      ]
-    },
-    {
-      "source": "Ruth Ben-Ghiat from Lucid",
-      "title": "What People Really Want from Democracy",
-      "url": "https://lucid.substack.com/p/flip-the-script-people-want-more",
-      "published": "2026-11-06T14:34:54+00:00",
-      "bullets": [
-        "Bold and principled responses are essential for democratic success rather than bland centrism or the accommodation of autocrats.",
-        "Authoritarians often attract disillusioned populations during uncertain times by effectively marketing themselves as bold innovators.",
-        "Authoritarian propaganda machines utilize inflation tactics to suppress failures and exaggerate accomplishments, influencing public opinion."
-      ]
-    },
-    {
-      "source": "Your Local Epidemiologist",
-      "title": "What many get wrong about Amish or Plain Anabaptist communities, measles, and health",
-      "url": "https://yourlocalepidemiologist.substack.com/p/what-many-get-wrong-about-amish-or",
-      "published": "2026-11-06T13:31:54+00:00",
-      "bullets": [
-        "The United States recently reported three measles deaths across different states, with all affected individuals being unvaccinated.",
-        "Recent measles outbreaks are increasingly appearing among Plain Anabaptist communities such as the Amish and Mennonites.",
-        "Misconceptions and a lack of understanding regarding Plain Anabaptist traditions complicate public health efforts to address and prevent these outbreaks."
-      ]
-    },
-    {
-      "source": "Louis-François from What's AI",
-      "title": "How I Built My Own LLM Benchmark, Step by Step",
-      "url": "",
-      "published": "2026-11-06T13:03:59+00:00",
-      "bullets": [
-        "ToneBench evaluates 84 models by having them write ten YouTube scripts across five distinct drafts to account for output variance.",
-        "Each LLM judge reviews approximately 20,000 words of rubrics, examples, and drafts to score performance consistently.",
-        "Testing showed that requiring judges to select a qualitative level before assigning a numerical score yields the most reliable results."
-      ]
-    },
-    {
-      "source": "Azeem Azhar, Exponential View",
-      "title": "🔮 Don’t waste a good backlash",
-      "url": "",
-      "published": "2026-11-06T12:11:40+00:00",
-      "bullets": [
-        "Democratic mid-term victories and subsequent market corrections reflect heightened political scrutiny and public pushback against artificial intelligence development.",
-        "Voters overwhelmingly rejected new infrastructure by passing 43 out of 44 local measures aimed at slowing down data center construction.",
-        "Because hyperscalers prioritize rapid deployment to maximize chip profitability, communities can leverage this urgency to demand lasting local benefits."
-      ]
-    },
-    {
-      "source": "John Ellis from Political News Items",
-      "title": "An Under-Issue Emerges.",
-      "url": "",
-      "published": "2026-11-05T19:52:13+00:00",
-      "bullets": [
-        "The author previously argued that President Biden's mental acuity was a disqualifying issue that would doom his re-election campaign.",
-        "The author asserts that President Trump's mental acuity is currently an under-covered issue of concern among the American electorate.",
-        "Data from a recent Fox News Voter Poll suggests that mainstream media coverage regarding mental acuity is beginning to shift."
+        "Prof Robert Pape identified three warning signals indicating that Trump was moving to escalate the conflict with Iran.",
+        "Within 48 hours of the prediction, the first warning signal flashed when Trump confirmed new US strikes on Qeshm Island.",
+        "The author warns that further minor strikes could lead to a broader air war."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "America’s Backlash Against Oligarchy",
+      "title": "Talking to Martin Wolf About the Midterms",
       "url": "",
-      "published": "2026-11-06T11:36:09+00:00",
+      "published": "2026-11-07T11:30:58+00:00",
       "bullets": [
-        "American voters delivered a major rebuke to the class of oligarchs and megabillionaires who heavily funded Republican campaigns in the midterm elections.",
-        "Despite massive financial investments by ultra-wealthy figures like Elon Musk, their preferred candidates suffered significant defeats.",
-        "The article emphasizes that extreme wealth concentration still poses a threat to democracy, requiring future measures to limit excessive political influence from the ultra-rich."
+        "Paul Krugman published a conversation with Financial Times writer Martin Wolf discussing the midterms.",
+        "The author announced the release of a new ebook titled Navigating the Chaos: Chronicles of Economic and Political Madness."
       ]
     },
     {
-      "source": "G. Elliott Morris",
-      "title": "Turnout among Black voters surged in the Deep South",
+      "source": "Aaron Rupar from Public Notice",
+      "title": "Quick reflections on Tuesday",
       "url": "",
-      "published": "2026-11-06T11:30:56+00:00",
+      "published": "2026-11-07T11:17:31+00:00",
       "bullets": [
-        "Voter turnout among Black voters surged in the Deep South, increasing their share of the Mississippi electorate from 30% in 2024 to 33% this year.",
-        "The heightened Black voter turnout, combined with decreased Republican support among white voters, contributed to an unexpectedly close Senate race in Mississippi.",
-        "Democratic candidate Scott Colom held a narrow lead over Republican Senator Cindy Hyde-Smith as outstanding mail-in and affidavit ballots continued to be processed."
-      ]
-    },
-    {
-      "source": "Tom Schaller from Public Notice",
-      "title": "The midterms’ most deserving losers",
-      "url": "",
-      "published": "2026-11-06T11:17:30+00:00",
-      "bullets": [
-        "Donald Trump and the broader MAGA movement suffered significant defeats in the midterm elections.",
-        "Aggressive Republican gerrymandering efforts in states like Texas, Florida, and North Carolina backfired badly during the midterms.",
-        "Republicans who broke promises and voted to pass legislation cutting Medicaid faced severe electoral consequences."
-      ]
-    },
-    {
-      "source": "Kareem Abdul-Jabbar",
-      "title": "A Time for Hope",
-      "url": "https://kareem.substack.com/p/a-time-for-hope",
-      "published": "2026-11-06T11:03:39+00:00",
-      "bullets": [
-        "A recent political shift has resulted in significant Democratic electoral gains described as a blue tsunami.",
-        "Voters have sent a clear message that political leaders must treat their positions as public service rather than royal rule.",
-        "The newly empowered Congress is expected to utilize its legislative and investigative powers to keep the administration accountable."
-      ]
-    },
-    {
-      "source": "Michael Spencer and Sid Saladi from AI Supremacy",
-      "title": "How to Use Meta Muse as Your Personal AI Assistant",
-      "url": "",
-      "published": "2026-11-03T10:20:29+00:00",
-      "bullets": [
-        "Meta launched its personal AI assistant product, Muse, which reached 10 million downloads in the US and Canada within its first forty days.",
-        "Instinct is developing an autonomous personal agent and secured a $1 billion Series C funding round in late September.",
-        "Marvell Technology announced a $115 billion acquisition of Lumentum Holdings to expand its optical connectivity capabilities for AI data centers."
+        "Aaron Rupar reflects on the outcome of Tuesday's elections, noting that voters decisively rejected Trumpism after a decade.",
+        "The author expresses gratitude to his readers for helping sustain the newsletter through difficult political periods following the 2024 election.",
+        "Rupar highlights positive political shifts for Democrats, including majorities in both congressional chambers and a stronger national outlook."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "The REAL Winners and Losers",
+      "title": "What We Must Do Now | The Coffee Klatch for Saturday, November 7, 2026",
       "url": "",
-      "published": "2026-11-06T09:02:14+00:00",
+      "published": "2026-11-07T09:02:16+00:00",
       "bullets": [
-        "A diverse, equitable, and inclusive America emerged as a major winner following significant electoral victories for minority and female candidates across the nation.",
-        "Voter turnout surged among Black people, Latinos, women, and LGBTQ+ individuals motivated by opposition to restrictive policies and bigotry.",
-        "Several historically conservative Southern states experienced significant political shifts toward Democratic candidates up and down the ballot."
+        "Robert Reich attributes recent political outcomes to anti-establishment fury against a rigged system rather than a standard midterm swing or economic factors.",
+        "The discussion explores whether Democrats can successfully deliver on their promises to unrig the system and deliver for Americans.",
+        "The hosts announced a live online watchalong event for the film The Work in Progress scheduled for November 17, 2026."
       ]
     },
     {
       "source": "Heather Cox Richardson from Letters from an American",
-      "title": "November 5, 2026",
+      "title": "November 6, 2026",
       "url": "",
-      "published": "2026-11-06T06:43:28+00:00",
+      "published": "2026-11-07T05:12:57+00:00",
       "bullets": [
-        "Incoming House Judiciary Committee Chair Jamie Raskin announced plans to investigate Trump's alleged corruption, subpoena law firms, and scrutinize Attorney General Todd Blanche.",
-        "House Democrats intend to use the power of the purse to defund what they describe as politically motivated prosecutions by the Justice Department.",
-        "Representative Robert Garcia outlined Oversight Committee plans to probe financial conflicts involving Trump family members, alongside congressional investigations into Jeffrey Epstein's associates and government ethics."
-      ]
-    },
-    {
-      "source": "Klement on Investing",
-      "title": "The economic divide in Italy",
-      "url": "",
-      "published": "2026-11-06T07:01:31+00:00",
-      "bullets": [
-        "Italy exhibits a pronounced economic gradient where prosperity declines from the north to the south.",
-        "A recent study analyzing historical church construction demonstrates that the economic divergence between northern and southern Italy began around the year 1000.",
-        "Greater integration with trade drove long-term economic prosperity in the north, despite also making the region more vulnerable to pandemics."
+        "Voters decisively rejected the Trump administration in the November 2026 elections, producing what publications like The Economist described as the largest congressional landslide in fifty years.",
+        "Majorities of voters supported candidates and policies centered on the rule of law, constitutional checks and balances, affordability, and multicultural representation.",
+        "Significant shifts among Hispanic and Black voters drove major Democratic gains across multiple states and border districts, directly opposing Trump's immigration and administration agenda."
       ]
     }
   ],
-  "articles_processed": 32,
-  "articles_attempted": 33,
+  "articles_processed": 13,
+  "articles_attempted": 14,
   "publications": [
-    "SCOTUSblog",
-    "Louis-François from What's AI",
-    "FiftyPlusOne.news",
-    "ProPublica",
-    "The Bulwark",
-    "Michael Spencer and Sid Saladi from AI Supremacy",
-    "Ruth Ben-Ghiat from Lucid",
-    "Your Local Epidemiologist",
+    "Prof Robert Pape from Escalation Trap",
+    "Prof Robert Pape",
+    "Scott Galloway",
+    "Timothy Snyder from \\\"Thinking about...\\",
     "Paul Krugman",
-    "Klement on Investing",
-    "John Ellis from Political News Items",
-    "Gabe Fleisher",
-    "Tom Schaller from Public Notice",
+    "Aaron Rupar from Public Notice",
     "Slow Boring",
     "Robert Reich",
-    "Kareem Abdul-Jabbar",
     "Heather Cox Richardson from Letters from an American",
-    "Azeem Azhar, Exponential View",
-    "Onest Network",
-    "G. Elliott Morris",
-    "Bulwark Takes",
-    "John Ellis",
-    "Scott Galloway"
+    "ProPublica",
+    "The Bulwark"
   ],
-  "generated_at": "2026-11-06T19:51:50.868347+00:00",
+  "generated_at": "2026-11-07T17:57:04.198620+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-06-1951.json"
+  "archive_filename": "2026-11-07-1757.json"
 }

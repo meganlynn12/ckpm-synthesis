@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-07",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-07T17:57:04.198620+00:00",
+    "filename": "2026-11-07-1757.json",
+    "articles_processed": 13,
+    "publications": [
+      "Prof Robert Pape from Escalation Trap",
+      "Prof Robert Pape",
+      "Scott Galloway",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Paul Krugman",
+      "Aaron Rupar from Public Notice",
+      "Slow Boring",
+      "Robert Reich",
+      "Heather Cox Richardson from Letters from an American",
+      "ProPublica",
+      "The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-06",
     "run_label": "7 AM",
     "generated_at": "2026-11-06T19:51:50.868347+00:00",
