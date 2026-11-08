@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-11-08",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-08T18:13:36.304267+00:00",
+    "filename": "2026-11-08-1813.json",
+    "articles_processed": 17,
+    "publications": [
+      "",
+      "Onest Network",
+      "Heather Cox Richardson from Letters from an American",
+      "Prof Robert Pape from Escalation Trap",
+      "Prof Robert Pape",
+      "Ruth Ben-Ghiat from Lucid",
+      "The Bulwark",
+      "Robert Reich",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Phillips P. OBrien from Phillips’s",
+      "Sam Stein & Tim Miller @ The Bulwark",
+      "ProPublica",
+      "John Ellis",
+      "Paul Krugman",
+      "John Ellis from Political News Items"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-07",
     "run_label": "7 AM",
     "generated_at": "2026-11-07T17:57:04.198620+00:00",
