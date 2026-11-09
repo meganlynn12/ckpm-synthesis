@@ -1,212 +1,475 @@
 {
-  "date": "2026-11-08",
-  "narrative_summary": "Recent political defeats and policy setbacks are intensifying internal pressures across multiple authoritarian and democratic landscapes, testing institutional resilience worldwide. In the United States, significant electoral losses have triggered severe friction within conservative factions, prompting analysts to warn that cornered leadership may escalate domestic attacks and purge perceived non-loyalists. Simultaneously, geopolitical flashpoints are accelerating, as newly unconstrained Iranian missile capabilities and contentious Caspian supply-chain interdictions bring American and Russian forces into dangerously close friction. Concurrently, international asset seizures in Russia and mounting systemic risks within global artificial intelligence infrastructure signal broader economic and diplomatic volatility. These converging domestic and international pressures reveal a fragile global status quo where declining political actors and strained financial systems increasingly resort to erratic measures to retain control.",
+  "date": "2026-11-09",
+  "narrative_summary": "The aftermath of the midterm elections triggered severe political fallout, highlighted by historic Democratic victories driven by voter anger over inflation, the war in Iran, and the environmental impacts of AI data centers. In response to these losses, President Trump blamed his party's candidates and reshuffled his administration by replacing Susie Wiles with hardline populist Stephen Miller as chief of staff. This political shift coincides with mounting economic and security pressures, ranging from a major market sell-off in AI infrastructure to intensifying corporate scandals involving NVIDIA and ongoing geopolitical strains in the Middle East. Meanwhile, the Supreme Court and federal agencies navigate contentious legal battles over executive authority, environmental waivers for border wall construction, and the regulatory oversight of administrative actions.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "We Convened a Group of Committed GOP Voters to See How They’re Coping",
-      "url": "https://www.thebulwark.com/p/republican-voters-focus-group-coping-with-midterm-defeat",
-      "published": "2026-11-08T12:20:37+00:00",
+      "title": "Bill Kristol: This Is the Trump Flailing Phase",
+      "url": "https://www.thebulwark.com/p/bill-kristol-this-is-the-trump-flailing",
+      "published": "2026-11-09T20:40:59+00:00",
       "bullets": [
-        "A focus group of committed Republican voters who supported Donald Trump in 2020 and 2024 was convened to assess their reactions to a major political defeat.",
-        "Despite the party's significant losses in the midterms, these voters did not place the blame on Donald Trump for the outcome."
+        "Following midterm losses, Donald Trump made unfounded rigged election claims and proposed a tactical immigration deal to distract Democrats from oversight.",
+        "The Trump administration elevated Stephen Miller while facing internal instability and potential national security concerns.",
+        "Bill Kristol joined Tim Miller on The Bulwark podcast to discuss the political landscape and the aftermath of the elections."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Pete Hegseth’s Failure to Learn",
+      "url": "https://www.thebulwark.com/p/pete-hegseths-failure-to-learn",
+      "published": "2026-11-09T20:24:08+00:00",
+      "bullets": [
+        "The House is expected to vote on articles of impeachment against Defense Secretary Pete Hegseth.",
+        "Hegseth has focused on ideological battles and political messaging rather than mastering the complex responsibilities of running the Department of Defense.",
+        "His tenure has raised significant concerns regarding his understanding of strategic military objectives and national security."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Trump Stabs His Most Loyal Republicans in the Back",
+      "url": "https://www.thebulwark.com/p/trump-stabs-his-most-loyal-republicans",
+      "published": "2026-11-09T18:31:03+00:00",
+      "bullets": [
+        "Donald Trump blamed everyone except himself for the Republican Party's historic midterm wipeout.",
+        "Trump claimed the Alaska election should be overturned and asserted that he would have won if he were on the ballot.",
+        "Trump turned on previously endorsed Republicans, attacked Fox News for unfavorable polls, and blamed Senate candidates."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Trump’s Interview Sends MAGA Into a Full-Blown Meltdown | MAGA Mondays",
+      "url": "https://www.thebulwark.com/p/trumps-interview-sends-maga-into-368",
+      "published": "2026-11-09T17:57:08+00:00",
+      "bullets": [
+        "Donald Trump's consideration of a potential immigration deal with Democrats has provoked outrage among MAGA hardliners.",
+        "Trump began pushing baseless claims that the midterm elections were stolen nearly a week after the voting concluded.",
+        "Internal tensions are growing within the MAGA coalition due to midterm losses, scrutiny over Laura Loomer's posts, and White House corruption fights."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Defund WAR!",
+      "url": "https://www.thebulwark.com/p/defund-war-trump-iran-hegseth-congress-midterms",
+      "published": "2026-11-09T17:30:14+00:00",
+      "bullets": [
+        "Congressional Democrats should immediately use their new legislative mandate to drive policy rather than waiting until 2027.",
+        "Ending the ongoing war with Iran is presented as the most effective action Democrats can take to impact prices and inflation.",
+        "Democrats can utilize three specific legislative tools to force an end to the war and respond to public opposition to the conflict."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "It’s Not a Pivot. It’s a Performance.",
+      "url": "https://www.thebulwark.com/p/its-not-a-pivot-its-a-performance-trump-douthat-interview-immigration-miller-corruption-enemies-hate-colom-mississippi",
+      "published": "2026-11-09T14:32:45+00:00",
+      "bullets": [
+        "President Trump promoted Stephen Miller to chief of staff while simultaneously signaling a potential shift on immigration policy to appease business-aligned advisers.",
+        "During a 60 Minutes interview, Trump expressed a belief that dangling potential bipartisan immigration deals would prevent incoming congressional Democrats from launching investigations.",
+        "The article argues that Trump's performative pivot contradicts his personnel choices and fails to grasp the reality of his diminished political standing following midterm losses."
+      ]
+    },
+    {
+      "source": "Slow Boring",
+      "title": "The rise of the Hispanic moderate",
+      "url": "https://www.slowboring.com/p/the-rise-of-the-hispanic-moderate",
+      "published": "2026-11-09T11:01:18+00:00",
+      "bullets": [
+        "The Democratic Party's past assumption that a rising Hispanic population would guarantee progressive electoral dominance was fundamentally misguided and led to strategic errors.",
+        "Donald Trump made significant gains with Latino voters in 2020 and 2024 due to shifting political dynamics and Democratic miscalculations.",
+        "Democrats are regaining Hispanic support by developing a more sophisticated understanding of the electorate and cultivating moderate Latino politicians."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "What. A. Week.",
+      "url": "https://www.profgmedia.com/p/what-a-week",
+      "published": "2026-11-09T19:30:43+00:00",
+      "bullets": [
+        "Scott Galloway reflected on visiting Minneapolis following the midterm elections and visiting the memorials of Alex Pretti and Renée Good.",
+        "Due to high demand, Galloway and Jessica Tarlov are turning their 'Raging Moderates' livestreams into a regular series on Substack and YouTube.",
+        "A promotional discount for Prof G+ subscriptions has been extended, which will include access to Galloway's upcoming 2027 Predictions presentation."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "David Senra on What Drives Founders, What It Costs Them & When They Should Sell",
+      "url": "https://www.profgmedia.com/p/david-senra-on-what-drives-founders",
+      "published": "2026-11-09T17:45:23+00:00",
+      "bullets": [
+        "David Senra joined Scott Galloway on the Prof G on Entrepreneurship special to answer listener questions about founders.",
+        "The discussion covered founder motivations, work-life balance, strategies for competing with incumbents, and the right time to sell a company."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Trump was the biggest loser last week, but money in politics was a close second",
+      "url": "https://www.profgmedia.com/p/trump-was-the-biggest-loser-last",
+      "published": "2026-11-09T17:01:48+00:00",
+      "bullets": [
+        "Democrats achieved sweeping victories in the midterms, including significant gains in the House, Senate, and gubernatorial races.",
+        "President Trump acknowledged that the Iran War and ICE contributed heavily to the Republican election losses.",
+        "Record-setting political spending by Republicans and billionaire self-funders failed to secure victories in key races across the country."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Why Is Everything So Expensive?",
+      "url": "https://www.profgmedia.com/p/why-is-everything-so-expensive",
+      "published": "2026-11-09T15:52:09+00:00",
+      "bullets": [
+        "Scott Galloway and Tim Wu discuss the paradox of high consumer costs amid record corporate profits and stock prices.",
+        "Wu proposes banning junk fees and surveillance pricing while shifting the tax burden from labor to capital.",
+        "The discussion also covers toughening merger rules for essential industries, rent control, and the impact of AI on young professionals."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Is the AI Trade the Biggest Loser of the Midterms?",
+      "url": "https://www.profgmedia.com/p/is-the-ai-trade-the-biggest-loser",
+      "published": "2026-11-09T12:04:08+00:00",
+      "bullets": [
+        "Democrats swept the midterms in a historic victory driven by voter anger over high living costs, inflation from the war in Iran, and rising power bills linked to AI data centers.",
+        "Voters overwhelmingly rejected local data center projects and elected Democratic governors in key states who campaigned on slowing or halting data center development.",
+        "The election results and concerns over tougher regulations triggered a massive sell-off in AI infrastructure and chip stocks, erasing trillions in market value."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Why Wall Street’s Post-Election Euphoria Turned Into Panic",
+      "url": "https://www.profgmedia.com/p/why-wall-streets-post-election-euphoria",
+      "published": "2026-11-09T11:03:41+00:00",
+      "bullets": [
+        "Scott Galloway and Ed Elson analyze how shifts in Congressional power impact the markets and economy.",
+        "The discussion covers market reactions to the election, Democratic policy potential, and the backlash against data centers.",
+        "The speakers emphasize that a clear growth agenda will be critical for investors moving forward."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "What Just Happened.",
-      "url": "https://substack.news-items.com/p/what-just-happened-3a5",
-      "published": "2026-11-08T14:02:23+00:00",
+      "title": "Pick A Target.",
+      "url": "https://substack.news-items.com/p/pick-a-target",
+      "published": "2026-11-09T10:45:01+00:00",
       "bullets": [
-        "Professor Daron Shaw appears as a guest on Episode 30 of The News Items Podcast to discuss the results of the Election Day Voter Poll.",
-        "Shaw is a Government Department professor at the University of Texas at Austin and serves on the Fox News polling and Decision Desk teams."
-      ]
-    },
-    {
-      "source": "John Ellis",
-      "title": "Fight Club.",
-      "url": "https://substack.news-items.com/p/fight-club",
-      "published": "2026-11-08T12:04:57+00:00",
-      "bullets": [
-        "White House Chief of Staff Stephen Miller characterized the Democratic Party as a domestic extremist organization that protects criminals and terrorists.",
-        "UFC chief executive Dana White stated he plans to meet with President Trump to discuss an offer to become the next White House press secretary."
+        "The NSA advised organizations to take vulnerable websites offline due to severe PHP flaws discovered with the help of artificial intelligence.",
+        "Rapidly advancing open-weight models, driven in part by Chinese labs, threaten to automate cyberattacks without warning or disclosure.",
+        "Nvidia CEO Jensen Huang disclosed an affair with a suspected Chinese spy, prompting a board investigation and threatening industry-wide turmoil."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "An 11-Day-Old Baby Couldn’t Stop Bleeding. For Hours, the ER Didn’t Provide a Critical Vitamin Shot.",
-      "url": "https://www.propublica.org/article/vitamin-k-shot-texas-lonestar-emergency-room-nicole-malouf",
-      "published": "2026-11-08T10:00:00+00:00",
+      "title": "Watch: Where Do Our Generic Drugs Come From? We Dug to Find Out.",
+      "url": "https://www.propublica.org/article/generic-prescription-drug-supply-fda-explained",
+      "published": "2026-11-09T15:55:00+00:00",
       "bullets": [
-        "An 11-day-old infant named Gwen Biesenbach was brought to a Texas emergency room for continuous bleeding from her umbilical cord stump after her parents declined the standard newborn vitamin K shot.",
-        "The attending emergency room doctor spent hours attempting various topical treatments to stop the bleeding while failing to administer vitamin K, which prevents vitamin K deficiency bleeding.",
-        "Recent studies show a sharp rise in vitamin K deficiency bleeding rates as more families decline the standard injection due to mistrust of medical interventions."
+        "A 14-month investigation revealed unsafe manufacturing conditions, contamination, and data manipulation at foreign factories producing generic drugs for the United States.",
+        "Independent lab testing found that some generic versions of the anti-rejection drug tacrolimus contained lower amounts of the key active ingredient.",
+        "The FDA exempted at least 150 drugs and ingredients from banned factories over a dozen years without publicly disclosing the specific medications involved."
       ]
     },
     {
-      "source": "Onest Network",
-      "title": "Putin Seizes Control of Japanese Tobacco Assets as Relations With Tokyo Deteriorate",
-      "url": "https://www.onestnetwork.com/putin-seizes-control-of-japanese-tobacco-assets-as-relations-with-tokyo-deteriorate/",
-      "published": "2026-11-08T17:10:23+00:00",
+      "source": "ProPublica",
+      "title": "Firm Linked to Trump’s Sons Got Nearly $40 Million in Federal Contracts to Screen for Ebola and Other Diseases",
+      "url": "https://www.propublica.org/article/trump-sons-xwell-xprestest-government-contracts",
+      "published": "2026-11-09T11:00:00+00:00",
       "bullets": [
-        "Russian President Vladimir Putin signed decrees placing seven Russian subsidiaries of Japan Tobacco International under temporary Russian management, stripping the company of operational control.",
-        "The affected assets are valued between $3.1 billion and $3.7 billion, and the Japanese government holds a 37 percent stake in the parent company.",
-        "The takeover occurs amid deteriorating diplomatic relations between Moscow and Tokyo concerning a long-standing territorial dispute and Japanese sanctions over the invasion of Ukraine."
+        "The Trump administration awarded nearly $40 million in federal contracts to XpresTest, a company whose parent firm is linked to President Donald Trump's elder sons.",
+        "The company received the funding to screen for Ebola at U.S. airports and respond to disease outbreaks in the Democratic Republic of Congo, despite having no prior international experience with Ebola.",
+        "Administration officials defended the awards by stating they were secured through a competitive bidding process based on the company's previous airport pathogen screening work."
       ]
     },
     {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Senator Maggie Hassan on Responsive Democracy",
-      "url": "",
-      "published": "2026-11-08T18:00:54+00:00",
+      "source": "ProPublica",
+      "title": "Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’t More Judges Stop Them?",
+      "url": "https://www.propublica.org/article/post-conviction-legal-system-finley-judges-pennsylvania",
+      "published": "2026-11-09T10:00:00+00:00",
       "bullets": [
-        "Senator Maggie Hassan joined Timothy Snyder for the premiere of a new series focusing on political transformation and responsive democracy.",
-        "The discussion covered the contrast between autocracies and democracies regarding government responsiveness to citizens.",
-        "Participants agreed on the necessity of radical campaign finance reform to counter the influence of dark money and outside spending."
+        "Pennsylvania's post-conviction system allows court-appointed lawyers to routinely argue against their own clients using no-merit briefs known as Finley letters.",
+        "Lax legal rules, low pay, and heavy caseloads have contributed to attorneys falling years behind on cases or filing Finley letters without investigating claims or communicating with clients.",
+        "Judges frequently continue assigning cases to lawyers despite poor performance and accept almost all Finley letters without requiring basic investigative steps."
       ]
     },
     {
-      "source": "Sam Stein & Tim Miller @ The Bulwark",
-      "title": "Picking the Biggest 2026 GOP Loser Is Harder Than You Think",
-      "url": "",
-      "published": "2026-11-08T17:40:53+00:00",
+      "source": "SCOTUSblog",
+      "title": "Supreme Court allows Trump administration to continue border wall construction",
+      "url": "https://www.scotusblog.com/2026/11/supreme-court-allows-trump-administration-to-continue-border-wall-construction/",
+      "published": "2026-11-09T20:37:12+00:00",
       "bullets": [
-        "Tim Miller and Sam Stein discussed the numerous Republican failures that occurred in 2026.",
-        "The commentators framed the various party defeats and self-inflicted wounds as a fantasy draft competition.",
-        "Figures such as Vivek Ramaswamy and Ken Paxton were cited among the notable political losers."
+        "The Supreme Court allowed the Trump administration to resume border wall construction in the Big Bend region of southwestern Texas.",
+        "The justices granted the government's request to pause a lower court order that had temporarily halted the project.",
+        "The legal challenge involves disputed DHS waivers of environmental laws under the Illegal Immigration Reform and Immigrant Responsibility Act of 1996."
       ]
     },
     {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "No Geographical Limits — Iran Puts Europe in the Line of Fire",
-      "url": "https://escalationtrap.substack.com/p/no-geographical-limits-iran-puts",
-      "published": "2026-11-08T16:01:02+00:00",
+      "source": "SCOTUSblog",
+      "title": "Court declines to hear dispute tied to George Floyd protests and cases involving former baseball player Roberto Clemente and actor Randy Quaid",
+      "url": "https://www.scotusblog.com/2026/11/court-declines-to-hear-dispute-tied-to-george-floyd-protests-and-cases-involving-former-baseball/",
+      "published": "2026-11-09T17:42:31+00:00",
       "bullets": [
-        "Washington recently conducted three military strikes against Iran near the Strait of Hormuz.",
-        "Iran's Revolutionary Guards announced the removal of the self-imposed 2,000-kilometer limit on its ballistic missiles.",
-        "Supreme Leader Mojtaba Khamenei ordered responses with no geographical limits, placing most of Europe within potential missile range."
+        "The Supreme Court denied review in over 200 cases, including disputes tied to George Floyd protests, Roberto Clemente's family, and actor Randy Quaid.",
+        "The court declined to hear a takings clause challenge brought by Minneapolis businesses that suffered economic losses after the city blocked the intersection where George Floyd was killed.",
+        "The justices rejected petitions involving the Clemente family's challenge to Puerto Rico's use of the baseball legend's image and the Quaids' privacy lawsuit against law enforcement."
       ]
     },
     {
-      "source": "Prof Robert Pape",
-      "title": "Americans and Russians in Each Other’s Line of Fire",
-      "url": "",
-      "published": "2026-11-08T15:08:49+00:00",
+      "source": "SCOTUSblog",
+      "title": "Whose tradition, which history? Agency adjudication and Sun Valley Orchards",
+      "url": "https://www.scotusblog.com/2026/11/whose-tradition-which-history-agency-adjudication-and-sun-valley-orchards/",
+      "published": "2026-11-09T14:30:00+00:00",
       "bullets": [
-        "CENTCOM launched Task Force Iron Gate to disrupt smuggling routes between Russia and Iran across the Caspian Sea.",
-        "The Caspian route serves as a crucial supply chain where Russian ships transport military equipment to Iran, mirroring previous arms shipments from Iran to Russia.",
-        "Efforts to block these Caspian shipments risk placing American and Russian forces in direct conflict for the first time since the Cold War."
+        "The Supreme Court evaluates the constitutionality of administrative agency adjudication using a history-and-tradition methodology.",
+        "This approach faces challenges in determining which historical tradition should govern when competing traditions exist.",
+        "The upcoming case Department of Labor v. Sun Valley Orchards highlights the difficulties of applying this methodology to agency dispute resolution."
       ]
     },
     {
-      "source": "",
-      "title": "Scott Galloway, Nate Silver, and Phillips P. OBrien posted new notes",
-      "url": "",
-      "published": "2026-11-08T14:28:01+00:00",
+      "source": "SCOTUSblog",
+      "title": "SCOTUS has done some “crazy things,” Sotomayor says",
+      "url": "https://www.scotusblog.com/2026/11/scotus-has-done-some-crazy-things-sotomayor-says/",
+      "published": "2026-11-09T14:00:00+00:00",
       "bullets": [
-        "Scott Galloway shared a brief note featuring American and Ukrainian flag emojis.",
-        "Nate Silver announced his return with upcoming thoughts on analyzing a major election wave.",
-        "Phillips P. OBrien argued that Republicans are struggling to explain their election loss because they refuse to acknowledge poor leadership."
-      ]
-    },
-    {
-      "source": "John Ellis from Political News Items",
-      "title": "The Earthquake.",
-      "url": "",
-      "published": "2026-11-08T13:52:33+00:00",
-      "bullets": [
-        "John Ellis published episode 30 of The News Items Podcast featuring University of Texas professor Daron Shaw.",
-        "Daron Shaw discusses election night and the results of the Election Day Voter Poll.",
-        "Shaw is a member of the Fox News Decision Desk Team and co-director of the University of Texas Poll."
-      ]
-    },
-    {
-      "source": "Ruth Ben-Ghiat from Lucid",
-      "title": "Video & Essay on MAGA’s Late-Stage Radicalization",
-      "url": "",
-      "published": "2026-11-08T13:40:41+00:00",
-      "bullets": [
-        "Ruth Ben-Ghiat analyzes the late-stage radicalization and instability of autocrats in decline, comparing current conditions in the White House to authoritarian patterns.",
-        "Republican election losses have triggered shock and rage within the administration, shrinking Donald Trump's personality cult and increasing his reliance on die-hard loyalists.",
-        "The analysis warns that weakening authoritarian leaders typically respond to failure by purging perceived non-believers and lashing out at domestic and foreign opponents."
-      ]
-    },
-    {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Rep. Greg Casar on Passing Great Laws",
-      "url": "",
-      "published": "2026-11-08T13:30:41+00:00",
-      "bullets": [
-        "Timothy Snyder and Representative Greg Casar held a recorded conversation discussing US political transformation and the current political shift in Texas.",
-        "Snyder argues that Democrats have a narrow six-month window to act, noting that affordability and accountability are deeply connected issues.",
-        "Casar and Snyder discussed legislative strategies for addressing campaign finance and utilizing upcoming weeks to pass ambitious legislation."
-      ]
-    },
-    {
-      "source": "Paul Krugman",
-      "title": "After the Bubble Bursts",
-      "url": "https://paulkrugman.substack.com/p/after-the-bubble-bursts&coupon=367e7c82",
-      "published": "2026-11-08T11:47:18+00:00",
-      "bullets": [
-        "Observers warn that the massive capital expenditures and investments in AI infrastructure may be unsustainable.",
-        "Recent financial indicators, including falling hyperscaler stock prices and rising bond default insurance costs, show growing market nervousness.",
-        "Historical evidence suggests that if the AI bubble bursts, it will likely trigger a recession characterized by a slow economic recovery and elevated unemployment."
-      ]
-    },
-    {
-      "source": "Phillips P. OBrien from Phillips’s",
-      "title": "Weekend Update #210: Trump Has Stood Between Ukraine And Military Success",
-      "url": "",
-      "published": "2026-11-08T09:15:52+00:00",
-      "bullets": [
-        "The article argues that the Trump administration has acted to protect Russia from strategic failure by limiting Ukrainian capabilities.",
-        "Russian military casualties reached record highs in October while Russia has been losing more territory than it gains.",
-        "Ukraine has intensified its strategic campaign targeting Russian oil refineries and fuel exports."
+        "Justice Clarence Thomas will teach an undergraduate course on civil rights and political texts at the University of Texas School of Civic Leadership in spring 2027.",
+        "The Supreme Court added Goldman Sachs Bank USA v. Brown to its oral argument docket following a private conference.",
+        "The justices are scheduled to hear oral arguments in Nielsen v. Watanabe and Hoffmann v. WBI Energy Transmission, Inc."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Sunday thought: Savoring our win",
+      "title": "“Wealth and Poverty” Class 8: Inequality and the macroeconomic mess",
       "url": "",
-      "published": "2026-11-08T09:02:44+00:00",
+      "published": "2026-11-09T22:00:57+00:00",
       "bullets": [
-        "The recent election outcome represents a powerful repudiation of Donald Trump and a reaffirmation of American democracy and diversity.",
-        "Billionaire oligarchs, giant corporations, and regressive political forces continue to pose a significant threat to democracy and the economic well-being of average Americans.",
-        "While this electoral victory should be celebrated, citizens must immediately return to the ongoing fight against authoritarianism and the corporate status quo."
+        "Macroeconomic policies significantly contribute to widening economic inequality through public spending, national debt debates, and Federal Reserve decisions.",
+        "The course explores the distributional consequences of fiscal and monetary policies rather than focusing solely on standard macroeconomic metrics.",
+        "Readings examine topics such as monetary policy impacts, long-term deficits, and methods for building a more stable and equitable financial structure."
+      ]
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "The most valuable nomination of all time?",
+      "url": "",
+      "published": "2026-11-09T21:14:59+00:00",
+      "bullets": [
+        "The latest episode of Still Counting focuses on Jon Ossoff and the future outlook for the Democratic party following the midterms.",
+        "Nate Silver selected Jon Ossoff as the first pick in a mini-draft of potential 2028 Democratic primary candidates.",
+        "Prediction markets currently position Jon Ossoff as the frontrunner for the 2028 Democratic presidential nomination."
+      ]
+    },
+    {
+      "source": "Galen Druke",
+      "title": "Eight Years Of Gains, Undone In One Night",
+      "url": "",
+      "published": "2026-11-09T20:59:05+00:00",
+      "bullets": [
+        "An estimated eight years of rightward shifts among Latino voters were largely undone during the recent midterm elections.",
+        "Carlos Odio of Equis Research discusses how turnout dynamics, particularly among young Latina women in states like Georgia and Texas, drove the Democratic recovery.",
+        "Experts caution against viewing either the prior Republican gains or the recent Democratic rebound as a permanent realignment."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "The rest of 2026 at Strength In Numbers",
+      "url": "",
+      "published": "2026-11-09T20:15:08+00:00",
+      "bullets": [
+        "Strength In Numbers is launching a series of approximately eight articles starting November 11 to analyze why Democrats achieved a major victory in the 2026 midterms.",
+        "The upcoming analysis will utilize original data from 18 months of polling, county and precinct election results, and state voter files.",
+        "A new November poll will also be released covering congressional priorities, presidential impeachment, and 2028 primary preferences using an open-ended tracking approach."
       ]
     },
     {
       "source": "Heather Cox Richardson from Letters from an American",
-      "title": "November 7, 2026",
+      "title": "The Law is King",
       "url": "",
-      "published": "2026-11-08T05:07:53+00:00",
+      "published": "2026-11-09T19:27:06+00:00",
       "bullets": [
-        "James Talarico won a U.S. Senate seat in Texas, contributing to a broader Democratic sweep of major state offices despite substantial Republican spending by Elon Musk.",
-        "In his victory speech, Talarico emphasized that grassroots mobilization and a unified populace can overcome massive billionaire campaign contributions and divisive politics.",
-        "He attributed the victory to a broad coalition of Texans and framed the win as a challenge to a broken political and economic establishment."
+        "The provided article text consists entirely of promotional metadata, subscription links, and podcast access details rather than substantive content.",
+        "No core arguments or distinct factual points were available in the source text to summarize beyond the publication title 'The Law is King'."
+      ]
+    },
+    {
+      "source": "Jacob Morgan",
+      "title": "Weekly Briefing: North Korean Hackers Steal $6.3B Through a Fake Interview, AI Rewrites Entry-Level Jobs, and Loud…",
+      "url": "",
+      "published": "2026-11-09T19:31:00+00:00",
+      "bullets": [
+        "North Korean hackers stole $6.3 billion from Binance after compromising engineers through a fake job interview process and malicious software.",
+        "Artificial intelligence is transforming entry-level jobs by requiring recent graduates to manage AI systems before learning fundamental skills.",
+        "Employees spend approximately three hours every week on \"loud working\" to prove their productivity to their organizations."
+      ]
+    },
+    {
+      "source": "Energy Common Sense",
+      "title": "AntI",
+      "url": "",
+      "published": "2026-11-09T19:14:16+00:00",
+      "bullets": [
+        "Opposition to artificial intelligence and data center infrastructure intensified significantly ahead of the midterms due to concerns over electricity bills, water use, and land impact.",
+        "Voters across the country overwhelmingly supported restrictions on data centers, approving 46 out of 47 local ballot measures favoring greater limits or bans.",
+        "Political leaders in key states like Texas and Ohio shifted their stances to back moratoriums and stricter regulations in response to growing public pushback."
+      ]
+    },
+    {
+      "source": "The Freedom Frequency",
+      "title": "Letter #11: My Dearest Friend",
+      "url": "",
+      "published": "2026-11-09T18:42:14+00:00",
+      "bullets": [
+        "The article is framed as an imagined letter from Adam Smith reflecting on his deep friendship with philosopher David Hume.",
+        "Despite disagreeing on numerous topics—including economics, history, morality, and religion—Smith and Hume maintained a lifelong bond built on mutual respect.",
+        "Hume actively promoted Smith's literary works while simultaneously challenging his ideas and keeping his ego in check."
+      ]
+    },
+    {
+      "source": "The Freedom Frequency",
+      "title": "Leter #11: My Dearest Friend",
+      "url": "",
+      "published": "2026-11-09T18:02:06+00:00",
+      "bullets": [
+        "The article presents an imagined letter from Adam Smith to Americans in 2026, constructed using Smith's actual words and philosophical works.",
+        "It highlights the deep intellectual friendship and frequent disagreements between Adam Smith and philosopher David Hume.",
+        "Smith and Hume maintained a close bond despite differing on economic principles, history, banking, and morality."
+      ]
+    },
+    {
+      "source": "Mykola Bielieskov",
+      "title": "Why is WWI largely neglected in Ukraine and how it impacts its national security and defense thinking?",
+      "url": "",
+      "published": "2026-11-09T17:53:49+00:00",
+      "bullets": [
+        "World War I is largely neglected in modern Ukraine regarding public memory, historical research, and its influence on current strategic conduct.",
+        "Despite millions of Ukrainians participating in WWI and major battles occurring on Ukrainian territory, the war was overshadowed by Soviet traditions that dismissed it as an imperialistic conflict.",
+        "Understanding previous strategic history like World War I helps nations save time and anticipate operational tendencies rather than learning them independently during an active war."
+      ]
+    },
+    {
+      "source": "Gabe Fleisher",
+      "title": "What Stephen Miller’s Promotion Means for the Next Two Years",
+      "url": "",
+      "published": "2026-11-09T16:49:40+00:00",
+      "bullets": [
+        "President Trump appointed Stephen Miller as White House chief of staff, replacing Susie Wiles following significant Republican losses in the midterms.",
+        "Wiles was ousted after Trump blamed her for the election losses and rebuffed her request for a longer transition period.",
+        "Unlike Wiles, who frequently urged caution, Miller is a hardline populist who previously pushed for aggressive measures such as invoking the Insurrection Act."
+      ]
+    },
+    {
+      "source": "AVDD",
+      "title": "AVDD Strait of Hormuz SITREP",
+      "url": "https://avddemocracy.substack.com/p/avdd-strait-of-hormuz-sitrep-5dc",
+      "published": "2026-11-09T15:02:29+00:00",
+      "bullets": [
+        "Economic coercion and maritime control remain central to the crisis, with Gulf crude exports recovering to prewar levels despite ongoing security risks and high shipping costs.",
+        "Regional hostilities persist, highlighted by a Houthi missile attack that damaged an Aramco office tower in Riyadh and a drone strike that caused power outages at the Khor Mor gas facility in Iraqi Kurdistan.",
+        "U.S. and Iranian negotiations remain stalled as Tehran conditions peace talks on the cessation of hostilities, the lifting of naval blockades, and the removal of sanctions."
+      ]
+    },
+    {
+      "source": "Azeem Azhar, Exponential View",
+      "title": "📈 AI-exposed workers wait a month longer for a job",
+      "url": "",
+      "published": "2026-11-09T13:45:58+00:00",
+      "bullets": [
+        "Workers laid off from AI-exposed roles in 2025 experienced a re-application slowdown, waiting about a month longer than peers in other roles to secure new employment.",
+        "Anthropic acquired a supplier's gas generator order for $3.4 billion, marking the largest known power-equipment purchase by an AI lab.",
+        "Apple increased its memory inventory by 2.5 times year over year to protect against rising memory costs."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "The Answer — How Regional Balancing Can End the Iran War",
+      "url": "https://escalationtrap.substack.com/p/the-answer-how-regional-balancing",
+      "published": "2026-11-09T12:59:25+00:00",
+      "bullets": [
+        "Washington currently faces three failing options regarding the Iran war: regime change, full US withdrawal, and an endless blockade, all of which risk economic disaster.",
+        "Regime change risks severe global economic shocks through energy infrastructure damage, while full withdrawal hands significant control of the Gulf to Tehran.",
+        "An endless US blockade slowly bleeds the global economy without achieving regime collapse in Iran, demonstrating the need for a new containment strategy."
+      ]
+    },
+    {
+      "source": "Pamela Herd from Can We Still Govern?",
+      "title": "How the new Democratic Congress can ensure Americans have enough to eat",
+      "url": "",
+      "published": "2026-11-09T12:34:29+00:00",
+      "bullets": [
+        "The One Big Beautiful Bill Act passed in July 2025 has led to a steep decline in SNAP enrollment by weaponizing the program error rate to purge eligible participants.",
+        "SNAP enrollment has dropped by over 5.5 million people, significantly exceeding Congressional Budget Office predictions and causing a surge in demand at food banks nationwide.",
+        "The newly empowered Democratic Congress should act quickly to roll back these policy changes or redefine federal program integrity evaluations to prevent further hunger."
+      ]
+    },
+    {
+      "source": "Jon Haidt from After Babel",
+      "title": "Why Parental Consent Policies for Social Media Do Not Help Families",
+      "url": "",
+      "published": "2026-11-09T12:03:43+00:00",
+      "bullets": [
+        "Social media parental consent policies fail families by trapping parents in a collective action dynamic where they feel forced to grant access to avoid social isolation for their children.",
+        "Parental permission does not mitigate the risks of addictive platform designs, harmful content, or unwanted adult contact during critical developmental stages.",
+        "Effective regulatory solutions should instead enforce strict age minimums, mandate platform safety by design, and shift enforcement responsibilities from parents to tech companies."
+      ]
+    },
+    {
+      "source": "Paul Krugman",
+      "title": "The Texas Miracle",
+      "url": "",
+      "published": "2026-11-09T11:24:37+00:00",
+      "bullets": [
+        "Viktor Orban's long-ruling regime in Hungary was swept from power in a massive voter backlash despite years of rigged political structures.",
+        "Texas similarly operated under a heavily gerrymandered and entrenched one-party Republican system that mirrors the conditions of the Hungarian model.",
+        "Democrats achieved a shocking breakthrough in Texas by sweeping every statewide office during the recent midterm elections."
+      ]
+    },
+    {
+      "source": "Noah Berlatsky from Public Notice",
+      "title": "Democrats *already* have started winning",
+      "url": "",
+      "published": "2026-11-09T11:17:27+00:00",
+      "bullets": [
+        "Following midterm losses, Donald Trump replaced Susie Wiles with Stephen Miller as chief of staff.",
+        "Sherrod Brown's victory in the Ohio special election reduces the Republican Senate advantage to 52-48 and allows for an early Senate seat takeover.",
+        "The sweeping Democratic midterm victory has significantly reduced the plausibility of GOP procedural shenanigans during the lame-duck period."
+      ]
+    },
+    {
+      "source": "Michael Spencer from AI Supremacy",
+      "title": "AI is a Honeypot Story 🍯🧸",
+      "url": "",
+      "published": "2026-11-09T10:35:39+00:00",
+      "bullets": [
+        "Nvidia CEO Jensen Huang disclosed an extramarital affair in an email to employees and announced that the company's board opened an investigation into allegations that the woman involved is a Chinese spy.",
+        "The affair reportedly occurred between mid-2024 and early 2026, coinciding with a critical period when China gained access to advanced Nvidia GPUs and when Huang wielded significant influence over U.S. AI policy and chip sales restrictions.",
+        "Following the disclosure of the investigation, Nvidia's stock dropped by 4% amidst broader market concerns."
       ]
     }
   ],
-  "articles_processed": 17,
-  "articles_attempted": 18,
+  "articles_processed": 40,
+  "articles_attempted": 40,
   "publications": [
-    "",
-    "Onest Network",
     "Heather Cox Richardson from Letters from an American",
-    "Prof Robert Pape from Escalation Trap",
-    "Prof Robert Pape",
-    "Ruth Ben-Ghiat from Lucid",
-    "The Bulwark",
+    "Gabe Fleisher",
+    "Silver Bulletin",
+    "Mykola Bielieskov",
     "Robert Reich",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "Phillips P. OBrien from Phillips’s",
-    "Sam Stein & Tim Miller @ The Bulwark",
-    "ProPublica",
-    "John Ellis",
+    "The Bulwark",
+    "Energy Common Sense",
+    "Michael Spencer from AI Supremacy",
+    "Jon Haidt from After Babel",
+    "The Freedom Frequency",
+    "Pamela Herd from Can We Still Govern?",
+    "Galen Druke",
+    "Scott Galloway",
     "Paul Krugman",
-    "John Ellis from Political News Items"
+    "AVDD",
+    "Jacob Morgan",
+    "ProPublica",
+    "Prof Robert Pape from Escalation Trap",
+    "Azeem Azhar, Exponential View",
+    "G. Elliott Morris",
+    "SCOTUSblog",
+    "John Ellis",
+    "Noah Berlatsky from Public Notice",
+    "Slow Boring"
   ],
-  "generated_at": "2026-11-08T18:13:36.304267+00:00",
+  "generated_at": "2026-11-09T22:53:16.772427+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-08-1813.json"
+  "archive_filename": "2026-11-09-2253.json"
 }
