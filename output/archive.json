@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-10",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-10T20:16:50.664407+00:00",
+    "filename": "2026-11-10-2016.json",
+    "articles_processed": 25,
+    "publications": [
+      "The Bulwark",
+      "Robert Reich",
+      "Center for Humane Technology",
+      "Scott Galloway",
+      "Michael Spencer from AI Supremacy",
+      "ProPublica",
+      "Paul Waldman from Public Notice",
+      "Kareem Abdul-Jabbar",
+      "Slow Boring",
+      "Ruth Ben-Ghiat from Lucid",
+      "AVDD",
+      "SCOTUSblog",
+      "Paul Krugman",
+      "Mykola Bielieskov",
+      "Phillips P. OBrien from Phillips’s",
+      "Pete Buttigieg",
+      "Your Local Epidemiologist"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-09",
     "run_label": "7 AM",
     "generated_at": "2026-11-09T22:53:16.772427+00:00",
