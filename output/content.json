@@ -1,317 +1,410 @@
 {
-  "date": "2026-11-11",
-  "narrative_summary": "Recent political upheaval following the midterm elections has upended traditional party dynamics, as Democrats secure majorities in Congress while the Trump administration faces mounting institutional and legal challenges. At the same time, high-stakes investigations into national security and corporate compliance—highlighted by controversies surrounding Nvidia and the Department of Veterans Affairs—coincide with severe economic jitters, including a massive market correction for tech infrastructure and shifting global safe-haven assets. Concurrently, ideological polarization deepens across branches of government, from contentious Supreme Court dockets and originalist judicial philosophies to the election of hardline congressional leadership and ongoing international diplomatic maneuvers in Ukraine and the Middle East.",
+  "date": "2026-11-12",
+  "narrative_summary": "",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Neo-Nazi Accidentally Livestreams Himself Performing Sex Act | MAGA Wednesdays",
-      "url": "https://www.thebulwark.com/p/neo-nazi-accidentally-livestreams",
-      "published": "2026-11-11T18:01:36+00:00",
+      "title": "The Blue Wave Didn’t End the Gerrymandering Arms Race",
+      "url": "https://www.thebulwark.com/p/the-blue-wave-didnt-end-the-gerrymandering-arms-race-redrawing-maps",
+      "published": "2026-11-12T20:13:15+00:00",
       "bullets": [
-        "A neo-Nazi leader accidentally livestreamed himself performing a sex act during a broadcast.",
-        "Conservative media figure Mark Levin experienced a public meltdown over his AOL account.",
-        "A new lawsuit exposed fresh allegations regarding foreign money and luxury gifts within Trumpworld."
+        "Republicans aggressively redrew electoral maps in 2025 to favor their party, but a subsequent Democratic wave caused these diluted districts to backfire and fuel massive Democratic House victories.",
+        "Democrats in several states are now exploring aggressive mid-cycle map redrawing to strengthen their own electoral advantage following the recent wave.",
+        "Some moderate lawmakers are warning against the risks of partisan redistricting and calling for standardized rules to end the practice."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Destroy All Monsters",
-      "url": "https://www.thebulwark.com/p/destroy-all-monsters-ruthless-aggression",
-      "published": "2026-11-11T17:39:58+00:00",
+      "title": "Trump’s DOJ Is Falling Apart as Top Officials Flee (w/ Andrew Weissmann) | Illegal News",
+      "url": "https://www.thebulwark.com/p/trumps-doj-is-falling-apart-as-top",
+      "published": "2026-11-12T17:25:34+00:00",
       "bullets": [
-        "Democrats must avoid internal infighting over policy and focus entirely on destroying Trump's political standing over the next two years.",
-        "Recent political maneuvering indicates Donald Trump is still actively fighting for control of the Republican Party rather than fading from power.",
-        "Trump successfully boxed in Vice President JD Vance by demanding he defend the Iran war, demonstrating Trump's continued political cunning."
+        "Senior officials are departing the Department of Justice amid pressure to investigate political opponents.",
+        "The White House is issuing threats against Democrats preparing to investigate the administration.",
+        "Discussion topics include potential congressional questioning of Ghislaine Maxwell, the failed impeachment of Pete Hegseth, and a suspicious financial deal involving Alina Habba."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Please, Democrats: Don’t Have This Fight Again",
-      "url": "https://www.thebulwark.com/p/democrats-medicare-for-all-debate-single-payer-clash",
-      "published": "2026-11-11T15:31:23+00:00",
+      "title": "BREAKING: NVIDIA CEO Out, Trump Nixes Iran Negotiations | Morning Shots",
+      "url": "https://www.thebulwark.com/p/breaking-nvidia-ceo-out-trump-nixes",
+      "published": "2026-11-12T16:35:05+00:00",
       "bullets": [
-        "Senator Bernie Sanders has urged newly elected Democratic majorities to rapidly pass Medicare for All legislation.",
-        "Newly elected moderate Democrats, such as Senator-elect Adam Hamilton, have publicly rejected Medicare for All as the correct approach.",
-        "Rising health care costs and impending coverage losses have rekindled internal Democratic debates over comprehensive health care reform."
+        "NVIDIA CEO Jensen Huang has departed following revelations regarding his relationship with a suspected Chinese spy.",
+        "The fallout from the scandal is drawing scrutiny toward Donald Trump's White House and Commerce Secretary Howard Lutnick over ignored national security warnings.",
+        "Additional political developments include Trump reportedly sidelining JD Vance over Iran, escalating Justice Department threats against Democrats, and a major Senate victory in Mississippi."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Trump’s Chipghazi",
-      "url": "https://www.thebulwark.com/p/trumps-chipghazi-nvidia-huang-china-scandal-spy-coverup",
-      "published": "2026-11-11T14:25:54+00:00",
+      "title": "College Republicans Revolt Against Trump",
+      "url": "https://www.thebulwark.com/p/college-republicans-revolt-against-trump",
+      "published": "2026-11-12T16:07:34+00:00",
       "bullets": [
-        "President Trump was directly informed months ago by Marco Rubio that Nvidia CEO Jensen Huang was involved with a suspected Chinese spy.",
-        "Jensen Huang and Nvidia previously denied the romantic relationship before Huang recently admitted to it and the company announced an independent investigation.",
-        "Commerce Department leadership under Howard Lutnick allegedly obstructed export controls and refused to restrict chip sales or blacklist a company linked to the spy."
+        "A coalition of College Republican chapters across multiple states publicly blamed Donald Trump for the party's recent electoral losses.",
+        "The student group released an open letter accusing the Trump administration of abandoning MAGA principles and failing to fulfill campaign promises.",
+        "The letter criticized the administration's involvement in the Iran war and called for a purge of the current White House leadership."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Musical Chairs on the MAGA Titanic",
+      "url": "https://www.thebulwark.com/p/musical-chairs-on-the-maga-titanic-mike-pence-national-conservatism-reagan-trump-vance-jensen-huang",
+      "published": "2026-11-12T14:33:43+00:00",
+      "bullets": [
+        "Following historic Republican midterm losses, former Vice President Mike Pence published an op-ed criticizing the party's shift toward economic populism and urging a return to traditional conservative principles.",
+        "The New Right faction, which expected a seamless ideological handoff from Donald Trump to JD Vance, faces renewed challenges from traditional conservatives seeking to reclaim the party's direction.",
+        "A new Vance-allied organization called American Ascent launched with $12 million in backing to recruit and mold the next generation of national conservative lawmakers."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Never Rubio",
+      "url": "https://www.thebulwark.com/p/never-rubio",
+      "published": "2026-11-12T08:58:22+00:00",
+      "bullets": [
+        "Marco Rubio is unsuited to lead the Republican Party away from MAGA because of his complicity in Trump's second-term actions.",
+        "Rubio tamely accepted controversial executive orders, ratified the corrupt termination of the head of the National Archives, and absorbed additional roles amid security scandals.",
+        "He failed to effectively protest illegal funding cuts to USAID by Elon Musk's department and could not dissuade Trump from threatening key allies and launching global trade wars."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "Twenty-three points on the midterms and the narrative",
-      "url": "https://www.slowboring.com/p/twenty-three-points-on-the-midterms",
-      "published": "2026-11-11T11:03:25+00:00",
+      "title": "Gasoline isn’t really that expensive",
+      "url": "https://www.slowboring.com/p/gasoline-isnt-really-that-expensive",
+      "published": "2026-11-12T11:01:11+00:00",
       "bullets": [
-        "The composition of the House Democratic caucus is shifting toward the center while simultaneously including a larger and more empowered insurgent left faction.",
-        "Donald Trump's influence has frequently saddled the Republican Party with weak Senate candidates who underperform in elections.",
-        "Democratic leaders Chuck Schumer and Hakeem Jeffries might have benefited from facing leadership challenges to validate their electoral strategies."
+        "Voter rage over the cost of living and inflation is somewhat disproportionate to actual economic circumstances, which are much better than during historical crises like 1974.",
+        "Despite voter frustration, broader economic indicators such as low unemployment, solid GDP growth, and a well-balanced labor market remain strong.",
+        "Public anger may stem partly from a sense of political betrayal because leaders failed to make a strong policy pivot toward fighting inflation or deficit reduction."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Nvidia Has Lost $1.5 Trillion — Is The Worst Still To Come?",
-      "url": "https://www.profgmedia.com/p/nvidia-has-lost-15-trillion-is-the",
-      "published": "2026-11-11T12:03:29+00:00",
+      "title": "On Tap",
+      "url": "https://www.profgmedia.com/p/on-tap",
+      "published": "2026-11-12T14:51:13+00:00",
       "bullets": [
-        "Ed Elson and Gil Luria analyze Nvidia's stock following a 1.5 trillion dollar drop, the Jensen Huang scandal, and CoreWeave's earnings.",
-        "Justin Wolfers discusses recent inflation data indicating upcoming rate hikes and evaluates the economic impact of midterm election results.",
-        "Ed Elson shares his perspective on Anthropic's new valuation in the latest podcast episode."
+        "Scott Galloway announced an upcoming live discussion with Robert Reich regarding the future of America.",
+        "Paid subscribers gain access to exclusive events including a research discussion on federal funding and an Nvidia earnings review.",
+        "The Raging Moderates livestream series with Jessica Tarlov and Scott Galloway will now air regularly on Mondays, Tuesdays, and Thursdays."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Voters Hit Pause on Data Centers. What Happens Next?",
-      "url": "https://www.profgmedia.com/p/voters-hit-pause-on-data-centers",
-      "published": "2026-11-11T12:03:28+00:00",
+      "title": "The Trillion-Dollar Cover-Up: What Washington Knew About Jensen Huang",
+      "url": "https://www.profgmedia.com/p/the-trillion-dollar-cover-up-what",
+      "published": "2026-11-12T12:03:21+00:00",
       "bullets": [
-        "Voters rejected data center ballot measures in 40 out of 41 local elections despite tech companies outspending opposition groups significantly.",
-        "Governors and governors-elect in at least nine states have promised or imposed pauses on new data centers, impacting 41% of the national pipeline.",
-        "The Nasdaq 100 suffered its largest one-day loss on record as investors reacted to state-level political opposition against the data center industry."
+        "Ed Elson and Chris McGuire discuss potential violations of US chip export rules by Nvidia and whether the government covered them up.",
+        "Ara Kharazian analyzes October enterprise AI spending trends, signs of plateauing, and expectations for Anthropic’s upcoming IPO."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Pacing the Frontier.",
-      "url": "https://substack.news-items.com/p/pacing-the-frontier",
-      "published": "2026-11-11T11:15:57+00:00",
+      "title": "Introspection.",
+      "url": "https://substack.news-items.com/p/introspection",
+      "published": "2026-11-12T11:34:32+00:00",
       "bullets": [
-        "Veterans Day in the United States and Remembrance Day in Commonwealth nations are observed to honor military service members.",
-        "Research indicates that complex bird vocalizations reveal advanced avian intelligence, social organization, and communication.",
-        "Moderna CEO Stéphane Bancel stated that the company's experimental personalized cancer vaccine could surpass the sales of the top oncology drug Keytruda."
+        "Researchers are investigating whether large language models can perform introspection by detecting and describing artificial injections into their neural networks.",
+        "Google DeepMind announced AlphaGenome 2, a model that predicts how DNA sequence variations impact specific human cell types and disease drivers.",
+        "Expert reviewers have verified an AI-generated proof for the existence of the quantum Yang-Mills theory."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "A Tool Built by Election Deniers Said These Voters Were Dead. We Found Them Alive.",
-      "url": "https://www.propublica.org/article/election-challenge-forsyth-county-georgia",
-      "published": "2026-11-11T17:30:00+00:00",
+      "title": "More Than Numbers: Portraits of U.S. Citizens Detained by Immigration Agents",
+      "url": "https://projects.propublica.org/us-citizens-detained-immigration-photo-essay/",
+      "published": "2026-11-12T10:00:00+00:00",
       "bullets": [
-        "Conservative activists and election deniers have promoted a data tool called ELLY to identify suspicious voters and challenge ballots.",
-        "A Georgia election board member used ELLY to challenge the ballots of four allegedly dead voters in Forsyth County.",
-        "ProPublica investigated the claim and determined that all four targeted voters are actually alive, leading the board to reject the challenges."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "A Newborn Died in a Faith-Healing Sect. The State — and One Ex-Believer — Stepped in to Save Her Twin.",
-      "url": "https://www.propublica.org/article/followers-of-christ-oregon-city-evelyn-marshall-phillips",
-      "published": "2026-11-11T13:05:00+00:00",
-      "bullets": [
-        "A newborn in the Followers of Christ sect died after members withheld medical care and failed to call 911 for respiratory distress.",
-        "A deputy medical examiner discovered a second surviving twin, Evelyn, and forced the family to take her to the hospital.",
-        "An ex-believer who previously defied sect rules to save his own child was chosen to care for Evelyn, eventually leading him to leave the church entirely."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "Prophecy, Scorn and a Rejection of This World: The Forbidding Vision of a Faith-Healing Preacher",
-      "url": "https://www.propublica.org/article/walter-white-faith-healing-oregon",
-      "published": "2026-11-11T13:00:00+00:00",
-      "bullets": [
-        "Walter White led an Oregon City offshoot of the Followers of Christ, a sect that rejects medical treatment in favor of faith.",
-        "A 1958 audio recording reveals White preached that godly individuals would face world scorn and condemned reliance on human experts like doctors.",
-        "White's teachings and prophecies continue to heavily influence modern members of the secretive sect decades after his death."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "“We Have No One”: How Trump’s Dismantling of the VA Left a Veterans Hospital in Crisis",
-      "url": "https://www.propublica.org/article/east-orange-va-hospital-veterans-decline-new-jersey",
-      "published": "2026-11-11T10:00:00+00:00",
-      "bullets": [
-        "A critically ill veteran had to wait seven hours for emergency surgery because a VA hospital operating room was closed due to a malfunctioning ventilation system and a shortage of repair staff.",
-        "The Trump administration has moved to upend the VA by shifting veterans toward private healthcare providers and scaling back government-run operations.",
-        "Internal upheaval, cancelled union contracts, and staff incentives to quit resulted in the VA losing thousands of doctors, nurses, and critical personnel within six months."
+        "The Department of Homeland Security maintains that immigration agents do not detain U.S. citizens.",
+        "ProPublica has identified more than 500 U.S. citizens who have been detained since President Donald Trump returned to office.",
+        "Affected individuals report enduring physical violence, psychological trauma, and prolonged detention during these operations."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "A White House ballroom petition and border wall backlash",
-      "url": "https://www.scotusblog.com/2026/11/a-white-house-ballroom-petition-and-border-wall-backlash/",
-      "published": "2026-11-11T14:00:00+00:00",
+      "title": "What is a discriminatory effect? The Montgomery County case and unpacking when schools may try for racial diversity without using race",
+      "url": "https://www.scotusblog.com/2026/11/what-is-a-discriminatory-effect-the-montgomery-county-case-and-unpacking-when-schools-may-try-fo/",
+      "published": "2026-11-12T15:30:00+00:00",
       "bullets": [
-        "The Trump administration petitioned the Supreme Court to allow construction of a new White House ballroom to proceed without judicial oversight.",
-        "The justices heard oral arguments in Department of Labor v. Sun Valley Orchards, LLC regarding executive branch versus judicial adjudication of temporary immigrant worker agreements.",
-        "The Supreme Court is scheduled to hold a private conference to discuss cases and vote on petitions for review."
+        "The Supreme Court granted certiorari in Association for Education Fairness v. Montgomery County Board of Education to review middle school magnet program admissions policies.",
+        "The case examines whether facially neutral admissions policies that alter racial demographics violate the equal protection clause of the 14th Amendment.",
+        "The court limited its review to determining how plaintiffs must establish a discriminatory effect when challenging facially neutral policies."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Justice Alito and the tradition of a written constitution",
-      "url": "https://www.scotusblog.com/2026/11/justice-alito-and-the-tradition-of-a-written-constitution/",
-      "published": "2026-11-11T14:00:00+00:00",
+      "title": "The sometimes straightforward, sometimes befuddling certiorari process",
+      "url": "https://www.scotusblog.com/2026/11/the-sometimes-straightforward-sometimes-befuddling-certiorari-process/",
+      "published": "2026-11-12T15:00:00+00:00",
       "bullets": [
-        "Justice Samuel Alito's new book establishes him as a leading originalist intellectual on the Supreme Court, addressing originalism, textualism, religious liberty, and judicial philosophy.",
-        "Alito demonstrates a willingness to overturn long-settled precedents if they conflict with his originalist interpretation of the Constitution.",
-        "The book rejects both blind judicial restraint and judicial activism, arguing that the Supreme Court should simply uphold constitutional laws and strike down unconstitutional ones."
+        "The Supreme Court receives nearly 4,000 petitions for certiorari each term and grants review to about 60 cases based on the vote of at least four justices.",
+        "While the initial petition and response are public, the internal deliberations, voting tallies, and reasons for denying certiorari remain largely secret.",
+        "Law clerks assist the justices by reviewing petitions and writing memos, but the specific factors influencing their recommendations and the justices' decisions are not publicly known."
       ]
     },
     {
-      "source": "Open Letters, from Anne Applebaum",
-      "title": "How do we fix it?",
+      "source": "SCOTUSblog",
+      "title": "What Trump cases might soon return to the Supreme Court?",
+      "url": "https://www.scotusblog.com/2026/11/what-trump-cases-might-soon-return-to-the-supreme-court/",
+      "published": "2026-11-12T14:30:00+00:00",
+      "bullets": [
+        "The Supreme Court previously ruled against President Donald Trump in cases concerning birthright citizenship, sweeping tariffs, and his attempt to fire Federal Reserve Board member Lisa Cook.",
+        "Despite these legal defeats, ongoing litigation regarding Cook's attempted dismissal and other signature initiatives may soon return to the Supreme Court.",
+        "While Democratic mid-term victories gave Democrats majorities in Congress, they lack the veto-proof majorities needed to easily pass legislation curbing presidential authority."
+      ]
+    },
+    {
+      "source": "Jacob Morgan",
+      "title": "CHROs Don't Love Their HR Tech. Here's How They're Deciding What to Fix.",
+      "url": "https://greatleadership.substack.com/p/chros-dont-love-their-hr-tech-heres&coupon=2177762c",
+      "published": "2026-11-12T20:34:37+00:00",
+      "bullets": [
+        "Chief Human Resources Officers generally tolerate their HR technology rather than love it, often feeling underwhelmed by core systems while being locked into long-term contracts.",
+        "HR leaders are categorizing tools to determine which experiences must be exceptional versus those where a standard, cost-effective core system is sufficient.",
+        "Organizations are evaluating where specialized tools and artificial intelligence truly add value to avoid unnecessary complexity and overlapping software costs."
+      ]
+    },
+    {
+      "source": "John Ellis from Political News Items",
+      "title": "What the Voters Thought.",
       "url": "",
-      "published": "2026-11-11T17:08:38+00:00",
+      "published": "2026-11-12T18:34:44+00:00",
       "bullets": [
-        "Anne Applebaum launches a new season of her podcast to examine systemic flaws in American democracy and discuss potential solutions.",
-        "The series focuses on issues such as corruption, the Supreme Court, electoral system problems, and immigration policies.",
-        "Recent midterm elections and controversial federal immigration enforcement actions highlight the urgent need for political and institutional reform."
+        "John Ellis hosted Katherine Miller on his podcast to discuss voter sentiments from the 2026 mid-term elections.",
+        "Miller utilized her experience covering elections for The New York Times to analyze conversations and focus groups with voters nationwide."
+      ]
+    },
+    {
+      "source": "The Freedom Frequency",
+      "title": "America and China: The Race on the AI Frontier",
+      "url": "",
+      "published": "2026-11-12T18:30:57+00:00",
+      "bullets": [
+        "The United States maintains a six-to-nine-month lead in AI models, possessing significantly more compute capacity, revenue, and top-tier engineering talent than China.",
+        "China faces severe chip export constraints from the U.S. but compensates through massive electrical generation capacity, aggressive nuclear plant construction, and optimizations in software and hardware.",
+        "The U.S. benefits from a strong legal framework protecting intellectual property and innovation, whereas China leverages an engineering-focused state capable of massive resource concentration for infrastructure."
       ]
     },
     {
       "source": "Gabe Fleisher",
-      "title": "No Party Has Ever Picked a Leader Like Jim Jordan",
+      "title": "Send Your Questions!",
       "url": "",
-      "published": "2026-11-11T17:00:21+00:00",
+      "published": "2026-11-12T17:23:44+00:00",
       "bullets": [
-        "Rep. Jim Jordan was elected by his GOP colleagues to serve as House Minority Leader for the next Congress.",
-        "Jordan defeated Rep. Steve Scalise in a 106-73 private vote, transitioning from a longtime leadership critic to the face of House Republicans.",
-        "Data analysis shows that Jordan is the most ideologically extreme congressional leader in modern history based on his voting record."
+        "Democrat Scott Colom defeated Republican incumbent Cindy Hyde-Smith in the Mississippi Senate race, becoming the state's first Democratic senator since 1982 and first Black senator since Reconstruction.",
+        "Democrats are on track to secure 56 Senate seats following unexpected victories in both Mississippi and South Carolina.",
+        "Author Gabe Fleisher announced an upcoming mailbag edition and invited readers to submit questions regarding the 2026 midterms and other political topics."
       ]
     },
     {
-      "source": "",
-      "title": "Recommendations from your Substacks",
+      "source": "Azeem Azhar, Exponential View",
+      "title": "🔥 Jensen Huang and the future of the AI boom",
       "url": "",
-      "published": "2026-11-11T16:15:37+00:00",
+      "published": "2026-11-12T16:19:29+00:00",
       "bullets": [
-        "Emma Ashford recommends Christopher LaRoche's work on the governance and failure of high-consequence systems.",
-        "Energy Common Sense highlights the Council on Foreign Relations initiative addressing the future of American strategy.",
-        "Charlotte Clymer recommends Eric Schmeltzer's publication focused on political communication strategies for Democrats."
+        "Jensen Huang has resigned from Nvidia, leaving the company without a succession policy in place.",
+        "CFO Colette Kress is stepping in as a replacement while the firm navigates the leadership transition.",
+        "Nvidia and Huang have served as critical linchpims for the broader AI boom through chip sales, financial guarantees, and venture investments."
       ]
     },
     {
       "source": "Prof Robert Pape",
-      "title": "The Abu Dhabi Trade — What “Flexibility” Means for Ukraine and Europe",
+      "title": "Russia’s Secret Death Count — What It Reveals About Who’s Winning",
       "url": "",
-      "published": "2026-11-11T14:47:17+00:00",
+      "published": "2026-11-12T15:33:26+00:00",
       "bullets": [
-        "Representatives from the United States, Russia, and Ukraine held diplomatic talks in Abu Dhabi resulting in a large prisoner swap agreement but no immediate ceasefire.",
-        "Territorial flexibility centers on Russia demanding a neutral Ukraine without NATO or foreign troops in exchange for halting its advance, while Ukraine demands binding Western security guarantees.",
-        "Putin's strategy involves excluding European officials from negotiations and dealing directly with US envoys to drive a wedge between Kyiv and its European allies."
+        "Leaked records from Russia's statistics agency show at least 394,000 Russian war dead, significantly higher than previous public counts based on obituaries.",
+        "Russia's territorial gains have drastically diminished while its casualty rates have surged, with 2025 proving to be its deadliest year.",
+        "Estimated Ukrainian losses are significantly lower than Russia's, resulting in a ratio of approximately 2.5 Russian deaths for every Ukrainian death."
       ]
     },
     {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "Iran’s Missile City — Why Tehran Thinks It Can Win Now",
-      "url": "https://escalationtrap.substack.com/p/irans-missile-city-why-tehran-thinks",
-      "published": "2026-11-11T13:14:16+00:00",
+      "source": "Center for Humane Technology",
+      "title": "Ben Buchanan Wants the U.S. to Win on AI. But Is It a Race or a Trap?",
+      "url": "https://centerforhumanetechnology.substack.com/p/ben-buchanan-wants-the-us-to-win",
+      "published": "2026-11-12T15:03:46+00:00",
       "bullets": [
-        "Iran has showcased new underground missile infrastructure and taken aggressive military actions, including threatening maritime traffic in the Strait of Hormuz.",
-        "Tehran believes it holds a strategic advantage capable of forcing United States forces out of the Gulf region.",
-        "Iran's confidence relies heavily on economic leverage tied to domestic fuel prices and American political vulnerabilities."
+        "Former White House AI advisor Ben Buchanan appeared on a podcast to discuss his new book examining global AI competition and governance.",
+        "Buchanan argues that open societies such as the United States must outperform closed societies like China in AI development to prevent worst-case scenarios.",
+        "The episode also explores critical topics including AI diplomacy, cybersecurity risks, surveillance, and the ongoing debate over whether global AI development is a race or a trap."
+      ]
+    },
+    {
+      "source": "Louis-François from Learn AI Together",
+      "title": "LAI #151: Can AI Forget Without Getting Worse?",
+      "url": "",
+      "published": "2026-11-12T15:03:44+00:00",
+      "bullets": [
+        "AI systems face challenges in managing accumulated information, as removing data can degrade reasoning capabilities or discard facts needed later.",
+        "Recent studies explore methods like Tidal Attention for memory retrieval, machine unlearning impacts, and tool error recovery for agents.",
+        "The publication also examines LLM judge bias in ToneBench and strategies for modular prompt maintenance."
+      ]
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "JD Vance and the VP curse",
+      "url": "",
+      "published": "2026-11-12T15:00:41+00:00",
+      "bullets": [
+        "Vice presidents serving under unpopular presidents typically face significant career challenges.",
+        "JD Vance's odds for the 2028 Republican nomination have declined significantly since Labor Day amid a shifting political landscape.",
+        "The broader Republican primary field has opened up as prediction markets and polls show reduced combined chances for top contenders Vance and Marco Rubio."
+      ]
+    },
+    {
+      "source": "Center for Politics at UVA",
+      "title": "Sabato's Crystal Ball - New Polling: Americans Agree on AI Rules. Most Don't Know It - Vol. 24, Iss. 87",
+      "url": "",
+      "published": "2026-11-12T14:38:25+00:00",
+      "bullets": [
+        "Polling shows that regulating artificial intelligence has not become a heavily partisan issue, unlike many other political topics.",
+        "Majorities of both Democrats and Republicans agree that local communities should have approval power over data centers and require transparency on resource usage.",
+        "Party labels only minimally impact opinions on AI issues, accounting for less than one percent of variation on typical AI survey items."
       ]
     },
     {
       "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Live with Senator Tammy Baldwin on Recovery",
+      "title": "Now We Act: With Senator Mark Kelly on Security and Freedom",
       "url": "",
-      "published": "2026-11-11T13:04:06+00:00",
+      "published": "2026-11-12T13:56:53+00:00",
       "bullets": [
-        "Timothy Snyder argues that Democrats have a narrow window of roughly six months to address corruption and affordability following their electoral victory.",
-        "Wisconsin Democrats achieved a political trifecta by taking control of both state legislative houses and the governor's mansion.",
-        "Senator Tammy Baldwin discussed proposals during the live conversation focused on campaign finance reform, health care expansion, and restoring scientific research."
+        "Timothy Snyder hosted a live conversation with Senator Mark Kelly focusing on security and freedom.",
+        "Senator Kelly has faced abuse for asserting that military personnel should not follow illegal orders.",
+        "The discussion covered campaign finance reform, support for Ukraine, and democratic resilience."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "Trump’s Impending Choice — Two Clocks and a Harder Iran",
+      "url": "https://escalationtrap.substack.com/p/trumps-impending-choice-two-clocks",
+      "published": "2026-11-12T13:34:42+00:00",
+      "bullets": [
+        "President Trump faces an impending choice regarding whether to let Israel attack Iran, hold Israel back, or join the conflict himself.",
+        "Political and military pressures are converging as Israel steps up attack preparations while Iran hardens its stance and refuses negotiations.",
+        "Iran has rejected removing enriched uranium and announced plans to design nuclear-powered ships and submarines."
+      ]
+    },
+    {
+      "source": "Charlotte Clymer from Charlotte's Web Thoughts",
+      "title": "A Coin Toss Between Hegseth and a Child",
+      "url": "",
+      "published": "2026-11-12T13:12:29+00:00",
+      "bullets": [
+        "The author highlights the Tomb of the Unknown Soldier as a sacred cultural symbol guarded continuously by the elite 3rd U.S. Infantry Regiment since 1937.",
+        "A Tomb Guard publicly reprimanded Pete Hegseth and his group for being loud and disrespectful at the memorial site.",
+        "The author praises the strict training and high standards required to become a Sentinel at the Tomb of the Unknown Soldier."
+      ]
+    },
+    {
+      "source": "Paul Krugman and Heather Cox Richardson from Paul Krugman",
+      "title": "Paul Krugman and Heather Cox Richardson in Conversation | CUNY Graduate Center",
+      "url": "",
+      "published": "2026-11-12T12:40:23+00:00",
+      "bullets": [
+        "Paul Krugman published a recording of his live video conversation with Heather Cox Richardson at the CUNY Graduate Center.",
+        "The recorded discussion between Krugman and Richardson is available to watch through the Substack app."
+      ]
+    },
+    {
+      "source": "Margaret Mullins from Can We Still Govern?",
+      "title": "From Customer to Hostage",
+      "url": "",
+      "published": "2026-11-12T12:31:02+00:00",
+      "bullets": [
+        "The federal government spends over $100 billion annually on information technology to modernize its operations.",
+        "Attempts to run government like a business have resulted in a crippling reliance on commercial technology vendors.",
+        "Failures in large-scale government tech acquisitions stem largely from insufficient internal expertise regarding what is being purchased."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "Live Event with Heather Cox Richardson",
+      "title": "Climates of Treason",
       "url": "",
-      "published": "2026-11-11T11:31:26+00:00",
+      "published": "2026-11-12T11:31:09+00:00",
       "bullets": [
-        "Paul Krugman is hosting a live event with Heather Cox Richardson scheduled for tonight at 6:30.",
-        "The event is planned to stream on both of their Substacks with an option to register via Zoom.",
-        "Krugman promoted his new ebook titled Navigating the Chaos: Chronicles of Economic and Political Madness."
+        "Paul Krugman argues that two years of the Trump administration have caused a catastrophic decline in America's global standing, security, and competitiveness.",
+        "The author contends that the administration's failures stem from both institutional incompetence and a deliberate rejection of expertise in favor of loyalty.",
+        "Krugman asserts that the MAGA movement's support for authoritarian figures like Vladimir Putin represents a moral betrayal driven by a mix of ideological affinity and potential financial gain."
       ]
     },
     {
-      "source": "Liz Dye from Public Notice",
-      "title": "Memo to MAGA: Todd Blanche is not your lawyer",
+      "source": "Tom Schaller from Public Notice",
+      "title": "The future of the Supreme Court suddenly looks a lot brighter",
       "url": "",
-      "published": "2026-11-11T11:17:28+00:00",
+      "published": "2026-11-12T11:17:29+00:00",
       "bullets": [
-        "Several Senate-confirmed Justice Department officials have resigned following the Democrats' recent congressional victories.",
-        "Attorney General Todd Blanche publicly assured remaining administration employees that he acts as their personal lawyer against congressional oversight.",
-        "Departing officials are reportedly fleeing the administration to avoid upcoming investigations and potential legal consequences."
+        "Democrats achieved a sweeping victory in the 2026 midterms by flipping the House and Senate and securing key state-level gains.",
+        "The newly captured Senate majority provides Democrats with crucial leverage over the confirmation of future Supreme Court justices and federal judges.",
+        "Potential upcoming court vacancies over the next six years could allow Democrats to rebalance the currently conservative-dominated Supreme Court."
       ]
     },
     {
-      "source": "G. Elliott Morris",
-      "title": "Trump wasn't on the ballot, but Trumpism was",
+      "source": "Michael Spencer and Weng Honn from AI Supremacy",
+      "title": "How to Build Your Own Equity Research Analyst with Grok Bot",
       "url": "",
-      "published": "2026-11-11T11:03:36+00:00",
+      "published": "2026-11-12T10:50:34+00:00",
       "bullets": [
-        "Democrats achieved historic gains in the 2026 midterm elections, securing a massive House popular vote victory and majorities in both chambers.",
-        "Donald Trump's unpopularity and policy decisions drove significant voter defections, turning a standard midterm wave into a major political tsunami.",
-        "Data indicates that while Trump was not on the ballot, voters overwhelmingly rejected Trumpism as a central factor in the election outcome."
+        "The article provides a simple, no-coding tutorial for stock beginners on turning Grok Bot into an equity research assistant.",
+        "It is part of a hands-on AI guide series focused on using artificial intelligence for stock and equities research.",
+        "The guide was authored by Michael Spencer and Weng Honn, an investor and AI tool builder at GrandPine Capital."
+      ]
+    },
+    {
+      "source": "Phillips P. OBrien from Phillips’s",
+      "title": "Weekend Update #34 , The New Motto Of The US Military: To The Victor Goes The Spoils!",
+      "url": "",
+      "published": "2026-11-12T10:21:45+00:00",
+      "bullets": [
+        "The upcoming US midterm elections could significantly reshape the United States' position, policies, and long-term presence in the Middle East.",
+        "During a Veterans Day speech at Arlington Cemetery, Donald Trump openly characterized the primary purpose of the US military as looting wealth from other nations.",
+        "Trump is radically altering the ethos of the US military by discouraging critical thinking, rewarding sycophancy, and promoting disregard for the rule of law."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Office Hours: What Will Trump Do Now?",
-      "url": "https://robertreich.substack.com/p/office-hours-trumps-next-moves&coupon=d77dee36",
-      "published": "2026-11-11T09:02:21+00:00",
-      "bullets": [
-        "Robert Reich discusses what Donald Trump's governance might look like starting in January.",
-        "Trump will face an overwhelmingly Democratic Congress as an undisputed lame duck.",
-        "Experts and political insiders share expectations on how Trump will handle his final two years in office."
-      ]
-    },
-    {
-      "source": "Heather Cox Richardson from Letters from an American",
-      "title": "November 10, 2026",
+      "title": "The Affordability and Anti-Corruption Agenda",
       "url": "",
-      "published": "2026-11-11T08:15:32+00:00",
+      "published": "2026-11-12T09:02:29+00:00",
       "bullets": [
-        "Members of Congress returned to Washington following the midterm elections amid a significant shift in national mood and party momentum.",
-        "Democratic senators are pushing to delay upcoming Medicaid work reporting requirements and reverse previous funding cuts.",
-        "Incoming Democratic committee leaders are demanding records from major corporations regarding their ties to administration schemes ahead of the new congressional term."
-      ]
-    },
-    {
-      "source": "Klement on Investing",
-      "title": "Treasuries lose their haven status",
-      "url": "",
-      "published": "2026-11-11T07:01:11+00:00",
-      "bullets": [
-        "A recent Banque de France study evaluated asset correlations during risk-aversion periods to determine true safe-haven assets.",
-        "Swedish and Norwegian government bonds have surpassed US Treasuries in safe-haven rankings due to lower national debt levels.",
-        "While the US dollar remains the top safe-haven asset, US Treasuries continue to lose their haven status among investors."
+        "Progressives in Congress should address affordability by lowering financial burdens and raising incomes through policies like a higher minimum wage, paid family leave, and tax reform.",
+        "Tackling affordability requires shifting power away from the oligarchy through an anti-corruption agenda, recognizing that power is a zero-sum game.",
+        "Lawmakers must fight for structural reforms including campaign finance overhaul, labor law changes to empower unions, the resurrection of Glass-Steagall, and tough anti-monopoly legislation."
       ]
     }
   ],
-  "articles_processed": 26,
-  "articles_attempted": 31,
+  "articles_processed": 34,
+  "articles_attempted": 40,
   "publications": [
-    "",
-    "Robert Reich",
-    "John Ellis",
-    "Paul Krugman",
-    "SCOTUSblog",
-    "Gabe Fleisher",
-    "Liz Dye from Public Notice",
-    "G. Elliott Morris",
-    "The Bulwark",
-    "Heather Cox Richardson from Letters from an American",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "Prof Robert Pape",
-    "Klement on Investing",
-    "ProPublica",
+    "Phillips P. OBrien from Phillips’s",
+    "Center for Humane Technology",
+    "Charlotte Clymer from Charlotte's Web Thoughts",
+    "Michael Spencer and Weng Honn from AI Supremacy",
     "Scott Galloway",
-    "Slow Boring",
+    "Silver Bulletin",
+    "Center for Politics at UVA",
     "Prof Robert Pape from Escalation Trap",
-    "Open Letters, from Anne Applebaum"
+    "The Freedom Frequency",
+    "Paul Krugman and Heather Cox Richardson from Paul Krugman",
+    "Prof Robert Pape",
+    "Robert Reich",
+    "Slow Boring",
+    "SCOTUSblog",
+    "The Bulwark",
+    "Tom Schaller from Public Notice",
+    "Gabe Fleisher",
+    "Paul Krugman",
+    "John Ellis from Political News Items",
+    "Louis-François from Learn AI Together",
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "ProPublica",
+    "Margaret Mullins from Can We Still Govern?",
+    "Azeem Azhar, Exponential View",
+    "John Ellis",
+    "Jacob Morgan"
   ],
-  "generated_at": "2026-11-11T20:01:18.187505+00:00",
+  "generated_at": "2026-11-12T20:40:03.138416+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-11-2001.json"
+  "archive_filename": "2026-11-12-2040.json"
 }
