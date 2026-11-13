@@ -1,0 +1,429 @@
+{
+  "date": "2026-11-13",
+  "narrative_summary": "The political landscape is reeling from a massive midterm electoral wave that delivered decisive Democratic victories, driven by voter discontent over economic pressures and foreign conflicts. Compounding Republican difficulties, Nvidia CEO Jensen Huang resigned amid explosive national security investigations and export control scandals involving Chinese intelligence assets. Meanwhile, the Supreme Court navigated high-stakes petitions regarding tribal property rights and authorized the resumption of border wall construction. Globally, geopolitical tensions intensified as Russia advanced aggressive European security demands and trade surpluses mounted in Beijing. Domestically, institutions face escalating systemic vulnerabilities, highlighted by widespread software outages and intensifying debates over artificial intelligence governance and public health accountability.",
+  "source_summaries": [
+    {
+      "source": "The Bulwark",
+      "title": "One of the Best-Looking Movies You’ll EVER See",
+      "url": "https://www.thebulwark.com/p/one-of-the-best-looking-movies-you-will-ever-see",
+      "published": "2026-11-13T20:17:49+00:00",
+      "bullets": [
+        "Laika Studios' stop-motion-animated film Wildwood restores cinematic wonder through its virtuosic craft and kinetic camera work, despite utilizing some CGI and digital trickery.",
+        "The plot follows a young girl named Prue as she ventures into a magical Portland forest to rescue her baby brother from a malicious dowager governess.",
+        "The fantasy script features talking animals, blood curses, and various allies, though it relies on a somewhat straightforward and derivative narrative structure."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Bessent vs. Lutnick: Trump’s Cabinet Feud Explodes Into Public View",
+      "url": "https://www.thebulwark.com/p/bessent-vs-lutnick-trumps-cabinet",
+      "published": "2026-11-13T19:16:52+00:00",
+      "bullets": [
+        "Scott Bessent publicly criticized Howard Lutnick amid the expanding Nvidia scandal.",
+        "Analysts are raising concerns regarding potential conflicts of interest and national security risks.",
+        "Companies are cutting ties with Don Jr. following the recent Democratic midterm victories."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Border Dems to Fellow Democrats: Don’t F This Up",
+      "url": "https://www.thebulwark.com/p/border-dems-to-fellow-democrats-dont-f-this-up-immigration-reform",
+      "published": "2026-11-13T16:14:04+00:00",
+      "bullets": [
+        "Border-state Democrats swept all ten congressional districts along the Mexico border in the November midterms, giving the party a renewed mandate from Latino voters.",
+        "Lawmakers and business leaders gathered at a Capitol Hill press conference to urge national Democrats to pursue serious immigration reform and avoid squandering this political opportunity.",
+        "Border Democrats plan to push for legislative deals and establish strict oversight and guardrails for ICE and detention centers."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "The Chips Fall on Trump",
+      "url": "https://www.thebulwark.com/p/the-chips-fall-on-trump-nvidia-scandal-huang-lutnick-bessent-china",
+      "published": "2026-11-13T14:22:22+00:00",
+      "bullets": [
+        "Nvidia CEO Jensen Huang resigned following reports connecting him to Alice Huang, a top executive at Megaspeed and a suspected Chinese intelligence asset.",
+        "U.S. intelligence officials warned the Trump administration that Megaspeed was illegally rerouting high-end Nvidia chips to China, but the administration maintained its relationship with Nvidia and stalled export restrictions.",
+        "The Trump administration's Justice Department and FBI reportedly rebuffed Singaporean requests for assistance in investigating Alice Huang and Megaspeed."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "How One of the Greatest Creates Unforgettable Musical Scores",
+      "url": "https://www.thebulwark.com/p/how-one-of-the-greatest-creates-unforgettable",
+      "published": "2026-11-13T14:10:38+00:00",
+      "bullets": [
+        "Composer Carter Burwell appeared on a podcast to discuss his musical score for the newly released film Wild Horse Nine.",
+        "The conversation covered Burwell's extensive career, including his notable collaborations with the Coen brothers and Martin McDonagh.",
+        "Burwell and the host explored how Wild Horse Nine features a western-inflected soundtrack despite its setting on Easter Island."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "The Polls Missed the Blue Tsunami. Why Doesn’t Anyone Care?",
+      "url": "https://www.thebulwark.com/p/why-polls-pollsters-surveys-missed-the-blue-tsunami",
+      "published": "2026-11-13T10:29:31+00:00",
+      "bullets": [
+        "Despite claims of vindication by some pollsters, the 2026 election cycle featured one of the worst polling misses of the century.",
+        "Polls severely underestimated Democratic margins in fourteen of fifteen key Senate races by substantially undershooting support.",
+        "Pollsters missed the shifts because they overcorrected their data to avoid underrepresenting Republican voters, failing to capture base defections."
+      ]
+    },
+    {
+      "source": "Slow Boring",
+      "title": "What a moderate looks like",
+      "url": "https://www.slowboring.com/p/what-a-moderate-looks-like",
+      "published": "2026-11-13T11:02:59+00:00",
+      "bullets": [
+        "Aggressive partisan gerrymanders are designed to maximize seats during mildly hostile political climates rather than optimal national environments.",
+        "These types of maps undermine political accountability by insulating politicians from normal-sized shifts in public opinion.",
+        "Charismatic politicians often appeal broadly to different factions, causing various groups to project their own political labels onto them."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Spy vs. AI",
+      "url": "https://www.profgmedia.com/p/spy-vs-ai",
+      "published": "2026-11-13T17:36:16+00:00",
+      "bullets": [
+        "Nvidia CEO Jensen Huang resigned after admitting to affairs, including one with a woman suspected of spying for China.",
+        "China leads global intellectual property theft against U.S. companies, severely impacting targeted businesses' revenue and R&D.",
+        "Senior executives engaging in workplace relationships create critical security vulnerabilities and risks of blackmail."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "The Week: Jensen Huang Resigns, the GOP Scrambles, and Gen Z’s Broken Promise",
+      "url": "https://www.profgmedia.com/p/the-week-jensen-huang-resigns-the",
+      "published": "2026-11-13T17:03:42+00:00",
+      "bullets": [
+        "George Hahn analyzes Jensen Huang's downfall and Michael Lewis's findings regarding DOGE.",
+        "The discussion covers potential risks for top Republicans planning to run in 2028.",
+        "Dr. Eliza Filby explores the challenges currently facing Generation Z and potential solutions."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Democrats Won Big — Now Can They Fix The Economy? — with Kathryn Anne Edwards",
+      "url": "https://www.profgmedia.com/p/democrats-won-big-now-can-they-fix",
+      "published": "2026-11-13T11:03:42+00:00",
+      "bullets": [
+        "Economist Kathryn Anne Edwards discusses midterm election results and what voters expressed about the economy.",
+        "The discussion covers Democratic policy challenges including affordability, housing, health insurance, and wealth taxes.",
+        "Edwards also highlights the importance of prosecuting white-collar crime and defines the Democratic Party's economic mission."
+      ]
+    },
+    {
+      "source": "John Ellis",
+      "title": "Material Risk.",
+      "url": "https://substack.news-items.com/p/material-risk-398",
+      "published": "2026-11-13T11:30:42+00:00",
+      "bullets": [
+        "Recent AI reports and predictions suggest a significant risk of superintelligence, intelligence explosions, or large-scale disruption occurring as early as 2027.",
+        "A global Microsoft software outage extended into a second day after repair efforts failed, disrupting operations for businesses, government agencies, and individuals worldwide.",
+        "Cyberattacks are increasing in frequency and sophistication due to modern AI tools, exposing long-standing vulnerabilities in fragile software systems built for speed rather than security."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "Members of Georgia’s Election Board Have Been Coordinating With Cleta Mitchell’s Network",
+      "url": "https://www.propublica.org/article/georgia-election-board-cleta-mitchell-midterms",
+      "published": "2026-11-13T11:00:00+00:00",
+      "bullets": [
+        "Members and professional staff of Georgia's State Election Board coordinated closely with Cleta Mitchell's conservative activist group, the Election Integrity Network.",
+        "The collaboration focused on shared priorities, including advancing the use of the ELLY software tool to remove purportedly suspicious voters from rolls.",
+        "State Election Board Chair John Fervier stated that EIN has exerted undue influence on the board and called a special meeting to address personnel matters."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "His Church or His Child? A Sixth-Generation Member of a Faith-Healing Sect Had to Choose.",
+      "url": "https://www.propublica.org/article/followers-of-christ-faith-healing-documentary",
+      "published": "2026-11-13T10:30:00+00:00",
+      "bullets": [
+        "Marshall Phillips faced a choice between his faith in the Followers of Christ sect and seeking medical treatment for his critically ill son.",
+        "The Followers of Christ sect strictly bars medical intervention, placing its members at odds with Oregon state laws designed to protect children.",
+        "An investigative project by ProPublica and The Oregonian explores the secretive sect and the tragic consequences of its faith-healing practices."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "How Trump’s War on Offshore Wind Upended a “Limitless” Future for Thousands of New England Workers",
+      "url": "https://www.propublica.org/article/offshore-wind-trump-connecticut-massachussetts",
+      "published": "2026-11-13T10:00:00+00:00",
+      "bullets": [
+        "The Trump administration's opposition to offshore wind has halted projects, frozen future development, and left newly built New England factories and marine terminals empty.",
+        "Promised manufacturing facilities have been canceled and hundreds of workers displaced as developers face federal permit reviews and financial buyouts to abandon leases.",
+        "While rising inflation and supply chain issues previously created challenges for the industry, recent federal actions and permit freezes have severely disrupted New England's offshore wind sector."
+      ]
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "This term is not just short on blockbuster cases. It’s short on cases, period.",
+      "url": "https://www.scotusblog.com/2026/11/this-term-is-not-just-short-on-blockbuster-cases-its-short-on-cases-period/",
+      "published": "2026-11-13T15:00:00+00:00",
+      "bullets": [
+        "The Supreme Court's 2026-27 term lacks major blockbuster cases compared to the previous term.",
+        "The oral argument docket remains unusually light on high-profile disputes regarding climate change, immigration, and the Second Amendment.",
+        "The court is currently running behind its typical pace for granting new cases overall."
+      ]
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "Tribal property and the Supreme Court",
+      "url": "https://www.scotusblog.com/2026/11/tribal-property-and-the-supreme-court/",
+      "published": "2026-11-13T14:30:00+00:00",
+      "bullets": [
+        "Indigenous property rights have historically been treated in a sui generis manner that often harms Indigenous peoples due to the enduring legacy of colonial-era Supreme Court decisions.",
+        "A pending Supreme Court petition in Aubol v. Andeavor Logistics LP challenges an 8th Circuit decision to remand a tribal allotment trespass case regarding an expired pipeline right-of-way to the Bureau of Indian Affairs.",
+        "Recent lower court decisions have increasingly diminished Indigenous property rights by invoking a public interest standard to deny the immediate removal of trespassing pipelines."
+      ]
+    },
+    {
+      "source": "SCOTUSblog",
+      "title": "The major Trump cases that might come back to SCOTUS",
+      "url": "https://www.scotusblog.com/2026/11/major-trump-cases-that-might-come-back-to-supreme-court/",
+      "published": "2026-11-13T14:00:00+00:00",
+      "bullets": [
+        "The Supreme Court granted the Trump administration's request to resume border wall construction in southwestern Texas in an apparent 8-1 vote.",
+        "The justices heard oral arguments in several cases this week, including disputes concerning executive adjudication of employment agreements, federal official liability, and pipeline compensation.",
+        "Justice Samuel Alito warned during a Federalist Society speech that Congress has the power to defund the Supreme Court, emphasizing the importance of judicial independence."
+      ]
+    },
+    {
+      "source": "Onest Network",
+      "title": "China's Exports Surged Despite Trump's Tariffs",
+      "url": "https://www.onestnetwork.com/chinas-exports-surged-despite-trumps-tariffs/",
+      "published": "2026-11-13T20:16:26+00:00",
+      "bullets": [
+        "China's trade surplus surpassed $1 trillion in the first ten months of the year.",
+        "This significant export surge occurred despite the implementation of tariffs by Donald Trump.",
+        "The economic consequences of this surplus now extend well beyond Washington."
+      ]
+    },
+    {
+      "source": "Onest Network",
+      "title": "Russia's Demands for Peace in Ukraine Now Include NATO Concessions",
+      "url": "https://www.onestnetwork.com/russias-demands-for-peace-in-ukraine-now-include-nato-concessions/",
+      "published": "2026-11-13T19:29:42+00:00",
+      "bullets": [
+        "Russia has reportedly circulated proposals for a new European security arrangement that include demands for NATO concessions regarding Finland and the Baltic states.",
+        "The conditions for Ukraine involve retaining occupied territory, abandoning NATO membership, and demilitarizing key ports.",
+        "Moldova would be required to adopt a federal structure under terms that allow pro-Russian regions to hold independence referendums if the country joins the European Union."
+      ]
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "The NVIDIA story is a BFD",
+      "url": "",
+      "published": "2026-11-13T20:08:40+00:00",
+      "bullets": [
+        "Nvidia CEO Jensen Huang resigned following revelations regarding an affair with a woman identified by U.S. intelligence as a Chinese spy.",
+        "Federal authorities investigated a related firm named Megaspeed over potential violations of U.S. export controls concerning advanced Nvidia chips.",
+        "The political implications of the scandal span economic, geopolitical, and domestic domains, though it initially competed with major midterm election news."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "The Letter to Congress Ending Iran War -- You Can Sign Today",
+      "url": "",
+      "published": "2026-11-13T19:54:44+00:00",
+      "bullets": [
+        "Prof Robert Pape is organizing a public letter to Congress urging action to end the war with Iran and lower gas prices.",
+        "The campaign aims to gather 10,000 signatures by Tuesday, November 17, before delivering the letter to congressional leaders.",
+        "The organizers cite the closure of diplomatic off-ramps and rising gas prices as urgent reasons for immediate public engagement."
+      ]
+    },
+    {
+      "source": "Aaron Rupar and Paul Waldman from Public Notice",
+      "title": "MAGA goes all in with a losing hand",
+      "url": "",
+      "published": "2026-11-13T19:45:08+00:00",
+      "bullets": [
+        "The episode examines Democratic House and Senate leadership elections, including Chris Van Hollen's challenge to Chuck Schumer.",
+        "Hosts discuss MAGA's strategy of selecting Jim Jordan as House Republican leader and Stephen Miller as Trump's chief of staff.",
+        "The discussion covers the expanding Nvidia scandal and its potential implications for the presidency."
+      ]
+    },
+    {
+      "source": "Charlie Cook Politics",
+      "title": "The numbers may not be historic, but voters' negativity sure was",
+      "url": "",
+      "published": "2026-11-13T19:12:29+00:00",
+      "bullets": [
+        "The midterm elections resulted in a massive repudiation of President Trump and the Republican Party, driven by intense voter negativity.",
+        "Democrats are projected to gain at least seven seats in the Senate and roughly 45 seats in the House.",
+        "Decades of gerrymandering have reduced the number of competitive districts, making historical landslide seat gains nearly impossible."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "🗓️ Prof Robert Pape is going live on Nov 14 at 11:00 AM MST: “Live with Prof Robert Pape: The Answer to Iran War and High Gas Prices”",
+      "url": "",
+      "published": "2026-11-13T18:42:19+00:00",
+      "bullets": [
+        "Professor Robert Pape is hosting a live event on November 14 at 11:00 AM MST.",
+        "The session is titled \"Live with Prof Robert Pape: The Answer to Iran War and High Gas Prices.\""
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "The Answer — How Regional Balancing Can End the Iran War  (Free Edition)",
+      "url": "",
+      "published": "2026-11-13T17:36:39+00:00",
+      "bullets": [
+        "Washington's current options of regime change, full withdrawal, or an endless blockade each risk severe economic disaster.",
+        "A hostile power dominating the Persian Gulf could collapse the petrodollar regime and severely damage U.S. financial markets.",
+        "America requires a new containment strategy to protect the global economy and stabilize the Gulf region."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape",
+      "title": "The Answer — How Regional Balancing Can End the Iran War (Free Edition)",
+      "url": "",
+      "published": "2026-11-13T17:36:22+00:00",
+      "bullets": [
+        "Washington's current options of regime change, full withdrawal, or an endless blockade all risk severe economic disaster.",
+        "A hostile power dominating the Persian Gulf could collapse the petrodollar regime and destabilize U.S. debt and financial markets.",
+        "America requires a new strategic approach akin to Cold War containment to protect vital economic and financial interests in the Gulf."
+      ]
+    },
+    {
+      "source": "Gabe Fleisher",
+      "title": "Democrats Did Not Lose the Hegseth Vote Because of Attendance",
+      "url": "",
+      "published": "2026-11-13T17:08:27+00:00",
+      "bullets": [
+        "Senator Chris Van Hollen announced a challenge against Senator Chuck Schumer for the role of Senate Majority Leader.",
+        "Multiple incoming red-state Democratic senators previously declined to commit to backing Schumer.",
+        "Media coverage regarding attendance issues surrounding the recent House vote on Pete Hegseth was misleading."
+      ]
+    },
+    {
+      "source": "FiftyPlusOne.news",
+      "title": "Hegseth’s impeachment may be tabled, but public support isn’t going away",
+      "url": "",
+      "published": "2026-11-13T15:54:42+00:00",
+      "bullets": [
+        "The House of Representatives voted to table articles of impeachment against Defense Secretary Pete Hegseth, though Democrats may revive the effort in January.",
+        "Public support for Hegseth's impeachment is higher when polls explicitly tie the effort to his unauthorized handling of the war with Iran.",
+        "Polling shows the military conflict with Iran remains deeply unpopular among a majority of Americans across party lines."
+      ]
+    },
+    {
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "Now We Act: With Senator Andy Kim on Health and Democracy",
+      "url": "",
+      "published": "2026-11-13T15:07:20+00:00",
+      "bullets": [
+        "Timothy Snyder published a discussion with Senator Andy Kim focusing on health and democracy as part of the Now We Act series.",
+        "Senator Kim outlines specific plans for healthcare and anti-corruption measures, linking daily life to the health of democracy."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "The bad news — and good news — about how the polls did in 2026",
+      "url": "",
+      "published": "2026-11-13T14:59:41+00:00",
+      "bullets": [
+        "Polls in 2026 successfully avoided the errors that impacted the 2016 and 2020 election cycles, but they ultimately understated support for Democrats.",
+        "Data analysis indicates that flawed likely-voter models, particularly those relying heavily on past voting history, explain the majority of the polling miss.",
+        "Democrats outperformed their final-three-week polling averages by an average of 3.5 points across major races, making 2026 a worse-than-average year for poll accuracy."
+      ]
+    },
+    {
+      "source": "Paul Krugman",
+      "title": "Elon Still Loves Vladimir",
+      "url": "",
+      "published": "2026-11-13T11:31:15+00:00",
+      "bullets": [
+        "Paul Krugman accuses Elon Musk of once again disrupting Ukraine's military Starlink service.",
+        "The author argues that Musk and other right-wing figures admire Putin's authoritarian model and oppose American values.",
+        "Krugman concludes that Starlink must be nationalized to prevent a private individual from holding such geopolitical power."
+      ]
+    },
+    {
+      "source": "Your Local Epidemiologist",
+      "title": "What’s next for health in the U.S.?",
+      "url": "https://yourlocalepidemiologist.substack.com/p/whats-next-for-health-in-the-us",
+      "published": "2026-11-13T11:30:58+00:00",
+      "bullets": [
+        "Recent election results signal a voter mandate for change concerning health care affordability, trustworthy guidance, and system transparency.",
+        "Achieving lasting improvements in public health requires strategic execution, accountability, and broad coalition-building rather than partisan pendulum swings.",
+        "The full analysis details upcoming possibilities and potential pitfalls for the U.S. health landscape."
+      ]
+    },
+    {
+      "source": "Kareem Abdul-Jabbar",
+      "title": "Disrespect on Veterans Day",
+      "url": "https://kareem.substack.com/p/disrespect-on-veterans-day",
+      "published": "2026-11-13T11:03:36+00:00",
+      "bullets": [
+        "Kareem Abdul-Jabbar addresses perceived disrespect regarding Veterans Day and the Tomb of the Unknown Soldier.",
+        "The newsletter highlights Steph Curry defending his wife's career and praises Carlos Alcaraz's tennis achievements.",
+        "Recommendations for honoring veterans include the film \"Mudbound\" and Edwin Starr's classic anti-war anthem \"War\"."
+      ]
+    },
+    {
+      "source": "Michael Spencer from AI Supremacy",
+      "title": "A Disaster for U.S. AI Supremacy",
+      "url": "",
+      "published": "2026-11-13T10:10:36+00:00",
+      "bullets": [
+        "Jensen Huang resigned from his positions as CEO, president, and board member of Nvidia following political pressure and personal scandals.",
+        "The departure of Nvidia's founder is framed as a significant blow to United States AI supremacy and a major win for China's technological interests.",
+        "Nvidia now faces a period of leadership uncertainty as its board searches for a permanent replacement amidst ongoing congressional investigations."
+      ]
+    },
+    {
+      "source": "Robert Reich",
+      "title": "Why Democrats Will Work Together This Time",
+      "url": "",
+      "published": "2026-11-13T09:02:31+00:00",
+      "bullets": [
+        "Severe economic inequality will unite Democrats by providing a clear shared goal of reducing the gap between wealthy corporations and working Americans.",
+        "Newly elected Democrats from both battleground and deep blue states are uniformly campaigning on populist economic policies and targeting corporate greed.",
+        "Donald Trump's aggressive governing style and combative appointments will serve as an external force keeping the traditionally factious Democratic party together."
+      ]
+    },
+    {
+      "source": "Heather Cox Richardson from Letters from an American",
+      "title": "November 12, 2026",
+      "url": "",
+      "published": "2026-11-13T07:08:38+00:00",
+      "bullets": [
+        "Democrat Scott Colom defeated Republican incumbent Cindy Hyde-Smith to become the U.S. senator-elect for Mississippi.",
+        "Colom is the third Black senator in Mississippi's history and the first to be directly elected by the state's voters.",
+        "Mississippi's previous Black senators, Hiram R. Revels and Blanche K. Bruce, were chosen by the state legislature during the Reconstruction era."
+      ]
+    }
+  ],
+  "articles_processed": 36,
+  "articles_attempted": 39,
+  "publications": [
+    "Your Local Epidemiologist",
+    "ProPublica",
+    "Scott Galloway",
+    "Silver Bulletin",
+    "Charlie Cook Politics",
+    "SCOTUSblog",
+    "Gabe Fleisher",
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "Prof Robert Pape",
+    "Slow Boring",
+    "Michael Spencer from AI Supremacy",
+    "Paul Krugman",
+    "Robert Reich",
+    "Onest Network",
+    "The Bulwark",
+    "Heather Cox Richardson from Letters from an American",
+    "Prof Robert Pape from Escalation Trap",
+    "John Ellis",
+    "Aaron Rupar and Paul Waldman from Public Notice",
+    "G. Elliott Morris",
+    "FiftyPlusOne.news",
+    "Kareem Abdul-Jabbar"
+  ],
+  "generated_at": "2026-11-13T20:20:52.222776+00:00",
+  "run_label": "7 AM",
+  "archive_filename": "2026-11-13-2020.json"
+}

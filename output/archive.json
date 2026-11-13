@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-13",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-13T20:20:52.222776+00:00",
+    "filename": "2026-11-13-2020.json",
+    "articles_processed": 36,
+    "publications": [
+      "Your Local Epidemiologist",
+      "ProPublica",
+      "Scott Galloway",
+      "Silver Bulletin",
+      "Charlie Cook Politics",
+      "SCOTUSblog",
+      "Gabe Fleisher",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Prof Robert Pape",
+      "Slow Boring",
+      "Michael Spencer from AI Supremacy",
+      "Paul Krugman",
+      "Robert Reich",
+      "Onest Network",
+      "The Bulwark",
+      "Heather Cox Richardson from Letters from an American",
+      "Prof Robert Pape from Escalation Trap",
+      "John Ellis",
+      "Aaron Rupar and Paul Waldman from Public Notice",
+      "G. Elliott Morris",
+      "FiftyPlusOne.news",
+      "Kareem Abdul-Jabbar"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-12",
     "run_label": "7 AM",
     "generated_at": "2026-11-12T20:40:03.138416+00:00",
