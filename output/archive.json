@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-11-14",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-14T18:39:35.257474+00:00",
+    "filename": "2026-11-14-1839.json",
+    "articles_processed": 17,
+    "publications": [
+      "Paul Krugman",
+      "Robert Reich",
+      "ProPublica",
+      "Azeem Azhar, Exponential View",
+      "The Bulwark",
+      "Prof Robert Pape from Escalation Trap",
+      "Phillips P. OBrien from Phillips’s",
+      "Scott Galloway",
+      "AVDD",
+      "John Ellis from Political News Items",
+      "Prof Robert Pape",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Slow Boring"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-13",
     "run_label": "7 AM",
     "generated_at": "2026-11-13T20:20:52.222776+00:00",
