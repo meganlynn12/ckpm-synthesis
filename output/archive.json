@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-11-15",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-15T19:15:54.940827+00:00",
+    "filename": "2026-11-15-1915.json",
+    "articles_processed": 13,
+    "publications": [
+      "Silver Bulletin",
+      "John Ellis",
+      "Sebastian Raschka, PhD from Ahead of AI",
+      "John Ellis from Political News Items",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Sarah Longwell - The Bulwark",
+      "Paul Krugman",
+      "Robert Reich",
+      "Prof Robert Pape from Escalation Trap",
+      "The Bulwark",
+      "ProPublica",
+      "Phillips P. OBrien from Phillips’s"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-14",
     "run_label": "7 AM",
     "generated_at": "2026-11-14T18:39:35.257474+00:00",
