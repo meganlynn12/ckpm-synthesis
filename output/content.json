@@ -1,167 +1,372 @@
 {
-  "date": "2026-11-15",
-  "narrative_summary": "Today's developments reveal a landscape defined by institutional vulnerabilities and strategic recalibrations across geopolitics, domestic politics, and technology. Internationally, mounting Russian casualties in Ukraine contrast with aggressive Iranian maneuvers in the Gulf, while intelligence leaders highlight intersecting threats from Moscow, Beijing, and AI governance. Domestically, the Republican party grapples with a strategic dilemma between base-mobilizing bigotry and broader economic alienation, even as Democrats debate how to harness a combative coalition against rising inflation and policy failures. Simultaneously, critical security lapses are exposed in the technology sector, highlighted by revelations that Chinese AI labs accessed restricted Nvidia chips alongside executive turmoil. Across these diverse theaters, systemic fractures in governance, supply chains, and political accountability demand urgent institutional adaptation.",
+  "date": "2026-11-16",
+  "narrative_summary": "A convergence of high-level national security, corporate, and infrastructure crises exposes profound vulnerabilities across American institutions. The sudden resignation of Nvidia CEO Jensen Huang amid a Chinese espionage scandal underscores systemic failures in corporate governance and the risks posed by elite impunity. Concurrently, a massive nationwide FAA meltdown highlights the severe consequences of chronic infrastructure neglect and hasty modernization efforts. On the geopolitical front, escalating military buildups near Iran and precarious upcoming summits with Chinese and Russian leaders raise tensions as intelligence and diplomatic strategies falter. Meanwhile, domestic political friction intensifies alongside ongoing debates over economic inequality, tariff refunds, and the resilience of democratic norms.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Former CIA Officer Explains Why Trump’s Nvidia Scandal Is So Serious | Bulwark on Sunday",
-      "url": "https://www.thebulwark.com/p/former-cia-officer-explains-why-trumps",
-      "published": "2026-11-15T17:31:53+00:00",
+      "title": "Netanyahu Is Desperate to Drag Trump Into Another War With Iran",
+      "url": "https://www.thebulwark.com/p/netanyahu-is-desperate-to-drag-trump",
+      "published": "2026-11-16T18:59:55+00:00",
       "bullets": [
-        "Bill Kristol and former CIA officer Julia Curlee discussed the national security implications of the Nvidia China chips scandal.",
-        "The discussion focused on espionage concerns and why the controversy surrounding the microchips matters for U.S. security."
+        "Israeli Prime Minister Benjamin Netanyahu is accused of directing the internal security service to plant evidence against Arab politicians.",
+        "Netanyahu is reportedly attempting to push Donald Trump into a conflict with Iran amid growing distrust between American and Israeli intelligence.",
+        "Jared Kushner and Steve Witkoff are allegedly making damaging concessions in Ukraine-Russia negotiations that threaten European security."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Republicans Have a ‘Muslim Problem’ Problem",
-      "url": "https://www.thebulwark.com/p/republicans-have-a-muslim-problem-bigotry-trap-focus-group",
-      "published": "2026-11-15T13:15:34+00:00",
+      "title": "The FAFO Era Begins With Jensen Huang",
+      "url": "https://www.thebulwark.com/p/new-fafo-era-begins-with-jensen-huang-donald-trump-deadwood",
+      "published": "2026-11-16T18:09:30+00:00",
       "bullets": [
-        "Republicans relied heavily on anti-trans, anti-immigrant, and anti-Muslim fearmongering during the midterms after controlling the presidency and Congress with generally unpopular policies.",
-        "Islamophobic rhetoric successfully resonated with core Republican voters, creating a demand for more bigotry reinforced by politicians and right-wing media.",
-        "The GOP faces a dilemma in rebuilding, as leaning into this bigotry alienates voters focused on issues like the cost of living, while abandoning it ignores a growing base concern."
+        "Jensen Huang's connection to a Chinese spy and President Trump's awareness of it create significant criminal exposure for both corporate and political figures.",
+        "The unfolding situation exposes potential legal repercussions ranging from pardons to prison time for those involved.",
+        "This controversy marks the conclusion of a period where tech and political elites believed they operated above the rule of law."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "MAGA Mondays: Trump Posts Insane Fan Fiction About Himself",
+      "url": "https://www.thebulwark.com/p/maga-mondays-trump-posts-insane-fan",
+      "published": "2026-11-16T16:22:56+00:00",
+      "bullets": [
+        "A massive FAA meltdown grounded thousands of flights and stranded travelers nationwide.",
+        "Donald Trump met with actor Jon Voight and shared an AI-generated image of himself comforting the son of DHS Secretary Markwayne Mullin.",
+        "Far-right circles are reportedly searching for a 2028 dark horse candidate as J.D. Vance's nomination path faces uncertainty."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Big Bird and His Merry Band of Turds Flies Off to China",
+      "url": "https://www.thebulwark.com/p/big-bird-and-his-merry-band-of-turds-flies-off-to-china-trump-putin-xi-ai-nvidia-jensen-huang",
+      "published": "2026-11-16T14:27:46+00:00",
+      "bullets": [
+        "President Trump is traveling to Asia for the ASEAN and APEC summits, with a central focus on meetings with Chinese leader Xi Jinping and Russian President Vladimir Putin.",
+        "The administration's foreign policy approach and upcoming diplomatic meetings raise concerns among critics regarding potential damage to U.S. interests.",
+        "Congress is urged to actively utilize its constitutional powers and oversight duties rather than passively observe the administration's actions."
+      ]
+    },
+    {
+      "source": "Slow Boring",
+      "title": "What I got wrong about the midterms",
+      "url": "https://www.slowboring.com/p/what-i-got-wrong-about-the-midterms",
+      "published": "2026-11-16T11:00:44+00:00",
+      "bullets": [
+        "The author acknowledges that improving political judgment requires honestly admitting analytical errors rather than pretending to be infallible.",
+        "While polling averages missed the national popular vote by several points, they remain the most reliable metric because errors occur in both directions.",
+        "Unanticipated high turnout and effective issue-avoidance strategies by candidates are forcing a reevaluation of what made previously unwinnable races competitive."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Ignore the headlines. Democrats are united and ready to lead us out of the Trump era.",
+      "url": "https://www.profgmedia.com/p/ignore-the-headlines-democrats-are",
+      "published": "2026-11-16T19:19:19+00:00",
+      "bullets": [
+        "Media reports of Democratic disunity following midterm celebrations in Denver contrast sharply with the productive and unified discussions observed at the conference.",
+        "Iowa victor Rob Sand attributes his success to radical transparency and consistent engagement with voters across the political spectrum through unscripted town halls.",
+        "Alaska gubernatorial winner Jonathan Kreiss-Tomkins advocates for national service programs to counter American isolation and rebuild democratizing institutions."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Mark Cuban on Starting a Business, the Most Common Startup Mistakes & Why Profit Beats Growth",
+      "url": "https://www.profgmedia.com/p/mark-cuban-on-starting-a-business",
+      "published": "2026-11-16T17:31:08+00:00",
+      "bullets": [
+        "Mark Cuban appeared on the Prof G on Entrepreneurship special to answer listener questions about running a business.",
+        "The discussion covered topics including entrepreneurial anxiety, common startup mistakes from Shark Tank, and the impact of healthcare on career decisions."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "REPLAY: Trump’s China Trip Raises Huge Questions About Lutnick — with Maggie Haberman",
+      "url": "https://www.profgmedia.com/p/replay-trumps-china-trip-raises-huge",
+      "published": "2026-11-16T17:20:35+00:00",
+      "bullets": [
+        "A massive nationwide flight shutdown exposed the urgent need to modernize the country's air traffic control system while prompting criticism of the administration's response.",
+        "Following a major midterms defeat, President Trump fired chief of staff Susie Wiles and replaced her with Stephen Miller.",
+        "Trump's upcoming trip to China raises questions regarding his inner circle, upcoming meetings with world leaders, and ongoing administration turmoil."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "America Is Running Out of Young People",
+      "url": "https://www.profgmedia.com/p/america-is-running-out-of-young-people",
+      "published": "2026-11-16T15:19:38+00:00",
+      "bullets": [
+        "Declining U.S. birth rates are primarily driven by fewer people marrying and pairing off.",
+        "Financial incentives and immigration alone are insufficient to close the demographic gap.",
+        "Marriage penalties within the safety net discourage working-class couples from getting married."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Can Nvidia survive without Jensen Huang?",
+      "url": "https://www.profgmedia.com/p/can-nvidia-survive-without-jensen",
+      "published": "2026-11-16T12:03:50+00:00",
+      "bullets": [
+        "Jensen Huang resigned as CEO of Nvidia following reports of multiple affairs, including one with a woman suspected of being a Chinese spy.",
+        "Huang left no succession plan and maintained a weak board of directors, raising significant concerns about corporate governance and national security.",
+        "Intelligence officials suspect the scandal involved efforts to bypass U.S. export controls and supply advanced Nvidia chips to Chinese companies."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "Nvidia’s $2 Trillion Scandal Is About To Get Much Bigger",
+      "url": "https://www.profgmedia.com/p/jensen-huang-is-gone-but-nvidias",
+      "published": "2026-11-16T11:00:44+00:00",
+      "bullets": [
+        "Scott Galloway and Ed Elson analyze the Nvidia spy scandal and discuss the risks of idolizing corporate innovators.",
+        "The hosts evaluate potential consequences for Howard Lutnick and share stock performance predictions for Nvidia.",
+        "Anthropic's upcoming IPO is highlighted as a critical test for the broader artificial intelligence market."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Outlook.",
-      "url": "https://substack.news-items.com/p/outlook",
-      "published": "2026-11-15T13:11:08+00:00",
+      "title": "Pax Silica.",
+      "url": "https://substack.news-items.com/p/pax-silica",
+      "published": "2026-11-16T11:22:21+00:00",
       "bullets": [
-        "SpaceX successfully caught its Starship spacecraft between two mechanical arms at its launch site in South Texas after returning from orbit.",
-        "Forensic analysis of model weights indicates that top Chinese AI labs trained their newest models on restricted Nvidia Blackwell chips.",
-        "Jensen Huang exited Nvidia following revelations of an affair with an executive at an Asian partner, threatening the company's Asian supply ecosystem and exposing compliance failures regarding chip access for China."
+        "A study published in Science reveals that carrion crows can process and respond to visual cues at twice the speed of humans and monkeys.",
+        "Researchers at the Broad Institute charted new cellular architecture in the human striatum, revealing six previously hidden zones based on gene expression.",
+        "A University of Texas Health Science Center study found that adults aged 65 and older who received a high-dose flu vaccine had up to a 22 percent lower risk of developing Alzheimer's disease compared to those receiving a standard dose."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "A Cop Was Charged With Causing His Wife’s Miscarriage. Alabama’s Laws Came Down Harder on Pregnant Women Who Used Drugs.",
-      "url": "https://www.propublica.org/article/alabama-fetal-personhood-laws-punishment",
-      "published": "2026-11-15T10:00:00+00:00",
+      "title": "Corporations Are Using Trump’s Tariff Refunds on Bonuses Rather Than Reimbursing Consumers",
+      "url": "https://www.propublica.org/article/trump-tariff-refunds-corporate-bonuses",
+      "published": "2026-11-16T11:00:00+00:00",
       "bullets": [
-        "An Alabama police officer was charged with murder for allegedly causing his wife's miscarriage by assaulting her.",
-        "Despite severe fetal protection laws, the officer was released on bond and avoided further imprisonment as his case progressed.",
-        "In contrast, Houston County prosecuted numerous pregnant women with lengthy jail or prison sentences for potential endangerment through drug use, even when their babies survived."
+        "Following the Supreme Court's decision to strike down sweeping tariffs, corporations are receiving millions of dollars in federal refunds.",
+        "Companies like Stanley Black & Decker are using these tariff windfalls to fund executive bonuses rather than reimbursing consumers who paid higher prices.",
+        "The Trump administration has not publicly detailed the recipients or amounts of the roughly $170 billion in total refunds."
       ]
     },
     {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "Who Strikes First — Trump or Tehran",
-      "url": "https://escalationtrap.substack.com/p/who-strikes-first-trump-or-tehran",
-      "published": "2026-11-15T15:11:29+00:00",
+      "source": "ProPublica",
+      "title": "Three of the Financial Sins That Left Chicago $55 Billion in Debt — and Counting",
+      "url": "https://www.propublica.org/article/chicago-debt-crisis-pensions-parking-meters-police-misconduct",
+      "published": "2026-11-16T09:55:00+00:00",
       "bullets": [
-        "Iran has shifted to an offensive posture following perceived vulnerabilities in the U.S. position in the Gulf.",
-        "Iranian leadership abandoned its previous policy of neither war nor peace, leading to reported attacks on tankers and radar installations.",
-        "The escalation increases the likelihood of first strikes between the United States and Iran."
+        "Chicago is burdened by $55 billion in debt, driven largely by soaring pension expenses and personnel costs.",
+        "A 2005 legislative measure pushed by then-Mayor Richard M. Daley allowed Chicago to skip annual pension contributions, creating long-term fiscal instability.",
+        "Subsequent legal mandates to fix underfunded pensions and ensure minimum benefits have drastically spiked the city's annual financial obligations."
       ]
     },
     {
-      "source": "Silver Bulletin",
-      "title": "Fighters vs. uniters and the big blue future",
-      "url": "",
-      "published": "2026-11-15T15:09:05+00:00",
+      "source": "SCOTUSblog",
+      "title": "Supreme Court turns down DEI-related disputes and Second Amendment challenge to gun bans in “sensitive places”",
+      "url": "https://www.scotusblog.com/2026/11/supreme-court-turns-down-dei-related-disputes-and-second-amendment-challenge-to-gun-bans-in-sens/",
+      "published": "2026-11-16T18:30:00+00:00",
       "bullets": [
-        "The Democratic base currently favors a fighting posture, but the party must manage an increasingly diverse and expansive coalition.",
-        "Democratic candidates can be effectively categorized along a spectrum of \"fighter\" versus \"uniter\" rather than strictly along progressive and moderate lanes.",
-        "Many politicians demonstrate a hybrid approach, blending combative rhetoric with unifying appeals depending on the context."
+        "The Supreme Court denied review in cases involving federal research funding cuts tied to DEI initiatives, a challenge to diversity requirements for medical education, and a Second Amendment challenge to Maryland's firearm restrictions.",
+        "The justices added two cases to their oral argument docket concerning the Trump administration's suspension of asylum access at the U.S.-Mexico border and a federal securities law dispute involving Robinhood Markets.",
+        "The court also invited the U.S. solicitor general to provide the government's views on a set of lawsuits brought against the Taliban by victims of terrorist attacks."
       ]
     },
     {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "On “Backtalker” with Kimberlé Crenshaw",
-      "url": "",
-      "published": "2026-11-15T14:22:56+00:00",
+      "source": "SCOTUSblog",
+      "title": "“I’m afraid this is going to continue”: Justice Alito, the executive, and the emergency docket",
+      "url": "https://www.scotusblog.com/2026/11/im-afraid-this-is-going-to-continue-justice-alito-the-executive-and-the-emergency-docket/",
+      "published": "2026-11-16T14:30:00+00:00",
       "bullets": [
-        "Timothy Snyder shares a recorded conversation with legal scholar Kimberlé Crenshaw from her memoir \"Backtalker.\"",
-        "Crenshaw's work focuses on making visible the half-acknowledged historical sources of America's deepest problems.",
-        "Snyder highlights an example of voter suppression affecting students at a historically black college in Ohio."
+        "Justice Samuel Alito attributes the growth of the Supreme Court's emergency docket to presidents governing by executive order.",
+        "Supreme Court data shows that while executive branch emergency applications declined from 27 to 12 in the 2025-26 term, the total remains historically high.",
+        "When excluding capital cases and refiled applications, the court resolved 36 substantive emergency applications compared to 56 cases decided after full briefing and oral argument."
       ]
     },
     {
-      "source": "Sarah Longwell - The Bulwark",
-      "title": "Republicans Have a Muslim Problem Problem",
-      "url": "",
-      "published": "2026-11-15T13:15:36+00:00",
+      "source": "Onest Network",
+      "title": "Three World Powers. Three Agendas. One Diplomatic Mess.",
+      "url": "https://www.onestnetwork.com/three-world-powers-three-agendas-one-diplomatic-mess/",
+      "published": "2026-11-16T22:42:09+00:00",
       "bullets": [
-        "Republicans relied heavily on fearmongering about minority groups, including Muslims, after failing to run on their unpopular major policies.",
-        "Islamophobia has become deeply embedded among certain base voters due to rhetoric from politicians and right-wing media.",
-        "The GOP faces a dilemma where playing into anti-Muslim bigotry alienates other voters, while abandoning it risks angering their base."
-      ]
-    },
-    {
-      "source": "John Ellis from Political News Items",
-      "title": "Richard Moore.",
-      "url": "",
-      "published": "2026-11-15T13:23:13+00:00",
-      "bullets": [
-        "John Ellis hosted a podcast conversation with Richard Moore, the former head of the United Kingdom's Secret Intelligence Service.",
-        "The discussion covered the joint decision by the CIA and MI6 to publicly share intelligence regarding Russia's invasion of Ukraine.",
-        "Additional topics included Vladimir Putin's vision for Russia, China's support for Russia and Iran, and the governance of artificial intelligence."
-      ]
-    },
-    {
-      "source": "Sebastian Raschka, PhD from Ahead of AI",
-      "title": "Understanding Positional Embeddings in Modern LLMs",
-      "url": "",
-      "published": "2026-11-15T12:10:37+00:00",
-      "bullets": [
-        "The article explores how large language models encode and process token position information using both classic and contemporary methods.",
-        "It provides visual examples, mathematical explanations, and a PyTorch implementation to demonstrate mechanisms like rotary positional embeddings (RoPE).",
-        "The publication serves as a technical foundation examining positional embedding choices utilized across modern open-weight architectures."
-      ]
-    },
-    {
-      "source": "Paul Krugman",
-      "title": "Voodoo Economics, MAGA Style",
-      "url": "https://paulkrugman.substack.com/p/voodoo-economics-maga-style&coupon=367e7c82",
-      "published": "2026-11-15T11:50:10+00:00",
-      "bullets": [
-        "Voters were driven to the Democratic party by economic discontent, corruption, deportation policies, racism, and the war on Iran.",
-        "Donald Trump failed to deliver on economic promises, with food, gas, and overall inflation all increasing since he took office.",
-        "Republicans continue to rely on the discredited economic theory that tax cuts for the wealthy will generate miraculous growth."
+        "An upcoming summit between the leaders of the United States, China, and Russia faces severe pre-meeting contradictions and competing priorities.",
+        "Washington, Beijing, and Moscow hold starkly different agendas regarding key issues such as nuclear arms control, the war in Ukraine, Iran, North Korea, and semiconductor deals.",
+        "Conflicting diplomatic statements highlight the fundamental friction and theater surrounding the high-stakes international meeting."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Sunday thought: Our Work Has Just Begun",
+      "title": "“Wealth and Poverty” Class 9: The shameful legacy of systemic racism and inequality",
       "url": "",
-      "published": "2026-11-15T09:03:02+00:00",
+      "published": "2026-11-16T22:01:08+00:00",
       "bullets": [
-        "Robert Reich celebrates recent progressive electoral victories while acknowledging public anxiety about whether Democrats will deliver on their promises once in office.",
-        "He argues that elected officials cannot achieve meaningful change without continuous public organization and mobilization to exert pressure on them.",
-        "He warns that corporate lobbies, billionaires, and special interest groups are already actively mobilizing to influence newly elected officials and protect existing power structures."
+        "Robert Reich's Wealth and Poverty class focuses on the legacy of systemic racism and its role in perpetuating economic inequality.",
+        "The lecture features guest speaker David C. Wilson, discussing topics such as voter suppression, political rights, and racial resentment.",
+        "The course materials examine wealth gaps across racial groups and propose potential policy solutions to eliminate systemic disparities."
       ]
     },
     {
-      "source": "Phillips P. OBrien from Phillips’s",
-      "title": "Weekend Update #211: The Week In Which Stupidity Battled Evil",
+      "source": "Prof Robert Pape",
+      "title": "2,500 Voices and Climbing — Ask Two People Who Pay for Gas",
       "url": "",
-      "published": "2026-11-15T09:04:31+00:00",
+      "published": "2026-11-16T19:11:41+00:00",
       "bullets": [
-        "Russian military losses continue to mount significantly, with reports indicating casualties could reach 600,000 dead by the end of the year.",
-        "Ukrainian forces are maintaining their long-range bombing campaign against Russian oil production and refining facilities.",
-        "American policy decisions under Donald Trump have left Ukraine exposed to long-range bombardment while aiding Russian advantages."
+        "Over 2,500 people have signed an open letter to Congress advocating for ways to end the Iran war and lower gas prices.",
+        "Organizer Robert Pape is urging supporters to share the letter with two individuals who purchase gas.",
+        "Supporters are encouraged to view the Saturday briefing titled The Answer for details on ending the conflict."
+      ]
+    },
+    {
+      "source": "The Freedom Frequency",
+      "title": "Resonant Resistance, One Note at a Time",
+      "url": "",
+      "published": "2026-11-16T19:01:43+00:00",
+      "bullets": [
+        "Russian cellist Mstislav Rostropovich performed at Checkpoint Charlie two days after the fall of the Berlin Wall to celebrate freedom and honor those who died trying to cross.",
+        "His performance of Bach's Sarabande served as a deliberate act of resistance against the tragic outcomes of Soviet repression.",
+        "Rostropovich had a history of openly defending the rights of artists to think independently and express their beliefs without state censorship."
+      ]
+    },
+    {
+      "source": "Bulwark Takes",
+      "title": "Former CIA Officer Explains Why Trump’s Nvidia Scandal Is So Serious | Bulwark On Sunday",
+      "url": "",
+      "published": "2026-11-15T19:04:38+00:00",
+      "bullets": [
+        "Bill Kristol is joined by former CIA officer and NSC official Julia Curlee to discuss the Nvidia China chips scandal.",
+        "The discussion focuses on the espionage concerns surrounding the Nvidia controversy and its implications for U.S. national security."
+      ]
+    },
+    {
+      "source": "Azeem Azhar, Exponential View",
+      "title": "🔮 What Anthropic is really listing",
+      "url": "",
+      "published": "2026-11-16T16:36:17+00:00",
+      "bullets": [
+        "Anthropic is preparing to become the first major Western AI company to list on a public market.",
+        "The bear case assumes the company merely sells devalued tokens, but this overlooks its ability to produce high-value machine intelligence.",
+        "Leading AI companies like Anthropic are positioned to extract a permanent economic tithe by capturing value in the intangible-driven economy."
+      ]
+    },
+    {
+      "source": "AVDD",
+      "title": "AVDD Strait of Hormuz SITREP",
+      "url": "https://avddemocracy.substack.com/p/avdd-strait-of-hormuz-sitrep-d6c",
+      "published": "2026-11-16T15:30:08+00:00",
+      "bullets": [
+        "Gulf crude oil exports have recovered to prewar levels despite ongoing maritime insecurity, high shipping costs, and military protection of commercial traffic.",
+        "Iran attempted to strike U.S. facilities in Bahrain twice over the past week while U.S.-Iran negotiations remain deadlocked.",
+        "Yemeni government-aligned forces withdrew from positions along the Bab el-Mandeb Strait, potentially increasing threats to commercial shipping."
+      ]
+    },
+    {
+      "source": "Jacob Morgan",
+      "title": "Is The Business Trip the New Office?",
+      "url": "",
+      "published": "2026-11-16T15:12:53+00:00",
+      "bullets": [
+        "Past predictions that communication technology would eliminate business travel have consistently failed because they misunderstood its primary purpose of fostering in-person trust and connection.",
+        "In a hybrid work environment where traditional office culture is largely absent, business trips, offsites, and quarterly gatherings have effectively become the new office.",
+        "Recent survey data shows that a vast majority of CFOs and business travelers view travel as critical for growth and well-being, despite some lingering hesitation."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "The Third Carrier Has Arrived — Trump’s Strike Window Is Open",
+      "url": "https://escalationtrap.substack.com/p/the-third-carrier-has-arrived-trumps",
+      "published": "2026-11-16T15:08:31+00:00",
+      "bullets": [
+        "The arrival of the USS Theodore Roosevelt brings three aircraft carriers within range of Iran simultaneously.",
+        "American strike power is further bolstered by long-range bombers capable of reaching Iran directly from the United States and Diego Garcia.",
+        "This buildup represents the largest concentration of strike power against Iran in the war, raising questions about whether it will deter or provoke Iranian retaliation."
+      ]
+    },
+    {
+      "source": "Gabe Fleisher",
+      "title": "This Was a Change Election",
+      "url": "",
+      "published": "2026-11-16T14:36:11+00:00",
+      "bullets": [
+        "A comprehensive NORC survey of over 110,000 registered voters across all 50 states provides detailed insights into the American electorate.",
+        "Nearly 80 percent of Americans desire substantial change or complete upheaval in how the country is run.",
+        "Change-seeking voters heavily favored Democratic House candidates, while those content with the status quo sided with Republicans."
+      ]
+    },
+    {
+      "source": "",
+      "title": "Robert Reich, The Bulwark, and Aaron Rupar posted new notes",
+      "url": "",
+      "published": "2026-11-16T14:06:14+00:00",
+      "bullets": [
+        "Robert Reich published a note stating that the system is rigged.",
+        "The Bulwark shared an analysis arguing that pollsters skewed surveys toward Republican-leaning screens out of fear of underrepresenting Trump voters.",
+        "Aaron Rupar posted a note highlighting an exchange involving Duffy regarding fluctuating funding requests to Congress."
+      ]
+    },
+    {
+      "source": "Eric Giannella and Jae Yeon Kim from Can We Still Govern?",
+      "title": "Nudges Help Applicants Complete Online Safety Net Enrollments",
+      "url": "",
+      "published": "2026-11-16T12:39:33+00:00",
+      "bullets": [
+        "A randomized controlled experiment demonstrated that text reminders increased SNAP application completion rates by 26 percentage points among applicants who abandoned nearly finished forms.",
+        "The shift toward digital benefit systems removes physical cues that previously helped applicants remember to finish paperwork, leaving them vulnerable to distractions and interruptions.",
+        "Simple behavioral nudges effectively overcome attention hurdles for motivated applicants, helping them successfully complete online safety net enrollments."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape",
+      "title": "Putin Wants Half of NATO Gone — Iran Is Helping Him Get It",
+      "url": "",
+      "published": "2026-11-16T12:29:27+00:00",
+      "bullets": [
+        "A Russian document indicates that Vladimir Putin seeks to remove half of NATO's 32 member states.",
+        "Iran is expanding its military reach by targeting US and NATO bases across Europe.",
+        "Russia and Iran are increasingly coordinating their efforts to push American forces out of Europe."
+      ]
+    },
+    {
+      "source": "Paul Krugman",
+      "title": "Republican Ideology Ruined Your Weekend",
+      "url": "",
+      "published": "2026-11-16T11:29:43+00:00",
+      "bullets": [
+        "Decades of underinvestment and recent DOGE actions led to widespread American air travel disruptions.",
+        "A nationwide ground stop occurred after a failed router upgrade and an unexplained radar facility issue.",
+        "The Government Accountability Office had warned two months prior that the FAA was prioritizing dangerous speed over safety in modernizing air traffic control."
+      ]
+    },
+    {
+      "source": "Noah Berlatsky from Public Notice",
+      "title": "Trump and Jensen Huang are bonded by toxic masculinity",
+      "url": "",
+      "published": "2026-11-16T11:17:28+00:00",
+      "bullets": [
+        "Nvidia CEO Jensen Huang resigned following revelations of extramarital affairs and potential security risks involving a Chinese spy.",
+        "President Trump dismissed the national security implications of the scandal and expressed sympathy for Huang.",
+        "The article argues that Trump's support for Huang reflects a shared culture of cronyism, patriarchy, and toxic masculinity."
       ]
     }
   ],
-  "articles_processed": 13,
-  "articles_attempted": 14,
+  "articles_processed": 31,
+  "articles_attempted": 38,
   "publications": [
-    "Silver Bulletin",
-    "John Ellis",
-    "Sebastian Raschka, PhD from Ahead of AI",
-    "John Ellis from Political News Items",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "Sarah Longwell - The Bulwark",
+    "",
+    "Scott Galloway",
     "Paul Krugman",
-    "Robert Reich",
-    "Prof Robert Pape from Escalation Trap",
+    "Onest Network",
+    "Jacob Morgan",
+    "Eric Giannella and Jae Yeon Kim from Can We Still Govern?",
+    "Gabe Fleisher",
+    "Slow Boring",
     "The Bulwark",
+    "John Ellis",
+    "Bulwark Takes",
     "ProPublica",
-    "Phillips P. OBrien from Phillips’s"
+    "Noah Berlatsky from Public Notice",
+    "Robert Reich",
+    "Prof Robert Pape",
+    "Azeem Azhar, Exponential View",
+    "The Freedom Frequency",
+    "AVDD",
+    "Prof Robert Pape from Escalation Trap",
+    "SCOTUSblog"
   ],
-  "generated_at": "2026-11-15T19:15:54.940827+00:00",
+  "generated_at": "2026-11-16T22:45:14.133164+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-15-1915.json"
+  "archive_filename": "2026-11-16-2245.json"
 }

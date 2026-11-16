@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-16",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-16T22:45:14.133164+00:00",
+    "filename": "2026-11-16-2245.json",
+    "articles_processed": 31,
+    "publications": [
+      "",
+      "Scott Galloway",
+      "Paul Krugman",
+      "Onest Network",
+      "Jacob Morgan",
+      "Eric Giannella and Jae Yeon Kim from Can We Still Govern?",
+      "Gabe Fleisher",
+      "Slow Boring",
+      "The Bulwark",
+      "John Ellis",
+      "Bulwark Takes",
+      "ProPublica",
+      "Noah Berlatsky from Public Notice",
+      "Robert Reich",
+      "Prof Robert Pape",
+      "Azeem Azhar, Exponential View",
+      "The Freedom Frequency",
+      "AVDD",
+      "Prof Robert Pape from Escalation Trap",
+      "SCOTUSblog"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-15",
     "run_label": "7 AM",
     "generated_at": "2026-11-15T19:15:54.940827+00:00",
