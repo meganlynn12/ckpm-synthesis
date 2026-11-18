@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-11-18",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-18T21:07:16.889770+00:00",
+    "filename": "2026-11-18-2107.json",
+    "articles_processed": 39,
+    "publications": [
+      "Prof Robert Pape",
+      "The Freedom Frequency",
+      "Gabe Fleisher",
+      "G. Elliott Morris",
+      "Don Moynihan, William Resh, and Gary Hollibaugh from Can We Still Govern?",
+      "Kasparov's Next Move",
+      "John Ellis",
+      "Phillips P. OBrien and Ben Hodges from Phillips’s",
+      "Paul Krugman",
+      "Liz Dye from Public Notice",
+      "Scott Galloway",
+      "Robert Reich",
+      "Slow Boring",
+      "Your Local Epidemiologist",
+      "FiftyPlusOne.news",
+      "ProPublica",
+      "Michael Spencer and Jeff Morhous from AI Supremacy",
+      "Prof Robert Pape from Escalation Trap",
+      "Center for Politics at UVA",
+      "Klement on Investing",
+      "SCOTUSblog",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "The Bulwark"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-17",
     "run_label": "7 AM",
     "generated_at": "2026-11-17T21:31:40.559228+00:00",

@@ -1,416 +1,463 @@
 {
-  "date": "2026-11-17",
-  "narrative_summary": "Current political and domestic tensions are intensifying as congressional Democrats weigh leveraging the upcoming government funding deadline to challenge the war in Iran and investigate administration corruption. The fallout from the recent midterm elections—marked by a significant swing toward Democrats and declining approval for Donald Trump—highlights growing public backlash against administration policies and compounding infrastructure failures, such as crippling air traffic control disruptions. Meanwhile, broader geopolitical risks persist, ranging from escalating asymmetric tactics and cyber threats abroad to fierce debates over data center developments and executive accountability at home. These converging domestic and international pressures underscore a period of profound institutional strain and heightened political confrontation.",
+  "date": "2026-11-18",
+  "narrative_summary": "The current political and institutional landscape is defined by profound institutional friction, as a resurgent Democratic legislative majority clashes with an increasingly defiant and cornered executive branch. Amid historic turnover in Congress and plunging approval ratings for President Trump following midterm defeats, the administration is aggressively consolidating power through sweeping personnel purges and restrictive congressional oversight directives. Concurrently, systemic vulnerabilities are multiplying across multiple sectors, highlighted by widespread technological disruptions, critical cybersecurity breaches, and escalating geopolitical and nuclear tensions involving Iran and Russia. Economic anxieties and market corrections in the artificial intelligence sector further compound these domestic strains, intensifying debates over governance, corporate accountability, and the erosion of democratic norms.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Michael Weiss and Chris Van Hollen: Reporter and the Aspiring Majority Leader",
-      "url": "https://www.thebulwark.com/p/michael-weiss-and-chris-van-hollen",
-      "published": "2026-11-17T20:44:53+00:00",
+      "title": "Josh Barro: It’s Not Helping that Idiots Are in Charge",
+      "url": "https://www.thebulwark.com/p/josh-barro-its-not-helping-that-idiots",
+      "published": "2026-11-18T20:30:02+00:00",
       "bullets": [
-        "Senator Chris Van Hollen stated that Democrats plan to investigate alleged corruption within the administration, ICE funding, and the war in Iran.",
-        "Van Hollen defended his challenge to Senator Schumer by arguing that more internal democracy is beneficial for the Senate Democratic Caucus.",
-        "Ukrainian forces successfully struck and damaged a portion of the Crimea bridge."
+        "Recent tech outages have caused concern among prominent media figures and Senate Republicans regarding the qualifications of current administration officials.",
+        "Vice President-elect JD Vance has attempted to blame prior administrations for ongoing issues despite Donald Trump's previous presidency.",
+        "Josh Barro joined Tim Miller on The Bulwark podcast to discuss political developments, elections, and administration criticisms."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "The First Fight of the New Senate Is Already Here",
-      "url": "https://www.thebulwark.com/p/the-first-fight-of-the-new-senate-already-here-democrats-shutdown-iran",
-      "published": "2026-11-17T20:22:18+00:00",
+      "title": "BREAKING: Markwayne Mullin Grilled Over FAA Chaos, ICE Deaths and Football Game Flight",
+      "url": "https://www.thebulwark.com/p/breaking-markwayne-mullin-grilled",
+      "published": "2026-11-18T20:10:44+00:00",
       "bullets": [
-        "Senate Democrats hold potential leverage to force an end to the Iran war by withholding votes from the upcoming government funding legislation due in December.",
-        "Republican leaders need Democratic votes to pass the spending bill before the 120th Congress convenes in January.",
-        "Many Democratic senators have avoided committing to the hardball budget strategy despite widespread opposition to the war."
+        "Markwayne Mullin faced congressional questioning regarding a controversial football game trip, an FAA failure, and deaths in ICE custody.",
+        "Commentators Andrew Egger and Will Saletan analyzed Mullin's unsatisfactory responses alongside Kash Patel's refusal to testify.",
+        "The discussions highlighted a growing defiance within the administration following the Republican midterm defeat."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Putin’s Asymmetric War on Europe",
-      "url": "https://www.thebulwark.com/p/putins-asymmetric-war-on-europe",
-      "published": "2026-11-17T19:09:57+00:00",
+      "title": "Our Next Bulwark Founders Town Hall Is December 9",
+      "url": "https://www.thebulwark.com/p/december-9-bulwark-founders-town-hall",
+      "published": "2026-11-18T18:53:24+00:00",
       "bullets": [
-        "A wave of bomb threats has disrupted commercial aviation and schools across Europe, involving hundreds of incidents linked to a sender using the initials M.A.",
-        "The Institute for the Study of War notes that these coordinated threats are designed to disrupt European society and impose economic costs.",
-        "Although not directly blamed on Russia, analysts observe that these asymmetric tactics are consistent with historical Russian strategies of intimidation and testing Western resolve."
+        "The Bulwark is hosting its second Founders Town Hall for 2026 on Wednesday, December 9 at 8:30 p.m. EST.",
+        "Sarah and JVL will lead the live event to share upcoming plans and answer questions from founding members and Best Friends.",
+        "Founding members also have access to an exclusive Founders Lounge on Substack Chat and can gift extra subscription seats to others."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "The Axis of Evil Got an Upgrade",
-      "url": "https://www.thebulwark.com/p/the-axis-of-evil-got-an-upgrade",
-      "published": "2026-11-17T18:08:33+00:00",
+      "title": "WTF Is Happening? No, Seriously, WTF!",
+      "url": "https://www.thebulwark.com/p/wtf-is-happening-no-seriously-wtf-cyber-ai",
+      "published": "2026-11-18T17:49:24+00:00",
       "bullets": [
-        "George W. Bush's original 2002 Axis of Evil concept grouped rogue states like Iran, Iraq, and North Korea, though they were not yet truly allied.",
-        "By 2012, a genuine illiberal axis had formed between Russia, China, and Iran to oppose the liberal world.",
-        "Russia and China have reportedly incorporated Donald Trump's United States into their coalition while maintaining their alliance with Iran."
+        "A rapid succession of major technological disruptions recently affected Microsoft, the FAA, banks, Apple services, United Airlines, and the NSA.",
+        "The Trump administration and expert consensus attribute these widespread failures to unrelated coincidences rather than malicious cyberattacks.",
+        "Skeptics argue that the government lacks definitive proof of innocence, while noting potential risks from sophisticated foreign adversaries and advanced AI capabilities."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Trump’s DHS Secretary Took Gov’t Jet to a Football Game During FAA Chaos | Morning Shots",
-      "url": "https://www.thebulwark.com/p/trumps-dhs-secretary-took-govt-jet",
-      "published": "2026-11-17T17:01:16+00:00",
+      "title": "How Worried Should We Be About a Dirty Bomb? | Command Post",
+      "url": "https://www.thebulwark.com/p/how-worried-should-we-be-about-a",
+      "published": "2026-11-18T17:05:47+00:00",
       "bullets": [
-        "Trump's cabinet selection prioritizes blind loyalty, questionable judgment, and incompetence.",
-        "A Trump DHS secretary used a government jet to attend a football game amid FAA chaos.",
-        "Commentators note parallels between the current administration's disconnect and the final days of the Soviet Union."
+        "Lt. Gen. Mark Hertling discussed reports that Iran is considering a dirty bomb attack in Washington and how Donald Trump's potential response could benefit Tehran.",
+        "Hertling analyzed how Vladimir Putin and Xi Jinping might exploit Trump's upcoming summit and criticized a Pentagon official for opposing Ukraine's strikes inside Russia.",
+        "The discussion also covered testimony from Navy chief Hung Cao regarding deteriorating conditions aboard U.S. warships."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Triad Mailbag for November 27",
-      "url": "https://www.thebulwark.com/p/triad-mailbag-november-27",
-      "published": "2026-11-17T16:12:19+00:00",
+      "title": "Beating Trump’s Marxism Will Take FDR-Style Populism",
+      "url": "https://www.thebulwark.com/p/beating-trumps-marxism-will-take-fdr-style-populism",
+      "published": "2026-11-18T14:39:39+00:00",
       "bullets": [
-        "The Bulwark is collecting reader questions for an upcoming Thanksgiving Triad Mailbag edition.",
-        "Readers are invited to submit questions, review existing submissions, and upvote topics they want addressed.",
-        "The previous Mailbag covered topics ranging from military leadership and electoral politics to personal reflections and campus culture."
+        "Recent Democratic Senate victories, including Mary Peltola's win in Alaska, signal a rising wave of economic populism focused on combating corporate greed.",
+        "Addressing severe wealth and power imbalances requires an intelligent form of economic populism to preserve democratic capitalism.",
+        "The defense of disgraced Nvidia CEO Jensen Huang by fellow tech billionaires highlights a resistance to corporate oversight and accountability."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Trump Can’t Even Make the Planes Run On Time",
-      "url": "https://www.thebulwark.com/p/trump-cant-even-make-the-planes-run-on-time-faa-atc-duffy-ai-congress-ukraine-russia-china",
-      "published": "2026-11-17T14:27:58+00:00",
+      "title": "Trump’s Tough-on-China Talk Was Always Just an Act",
+      "url": "https://www.thebulwark.com/p/trump-tough-on-china-talk-was-always-just-an-act-xi-jinping-tik-tok-nvidia",
+      "published": "2026-11-18T08:46:07+00:00",
       "bullets": [
-        "President Trump traveled to Asia for international summits while grappling with domestic criticism following recent nationwide airport chaos and outdated air traffic control systems.",
-        "Transportation Secretary Sean Duffy acknowledged the aging infrastructure and requested additional billions for modernization, while falsely blaming Democrats for legislative delays despite two years of full Republican control in Washington.",
-        "Donald Trump attempted to shift blame for the system failure onto the Biden administration by criticizing technical upgrades that are actually part of standard modernization efforts."
+        "Donald Trump's aggressive rhetoric regarding China was a political selling point rather than a reflection of genuine hawkish policy.",
+        "Trump's administration reversed heavy tariffs after China retaliated with export limits on rare earth minerals.",
+        "Trump lacks traditional foreign policy convictions and prioritizes personal interests over strategic national concerns."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Putin and the Two Stooges’ Fake Negotiations",
+      "url": "https://www.thebulwark.com/p/putin-and-the-two-trump-stooges-kushner-witkoff-fake-negotiations-ukraine-kerch-bridge",
+      "published": "2026-11-18T08:42:54+00:00",
+      "bullets": [
+        "A trilateral summit in Shenzhen, China, brings together Donald Trump, Vladimir Putin, and Xi Jinping.",
+        "A Ukrainian drone and missile attack caused a section of the strategically and symbolically important Kerch Bridge to collapse.",
+        "During recent U.S.-backed negotiations in Abu Dhabi, Russian representatives advanced expansive demands regarding European security and Ukraine."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "The biggest myth about American immigration policy",
-      "url": "https://www.slowboring.com/p/the-biggest-myth-about-american-immigration",
-      "published": "2026-11-17T11:03:20+00:00",
+      "title": "What does it mean to be “laser-focused on affordability”?",
+      "url": "https://www.slowboring.com/p/what-does-it-mean-to-be-laser-focused",
+      "published": "2026-11-18T11:03:10+00:00",
       "bullets": [
-        "Critics like Stephen Miller falsely blame the Immigration and Nationality Act of 1965 for increasing Hispanic and Asian immigration.",
-        "The 1965 law actually imposed quantitative restrictions on immigration from Latin America that did not exist previously.",
-        "The legislation was designed to replace the discriminatory National Origins Formula of 1921 with an individual-level criteria system."
+        "Democrats have embraced the slogan of being laser-focused on affordability, but the phrase papers over fundamental policy disagreements.",
+        "Political slogans intentionally rely on ambiguity to appeal to voters while masking conflicting technical agendas.",
+        "An economic definition of affordability focuses on real income rather than just the nominal price of goods."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Robert Greene on Almost Dying, Finding Meaning, and Getting Off Your Phone",
-      "url": "https://www.profgmedia.com/p/robert-greene-on-almost-dying-finding",
-      "published": "2026-11-17T18:04:45+00:00",
+      "title": "The AI Buildout Just Hit A Wall",
+      "url": "https://www.profgmedia.com/p/the-ai-buildout-just-hit-a-wall",
+      "published": "2026-11-18T19:01:54+00:00",
       "bullets": [
-        "Author Robert Greene discussed with Scott Galloway how recovering from a near-fatal stroke influenced his worldview and his new book, The Law of the Sublime.",
-        "Greene wrote his latest book entirely by hand over seven years because the stroke left him unable to type.",
-        "The conversation also covered topics including the hesitation of young people to fall in love, the process of reconnecting with childhood perspectives, and the value of experiencing challenges in one's twenties."
+        "Ed Elson and Dan Chiolan discuss the future of AI data centers following the midterm elections.",
+        "The analysis questions whether data center expansion has reached a dead end or if Big Tech will bypass current moratoriums."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "REPLAY: Trump’s China Strategy Backfires as Nvidia Scandal Spirals",
-      "url": "https://www.profgmedia.com/p/replay-trumps-china-strategy-backfires",
-      "published": "2026-11-17T16:47:36+00:00",
+      "title": "NEW TIME: Ed & Aswath Live",
+      "url": "https://www.profgmedia.com/p/new-time-ed-and-aswath-live",
+      "published": "2026-11-18T17:05:58+00:00",
       "bullets": [
-        "President Trump's trip to China faces complications due to tensions surrounding advanced AI chips, Nvidia, and technological leverage.",
-        "Recent technology outages have highlighted the fragility of America's aging infrastructure.",
-        "The United States has lost its measles-elimination status for the first time in 26 years."
+        "Scott Galloway announced that today's scheduled livestream was delayed due to an unexpected FAA-related issue.",
+        "Ed Elson and Professor Damodaran will host the rescheduled livestream today at 5 p.m. ET.",
+        "Prof G+ members will have on-demand access to the livestream replay if they miss the live broadcast."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "What’s Nvidia Worth Without Huang?",
-      "url": "https://www.profgmedia.com/p/whats-nvidia-worth-without-huang",
-      "published": "2026-11-17T14:16:45+00:00",
+      "title": "Hanging In The Balance",
+      "url": "https://www.profgmedia.com/p/hanging-in-the-balance",
+      "published": "2026-11-18T13:27:28+00:00",
       "bullets": [
-        "Scott Galloway and Aswath Damodaran are hosting an earnings review to analyze Nvidia's market reaction following a recent unfolding scandal.",
-        "Recent analysis from the Prof G universe questions Nvidia's succession plan and whether the company can survive without CEO Jensen Huang.",
-        "The ongoing coverage also examines broader issues including corporate governance, intellectual property theft, and workplace relationships."
+        "Nvidia's earnings and CEO Jensen Huang's role are the focus of a live earnings review hosted with NYU valuation expert Aswath Damodaran.",
+        "The upcoming Anthropic IPO is highlighted as a much more significant indicator for the future of the AI market than Nvidia's current performance.",
+        "The Extra Credit newsletter is shifting to a weekly schedule, featuring deep-dive business stories and a new interview series hosted by Ed Elson."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Could Jensen Huang Actually Return To Nvidia?",
-      "url": "https://www.profgmedia.com/p/could-jensen-huang-actually-return",
-      "published": "2026-11-17T12:01:44+00:00",
+      "title": "Nvidia Is Better Off Without Jensen Huang",
+      "url": "https://www.profgmedia.com/p/nvidia-is-better-off-without-jensen",
+      "published": "2026-11-18T12:02:09+00:00",
       "bullets": [
-        "Analysts debate whether Jensen Huang could potentially return to Nvidia.",
-        "The ongoing controversy has exposed internal divisions within the Trump administration.",
-        "Experts break down the primary risks currently facing Nvidia's stock."
+        "Ed Elson and Gil Luria analyze Nvidia's first earnings report following the departure of CEO Jensen Huang.",
+        "The discussion covers potential shareholder-friendly CEO successors and evaluates the current state of the artificial intelligence bubble.",
+        "Sherri Davidoff reviews recent technology outages and their underlying causes, while Ed Elson shares perspective on Anthropic's IPO."
+      ]
+    },
+    {
+      "source": "Scott Galloway",
+      "title": "America Is Running Out of Young People – with Lyman Stone",
+      "url": "https://www.profgmedia.com/p/america-is-running-out-of-young-people-8b6",
+      "published": "2026-11-18T12:01:02+00:00",
+      "bullets": [
+        "Falling U.S. birth rates are primarily driven by fewer people marrying and pairing off.",
+        "Financial incentives and immigration alone will not close the demographic gap.",
+        "Safety net marriage penalties discourage working-class couples from getting married, while a shrinking pool of 18-year-olds threatens American colleges."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Frozen at the Switch.",
-      "url": "https://substack.news-items.com/p/china-hand",
-      "published": "2026-11-17T16:55:34+00:00",
+      "title": "A Fabulous Debt.",
+      "url": "https://substack.news-items.com/p/a-fabulous-debt",
+      "published": "2026-11-18T16:58:30+00:00",
       "bullets": [
-        "China is increasingly prioritizing global power projection over addressing its domestic economic weaknesses.",
-        "Recent economic data shows deteriorating domestic demand, with growth relying heavily on surging exports.",
-        "China's export-driven strategy is provoking a protectionist backlash and concerns over overcapacity from international trading partners."
+        "Financial Times Alphaville editor Robin Wigglesworth was featured as a guest on Episode 33 of the News Items Podcast.",
+        "Wigglesworth discussed his new book titled A Fabulous Debt, which explores the history of how bonds built the modern global economy.",
+        "The episode highlights how debt instruments have historically financed major historical epochs and continue to underwrite the artificial intelligence revolution."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "Suspended in a Sunbeam.",
-      "url": "https://substack.news-items.com/p/suspended-in-a-sunbeam",
-      "published": "2026-11-17T09:52:00+00:00",
+      "title": "The Beating Heart.",
+      "url": "https://substack.news-items.com/p/the-beating-heart",
+      "published": "2026-11-18T10:31:13+00:00",
       "bullets": [
-        "Voyager 1 is approaching a distance of one light-day from Earth, or 25.9 billion kilometers, after nearly 49 years of travel.",
-        "Google reported that Russian-speaking hackers utilized an AI agent to execute what may be the first fully-automated cyberattack without human intervention."
+        "A cybersecurity start-up used an A.I. model to discover a critical software bug in Java, impacting government agencies and major companies.",
+        "Researchers found malicious JavaScript code injected into Optimizely software, affecting approximately 178 organizations before being fixed.",
+        "The NSA's classified internal communications network experienced an offline outage, though officials reported no signs of a cyberattack."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "A Federal Women’s Prison Became a “Rape Club.” After Officials Shut It Down, Rampant Abuse Continued Elsewhere.",
-      "url": "https://www.propublica.org/article/federal-womens-prison-sexual-abuse-reform-dublin-bop",
-      "published": "2026-11-17T11:00:00+00:00",
+      "title": "They Were Just Admitted to the Bar. Now They’re Federal Prosecutors. Meet Trump’s New DOJ.",
+      "url": "https://www.propublica.org/article/federal-prosecutors-hiring-trump-doj",
+      "published": "2026-11-18T11:00:00+00:00",
       "bullets": [
-        "A federal women's prison in Dublin, California, was shut down after rampant sexual abuse by staff led to multiple criminal convictions.",
-        "Female prisoners transferred from Dublin to a facility in Aliceville, Alabama, found that pervasive guard misconduct and sexual abuse continued there.",
-        "Despite high-profile prosecutions and subsequent government oversight reforms, inmates continue to face systemic predatory behavior within federal women's prisons."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "Democrats in Washington Move to Ban Data Centers on Public Lands",
-      "url": "https://www.propublica.org/article/public-land-data-center-ban-burgum-congress",
-      "published": "2026-11-17T10:30:00+00:00",
-      "bullets": [
-        "A dozen congressional Democrats are pursuing legislation to limit or ban the construction of data centers on federal public lands.",
-        "The legislative push follows reporting that Interior Secretary Doug Burgum and numerous Trump administration appointees hold financial investments in AI companies and data center developers.",
-        "Proponents of the ban argue that public lands should be protected from private commercial development and utilized to benefit the public."
-      ]
-    },
-    {
-      "source": "ProPublica",
-      "title": "I Photographed Her Parents as They Were Sentenced for Her Twin’s Death. Years Later, I Photographed Her Life.",
-      "url": "https://www.propublica.org/article/faith-healing-child-photo-essay",
-      "published": "2026-11-17T10:00:00+00:00",
-      "bullets": [
-        "In 2017, parents Travis and Sarah Mitchell relied on faith healing instead of medical care for their premature twins, leading to one infant's death and a prison sentence for the parents.",
-        "The surviving twin, Evelyn, was placed in the permanent care of another couple within the Followers of Christ sect, who eventually left the church.",
-        "A photojournalist who covered the original sentencing years later documented Evelyn's life, highlighting changes in Oregon law that have reduced child deaths related to faith healing."
+        "The Justice Department under President Donald Trump's second administration has fast-tracked numerous inexperienced attorneys, including recent law school graduates, into assistant U.S. attorney positions.",
+        "This influx of inexperienced hires comes as thousands of years of combined experience have been lost due to the departure or purging of seasoned career prosecutors.",
+        "Legal experts note that hiring attorneys with less than three years of experience for these vital roles is a significant and unprecedented break from past DOJ practice."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Justices to consider disputes over transgender servicemembers, E. Jean Carroll’s jury award, and acting U.S. attorneys at next private conference",
-      "url": "https://www.scotusblog.com/2026/11/justices-to-consider-disputes-over-transgender-servicemembers-e-jean-carrolls-jury-award-and-act/",
-      "published": "2026-11-17T20:41:00+00:00",
+      "title": "The Supreme Court before it stood apart",
+      "url": "https://www.scotusblog.com/2026/11/the-supreme-court-before-it-stood-apart/",
+      "published": "2026-11-18T15:00:00+00:00",
       "bullets": [
-        "The Supreme Court will consider whether to review a lower court ruling that blocks the Trump administration from expelling transgender servicemembers from the military.",
-        "The justices will evaluate petitions related to Donald Trump's challenge of an $83.3 million jury award in the E. Jean Carroll defamation lawsuit, including claims of presidential immunity and federal substitution.",
-        "The court will decide whether to review the legality of the Trump administration's appointments of acting U.S. attorneys in Nevada and New York under the Federal Vacancies Reform Act."
+        "Rachel A. Shelden's new book, The Political Supreme Court, examines how the 19th-century court and public perception differed greatly from today's apolitical ideal.",
+        "Nineteenth-century justices engaged in 'judicial representation' by riding circuit and maintaining regular contact with local communities in their assigned regions.",
+        "Early justices like John Marshall and William Johnson actively participated in political discourse, newspaper writing, and public debates."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "Key takeaways from Monday’s order list",
-      "url": "https://www.scotusblog.com/2026/11/key-takeaways-from-mondays-order-list/",
-      "published": "2026-11-17T14:00:00+00:00",
+      "title": "An election impact on the Supreme Court’s immigration docket",
+      "url": "https://www.scotusblog.com/2026/11/an-election-impact-on-the-supreme-courts-immigration-docket/",
+      "published": "2026-11-18T14:30:00+00:00",
       "bullets": [
-        "The Supreme Court is considering whether to review laws in Texas and Louisiana that require posting the Ten Commandments in public school classrooms.",
-        "On Monday, the court denied review in multiple cases, including challenges involving diversity requirements and Maryland's gun restrictions.",
-        "The justices invited the solicitor general to present the government's views on three lawsuits filed against the Taliban by terrorism victims."
+        "The Supreme Court is considering whether to hear a case regarding the constitutionality of Iowa's 2024 immigration law, Senate File 2340.",
+        "Iowa's law criminalizes certain immigration conduct and allows state judges to order defendants to leave the United States.",
+        "Lower federal courts previously ruled that the state law is preempted by federal immigration authority and blocked its enforcement."
       ]
     },
     {
-      "source": "Silver Bulletin",
-      "title": "Did Democrats blow it in Florida?",
-      "url": "",
-      "published": "2026-11-17T21:04:34+00:00",
+      "source": "SCOTUSblog",
+      "title": "All eyes on the justices’ next private conference",
+      "url": "https://www.scotusblog.com/2026/11/all-eyes-on-the-justices-next-private-conference/",
+      "published": "2026-11-18T14:00:00+00:00",
       "bullets": [
-        "Democrats came close to winning statewide races in Florida during a massive national blue wave, sparking debates over whether they squandered a golden opportunity.",
-        "Despite a decade of losses and underinvestment in Florida, the state's congressional districts and overall ballot margins swung significantly to the left.",
-        "Questions remain over whether Florida is still too tough a political target for Democrats or if increased spending could have secured a victory."
-      ]
-    },
-    {
-      "source": "Robert Reich",
-      "title": "Join us live tonight",
-      "url": "",
-      "published": "2026-11-17T20:01:33+00:00",
-      "bullets": [
-        "Robert Reich is hosting a live watchalong event for the film The Work in Progress.",
-        "The film explores the transformative power of listening in a divided America.",
-        "The live event features introductions, commentary, and a Q and A session with the filmmakers and producers."
-      ]
-    },
-    {
-      "source": "Open Letters, from Anne Applebaum",
-      "title": "How Does Congress Stop the War",
-      "url": "",
-      "published": "2026-11-17T19:34:33+00:00",
-      "bullets": [
-        "Representative Jason Crow discusses congressional oversight and the potential for the new Congress to investigate Defense Secretary Pete Hegseth.",
-        "Crow asserts that Congress can end the ongoing war in Iran by cutting off military funding rather than continuing an endless cycle of conflict.",
-        "Recent tracking highlights potential conflicts of interest, including task force appointments holding stock in relevant pharmaceutical companies and expected presidential pardons."
-      ]
-    },
-    {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Senator Sheldon Whitehouse on Dark Money and a Brighter Future",
-      "url": "",
-      "published": "2026-11-17T19:01:28+00:00",
-      "bullets": [
-        "Timothy Snyder hosted an unscripted conversation with Senator Sheldon Whitehouse regarding international and domestic dark money.",
-        "Senator Whitehouse has spent years working on the issue of dark money and potential transformative legislation.",
-        "The discussion highlighted how resolving the dark money problem could significantly improve the American future."
-      ]
-    },
-    {
-      "source": "Ruth Ben-Ghiat from Lucid",
-      "title": "Why Sec. of Defense Pete Hegseth is the Perfect Authoritarian Tool",
-      "url": "",
-      "published": "2026-11-17T18:43:49+00:00",
-      "bullets": [
-        "Secretary of Defense Pete Hegseth is characterized as an instrument for transforming the U.S. military into an authoritarian institution.",
-        "Analyses and impeachment resolutions have cited Hegseth's far-right ideologies, misogyny, and disregard for facts as detrimental to the armed forces.",
-        "The administration's broader strategy is argued to involve converting a multiracial democracy into an autocratic ethnostate."
-      ]
-    },
-    {
-      "source": "Louie from Towards AI",
-      "title": "TAI #229: Fable 5.2 and the Case for a 2027 AI Takeoff",
-      "url": "",
-      "published": "2026-11-17T16:52:26+00:00",
-      "bullets": [
-        "Leading AI researchers and industry forecasts are increasingly pointing toward a potential AI takeoff by 2027.",
-        "New model releases like Claude Fable 5.2 and Google's Gemini 4 Carbon demonstrate significant performance gains in coding and complex tasks.",
-        "Internal studies indicate that AI is now accelerating the pace of its own development through recursive self-improvement within labs like Anthropic."
+        "The Supreme Court announced that several notable petitions will be considered at the justices' upcoming private conference on December 4.",
+        "The pending disputes include challenges regarding the Trump administration's ban on transgender servicemembers and the appointment of acting U.S. attorneys.",
+        "The Court's next argument session is scheduled to begin on Monday, November 30."
       ]
     },
     {
       "source": "The Freedom Frequency",
-      "title": "A Golden State of Housing Shortages",
+      "title": "Principles for an International Monetary and Financial Commons",
       "url": "",
-      "published": "2026-11-17T16:31:16+00:00",
+      "published": "2026-11-18T20:30:47+00:00",
       "bullets": [
-        "California faces severe housing shortages and high home prices driven by restrictive zoning and environmental regulations.",
-        "The California Environmental Quality Act allows project opponents to endlessly delay construction by challenging paperwork adequacy in court.",
-        "The proposed Centennial housing project on Tejon Ranch has faced over two decades of delays and regulatory hurdles since filing initial planning documents in 2002."
+        "The international financial system functions as a commons prone to degradation and the tragedy of the commons without proper maintenance.",
+        "The historical Bretton Woods rules-based order ultimately failed because it could not accommodate large trade flows, capital movements, or U.S. inflation.",
+        "The subsequent shift to floating exchange rates introduced significant real relative price volatility that harms businesses, as exchange rates remain unpredictable."
+      ]
+    },
+    {
+      "source": "Phillips P. OBrien and Ben Hodges from Phillips’s",
+      "title": "Live with Phillips P. OBrien and Ben Hodges",
+      "url": "",
+      "published": "2026-11-18T17:49:07+00:00",
+      "bullets": [
+        "Phillips P. OBrien and Ben Hodges hosted a live video discussion lasting thirty minutes.",
+        "A recording of the live session was published on November 18, 2026."
       ]
     },
     {
       "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Rep. Sarah McBride on Care and Freedom",
+      "title": "Now We Act: With Rep. Raja Krishnamoorthi on the Strength of Democracy",
       "url": "",
-      "published": "2026-11-17T15:55:06+00:00",
+      "published": "2026-11-18T17:05:35+00:00",
       "bullets": [
-        "Timothy Snyder hosted a live, unscripted conversation with Representative Sarah McBride focusing on care and freedom.",
-        "The discussion centered on how Democrats can achieve significant political transformation on the scale of FDR or LBJ.",
-        "Snyder and McBride explored the connection between caregiving, government transformation, and achieving greater dignity and freedom."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape",
-      "title": "Prof Robert Pape subscriptions for you to give away",
-      "url": "",
-      "published": "2026-11-17T14:08:43+00:00",
-      "bullets": [
-        "Prof Robert Pape is offering paying subscribers five free one-month gift subscriptions to share with family and friends.",
-        "The promotional gift subscriptions have a stated value of $75."
-      ]
-    },
-    {
-      "source": "John Ellis from Political News Items",
-      "title": "Follow The Money.",
-      "url": "",
-      "published": "2026-11-17T14:03:15+00:00",
-      "bullets": [
-        "Pollsters misjudged the mid-term elections by relying on likely-voter models that underestimated high turnout among Democrats, young voters, and nonwhite voters.",
-        "The 2026 mid-terms cannot be solely explained by turnout, as evidenced by a massive 19.5 million vote swing toward Democrats compared to 2022.",
-        "Democrats are projected to win the national House popular vote by at least 13 points, marking their best midterm margin since 1974."
-      ]
-    },
-    {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "How the Iran War Comes to American Soil — The Threat Everyone Missed",
-      "url": "https://escalationtrap.substack.com/p/how-the-iran-war-comes-to-american",
-      "published": "2026-11-17T13:52:32+00:00",
-      "bullets": [
-        "US intelligence indicates Iran is planning attacks against Trump officials in Washington, prompting increased security measures.",
-        "Six weeks prior to the report, Iran attempted an action on the soil of America's closest ally that was addressed by the Pentagon and local leadership.",
-        "The article argues that overlooked Iranian tactics could bring the ongoing conflict directly to American soil."
-      ]
-    },
-    {
-      "source": "Your Local Epidemiologist",
-      "title": "Tell us how to make YLE better!",
-      "url": "",
-      "published": "2026-11-17T12:31:40+00:00",
-      "bullets": [
-        "Your Local Epidemiologist has opened its 2026 end-of-year reader survey to collect feedback from the community.",
-        "The survey takes less than 10 minutes and aims to help shape the newsletter's topics and formats for 2027.",
-        "Readers are asked to share their preferences, concerns about health topics, and suggestions for what the publication should change or cover more."
-      ]
-    },
-    {
-      "source": "Paul Waldman from Public Notice",
-      "title": "How Trump lost the young dudes",
-      "url": "",
-      "published": "2026-11-17T11:17:26+00:00",
-      "bullets": [
-        "Young men swung dramatically from supporting Donald Trump in 2024 to voting for Democratic candidates by a wide margin in the recent midterm election.",
-        "Donald Trump's previous connection to young men through podcasts, sports culture, and a belligerent brand of masculinity proved to be a minority appeal rather than lasting loyalty.",
-        "Trump's political strategy of addressing young men's grievances ultimately failed to overcome his record of failure in office."
-      ]
-    },
-    {
-      "source": "Kareem Abdul-Jabbar",
-      "title": "What Price Fame?",
-      "url": "https://kareem.substack.com/p/what-price-fame",
-      "published": "2026-11-17T11:02:39+00:00",
-      "bullets": [
-        "Fame without achievement cheapens true excellence and diminishes the value of actual accomplishment.",
-        "Tennis star Mirra Andreeva won the WTA Finals by defeating Elena Svitolina in straight sets.",
-        "Willem Dafoe delivers a career-best performance in the film Late Fame, directed by Kent Jones."
+        "Rep. Raja Krishnamoorthi emphasizes that Democrats must ban corrupt practices like stock trading for everyone, including themselves, while addressing both democracy and prosperity.",
+        "The discussion highlighted the necessity for public officials to make a basic choice between making money and serving the public.",
+        "Participants addressed the authority of Congress and the importance of rolling back emergency powers that allow the executive branch to bypass constitutional limits."
       ]
     },
     {
       "source": "G. Elliott Morris",
-      "title": "ICE may have cost Republicans more votes than inflation did in 2026",
+      "title": "Poll: Trump hits a new low; Americans split on impeachment, favor bills to reduce costs and corruption",
       "url": "",
-      "published": "2026-11-17T11:02:22+00:00",
+      "published": "2026-11-18T17:02:35+00:00",
       "bullets": [
-        "Interviews with 20,000 voters analyzed by G. Elliott Morris indicate that ICE may have cost Republicans more votes than inflation did in the 2026 midterms.",
-        "Data shows that Donald Trump's net approval rating declined significantly prior to the U.S. war against Iran, contradicting claims that the war caused a sudden structural shift in public opinion.",
-        "Public polling and survey data demonstrate that Trump's popularity fell at a steady rate both before and after the conflict began."
+        "President Trump's approval rating dropped to a new low of 31% following the Democratic midterm victory.",
+        "A majority of Americans want the new Congress to prioritize lowering prices and conducting administrative oversight.",
+        "The public is evenly split on whether the House should impeach the president, but favors removal by a 51% to 39% margin if impeachment occurs."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "The Buck Stops Nowhere",
+      "title": "Schumer or Van Hollen?",
       "url": "",
-      "published": "2026-11-17T09:02:21+00:00",
+      "published": "2026-11-18T16:47:48+00:00",
       "bullets": [
-        "President Trump refused to accept responsibility for a historic ground stop that stranded millions of travelers, blaming past administrations and congressional Democrats instead.",
-        "The article argues that Trump and his administration bear responsibility due to actions including pausing FAA funding, firing hundreds of FAA employees, and failing to fully spend previously allocated upgrade funds.",
-        "A government watchdog report had previously warned that the Trump administration's approach to replacing legacy FAA systems could cause major disruptions."
+        "Senate Democrats will choose between Chuck Schumer and Chris Van Hollen for their next Majority Leader on December 1.",
+        "The upcoming leadership vote will serve as an important signal for the future direction of the Democratic Party.",
+        "The decision involves participating incumbent and newly elected senators, excluding those retiring or replaced."
+      ]
+    },
+    {
+      "source": "Center for Politics at UVA",
+      "title": "Sabato's Crystal Ball - Virginia 2026: Even Bluer than 2025 - Vol. 24, Iss. 88",
+      "url": "",
+      "published": "2026-11-18T16:50:31+00:00",
+      "bullets": [
+        "Virginia Democrats followed up on their strong 2025 performance with another very blue election in 2026.",
+        "Senator Mark Warner secured reelection by a wide margin, and Democrats successfully flipped two U.S. House seats.",
+        "Republicans managed to retain the 5th District due to a continuing reddening trend in Southside Virginia."
+      ]
+    },
+    {
+      "source": "Gabe Fleisher",
+      "title": "Generation Swing",
+      "url": "",
+      "published": "2026-11-18T16:50:58+00:00",
+      "bullets": [
+        "Historically, voters under 30 voted similarly to older demographics until a noticeable generational gap began to emerge in the 1990s and 2000s.",
+        "Following decades of strong alignment with the Democratic Party, young voters experienced a notable 17-point shift to the right in the 2024 election.",
+        "Young men specifically moved from supporting Joe Biden by nine points in 2020 to supporting Donald Trump by 14 points in 2024."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape",
+      "title": "Where Did Iran’s Bomb Fuel Go? — What the Satellite Photos Show",
+      "url": "",
+      "published": "2026-11-18T13:56:28+00:00",
+      "bullets": [
+        "The IAEA issued a warning that it has lost track of 440 kilograms of near bomb-grade uranium in Iran and cannot locate its newest enrichment plant.",
+        "Satellite imagery from June 2025 indicates trucks may have removed enriched uranium from the Fordow site shortly before American airstrikes.",
+        "Recent satellite photos show ongoing excavation and vehicle activity at the Isfahan tunnel complex, where the missing nuclear material is believed to be relocated."
+      ]
+    },
+    {
+      "source": "Timothy Snyder from \\\"Thinking about...\\",
+      "title": "Now We Act: With Rep. Jamie Raskin on the Constitution vs. Corruption",
+      "url": "",
+      "published": "2026-11-18T13:46:28+00:00",
+      "bullets": [
+        "Timothy Snyder features Representative Jamie Raskin in an unscripted conversation for the Now We Act series.",
+        "Raskin is highlighted as the presumptive chair of the House Judiciary Committee.",
+        "The discussion focuses on upholding the Constitution against corruption and tyranny."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape from Escalation Trap",
+      "title": "All Three Iran Warning Signs Now Flashing — RED",
+      "url": "https://escalationtrap.substack.com/p/all-three-iran-warning-signs-now",
+      "published": "2026-11-18T13:10:29+00:00",
+      "bullets": [
+        "Prof Robert Pape warns that all three escalation warning signs regarding Iran have flashed red within a two-week period.",
+        "Washington is currently discussing the threat of a dirty bomb in relation to Iran.",
+        "President Trump recently stated that Iran would face unprecedented consequences."
+      ]
+    },
+    {
+      "source": "Kasparov's Next Move",
+      "title": "In Defense of Sarah Longwell. Against One-Party Democracy.",
+      "url": "",
+      "published": "2026-11-18T13:03:47+00:00",
+      "bullets": [
+        "Garry Kasparov defends Sarah Longwell against critics who accused her of abandoning conservative principles by aligning with Democrats.",
+        "Kasparov argues that principled conservatives have naturally aligned with Democrats because the Republican Party under Donald Trump has become authoritarian.",
+        "The author contends that American democracy suffers because the Democratic Party is currently the only major political option operating from a baseline of free and fair elections."
+      ]
+    },
+    {
+      "source": "Don Moynihan, William Resh, and Gary Hollibaugh from Can We Still Govern?",
+      "title": "Trauma, Not Dignity",
+      "url": "",
+      "published": "2026-11-18T12:38:32+00:00",
+      "bullets": [
+        "Federal employee departures driven by the voluntary resignation program were frequently coerced rather than truly voluntary.",
+        "The federal workforce experienced a net loss of approximately 280,000 employees between January 2025 and August 2026.",
+        "The vast majority of federal workforce reductions occurred through resignations and retirements rather than direct firings."
+      ]
+    },
+    {
+      "source": "FiftyPlusOne.news",
+      "title": "How “wave babies” took over Congress",
+      "url": "",
+      "published": "2026-11-18T12:03:38+00:00",
+      "bullets": [
+        "At least 109 seats in the U.S. House of Representatives will be held by freshmen in January 2027, marking the largest congressional turnover in decades.",
+        "The surge in newcomers is driven by both a Democratic electoral tsunami and a record number of voluntary departures by incumbents.",
+        "A record 61 members chose to retire or run for another office rather than seek reelection, led heavily by Republicans seeking to avoid a difficult political environment."
+      ]
+    },
+    {
+      "source": "Paul Krugman",
+      "title": "Don’t ICEwash or Griftwash the Midterms",
+      "url": "",
+      "published": "2026-11-18T11:31:20+00:00",
+      "bullets": [
+        "Paul Krugman argues that attributing the Democratic midterm victory solely to affordability ignores the historic scale of the win and other driving factors.",
+        "Data and polling analysis suggest that Republican policies on immigration enforcement and widespread corruption significantly damaged the party at the ballot box.",
+        "Voter perceptions of issues like cruelty and corruption interacted with economic frustrations rather than existing as isolated concerns."
+      ]
+    },
+    {
+      "source": "Your Local Epidemiologist",
+      "title": "The U.S. lost measles elimination after 26 years. Now what?",
+      "url": "",
+      "published": "2026-11-18T11:31:10+00:00",
+      "bullets": [
+        "The United States has officially lost its measles elimination status after 26 years due to declining vaccination rates across numerous communities.",
+        "More than 28 percent of U.S. counties now fall below the 90 percent MMR vaccination threshold required to maintain herd immunity.",
+        "Falling vaccination coverage has led to outbreaks causing preventable illnesses, hospitalizations, and deaths, predominantly affecting unvaccinated children."
+      ]
+    },
+    {
+      "source": "Liz Dye from Public Notice",
+      "title": "White House prepares to give Congress the finger",
+      "url": "",
+      "published": "2026-11-18T11:17:29+00:00",
+      "bullets": [
+        "White House Counsel Will Scharf issued a memo requiring federal agencies to obtain White House approval before testifying before congressional committees.",
+        "The directive is a radical departure from established policy and directly conflicts with federal law protecting the right of federal employees to furnish information to Congress.",
+        "The administration's move comes as officials prepare to resist congressional oversight following Democrats taking control of the House and Senate."
+      ]
+    },
+    {
+      "source": "Michael Spencer and Jeff Morhous from AI Supremacy",
+      "title": "Grok Bot vs Dots: Which is the better personal agent?",
+      "url": "",
+      "published": "2026-11-18T10:15:32+00:00",
+      "bullets": [
+        "The article compares personal AI agents including Grok Bot and OpenAI's Dots while highlighting major industry events such as Anthropic's upcoming IPO and Nvidia's earnings.",
+        "Anthropic is slated to list on the Nasdaq under the ticker symbol ANT as its revenue and product ecosystem rapidly expand.",
+        "Nvidia faces stock corrections down 36 percent from its all-time high despite generating significant quarterly revenue compared to leading AI startups."
+      ]
+    },
+    {
+      "source": "Klement on Investing",
+      "title": "What the last two bubbles tell us about the AI boom",
+      "url": "",
+      "published": "2026-11-18T09:40:15+00:00",
+      "bullets": [
+        "Wall Street analysts remained overwhelmingly bullish at the peak of the 1990s tech bubble and the onset of the 2008 financial crisis.",
+        "Analyst recommendations for current artificial intelligence stocks mirror past market peaks by staying overwhelmingly positive despite accumulating bad news.",
+        "The central question surrounding the current AI market boom is whether it will conclude with a sudden crash or a slow deflation."
+      ]
+    },
+    {
+      "source": "Robert Reich",
+      "title": "Office Hours: Who Should Be the Next Senate Majority Leader?",
+      "url": "https://robertreich.substack.com/p/office-hours-who-should-be-the-next&coupon=d77dee36",
+      "published": "2026-11-18T09:02:18+00:00",
+      "bullets": [
+        "Democrats will hold 56 seats in the Senate next year following the election of Mary Peltola.",
+        "Incumbent Senate Democratic Leader Chuck Schumer faces a challenge from Maryland Senator Chris Van Hollen for the majority leader position.",
+        "The secret ballot vote to determine the next Senate majority leader is scheduled for December 1."
       ]
     }
   ],
-  "articles_processed": 35,
+  "articles_processed": 39,
   "articles_attempted": 39,
   "publications": [
-    "Prof Robert Pape from Escalation Trap",
-    "Open Letters, from Anne Applebaum",
-    "Scott Galloway",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "G. Elliott Morris",
-    "Your Local Epidemiologist",
-    "ProPublica",
-    "Ruth Ben-Ghiat from Lucid",
-    "Robert Reich",
-    "John Ellis",
-    "Silver Bulletin",
-    "Slow Boring",
-    "SCOTUSblog",
-    "Kareem Abdul-Jabbar",
-    "Paul Waldman from Public Notice",
-    "The Freedom Frequency",
-    "John Ellis from Political News Items",
-    "The Bulwark",
     "Prof Robert Pape",
-    "Louie from Towards AI"
+    "The Freedom Frequency",
+    "Gabe Fleisher",
+    "G. Elliott Morris",
+    "Don Moynihan, William Resh, and Gary Hollibaugh from Can We Still Govern?",
+    "Kasparov's Next Move",
+    "John Ellis",
+    "Phillips P. OBrien and Ben Hodges from Phillips’s",
+    "Paul Krugman",
+    "Liz Dye from Public Notice",
+    "Scott Galloway",
+    "Robert Reich",
+    "Slow Boring",
+    "Your Local Epidemiologist",
+    "FiftyPlusOne.news",
+    "ProPublica",
+    "Michael Spencer and Jeff Morhous from AI Supremacy",
+    "Prof Robert Pape from Escalation Trap",
+    "Center for Politics at UVA",
+    "Klement on Investing",
+    "SCOTUSblog",
+    "Timothy Snyder from \\\"Thinking about...\\",
+    "The Bulwark"
   ],
-  "generated_at": "2026-11-17T21:31:40.559228+00:00",
+  "generated_at": "2026-11-18T21:07:16.889770+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-17-2131.json"
+  "archive_filename": "2026-11-18-2107.json"
 }
