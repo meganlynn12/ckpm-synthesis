@@ -1,463 +1,448 @@
 {
-  "date": "2026-11-18",
-  "narrative_summary": "The current political and institutional landscape is defined by profound institutional friction, as a resurgent Democratic legislative majority clashes with an increasingly defiant and cornered executive branch. Amid historic turnover in Congress and plunging approval ratings for President Trump following midterm defeats, the administration is aggressively consolidating power through sweeping personnel purges and restrictive congressional oversight directives. Concurrently, systemic vulnerabilities are multiplying across multiple sectors, highlighted by widespread technological disruptions, critical cybersecurity breaches, and escalating geopolitical and nuclear tensions involving Iran and Russia. Economic anxieties and market corrections in the artificial intelligence sector further compound these domestic strains, intensifying debates over governance, corporate accountability, and the erosion of democratic norms.",
+  "date": "2026-11-19",
+  "narrative_summary": "Global geopolitics, domestic governance, and the tech sector are experiencing profound shifts driven by high-stakes diplomacy, leadership crises, and massive capital movements. A trilateral summit in Shenzhen featuring Donald Trump, Vladimir Putin, and Xi Jinping yielded a Kremlin-published agreement that elevates authoritarian interests and advances energy cooperation to bolster Russia's war economy. Concurrently, the artificial intelligence sector reached a monumental milestone as Anthropic launched a historic $81 billion initial public offering, valuing the company at $1.5 trillion and underscoring the deep reliance of the broader economy on a handful of tech giants. This corporate dominance mirrors anxieties expressed across public institutions, where regulatory failures, political polarization, and systemic accountability gaps challenge both democratic norms and economic stability.",
   "source_summaries": [
     {
       "source": "The Bulwark",
-      "title": "Josh Barro: It’s Not Helping that Idiots Are in Charge",
-      "url": "https://www.thebulwark.com/p/josh-barro-its-not-helping-that-idiots",
-      "published": "2026-11-18T20:30:02+00:00",
+      "title": "John Fetterman’s Days Seem Numbered—and He Knows It",
+      "url": "https://www.thebulwark.com/p/john-fetterman-days-seem-numbered-and-he-knows-it",
+      "published": "2026-11-19T20:27:59+00:00",
       "bullets": [
-        "Recent tech outages have caused concern among prominent media figures and Senate Republicans regarding the qualifications of current administration officials.",
-        "Vice President-elect JD Vance has attempted to blame prior administrations for ongoing issues despite Donald Trump's previous presidency.",
-        "Josh Barro joined Tim Miller on The Bulwark podcast to discuss political developments, elections, and administration criticisms."
+        "Sen. John Fetterman's recent political behavior, including appealing to Republican donors and criticizing fellow Democrats, has effectively provoked a potential primary challenge.",
+        "House Democrats and politicians in Pennsylvania are actively considering mounting primary challenges against Fetterman for his Senate seat in 2028."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "BREAKING: Markwayne Mullin Grilled Over FAA Chaos, ICE Deaths and Football Game Flight",
-      "url": "https://www.thebulwark.com/p/breaking-markwayne-mullin-grilled",
-      "published": "2026-11-18T20:10:44+00:00",
+      "title": "Patrick Gaspard: We Have to Keep the New Electoral Map",
+      "url": "https://www.thebulwark.com/p/patrick-gaspard-we-have-to-keep-the",
+      "published": "2026-11-19T20:01:29+00:00",
       "bullets": [
-        "Markwayne Mullin faced congressional questioning regarding a controversial football game trip, an FAA failure, and deaths in ICE custody.",
-        "Commentators Andrew Egger and Will Saletan analyzed Mullin's unsatisfactory responses alongside Kash Patel's refusal to testify.",
-        "The discussions highlighted a growing defiance within the administration following the Republican midterm defeat."
+        "The pro-democracy coalition must maintain the electoral territory it gained in the midterms to defeat the MAGA movement.",
+        "Sustaining these political gains requires engaged candidates who productively collaborate with corporate America for community benefit.",
+        "Additional priorities for Democrats include maintaining a moral stance on immigration and rethinking primary debates for 2028."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Our Next Bulwark Founders Town Hall Is December 9",
-      "url": "https://www.thebulwark.com/p/december-9-bulwark-founders-town-hall",
-      "published": "2026-11-18T18:53:24+00:00",
+      "title": "The Two Biggest Rats Are Jumping Ship",
+      "url": "https://www.thebulwark.com/p/the-two-biggest-rats-are-jumping-ship-elon-musk-jd-vance-donald-trump",
+      "published": "2026-11-19T17:48:52+00:00",
       "bullets": [
-        "The Bulwark is hosting its second Founders Town Hall for 2026 on Wednesday, December 9 at 8:30 p.m. EST.",
-        "Sarah and JVL will lead the live event to share upcoming plans and answer questions from founding members and Best Friends.",
-        "Founding members also have access to an exclusive Founders Lounge on Substack Chat and can gift extra subscription seats to others."
+        "Elon Musk claimed in an interview that he is a political moderate who supports divided government and is not affiliated with the MAGA movement, despite having spent hundreds of millions of dollars backing Republican candidates.",
+        "JD Vance subtly distanced himself from Donald Trump during an interview by attributing decisions regarding Iran to Trump alone and setting a strict timeline for ending the military involvement."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "WTF Is Happening? No, Seriously, WTF!",
-      "url": "https://www.thebulwark.com/p/wtf-is-happening-no-seriously-wtf-cyber-ai",
-      "published": "2026-11-18T17:49:24+00:00",
+      "title": "Elon Musk Spent $700 Million on MAGA. Now He’s Having Regrets",
+      "url": "https://www.thebulwark.com/p/elon-musk-spent-700-million-on-maga",
+      "published": "2026-11-19T17:43:41+00:00",
       "bullets": [
-        "A rapid succession of major technological disruptions recently affected Microsoft, the FAA, banks, Apple services, United Airlines, and the NSA.",
-        "The Trump administration and expert consensus attribute these widespread failures to unrelated coincidences rather than malicious cyberattacks.",
-        "Skeptics argue that the government lacks definitive proof of innocence, while noting potential risks from sophisticated foreign adversaries and advanced AI capabilities."
+        "Elon Musk has told The New York Times that he is not MAGA and regrets a portion of the $700 million he spent electing Republicans and supporting Donald Trump's agenda.",
+        "Analysts view Musk's sudden distancing from the movement as damage control rather than a genuine shift in his personal convictions.",
+        "Musk's heavy political involvement has resulted in significant backlash, damaging Tesla's brand and harming his public image."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "How Worried Should We Be About a Dirty Bomb? | Command Post",
-      "url": "https://www.thebulwark.com/p/how-worried-should-we-be-about-a",
-      "published": "2026-11-18T17:05:47+00:00",
+      "title": "A Military Deal With Venezuela Is the Easy Part",
+      "url": "https://www.thebulwark.com/p/a-military-deal-with-venezuela-is-the-easy-part-real-partnership-hegseth-maduro-delcy-rodriguez",
+      "published": "2026-11-19T17:11:26+00:00",
       "bullets": [
-        "Lt. Gen. Mark Hertling discussed reports that Iran is considering a dirty bomb attack in Washington and how Donald Trump's potential response could benefit Tehran.",
-        "Hertling analyzed how Vladimir Putin and Xi Jinping might exploit Trump's upcoming summit and criticized a Pentagon official for opposing Ukraine's strikes inside Russia.",
-        "The discussion also covered testimony from Navy chief Hung Cao regarding deteriorating conditions aboard U.S. warships."
+        "Defense Secretary Pete Hegseth traveled to Caracas and announced a new U.S.-Venezuela agreement focused on military training, intelligence sharing, and border security.",
+        "The deal follows the U.S. capture of former Venezuelan leader Nicolás Maduro, though much of the pre-existing political and military establishment remains in power.",
+        "While security cooperation is a standard component of U.S. strategy, building lasting partnerships requires years of sustained diplomatic and military effort."
       ]
     },
     {
       "source": "The Bulwark",
-      "title": "Beating Trump’s Marxism Will Take FDR-Style Populism",
-      "url": "https://www.thebulwark.com/p/beating-trumps-marxism-will-take-fdr-style-populism",
-      "published": "2026-11-18T14:39:39+00:00",
+      "title": "The Worst Throuple on the Planet",
+      "url": "https://www.thebulwark.com/p/the-worst-throuple-on-the-planet-trump-xi-putin-trilateral-summit",
+      "published": "2026-11-19T14:32:53+00:00",
       "bullets": [
-        "Recent Democratic Senate victories, including Mary Peltola's win in Alaska, signal a rising wave of economic populism focused on combating corporate greed.",
-        "Addressing severe wealth and power imbalances requires an intelligent form of economic populism to preserve democratic capitalism.",
-        "The defense of disgraced Nvidia CEO Jensen Huang by fellow tech billionaires highlights a resistance to corporate oversight and accountability."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "Trump’s Tough-on-China Talk Was Always Just an Act",
-      "url": "https://www.thebulwark.com/p/trump-tough-on-china-talk-was-always-just-an-act-xi-jinping-tik-tok-nvidia",
-      "published": "2026-11-18T08:46:07+00:00",
-      "bullets": [
-        "Donald Trump's aggressive rhetoric regarding China was a political selling point rather than a reflection of genuine hawkish policy.",
-        "Trump's administration reversed heavy tariffs after China retaliated with export limits on rare earth minerals.",
-        "Trump lacks traditional foreign policy convictions and prioritizes personal interests over strategic national concerns."
-      ]
-    },
-    {
-      "source": "The Bulwark",
-      "title": "Putin and the Two Stooges’ Fake Negotiations",
-      "url": "https://www.thebulwark.com/p/putin-and-the-two-trump-stooges-kushner-witkoff-fake-negotiations-ukraine-kerch-bridge",
-      "published": "2026-11-18T08:42:54+00:00",
-      "bullets": [
-        "A trilateral summit in Shenzhen, China, brings together Donald Trump, Vladimir Putin, and Xi Jinping.",
-        "A Ukrainian drone and missile attack caused a section of the strategically and symbolically important Kerch Bridge to collapse.",
-        "During recent U.S.-backed negotiations in Abu Dhabi, Russian representatives advanced expansive demands regarding European security and Ukraine."
+        "Elon Musk expressed regret over his massive political spending after failing to secure desired outcomes in recent midterm elections.",
+        "Donald Trump, Xi Jinping, and Vladimir Putin participated in a trilateral meeting in Shenzhen that elevated Putin on the world stage.",
+        "The summit in Shenzhen raises concerns among critics about the symbolic degradation of American leadership and democratic values."
       ]
     },
     {
       "source": "Slow Boring",
-      "title": "What does it mean to be “laser-focused on affordability”?",
-      "url": "https://www.slowboring.com/p/what-does-it-mean-to-be-laser-focused",
-      "published": "2026-11-18T11:03:10+00:00",
+      "title": "How to fight monopoly",
+      "url": "https://www.slowboring.com/p/how-to-fight-monopoly",
+      "published": "2026-11-19T11:02:36+00:00",
       "bullets": [
-        "Democrats have embraced the slogan of being laser-focused on affordability, but the phrase papers over fundamental policy disagreements.",
-        "Political slogans intentionally rely on ambiguity to appeal to voters while masking conflicting technical agendas.",
-        "An economic definition of affordability focuses on real income rather than just the nominal price of goods."
+        "Hollywood has become significantly more concentrated following Skydance's acquisition of both Paramount and Warner Bros.",
+        "Despite increased industry consolidation, the movie industry is experiencing its healthiest post-pandemic box office year yet.",
+        "Monopoly threats in the film sector remain low because First Amendment protections and low production costs keep barriers to entry minimal."
+      ]
+    },
+    {
+      "source": "Slow Boring",
+      "title": "“The Argument” podcast, ad free: Why is Gen Z so mad?",
+      "url": "https://www.slowboring.com/p/the-argument-podcast-ad-free-why-b47",
+      "published": "2026-11-19T11:02:02+00:00",
+      "bullets": [
+        "Young people today perceive the current economic climate as historically poor despite standard indicators.",
+        "Economics commentator Kyla Scanlon joined \"The Argument\" podcast to analyze why Generation Z feels this way."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "The AI Buildout Just Hit A Wall",
-      "url": "https://www.profgmedia.com/p/the-ai-buildout-just-hit-a-wall",
-      "published": "2026-11-18T19:01:54+00:00",
+      "title": "NASDAQ: ANT",
+      "url": "https://www.profgmedia.com/p/nasdaq-ant",
+      "published": "2026-11-19T16:29:30+00:00",
       "bullets": [
-        "Ed Elson and Dan Chiolan discuss the future of AI data centers following the midterm elections.",
-        "The analysis questions whether data center expansion has reached a dead end or if Big Tech will bypass current moratoriums."
+        "Anthropic's upcoming IPO will provide crucial insights into the future trajectory of the broader artificial intelligence market.",
+        "The Prof G newsletter is transitioning its Extra Credit feature to a weekly schedule covering deep-dive business topics.",
+        "Upcoming media coverage will analyze Anthropic's S-1 filing, data center compute futures, and AI integration in storytelling."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "NEW TIME: Ed & Aswath Live",
-      "url": "https://www.profgmedia.com/p/new-time-ed-and-aswath-live",
-      "published": "2026-11-18T17:05:58+00:00",
+      "title": "REPLAY: Trump’s Autocrat Playdate with Xi and Putin Produced Zero Results",
+      "url": "https://www.profgmedia.com/p/replay-trumps-autocrat-playdate-with",
+      "published": "2026-11-19T16:15:31+00:00",
       "bullets": [
-        "Scott Galloway announced that today's scheduled livestream was delayed due to an unexpected FAA-related issue.",
-        "Ed Elson and Professor Damodaran will host the rescheduled livestream today at 5 p.m. ET.",
-        "Prof G+ members will have on-demand access to the livestream replay if they miss the live broadcast."
+        "Scott Galloway and Jessica Tarlov discussed Donald Trump's summit with Xi Jinping and Vladimir Putin, which yielded no substantial results.",
+        "Anthropic made its historic stock market debut while Jensen Huang faced a corporate petition to reinstate him at Nvidia.",
+        "Hakeem Jeffries secured the Democratic nomination for Speaker of the House, positioning himself to become the first Black Speaker in U.S. history."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Hanging In The Balance",
-      "url": "https://www.profgmedia.com/p/hanging-in-the-balance",
-      "published": "2026-11-18T13:27:28+00:00",
+      "title": "REPLAY: The Nvidia Scandal — with Aswath Damodaran",
+      "url": "https://www.profgmedia.com/p/replay-the-nvidia-scandal-with-aswath",
+      "published": "2026-11-19T16:01:50+00:00",
       "bullets": [
-        "Nvidia's earnings and CEO Jensen Huang's role are the focus of a live earnings review hosted with NYU valuation expert Aswath Damodaran.",
-        "The upcoming Anthropic IPO is highlighted as a much more significant indicator for the future of the AI market than Nvidia's current performance.",
-        "The Extra Credit newsletter is shifting to a weekly schedule, featuring deep-dive business stories and a new interview series hosted by Ed Elson."
+        "An unedited replay of a conversation between Ed and Aswath Damodaran regarding Nvidia and Anthropic is available exclusively for Prof G+ subscribers.",
+        "A condensed version of the discussion will be published on the Prof G Markets feed."
       ]
     },
     {
       "source": "Scott Galloway",
-      "title": "Nvidia Is Better Off Without Jensen Huang",
-      "url": "https://www.profgmedia.com/p/nvidia-is-better-off-without-jensen",
-      "published": "2026-11-18T12:02:09+00:00",
+      "title": "Anthropic’s $1.5 Trillion IPO Is A Trap",
+      "url": "https://www.profgmedia.com/p/anthropics-15-trillion-ipo-is-a-trap",
+      "published": "2026-11-19T12:03:27+00:00",
       "bullets": [
-        "Ed Elson and Gil Luria analyze Nvidia's first earnings report following the departure of CEO Jensen Huang.",
-        "The discussion covers potential shareholder-friendly CEO successors and evaluates the current state of the artificial intelligence bubble.",
-        "Sherri Davidoff reviews recent technology outages and their underlying causes, while Ed Elson shares perspective on Anthropic's IPO."
-      ]
-    },
-    {
-      "source": "Scott Galloway",
-      "title": "America Is Running Out of Young People – with Lyman Stone",
-      "url": "https://www.profgmedia.com/p/america-is-running-out-of-young-people-8b6",
-      "published": "2026-11-18T12:01:02+00:00",
-      "bullets": [
-        "Falling U.S. birth rates are primarily driven by fewer people marrying and pairing off.",
-        "Financial incentives and immigration alone will not close the demographic gap.",
-        "Safety net marriage penalties discourage working-class couples from getting married, while a shrinking pool of 18-year-olds threatens American colleges."
+        "Ed Elson and Paul Kedrosky discuss Anthropic's anticipated IPO, trading trajectory, and the Nvidia scandal.",
+        "Joost van Dreunen analyzes the release of Grand Theft Auto VI and its critical impact on the broader gaming industry.",
+        "The program concludes with a review of New York's pied-a-terre tax."
       ]
     },
     {
       "source": "John Ellis",
-      "title": "A Fabulous Debt.",
-      "url": "https://substack.news-items.com/p/a-fabulous-debt",
-      "published": "2026-11-18T16:58:30+00:00",
+      "title": "Thrilling.",
+      "url": "https://substack.news-items.com/p/thrilling",
+      "published": "2026-11-19T10:39:32+00:00",
       "bullets": [
-        "Financial Times Alphaville editor Robin Wigglesworth was featured as a guest on Episode 33 of the News Items Podcast.",
-        "Wigglesworth discussed his new book titled A Fabulous Debt, which explores the history of how bonds built the modern global economy.",
-        "The episode highlights how debt instruments have historically financed major historical epochs and continue to underwrite the artificial intelligence revolution."
-      ]
-    },
-    {
-      "source": "John Ellis",
-      "title": "The Beating Heart.",
-      "url": "https://substack.news-items.com/p/the-beating-heart",
-      "published": "2026-11-18T10:31:13+00:00",
-      "bullets": [
-        "A cybersecurity start-up used an A.I. model to discover a critical software bug in Java, impacting government agencies and major companies.",
-        "Researchers found malicious JavaScript code injected into Optimizely software, affecting approximately 178 organizations before being fixed.",
-        "The NSA's classified internal communications network experienced an offline outage, though officials reported no signs of a cyberattack."
+        "A twice-yearly injection called diranersen halved the rate of cognitive decline in Alzheimer's patients and reduced tau protein tangles in a major trial.",
+        "Pew Research Center projections indicate that Muslims are expected to outnumber Christians globally by 2035.",
+        "Anthropic is valued at approximately $1.5 trillion and will begin trading on Nasdaq following a record $81 billion initial public offering."
       ]
     },
     {
       "source": "ProPublica",
-      "title": "They Were Just Admitted to the Bar. Now They’re Federal Prosecutors. Meet Trump’s New DOJ.",
-      "url": "https://www.propublica.org/article/federal-prosecutors-hiring-trump-doj",
-      "published": "2026-11-18T11:00:00+00:00",
+      "title": "The U.S. Paid Insurers Billions to Cover Civilians Harmed in War. Even the Government Says the System Is Ripe for Fraud.",
+      "url": "https://www.propublica.org/article/civilian-workers-war-injuries-insurance-companies",
+      "published": "2026-11-19T16:15:00+00:00",
       "bullets": [
-        "The Justice Department under President Donald Trump's second administration has fast-tracked numerous inexperienced attorneys, including recent law school graduates, into assistant U.S. attorney positions.",
-        "This influx of inexperienced hires comes as thousands of years of combined experience have been lost due to the departure or purging of seasoned career prosecutors.",
-        "Legal experts note that hiring attorneys with less than three years of experience for these vital roles is a significant and unprecedented break from past DOJ practice."
+        "A federal workers' compensation program for contractors injured in war zones has paid nearly $5 billion to insurance companies over the past decade, with internal memos describing the system as ripe for fraud.",
+        "The Labor Department has failed to properly police the program due to lacking oversight, dysfunctional technology, and an inability to prevent excessive or unreasonable insurance payments.",
+        "Insurers have exploited the system by rapidly settling dubious claims to collect government reimbursements or by fighting legitimate claims before ultimately billing taxpayers."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "Corpus Christi Started Pumping Groundwater at “Lightning Speed.” Rural Residents Fear the Consequences.",
+      "url": "https://www.propublica.org/article/corpus-christi-water-crisis-groundwater",
+      "published": "2026-11-19T16:00:00+00:00",
+      "bullets": [
+        "Corpus Christi rapidly drilled wells into a regional aquifer to combat drought, alarming rural residents who feared losing their water access.",
+        "The city utilized a local conservation district staffed by city employees and overseen by city-appointed officials to fast-track and approve all its drilling permits.",
+        "Despite studies warning that the pumping could cause land to sink and water levels to drop, the district authorized the city to pump up to 40 million gallons daily."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "The Trump DOJ Quietly Intervened to Ink a Huge Payout to a Trump Golf Pro",
+      "url": "https://www.propublica.org/article/irs-settlement-golf-pro-shelby-lowman",
+      "published": "2026-11-19T11:00:00+00:00",
+      "bullets": [
+        "Top Trump administration officials intervened to help a Trump golf club pro and a media-connected company secure unusually large half-million-dollar payouts from the IRS.",
+        "The settlement amount is 250 times higher than statutory limits without standard IRS legal consultations, prompting legal experts to question its legitimacy.",
+        "The agreement has raised concerns that it could serve as a backdoor method to fund payouts for Trump's inner circle following the collapse of a previous DOJ settlement proposal."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "We’re Publishing the Tariff Refunds the Government Has Refused to Disclose",
+      "url": "https://www.propublica.org/article/tariff-refund-database-cash-back",
+      "published": "2026-11-19T10:35:00+00:00",
+      "bullets": [
+        "ProPublica published a database detailing over $28 billion in tariff refunds recovered or expected by 343 publicly traded companies following the Supreme Court's February 2026 ruling.",
+        "U.S. Customs and Border Protection refused to publicly disclose which companies are receiving the roughly $170 billion in total refunds or the amounts requested.",
+        "At least nine companies have disclosed plans to use their tariff refunds for bonuses rather than reimbursing consumers who bore the cost through higher prices."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "See How Much Companies Are Getting in Tariff Refunds",
+      "url": "https://projects.propublica.org/trump-tariff-refund-ieepa/",
+      "published": "2026-11-19T10:30:00+00:00",
+      "bullets": [
+        "ProPublica released a database titled \"Cash Back\" detailing tariff refunds under the International Emergency Economic Powers Act.",
+        "The data covers 343 public companies that have recovered or expect to receive refunds.",
+        "The total amount of these tariff refunds exceeds $28 billion."
+      ]
+    },
+    {
+      "source": "ProPublica",
+      "title": "These Teachers Were Charged With Sexual Abuse. California Could Have Revoked Their Licenses Earlier but Didn’t.",
+      "url": "https://www.propublica.org/article/california-educator-licenses-sexual-abuse-criminal-charges",
+      "published": "2026-11-19T10:00:00+00:00",
+      "bullets": [
+        "California's educator licensing agency failed to investigate or revoke the credentials of teachers reported for sexual abuse, allowing them to continue working at multiple schools.",
+        "State investigators omitted interviews with several students who alleged abuse, and panels occasionally overlooked evidence of wrongdoing.",
+        "Accused elementary school counselor David Braff and two other convicted teachers retained their licenses until their criminal arrests years after schools initially reported them."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "The Supreme Court before it stood apart",
-      "url": "https://www.scotusblog.com/2026/11/the-supreme-court-before-it-stood-apart/",
-      "published": "2026-11-18T15:00:00+00:00",
+      "title": "Calls for court packing fail the test of history",
+      "url": "https://www.scotusblog.com/2026/11/calls-for-court-packing-fail-the-test-of-history/",
+      "published": "2026-11-19T15:00:00+00:00",
       "bullets": [
-        "Rachel A. Shelden's new book, The Political Supreme Court, examines how the 19th-century court and public perception differed greatly from today's apolitical ideal.",
-        "Nineteenth-century justices engaged in 'judicial representation' by riding circuit and maintaining regular contact with local communities in their assigned regions.",
-        "Early justices like John Marshall and William Johnson actively participated in political discourse, newspaper writing, and public debates."
+        "Prominent Democrats have increasingly called to expand the Supreme Court to 13 justices to match the number of federal circuits.",
+        "Proponents argue for a one-to-one ratio between justices and circuits, but this justification is pretextual because circuit-riding ended over a century ago.",
+        "Historical changes to the court's size addressed practical administrative needs rather than partisan control, unlike current court-packing proposals."
       ]
     },
     {
       "source": "SCOTUSblog",
-      "title": "An election impact on the Supreme Court’s immigration docket",
-      "url": "https://www.scotusblog.com/2026/11/an-election-impact-on-the-supreme-courts-immigration-docket/",
-      "published": "2026-11-18T14:30:00+00:00",
+      "title": "The Supreme Court and congressional investigations",
+      "url": "https://www.scotusblog.com/2026/11/the-supreme-court-and-congressional-investigations/",
+      "published": "2026-11-19T14:00:00+00:00",
       "bullets": [
-        "The Supreme Court is considering whether to hear a case regarding the constitutionality of Iowa's 2024 immigration law, Senate File 2340.",
-        "Iowa's law criminalizes certain immigration conduct and allows state judges to order defendants to leave the United States.",
-        "Lower federal courts previously ruled that the state law is preempted by federal immigration authority and blocked its enforcement."
+        "The Trump administration asked the Supreme Court to block a ruling that maintained the Temporary Protected Status program for Venezuelan nationals.",
+        "The Supreme Court's December argument session is scheduled to begin on Monday, November 30."
       ]
     },
     {
-      "source": "SCOTUSblog",
-      "title": "All eyes on the justices’ next private conference",
-      "url": "https://www.scotusblog.com/2026/11/all-eyes-on-the-justices-next-private-conference/",
-      "published": "2026-11-18T14:00:00+00:00",
+      "source": "Onest Network",
+      "title": "Kremlin Reveals Trump-Putin-Xi Summit Document: What Russia, China and US Agreed On",
+      "url": "https://www.onestnetwork.com/kremlin-reveals-trump-putin-xi-summit-document-what-russia-china-and-us-agreed-on/",
+      "published": "2026-11-19T12:07:52+00:00",
       "bullets": [
-        "The Supreme Court announced that several notable petitions will be considered at the justices' upcoming private conference on December 4.",
-        "The pending disputes include challenges regarding the Trump administration's ban on transgender servicemembers and the appointment of acting U.S. attorneys.",
-        "The Court's next argument session is scheduled to begin on Monday, November 30."
+        "The Kremlin published a four-point agreement following a trilateral summit between Donald Trump, Vladimir Putin, and Xi Jinping covering UN reform, energy cooperation, international criminal justice, and nuclear security.",
+        "The proposed UN reform calls for strengthening international security while omitting any limits on the veto powers held by Russia, China, and the United States.",
+        "The leaders agreed to increase energy production and market stability, which directly benefits Russia's war economy despite existing Western sanctions.",
+        "The document emphasizes state sovereignty and official immunity to prevent the International Criminal Court from exercising its powers, which is particularly beneficial for Putin due to his existing arrest warrant."
+      ]
+    },
+    {
+      "source": "Adam Grant, Granted",
+      "title": "It’s Wrong to Give Leaders a Pass for Wrongdoing",
+      "url": "",
+      "published": "2026-11-19T21:09:20+00:00",
+      "bullets": [
+        "The CEO of the world's most valuable company recently resigned following confessions of affairs with subordinates and a suspected Chinese spy.",
+        "Research utilizing leaked Ashley Madison data demonstrates that individuals who cheat on their romantic partners are statistically more likely to commit professional misconduct.",
+        "Traits like opportunism, entitlement, and greed transcend personal lives, showing that personal integrity and professional behavior are deeply connected."
+      ]
+    },
+    {
+      "source": "Heather Cox Richardson from Letters from an American",
+      "title": "The Gettysburg Address",
+      "url": "",
+      "published": "2026-11-19T19:33:07+00:00",
+      "bullets": [
+        "The publication is an edition of Letters from an American by Heather Cox Richardson titled The Gettysburg Address.",
+        "The content primarily consists of subscription prompts, listening links, and social media directories rather than substantive article text."
+      ]
+    },
+    {
+      "source": "Louis-François from What's AI",
+      "title": "A(nother) small win and a big thank you!!",
+      "url": "",
+      "published": "2026-11-19T18:51:43+00:00",
+      "bullets": [
+        "Louis-François from What's AI announced reaching a milestone of 43 paid subscribers.",
+        "The author expressed gratitude to both paid and free subscribers for supporting the newsletter's mission to make AI accessible.",
+        "Work is underway on finishing the upcoming book, AI Engineering for Production, which will be provided as a free ebook to paid subscribers."
       ]
     },
     {
       "source": "The Freedom Frequency",
-      "title": "Principles for an International Monetary and Financial Commons",
+      "title": "Sanctions and Other Consolations",
       "url": "",
-      "published": "2026-11-18T20:30:47+00:00",
+      "published": "2026-11-19T18:35:52+00:00",
       "bullets": [
-        "The international financial system functions as a commons prone to degradation and the tragedy of the commons without proper maintenance.",
-        "The historical Bretton Woods rules-based order ultimately failed because it could not accommodate large trade flows, capital movements, or U.S. inflation.",
-        "The subsequent shift to floating exchange rates introduced significant real relative price volatility that harms businesses, as exchange rates remain unpredictable."
+        "Politicians frequently favor economic sanctions because they create the appearance of toughness at minimal domestic cost.",
+        "Historical records and academic research demonstrate that economic sanctions rarely achieve their intended goals.",
+        "Economic theory indicates that sanctions fail largely because authoritarian rulers managed to avoid bearing the true costs."
       ]
     },
     {
-      "source": "Phillips P. OBrien and Ben Hodges from Phillips’s",
-      "title": "Live with Phillips P. OBrien and Ben Hodges",
+      "source": "Galen Druke",
+      "title": "How The Merely Rich Wield Power In The Age Of Billionaires",
       "url": "",
-      "published": "2026-11-18T17:49:07+00:00",
+      "published": "2026-11-19T18:25:36+00:00",
       "bullets": [
-        "Phillips P. OBrien and Ben Hodges hosted a live video discussion lasting thirty minutes.",
-        "A recording of the live session was published on November 18, 2026."
+        "Economists Owen Zidar and Eric Zwick argue that focusing solely on outlier tech billionaires distorts our understanding of American wealth and political influence.",
+        "A significant portion of America's wealth is generated by mundane local enterprises such as car dealerships, dental offices, and construction firms.",
+        "Owners of these widespread, mid-tier businesses collectively wield enormous influence over taxes, regulations, and the economy."
       ]
     },
     {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Rep. Raja Krishnamoorthi on the Strength of Democracy",
-      "url": "",
-      "published": "2026-11-18T17:05:35+00:00",
+      "source": "AVDD",
+      "title": "AVDD Strait of Hormuz SITREP",
+      "url": "https://avddemocracy.substack.com/p/avdd-strait-of-hormuz-sitrep-a1a",
+      "published": "2026-11-19T18:02:58+00:00",
       "bullets": [
-        "Rep. Raja Krishnamoorthi emphasizes that Democrats must ban corrupt practices like stock trading for everyone, including themselves, while addressing both democracy and prosperity.",
-        "The discussion highlighted the necessity for public officials to make a basic choice between making money and serving the public.",
-        "Participants addressed the authority of Congress and the importance of rolling back emergency powers that allow the executive branch to bypass constitutional limits."
-      ]
-    },
-    {
-      "source": "G. Elliott Morris",
-      "title": "Poll: Trump hits a new low; Americans split on impeachment, favor bills to reduce costs and corruption",
-      "url": "",
-      "published": "2026-11-18T17:02:35+00:00",
-      "bullets": [
-        "President Trump's approval rating dropped to a new low of 31% following the Democratic midterm victory.",
-        "A majority of Americans want the new Congress to prioritize lowering prices and conducting administrative oversight.",
-        "The public is evenly split on whether the House should impeach the president, but favors removal by a 51% to 39% margin if impeachment occurs."
-      ]
-    },
-    {
-      "source": "Robert Reich",
-      "title": "Schumer or Van Hollen?",
-      "url": "",
-      "published": "2026-11-18T16:47:48+00:00",
-      "bullets": [
-        "Senate Democrats will choose between Chuck Schumer and Chris Van Hollen for their next Majority Leader on December 1.",
-        "The upcoming leadership vote will serve as an important signal for the future direction of the Democratic Party.",
-        "The decision involves participating incumbent and newly elected senators, excluding those retiring or replaced."
-      ]
-    },
-    {
-      "source": "Center for Politics at UVA",
-      "title": "Sabato's Crystal Ball - Virginia 2026: Even Bluer than 2025 - Vol. 24, Iss. 88",
-      "url": "",
-      "published": "2026-11-18T16:50:31+00:00",
-      "bullets": [
-        "Virginia Democrats followed up on their strong 2025 performance with another very blue election in 2026.",
-        "Senator Mark Warner secured reelection by a wide margin, and Democrats successfully flipped two U.S. House seats.",
-        "Republicans managed to retain the 5th District due to a continuing reddening trend in Southside Virginia."
-      ]
-    },
-    {
-      "source": "Gabe Fleisher",
-      "title": "Generation Swing",
-      "url": "",
-      "published": "2026-11-18T16:50:58+00:00",
-      "bullets": [
-        "Historically, voters under 30 voted similarly to older demographics until a noticeable generational gap began to emerge in the 1990s and 2000s.",
-        "Following decades of strong alignment with the Democratic Party, young voters experienced a notable 17-point shift to the right in the 2024 election.",
-        "Young men specifically moved from supporting Joe Biden by nine points in 2020 to supporting Donald Trump by 14 points in 2024."
+        "Gulf crude oil exports have partially recovered to prewar levels despite ongoing attacks on commercial shipping in the Strait of Hormuz.",
+        "Saudi-Houthi hostilities have intensified, marked by a Houthi missile strike that damaged a major tower in Riyadh.",
+        "The International Energy Agency characterizes the ongoing conflict as the largest energy supply shock in history."
       ]
     },
     {
       "source": "Prof Robert Pape",
-      "title": "Where Did Iran’s Bomb Fuel Go? — What the Satellite Photos Show",
+      "title": "The Summit Failed — Why Trump and Putin Won’t Quit",
       "url": "",
-      "published": "2026-11-18T13:56:28+00:00",
+      "published": "2026-11-19T16:42:55+00:00",
       "bullets": [
-        "The IAEA issued a warning that it has lost track of 440 kilograms of near bomb-grade uranium in Iran and cannot locate its newest enrichment plant.",
-        "Satellite imagery from June 2025 indicates trucks may have removed enriched uranium from the Fordow site shortly before American airstrikes.",
-        "Recent satellite photos show ongoing excavation and vehicle activity at the Isfahan tunnel complex, where the missing nuclear material is believed to be relocated."
+        "The recent Shenzhen summit failed to address critical issues regarding the wars in Ukraine and Iran, resulting in a peace declaration that omitted key conflicts.",
+        "Leaders like Donald Trump and Vladimir Putin refuse to quit their respective losing conflicts because exiting without a deal guarantees immediate political ruin.",
+        "Both leaders are instead choosing to escalate their military engagements, mirroring historical precedents like Lyndon Johnson's actions in Vietnam."
       ]
     },
     {
-      "source": "Timothy Snyder from \\\"Thinking about...\\",
-      "title": "Now We Act: With Rep. Jamie Raskin on the Constitution vs. Corruption",
+      "source": "Jacob Morgan",
+      "title": "Weekly Briefing: 200,000+ People Call for Jensen Huang’s Return, Microsoft 365 Goes Down, & the Fed Warns AI Could…",
       "url": "",
-      "published": "2026-11-18T13:46:28+00:00",
+      "published": "2026-11-19T15:30:45+00:00",
       "bullets": [
-        "Timothy Snyder features Representative Jamie Raskin in an unscripted conversation for the Now We Act series.",
-        "Raskin is highlighted as the presumptive chair of the House Judiciary Committee.",
-        "The discussion focuses on upholding the Constitution against corruption and tyranny."
+        "Over 200,000 supporters and employees petitioned for Jensen Huang's return as Nvidia's CEO, though the board unanimously rejected the campaign.",
+        "A global Microsoft 365 outage highlighted the heavy reliance of modern organizations on a limited number of technology infrastructure providers.",
+        "The Federal Reserve warned that artificial intelligence productivity gains and labor impacts could disproportionately affect younger workers."
       ]
     },
     {
-      "source": "Prof Robert Pape from Escalation Trap",
-      "title": "All Three Iran Warning Signs Now Flashing — RED",
-      "url": "https://escalationtrap.substack.com/p/all-three-iran-warning-signs-now",
-      "published": "2026-11-18T13:10:29+00:00",
+      "source": "Center for Politics at UVA",
+      "title": "Sabato's Crystal Ball - Americans Want AI Rules, But Aren't Sure They Would Work - Vol. 24, Iss. 89",
+      "url": "",
+      "published": "2026-11-19T15:26:47+00:00",
       "bullets": [
-        "Prof Robert Pape warns that all three escalation warning signs regarding Iran have flashed red within a two-week period.",
-        "Washington is currently discussing the threat of a dirty bomb in relation to Iran.",
-        "President Trump recently stated that Iran would face unprecedented consequences."
+        "Majorities of Americans favor proposed artificial intelligence regulations, but a smaller share believes those rules would actually be effective.",
+        "Citizens express more trust in specific duties, such as mandatory human oversight or content labels, than in the creation of new institutions or regulatory agencies.",
+        "Republicans and Democrats largely agree on supporting AI rules, though Republicans show slightly higher confidence in their effectiveness."
       ]
     },
     {
-      "source": "Kasparov's Next Move",
-      "title": "In Defense of Sarah Longwell. Against One-Party Democracy.",
+      "source": "Louis-François from Learn AI Together",
+      "title": "LAI #152: Is Your Agent Failing Outside the Model?",
       "url": "",
-      "published": "2026-11-18T13:03:47+00:00",
+      "published": "2026-11-19T15:03:37+00:00",
       "bullets": [
-        "Garry Kasparov defends Sarah Longwell against critics who accused her of abandoning conservative principles by aligning with Democrats.",
-        "Kasparov argues that principled conservatives have naturally aligned with Democrats because the Republican Party under Donald Trump has become authoritarian.",
-        "The author contends that American democracy suffers because the Democratic Party is currently the only major political option operating from a baseline of free and fair elections."
+        "Agent failures are frequently caused by surrounding system issues like missing tools, context compaction, and data-pipeline controls rather than the underlying model.",
+        "The publication explores harness design, tool selection strategies, and JEPA world models to improve agent reliability and performance.",
+        "A practical tip for reducing hallucinations involves asking models to provide word-for-word quotes supporting their claims or replacing unsupported statements with brackets."
       ]
     },
     {
-      "source": "Don Moynihan, William Resh, and Gary Hollibaugh from Can We Still Govern?",
-      "title": "Trauma, Not Dignity",
+      "source": "Data Science Weekly",
+      "title": "Data Science Weekly - Issue 678",
       "url": "",
-      "published": "2026-11-18T12:38:32+00:00",
+      "published": "2026-11-19T14:38:10+00:00",
       "bullets": [
-        "Federal employee departures driven by the voluntary resignation program were frequently coerced rather than truly voluntary.",
-        "The federal workforce experienced a net loss of approximately 280,000 employees between January 2025 and August 2026.",
-        "The vast majority of federal workforce reductions occurred through resignations and retirements rather than direct firings."
+        "Data Science Weekly Issue 678 features curated news, articles, and jobs related to data science, AI, and machine learning.",
+        "Featured topics include an algorithmic analysis of SimCity source code, an interactive app demonstrating Bayesian updating, and the emergence of the Data Intelligence Engineer role in AI-enabled teams."
       ]
     },
     {
-      "source": "FiftyPlusOne.news",
-      "title": "How “wave babies” took over Congress",
+      "source": "G. Elliott Morris",
+      "title": "Poll: No clear leader in 2028 Democratic primary; Rubio leads Vance for GOP nod",
       "url": "",
-      "published": "2026-11-18T12:03:38+00:00",
+      "published": "2026-11-19T13:49:11+00:00",
       "bullets": [
-        "At least 109 seats in the U.S. House of Representatives will be held by freshmen in January 2027, marking the largest congressional turnover in decades.",
-        "The surge in newcomers is driven by both a Democratic electoral tsunami and a record number of voluntary departures by incumbents.",
-        "A record 61 members chose to retire or run for another office rather than seek reelection, led heavily by Republicans seeking to avoid a difficult political environment."
+        "A November 2026 poll indicates that the 2028 Democratic primary race currently has no clear leader, with nearly half of Democratic voters unable to name a preferred candidate in an open-text prompt.",
+        "Democratic voters express a desire for candidates who are young, authentic, and strong on the economy.",
+        "Marco Rubio holds a slim lead over JD Vance and Ron DeSantis for the 2028 Republican nomination."
       ]
     },
     {
       "source": "Paul Krugman",
-      "title": "Don’t ICEwash or Griftwash the Midterms",
+      "title": "A Bridge, I Mean Post, Too Far",
       "url": "",
-      "published": "2026-11-18T11:31:20+00:00",
+      "published": "2026-11-19T11:31:16+00:00",
       "bullets": [
-        "Paul Krugman argues that attributing the Democratic midterm victory solely to affordability ignores the historic scale of the win and other driving factors.",
-        "Data and polling analysis suggest that Republican policies on immigration enforcement and widespread corruption significantly damaged the party at the ballot box.",
-        "Voter perceptions of issues like cruelty and corruption interacted with economic frustrations rather than existing as isolated concerns."
+        "Paul Krugman was unable to write a full article because he was keynoting at the IMF's Statistical Forum.",
+        "He mentioned taking Amtrak to Washington, D.C., where he observed a passenger watching his video discussion with Heather Cox Richardson.",
+        "He provided a link to the official video and transcript from the CUNY Graduate Center."
       ]
     },
     {
-      "source": "Your Local Epidemiologist",
-      "title": "The U.S. lost measles elimination after 26 years. Now what?",
+      "source": "Tom Schaller from Public Notice",
+      "title": "The National Popular Vote Plan, explained",
       "url": "",
-      "published": "2026-11-18T11:31:10+00:00",
+      "published": "2026-11-19T11:17:29+00:00",
       "bullets": [
-        "The United States has officially lost its measles elimination status after 26 years due to declining vaccination rates across numerous communities.",
-        "More than 28 percent of U.S. counties now fall below the 90 percent MMR vaccination threshold required to maintain herd immunity.",
-        "Falling vaccination coverage has led to outbreaks causing preventable illnesses, hospitalizations, and deaths, predominantly affecting unvaccinated children."
+        "Recent state-level Democratic victories have renewed interest in passing the National Popular Vote Plan.",
+        "The NPVP is an interstate compact designed to ensure the winner of the national popular vote secures the presidency.",
+        "Advocates argue the plan prevents outcomes where a candidate wins the White House despite receiving fewer popular votes nationwide."
       ]
     },
     {
-      "source": "Liz Dye from Public Notice",
-      "title": "White House prepares to give Congress the finger",
+      "source": "Michael Spencer and Michael Fritzell from AI Supremacy",
+      "title": "ANT, the IPO of the Century",
       "url": "",
-      "published": "2026-11-18T11:17:29+00:00",
+      "published": "2026-11-19T10:10:31+00:00",
       "bullets": [
-        "White House Counsel Will Scharf issued a memo requiring federal agencies to obtain White House approval before testifying before congressional committees.",
-        "The directive is a radical departure from established policy and directly conflicts with federal law protecting the right of federal employees to furnish information to Congress.",
-        "The administration's move comes as officials prepare to resist congressional oversight following Democrats taking control of the House and Senate."
-      ]
-    },
-    {
-      "source": "Michael Spencer and Jeff Morhous from AI Supremacy",
-      "title": "Grok Bot vs Dots: Which is the better personal agent?",
-      "url": "",
-      "published": "2026-11-18T10:15:32+00:00",
-      "bullets": [
-        "The article compares personal AI agents including Grok Bot and OpenAI's Dots while highlighting major industry events such as Anthropic's upcoming IPO and Nvidia's earnings.",
-        "Anthropic is slated to list on the Nasdaq under the ticker symbol ANT as its revenue and product ecosystem rapidly expand.",
-        "Nvidia faces stock corrections down 36 percent from its all-time high despite generating significant quarterly revenue compared to leading AI startups."
-      ]
-    },
-    {
-      "source": "Klement on Investing",
-      "title": "What the last two bubbles tell us about the AI boom",
-      "url": "",
-      "published": "2026-11-18T09:40:15+00:00",
-      "bullets": [
-        "Wall Street analysts remained overwhelmingly bullish at the peak of the 1990s tech bubble and the onset of the 2008 financial crisis.",
-        "Analyst recommendations for current artificial intelligence stocks mirror past market peaks by staying overwhelmingly positive despite accumulating bad news.",
-        "The central question surrounding the current AI market boom is whether it will conclude with a sudden crash or a slow deflation."
+        "Anthropic priced its IPO at $83 per share, aiming to raise roughly $94.48 billion in gross proceeds.",
+        "Founded by former OpenAI talent, Anthropic and OpenAI have collectively raised $428.4 billion, accounting for about 27 percent of all startup AI funding over five years.",
+        "Alphabet and Amazon hold a combined 28 percent equity stake in Anthropic, tied closely to cloud computing and TPU incentives."
       ]
     },
     {
       "source": "Robert Reich",
-      "title": "Office Hours: Who Should Be the Next Senate Majority Leader?",
-      "url": "https://robertreich.substack.com/p/office-hours-who-should-be-the-next&coupon=d77dee36",
-      "published": "2026-11-18T09:02:18+00:00",
+      "title": "The Authoritarian Economy",
+      "url": "",
+      "published": "2026-11-19T09:02:17+00:00",
       "bullets": [
-        "Democrats will hold 56 seats in the Senate next year following the election of Mary Peltola.",
-        "Incumbent Senate Democratic Leader Chuck Schumer faces a challenge from Maryland Senator Chris Van Hollen for the majority leader position.",
-        "The secret ballot vote to determine the next Senate majority leader is scheduled for December 1."
+        "Jensen Huang stated he would return as Nvidia CEO if requested by the board following his resignation amid a controversy involving intelligence agency allegations.",
+        "Robert Reich argues that the American economy has shifted from a democratic model toward an authoritarian one controlled by a handful of powerful tech executives.",
+        "Nvidia's recent market volatility highlights how the broader AI industry and the economy have become dangerously dependent on single corporate leaders considered too big to fail."
       ]
     }
   ],
-  "articles_processed": 39,
+  "articles_processed": 38,
   "articles_attempted": 39,
   "publications": [
+    "Louis-François from What's AI",
+    "Onest Network",
     "Prof Robert Pape",
-    "The Freedom Frequency",
-    "Gabe Fleisher",
-    "G. Elliott Morris",
-    "Don Moynihan, William Resh, and Gary Hollibaugh from Can We Still Govern?",
-    "Kasparov's Next Move",
-    "John Ellis",
-    "Phillips P. OBrien and Ben Hodges from Phillips’s",
-    "Paul Krugman",
-    "Liz Dye from Public Notice",
-    "Scott Galloway",
-    "Robert Reich",
-    "Slow Boring",
-    "Your Local Epidemiologist",
-    "FiftyPlusOne.news",
-    "ProPublica",
-    "Michael Spencer and Jeff Morhous from AI Supremacy",
-    "Prof Robert Pape from Escalation Trap",
-    "Center for Politics at UVA",
-    "Klement on Investing",
+    "Data Science Weekly",
     "SCOTUSblog",
-    "Timothy Snyder from \\\"Thinking about...\\",
-    "The Bulwark"
+    "G. Elliott Morris",
+    "Michael Spencer and Michael Fritzell from AI Supremacy",
+    "Slow Boring",
+    "The Freedom Frequency",
+    "Jacob Morgan",
+    "Paul Krugman",
+    "The Bulwark",
+    "Heather Cox Richardson from Letters from an American",
+    "John Ellis",
+    "AVDD",
+    "Scott Galloway",
+    "Louis-François from Learn AI Together",
+    "Robert Reich",
+    "ProPublica",
+    "Center for Politics at UVA",
+    "Galen Druke",
+    "Adam Grant, Granted",
+    "Tom Schaller from Public Notice"
   ],
-  "generated_at": "2026-11-18T21:07:16.889770+00:00",
+  "generated_at": "2026-11-19T21:12:17.400170+00:00",
   "run_label": "7 AM",
-  "archive_filename": "2026-11-18-2107.json"
+  "archive_filename": "2026-11-19-2112.json"
 }

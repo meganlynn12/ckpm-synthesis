@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-11-19",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-19T21:12:17.400170+00:00",
+    "filename": "2026-11-19-2112.json",
+    "articles_processed": 38,
+    "publications": [
+      "Louis-François from What's AI",
+      "Onest Network",
+      "Prof Robert Pape",
+      "Data Science Weekly",
+      "SCOTUSblog",
+      "G. Elliott Morris",
+      "Michael Spencer and Michael Fritzell from AI Supremacy",
+      "Slow Boring",
+      "The Freedom Frequency",
+      "Jacob Morgan",
+      "Paul Krugman",
+      "The Bulwark",
+      "Heather Cox Richardson from Letters from an American",
+      "John Ellis",
+      "AVDD",
+      "Scott Galloway",
+      "Louis-François from Learn AI Together",
+      "Robert Reich",
+      "ProPublica",
+      "Center for Politics at UVA",
+      "Galen Druke",
+      "Adam Grant, Granted",
+      "Tom Schaller from Public Notice"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-18",
     "run_label": "7 AM",
     "generated_at": "2026-11-18T21:07:16.889770+00:00",
