@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-11-20",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-20T20:56:36.199759+00:00",
+    "filename": "2026-11-20-2056.json",
+    "articles_processed": 35,
+    "publications": [
+      "G. Elliott Morris",
+      "Michael Spencer from AI Supremacy",
+      "Paul Krugman",
+      "Jon Haidt from After Babel",
+      "Citrini",
+      "Gabe Fleisher",
+      "John Ellis",
+      "Lisa Needham from Public Notice",
+      "Robert Reich",
+      "Slow Boring",
+      "Kasparov's Next Move",
+      "Richard Haass, Home & Away",
+      "Kareem Abdul-Jabbar",
+      "Open Letters, from Anne Applebaum",
+      "SCOTUSblog",
+      "ProPublica",
+      "The Bulwark",
+      "Heather Cox Richardson from Letters from an American",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-19",
     "run_label": "7 AM",
     "generated_at": "2026-11-19T21:12:17.400170+00:00",
