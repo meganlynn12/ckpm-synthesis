@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-21",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-21T19:57:36.613734+00:00",
+    "filename": "2026-11-21-1957.json",
+    "articles_processed": 19,
+    "publications": [
+      "Slow Boring",
+      "Kasparov's Next Move",
+      "Timothy Snyder from \\\"Thinking about...\\",
+      "Michael Spencer and Jeff Morhous from AI Supremacy",
+      "ProPublica",
+      "Paul Krugman",
+      "The Bulwark",
+      "Phillips P. OBrien and Persuasion from Phillips’s",
+      "Brynn Tannehill from Public Notice",
+      "Heather Cox Richardson from Letters from an American",
+      "Louis-François from What's AI",
+      "John Ellis from Political News Items",
+      "Robert Reich",
+      "Scott Galloway"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-20",
     "run_label": "7 AM",
     "generated_at": "2026-11-20T20:56:36.199759+00:00",
