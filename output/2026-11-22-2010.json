@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-22",
+  "narrative_summary": "",
+  "source_summaries": [
+    {
+      "source": "The Bulwark",
+      "title": "Putin Got Everything He Wanted From Trump (w/ Robert Kagan) | Bulwark on Sunday",
+      "url": "https://www.thebulwark.com/p/putin-got-everything-he-wanted-from",
+      "published": "2026-11-22T18:11:17+00:00",
+      "bullets": [
+        "Bill Kristol and Robert Kagan warn that Vladimir Putin may test NATO defenses within months following a recent summit.",
+        "Iran is tightening its strategic grip on the Strait of Hormuz amid mounting geopolitical tensions.",
+        "An isolationist United States remains dangerously unprepared for multiplying global crises."
+      ]
+    },
+    {
+      "source": "The Bulwark",
+      "title": "Rising MAGA Star Has Secret Ties to a Russian Intel Op",
+      "url": "https://www.thebulwark.com/p/rising-maga-star-elizabeth-lane-has-secret-ties-russian-intelligence",
+      "published": "2026-11-22T13:03:54+00:00",
+      "bullets": [
+        "Right-wing media personality Elizabeth Lane rapidly grew her following after receiving an endorsement from Tucker Carlson and appearing on shows hosted by prominent figures like Candace Owens and Alex Jones.",
+        "Lane has faced scrutiny for extreme rhetoric, including claiming the moon landing was staged, calling America the cancer of the world, and stating she would welcome Russian nuclear strikes on the United Kingdom.",
+        "Newly published hacked messages from the laptop of American defector John Mark Dougan indicate that Lane has secret ties to a Russian intelligence operation and suggest her rise on the American right may be part of that effort."
+      ]
+    },
+    {
+      "source": "John Ellis",
+      "title": "Weekend Edition.",
+      "url": "https://substack.news-items.com/p/weekend-edition-a62",
+      "published": "2026-11-22T12:28:57+00:00",
+      "bullets": [
+        "Mathematician Levent Alpöge announced that Anthropic's Claude software helped prove the Riemann hypothesis over a six-week period.",
+        "Google has expanded its quantum computing research by opening a new Colorado lab to pursue an alternative development path alongside its existing California facility.",
+        "Google researchers published a study in Science demonstrating quantum contextuality on an experimental quantum computer."
+      ]
+    },
+    {
+      "source": "Prof Robert Pape",
+      "title": "Rahul Gandhi on the Iran War — India’s Path to a Seat at the Table",
+      "url": "",
+      "published": "2026-11-22T14:51:46+00:00",
+      "bullets": [
+        "Rahul Gandhi discussed India's geopolitical potential and the Iran war during an address at the University of Chicago.",
+        "He emphasized that global power follows industrial production, specifically highlighting the strategic importance of manufacturing drone technology.",
+        "Gandhi outlined India's path to global leadership through prioritizing education, restarting domestic production, and leveraging its democratic pluralism."
+      ]
+    },
+    {
+      "source": "Mykola Bielieskov",
+      "title": "Ukraine is suggested “big nothing” within Trilateral process arranged by Donald Trump administration",
+      "url": "",
+      "published": "2026-11-22T14:20:37+00:00",
+      "bullets": [
+        "The Trump administration's proposed trilateral peace process suggests Ukraine trade its vital Donetsk region fortress belt in exchange for vague security commitments.",
+        "The offered security package relies on promises rather than permanent peacetime troop deployments, lacking any credible deterrence against future Russian aggression.",
+        "Analyst Mykola Bielieskov concludes the entire proposal offers Ukraine a big nothing reminiscent of the 1994 Budapest Memorandum."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "This theory explains why so many 2024 Trump voters defected in 2026",
+      "url": "",
+      "published": "2026-11-22T11:26:02+00:00",
+      "bullets": [
+        "Republicans lost the 2026 midterms because voters turned against Trumpism as a broader policy package rather than a single decisive issue.",
+        "The Gestalt Shift Theory suggests that previous Trump supporters accumulated disagreements until their overall impression of the president and the party flipped.",
+        "Initial data and polling for the 2028 presidential primaries are also being analyzed to track voter alignment."
+      ]
+    },
+    {
+      "source": "Phillips P. OBrien from Phillips’s",
+      "title": "Weekend Update #212: The Clock Is Ticking",
+      "url": "",
+      "published": "2026-11-22T07:43:40+00:00",
+      "bullets": [
+        "The author criticizes Donald Trump's summit with Vladimir Putin and Xi Jinping in Shenzhen, China, arguing it prioritizes personal flattery over protecting American service members.",
+        "The Trump administration reportedly recognizes that upcoming majorities in both houses of the U.S. Congress will constrain their freedom to aid Russia starting January 3, 2027.",
+        "The destruction of the road portion of the Kerch Bridge carries significant strategic importance beyond the physical damage inflicted."
+      ]
+    }
+  ],
+  "articles_processed": 7,
+  "articles_attempted": 11,
+  "publications": [
+    "The Bulwark",
+    "Mykola Bielieskov",
+    "John Ellis",
+    "Phillips P. OBrien from Phillips’s",
+    "Prof Robert Pape",
+    "G. Elliott Morris"
+  ],
+  "generated_at": "2026-11-22T20:10:06.725311+00:00",
+  "run_label": "7 AM",
+  "archive_filename": "2026-11-22-2010.json"
+}

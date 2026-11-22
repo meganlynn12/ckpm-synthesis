@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-22",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-22T20:10:06.725311+00:00",
+    "filename": "2026-11-22-2010.json",
+    "articles_processed": 7,
+    "publications": [
+      "The Bulwark",
+      "Mykola Bielieskov",
+      "John Ellis",
+      "Phillips P. OBrien from Phillips’s",
+      "Prof Robert Pape",
+      "G. Elliott Morris"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-21",
     "run_label": "7 AM",
     "generated_at": "2026-11-21T19:57:36.613734+00:00",
