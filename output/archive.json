@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-11-24",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-24T00:36:50.732004+00:00",
+    "filename": "2026-11-24-0036.json",
+    "articles_processed": 23,
+    "publications": [
+      "The Bulwark",
+      "Robert Reich",
+      "SCOTUSblog",
+      "Scott Galloway",
+      "Energy Common Sense",
+      "Slow Boring",
+      "Galen Druke",
+      "Azeem Azhar, Exponential View",
+      "Jon Haidt from After Babel",
+      "The Freedom Frequency",
+      "Prof Robert Pape",
+      "Onest Network",
+      "Louis-François from What's AI",
+      "Phillips P. OBrien from Phillips’s",
+      "From Sam Harris",
+      "Heather Cox Richardson from Letters from an American"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-22",
     "run_label": "7 AM",
     "generated_at": "2026-11-22T20:10:06.725311+00:00",
