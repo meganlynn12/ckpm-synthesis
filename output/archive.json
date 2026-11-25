@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-25",
+    "run_label": "7 AM",
+    "generated_at": "2026-11-25T22:09:38.143464+00:00",
+    "filename": "2026-11-25-2209.json",
+    "articles_processed": 37,
+    "publications": [
+      "",
+      "Gabe Fleisher",
+      "Lisa Needham from Public Notice",
+      "Scott Galloway",
+      "Your Local Epidemiologist",
+      "Slow Boring",
+      "SCOTUSblog",
+      "Ruth Ben-Ghiat from Lucid",
+      "Louis-François from Learn AI Together",
+      "Michael Spencer and Jenny Ouyang from AI Supremacy",
+      "ProPublica",
+      "Robert Reich",
+      "Phillips P. OBrien from Phillips’s",
+      "FiftyPlusOne.news",
+      "John Ellis",
+      "Paul Krugman",
+      "Phillips P. OBrien and Oleksiy Moskalenko from Phillips’s",
+      "Onest Network",
+      "The Bulwark",
+      "Kasparov's Next Move",
+      "Kira Tebbe and Sarah Esty from Can We Still Govern?"
+    ],
+    "manual": false
+  },
+  {
     "date": "2026-11-24",
     "run_label": "7 AM",
     "generated_at": "2026-11-24T22:55:41.079683+00:00",
