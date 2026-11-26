@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-26",
+  "narrative_summary": "Recent developments highlight acute systemic strains across institutional, technological, and geopolitical landscapes. In national politics, allegations of a multi-million-dollar pay-to-play pardon scheme and plans for sweeping preemptive pardons coincide with far-right online factions leveraging digital stunts for future positioning. Geopolitically, leaked data reveals that escalating casualty rates and severe manpower deficits are placing the Russian military on a steep degradation trajectory. Simultaneously, economic and corporate sectors grapple with high-stakes adjustments, ranging from a prominent investor liquidating equity holdings amid skepticism over the artificial intelligence market to CHROs navigating the complex futures of workplace AI and culture. Across these domains, decision-makers face profound structural pressures as they attempt to manage technological acceleration, political corruption, and escalating operational attrition.",
+  "source_summaries": [
+    {
+      "source": "Slow Boring",
+      "title": "“The Argument” podcast, ad free: Revisiting the affirmative action debate",
+      "url": "https://www.slowboring.com/p/the-argument-podcast-ad-free-revisiting",
+      "published": "2026-11-26T11:01:59+00:00",
+      "bullets": [
+        "The podcast episode revisits a contentious debate between Matt and Jerusalem regarding affirmative action.",
+        "Washington, D.C., area fans are invited to attend an upcoming live show at Miracle Theatre on December 9."
+      ]
+    },
+    {
+      "source": "Bulwark Takes",
+      "title": "Sam Stein Picked the Wrong Week to Go on “Vacation”",
+      "url": "",
+      "published": "2026-11-26T21:01:32+00:00",
+      "bullets": [
+        "Tim Miller and Will Sommer analyze the far-right internet movement promoting former Trump aide Johnny McEntee as a potential 2028 presidential candidate.",
+        "The discussion examines whether online straw polls and a mystery dark horse candidate teased by Nick Fuentes indicate a serious MAGA political project or an internet stunt.",
+        "The episode also covers Clavicular pushing back against right-wing narratives and critiques a Department of Education video game."
+      ]
+    },
+    {
+      "source": "Mykola Bielieskov",
+      "title": "Figure of Russian manpower losses in Ukraine deserves larger context",
+      "url": "",
+      "published": "2026-11-26T15:13:34+00:00",
+      "bullets": [
+        "Stolen statistical data indicates actual Russian casualties since February 2022 exceed 700,000 dead, which is 1.6 times higher than earlier estimates.",
+        "Over the past six months, Russia has lost more personnel than it has recruited, with October 2026 seeing roughly 54,400 losses against 34,000 new contracts.",
+        "This growing manpower deficit puts the Russian Armed Forces on a degradation trajectory and forces the Kremlin to rely on undermining Ukraine's rear."
+      ]
+    },
+    {
+      "source": "Jacob Morgan",
+      "title": "The 5 Futures of Work Every CHRO Should Be Preparing For",
+      "url": "https://greatleadership.substack.com/p/the-5-futures-of-work-every-chro&coupon=2177762c",
+      "published": "2026-11-26T15:02:56+00:00",
+      "bullets": [
+        "The article introduces a futurist framework called the Cone of Possibilities to help CHROs understand how current decisions regarding AI, culture, and talent shape long-term organizational trajectories.",
+        "It outlines five potential futures of work, four of which demonstrate the risks of pushing valuable workplace elements to unhealthy extremes.",
+        "One specific future, the Empathy Paradox, illustrates the danger of organizations becoming so averse to discomfort that managers avoid giving necessary feedback and accountability."
+      ]
+    },
+    {
+      "source": "Louis-François from Learn AI Together",
+      "title": "LAI #153: What Keeps a Deep Network From Falling Apart?",
+      "url": "",
+      "published": "2026-11-26T15:00:38+00:00",
+      "bullets": [
+        "DeepSeek's mHC helps maintain stability along the residual path in deep neural networks.",
+        "Meta's RAM research demonstrates how models can self-improve memory management through harness optimization and distillation.",
+        "Anthropic shares prompt fixes to prevent models like Claude Fable 5.2 from stopping halfway through tasks."
+      ]
+    },
+    {
+      "source": "G. Elliott Morris",
+      "title": "Taking a break for Thanksgiving",
+      "url": "",
+      "published": "2026-11-26T14:45:53+00:00",
+      "bullets": [
+        "The author appreciates the autonomy and flexibility that come with writing his newsletter compared to traditional jobs.",
+        "He notes that lacking external management often leads to overworking and difficulty disconnecting.",
+        "The author is taking the rest of the week off for Thanksgiving to spend time with his family, with regular posts resuming next week."
+      ]
+    },
+    {
+      "source": "Bulwark Takes",
+      "title": "Trump’s Pardon Racket Is Attracting Some Very Familiar Crooks (w/ Liz Oyer)",
+      "url": "",
+      "published": "2026-11-26T14:03:47+00:00",
+      "bullets": [
+        "Pardon brokers are reportedly making millions by selling access to President Trump in an unprecedented pay-to-play operation.",
+        "Former DOJ pardon attorney Liz Oyer discussed a $50 million arrangement involving Alina Habba and Jamie Raskin's plans to investigate the financial trail.",
+        "President Trump is planning sweeping preemptive pardons designed to shield his entire administration from prosecution."
+      ]
+    },
+    {
+      "source": "Heather Cox Richardson from Letters from an American",
+      "title": "Thanksgiving",
+      "url": "",
+      "published": "2026-11-26T12:15:58+00:00",
+      "bullets": [
+        "The provided text contains promotional and navigational links rather than substantive article content.",
+        "No distinct news facts or editorial arguments are present in the source material to summarize."
+      ]
+    },
+    {
+      "source": "Klement on Investing",
+      "title": "Klement on Master Investor podcast",
+      "url": "",
+      "published": "2026-11-26T10:02:09+00:00",
+      "bullets": [
+        "Joachim Klement appeared on the Master Investor podcast with Wilfred Frost to discuss his bearish outlook on stocks and the artificial intelligence market.",
+        "Klement previously published a note titled \"This Is It: Why I'm Selling\" in which he advised clients to reduce risk and stated he sold all equities in his own savings.",
+        "The market experienced steep selling following the publication of Klement's note."
+      ]
+    },
+    {
+      "source": "Robert Reich",
+      "title": "With Thanks",
+      "url": "",
+      "published": "2026-11-26T09:02:53+00:00",
+      "bullets": [
+        "The author expresses gratitude to readers for engaging with and sharing his daily posts.",
+        "He acknowledges readers' activism, resistance against political regimes, and efforts to protect vulnerable populations.",
+        "He praises the courage, steadiness, and tenacity of his audience in fighting against injustice and violence."
+      ]
+    }
+  ],
+  "articles_processed": 10,
+  "articles_attempted": 11,
+  "publications": [
+    "Slow Boring",
+    "Bulwark Takes",
+    "Jacob Morgan",
+    "Mykola Bielieskov",
+    "Robert Reich",
+    "Louis-François from Learn AI Together",
+    "Klement on Investing",
+    "Heather Cox Richardson from Letters from an American",
+    "G. Elliott Morris"
+  ],
+  "generated_at": "2026-11-26T22:08:35.885833+00:00",
+  "run_label": "7 AM",
+  "archive_filename": "2026-11-26-2208.json"
+}
